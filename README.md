@@ -2,7 +2,7 @@
 
 > _mimeograph_ — a stencil duplicator; a machine for reproducing the same piece of writing, over and over, in anyone's hands.
 
-A collection of **60 ready-to-use "expert" skills** — `SKILL.md` + `AGENTS.md` files that clone the thinking of a specific person (a founder, a scientist, a philosopher) into your coding agent. Drop one into your project and the agent starts reasoning the way that person does: the frameworks they reach for, the trade-offs they weigh, the anti-patterns they push back on.
+A collection of **80 ready-to-use "expert" skills** — `SKILL.md` + `AGENTS.md` files that clone the thinking of a specific person (a founder, a scientist, a philosopher, an AI researcher) into your coding agent. Drop one into your project and the agent starts reasoning the way that person does: the frameworks they reach for, the trade-offs they weigh, the anti-patterns they push back on.
 
 Each folder under `mimeographs/` is one person. Pick the ones relevant to what you're building and install them.
 
@@ -15,6 +15,8 @@ Each folder under `mimeographs/` is one person. Pick the ones relevant to what y
 **Founders & operators** — Steve Jobs, Elon Musk, Bill Gates, Mark Zuckerberg, Warren Buffett, Andrew Carnegie, John D. Rockefeller, Henry Ford, Thomas Edison, Walt Disney, Oprah Winfrey, Sara Blakely, Whitney Wolfe Herd, Anne Wojcicki, Judy Faulkner, Kiran Mazumdar-Shaw, Diane Hendricks, Marian Ilitch, Lynda Resnick, Thai Lee.
 
 **Philosophers** — Aristotle, Plato, Socrates, Confucius, Descartes, Hume, Kant, Nietzsche, Wittgenstein, Heidegger, Hannah Arendt, Simone de Beauvoir, Iris Murdoch, Mary Midgley, Elizabeth Anscombe, Judith Butler, Mary Wollstonecraft, Martha Nussbaum, Hildegard of Bingen, Hypatia of Alexandria.
+
+**AI & ML researchers** — Geoffrey Hinton, Yann LeCun, Yoshua Bengio, Jürgen Schmidhuber, Judea Pearl, Stuart Russell, Richard S. Sutton, Andrew Ng, Fei-Fei Li, Daphne Koller, Sebastian Thrun, Demis Hassabis, David Silver, Pieter Abbeel, Ilya Sutskever, Andrej Karpathy, Ian Goodfellow, Jeff Dean, Kaiming He, Christopher Manning.
 
 **Scientists & researchers** — Aviv Regev, Eric S. Lander, Robert Langer, Shizuo Akira, Stacey Gabriel, Virginia M.-Y. Lee, Zhenan Bao, Zhong Lin Wang, and a cohort of leading epidemiologists (Walter C. Willett, Frank B. Hu, Graham A. Colditz, JoAnn E. Manson, Julie E. Buring, Kay-Tee Khaw, Meir J. Stampfer, Ronald C. Kessler, Tamara B. Harris, Terrie E. Moffitt, Dorret I. Boomsma, Albert Hofman).
 
@@ -135,6 +137,9 @@ Natural-language examples that will auto-trigger the relevant skill:
 
 "Design a prospective cohort study for a dietary intervention."
 → triggers walter-c-willett
+
+"I'm debugging a transformer training run that's diverging after 10k steps."
+→ triggers andrej-karpathy
 ```
 
 ---
