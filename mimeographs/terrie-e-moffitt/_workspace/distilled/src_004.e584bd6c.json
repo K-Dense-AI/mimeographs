@@ -1,0 +1,99 @@
+{
+  "source_id": "src_004",
+  "summary": "Terrie E. Moffitt introduces a dual taxonomy of antisocial behavior, distinguishing between 'life-course-persistent' offenders, whose behavior stems from early neuropsychological vulnerabilities interacting with adverse environments, and 'adolescence-limited' offenders, who temporarily engage in delinquency due to a maturity gap. She argues that longitudinal data is essential to differentiate these groups, as their behavior appears identical during the adolescent peak of crime.",
+  "themes": [
+    "Developmental Psychopathology",
+    "Criminology",
+    "Antisocial Behavior",
+    "Neuropsychology",
+    "Longitudinal Research"
+  ],
+  "principles": [
+    {
+      "statement": "Juvenile delinquency conceals two qualitatively distinct categories of individuals, each requiring its own theoretical explanation.",
+      "rationale": "The age-crime curve shows a massive temporary spike in offending during adolescence, but a small subset of offenders is persistently antisocial across their entire lives. Treating them as a single group confounds the distinct etiologies of temporary versus persistent antisocial behavior.",
+      "source_quote": "I suggest that juvenile delinquency conceals two qualitatively distinct categories of individuals, each in need of its own distinct theoretical explanation.",
+      "source_id": "src_004"
+    },
+    {
+      "statement": "Life-course-persistent antisocial behavior originates from the interaction between children's neuropsychological vulnerabilities and criminogenic environments.",
+      "rationale": "Vulnerable infants with subtle neurological deficits or difficult temperaments are disproportionately born into disadvantaged families. The challenge of rearing them evokes failed parent-child encounters, initiating a transactional process that cements antisocial traits.",
+      "source_quote": "According to the theory of life-course-persistent antisocial behavior, children's neuropsychological problems interact cumulatively with their criminogenic environments across development, culminating in a pathological personality.",
+      "source_id": "src_004"
+    },
+    {
+      "statement": "The stability of antisocial behavior is closely linked to its extremity.",
+      "rationale": "A very small percentage of individuals are responsible for a disproportionate amount of crime. Those who exhibit the most extreme antisocial behavior are also the ones whose behavior remains stable across time and different situations.",
+      "source_quote": "The stability of antisocial behavior is closely linked to its extremity. The extreme frequency of crime committed by a very few males is impressive",
+      "source_id": "src_004"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Dual Taxonomy Differential Diagnosis",
+      "when_to_apply": "When classifying the etiology, prognosis, and theoretical causes of an individual's antisocial or criminal behavior.",
+      "steps": [
+        "Avoid relying on cross-sectional snapshots of adolescent behavior, as temporary and persistent offenders look identical during this period.",
+        "Examine the subject's preadolescent developmental history using longitudinal data.",
+        "If the individual exhibits a history of extreme, cross-situational antisocial behavior beginning in early childhood, classify as Life-Course-Persistent.",
+        "If the individual's antisocial behavior emerged suddenly during adolescence without a prior childhood history of conduct problems, classify as Adolescence-Limited.",
+        "Attribute the causes of Adolescence-Limited behavior to proximal, normative adolescent factors (e.g., maturity gap), and Life-Course-Persistent behavior to early neuropsychological and environmental interactions."
+      ],
+      "source_quote": "A notable feature of the taxonomy introduced in this article is that knowledge of a subject's preadolescent behavior is required for making the differential diagnosis between the life-course-persistent and adolescence-limited types of antisocial teenager.",
+      "source_id": "src_004"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Heterotypic Continuity",
+      "description": "The concept that an underlying psychological trait or disposition remains stable over time, even though the specific behaviors (phenotypes) it produces change as the individual grows and encounters new social opportunities.",
+      "example": "A life-course-persistent individual expresses their antisocial disposition by biting and hitting at age 4, shoplifting and truancy at age 10, selling drugs and stealing cars at age 16, robbery and rape at age 22, and fraud and child abuse at age 30.",
+      "source_id": "src_004"
+    },
+    {
+      "name": "Evocative Interaction",
+      "description": "A transactional process where an individual's innate traits or behaviors evoke distinctive, often negative, responses from their social environment, which in turn exacerbate the individual's original tendencies.",
+      "example": "An infant with a difficult temperament and subtle neuropsychological deficits evokes impatience and inconsistent discipline from a stressed parent, which worsens the child's behavioral problems and leads to a cycle of failed parent-child encounters.",
+      "source_id": "src_004"
+    }
+  ],
+  "heuristics": [
+    "Stability of antisocial behavior implies its extremity, but extremity does not imply stability.",
+    "Knowledge of a subject's preadolescent behavior is required to diagnose their adolescent delinquency.",
+    "With regard to risk for antisocial behavior, nature does not follow a 2 X 2 design with equal cell sizes; vulnerable children are disproportionately found in adverse environments."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I suggest that juvenile delinquency conceals two qualitatively distinct categories of individuals, each in need of its own distinct theoretical explanation.",
+      "context": "Introducing the core thesis of the dual taxonomy of antisocial behavior.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "The underlying disposition remains the same, but its expression changes form as new social opportunities arise at different points in development.",
+      "context": "Explaining the concept of heterotypic continuity in life-course-persistent offenders.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "A taxon carries a network of meaning over and above a behavioral description; it includes implications for etiology, course, prognosis, treatment, and relations with other taxa.",
+      "context": "Critiquing previous classification schemes that failed to provide etiological or predictive validity.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "With regard to risk for antisocial behavior, nature does not follow a 2 X 2 design with equal cell sizes.",
+      "context": "Explaining how children with neuropsychological vulnerabilities are disproportionately born into families that lack the resources to cope with them.",
+      "source_id": "src_004"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on cross-sectional 'snapshots' of behavior during adolescence to classify or predict future criminal careers.",
+      "why_it_fails": "During adolescence, the prevalence of offending is so high that temporary 'adolescence-limited' offenders are virtually indistinguishable from 'life-course-persistent' offenders in terms of the frequency and variety of laws they break. Without preadolescent history, prediction cannot be improved beyond chance.",
+      "source_id": "src_004"
+    },
+    {
+      "description": "Treating behavioral classification schemes as complete theories.",
+      "why_it_fails": "Previous classifications provided accurate behavioral descriptions but lacked etiological or predictive validity. A classification only becomes a useful taxonomy if it weaves a nomological net of relationships about origins and outcomes.",
+      "source_id": "src_004"
+    }
+  ]
+}

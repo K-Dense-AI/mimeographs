@@ -1,0 +1,53 @@
+{
+  "source_id": "src_009",
+  "summary": "In a brief excerpt from an interview with Eric Topol, Aviv Regev discusses the origins of the Human Cell Atlas. She emphasizes the necessary shift from bespoke, haphazard cell characterization to a systematic, shared approach enabled by single-cell and spatial genomics, which provides the massive datasets needed to build foundational AI models of cells.",
+  "themes": [
+    "Digital Biology",
+    "Single-cell Genomics",
+    "Human Cell Atlas",
+    "Foundational Models"
+  ],
+  "principles": [
+    {
+      "statement": "Biology requires a systematic, shared approach to characterizing cells rather than niche, bespoke methods.",
+      "rationale": "Bespoke methods do not unify together, leaving biologists with a haphazard and fragmented view of cells despite decades of research.",
+      "source_quote": "...now there would be a systematic way, like a shared way of doing it across all cells in the human body rather than in ways that were niche and bespoke and as a result didn't unify together.",
+      "source_id": "src_009"
+    },
+    {
+      "statement": "Large-scale biological atlases are the prerequisite for building foundational computational models of biology.",
+      "rationale": "A unified dataset of massive magnitude and scale is required to train computational models that can truly understand cellular behavior.",
+      "source_quote": "...having a map like this, an atlas as we call it, a data set of this magnitude and scale, would really allow us to build a model to understand cells. Today, we call them foundational models or foundation models.",
+      "source_id": "src_009"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Biological Atlas as a Foundation Model",
+      "description": "Viewing a comprehensive, systematic dataset of human cells not merely as a reference catalog, but as the essential training data required to build computational models that fundamentally 'understand' cellular biology.",
+      "example": "Creating the Human Cell Atlas using single-cell and spatial genomics to generate a dataset large enough to train what are now called foundational AI models.",
+      "source_id": "src_009"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "...now there would be a systematic way, like a shared way of doing it across all cells in the human body rather than in ways that were niche and bespoke and as a result didn't unify together.",
+      "context": "Discussing the technological shift that enabled the Human Cell Atlas.",
+      "source_id": "src_009"
+    },
+    {
+      "text": "...having a map like this, an atlas as we call it, a data set of this magnitude and scale, would really allow us to build a model to understand cells. Today, we call them foundational models or foundation models.",
+      "context": "Explaining the computational foresight behind building the Human Cell Atlas.",
+      "source_id": "src_009"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Characterizing cells using niche and bespoke methods.",
+      "why_it_fails": "It results in fragmented data that doesn't unify together, leaving scientists with a haphazard view of cellular biology.",
+      "source_id": "src_009"
+    }
+  ]
+}

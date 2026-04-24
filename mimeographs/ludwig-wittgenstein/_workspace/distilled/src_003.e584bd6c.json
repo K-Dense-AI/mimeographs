@@ -1,0 +1,42 @@
+{
+  "source_id": "src_003",
+  "summary": "The source briefly outlines the shift in Ludwig Wittgenstein's philosophy from his early work in the Tractatus, which focused on the logical relationship between propositions and the world, to his later work in the Philosophical Investigations. His later philosophy rejects his earlier assumptions, positing instead that the meaning of a word is derived from its use within a 'language game'.",
+  "themes": [
+    "Philosophy of Language",
+    "Meaning as Use",
+    "Language Games",
+    "Early vs. Later Wittgenstein"
+  ],
+  "principles": [
+    {
+      "statement": "The meaning of a word is its use in the language.",
+      "rationale": "Words do not have fixed, abstract meanings independent of context; rather, their meaning is derived from how they are employed within specific language games.",
+      "source_quote": "For a *large* class of cases of the employment of the word 'meaning'—though not for *all* —this word can be explained in this way: the meaning of a word is its use in the language.",
+      "source_id": "src_003"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Language Game",
+      "description": "A conceptual lens for understanding language not as a strict logical structure, but as a collection of activities or contexts where words derive their meaning from how they are practically used.",
+      "example": null,
+      "source_id": "src_003"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "For a *large* class of cases of the employment of the word 'meaning'—though not for *all* —this word can be explained in this way: the meaning of a word is its use in the language.",
+      "context": "Explaining his later philosophy on how words derive meaning, as articulated in the Philosophical Investigations.",
+      "source_id": "src_003"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming that providing an account of the strict logical relationship between propositions and the world solves all philosophical problems.",
+      "why_it_fails": "This early assumption (from the Tractatus) ignores that meaning is actually derived from practical use within language games, rather than strict logical relationships.",
+      "source_id": "src_003"
+    }
+  ]
+}

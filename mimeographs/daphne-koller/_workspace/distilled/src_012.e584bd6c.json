@@ -1,0 +1,141 @@
+{
+  "source_id": "src_012",
+  "summary": "Daphne Koller discusses the intersection of AI and drug discovery, highlighting how AI can accelerate the identification of chemical matter and, more importantly, uncover novel therapeutic hypotheses. She emphasizes the need to redefine diseases based on molecular biology rather than symptoms, warns against the hype of fully autonomous AI drug discovery, and shares lessons on building cross-disciplinary cultures and transitioning from academia to industry to create real-world impact.",
+  "themes": [
+    "AI in Drug Discovery",
+    "Precision Medicine",
+    "Synthetic Data",
+    "Healthcare Incentives",
+    "Academia vs. Industry",
+    "Cross-disciplinary Culture"
+  ],
+  "principles": [
+    {
+      "statement": "Most drug failures stem from a flawed initial therapeutic hypothesis, not the clinical trial itself.",
+      "rationale": "Failures in late-stage clinical development usually happen because we didn't understand the underlying biology and went after targets that have no meaningful impact on the disease.",
+      "source_quote": "most of the things that fail in clinical development is because our therapeutic hypothesis was just wrong we don't understand the biology",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Synthetic data must be anchored to underlying reality, not hallucinated from thin air.",
+      "rationale": "Generating data entirely from nothing to train a model just reinforces what the model already knows. Instead, use AI to impute unmeasured modalities from measured ones (e.g., predicting gene expression from histopathology images).",
+      "source_quote": "generating data for the purpose of AI but you're generating in a way that is anchored to some kind of underlying reality as opposed to just generate data from thin air",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "We must redefine our taxonomy of disease based on underlying biology rather than coarse-grained symptomology.",
+      "rationale": "Defining diseases by symptoms (like Alzheimer's) forces us to use lowest-common-denominator treatments. Precision medicine requires targeting the specific biological mechanisms driving the disease in different subgroups, as oncology has successfully done.",
+      "source_quote": "As long as we Define disease in this way we're going to have to resort to a lowest common denominator in many cases as the way of intervening in that disease",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Measurement is the prerequisite to understanding and fixing biological systems.",
+      "rationale": "You cannot design effective therapeutic interventions without first mapping the causal pathways of a disease, which requires high-fidelity, quantitative data.",
+      "source_quote": "you can't fix what you don't understand... and you can't understand what you don't measure",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "To make a real-world impact, you must build products, not just publish papers.",
+      "rationale": "Conceptual and theoretical work is beautiful, but technology transfer requires getting your hands dirty and building something people can actually use.",
+      "source_quote": "we realize that you can't really do Tech transfer with a paper you can do Tech transfer with a product",
+      "source_id": "src_012"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Drug Discovery Pipeline",
+      "when_to_apply": "When identifying where AI can accelerate the creation of new medicines.",
+      "steps": [
+        "Develop a biological insight or therapeutic hypothesis (identifying the target).",
+        "Generate chemical matter (finding the right molecule/drug to modulate the target).",
+        "Conduct clinical development (testing the drug in patients)."
+      ],
+      "source_quote": "The beginning of the process begins with a biological Insight a therapeutic hypothesis... then that moves into well okay so we want to then modulate this target how do we do that what is the right chemical matter... and then the third part is now we do clinical development",
+      "source_id": "src_012"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Exponential Curve of AI",
+      "description": "AI progress follows an exponential curve, which looks deceptively linear and meager in its early stages. This makes short-term predictions (like 5 years out) nearly impossible, as slight differences in the exponent lead to dramatically different capabilities.",
+      "example": "Looking at AI progress year-over-year and linearly interpolating it makes the 10-year outlook seem pathetic, but as the curve moves up, the capabilities end up far beyond our ability to conceive.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Precision vs. Personalized Medicine",
+      "description": "A lens for distinguishing between targeting specific biological subgroups (Precision) versus creating N-of-1 treatments for individuals (Personalized). Precision medicine is highly feasible today (e.g., HER2-positive breast cancer drugs), while true personalized medicine remains largely impractical for complex diseases.",
+      "example": "Herceptin is precision medicine because it targets a specific category (HER2-positive breast cancer) that many women have, rather than being a bespoke drug engineered for just one individual.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "The Moving Target of AI",
+      "description": "The phenomenon where as soon as artificial intelligence successfully solves a problem, society stops considering it 'AI' and just views it as standard computing.",
+      "example": "Seamless language translation and photo search by verbal description are powered by AI, but people now take them for granted as just normal software features.",
+      "source_id": "src_012"
+    }
+  ],
+  "heuristics": [
+    "Under-promise and over-deliver.",
+    "People tend to overestimate technology in a 2-year time frame and underestimate it in a 10-year time frame.",
+    "You can't fix what you don't understand, and you can't understand what you don't measure."
+  ],
+  "signature_quotes": [
+    {
+      "text": "People tend to overestimate the value of any technology in the two-year time frame and underestimate it in a 10year time frame.",
+      "context": "Discussing the hype cycles of AI and why she is wary of making hyperbolic predictions.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "Most of the things that fail in clinical development is because our therapeutic hypothesis was just wrong we don't understand the biology.",
+      "context": "Explaining the root cause of the massive costs and failure rates in drug discovery.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "You can't fix what you don't understand... and you can't understand what you don't measure.",
+      "context": "Emphasizing the importance of collecting high-fidelity biological data to map causal pathways of disease.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "You can't really do Tech transfer with a paper you can do Tech transfer with a product.",
+      "context": "Explaining her transition from academia to industry and the founding of Coursera and Insitro.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "Whenever AI achieves success at a certain thing, it becomes not AI because obviously computers can do it.",
+      "context": "Addressing skepticism from the general public about the impact of AI.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "Our competitive advantage as an organization isn't going to be on any single technology that we have today... It is in creating the right culture where people are able to create something as the synthesis of these two disciplines.",
+      "context": "Discussing how to build a company that merges the cultures of engineering and discovery science.",
+      "source_id": "src_012"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Predicting fully end-to-end AI discovered drugs with zero human intervention.",
+      "why_it_fails": "Human biology and clinical trials require careful, deliberate human prioritization and guidance. You cannot simply tell a computer 'I'm working on ALS' and expect a clinical development plan to pop out.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Training AI models on purely hallucinated synthetic data.",
+      "why_it_fails": "If you generate data entirely from nothing and train a model on it, you are merely reinforcing what the model already knew without anchoring it to ground truth.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Defining diseases by coarse-grained symptomology (e.g., 'Alzheimer's').",
+      "why_it_fails": "It ignores the multiple different underlying biological mechanisms driving the disease in different people, forcing the use of lowest-common-denominator treatments with poor efficacy.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Tossing abundant data into off-the-shelf AI models without deep thought.",
+      "why_it_fails": "It causes researchers to lose the intellectual muscle required to think deeply and hard about truly difficult problems, leading to superficial insights.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Allowing cross-disciplinary hubris in a company.",
+      "why_it_fails": "When engineers and scientists diminish each other's contributions, they talk past each other and fail to synthesize novel solutions or identify new problems.",
+      "source_id": "src_012"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "source_id": "src_049",
+  "summary": "In a brief excerpt from a 2013 Fortune article, Anne Wojcicki addresses a warning letter from the FDA regarding 23andMe's DNA testing kits. She admits that the company fell behind schedule and failed to communicate proactively with the regulatory agency.",
+  "themes": [
+    "Regulatory compliance",
+    "Communication"
+  ],
+  "principles": [],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "We failed to communicate proactively",
+      "context": "Addressing the FDA's warning letter to 23andMe regarding their DNA testing kits.",
+      "source_id": "src_049"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Failing to communicate proactively with regulators when falling behind schedule.",
+      "why_it_fails": "It can result in severe regulatory backlash, such as the FDA ordering a halt to product marketing.",
+      "source_id": "src_049"
+    }
+  ]
+}

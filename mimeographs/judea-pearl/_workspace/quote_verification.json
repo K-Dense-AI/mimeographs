@@ -1,0 +1,849 @@
+{
+  "total": 68,
+  "verified": 62,
+  "unverified": [
+    {
+      "category": "principles",
+      "label": "Empathy as a Cognitive Shortcut",
+      "quote": "The only way I can predict your action is to assume first – so a first degree of approximation – that you are like me... that will enable me to avoid the computational hardship of building a new model of yourself.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6056338028169014
+    },
+    {
+      "category": "principles",
+      "label": "Free Will as a Computational Illusion",
+      "quote": "My position is that there’s no free will, but it’s a very useful illusion... it’s a simple computational problem – would a robot team play better if we equipped them with that language, vocabulary of free will?",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7047619047619048
+    },
+    {
+      "category": "frameworks",
+      "label": "Selection Diagrams for Transportability",
+      "quote": "A selection diagram adds a node to one of the diagrams saying: 'Here is a factor that creates disparity.' We denote such a node by a square.",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7785714285714286
+    },
+    {
+      "category": "frameworks",
+      "label": "The Ladder of Causation",
+      "quote": "The ladder of causation consists of three levels. Above them, you have the standard statistics questions... Beyond that, you want to go to level one. What if I do?... Yes, you got almost to the third level of explanation. I know the output. Tell me what caused it.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4356060606060606
+    },
+    {
+      "category": "mental_models",
+      "label": "Deep Learning as a Chinese Room",
+      "quote": "Deep learning essentially gives you a functional approximation... these kinds of questions form what we call the ladder of causation that deep learning cannot give you an answer to unless you insert all the answers explicitly...",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7631578947368421
+    },
+    {
+      "category": "heuristics",
+      "label": "Distinguish Assumptions from Derivations",
+      "quote": "Distinguish assumptions from definitions, and conclusions from derivations.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7466666666666667
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "AI Requires Causal World Models",
+      "quote": "My general conclusion is that human-level AI cannot emerge solely from model-blind learning machines; it requires the symbiotic collaboration of data and models.",
+      "source_ids": [
+        "src_010",
+        "src_019",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Insufficiency of Probability Calculus",
+      "quote": "The syntax of probability calculus does not permit us to express the simple fact that “symptoms do not cause diseases,” let alone draw mathematical conclusions from such facts.",
+      "source_ids": [
+        "src_023",
+        "src_028",
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Necessity of Untested Causal Assumptions",
+      "quote": "one cannot substantiate causal claims from associations alone, even at the population level—behind every causal conclusion there must lie some causal assumption that is not testable in observational studies.",
+      "source_ids": [
+        "src_019",
+        "src_028",
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Missing Links Encode Assumptions",
+      "quote": "It is important to note that, in path diagrams, causal assumptions are encoded not in the links but, rather, in the missing links.",
+      "source_ids": [
+        "src_028",
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_045",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Statistics and Deep Learning are Limited to Probability",
+      "quote": "Nothing could be done outside probability, which speaks the language of probability. You need to have a new language, and therefore, you cannot do with Bayesian.",
+      "source_ids": [
+        "src_004",
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "True Decision-Making Requires Counterfactuals",
+      "quote": "But the whole purpose of the target is to find the customer who will act one way if I give him an incentive and a different way if I don’t. And this is already a specific counterfactual question.",
+      "source_ids": [
+        "src_004",
+        "src_046"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Covariate Selection Requires Causal Knowledge",
+      "quote": "the task of choosing a sufficient (i.e. bias-eliminating) set of covariates for PS analysis requires qualitative knowledge of the causal relationships among both observed and unobserved covariates.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Empathy as a Cognitive Shortcut",
+      "quote": "The only way I can predict your action is to assume first – so a first degree of approximation – that you are like me... that will enable me to avoid the computational hardship of building a new model of yourself.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6056338028169014
+    },
+    {
+      "category": "principles",
+      "label": "Fight Hate with Reconciliation",
+      "quote": "Hate killed my son. Therefore I am determined to fight hate.",
+      "source_ids": [
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_025",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Free Will as a Computational Illusion",
+      "quote": "My position is that there’s no free will, but it’s a very useful illusion... it’s a simple computational problem – would a robot team play better if we equipped them with that language, vocabulary of free will?",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7047619047619048
+    },
+    {
+      "category": "principles",
+      "label": "Marginalization is Not Randomization",
+      "quote": "You can perform the mathematical operation, but it will not return that.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Necessity of Explicit Causal Assumptions",
+      "quote": "ALL causal conclusions in nonexperimental settings must be based on untested, judgmental assumptions that investigators are prepared to defend on scientific grounds.",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Non-manipulable Variables as Causes",
+      "quote": "Researchers need not be concerned with the distinction between manipulable and non-manipulative variables, except of course in the design of actual experiments.",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Potential Outcomes are Structural Equations",
+      "quote": "potential outcomes should not be confusing, because they are nothing but abbreviations of structural equations (not regression ,as you stated, but structural).",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Imprisonment of the Equality Sign",
+      "quote": "all our equations are imprisoned by the connective of equality sign.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "The do(x) Operator and Graph Surgery",
+      "quote": "This is done through a mathematical operator called do(x) which simulates physical interventions by deleting certain functions from the model, replacing them by a constant X = x, while keeping the rest of the model unchanged.",
+      "source_ids": [
+        "src_011",
+        "src_026",
+        "src_028",
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 0.9911111111111112
+    },
+    {
+      "category": "frameworks",
+      "label": "General Methodology for Causal Inference",
+      "quote": "Section 4 outlines a general methodology to guide problems of causal inference: Define, Assume, Identify and Estimate...",
+      "source_ids": [
+        "src_012",
+        "src_028",
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_045",
+      "match_ratio": 0.975
+    },
+    {
+      "category": "frameworks",
+      "label": "Do-calculus",
+      "quote": "To elaborate, the do-calculus is a set of rules for manipulating causal expressions, the aim of which is to remove the do-operator from such expressions and reduce them to statistical estimands.",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Graphical Covariate Selection",
+      "quote": "Given such knowledge, finding a sufficient set of covariates or deciding whether a sufficient set exists are two problems that can readily be solved by graphical methods",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Mask-Augmented ML for PNS Bounds",
+      "quote": "we propose two machine learning models: Exact-MLP and Mask-MLP, which are trained on a small set of reliable subpopulations and are able to predict PNS bounds for all other subpopulations.",
+      "source_ids": [
+        "src_046"
+      ],
+      "verified": true,
+      "matched_source_id": "src_046",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Selection Diagrams for Transportability",
+      "quote": "A selection diagram adds a node to one of the diagrams saying: 'Here is a factor that creates disparity.' We denote such a node by a square.",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7785714285714286
+    },
+    {
+      "category": "frameworks",
+      "label": "The Back-door Criterion",
+      "quote": "A set S is admissible (or \"sufficient\") for adjustment if two conditions hold: 1. No element of S is a descendant of X. 2. The elements of S \"block\" all \"back-door\" paths from X to Y...",
+      "source_ids": [
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_045",
+      "match_ratio": 0.972972972972973
+    },
+    {
+      "category": "frameworks",
+      "label": "The First Law of Causal Inference",
+      "quote": "It says that the counterfactuals Yx(u) in model M is defined by the solution for Y in a modified submodel Mx, in which the equation for X is replaced by X = x",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "The Ladder of Causation",
+      "quote": "The ladder of causation consists of three levels. Above them, you have the standard statistics questions... Beyond that, you want to go to level one. What if I do?... Yes, you got almost to the third level of explanation. I know the output. Tell me what caused it.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4356060606060606
+    },
+    {
+      "category": "mental_models",
+      "label": "Causal Diagrams as Reasoning Engines",
+      "quote": "I once called d-separation 'A gift of the Gods,' because it is the only bridge we have between the causal assumptions in our model and what we can expect to observe in our data.",
+      "source_ids": [
+        "src_019",
+        "src_028",
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 0.9887005649717514
+    },
+    {
+      "category": "mental_models",
+      "label": "The Demarcation Line",
+      "quote": "This distinction implies that causal and associational concepts do not mix; there is nothing in a distribution function to tell us how that distribution would differ if external conditions were to change...",
+      "source_ids": [
+        "src_028",
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_045",
+      "match_ratio": 0.9854368932038835
+    },
+    {
+      "category": "mental_models",
+      "label": "Babylonian vs. Greek Science",
+      "quote": "Data alone are hardly a science, no matter how 'big' they get and how skillfully they are manipulated. Model-blind learning systems may get us to Babylon, but not to Athens.",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 0.9884393063583815
+    },
+    {
+      "category": "mental_models",
+      "label": "Cause and Effect Inversion",
+      "quote": "Being forced to be explicit in everything that we talked about forces to be um careful And this care and this distinction that I talked about, okay, guides my thinking also when it comes to social issues",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Deep Learning as a Chinese Room",
+      "quote": "Deep learning essentially gives you a functional approximation... these kinds of questions form what we call the ladder of causation that deep learning cannot give you an answer to unless you insert all the answers explicitly...",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7631578947368421
+    },
+    {
+      "category": "mental_models",
+      "label": "Free Will as a Communication Protocol",
+      "quote": "it’s a simple computational problem – would a robot team play better if we equipped them with that language, vocabulary of free will?",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 0.9849624060150376
+    },
+    {
+      "category": "mental_models",
+      "label": "Graphs as Inference Engines",
+      "quote": "People think that graphs are merely a neat way of communicating causal assumptions, and no more. What they do not realize is that graphs are hidden calculators, or inference engines, that compute for us ALL the logical implications of the assumptions...",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 0.9881422924901185
+    },
+    {
+      "category": "mental_models",
+      "label": "Ladder of Narratives",
+      "quote": "narrative is really is what drives our understanding of things not the data but the narrative behind the data.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Store of Metaphors",
+      "quote": "I'm, of course, prisoner of my upbringing, which means my store of metaphors comes from the Bible and comes from history of the Jewish people. But I don't believe in God.",
+      "source_ids": [
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_025",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The M-graph (M-structure)",
+      "quote": "the crude estimate is bias-free, while PS methods introduce new bias.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Missing Links Encode Assumptions",
+      "quote": "It is important to note that, in path diagrams, causal assumptions are encoded not in the links but, rather, in the missing links.",
+      "source_ids": [
+        "src_028",
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_045",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "The Associational Test",
+      "quote": "Every claim invoking causal concepts must rely on some premises that invoke such concepts; it cannot be inferred from, or even defined in terms statistical associations alone.",
+      "source_ids": [
+        "src_028",
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Computer Scientists as Psychologists",
+      "quote": "Every computer scientist is a frustrated psychologist.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Distinguish Assumptions from Derivations",
+      "quote": "Distinguish assumptions from definitions, and conclusions from derivations.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7466666666666667
+    },
+    {
+      "category": "heuristics",
+      "label": "Functional Approximators Require Causal Inference",
+      "quote": "If it's a functional approximator, we know exactly how to use it because we can do ordinary causal inference.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "No Guesswork in Covariates",
+      "quote": "the effectiveness of PS methods rests critically on the choice of covariates, X, and that choice cannot be left to guesswork",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 0.9919354838709677
+    },
+    {
+      "category": "heuristics",
+      "label": "Reject Unsatisfying Standard Answers",
+      "quote": "Rebel, if you don’t understand and insist on understanding it your way, and until you understand it your way, don’t take a standard answer as an answer if it doesn’t satisfy the question that you have in mind.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Situation-Specific Decision Making",
+      "quote": "Every decision-making is situation-specific decision-making.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Translate Intuition into Math",
+      "quote": "Translate intuition into mathematics, the mathematics amplifies your intuition.",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 0.9873417721518988
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Missing Links",
+      "quote": "It is important to note that, in path diagrams, causal assumptions are encoded not in the links but, rather, in the missing links.",
+      "source_ids": [
+        "src_028",
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_045",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Probability Calculus is Insufficient",
+      "quote": "The syntax of probability calculus does not permit us to express the simple fact that “symptoms do not cause diseases,” let alone draw mathematical conclusions from such facts.",
+      "source_ids": [
+        "src_028",
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Babylon vs. Athens",
+      "quote": "Data alone are hardly a science, no matter how 'big' they get and how skillfully they are manipulated. Model-blind learning systems may get us to Babylon, but not to Athens.",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 0.9884393063583815
+    },
+    {
+      "category": "signature_quotes",
+      "label": "d-separation as a Gift",
+      "quote": "I once called d-separation 'A gift of the Gods,' because it is the only bridge we have between the causal assumptions in our model and what we can expect to observe in our data.",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 0.9887005649717514
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Fighting Hate",
+      "quote": "Hate killed my son. Therefore I am determined to fight hate.",
+      "source_ids": [
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_025",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Free Will as an Illusion",
+      "quote": "My position is that there’s no free will, but it’s a very useful illusion.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Graphs as Inference Engines",
+      "quote": "People think that graphs are merely a neat way of communicating causal assumptions, and no more. What they do not realize is that graphs are hidden calculators, or inference engines, that compute for us ALL the logical implications of the assumptions...",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 0.9881422924901185
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Imprisoned by the Equality Sign",
+      "quote": "all our equations are imprisoned by the connective of equality sign.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Narrative Over Data",
+      "quote": "narrative is really is what drives our understanding of things not the data but the narrative behind the data.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Inadequacy of Bayesian Networks for Causality",
+      "quote": "Nothing could be done outside probability, which speaks the language of probability. You need to have a new language, and therefore, you cannot do with Bayesian.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Ladder of Causation and Deep Learning",
+      "quote": "The ladder of causation consists of three levels. Above them, you have the standard statistics questions. Deep learning belongs there.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Probabilistic Nature of Propensity Scores",
+      "quote": "First, the PS ei is a probabilistic, not a causal concept.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 0.9827586206896551
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Self-Destructive Honesty of Assumptions",
+      "quote": "Assumptions are self-destructive in their honesty. The more explicit the assumption, the more criticism it invites . . . causal diagrams invite the harshest criticism because they make assumptions more explicit and more transparent than other representation schemes.",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Untestable Causal Assumptions",
+      "quote": "one cannot substantiate causal claims from associations alone, even at the population level—behind every causal conclusion there must lie some causal assumption that is not testable in observational studies.",
+      "source_ids": [
+        "src_028"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Untested Assumptions in Nonexperimental Settings",
+      "quote": "ALL causal conclusions in nonexperimental settings must be based on untested, judgmental assumptions that investigators are prepared to defend on scientific grounds.",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Answering Causal Questions with Data Alone",
+      "quote": "Every claim invoking causal concepts must rely on some premises that invoke such concepts; it cannot be inferred from, or even defined in terms statistical associations alone.",
+      "source_ids": [
+        "src_019",
+        "src_028",
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Scaling LLMs to Achieve AGI",
+      "quote": "My general conclusion is that human-level AI cannot emerge solely from model-blind learning machines; it requires the symbiotic collaboration of data and models.",
+      "source_ids": [
+        "src_010",
+        "src_019",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Using Probability Calculus for Causality",
+      "quote": "You can perform the mathematical operation, but it will not return that.",
+      "source_ids": [
+        "src_011",
+        "src_028",
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Blindly Applying Propensity Scores",
+      "quote": "the crude estimate is bias-free, while PS methods introduce new bias.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Hiding Assumptions Under the Rug",
+      "quote": "Assumptions are self-destructive in their honesty. The more explicit the assumption, the more criticism it invites",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Ignoring Causal Directionality",
+      "quote": "all our equations are imprisoned by the connective of equality sign.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Maximizing Population Survival over Individual Benefit",
+      "quote": "We care about harm and benefit to patients. We don’t care about maximizing the probability of survival.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "No Causation Without Manipulation",
+      "quote": "The mantra 'No causation without manipulation', represents another hang-up of the potential outcome community, which has not been able to liberate itself from the experimental setup...",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 0.8913043478260869
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Reducing Causality to Missing Data",
+      "quote": "Should we continue to rejoice the reduction from causal to statistical conceptualization of the problem?",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Using Probability to Answer Causal Questions",
+      "quote": "Nothing could be done outside probability, which speaks the language of probability. You need to have a new language, and therefore, you cannot do with Bayesian.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 1.0
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "total": 32,
+  "verified": 25,
+  "unverified": [
+    {
+      "category": "principles",
+      "label": "Bootstrapping Real-World RL",
+      "quote": "I think in practice the realistic scenario is one where it starts with supervised learning, behavioral cloning; humans do the work... And then over time, as it gets pretty good, you're starting fusing some reinforcement learning",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6403508771929824
+    },
+    {
+      "category": "frameworks",
+      "label": "Domain Randomization",
+      "quote": "Instead of trying to somehow find a way to perfectly match it up; we say the things we don't know, we're going to vary them... if a single neural network can learn to control the robot, across all those simulators... it makes it actually very likely, it'll also succeed in the real world.",
+      "source_ids": [
+        "src_023",
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5138888888888888
+    },
+    {
+      "category": "frameworks",
+      "label": "Hindsight Experience Replay",
+      "quote": "No matter what the robot does, we're going to let it learn from it. We're going to say, okay, I didn't ask you to, let's say, fall down... But if I had asked you to fall down, you did the right thing.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.79
+    },
+    {
+      "category": "frameworks",
+      "label": "Bootstrapped Reinforcement Learning Deployment",
+      "quote": "I think in practice the realistic scenario is one where it starts with supervised learning, behavioral cloning; humans do the work... And then over time, as it gets pretty good, you're starting fusing some reinforcement learning where you give it actual objectives",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6174242424242424
+    },
+    {
+      "category": "mental_models",
+      "label": "The Research vs. Real-World Gap",
+      "quote": "Research: 0 to 1. If achieving 70% on a benchmark, move on to the next one. Real-World: Even 90% is not enough! Exacerbated by long tail of scenarios",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6778523489932886
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Software 2.0 Paradigm",
+      "quote": "Traditional Programming: program by writing lines of code. Deep Learning (“Software 2.0”): program by providing data.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6923076923076923
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Ignoring the Perception-Action Loop",
+      "quote": "Key Assumption: Decision 1 does NOT affect Request 2, … But: Reality of Perception-Action Loop",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6702127659574468
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "Robotics as the Ultimate Reality Check",
+      "quote": "In the real world, the natural intelligence is all in physical embodiment. It seemed to me the most natural place to start to try to build AI is tied into physical systems; tied into robots, is a more natural way to make progress.",
+      "source_ids": [
+        "src_010",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Software 2.0: Data Over Hard-Coded Rules",
+      "quote": "Once you start putting in rules, then you have to put, another 'if then else', another 'if then else', and at some point, things become unwieldy.",
+      "source_ids": [
+        "src_027",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 0.8620689655172413
+    },
+    {
+      "category": "principles",
+      "label": "AI as a Meta-Discipline",
+      "quote": "Maybe by working on artificial intelligence, in some way, I could be working on everything, because maybe AI could help everything else.",
+      "source_ids": [
+        "src_033",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Deep Learning as the Path to AGI",
+      "quote": "In the last 10 years, every single breakthrough that has been of high impact in AI has been deep learning. There's literally been no exception that I'm aware of.",
+      "source_ids": [
+        "src_010",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Bootstrapping Real-World RL",
+      "quote": "I think in practice the realistic scenario is one where it starts with supervised learning, behavioral cloning; humans do the work... And then over time, as it gets pretty good, you're starting fusing some reinforcement learning",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6403508771929824
+    },
+    {
+      "category": "principles",
+      "label": "Sim2Real via Domain Randomization",
+      "quote": "If the model sees enough simulated variation, the real world may look like just the next simulator",
+      "source_ids": [
+        "src_027",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Human Preferences for Reward Design",
+      "quote": "Putting (non-expert) humans into the agent learning loop!",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Probabilistic Reasoning & Optimization as Foundations",
+      "quote": "The majority of these techniques are heavily based on probabilistic reasoning and optimization---two areas with wide applicability in modern Artificial Intelligence.",
+      "source_ids": [
+        "src_002",
+        "src_003"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Adaptive Policies over Perfect Models",
+      "quote": "Learn an ***adaptive policy*** that can quickly adapt to any of the learned models",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Hardware Designed for AI",
+      "quote": "This robot is designed for the assumption that in the future, robots will be controlled much more intelligently by AI systems that use visual feedback, that use force feedback, much like how humans control their own arms.",
+      "source_ids": [
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 0.995475113122172
+    },
+    {
+      "category": "frameworks",
+      "label": "Domain Randomization",
+      "quote": "Instead of trying to somehow find a way to perfectly match it up; we say the things we don't know, we're going to vary them... if a single neural network can learn to control the robot, across all those simulators... it makes it actually very likely, it'll also succeed in the real world.",
+      "source_ids": [
+        "src_023",
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5138888888888888
+    },
+    {
+      "category": "frameworks",
+      "label": "Hindsight Experience Replay",
+      "quote": "No matter what the robot does, we're going to let it learn from it. We're going to say, okay, I didn't ask you to, let's say, fall down... But if I had asked you to fall down, you did the right thing.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.79
+    },
+    {
+      "category": "frameworks",
+      "label": "Bootstrapped Reinforcement Learning Deployment",
+      "quote": "I think in practice the realistic scenario is one where it starts with supervised learning, behavioral cloning; humans do the work... And then over time, as it gets pretty good, you're starting fusing some reinforcement learning where you give it actual objectives",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6174242424242424
+    },
+    {
+      "category": "frameworks",
+      "label": "Learning Reward from Preferences",
+      "quote": "Step 1. Collect samples via interactions with environment Step 2. Collect human preferences Step 3. Optimize a reward model using cross entropy loss Step 4. Optimize a policy using off-policy algorithms",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 0.9702970297029703
+    },
+    {
+      "category": "frameworks",
+      "label": "Model-Based RL via Meta Policy Optimization (MB-MPO)",
+      "quote": "for iter = 1, 2, … collect data under current adaptive policies, learn ENSEMBLE of K simulators from all past data, meta-policy optimization over ENSEMBLE",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 0.961038961038961
+    },
+    {
+      "category": "mental_models",
+      "label": "Unsupervised RL as 'Play'",
+      "quote": "If you transpose this onto humans, think of it as play. When you have children, they just play. They explore the world by play.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Research vs. Real-World Gap",
+      "quote": "Research: 0 to 1. If achieving 70% on a benchmark, move on to the next one. Real-World: Even 90% is not enough! Exacerbated by long tail of scenarios",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6778523489932886
+    },
+    {
+      "category": "mental_models",
+      "label": "Model-Bias (Overfitting in Model-based RL)",
+      "quote": "policy optimization tends to exploit regions where insufficient data is available to train the model, leading to catastrophic failures",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Randomize the Simulator",
+      "quote": "If the model sees enough simulated variation, the real world may look like just the next simulator",
+      "source_ids": [
+        "src_023",
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Robotics as a Reality Check",
+      "quote": "It's very easy to think you make a lot of progress, and then you try to see if a real robot can do something in a real environment that you quickly realize that the results weren’t great",
+      "source_ids": [
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Deep Networks for Patterns",
+      "quote": "If there is a pattern we can probably represent it with a deep network and capture that pattern.",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Physical Embodiment",
+      "quote": "In the real world, the natural intelligence is all in physical embodiment. It seemed to me the most natural place to start to try to build AI is tied into physical systems; tied into robots.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 0.9947368421052631
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Simulated Variation",
+      "quote": "If the model sees enough simulated variation, the real world may look like just the next simulator",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AI as Everything",
+      "quote": "Maybe by working on artificial intelligence, in some way, I could be working on everything, because maybe AI could help everything else.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Software 2.0 Paradigm",
+      "quote": "Traditional Programming: program by writing lines of code. Deep Learning (“Software 2.0”): program by providing data.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6923076923076923
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Joy and Danger of RL",
+      "quote": "Very few things more fun to watch than a reinforcement learning robot starting from nothing and inventing things. But it's just time consuming and it's not always safe.",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Deep Learning Dominance",
+      "quote": "In the last 10 years, every single breakthrough that has been of high impact in AI has been deep learning. There's literally been no exception that I'm aware of.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Mathematical Foundations",
+      "quote": "The majority of these techniques are heavily based on probabilistic reasoning and optimization---two areas with wide applicability in modern Artificial Intelligence.",
+      "source_ids": [
+        "src_002",
+        "src_003"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Hard-Coding Rules and Assumptions",
+      "quote": "Once you start putting in rules, then you have to put, another 'if then else', another 'if then else', and at some point, things become unwieldy.",
+      "source_ids": [
+        "src_010",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 0.8620689655172413
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Deploying Pure RL from Scratch",
+      "quote": "Very few things more fun to watch than a reinforcement learning robot starting from nothing and inventing things. But it's just time consuming and it's not always safe.",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Evaluating AI Solely by Math Complexity",
+      "quote": "...to really try to see the connection from what you're working on to what impact they can really have, what change it can make rather than what's the math that happened to be in your work.",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 0.9841269841269841
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Ignoring the Perception-Action Loop",
+      "quote": "Key Assumption: Decision 1 does NOT affect Request 2, … But: Reality of Perception-Action Loop",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6702127659574468
+    }
+  ]
+}

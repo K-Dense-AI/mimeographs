@@ -1,0 +1,62 @@
+{
+  "source_id": "src_044",
+  "summary": "This source outlines the mechanistic steps of alpha-synuclein aggregate propagation at the cellular level in Parkinson's disease. It details how exogenous fibrils are internalized, escape lysosomal degradation, seed endogenous monomers in the cytosol, and ultimately mature into Lewy body inclusions.",
+  "themes": [
+    "Alpha-synuclein propagation",
+    "Parkinson's disease pathology",
+    "Cellular mechanisms of neurodegeneration",
+    "Protein aggregation",
+    "Lewy body formation"
+  ],
+  "principles": [
+    {
+      "statement": "Alpha-synuclein fibrils propagate pathology by escaping lysosomal degradation and seeding endogenous monomers in the cytosol.",
+      "rationale": "Exogenous fibrils are internalized and sent to the lysosome, but their resistance to proteolytic degradation causes lysosomal leakage. This allows them to enter the cytosol and trigger the aggregation of free, unstructured monomers.",
+      "source_quote": "Failure to degrade fibrils in the lysosome leads to leakage, allowing some fibrils to escape into the cytosol. [...] Soluble monomers in the cytosol can interact with fibrils released from the lysosome, or otherwise delivered into the cell, to seed the generation of more fibrils",
+      "source_id": "src_044"
+    },
+    {
+      "statement": "Mature Lewy body inclusions are not just protein aggregates; they are complex structures that trap various cellular components.",
+      "rationale": "As alpha-synuclein fibrils accumulate within a cell, they sequester other essential cellular materials and undergo post-translational modifications, which collectively form the mature inclusion.",
+      "source_quote": "As fibrils accumulate in the cell, they can trap other cellular components such as lipids, vesicles, organelles, and other proteins. These fibrils will also become decorate by various post-translational modifications such as phosphorylation and ubiquitination. This process leads to the formation of a mature LB inclusions.",
+      "source_id": "src_044"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Cellular Pathway of Alpha-Synuclein Propagation",
+      "when_to_apply": "When modeling or studying how Parkinson's disease pathology spreads from cell to cell.",
+      "steps": [
+        "Binding: Extracellular fibrils interact with cell membranes and surface glycoproteins (e.g., HSPGs).",
+        "Internalization: Binding triggers endocytosis, delivering fibrils to endosomes and then lysosomes.",
+        "Escape: Fibrils resist proteolytic degradation, leading to lysosomal leakage and escape into the cytosol.",
+        "Seeding: Escaped fibrils interact with soluble, unstructured endogenous alpha-synuclein monomers, seeding further aggregation.",
+        "Maturation: Accumulating fibrils trap lipids, vesicles, and organelles, and undergo post-translational modifications to form mature Lewy bodies."
+      ],
+      "source_quote": "Exogenous αSyn fibrils are internalized into the cell and trigger aggregation of endogenous αSyn monomers.",
+      "source_id": "src_044"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Monomer Equilibrium",
+      "description": "Monomeric alpha-synuclein exists in a delicate balance between an unstructured, soluble state and an alpha-helical, vesicle-bound state. Because the free monomer is more prone to aggregation, any biological factors that shift this equilibrium can either promote or inhibit the disease process.",
+      "example": "When evaluating potential therapeutics or cellular conditions, one must consider how they alter the equilibrium; shifting it away from the unstructured soluble state may inhibit alpha-synuclein aggregation.",
+      "source_id": "src_044"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "One way to further our understanding of disease progression is to model the discrete steps from when a cell first encounters an aggregate to when those aggregates propagate to new cells.",
+      "context": "Explaining the rationale for studying the cellular mechanisms of alpha-synuclein spreading.",
+      "source_id": "src_044"
+    },
+    {
+      "text": "As fibrils accumulate in the cell, they can trap other cellular components such as lipids, vesicles, organelles, and other proteins... This process leads to the formation of a mature LB inclusions.",
+      "context": "Describing the final stages of Lewy body formation.",
+      "source_id": "src_044"
+    }
+  ],
+  "anti_patterns": []
+}

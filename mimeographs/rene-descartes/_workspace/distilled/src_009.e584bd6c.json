@@ -1,0 +1,91 @@
+{
+  "source_id": "src_009",
+  "summary": "An introductory essay detailing René Descartes's life, the historical context of his philosophy, and a deep analysis of his foundational principle, the 'Cogito ergo sum'. It highlights his method of radical doubt, his rejection of syllogistic deduction for foundational truths, and his preference for quiet intellectual subversion over public confrontation.",
+  "themes": [
+    "Epistemology",
+    "Methodological Doubt",
+    "Self-Consciousness",
+    "History of Philosophy",
+    "Rationalism"
+  ],
+  "principles": [
+    {
+      "statement": "The foundation of knowledge must begin from particular notions, not universal syllogisms.",
+      "rationale": "General propositions are formed from the knowledge of particulars. To start with a universal premise to prove one's own existence reverses the true order of knowledge.",
+      "source_quote": "For it is settled among philosophers, that in order to find it a beginning must always be made from particular notions, that afterward the universal may be reached...",
+      "source_id": "src_009"
+    },
+    {
+      "statement": "Thought encompasses all immediate conscious experience.",
+      "rationale": "Thinking is not an abstract concept, but the concrete reality of experiencing doubt, understanding, affirmation, and perception.",
+      "source_quote": "Under thought I embrace all that which is in us, so that we are immediately conscious of it.",
+      "source_id": "src_009"
+    },
+    {
+      "statement": "Self-existence is known through a simple intuition of the mind, not deduced by logic.",
+      "rationale": "When we experience ourselves thinking, we immediately apprehend our existence because it is impossible to think without existing.",
+      "source_quote": "When we apprehend that we are thinking things, this is a first notion which is not drawn from any syllogism; and when some one says, I think, hence I am, or I exist, he does not conclude his existence from his thought as by force of some syllogism, but as a thing known of itself...",
+      "source_id": "src_009"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Methodological Doubt",
+      "when_to_apply": "When seeking an ultimate ground of certainty or a criterion of truth to build a philosophical system.",
+      "steps": [
+        "Examine by reflection the facts and possibilities of consciousness.",
+        "Doubt everything that can possibly be doubted, including the testimony of the senses and mathematical truths.",
+        "Identify the point where reflective doubt sets limits to itself (the act of doubting implies a conscious doubter).",
+        "Establish this indubitable fact of self-consciousness as the starting point for constructive philosophy."
+      ],
+      "source_quote": null,
+      "source_id": "src_009"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The 'I' as a Thinking Thing (Res Cogitans)",
+      "description": "Viewing the self not as an abstract entity or a physical body, but strictly as a conscious subject engaged in definite acts of thought. The self is defined entirely by its conscious operations.",
+      "example": "When doubting the existence of the physical world, the very act of doubt proves the existence of the 'thing which thinks,' which doubts, understands, affirms, and denies.",
+      "source_id": "src_009"
+    }
+  ],
+  "heuristics": [
+    "Bene vixit bene qui latuit (He lives well who lives hidden): Seek quiet seclusion and a cool atmosphere to think clearly, avoiding the heat of public controversy.",
+    "Do not attack old dogmas directly; instead, quietly sap their foundations by substituting new proofs and silently ignoring the old traditions."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Under thought I embrace all that which is in us, so that we are immediately conscious of it.",
+      "context": "Defining the scope of what he means by 'thinking'.",
+      "source_id": "src_009"
+    },
+    {
+      "text": "A thing which thinks is a thing which doubts, understands [conceives], affirms, denies, which wills, refuses, imagines also, and perceives.",
+      "context": "Explaining the concrete nature of the thinking self.",
+      "source_id": "src_009"
+    },
+    {
+      "text": "When we apprehend that we are thinking things, this is a first notion which is not drawn from any syllogism...",
+      "context": "Defending the Cogito ergo sum against claims that it is a logical deduction rather than an immediate intuition.",
+      "source_id": "src_009"
+    },
+    {
+      "text": "For it is the property of our mind to form general propositions from the knowledge of particulars.",
+      "context": "Explaining why knowledge must start from specific, individual experiences rather than universal premises.",
+      "source_id": "src_009"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating 'I think, therefore I am' as a syllogism (deducing existence from a universal premise like 'all that thinks exists').",
+      "why_it_fails": "It reverses the true order of knowledge. Universals are formed from particulars; you cannot know the universal 'all that thinks exists' before experiencing the particular truth of your own conscious existence.",
+      "source_id": "src_009"
+    },
+    {
+      "description": "Confronting powerful opposition (like the Church) with daring, direct attacks on old dogmas.",
+      "why_it_fails": "It invites censorship and persecution (as seen with Galileo and Bruno), which prevents new views from gaining acceptance and promoting the interests of truth.",
+      "source_id": "src_009"
+    }
+  ]
+}

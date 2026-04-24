@@ -1,0 +1,40 @@
+{
+  "source_id": "src_044",
+  "summary": "This source is the abstract and metadata for the 2018 Science paper introducing AlphaZero. It outlines the achievement of a single, general reinforcement learning algorithm that masters chess, shogi, and Go entirely through self-play, without relying on human domain knowledge.",
+  "themes": [
+    "Reinforcement Learning",
+    "Self-Play",
+    "Tabula Rasa Learning",
+    "General Artificial Intelligence"
+  ],
+  "principles": [
+    {
+      "statement": "General reinforcement learning algorithms can surpass domain-specific, handcrafted systems.",
+      "rationale": "By starting from random play and using self-play without human domain knowledge, a single generalized algorithm can achieve superhuman performance across multiple distinct and challenging domains.",
+      "source_quote": "Starting from random play and given no domain knowledge except the game rules, AlphaZero convincingly defeated a world champion program in the games of chess and shogi (Japanese chess), as well as Go.",
+      "source_id": "src_044"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "In this paper, we generalize this approach into a single AlphaZero algorithm that can achieve superhuman performance in many challenging games.",
+      "context": "Describing the leap from the Go-specific AlphaGo Zero to the generalized AlphaZero.",
+      "source_id": "src_044"
+    },
+    {
+      "text": "Starting from random play and given no domain knowledge except the game rules, AlphaZero convincingly defeated a world champion program in the games of chess and shogi (Japanese chess), as well as Go.",
+      "context": "Summarizing the core achievement of tabula rasa learning in AlphaZero.",
+      "source_id": "src_044"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on domain-specific adaptations and handcrafted evaluation functions refined by human experts.",
+      "why_it_fails": "While historically producing the strongest programs, these human-engineered systems are ultimately surpassed by general reinforcement learning algorithms that learn purely from self-play without human biases.",
+      "source_id": "src_044"
+    }
+  ]
+}

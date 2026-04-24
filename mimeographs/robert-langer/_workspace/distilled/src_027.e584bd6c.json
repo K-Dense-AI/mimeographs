@@ -1,0 +1,85 @@
+{
+  "source_id": "src_027",
+  "summary": "In this editorial, Robert Langer and his co-authors outline the future of drug delivery, emphasizing the shift from small molecules to biologics. They advocate for enhancing targeting efficiency across biological barriers, developing next-generation long-acting and pulsatile release systems, personalizing therapies to account for patient heterogeneity, and integrating advanced technologies like AI and soft electronics to improve global health equity.",
+  "themes": [
+    "Targeted drug delivery",
+    "Biological barriers",
+    "Long-acting and pulsatile release",
+    "Personalized medicine",
+    "Integration of AI and robotics",
+    "Global health equity"
+  ],
+  "principles": [
+    {
+      "statement": "Drug delivery systems must be personalized to account for patient heterogeneity.",
+      "rationale": "Differences in patient physiology, such as vascular variations or mechanical loading in joints, drastically alter how delivery systems cross biological barriers and distribute drugs.",
+      "source_quote": "Treatment regimens for multiple diseases do not follow the 'one size fits all' approach. Disease heterogeneity among patients combined with differences in patient physiology necessitates personalized treatment decisions.",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "Next-generation long-acting delivery must achieve preprogrammed pulsatile release.",
+      "rationale": "Many chronic diseases, such as asthma and diabetes, have predictable cyclic rhythms. Timing the medication release to match these rhythms improves therapeutic outcomes far better than steady-rate sustained release.",
+      "source_quote": "Next-generation long-acting delivery systems will also enable precise control over the release kinetics rather than merely achieving sustained release at a steady rate.",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "Drug delivery innovation must actively drive global health equity.",
+      "rationale": "Novel, curative treatments are often inaccessible to low-resource populations. Developing low-cost manufacturing and long-acting formulations that require fewer medical visits is essential for public health.",
+      "source_quote": "Lowering the healthcare cost of new pharmaceutical treatments instead of waiting for lower cost generic versions will be of great significance for the public, especially for people who do not have easy access to medical resources.",
+      "source_id": "src_027"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Chronotherapeutic Release Matching",
+      "description": "Viewing drug delivery not as a constant stream, but as a rhythmic pulse that must be synchronized with the biological cycles of a specific disease.",
+      "example": "Designing pulsatile drug delivery systems that release medication in sync with the predictable cyclic rhythms of asthma or diabetes, rather than maintaining a steady baseline concentration.",
+      "source_id": "src_027"
+    },
+    {
+      "name": "Biological Barriers as Dynamic Checkpoints",
+      "description": "Treating the body's natural defenses (mucus, extracellular matrix, reticuloendothelial system, protein corona) as complex, dynamic obstacles that require active, engineered navigation rather than passive diffusion.",
+      "example": "Using an orally ingestible robotic capsule (RoboCap) to actively clear the mucus layer in the intestine and enhance luminal mixing for topical drug deposition.",
+      "source_id": "src_027"
+    }
+  ],
+  "heuristics": [
+    "Develop modular drug delivery systems that match specific therapies to patient subtypes.",
+    "Minimize burst release in long-acting injectables to protect narrow therapeutic windows."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Looking back, seven decades of effort have produced stunning drug delivery technologies to break down the barriers between new drug candidates and their targets in tissues and cells. Looking forward, the future of drug delivery is bright.",
+      "context": "Reflecting on the historical progress and future potential of the drug delivery field.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "Treatment regimens for multiple diseases do not follow the 'one size fits all' approach. Disease heterogeneity among patients combined with differences in patient physiology necessitates personalized treatment decisions.",
+      "context": "Arguing for the necessity of personalized drug delivery systems.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "Lowering the healthcare cost of new pharmaceutical treatments instead of waiting for lower cost generic versions will be of great significance for the public, especially for people who do not have easy access to medical resources.",
+      "context": "Discussing the role of drug delivery technologies in creating global health equity.",
+      "source_id": "src_027"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on active targeting ligands for systemic nanoparticle delivery.",
+      "why_it_fails": "It is rendered ineffective in vivo due to protein corona deposition, which masks the targeting ligands.",
+      "source_id": "src_027"
+    },
+    {
+      "description": "Accepting high burst release in biodegradable injectable formulations.",
+      "why_it_fails": "It causes toxicity issues for drugs with a narrow therapeutic window and significantly shortens the longevity of the formulation.",
+      "source_id": "src_027"
+    },
+    {
+      "description": "Using a 'one size fits all' approach for drug delivery system design.",
+      "why_it_fails": "Patient-to-patient variability in vascular physiology, mechanical loading, and disease subtypes drastically changes how biological barriers behave.",
+      "source_id": "src_027"
+    }
+  ]
+}

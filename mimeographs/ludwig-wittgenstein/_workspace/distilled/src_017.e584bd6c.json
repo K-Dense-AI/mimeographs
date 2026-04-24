@@ -1,0 +1,120 @@
+{
+  "source_id": "src_017",
+  "summary": "An overview of Ludwig Wittgenstein's life and philosophy, covering both his early work in the Tractatus Logico-Philosophicus and his later work in the Philosophical Investigations. It details his views on the limits of language, meaning as use, the impossibility of a private language, and his conception of philosophy as a therapeutic activity aimed at dissolving conceptual confusions rather than building theories.",
+  "themes": [
+    "Philosophy of Language",
+    "Logic and Meaning",
+    "Ethics and Religion",
+    "Epistemology and Certainty",
+    "Anti-metaphysics"
+  ],
+  "principles": [
+    {
+      "statement": "Philosophy is an activity of logical clarification, not a body of scientific doctrine.",
+      "rationale": "Philosophical problems are not empirical questions to be solved with theories, but conceptual confusions arising from a failure to understand the logic of our language. The goal is to dissolve these knots.",
+      "source_quote": "Philosophy aims at the logical clarification of thoughts.",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "The meaning of a word is its use in the language.",
+      "rationale": "Meaning is not a hidden mental object, a private feeling, or merely the object a word names. Knowing a word's meaning means knowing how to employ it within the practices and context of a language game.",
+      "source_quote": "For a large class of cases–though not for all–in which we employ the word \"meaning\" it can be defined thus: the meaning of a word is its use in the language.",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Ethical and religious truths cannot be meaningfully stated; they show themselves.",
+      "rationale": "Attempting to state ethical or religious truths results in running against the boundaries of language, producing nonsense. They are better understood as attitudes, ways of living, or gestures.",
+      "source_quote": "the tendency of all men who ever tried to write or talk Ethics or Religion was to run against the boundaries of language",
+      "source_id": "src_017"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Philosophical Therapy",
+      "when_to_apply": "When nonsense is spoken, or when language creates philosophical confusion and mysteries (e.g., thinking of the mind as a physical box with contents).",
+      "steps": [
+        "Describe circumstances in which a seemingly problematic expression might actually be used in everyday life.",
+        "Compare our use of words with imaginary language games.",
+        "Imagine fictitious natural history.",
+        "Explain psychologically the temptation to use a certain expression inappropriately."
+      ],
+      "source_quote": "Our investigation is a grammatical one. Such an investigation sheds light on our problem by clearing misunderstandings away.",
+      "source_id": "src_017"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Language Games and Forms of Life",
+      "description": "The idea that language is inextricably linked to the shared practices, behaviors, and physical context of a community. Words only come alive and have meaning within these specific, lived contexts.",
+      "example": "If a lion could speak, we would not be able to understand it. Even if we translated its words, we do not share its 'form of life' (lion ethics, politics, humor), so we could not empathize or truly grasp its meaning.",
+      "source_id": "src_017"
+    },
+    {
+      "name": "The River Bed of Certainty",
+      "description": "A metaphor for foundational background knowledge. Certain things we 'know' are not explicitly learned, proven, or doubted; they form the unmoving background against which other claims are tested or doubted.",
+      "example": "In normal circumstances, no sane person doubts how many hands they have. This certainty acts as the river bed that provides the support and context for the 'river' of everyday claims and doubts.",
+      "source_id": "src_017"
+    },
+    {
+      "name": "Religious Ritual as Gesture",
+      "description": "Viewing religious activities and utterances not as literal statements of fact or doctrine, but as irreplaceable expressive gestures of an attitude.",
+      "example": "Kissing a photograph of a loved one. It is not based on the false belief that the person in the photograph will feel the kiss, nor is it just a substitute for saying 'I love you.' It is an expression of an attitude.",
+      "source_id": "src_017"
+    }
+  ],
+  "heuristics": [
+    "Don't look for the meaning as an object; look at the use.",
+    "In philosophy the winner is the one who finishes last.",
+    "What can be shown, cannot be said.",
+    "Erect signposts at all the junctions where there are wrong turnings."
+  ],
+  "signature_quotes": [
+    {
+      "text": "What we cannot speak about we must pass over in silence.",
+      "context": "The final proposition of the Tractatus Logico-Philosophicus.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "The limits of my language mean the limits of my world.",
+      "context": "From the Tractatus, proposition 5.6.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "Most of the propositions and questions of philosophers arise from our failure to understand the logic of our language.",
+      "context": "From the Tractatus, proposition 4.003.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "Language sets everyone the same traps; it is an immense network of easily accessible wrong turnings.",
+      "context": "Describing his task in philosophy in 1931.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "The world is all that is the case.",
+      "context": "From the Tractatus, proposition 1.",
+      "source_id": "src_017"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating the meaning of a word as an object it names or a private psychological feeling.",
+      "why_it_fails": "If meaning were an object, it could be destroyed or locked away. If it were a private feeling, each user would mean something different, making communication impossible.",
+      "source_id": "src_017"
+    },
+    {
+      "description": "Believing in a 'private language' that refers only to private inner sensations.",
+      "why_it_fails": "A private language has no independent criteria for correctness. If the only judge of whether a word is used correctly is the inventor, then whatever seems right is right, which means we cannot talk about 'right' at all.",
+      "source_id": "src_017"
+    },
+    {
+      "description": "The craving for generality in philosophy.",
+      "why_it_fails": "Generalizations tend to be vague and potentially misleading. Escaping philosophical confusion requires constant attention to detail and particular examples, going over the 'rough ground'.",
+      "source_id": "src_017"
+    },
+    {
+      "description": "Trying to solve philosophical problems by producing theories.",
+      "why_it_fails": "Philosophical problems are not empirical questions to be solved; they are conceptual confusions that need to be dissolved by analyzing the logic of our language.",
+      "source_id": "src_017"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "source_id": "src_038",
+  "summary": "This abstract from a 2025 Nature paper co-authored by Zhenan Bao introduces 'Spiral-NeuroString', a novel fabrication approach for bioelectronic fibers. By using a 'spiral transformation' to convert 2D microfabricated thin films into 1D soft fibers, the team overcame the limitations of conventional microfabrication on curved surfaces, enabling high-density, multimodal sensing and stimulation for minimally invasive implants.",
+  "themes": [
+    "Flexible Electronics",
+    "Bioelectronics",
+    "Microfabrication",
+    "Implantable Devices",
+    "Neural Interfaces"
+  ],
+  "principles": [
+    {
+      "statement": "Soft, biocompatible materials are essential for interfacing with dynamic biological systems.",
+      "rationale": "Biological environments like the gastrointestinal system and the brain are soft and constantly moving. Rigid electronics fail here, whereas soft fibers can safely enable continuous motility mapping, tissue stimulation, and long-term electrical recording.",
+      "source_quote": "Taking advantage of the biocompatibility of our soft fibres with the dynamic and soft gastrointestinal system, we proceed to show the feasibility of our S-NeuroString for post-operative multimodal continuous motility mapping and tissue stimulation in awake pigs.",
+      "source_id": "src_038"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Spiral Transformation",
+      "when_to_apply": "When you need to integrate high-density, precisely positioned microelectronic components into one-dimensional, soft, and curved fiber structures.",
+      "steps": [
+        "Fabricate devices and functional components onto a two-dimensional thin film using conventional microfabrication methods like photolithography.",
+        "Apply a 'spiral transformation' to physically convert the 2D thin film into a 1D soft fiber.",
+        "Precisely control the longitudinal, angular, and radial positioning of the functional components during the transformation to achieve a high-density layout."
+      ],
+      "source_quote": "Here we use 'spiral transformation' to convert two-dimensional thin films containing microfabricated devices into one-dimensional soft fibres.",
+      "source_id": "src_038"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Dimensional Transformation (2D to 1D)",
+      "description": "A problem-solving lens where the geometric constraints of a target shape (like a 1D fiber) are bypassed by performing complex work in a more accommodating dimension (a 2D plane), followed by a physical transformation into the final shape.",
+      "example": "Creating the 'Spiral-NeuroString' by microfabricating up to 1,280 channels on a 2D thin film, where photolithography works well, and then spiraling it into a 230-μm-diameter soft fiber.",
+      "source_id": "src_038"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Here we use 'spiral transformation' to convert two-dimensional thin films containing microfabricated devices into one-dimensional soft fibres.",
+      "context": "Describing the core fabrication innovation used to create high-density bioelectronic fibers.",
+      "source_id": "src_038"
+    },
+    {
+      "text": "Our soft bioelectronic fibres offer a powerful platform for minimally invasive implantable electronics, where diverse sensing and stimulation functionalities can be effectively integrated.",
+      "context": "Summarizing the clinical and research potential of the S-NeuroString technology.",
+      "source_id": "src_038"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Attempting to use conventional microfabrication methods (like photolithography) directly on one-dimensional fiber structures.",
+      "why_it_fails": "Conventional microfabrication is incompatible with curved, thin, and long fiber structures. This incompatibility results in fibers with high rigidity, low component layout precision, limited functionality, and a low density of active components.",
+      "source_id": "src_038"
+    }
+  ]
+}

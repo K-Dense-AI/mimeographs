@@ -1,0 +1,116 @@
+{
+  "source_id": "src_011",
+  "summary": "In this keynote, Jeff Dean discusses the exponential growth of machine learning research and its real-world applications, from autonomous vehicles to healthcare. He highlights the power of self-supervised learning (like BERT) and AutoML for automating model design. Finally, he outlines a future vision for AI: moving away from single-task models toward massive, sparsely activated, multi-task models that can dynamically route new tasks through existing expert components.",
+  "themes": [
+    "Machine Learning Growth",
+    "Computer Vision",
+    "Healthcare Informatics",
+    "Natural Language Processing (NLP)",
+    "AutoML and Neural Architecture Search",
+    "Multi-task Learning",
+    "Responsible AI"
+  ],
+  "principles": [
+    {
+      "statement": "We should build single, multi-task models rather than separate models for every problem.",
+      "rationale": "A single, sparsely activated model can build on the knowledge of millions of tasks, allowing it to learn new tasks with significantly less data and computational cost by leveraging its existing expertise.",
+      "source_quote": "we tend to Train separate models for each different problem we care about I think this is a bit misguided like really we want one model that does a lot of things so that it can build on the knowledge in how it does thousands or millions of different things",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Machine learning can distribute the wisdom of experts globally.",
+      "rationale": "By training models on data labeled by top specialists, we can package gold-standard expertise into a model and deploy it to regions suffering from severe shortages of trained professionals.",
+      "source_quote": "we can use machine learning to bring the wisdom of experts through a machine learning model anywhere in the world and that's really a huge huge opportunity",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "The growth of ideas has replaced the growth of computational power.",
+      "rationale": "While Moore's Law has slowed down, the machine learning research community is generating new ideas and efficiencies at an exponential rate, driving continued rapid progress.",
+      "source_quote": "we've replaced computational growth with growth of ideas and we'll see those both together will be important",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "High-quality data is the fundamental raw ingredient for machine learning.",
+      "rationale": "Even when individual human experts disagree or are inconsistent, aggregating multiple expert labels creates a high-quality dataset that allows off-the-shelf models to perform at or above expert levels.",
+      "source_quote": "like many machine learning problems high quality data is the right raw ingredient",
+      "source_id": "src_011"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Self-Supervised Pre-training and Fine-tuning",
+      "when_to_apply": "When you have massive amounts of unlabeled data (like text) but very little labeled data for the specific task you care about.",
+      "steps": [
+        "Pre-train a model on a massive amount of unlabeled data using a self-supervised objective (e.g., dropping 15% of words and predicting the missing ones).",
+        "Take the pre-trained model and fine-tune it using the small amount of labeled examples for your specific target task."
+      ],
+      "source_quote": "step one you can pre train a model on lots and lots of text using this fill in the blanks self supervisor objective function and then step two you can then take a language task you really care about... and now use your paltry 10,000 examples for the text task you really care about and that works extremely well",
+      "source_id": "src_011"
+    },
+    {
+      "name": "Neural Architecture Search (AutoML)",
+      "when_to_apply": "When designing a neural network architecture for a specific task and wanting to automate the experimental process rather than relying on human intuition.",
+      "steps": [
+        "Use a model-generating model to generate descriptions of different neural network architectures.",
+        "Train each generated model for a few hours.",
+        "Evaluate how well the models work on the target problem.",
+        "Use the accuracy of those models as a reinforcement learning signal to steer the model-generating model away from poor architectures and toward better ones.",
+        "Repeat the process many times to find highly effective, optimized architectures."
+      ],
+      "source_quote": "we're gonna train each of those for a few hours and then we're going to see how well they work and then use the accuracy of those models as a reinforcement learning signal for the model generating model to steer it away from models that didn't work very well",
+      "source_id": "src_011"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Sparsely Activated Multi-Task Model (Neural Pathway Search)",
+      "description": "Viewing a machine learning model not as a monolithic block for one task, but as a vast network of specialized components. When a new task arrives, the system searches for a 'pathway' through existing components that already have relevant expertise, rather than activating the entire network or training from scratch.",
+      "example": "When a new task is introduced, the model routes the data through specific sub-components trained on related tasks, getting into a good state quickly. If needed, a new component is added to increase capacity for that specific task, which can then be reused later.",
+      "source_id": "src_011"
+    },
+    {
+      "name": "AI as an Expert Multiplier",
+      "description": "Viewing AI not as a replacement for human workers, but as a distribution mechanism for highly specialized expertise to regions with severe shortages.",
+      "example": "Using a computer vision model trained by a consensus of retinal specialists to screen for diabetic retinopathy in India, where there is a shortage of 127,000 eye doctors.",
+      "source_id": "src_011"
+    }
+  ],
+  "heuristics": [
+    "To resolve human labeler disagreement, get each example labeled by many experts and take the consensus to create high-quality training data.",
+    "Use self-supervised learning on abundant unlabeled data to make up for a lack of labeled data on specific tasks."
+  ],
+  "signature_quotes": [
+    {
+      "text": "we've replaced computational growth with growth of ideas",
+      "context": "Discussing how the exponential growth of ML research papers is making up for the slowing down of Moore's Law.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "we can use machine learning to bring the wisdom of experts through a machine learning model anywhere in the world and that's really a huge huge opportunity",
+      "context": "Discussing the potential of AI in advanced health informatics, specifically diabetic retinopathy screening.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "we tend to Train separate models for each different problem we care about I think this is a bit misguided like really we want one model that does a lot of things",
+      "context": "Explaining his vision for the future of machine learning architectures.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "the notion that deep neural networks are sort of complete black boxes it's a bit overdone",
+      "context": "Discussing advances in model explainability, particularly in healthcare where clinicians need to understand predictions.",
+      "source_id": "src_011"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Training separate, isolated models for every single problem we care about.",
+      "why_it_fails": "It prevents models from building on the knowledge of how to do thousands of other things, requiring more data and compute for every new task instead of leveraging existing expertise.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Treating deep neural networks as complete black boxes.",
+      "why_it_fails": "It ignores the development of explainability techniques (like highlighting relevant parts of input data) that are crucial for clinical and real-world adoption.",
+      "source_id": "src_011"
+    }
+  ]
+}

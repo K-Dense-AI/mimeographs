@@ -1,0 +1,79 @@
+{
+  "source_id": "src_011",
+  "summary": "In this keynote, Robert Langer recounts his career journey from early research on angiogenesis inhibitors to the development of mRNA vaccines. He highlights the extreme skepticism he faced when inventing nanoparticles for large molecule delivery, his unconventional strategy for securing patents using critics' own words, and the crucial role small companies play in driving radical innovation.",
+  "themes": [
+    "Drug Delivery",
+    "Overcoming Skepticism",
+    "Patent Strategy",
+    "mRNA Therapeutics",
+    "Entrepreneurship and Innovation"
+  ],
+  "principles": [
+    {
+      "statement": "Persist through scientific skepticism and institutional rejection.",
+      "rationale": "Breakthrough inventions often contradict conventional wisdom, leading to rejected grants and difficulty finding employment, but persistence is required to prove the consensus wrong.",
+      "source_quote": "because we had in spite of that skepticism a you know I or maybe because of it a you know we just kept going you know my first nine grants were rejected I couldn't get a job",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Small companies are the true bearers of radical innovation.",
+      "rationale": "Large corporations are often too risk-averse to back unproven, paradigm-shifting technologies. It takes small, risk-tolerant startups to bring revolutionary ideas like mRNA therapeutics to the world.",
+      "source_quote": "it's just too little companies madna and and bio inch that took the risk... no large company would get involved until fizer finally in 2020",
+      "source_id": "src_011"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Skepticism Affidavit Method",
+      "when_to_apply": "When a patent examiner rejects a breakthrough invention (e.g., for being obvious or impossible) and you need to prove its novelty.",
+      "steps": [
+        "Perform a science citation search looking back at your original publication.",
+        "Find published articles where experts explicitly state that your proposed mechanism or invention is impossible or highly unexpected.",
+        "Contact those scientists and obtain written affidavits confirming they wrote those statements.",
+        "Present the affidavits to the patent examiner to definitively prove the invention is non-obvious."
+      ],
+      "source_quote": "I wondered maybe somebody wrote that down so after five years of rejection I started to I did what's called a a science citation search... he said he will allow this patent if I could get written affidavits from each of these pat p scientists",
+      "source_id": "src_011"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Walking through a brick wall",
+      "description": "A metaphor representing how conventional scientific wisdom views an impossible physical task, specifically the diffusion of large macromolecules through solid polymers.",
+      "example": "Langer used this to describe the scientific consensus he was fighting against: experts believed putting a large molecule in a tiny particle meant it could never get out, comparing it to walking through a brick wall.",
+      "source_id": "src_011"
+    }
+  ],
+  "heuristics": [
+    "If everyone says your idea is impossible, look for where they wrote it down—it might just get you a patent."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I spent two years working in the laboratory experimenting with different techniques and I found over 200 different ways to get this to not work.",
+      "context": "Describing his early struggles to invent a way to deliver large molecules from tiny particles.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "if you tried to put a large molecule in a tiny particle like it was encased in that tiny particle it just couldn't get out it was just too big like walking through brick wall that was the conventional wisdom at the time",
+      "context": "Explaining the scientific skepticism he faced regarding drug delivery.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "it's very interesting when I look at what's happened with even the whole area of mRNA it's just too little companies madna and and bio inch that took the risk... no large company would get involved",
+      "context": "Reflecting on the commercialization of mRNA vaccines.",
+      "source_id": "src_011"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Accepting 'conventional wisdom' as absolute truth.",
+      "why_it_fails": "Conventional wisdom often assumes that unprecedented approaches (like large molecules escaping tiny particles) are physically impossible, which blinds the scientific community to viable breakthroughs.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Relying on large companies to fund and develop radical early-stage innovation.",
+      "why_it_fails": "Large companies are generally unwilling to take on the extreme risk of unproven technologies, as seen with mRNA therapeutics where no major pharma company would partner with them initially.",
+      "source_id": "src_011"
+    }
+  ]
+}

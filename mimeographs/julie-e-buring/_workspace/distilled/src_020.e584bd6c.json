@@ -1,0 +1,108 @@
+{
+  "source_id": "src_020",
+  "summary": "Julie E. Buring discusses the trade-offs between breadth and depth in phenotyping, using the Women's Health Study as a model. She advocates for maximizing the long-term utility of existing cohorts through core variable collection, biobanking, and data harmonization, rather than defaulting to creating expensive new cohorts.",
+  "themes": [
+    "Epidemiology",
+    "Cohort Studies",
+    "Phenotyping",
+    "Data Harmonization",
+    "Gene-Environment Interactions"
+  ],
+  "principles": [
+    {
+      "statement": "A cohort should not be strictly categorized as 'broad' or 'deep'; its classification depends entirely on the research question being asked.",
+      "rationale": "The exact same cohort can have phenotypes defined broadly enough to contribute to some scientific questions, while simultaneously having data deep enough to answer others.",
+      "source_quote": "we can't think of a resource as being just simply broad resource or a deep resource it's really going to be a judgment based on relative to the questions that we're trying to evaluate",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Broad phenotyping is best for raising hypotheses, while deep phenotyping is required for testing them.",
+      "rationale": "Different stages of scientific inquiry require different levels of detail and data resolution.",
+      "source_quote": "in general if you're going to raise hypotheses then the broader is going to be more appropriate but if you're going to test hypotheses we're going to need something deeper",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Leverage existing cohorts before initiating new ones.",
+      "rationale": "The time and money invested in a cohort study is primarily in setting up the population and collecting baseline data. New cohorts should only be created to fill specific, identified gaps.",
+      "source_quote": "before we did a new cohort we would need to identify what are the gaps to be filled and how the new cohort would address those gaps",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Harmonization does not require identical questions or wording across studies.",
+      "rationale": "The goal of harmonization is to permit the pooling of data by creating similar, but not necessarily identical, definitions of exposure and disease measures from core information.",
+      "source_quote": "harmonization does not mandate that you use the same questions or the same wording what it means is that you give your core actual information to a central group they use it to do similar but not identical definitions",
+      "source_id": "src_020"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Future-Proofing a Cohort",
+      "when_to_apply": "When designing or running a clinical trial or cohort study to ensure it remains a valuable resource for future, unanticipated research questions.",
+      "steps": [
+        "Add a wide range of self-reported outcome questions to questionnaires at minimal cost.",
+        "Collect an extensive core group of demographic, lifestyle, and medical history variables to establish baselines and track changes over time.",
+        "Collect and store baseline biological samples (e.g., plasma, buffy coat) even if funding for immediate analysis isn't available.",
+        "Conduct funded ancillary studies later to gather deeper information (medical records, tissue blocks, biomarkers) on specific conditions as they arise."
+      ],
+      "source_quote": "we had no idea what questions were going to be the ones that would arise in the future but we wanted to be able to position ourselves to contribute to the evaluation of those questions in a sort of a timely and cost effective way",
+      "source_id": "src_020"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Middle Road of Core Variables",
+      "description": "When future hypotheses are unknown, studies should adopt a baseline standard of core variables to ensure broad utility across future consortia.",
+      "example": "Building a standard set of variables (anthropometric, smoking, alcohol, medical/reproductive/family history, physical activity) into the Women's Health Study allowed them to participate in dozens of future consortia (e.g., BMI, mortality, hypertension) that were never part of the original trial design.",
+      "source_id": "src_020"
+    }
+  ],
+  "heuristics": [
+    "Limit questionnaires to a total of four pages, because after four pages people don't complete them anymore.",
+    "If you're going to raise hypotheses, broader is more appropriate; if you're going to test hypotheses, you need something deeper.",
+    "Participant willingness to do an additional re-contact is completely dependent on how much burden you're asking them to take on."
+  ],
+  "signature_quotes": [
+    {
+      "text": "we can't think of a resource as being just simply broad resource or a deep resource it's really going to be a judgment based on relative to the questions that we're trying to evaluate",
+      "context": "Discussing the false dichotomy of broad vs. deep phenotyping.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "in general if you're going to raise hypotheses then the broader is going to be more appropriate but if you're going to test hypotheses we're going to need something deeper",
+      "context": "Explaining when to use different levels of phenotyping detail.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "harmonization does not mandate that you use the same questions or the same wording",
+      "context": "Clarifying a common misconception about pooling data across different cohort studies.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "the knowledge will come from accumulated data not one study",
+      "context": "Advocating for leveraging existing cohorts and consortia rather than relying on single new studies.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "their willingness to participate in an additional re-contact or additional ancillary is completely dependent on how much you're asking them to do",
+      "context": "Answering a question about the success rates of re-contacting study participants for further testing.",
+      "source_id": "src_020"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Initiating new cohort studies without first identifying specific gaps that existing cohorts cannot fill.",
+      "why_it_fails": "Setting up populations and collecting initial data is the most expensive and time-consuming part of research. Existing cohorts often already have enough data to make significant contributions.",
+      "source_id": "src_020"
+    },
+    {
+      "description": "Assuming data harmonization requires perfect, identical variables across studies.",
+      "why_it_fails": "It creates unnecessary barriers and costs. Harmonization only requires core information to create similar definitions for pooling data, which is highly doable and cost-effective.",
+      "source_id": "src_020"
+    },
+    {
+      "description": "Sending participants questionnaires that exceed four pages.",
+      "why_it_fails": "Participant compliance drops off significantly; after four pages, people simply stop completing them.",
+      "source_id": "src_020"
+    }
+  ]
+}

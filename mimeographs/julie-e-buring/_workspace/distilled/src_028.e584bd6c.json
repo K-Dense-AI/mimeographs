@@ -1,0 +1,35 @@
+{
+  "source_id": "src_028",
+  "summary": "In an NPR segment discussing the results of a 10-year Women's Health Study, Julie E. Buring comments on the value of negative results in clinical trials. She emphasizes that discovering a treatment doesn't work is crucial because it prevents people from relying on ineffective pills at the expense of proven health interventions.",
+  "themes": [
+    "Clinical Trials",
+    "Preventive Medicine",
+    "Women's Health",
+    "Evidence-Based Medicine"
+  ],
+  "principles": [
+    {
+      "statement": "Knowing what doesn't work is just as important as knowing what does work.",
+      "rationale": "If people believe an ineffective treatment works, they might rely on it instead of pursuing other interventions that actually provide health benefits.",
+      "source_quote": "It's very important for us to know what works as well as what doesn't work. Sometimes we make a choice and take something thinking it will benefit us, but we might be doing it instead of something else.",
+      "source_id": "src_028"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "It's very important for us to know what works as well as what doesn't work. Sometimes we make a choice and take something thinking it will benefit us, but we might be doing it instead of something else.",
+      "context": "Defending the value of a $40 million study that yielded negative results for vitamin E and aspirin in preventing cancer and heart disease in healthy women.",
+      "source_id": "src_028"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Taking an unproven pill or supplement under the assumption that it will provide a health benefit.",
+      "why_it_fails": "It creates an opportunity cost; people might rely on the ineffective pill instead of adopting proven lifestyle changes or treatments.",
+      "source_id": "src_028"
+    }
+  ]
+}

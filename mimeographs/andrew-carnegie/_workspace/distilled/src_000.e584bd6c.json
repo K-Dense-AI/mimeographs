@@ -1,0 +1,79 @@
+{
+  "source_id": "src_000",
+  "summary": "In 'The Gospel of Wealth', Andrew Carnegie outlines his philosophy on philanthropy, asserting that the wealthy have a moral obligation to distribute their fortunes during their lifetimes. He argues that effective charity should focus on providing the means for self-improvement rather than direct almsgiving, which he believes fails to improve individuals or society.",
+  "themes": [
+    "Philanthropy",
+    "Wealth distribution",
+    "Self-reliance",
+    "Social responsibility",
+    "Charity"
+  ],
+  "principles": [
+    {
+      "statement": "Wealth must be distributed during one's lifetime for the public good.",
+      "rationale": "Hoarding wealth until death is a disgrace; actively administering it bridges the gap between the rich and the poor and brings peace to society.",
+      "source_quote": "The man who dies thus rich dies disgraced.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "Charity should empower those who want to help themselves.",
+      "rationale": "Providing the means for self-improvement is effective, whereas doing everything for someone does not improve the individual or the race.",
+      "source_quote": "In bestowing charity, the main consideration should be to help those who will help themselves; to provide part of the means by which those who desire to improve may do so",
+      "source_id": "src_000"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Effective Philanthropy",
+      "when_to_apply": "When deciding how to distribute wealth or bestow charity.",
+      "steps": [
+        "Identify individuals or groups who have a genuine desire to improve themselves.",
+        "Provide part of the means or aids by which they can rise.",
+        "Assist them in their efforts, but rarely or never do all the work for them."
+      ],
+      "source_quote": "to provide part of the means by which those who desire to improve may do so; to give those who desire to use the aids by which they may rise; to assist, but rarely or never to do all.",
+      "source_id": "src_000"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Gospel of Wealth",
+      "description": "Viewing accumulated wealth not as personal property to be hoarded, but as a trust fund to be actively administered by its possessor during their lifetime for the benefit of the community.",
+      "example": "Giving away wealth during one's lifetime to solve the problem of the Rich and the Poor and bring 'Peace on earth, among men good will.'",
+      "source_id": "src_000"
+    }
+  ],
+  "heuristics": [
+    "Help those who will help themselves.",
+    "Assist, but rarely or never do all."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The man who dies thus rich dies disgraced.",
+      "context": "Carnegie's core belief regarding the hoarding of wealth until death.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "In bestowing charity, the main consideration should be to help those who will help themselves...",
+      "context": "Guiding principle on how to effectively give to others.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "Neither the individual nor the race is improved by almsgiving.",
+      "context": "Warning against the negative effects of direct handouts.",
+      "source_id": "src_000"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Almsgiving or providing direct handouts to individuals.",
+      "why_it_fails": "It does not improve the individual or the race. Truly valuable people rarely require this kind of assistance unless they experience a sudden accident or change.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Dying with a massive, hoarded fortune.",
+      "why_it_fails": "It is a disgrace and fails to utilize the wealth to solve societal problems between the rich and the poor during the wealth creator's lifetime.",
+      "source_id": "src_000"
+    }
+  ]
+}

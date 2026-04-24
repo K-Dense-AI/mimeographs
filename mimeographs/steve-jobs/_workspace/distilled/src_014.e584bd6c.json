@@ -1,0 +1,74 @@
+{
+  "source_id": "src_014",
+  "summary": "Steve Jobs responds to a critic by explaining his core philosophy on product development and corporate vision. He emphasizes that companies must start with the customer experience and work backward to the technology, rather than trying to find a market for a cool piece of technology. He also acknowledges that making mistakes is a natural, positive indicator that a team is actively making decisions and executing a larger vision.",
+  "themes": [
+    "Product Development",
+    "Customer Experience",
+    "Corporate Vision",
+    "Leadership",
+    "Decision Making"
+  ],
+  "principles": [
+    {
+      "statement": "Start with the customer experience and work backwards to the technology.",
+      "rationale": "To build a cohesive larger vision that sells billions of dollars of product, you must focus on the benefits to the customer first, rather than trying to find a market for a cool piece of technology.",
+      "source_quote": "you've got to start with the customer experience and work backwards to the technology",
+      "source_id": "src_014"
+    },
+    {
+      "statement": "Making mistakes is a good sign that decisions are actually being made.",
+      "rationale": "When a team is working hard to execute a vision, errors are inevitable. It is better to make decisions, make mistakes, and fix them, than to stagnate.",
+      "source_quote": "some mistakes will be made along the way that's good because at least some decisions are being made along the way and we'll find the mistakes we'll fix them",
+      "source_id": "src_014"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Customer-Centric Product Vision",
+      "when_to_apply": "When coming up with a strategy and vision for a company or a new product.",
+      "steps": [
+        "Identify the incredible benefits you can give to the customer.",
+        "Determine where you want to take the customer.",
+        "Work backwards to figure out the technology required to deliver that experience."
+      ],
+      "source_quote": "it started with what incredible benefits can we give to the customer where can we take the customer not not starting with let's sit down with the engineers and and figure out what awesome technology we have",
+      "source_id": "src_014"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The 'Black Box' Customer Experience",
+      "description": "Customers shouldn't need to understand the complex technology inside a product; they only need to see the value and output it provides.",
+      "example": "The LaserWriter had incredible technology inside (Canon engine, PostScript, AppleTalk), but Apple sold it simply by showing the startlingly high-quality printout and asking, 'do you want this?' because the customer didn't have to know anything about what was in the box.",
+      "source_id": "src_014"
+    }
+  ],
+  "heuristics": [
+    "You can please some of the people some of the time, but you can't please everyone when trying to affect change.",
+    "Find the mistakes, fix them, and keep moving."
+  ],
+  "signature_quotes": [
+    {
+      "text": "you've got to start with the customer experience and work backwards to the technology",
+      "context": "Explaining Apple's product strategy and vision.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "you can't start with the technology and try to figure out where you're going to try to sell it and I've made this mistake probably more than anybody else in this room and I've got the scar tissue to prove it",
+      "context": "Warning against technology-first product development.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "some mistakes will be made along the way that's good because at least some decisions are being made along the way and we'll find the mistakes we'll fix them",
+      "context": "Defending the Apple team's execution and inevitable missteps.",
+      "source_id": "src_014"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Technology-first product development (starting with an awesome piece of technology and then trying to figure out how to market it or where to sell it).",
+      "why_it_fails": "It fails to fit into a cohesive larger vision that actually delivers clear benefits to the customer, making it difficult to sell at scale.",
+      "source_id": "src_014"
+    }
+  ]
+}

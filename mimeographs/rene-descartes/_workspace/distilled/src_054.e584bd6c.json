@@ -1,0 +1,92 @@
+{
+  "source_id": "src_054",
+  "summary": "René Descartes seeks an indubitable foundation for knowledge by systematically doubting everything that could possibly be false. Through this extreme skepticism, including the 'evil demon' thought experiment, he arrives at the absolute certainty of his own existence ('I think, therefore I am'). He then uses this foundation, along with the rule of clarity and distinctness guaranteed by a truthful God, to rebuild his knowledge of the world.",
+  "themes": [
+    "Epistemology",
+    "Skepticism",
+    "Foundationalism",
+    "Certainty",
+    "Methodological Doubt"
+  ],
+  "principles": [
+    {
+      "statement": "I must exist in order to think or be deceived.",
+      "rationale": "Even if an evil demon is controlling all thoughts and creating illusions, the very act of doubting or being deceived requires a thinking subject. It is impossible to doubt and yet not exist.",
+      "source_quote": "I am, I exist",
+      "source_id": "src_054"
+    },
+    {
+      "statement": "Beliefs must be clear and distinct to be accepted as undeniably true.",
+      "rationale": "A truthful, good God exists and would not allow us to be deceived when we understand objects clearly and distinctly.",
+      "source_quote": "Some perceptions are so transparent and at the same time so simple we can never think without believing them to be true…",
+      "source_id": "src_054"
+    },
+    {
+      "statement": "Certainty is a necessary requirement for knowledge.",
+      "rationale": "If there is any possibility that a belief could be false or mistaken, it is not certain, and therefore cannot serve as a reliable foundation for knowledge or scientific research.",
+      "source_quote": null,
+      "source_id": "src_054"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Methodological Doubt",
+      "when_to_apply": "When seeking to establish a firm, indubitable foundation for knowledge and scientific research.",
+      "steps": [
+        "Doubt any claim that is false or could possibly be false, including beliefs derived from the senses and reasoning.",
+        "Apply the extreme 'evil demon' test to see if all beliefs about the external world could be illusions.",
+        "Identify a foundational belief that withstands this extreme doubt (e.g., one's own existence as a thinking thing).",
+        "Use this foundational certainty to evaluate and justify other beliefs based on the standard of clarity and distinctness."
+      ],
+      "source_quote": null,
+      "source_id": "src_054"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Evil Demon",
+      "description": "A thought experiment used to test the absolute certainty of beliefs by imagining an all-powerful, deceitful entity capable of manipulating all sensory input and thoughts.",
+      "example": "Descartes imagines that all his beliefs about the external world are illusions caused by the demon, leading him to realize that even under this extreme deception, he must exist to be deceived.",
+      "source_id": "src_054"
+    },
+    {
+      "name": "Foundationalism",
+      "description": "The epistemological model that knowledge must be built upon a base of certain, indubitable, irrefutable beliefs that require no further justification.",
+      "example": "Using the Cogito ('I am, I exist') as the undeniable foundation to justify the clarity-and-distinctness rule and subsequently rebuild knowledge of the external world.",
+      "source_id": "src_054"
+    }
+  ],
+  "heuristics": [
+    "Doubt any claim that could possibly be false.",
+    "Accept as true only what is clear and distinct."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I think, therefore I am",
+      "context": "Often known as the 'Cogito', this is Descartes' foundational discovery of certain knowledge, first appearing in Discourse on the Method.",
+      "source_id": "src_054"
+    },
+    {
+      "text": "I am, I exist",
+      "context": "The phrasing Descartes used in his Meditations to express the immediate, non-inferential certainty of his existence.",
+      "source_id": "src_054"
+    },
+    {
+      "text": "Some perceptions are so transparent and at the same time so simple we can never think without believing them to be true…",
+      "context": "Explaining the concept of clarity and distinctness as a standard for evaluating beliefs.",
+      "source_id": "src_054"
+    },
+    {
+      "text": "I am, I exist, that is certain. But for how long? For as long as I think. It might perhaps even happen that if I stopped thinking, I should at once altogether stop being.",
+      "context": "Descartes clarifying that the certainty of his existence is tied strictly to his act of thinking.",
+      "source_id": "src_054"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Trusting the senses or past reasoning as sources of certain knowledge.",
+      "why_it_fails": "The senses have deceived us before, and we have reasoned erroneously before, meaning beliefs derived from them could be false and lack absolute certainty.",
+      "source_id": "src_054"
+    }
+  ]
+}

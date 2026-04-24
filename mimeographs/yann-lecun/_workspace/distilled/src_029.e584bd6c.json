@@ -1,0 +1,28 @@
+{
+  "source_id": "src_029",
+  "summary": "A podcast episode description outlining Yann LeCun's view that current Large Language Models (LLMs) lack an understanding of the physical world. He argues that to build truly useful personal assistants, humanoid robots, and driverless cars, the AI industry must fundamentally rethink how models are built and trained rather than relying solely on LLMs.",
+  "themes": [
+    "Limitations of LLMs",
+    "Physical world understanding",
+    "Future AI architectures"
+  ],
+  "principles": [
+    {
+      "statement": "Large Language Models are not the answer for creating truly useful personal assistants, humanoid robots, and driverless cars.",
+      "rationale": "LLMs lack many of the skills and types of intelligence that human brains achieve, particularly a fundamental understanding of the physical world in which they exist.",
+      "source_quote": null,
+      "source_id": "src_029"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Relying on Large Language Models (LLMs) to build real-world, interactive AI systems like humanoid robots and driverless cars.",
+      "why_it_fails": "LLMs have a very limited understanding of the physical world and lack the types of intelligence human brains achieve.",
+      "source_id": "src_029"
+    }
+  ]
+}

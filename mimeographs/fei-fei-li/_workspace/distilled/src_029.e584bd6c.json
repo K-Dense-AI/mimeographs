@@ -1,0 +1,90 @@
+{
+  "source_id": "src_029",
+  "summary": "Fei-Fei Li discusses the evolution of AI from an academic niche to a pervasive technology, emphasizing the urgent need for a Human-Centered AI framework. She advocates for treating AI as an interdisciplinary field that integrates humanities and cognitive sciences, and strongly argues that AI should be designed to augment and enhance human capabilities—particularly in healthcare—rather than replace them.",
+  "themes": [
+    "Human-Centered AI",
+    "Healthcare AI",
+    "Interdisciplinary Research",
+    "ImageNet History",
+    "AI Ethics and Values"
+  ],
+  "principles": [
+    {
+      "statement": "AI has no independent values; its values are human values.",
+      "rationale": "Technology carries the values of its creators and society throughout its entire lifecycle, from design and development to deployment.",
+      "source_quote": "I don't think technology has independent values. I think from the design development to deployment, the technology carry our values.",
+      "source_id": "src_029"
+    },
+    {
+      "statement": "AI should augment and enhance humans, not replace them.",
+      "rationale": "The greatest potential of AI lies in assisting people and improving human well-being, such as helping overworked clinicians in healthcare, rather than simply eradicating jobs.",
+      "source_quote": "I really believe this technology like many technology has bigger potential to enhance humans and augment humans rather than replace humans.",
+      "source_id": "src_029"
+    },
+    {
+      "statement": "AI is no longer just a Computer Science discipline; it is an interdisciplinary field.",
+      "rationale": "Because AI's impact is so vast and touches every aspect of human life, understanding and shaping it requires the integration of humanities, social sciences, and cognitive sciences.",
+      "source_quote": "I fundamentally believe AI is no longer a Computer Science discipline, it's a interdisciplinary field.",
+      "source_id": "src_029"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Human-Centered AI Framework",
+      "when_to_apply": "When designing, developing, deploying, and teaching next-generation AI technologies.",
+      "steps": [
+        "Make AI technology more human-inspired by cross-pollinating with brain science, neuroscience, and cognitive science.",
+        "Rethink AI as a Humanities and Social Science field by studying economics, history, law, ethics, and political science in the context of AI to anticipate its impact.",
+        "Change the verb associated with AI from 'replace' to 'augment and enhance' humans, focusing on fields like education, healthcare, and sustainability."
+      ],
+      "source_quote": "Let me lay out the three founding principles of human-centered AI framework that, at Stanford, our institute is built on...",
+      "source_id": "src_029"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "AI as Ambient Intelligence / Guardian Angel",
+      "description": "Viewing AI not as a standalone agent that replaces human workers, but as a continuous, background assistive technology that monitors environments to support human well-being and professional delivery.",
+      "example": "Putting cheap smart sensors around a hospital ward to monitor clinicians' hand-hygiene practices or track patients' mobility in the ICU, thereby assisting overworked nurses and doctors without replacing them.",
+      "source_id": "src_029"
+    }
+  ],
+  "heuristics": [
+    "Start knowing what your passion is and pursue that as early as you can, but it doesn't have to be Computer Science.",
+    "Keep the eventual goal on the horizon to maintain the resilience needed to push through years of institutional or mainstream friction."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I don't think technology has independent values. I think from the design development to deployment, the technology carry our values.",
+      "context": "When asked if an AI system has to have values.",
+      "source_id": "src_029"
+    },
+    {
+      "text": "I fundamentally believe AI is no longer a Computer Science discipline, it's a interdisciplinary field.",
+      "context": "Explaining why Stanford created the Human-Centered AI Institute.",
+      "source_id": "src_029"
+    },
+    {
+      "text": "We want to change a verb. The verb that's associated with AI today is replaced, but we really believe the opportunity and potential... [is to] augment and enhance humans, not to replace humans.",
+      "context": "Detailing the third founding principle of the Human-Centered AI framework.",
+      "source_id": "src_029"
+    },
+    {
+      "text": "AI's value should be human values.",
+      "context": "Reflecting on her realization during her sabbatical at Google Cloud about how profoundly AI touches everyone's life.",
+      "source_id": "src_029"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Fiddling with parameters of small models instead of rethinking the problem from a data-driven perspective.",
+      "why_it_fails": "In the mid-2000s, machine learning was stuck in a local minimum because researchers were focused on small Bayesian networks rather than rebooting algorithms with massive, real-world datasets (which led to ImageNet).",
+      "source_id": "src_029"
+    },
+    {
+      "description": "Viewing AI primarily as a tool to replace human labor.",
+      "why_it_fails": "It ignores the massive potential of AI to assist and enhance human capabilities, especially in critical fields like healthcare where human care is essential but workers are overwhelmed and error-prone.",
+      "source_id": "src_029"
+    }
+  ]
+}

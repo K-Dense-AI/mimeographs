@@ -1,0 +1,1217 @@
+{
+  "total": 89,
+  "verified": 74,
+  "unverified": [
+    {
+      "category": "principles",
+      "label": "Reinforcement Learning is Highly Inefficient",
+      "quote": "we can really use pure reinforcement learning in the real world because you know any action we take you kill you and also you can't win the real world fest every all time",
+      "source_ids": [
+        "src_010",
+        "src_015",
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7941176470588235
+    },
+    {
+      "category": "principles",
+      "label": "LLMs are a Dead End for AGI",
+      "quote": "We're never going to get to human level intelligence by just training on text and other human produced data. This is just not not going to happen.",
+      "source_ids": [
+        "src_003",
+        "src_011"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7945205479452054
+    },
+    {
+      "category": "principles",
+      "label": "Self-Supervised Learning is the Foundation of AI",
+      "quote": "I think this is the main obstacle in artificial intelligence... I do not believe that we'll be able to build really intelligent machines before that.",
+      "source_ids": [
+        "src_010",
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6845637583892618
+    },
+    {
+      "category": "frameworks",
+      "label": "Joint Embedding Predictive Architecture (JEPA)",
+      "quote": "abandon generative architectures in favor of those joint embedding predictive architectures... when you attempt to train a system to reconstruct uh noisy highdimensional noisy continuous data, you kill it essentially.",
+      "source_ids": [
+        "src_023",
+        "src_007",
+        "src_019",
+        "src_024",
+        "src_011",
+        "src_003"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7142857142857143
+    },
+    {
+      "category": "frameworks",
+      "label": "Objective-Driven AI (Model Predictive Control)",
+      "quote": "the inference process... consist in finding the action sequence that minimizes those objectives... you back propagate gradient through them and you update the action sequence",
+      "source_ids": [
+        "src_019",
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5747126436781609
+    },
+    {
+      "category": "frameworks",
+      "label": "Modular Architecture for Autonomous AI",
+      "quote": "Configurator: Configures other modules for task\nPerception: Estimates state of the world\nWorld Model: Predicts future world states\nCost: Compute “discomfort”\nActor: Find optimal action sequences",
+      "source_ids": [
+        "src_007"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8144329896907216
+    },
+    {
+      "category": "mental_models",
+      "label": "The Learning Cake",
+      "quote": "If intelligence were a chocolate cake... the cake itself is unsupervised learning, the icing on the cake is supervised learning, and the cherry on the cake is reinforcement learning.",
+      "source_ids": [
+        "src_010",
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8076923076923077
+    },
+    {
+      "category": "mental_models",
+      "label": "AI as a Staff of Smart Graduate Students",
+      "quote": "Our relationship to those intelligent system will be like the relationship of, let's say, a professor with graduate students who are smarter than them... they'll work for us. They'll be like our staff.",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7761194029850746
+    },
+    {
+      "category": "mental_models",
+      "label": "AI Safety as Turbojet Reliability",
+      "quote": "I'm worried about it in the same way that I'm worried about the question of reliability of turbojets... It's a magical production of engineering of the modern science and engineering of the modern world.",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5960591133004927
+    },
+    {
+      "category": "mental_models",
+      "label": "The Turbojet Analogy for AI Safety",
+      "quote": "A better turbojet is also a safer turbojet; it's the same for AI.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7846153846153846
+    },
+    {
+      "category": "heuristics",
+      "label": "Minimize Reinforcement Learning",
+      "quote": "Use reinforcement learning only when your world model or objective function is inaccurate.",
+      "source_ids": [
+        "src_010",
+        "src_015",
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5
+    },
+    {
+      "category": "heuristics",
+      "label": "Optimize in Continuous Space",
+      "quote": "Do optimization in continuous representation space, not discrete token space.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6103896103896104
+    },
+    {
+      "category": "heuristics",
+      "label": "Redundancy in Self-Supervised Learning",
+      "quote": "When you use self-supervised learning, you need redundancy. You cannot learn anything... if it's completely random.",
+      "source_ids": [
+        "src_024"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.808695652173913
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On the limitations of LLMs",
+      "quote": "We're never going to get to human level intelligence by just training on text and other human produced data. This is just not not going to happen.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7945205479452054
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On traditional linguistics",
+      "quote": "That battle is over and the Chomskians have lost.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5510204081632653
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "Autoregressive LLMs Cannot Achieve AGI",
+      "quote": "we're never going to reach anything close to human level intelligence by just training on text it's just not going to happen",
+      "source_ids": [
+        "src_019",
+        "src_023",
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Intelligence Requires Physical Grounding",
+      "quote": "I'm clearly in the camp that yes, intelligence cannot appear without some grounding in some reality.",
+      "source_ids": [
+        "src_010",
+        "src_019",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Intelligence Requires Predicting Abstract Representations",
+      "quote": "It will be models that learn abstract representations and make predictions on abstract representations and can reason about what is going to be the effect of me taking this action",
+      "source_ids": [
+        "src_032",
+        "src_007",
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Open Research and Open-Source AI are Essential",
+      "quote": "we need a high diversity of AI assistant for the same reason we need a high diversity of the press. We cannot afford to have just a handful of proprietary system coming out of a small number of companies.",
+      "source_ids": [
+        "src_032",
+        "src_024",
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Predict in Abstract Representation Space",
+      "quote": "In a JEPA, you're not trying to predict all the pixels, you're only trying to predict an abstract representation of the inputs, right?",
+      "source_ids": [
+        "src_015",
+        "src_019",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Reinforcement Learning is Highly Inefficient",
+      "quote": "we can really use pure reinforcement learning in the real world because you know any action we take you kill you and also you can't win the real world fest every all time",
+      "source_ids": [
+        "src_010",
+        "src_015",
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7941176470588235
+    },
+    {
+      "category": "principles",
+      "label": "Scaling LLMs Will Not Lead to Human-Level AI",
+      "quote": "We are not going to get to human level AI by just scaling up MLMs. This is just not going to happen.",
+      "source_ids": [
+        "src_032",
+        "src_024",
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Unsupervised and Self-Supervised Learning is the Future",
+      "quote": "We expect unsupervised learning to become far more important in the longer term. Human and animal learning is largely unsupervised: we discover the structure of the world by observing it, not by being told the name of every object.",
+      "source_ids": [
+        "src_042",
+        "src_003",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "AI Safety is an Iterative Engineering Process",
+      "quote": "They're not gonna have the desire to dominate because the desire to dominate is something that has to be hardwired into an intelligent system.",
+      "source_ids": [
+        "src_019",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Anti-Doomerism and Regulatory Capture",
+      "quote": "The very idea of wanting to slow down AI research is akin to a new form of obscurantism",
+      "source_ids": [
+        "src_003",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_003",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Energy-Based Models Over Probabilities",
+      "quote": "you must be weary of probabilities probabilities restrict us to a certain type of lost function that is not necessarily tractable",
+      "source_ids": [
+        "src_010",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Human-Level AI Will Emerge Iteratively",
+      "quote": "there's not going to be like a day before which there is no AGI and after which we we have AGI. This is not going to be an event.",
+      "source_ids": [
+        "src_032",
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Intuitive Neural Inference over Logic",
+      "quote": "Neural networks just use big activity vectors, big weight matrices and scalar non-linearities to perform the type of fast ‘intuitive’ inference that underpins effortless commonsense reasoning.",
+      "source_ids": [
+        "src_042",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 0.9895833333333334
+    },
+    {
+      "category": "principles",
+      "label": "LLMs are a Dead End for AGI",
+      "quote": "We're never going to get to human level intelligence by just training on text and other human produced data. This is just not not going to happen.",
+      "source_ids": [
+        "src_003",
+        "src_011"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7945205479452054
+    },
+    {
+      "category": "principles",
+      "label": "Open Source AI for Global Sovereignty",
+      "quote": "The only way to have any level of sovereignty in AI is is is to have access to open source you know powerful open source AI systems.",
+      "source_ids": [
+        "src_003",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Open-Source AI is Essential for Democracy",
+      "quote": "open source AI is not just a good idea it's necessary for cultural diversity perhaps even the preservation of democracy",
+      "source_ids": [
+        "src_019",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Prediction is the Essence of Intelligence",
+      "quote": "Prediction is the essence of intelligence\nLearning predictive models of the world is the basis of common sense",
+      "source_ids": [
+        "src_007",
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_007",
+      "match_ratio": 0.9818181818181818
+    },
+    {
+      "category": "principles",
+      "label": "Self-Supervised Learning is the Foundation of AI",
+      "quote": "I think this is the main obstacle in artificial intelligence... I do not believe that we'll be able to build really intelligent machines before that.",
+      "source_ids": [
+        "src_010",
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6845637583892618
+    },
+    {
+      "category": "principles",
+      "label": "Self-Supervised Learning is the Primary Driver of Knowledge",
+      "quote": "Almost everything is learned through self-supervised learning\nAlmost nothing is learned through reinforcement, supervised or imitation",
+      "source_ids": [
+        "src_007",
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_007",
+      "match_ratio": 0.9776119402985075
+    },
+    {
+      "category": "principles",
+      "label": "AI Systems Must Be Objective-Driven",
+      "quote": "If you build systems that are smart, we want them to be controllable and we want them to be driven by objectives. We give them an objective and the only thing they can do is fulfill this objective... subject to guardrails.",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 0.9144144144144144
+    },
+    {
+      "category": "principles",
+      "label": "Complex Systems Require End-to-End Deep Architectures",
+      "quote": "We show how to build systems that integrate segmentation, feature extraction, classification, contextual post-processing, and language modeling into one single learning machine trained end-to-end.",
+      "source_ids": [
+        "src_062"
+      ],
+      "verified": true,
+      "matched_source_id": "src_062",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Energy-Based Models for High-Dimensional Data",
+      "quote": "Estimating distributions in high dimension is basically impossible and intractable. Uh you have to represent it by an energy function.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Intelligence is Rapid Skill Acquisition",
+      "quote": "Intelligence is not a collection of skills. It's an ability to acquire new skills extremely quickly.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Representation Learning over Hand-Engineering",
+      "quote": "The key aspect of deep learning is that these layers of features are not designed by human engineers: they are learned from data using a general-purpose learning procedure.",
+      "source_ids": [
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "World Models Must Predict in Abstract Space",
+      "quote": "A world model which allows you to make prediction should not be a simulator of the world. It should be something that you know simulates only the part of the world that you think is predictable and relevant.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Joint Embedding Predictive Architecture (JEPA)",
+      "quote": "abandon generative architectures in favor of those joint embedding predictive architectures... when you attempt to train a system to reconstruct uh noisy highdimensional noisy continuous data, you kill it essentially.",
+      "source_ids": [
+        "src_023",
+        "src_007",
+        "src_019",
+        "src_024",
+        "src_011",
+        "src_003"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7142857142857143
+    },
+    {
+      "category": "frameworks",
+      "label": "Energy-Based Learning (EBM)",
+      "quote": "Inference in EBMs consists in searching for the value of the output variables that minimize an energy function. Learning consists in shaping that energy function in such a way that desired configuration have lower energy than undesired ones.",
+      "source_ids": [
+        "src_062",
+        "src_007"
+      ],
+      "verified": true,
+      "matched_source_id": "src_062",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Energy-Based Model Training",
+      "quote": "you push downwards the energy here and you push upwards all the terms of all energy in this integral",
+      "source_ids": [
+        "src_010",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Objective-Driven AI (Model Predictive Control)",
+      "quote": "the inference process... consist in finding the action sequence that minimizes those objectives... you back propagate gradient through them and you update the action sequence",
+      "source_ids": [
+        "src_019",
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5747126436781609
+    },
+    {
+      "category": "frameworks",
+      "label": "Objective-Driven AI Architecture (Inference by Optimization)",
+      "quote": "The inference procedure is by optimization the system finds an action sequence that minimizes this uh objective function.",
+      "source_ids": [
+        "src_003",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Convolutional Neural Networks (ConvNets)",
+      "quote": "There are four key ideas behind ConvNets that take advantage of the properties of natural signals: local connections, shared weights, pooling and the use of many layers.",
+      "source_ids": [
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Differentiable Programming",
+      "quote": "you write a program based and given assembly modules you can train the properties of those modules to do what you want",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Modular Architecture for Autonomous AI",
+      "quote": "Configurator: Configures other modules for task\nPerception: Estimates state of the world\nWorld Model: Predicts future world states\nCost: Compute “discomfort”\nActor: Find optimal action sequences",
+      "source_ids": [
+        "src_007"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8144329896907216
+    },
+    {
+      "category": "frameworks",
+      "label": "VICReg (Variance, Invariance, Covariance Regularization)",
+      "quote": "Variance: Maintains variance of components of representations\nCovariance: Decorrelates components of covariance matrix of representations\nInvariance: Minimizes prediction error.",
+      "source_ids": [
+        "src_007"
+      ],
+      "verified": true,
+      "matched_source_id": "src_007",
+      "match_ratio": 0.943502824858757
+    },
+    {
+      "category": "mental_models",
+      "label": "Emotions as Anticipation of Outcomes",
+      "quote": "Emotions, to some extent, are an anticipation of outcome. If we have systems that have world models that are capable of anticipating the outcome of a situation... they're going to have emotions",
+      "source_ids": [
+        "src_032",
+        "src_007"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 0.8549222797927462
+    },
+    {
+      "category": "mental_models",
+      "label": "System 1 vs. System 2 Thinking in AI",
+      "quote": "They will think about their answer, plan their answer by optimization before turning it into text.",
+      "source_ids": [
+        "src_011",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The 4-Year-Old vs. 170,000 Years of Reading",
+      "quote": "we're never going to reach anything close to human level intelligence by just training on text it's just not going to happen",
+      "source_ids": [
+        "src_019",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Learning Cake",
+      "quote": "If intelligence were a chocolate cake... the cake itself is unsupervised learning, the icing on the cake is supervised learning, and the cherry on the cake is reinforcement learning.",
+      "source_ids": [
+        "src_010",
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8076923076923077
+    },
+    {
+      "category": "mental_models",
+      "label": "Abstraction Hierarchies / World Models as Abstract Simulators",
+      "quote": "If I ask you, where is Jupiter going to be a hundred years from now? ... you need exactly six numbers—three positions and three velocities. And the rest doesn't matter.",
+      "source_ids": [
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 0.8928571428571429
+    },
+    {
+      "category": "mental_models",
+      "label": "AI as a Staff of Smart Graduate Students",
+      "quote": "Our relationship to those intelligent system will be like the relationship of, let's say, a professor with graduate students who are smarter than them... they'll work for us. They'll be like our staff.",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7761194029850746
+    },
+    {
+      "category": "mental_models",
+      "label": "AI Diversity as the Free Press",
+      "quote": "The press needs to be free and diverse. We have free speech for a good reason. It's because we don't want all of our information to come from a unique source.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 0.9936708860759493
+    },
+    {
+      "category": "mental_models",
+      "label": "AI Safety as Turbojet Reliability",
+      "quote": "I'm worried about it in the same way that I'm worried about the question of reliability of turbojets... It's a magical production of engineering of the modern science and engineering of the modern world.",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5960591133004927
+    },
+    {
+      "category": "mental_models",
+      "label": "Common Sense as Physical Prediction",
+      "quote": "the ability to predict what will happen in the environment is what intelligence is all about really",
+      "source_ids": [
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Consciousness as a Bottleneck",
+      "quote": "Consciousness exists because we have only one world model engine",
+      "source_ids": [
+        "src_007"
+      ],
+      "verified": true,
+      "matched_source_id": "src_007",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Hierarchical State Abstraction (Phenomenological Models)",
+      "quote": "State is really not a single definition. It's it's a hierarchy and you choose the hierarchical level as a function of which type of prediction you want to make.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Historical AI Hype Cycles",
+      "quote": "There's been generation after generation of AI scientists since the 1950s claiming that the technique that they just discovered was going to be the ticket for human-level intelligence... They were all wrong. This generation with LLM is also wrong.",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 0.8259109311740891
+    },
+    {
+      "category": "mental_models",
+      "label": "Retrieval vs. Invention (The Gigantic Memory vs. PhD)",
+      "quote": "it would feel like you have you know a PhD sitting next to you but it's not a PhD you have next to you it's you know a system with a gigantic uh memory and retrieval ability not not a system that can invent solutions to to new problems.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The 4-Year-Old's Visual Bandwidth",
+      "quote": "A 4-year-old has seen as much visual data as the biggest LLM trained on the entire text ever produced.",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Smart Employee Analogy",
+      "quote": "machines will surpass human intelligence but they will be under control because they will be objective driven",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Turbojet Analogy for AI Safety",
+      "quote": "A better turbojet is also a safer turbojet; it's the same for AI.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7846153846153846
+    },
+    {
+      "category": "heuristics",
+      "label": "Minimize Reinforcement Learning",
+      "quote": "Use reinforcement learning only when your world model or objective function is inaccurate.",
+      "source_ids": [
+        "src_010",
+        "src_015",
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5
+    },
+    {
+      "category": "heuristics",
+      "label": "Abandon Generative AI for AGI",
+      "quote": "If you're really interested in human level AI, abandon the idea of generative AI.",
+      "source_ids": [
+        "src_019",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Don't focus on LLMs to build next-gen AI",
+      "quote": "as a path towards human level intelligence lms are dead end",
+      "source_ids": [
+        "src_003",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Open-source will win",
+      "quote": "The only way to have any level of sovereignty in AI is is is to have access to open source you know powerful open source AI systems.",
+      "source_ids": [
+        "src_003",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "A world model is not a digital twin",
+      "quote": "A world model which allows you to make prediction should not be a simulator of the world.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Abandon Reinforcement Learning for AGI",
+      "quote": "abandon reinforcement learning or at least minimize its use because it's so inefficient in terms of samples",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 0.9813084112149533
+    },
+    {
+      "category": "heuristics",
+      "label": "Avoid Probabilistic Normalization",
+      "quote": "you must be weary of probabilities probabilities restrict us to a certain type of lost function that is not necessarily tractable",
+      "source_ids": [
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Language vs. Physical World Complexity",
+      "quote": "We think of language as kind of the epitome of you know, human intelligence and stuff like that. It's actually not true. Language is actually easy.",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Optimize in Continuous Space",
+      "quote": "Do optimization in continuous representation space, not discrete token space.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6103896103896104
+    },
+    {
+      "category": "heuristics",
+      "label": "Redundancy in Self-Supervised Learning",
+      "quote": "When you use self-supervised learning, you need redundancy. You cannot learn anything... if it's completely random.",
+      "source_ids": [
+        "src_024"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.808695652173913
+    },
+    {
+      "category": "heuristics",
+      "label": "Surprise Equals a Flawed World Model",
+      "quote": "When something surprising happens, that means your world model is wrong.",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 0.8611111111111112
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Abandon Generative AI",
+      "quote": "If you're really interested in human level AI, abandon the idea of generative AI.",
+      "source_ids": [
+        "src_019",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "LLMs Will Not Reach AGI",
+      "quote": "we're never going to reach anything close to human level intelligence by just training on text it's just not going to happen",
+      "source_ids": [
+        "src_019",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On AI Doomerism",
+      "quote": "The very idea of wanting to slow down AI research is akin to a new form of obscurantism",
+      "source_ids": [
+        "src_003",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_003",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Open Source and Democracy",
+      "quote": "open source AI is not just a good idea it's necessary for cultural diversity perhaps even the preservation of democracy",
+      "source_ids": [
+        "src_019",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Learning Cake Quote",
+      "quote": "If intelligence were a chocolate cake let's see a black forest I believe in this case the cake itself the gin was in the cake is unsupervised learning the icing on the cake that supervised learning and the cherry on the cake is reinforcement learning",
+      "source_ids": [
+        "src_010",
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "ChatGPT is Not Revolutionary",
+      "quote": "ChatGPT is 'not particularly innovative,' and 'nothing revolutionary'",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 0.9855072463768116
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Domination is Hardwired, Not Learned",
+      "quote": "They're not gonna have the desire to dominate because the desire to dominate is something that has to be hardwired into an intelligent system.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Energy-Based Learning Mechanism",
+      "quote": "Learning consists in shaping that energy function in such a way that desired configuration have lower energy than undesired ones.",
+      "source_ids": [
+        "src_062"
+      ],
+      "verified": true,
+      "matched_source_id": "src_062",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Intelligence is Prediction",
+      "quote": "the ability to predict what will happen in the environment is what intelligence is all about really",
+      "source_ids": [
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "LLMs Lack Grounding",
+      "quote": "LLMs don't have any notion of the underlying reality. And so, their understanding is is relatively superficial.",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On generative architectures",
+      "quote": "when you attempt to train a system to reconstruct uh noisy highdimensional noisy continuous data, you kill it essentially.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On representation learning",
+      "quote": "The key aspect of deep learning is that these layers of features are not designed by human engineers: they are learned from data using a general-purpose learning procedure.",
+      "source_ids": [
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On the definition of intelligence",
+      "quote": "Intelligence is not a collection of skills. It's an ability to acquire new skills extremely quickly.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On the limitations of LLMs",
+      "quote": "We're never going to get to human level intelligence by just training on text and other human produced data. This is just not not going to happen.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7945205479452054
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On traditional linguistics",
+      "quote": "That battle is over and the Chomskians have lost.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5510204081632653
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On unsupervised learning",
+      "quote": "We expect unsupervised learning to become far more important in the longer term. Human and animal learning is largely unsupervised: we discover the structure of the world by observing it, not by being told the name of every object.",
+      "source_ids": [
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Prediction is Intelligence",
+      "quote": "Prediction is the essence of intelligence",
+      "source_ids": [
+        "src_007"
+      ],
+      "verified": true,
+      "matched_source_id": "src_007",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Publish or Perish (Self-Delusion)",
+      "quote": "you cannot really call it research unless you publish what you do, otherwise you can get easily fooled by yourself.",
+      "source_ids": [
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Scaling LLMs is a Dead End",
+      "quote": "We are not going to get to human level AI by just scaling up MLMs. This is just not going to happen.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Self-Supervised Learning Dominance",
+      "quote": "Almost everything is learned through self-supervised learning",
+      "source_ids": [
+        "src_007"
+      ],
+      "verified": true,
+      "matched_source_id": "src_007",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Text Training is Insufficient for AGI",
+      "quote": "we absolutely never, ever going to get to human level AI by just training on text. It's just never going to happen.",
+      "source_ids": [
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Exponential Nonsense of LLMs",
+      "quote": "The probability that an answer would be nonsensical increases exponentially with the number of tokens.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Path to True Intelligence",
+      "quote": "It will not be LLMs. It will not be generative models that predict discrete tokens. It will be models that learn abstract representations and make predictions on abstract representations and can reason...",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 0.9852941176470589
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Regulatory Capture via Doomerism",
+      "quote": "the idea somehow that AI is qualitatively different from other technology and and is intrinsically dangerous at the research level that's just completely false.",
+      "source_ids": [
+        "src_003",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Relying on LLMs for AGI",
+      "quote": "as a path towards human level intelligence lms are dead end",
+      "source_ids": [
+        "src_003",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Equating Benchmarks with Intelligence",
+      "quote": "Intelligence is not a collection of skills. It's an ability to acquire new skills extremely quickly.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Relying on Reinforcement Learning for AGI",
+      "quote": "abandon reinforcement learning or at least minimize its use because it's so inefficient in terms of samples",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 0.9813084112149533
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Using Generative Architectures for World Models",
+      "quote": "when you attempt to train a system to reconstruct uh noisy highdimensional noisy continuous data, you kill it essentially.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    }
+  ]
+}

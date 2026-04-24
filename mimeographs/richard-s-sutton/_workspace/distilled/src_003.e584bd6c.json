@@ -1,0 +1,53 @@
+{
+  "source_id": "src_003",
+  "summary": "A brief excerpt from the introduction of 'Reinforcement Learning: An Introduction' defining the abstract boundary between an agent and its environment. Sutton emphasizes that the environment includes internal states of the organism or machine, such as battery levels or hunger, rather than just the external physical world.",
+  "themes": [
+    "Reinforcement Learning",
+    "Agent-Environment Interface",
+    "Abstraction",
+    "Learning from Experience"
+  ],
+  "principles": [
+    {
+      "statement": "The boundary between an agent and its environment is abstract and does not strictly align with the physical boundary of a robot or organism.",
+      "rationale": "To properly model decision-making, internal states like a robot's battery level or a person's hunger must be treated as part of the environment that the internal decision-making agent interacts with.",
+      "source_quote": "An agent is not necessarily an entire robot or organism, and its environment is not necessarily only what is outside of a robot or organism.",
+      "source_id": "src_003"
+    },
+    {
+      "statement": "Agents use experience to improve their performance over time.",
+      "rationale": "Learning is a continuous process of refining intuition or efficiency based on past interactions with the environment.",
+      "source_quote": "In all of these examples the agent can use its experience to improve its per-formance over time.",
+      "source_id": "src_003"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Agent-Environment Abstraction",
+      "description": "A conceptual boundary where the 'agent' is strictly the decision-making entity, and the 'environment' is everything else it interacts with, including the physical body, internal sensors, memories, and aspirations of the organism or machine it inhabits.",
+      "example": "The example robot’s battery is part of the environment of its controlling agent, and Phil’s degree of hunger and food preferences are features of the environment of his internal decision-making agent.",
+      "source_id": "src_003"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "An agent is not necessarily an entire robot or organism, and its environment is not necessarily only what is outside of a robot or organism.",
+      "context": "Defining the abstract nature of the agent-environment interface in reinforcement learning.",
+      "source_id": "src_003"
+    },
+    {
+      "text": "The state of an agent’s environment often include’s information about the state of the machine or organism in which the agent resides, and this can include memories and even aspirations.",
+      "context": "Explaining what constitutes the environment for an internal decision-making agent.",
+      "source_id": "src_003"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming the 'agent' is the entire physical robot or organism and the 'environment' is strictly the external physical world.",
+      "why_it_fails": "It fails to account for internal states (like battery level, hunger, or memories) that the decision-making process must interact with and respond to as external variables.",
+      "source_id": "src_003"
+    }
+  ]
+}

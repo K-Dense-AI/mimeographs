@@ -1,0 +1,112 @@
+{
+  "source_id": "src_048",
+  "summary": "Daphne Koller discusses the application of A.I. in drug discovery, emphasizing that A.I. is not a magic wand in the physical world of biology. She advocates for generating 'fit-for-purpose' data, warns against the erosion of scientific rigor due to A.I. hallucinations, and argues that A.I. should amplify rigorous biology rather than substitute it.",
+  "themes": [
+    "A.I. in Drug Discovery",
+    "Data Generation vs. Data Mining",
+    "Limitations of Generative A.I. in Science",
+    "A.I. in Education",
+    "Re-architecting Biological Research"
+  ],
+  "principles": [
+    {
+      "statement": "We must generate fit-for-purpose data for machine learning in biology.",
+      "rationale": "Existing data collected from the web (text and images) does not contain the answers needed to disentangle complex biology. Novel insights require intentionally generated data.",
+      "source_quote": "We need to generate the right data—data that is fit-for-purpose for machine learning.",
+      "source_id": "src_048"
+    },
+    {
+      "statement": "A.I. is an amplifier of rigorous biology, not a substitute for it.",
+      "rationale": "In the physical world, data is scarce, biased, and causality matters. Learning must be tightly coupled to physical experimentation.",
+      "source_quote": "Done right, A.I. is an amplifier of rigorous biology—not a substitute for it.",
+      "source_id": "src_048"
+    },
+    {
+      "statement": "The goal of A.I. in drug discovery is to win more, not just fail faster.",
+      "rationale": "While speed is important, simply accelerating a flawed process isn't helpful. The focus should be on surfacing new biological insights that fundamentally change the probability of success.",
+      "source_quote": "While speed is important, failing faster is not helpful; our north star is using A.I. to win more.",
+      "source_id": "src_048"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "A.I.-First End-to-End Drug Discovery",
+      "when_to_apply": "When seeking entirely new treatments for diseases with no current options, rather than just optimizing molecules for known targets.",
+      "steps": [
+        "Generate fit-for-purpose data to disentangle biology.",
+        "Use machine learning for novel target discovery.",
+        "Advance to drug discovery to design molecules against these new targets.",
+        "Move into the clinic, turning an artisanal journey into a repeatable process."
+      ],
+      "source_quote": "We have built an A.I.-first engine that transforms drug discovery and development end-to-end—from target discovery, through drug discovery, and into the clinic.",
+      "source_id": "src_048"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Bits Meet Atoms",
+      "description": "The distinction between the virtual world, where A.I. moves at the speed of computation, and the physical world, where processes are slower, more complex, and higher stakes.",
+      "example": "Applying A.I. to biology, where data is scarce and causality matters, requiring a tight coupling of machine learning to physical experimentation.",
+      "source_id": "src_048"
+    },
+    {
+      "name": "Illusion of Causality",
+      "description": "The danger of generative A.I. models that are optimized for fluency rather than factual accuracy, creating convincing but false scientific narratives.",
+      "example": "An A.I. hallucination that presents a beautifully worded mistake, tempting organizations to bypass experimental validation and launching a multimillion-dollar research program down the wrong path.",
+      "source_id": "src_048"
+    }
+  ],
+  "heuristics": [
+    "A.I. shines when feedback loops are fast and data are abundant.",
+    "Failing faster is not helpful; use A.I. to win more."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Many people believe that A.I. is a magic wand that can allow you to move super fast. That assumption can be true in the virtual world, where everything moves at the speed of computation. But it’s not true in the physical world, where bits meet atoms.",
+      "context": "When asked about an assumption about A.I. that is dead wrong.",
+      "source_id": "src_048"
+    },
+    {
+      "text": "My concern about A.I. in science isn’t the distant risk of superintelligence, but the erosion of rigor from the seductive plausibility of generative A.I.",
+      "context": "Discussing what keeps her up at night regarding A.I. development.",
+      "source_id": "src_048"
+    },
+    {
+      "text": "The danger isn’t that A.I. becomes too intelligent, but that we become complacent, trusting articulate outputs over real data.",
+      "context": "Warning against bypassing experimental validation in science.",
+      "source_id": "src_048"
+    },
+    {
+      "text": "While speed is important, failing faster is not helpful; our north star is using A.I. to win more.",
+      "context": "Explaining how Insitro balances pressure for quick wins with long drug discovery timelines.",
+      "source_id": "src_048"
+    },
+    {
+      "text": "Done right, A.I. is an amplifier of rigorous biology—not a substitute for it.",
+      "context": "Addressing misconceptions about A.I. in biotech.",
+      "source_id": "src_048"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Dropping A.I. onto existing, incoherent data like spreadsheets.",
+      "why_it_fails": "Traditional drug discovery isn't ready for A.I. Systems and data collection must be fundamentally re-architected around A.I. to produce breakthroughs.",
+      "source_id": "src_048"
+    },
+    {
+      "description": "Trusting articulate A.I. outputs over prospective, experimental validation.",
+      "why_it_fails": "Generative models are optimized for fluency, not factual accuracy. This complacency silently erodes the scientific method and wastes years chasing beautifully worded mistakes.",
+      "source_id": "src_048"
+    },
+    {
+      "description": "Focusing A.I. solely on designing better molecules for already de-risked targets.",
+      "why_it_fails": "It doesn't address the fundamental need of finding entirely new treatments for patients who currently have no other options.",
+      "source_id": "src_048"
+    },
+    {
+      "description": "Using A.I. for surveillance in education.",
+      "why_it_fails": "It fails to empower students and teachers. A.I. should instead be used to detect subtle signs of struggle to inform a teacher's uniquely human ability to connect.",
+      "source_id": "src_048"
+    }
+  ]
+}

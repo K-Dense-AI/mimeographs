@@ -1,0 +1,46 @@
+{
+  "source_id": "src_063",
+  "summary": "A brief author's response co-authored by Kay-Tee Khaw defending the methodology of the EPIC-Norfolk study. The authors argue that dietary records align better with objective biomarkers than Food Frequency Questionnaires (FFQs) do, and clarify that plasma vitamin C acts as a marker for fruit and vegetable intake rather than the active protective agent against ischaemic heart disease.",
+  "themes": [
+    "Nutritional Epidemiology",
+    "Dietary Assessment Methods",
+    "Biomarkers",
+    "Ischaemic Heart Disease (IHD)"
+  ],
+  "principles": [
+    {
+      "statement": "Dietary records provide a more accurate reflection of long-term intake than Food Frequency Questionnaires (FFQs) when validated against objective biomarkers.",
+      "rationale": "Even when biomarker collection and dietary intake data collection are separated by several years, dietary records agree more closely with fat and carbohydrate biomarkers than FFQs do.",
+      "source_quote": "even when several years separate the collection of the biomarkers from the dietary intake data, the results from the records agree more closely with the fat and carbohydrate biomarkers than those from the FFQ.",
+      "source_id": "src_063"
+    },
+    {
+      "statement": "Do not confuse a dietary biomarker with the active protective factor against a disease.",
+      "rationale": "A biomarker like plasma vitamin C indicates the consumption of fruits and vegetables, but isolated vitamin C supplements do not reduce IHD mortality, indicating the whole foods are what actually confer protection.",
+      "source_quote": "plasma vitamin C is a biomarker of fruits and vegetable consumption and unlikely to be the active protective factor since supplements of pure vitamin C have had no effect on IHD mortality",
+      "source_id": "src_063"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "plasma vitamin C is a biomarker of fruits and vegetable consumption and unlikely to be the active protective factor since supplements of pure vitamin C have had no effect on IHD mortality",
+      "context": "Explaining why their study focused on the effects of whole fruits and vegetables on IHD risk rather than attributing the benefit to the vitamin C biomarker itself.",
+      "source_id": "src_063"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming that a biomarker associated with a healthy diet is the actual causal agent of disease protection.",
+      "why_it_fails": "Clinical trials of isolated supplements (like pure vitamin C) often show no effect on mortality, suggesting the biomarker merely indicates consumption of the broader protective foods (like fruits and vegetables).",
+      "source_id": "src_063"
+    },
+    {
+      "description": "Attributing the agreement between dietary records and biomarkers solely to the fact that they were collected at the same time.",
+      "why_it_fails": "Data shows that dietary records still agree more closely with biomarkers than FFQs do, even when several years separate the collection of the biomarkers from the dietary intake data.",
+      "source_id": "src_063"
+    }
+  ]
+}

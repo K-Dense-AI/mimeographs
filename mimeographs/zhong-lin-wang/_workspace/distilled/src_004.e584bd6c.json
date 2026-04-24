@@ -1,0 +1,39 @@
+{
+  "source_id": "src_004",
+  "summary": "A brief LinkedIn profile snippet where Zhong Lin Wang highlights his work on using Triboelectric nanogenerators (TENG) as probes for liquid-solid interfaces. He also issues a strong warning against AI-fabricated scientific articles being falsely attributed to researchers.",
+  "themes": [
+    "Triboelectric nanogenerators (TENG)",
+    "Scientific integrity",
+    "AI-fabricated research"
+  ],
+  "principles": [
+    {
+      "statement": "Triboelectric nanogenerators (TENG) serve as effective probes for investigating charge transfer at liquid-solid interfaces.",
+      "rationale": "This is a methodology he proposed years ago and continues to validate through updated reviews in chemical journals.",
+      "source_quote": "TENG is a probe for studying charge transfer at liquid-solid interface that we proposed 6 years ago.",
+      "source_id": "src_004"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "It came to our attention that an AI-fabricated article titled “Influence of Reaction Parameters on the Crystallinity and Aspect Ratio of Lanthanum Nanorods\" appeared in your journal with the authorship assigned to us. We have not authored this article and request that you immediately remove it from your website and any connected sites.",
+      "context": "Writing to a journal editor to retract a fake AI-generated paper falsely attributed to him.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "TENG is a probe for studying charge transfer at liquid-solid interface that we proposed 6 years ago.",
+      "context": "Sharing an updated review on the topic.",
+      "source_id": "src_004"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Publishing AI-fabricated scientific articles without verifying authorship.",
+      "why_it_fails": "It compromises scientific integrity by assigning false authorship to fabricated research, requiring immediate retraction.",
+      "source_id": "src_004"
+    }
+  ]
+}

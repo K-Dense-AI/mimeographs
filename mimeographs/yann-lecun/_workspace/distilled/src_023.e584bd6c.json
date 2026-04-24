@@ -1,0 +1,415 @@
+{
+  "source_id": "src_023",
+  "summary": "Yann LeCun argues that autoregressive LLMs will not achieve human-level intelligence because they lack reasoning, planning, and an understanding of the physical world. He advocates for open-source AI to prevent corporate monopolies on information and proposes Joint Embedding Predictive Architectures (JEPA) as a path forward to build true world models grounded in physical reality. Yann LeCun discusses the limitations of autoregressive Large Language Models (LLMs), arguing they lack true reasoning, physical world experience, and hierarchical planning capabilities. He advocates for abandoning generative AI in favor of Joint Embedding Predictive Architectures (JEPA) and energy-based models that can perform 'System 2' deliberate planning in an abstract representation space. Yann LeCun discusses his vision for the future of AI, advocating strongly for joint embedding architectures (JEPAs) over generative models and minimizing the use of reinforcement learning. He argues that unbiased AI is impossible, making open-source models essential for cultural diversity and democracy. Finally, he pushes back against AI doomers, explaining that AGI will be a gradual evolution rather than a sudden event, and that intelligent systems will not inherently desire to dominate humanity. Yann LeCun argues against AI existential risk, explaining that the desire to dominate is a biological trait of social species, not a default property of intelligence. He strongly advocates for open-source AI to prevent a dangerous corporate concentration of power, and uses historical analogies like turbojet engineering and the printing press to illustrate that AI safety will be iterative and that AI will ultimately amplify human intelligence.",
+  "themes": [
+    "Limits of Autoregressive LLMs",
+    "Open Source AI vs. Proprietary AI",
+    "World Models and Grounded Intelligence",
+    "Joint Embedding Predictive Architecture (JEPA)",
+    "Hierarchical Planning",
+    "Limitations of Autoregressive LLMs",
+    "Self-Supervised Learning",
+    "Joint Embedding Predictive Architectures (JEPA)",
+    "Energy-Based Models",
+    "System 1 vs. System 2 Thinking in AI",
+    "Physical World Grounding vs. Text-Only Training",
+    "Energy-Based Models vs. Generative Models",
+    "Limitations of Reinforcement Learning",
+    "Open Source AI and Diversity",
+    "The Impossibility of Unbiased AI",
+    "AGI Timelines and Nature of Intelligence",
+    "Pushback against AI Doomerism",
+    "AI Safety and Existential Risk",
+    "Open Source AI",
+    "Concentration of Power",
+    "Robotics and World Models",
+    "Technological History and Fear"
+  ],
+  "principles": [
+    {
+      "statement": "Autoregressive LLMs are not the path towards human-level intelligence.",
+      "rationale": "They lack essential characteristics of intelligent behavior, such as understanding the physical world, persistent memory, reasoning, and the ability to plan.",
+      "source_quote": "But as a path towards human level intelligence, they're missing essential components.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Intelligence must be grounded in reality.",
+      "rationale": "Most human knowledge is derived from observation and interaction with the physical world, not language. Language is a low-bandwidth, approximate representation of reality.",
+      "source_quote": "I'm clearly in the camp that yes, intelligence cannot appear without some grounding in some reality.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "The concentration of power through proprietary AI systems is a massive danger.",
+      "rationale": "Keeping AI under lock and key for 'security' reasons leads to a future where our information diet is controlled by a small number of companies.",
+      "source_quote": "I see the danger of this concentration of power through proprietary AI systems as a much bigger danger than everything else.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "World models should predict abstract representations, not raw pixels.",
+      "rationale": "The physical world is too complex and continuous to predict every detail (like leaves moving in the wind). Predicting abstract representations filters out unpredictable noise and preserves what can be modeled.",
+      "source_quote": "In a JEPA, you're not trying to predict all the pixels, you're only trying to predict an abstract representation of the inputs, right?",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Autoregressive LLMs cannot achieve true human-level intelligence or reasoning.",
+      "rationale": "They lack experience of the physical world, their errors accumulate exponentially with each token generated, and they spend a constant amount of compute per token rather than dedicating more computational resources to complex problems.",
+      "source_quote": "The probability that an answer would be nonsensical increases exponentially with the number of tokens.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Hierarchical planning is absolutely necessary for complex actions.",
+      "rationale": "You cannot plan a complex sequence of actions (like traveling from New York to Paris) at the lowest level of abstraction (millisecond-by-millisecond muscle control) because it is computationally expensive and you lack the information about future conditions.",
+      "source_quote": "So hierarchical planning is absolutely necessary if you want to plan complex actions.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Future AI systems must plan and reason in an abstract representation space before generating text.",
+      "rationale": "Generating and selecting discrete text sequences is computationally wasteful. Optimizing in a continuous, abstract space using gradient descent is much more efficient and mimics human deliberate planning.",
+      "source_quote": "They will think about their answer, plan their answer by optimization before turning it into text.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "High-level common sense requires a foundation of low-level physical common sense.",
+      "rationale": "Language is built on a shared, implicit understanding of physical reality (like gravity and inertia) that humans learn through high-bandwidth sensory observation as babies, which text-only LLMs completely miss.",
+      "source_quote": "To have high level common sense, you need to have the low level common sense to build on top of.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Minimize the use of Reinforcement Learning because it is highly sample-inefficient.",
+      "rationale": "Systems should first learn good representations and world models from observation. RL should only be used to adjust the world model or objective function when predictions are inaccurate, such as during play or fine-tuning for a specific task.",
+      "source_quote": "I think it should not be abandoned completely, but I think it's use should be minimized because it's incredibly inefficient in terms of samples.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "It is impossible to build an unbiased AI system.",
+      "rationale": "Bias is subjective and depends on the beholder's culture and values. Attempting to aggressively de-bias a system to avoid offending one group will inevitably offend another or result in non-factual outputs.",
+      "source_quote": "And so you cannot have an unbiased system, that's just an impossibility.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Open source is the only way to ensure a diverse and safe AI ecosystem.",
+      "rationale": "Because AI will mediate all human interaction with the digital world, we cannot allow a few West Coast companies to control the repository of human knowledge. Open source allows different cultures, governments, and businesses to fine-tune models to their specific languages and value systems.",
+      "source_quote": "So the inevitable direction of history is that the vast majority of AI systems will be built on top of open source platforms.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "The emergence of human-level AI will be a gradual process, not a sudden event.",
+      "rationale": "Building AGI requires solving many unseen problems and integrating complex systems like memory, reasoning, and hierarchical planning. It will not happen by simply discovering a secret and turning on a machine.",
+      "source_quote": "The idea somehow which is popularized by science fiction in Hollywood that somehow somebody is gonna discover the secret... and then turn on a machine and then we have AGI. That's just not going to happen. It's not going to be an event.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Super-intelligent AI will not inherently want to dominate humanity.",
+      "rationale": "The desire to dominate is a trait hardwired into social species (like humans and baboons), not a universal byproduct of intelligence. Non-social intelligent species (like orangutans) do not possess it, and we will not hardwire it into AI.",
+      "source_quote": "They're not gonna have the desire to dominate because the desire to dominate is something that has to be hardwired into an intelligent system.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "AI systems will not naturally desire to dominate or eliminate humanity.",
+      "rationale": "The desire to dominate or attain status is a biological trait specific to social species (like humans, chimpanzees, and wolves), not an inherent characteristic of intelligence itself.",
+      "source_quote": "the desire to dominate is something that has to be hardwired into an intelligent system... The species in which this desire to dominate or submit or attain status in other ways is specific to social species.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "AI safety is an iterative engineering process, not a mathematical proof.",
+      "rationale": "Complex systems become reliable through progressive design and fine-tuning over time. Making a system better and more useful inherently makes it safer and more controllable.",
+      "source_quote": "The idea somehow that we can't get it slightly wrong, because if we get it slightly wrong we all die, is ridiculous. We're just gonna go progressively.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Open-source AI is essential for the preservation of democracy and diversity of thought.",
+      "rationale": "If AI is kept proprietary under the guise of security, our entire information diet will be controlled by a small number of companies, leading to a dangerous concentration of power.",
+      "source_quote": "I see the danger of this concentration of power through proprietary AI systems as a much bigger danger than everything else.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "AI will amplify human intelligence rather than threaten it.",
+      "rationale": "AI will act as a staff of super smart virtual assistants, making people smarter and more capable, much like how the printing press democratized knowledge.",
+      "source_quote": "We can make humanity smarter with AI. Okay? I mean AI basically will amplify human intelligence.",
+      "source_id": "src_023"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Joint Embedding Predictive Architecture (JEPA)",
+      "when_to_apply": "When building AI systems to learn abstract representations of the world from sensory data (like images or video) without relying on generative pixel reconstruction.",
+      "steps": [
+        "Take a full input (e.g., an image or video).",
+        "Create a corrupted or transformed version of that input (e.g., by masking a region).",
+        "Run both the full input and the corrupted input through encoders to get joint embeddings.",
+        "Train a predictor on top of the encoders to predict the abstract representation of the full input from the representation of the corrupted input."
+      ],
+      "source_quote": "train a predictor on top of those encoders to predict the representation of the full input from the representation of the corrupted one.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "Model Predictive Control (for AI Planning)",
+      "when_to_apply": "When an AI system needs to plan a sequence of actions to achieve a specific goal using an internal world model.",
+      "steps": [
+        "Establish the current state of the world at time T.",
+        "Imagine a sequence of potential actions.",
+        "Use the internal world model to predict the outcome (state of the world at time T+1) of those actions.",
+        "Measure to what extent the predicted final state satisfies the objective.",
+        "Execute the sequence of actions that minimizes the objective."
+      ],
+      "source_quote": "You have a model of the system you want to control that can predict the sequence of states corresponding to a sequence of commands. And you are planning a sequence of commands so that according to your world model, the end state of the system will satisfy any objectives that you fix.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "Energy-Based Model Inference (System 2 Planning)",
+      "when_to_apply": "When building AI systems that need to reason, plan, and iteratively refine answers to complex problems rather than reactively generating tokens.",
+      "steps": [
+        "Pass the prompt through an encoder to produce an abstract representation.",
+        "Propose an abstract representation of the answer (a latent variable).",
+        "Use an energy function (a neural net outputting a scalar) to measure the compatibility between the prompt representation and the answer representation.",
+        "Iteratively refine the answer representation using gradient descent to minimize the energy (cost function).",
+        "Feed the optimized abstract representation to an autoregressive decoder to translate the thought into text."
+      ],
+      "source_quote": "So in sort of the space of abstract thoughts, you would elaborate a thought, right? Using this process of minimizing the output of your model.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "Joint Embedding Predictive Architecture (JEPA) Training",
+      "when_to_apply": "When training models to learn good representations of the world from visual data (images or video) without relying on generative autoregression.",
+      "steps": [
+        "Take an image or video as the 'good' input.",
+        "Create a corrupted, shifted, transformed, or masked version of that input.",
+        "Run the corrupted input through the system to predict the representation of the uncorrupted input.",
+        "Compute the prediction error between the predicted representation and the actual representation of the good input.",
+        "Use this prediction error as the 'energy' of the system, minimizing it to learn a compressed representation of reality."
+      ],
+      "source_quote": "So you run the corrupted image to the system, predict the representation of the good input uncorrupted, and then compute the prediction error. That's the energy of the system.",
+      "source_id": "src_023"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The 4-year-old vs. 170,000 years of reading",
+      "description": "A comparison used to illustrate that sensory input provides vastly more information than language. A 4-year-old child processes roughly 10^15 bytes of visual data, whereas an LLM trained on the entire internet processes only about 2x10^13 bytes of text (which would take a human 170,000 years to read).",
+      "example": "Using developmental psychology and optical nerve bandwidth to prove that most human knowledge comes from observation, not language.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "Hierarchical Planning",
+      "description": "Decomposing a complex, high-level objective into progressively smaller, more concrete sub-goals down to the lowest level of motor control.",
+      "example": "Planning a trip from New York to Paris: First, you plan to go to the airport. To do that, you must hail a taxi. To do that, you must go down the elevator. To do that, you must stand up from your chair, which requires millisecond-by-millisecond muscle control.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "System 1 vs. System 2 Thinking in AI",
+      "description": "Borrowed from psychology, System 1 is instinctive, subconscious pattern matching (what current LLMs do). System 2 is deliberate, conscious planning and reasoning using an internal world model (what future AI needs).",
+      "example": "An experienced driver driving on an empty road without thinking (System 1) versus an experienced chess player deliberately thinking through options against a tough opponent (System 2).",
+      "source_id": "src_023"
+    },
+    {
+      "name": "The Curse of Dimensionality in Prompts",
+      "description": "The space of all possible prompts is so astronomically large that training data only covers a tiny fraction. LLMs act as giant lookup tables and break when encountering the 'long tail' of prompts outside their training distribution.",
+      "example": "Jailbreaking an LLM by substituting a few words with another language, causing it to spew nonsense because it falls outside its conditioned prompt space.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "AI Diversity as the Free Press",
+      "description": "A lens for understanding why AI models must be open-source. Just as a healthy liberal democracy requires a free and diverse press so that information doesn't come from a single controlled source, society requires a diverse ecosystem of AI assistants rather than a few centralized models controlled by big tech.",
+      "example": "When asked how to solve the problem of AI bias and censorship, LeCun points to the press: 'The press needs to be free and diverse. We have free speech for a good reason. It's because we don't want all of our information to come from a unique source.'",
+      "source_id": "src_023"
+    },
+    {
+      "name": "Intelligence as a High-Dimensional Space",
+      "description": "Intelligence is not a single scalar metric (like IQ) that can be plotted on a linear graph. It is a multidimensional collection of skills and the ability to acquire new skills efficiently.",
+      "example": "LeCun compares humans to orangutans to illustrate this: humans are smarter in some ways, but orangutans are smarter in domains required to survive in the forest. Therefore, you cannot simply measure or compare intelligence with a single number.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "The Turbojet Analogy for AI Safety",
+      "description": "Viewing AI safety not as a separate, provable theorem, but as an inherent byproduct of iterative engineering. Safety and performance are deeply intertwined.",
+      "example": "Just as jet engines became incredibly reliable through decades of fine-tuning rather than a single 'general principle of safety', AI will become safe because engineers will iteratively design them to be more useful and controllable.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "The AI Spam Filter",
+      "description": "A lens for reasoning about AI-generated propaganda and manipulation. It posits that malicious AI will not have direct access to vulnerable humans.",
+      "example": "If a rogue state builds an AI to brainwash citizens, it won't talk directly to the user; it will have to bypass the user's own AI assistant, which will be equally smart and simply filter the propaganda out like spam.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "The Printing Press Analogy",
+      "description": "Comparing the advent of AI to the invention of the printing press to understand its societal impact and the futility of banning it to protect legacy jobs.",
+      "example": "LeCun compares people wanting to regulate AI to protect jobs to the Ottoman Empire banning the printing press for 200 years to protect the powerful corporation of calligraphers, which ultimately held back their society.",
+      "source_id": "src_023"
+    }
+  ],
+  "heuristics": [
+    "Most of what we learn and most of our knowledge is through our observation and interaction with the real world, not through language.",
+    "Whenever we describe a phenomenon, we describe it at a particular level of abstraction.",
+    "If you're really interested in human level AI, abandon the idea of generative AI.",
+    "Do optimization in continuous representation space, not discrete token space.",
+    "Use reinforcement learning only when your world model or objective function is inaccurate.",
+    "Bias is in the eye of the beholder.",
+    "A better turbojet is also a safer turbojet; it's the same for AI.",
+    "Whenever there is a progress someplace, there is a countermeasure. It's a cat and mouse game."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I believe that people are fundamentally good and so if AI, especially open source AI can make them smarter, it just empowers the goodness in humans.",
+      "context": "Discussing the dangers of proprietary AI and the philosophy behind open-sourcing AI.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "LLMs can do none of those, or they can only do them in a very primitive way. And they don't really understand the physical world, they don't really have persistent memory, they can't really reason and they certainly can't plan.",
+      "context": "Explaining why autoregressive LLMs are missing essential components of intelligent behavior.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "Language is a very approximate representation or percepts and or mental models, right?",
+      "context": "Arguing that intelligence must be grounded in reality, not just language.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "In a JEPA, you're not trying to predict all the pixels, you're only trying to predict an abstract representation of the inputs, right?",
+      "context": "Explaining the difference between generative models and Joint Embedding Predictive Architectures.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "If you're really interested in human level AI, abandon the idea of generative AI.",
+      "context": "Discussing the failure of generative models to learn good representations of the real world from video.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "We're fooled by their fluency, right? We just assume that if a system is fluent in manipulating language, then it has all the characteristics of human intelligence. But that impression is false.",
+      "context": "Explaining why people overestimate the intelligence of LLMs.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "The probability that an answer would be nonsensical increases exponentially with the number of tokens.",
+      "context": "Explaining the fundamental flaw of autoregressive prediction and hallucination drift.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "In the end, the system ends up being kind of a giant lookup table, right?",
+      "context": "Describing how LLMs handle the vast space of possible prompts by relying on fine-tuning rather than true reasoning.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "They will think about their answer, plan their answer by optimization before turning it into text.",
+      "context": "Describing the blueprint for future AI dialogue systems.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "And so you cannot have an unbiased system, that's just an impossibility.",
+      "context": "Discussing the complaints that AI models like Google's Gemini are biased or 'woke'.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "So the inevitable direction of history is that the vast majority of AI systems will be built on top of open source platforms.",
+      "context": "Explaining how open source is the only way to achieve the necessary diversity of AI systems across different cultures and industries.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "I've been hearing people for the last 12, 15 years claiming that AGI is just around the corner and being systematically wrong. And I knew they were wrong when they were saying it. I called it bullshit.",
+      "context": "Pushing back against the idea that AGI is imminent.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "They're not gonna have the desire to dominate because the desire to dominate is something that has to be hardwired into an intelligent system.",
+      "context": "Refuting the AI doomer argument that a super-intelligent AI will naturally want to take over the world.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "The desire to dominate is something that has to be hardwired into an intelligent system.",
+      "context": "Explaining why AI won't naturally want to eliminate humanity.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "The idea somehow that we can't get it slightly wrong, because if we get it slightly wrong we all die, is ridiculous.",
+      "context": "Pushing back against AI doomers who demand perfect safety guarantees before deployment.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "That AI system that tries to convince you of something, it's gonna be talking to an AI system which is gonna be at least as smart as it. And is gonna say, this is spam.",
+      "context": "Describing how future AI assistants will protect users from AI-generated propaganda.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "It's as if every one of us will have a staff of smart AI assistants... everyone would be the boss of a staff of super smart virtual people.",
+      "context": "Describing his hopeful vision for the future of human-AI collaboration.",
+      "source_id": "src_023"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Expecting autoregressive LLMs to achieve human-level intelligence.",
+      "why_it_fails": "They lack persistent memory, reasoning, planning, and an understanding of the physical world. They instinctively spit out one token after another without actually planning the answer.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Training vision systems by reconstructing corrupted images or video (generative pixel prediction).",
+      "why_it_fails": "The physical world is high-dimensional and continuous. It is impossible for a system to predict every unpredictable detail, like the exact texture of a carpet or leaves moving in the wind.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Keeping AI systems under lock and key for 'security' reasons.",
+      "why_it_fails": "It leads to a dangerous future where our entire information diet is controlled by a small number of companies through proprietary systems.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Using language as a crutch to train vision systems (Vision-Language Models) before the system understands the physical world.",
+      "why_it_fails": "It's cheating. It prevents the system from learning how the world actually works at a fundamental level, failing to reach even the intelligence of a cat or dog, which have no language but understand the world deeply.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Relying on generative models (predicting pixels or tokens) to learn representations of the real world.",
+      "why_it_fails": "It attempts to reconstruct every detail of the situation, which is too complex and fails for high-bandwidth data like video. It is better to use joint embedding architectures that predict in abstract representation space.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Assuming LLMs can reason because they are fluent in language.",
+      "why_it_fails": "LLMs just regurgitate templates they were trained on. Their computation per token is constant, meaning they don't spend more time 'thinking' about complex problems, unlike true reasoning systems.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Believing all underlying reality is implicit in language.",
+      "why_it_fails": "Most foundational knowledge about the physical world (gravity, inertia, object permanence) is learned by babies through high-bandwidth sensory observation long before language develops, and is rarely explicitly described in text.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Believing that AGI will happen overnight as a sudden 'event' where a secret is discovered and a machine is turned on.",
+      "why_it_fails": "Intelligence requires solving many unseen problems, building hierarchical planning, and integrating complex systems. It will be a gradual process of scaling up capabilities over decades.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Trying to build a universally 'safe' and unbiased AI system within a closed, centralized company.",
+      "why_it_fails": "Bias is subjective. Pushing a system to avoid offending one group will inevitably offend another or result in historically inaccurate and non-factual outputs.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Assuming that because an AI is highly intelligent, it will naturally seek to dominate or eliminate humanity.",
+      "why_it_fails": "The desire to dominate is a specific evolutionary trait hardwired into social species (like humans or wolves), not a default byproduct of intelligence itself.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Fearing that LLMs will enable bad actors to easily build bio-weapons.",
+      "why_it_fails": "LLMs do not provide more actionable help than a search engine. The actual physical execution and lab work required to build such weapons is incredibly difficult and requires real-world expertise that language models cannot provide.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Assuming AI will naturally want to dominate or eliminate humanity.",
+      "why_it_fails": "Domination is a biological trait specific to social species (like humans and baboons) competing for status, not a default characteristic of high intelligence.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Believing AI safety requires a silver bullet or mathematical proof before deployment.",
+      "why_it_fails": "Complex systems cannot be proven safe mathematically; they become safe through progressive, iterative design and correcting unexpected behaviors in the real world.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Keeping AI under lock and key for 'security' reasons.",
+      "why_it_fails": "It leads to a dangerous concentration of power where our entire information diet is controlled by a small number of companies through proprietary systems.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Assuming AI progress will be a sudden, secret 'Manhattan Project' style event.",
+      "why_it_fails": "AI progress is continuous, driven by industry rather than government, and breakthroughs disseminate extremely quickly across the open tech ecosystem.",
+      "source_id": "src_023"
+    }
+  ]
+}

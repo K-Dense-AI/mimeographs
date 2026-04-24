@@ -1,0 +1,77 @@
+{
+  "source_id": "src_039",
+  "summary": "The source is an Amazon product page for René Descartes' 'Principles of Philosophy.' It contains publisher descriptions and customer reviews that summarize his core philosophical and physical theories, including methodological doubt, the 'Cogito Ergo Sum,' his ontological arguments for God, and his foundational laws of motion.",
+  "themes": [
+    "Methodological Doubt",
+    "Epistemology",
+    "Laws of Physics",
+    "Ontological Argument",
+    "Rationalism"
+  ],
+  "principles": [
+    {
+      "statement": "In the absence of external forces, an object's motion will be uniform and in a straight line.",
+      "rationale": "This is a fundamental principle of nature and physics, which was later adopted by Newton as his First Law of Motion.",
+      "source_quote": "in the absence of external forces, an object's motion will be uniform and in a straight line.",
+      "source_id": "src_039"
+    },
+    {
+      "statement": "To find truth, you must doubt everything at least once.",
+      "rationale": "Doubting all preconceived notions is necessary to strip away uncertain knowledge and discover what is known for certain.",
+      "source_quote": "In order to examine into the truth, it is necessary once in one’s life to doubt of all things.",
+      "source_id": "src_039"
+    },
+    {
+      "statement": "The act of thinking proves one's own existence.",
+      "rationale": "Even if everything else is called into doubt, the very act of doubting requires a thinking entity, making existence the first undeniable truth.",
+      "source_quote": "I think, therefore I am.",
+      "source_id": "src_039"
+    },
+    {
+      "statement": "God must exist because the idea of God is a perfect being, and existence is a perfection.",
+      "rationale": "Based on an ontological argument, to exist in reality is more perfect than not to exist, so a perfect being must possess existence.",
+      "source_quote": null,
+      "source_id": "src_039"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Methodological Doubt",
+      "when_to_apply": "When seeking foundational, undeniable truths about reality and existence.",
+      "steps": [
+        "Doubt, as far as possible, all things you previously believed.",
+        "Identify the first certain truth that cannot be called into doubt (your own existence as a thinking thing).",
+        "Use this foundational fact, basic logic, and innate ideas to deduce further truths."
+      ],
+      "source_quote": "If you would be a real seeker after truth, it is necessary that at least once in your life you doubt, as far as possible, all things",
+      "source_id": "src_039"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Objective vs. Formal Reality",
+      "description": "A causal model asserting that there must be as much reality in the cause of an idea (formal reality) as there is in the content of the idea itself (objective reality).",
+      "example": "Descartes argues that the innate idea of an infinite God (infinite objective reality) must be caused by an actual being with infinite formal reality.",
+      "source_id": "src_039"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "In order to examine into the truth, it is necessary once in one’s life to doubt of all things.",
+      "context": null,
+      "source_id": "src_039"
+    },
+    {
+      "text": "I think, therefore I am.",
+      "context": "Translated from 'Cogito Ergo Sum', representing his first certain truth.",
+      "source_id": "src_039"
+    },
+    {
+      "text": "If you would be a real seeker after truth, it is necessary that at least once in your life you doubt, as far as possible, all things",
+      "context": null,
+      "source_id": "src_039"
+    }
+  ],
+  "anti_patterns": []
+}

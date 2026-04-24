@@ -1,0 +1,96 @@
+{
+  "source_id": "src_006",
+  "summary": "Jürgen Schmidhuber's blog chronicles the historical timeline of modern AI, asserting that the foundational concepts of deep learning—including Transformers, GANs, LSTMs, and ResNets—were developed by his lab in the early 1990s. He strongly advocates for scientific integrity, frequently criticizing major awards and prominent figures for failing to credit the original pioneers of these technologies.",
+  "themes": [
+    "History of AI",
+    "Scientific Integrity",
+    "Deep Learning Foundations",
+    "Artificial Curiosity",
+    "Credit Assignment"
+  ],
+  "principles": [
+    {
+      "statement": "Scientific integrity requires accurately crediting the original inventors of methodologies.",
+      "rationale": "Corporate PR and major awards (like the Turing Award and Nobel Prize) often distort the academic record by rewarding researchers who republished earlier methods without citing the true pioneers.",
+      "source_quote": "Sadly, the Nobel Prize in Physics 2024 for Hopfield & Hinton is a Nobel Prize for plagiarism. They republished methodologies developed in Ukraine and Japan... without citing the original papers.",
+      "source_id": "src_006"
+    },
+    {
+      "statement": "Machine learning is fundamentally the science of credit assignment.",
+      "rationale": "The core challenge in AI is determining which parts of a system are responsible for success or failure, a concept that spans the entire history of the field.",
+      "source_quote": "Machine learning is the science of credit assignment.",
+      "source_id": "src_006"
+    },
+    {
+      "statement": "Artificial curiosity and creativity can be achieved through adversarial neural networks.",
+      "rationale": "By having two neural networks fight in a minimax game where one minimizes the objective function maximized by the other, an agent can learn to design interesting computational experiments and maximize learning progress.",
+      "source_quote": "Our artificial scientists not only answer given questions but also invent new questions. They achieve curiosity through: (1990) the principle of generative adversarial networks (GANs)",
+      "source_id": "src_006"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Artificial Curiosity via Generative Adversarial Agents",
+      "when_to_apply": "When building agents that need to explore, invent new questions, or exhibit creative behavior.",
+      "steps": [
+        "Set up two artificial neural networks.",
+        "Have the networks interact in a minimax game or duel.",
+        "Make one network try to minimize the objective function that is maximized by the other.",
+        "Use this adversarial process to maximize learning progress or information gain."
+      ],
+      "source_quote": "It is based on a duel where one neural net minimizes the objective function maximized by another. GANs are simple special cases.",
+      "source_id": "src_006"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Fast Weight Programmers",
+      "description": "A model for neural networks where one network learns to program the 'fast weights' of another network, effectively separating storage and control in a manner similar to traditional computers.",
+      "example": "The 1991 unnormalised linear Transformer (ULTRA), which scales linearly in input size rather than quadratically.",
+      "source_id": "src_006"
+    },
+    {
+      "name": "Neural World Models",
+      "description": "The idea that agents plan action sequences by manipulating internal mental images or representations of the physical world in the absence of actual objects, implemented via recurrent neural networks.",
+      "example": "Using recurrent neural networks for reinforcement learning and planning in partially observable environments.",
+      "source_id": "src_006"
+    }
+  ],
+  "heuristics": [
+    "Deep learning is all about NN depth."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Machine learning is the science of credit assignment.",
+      "context": "Opening his annotated history of modern AI and deep learning.",
+      "source_id": "src_006"
+    },
+    {
+      "text": "Sadly, the Nobel Prize in Physics 2024 for Hopfield & Hinton is a Nobel Prize for plagiarism.",
+      "context": "Criticizing the 2024 Nobel Prize for failing to credit earlier pioneers like Ivakhnenko and Amari.",
+      "source_id": "src_006"
+    },
+    {
+      "text": "Deep learning is all about NN depth. LSTM brought essentially unlimited depth to RNNs; Highway Nets (= generalized ResNets) brought it to FNNs.",
+      "context": "Explaining the significance of Highway Networks and LSTMs in overcoming the vanishing gradient problem.",
+      "source_id": "src_006"
+    },
+    {
+      "text": "Our artificial scientists not only answer given questions but also invent new questions.",
+      "context": "Describing the function of artificial curiosity and creativity since 1990.",
+      "source_id": "src_006"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Republishing existing methodologies without citing the original creators.",
+      "why_it_fails": "It distorts the academic record, turns unintentional omissions into deliberate plagiarism, and deprives the true pioneers of scientific credit.",
+      "source_id": "src_006"
+    },
+    {
+      "description": "Allowing corporate PR to dictate scientific history.",
+      "why_it_fails": "It leads to erroneous laudations (like the 2018 Turing Award) that ignore the foundational work done decades earlier when compute was much more expensive.",
+      "source_id": "src_006"
+    }
+  ]
+}

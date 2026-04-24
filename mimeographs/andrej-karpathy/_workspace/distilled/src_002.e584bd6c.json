@@ -1,0 +1,107 @@
+{
+  "source_id": "src_002",
+  "summary": "Andrej Karpathy outlines the transition to 'Software 3.0', where prompts act as programs and LLMs function as new operating systems. He explores the 'psychology' of LLMs, noting their 'jagged intelligence' and 'anterograde amnesia,' and advocates for building AI products with 'partial autonomy' (like an Iron Man suit) and designing tools specifically for AI agents.",
+  "themes": [
+    "Software 3.0",
+    "LLM Psychology",
+    "Partial Autonomy",
+    "AI Agents",
+    "System Prompt Learning"
+  ],
+  "principles": [
+    {
+      "statement": "Software 3.0 is eating 1.0 and 2.0.",
+      "rationale": "Prompts are becoming the new programs, which will lead to a massive rewrite of existing software stacks.",
+      "source_quote": "Software 3.0 is eating 1.0/2.0",
+      "source_id": "src_002"
+    },
+    {
+      "statement": "We need a new paradigm of System Prompt Learning.",
+      "rationale": "Pretraining is for knowledge and finetuning is for habitual behavior, but LLMs lack a scratchpad for general problem-solving strategies. They need a way to 'take notes' and learn via edits rather than gradient descent.",
+      "source_quote": "We're missing (at least one) major paradigm for LLM learning. Not sure what to call it, possibly it has a name - system prompt learning?",
+      "source_id": "src_002"
+    },
+    {
+      "statement": "Build for Agents.",
+      "rationale": "Agents represent a fundamentally new category of digital consumers. Toolmakers must design interfaces (like llms.txt) that are easily parseable by AI, rather than just GUIs for humans or APIs for traditional computers.",
+      "source_quote": "there is new category of consumer/manipulator of digital information",
+      "source_id": "src_002"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Human-AI Generation-Verification Loop",
+      "when_to_apply": "When designing workflows and interfaces for partial AI autonomy.",
+      "steps": [
+        "Keep the AI on a tight leash to improve the generation phase.",
+        "Make it easy and fast for the human to win to improve the verification phase.",
+        "Iterate the cycle as fast as possible."
+      ],
+      "source_quote": null,
+      "source_id": "src_002"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Jagged Intelligence",
+      "description": "The unintuitive reality that state-of-the-art LLMs can perform highly complex tasks while simultaneously failing at very simple, dumb problems. Their capabilities do not correlate linearly like human intelligence.",
+      "example": "An LLM successfully solving complex math problems but failing to identify whether 9.11 or 9.9 is bigger.",
+      "source_id": "src_002"
+    },
+    {
+      "name": "Anterograde Amnesia",
+      "description": "LLMs are like a coworker who cannot form new long-term memories after training. They rely entirely on their short-term memory (the context window) and do not consolidate long-running expertise.",
+      "example": "Comparing interacting with an LLM to working with the protagonists in the movies Memento or 50 First Dates.",
+      "source_id": "src_002"
+    },
+    {
+      "name": "The Iron Man Suit",
+      "description": "AI products should act as an extension of the user, providing both augmentation (strength, tools, sensors, information) and partial autonomy (taking actions without being prompted).",
+      "example": "Using an 'Autonomy Slider' in tools like Cursor (moving from Tab autocomplete to Cmd+I agent mode) or Tesla Autopilot (Level 1 to Level 4).",
+      "source_id": "src_002"
+    }
+  ],
+  "heuristics": [
+    "Demo is works.any(), product is works.all()",
+    "Use LLMs for the tasks they are good at but be on a lookout for jagged edges, and keep a human in the loop."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Demo is works.any(), product is works.all()",
+      "context": "Explaining the significant gap between a working prototype (like a 2014 self-driving demo) and a reliable, production-ready product.",
+      "source_id": "src_002"
+    },
+    {
+      "text": "Some things work extremely well (by human standards) while some things fail catastrophically (again by human standards), and it's not always obvious which is which, though you can develop a bit of intuition over time.",
+      "context": "Describing the 'Jagged Intelligence' of modern LLMs.",
+      "source_id": "src_002"
+    },
+    {
+      "text": "LLMs are a bit like a coworker with Anterograde amnesia - they don't consolidate or build long-running knowledge or expertise once training is over and all they have is short-term memory (context window).",
+      "context": "Explaining the limitations of LLM memory and learning post-training.",
+      "source_id": "src_002"
+    },
+    {
+      "text": "The hottest new programming language is English",
+      "context": "Referencing the shift toward Software 3.0 where prompts replace traditional code.",
+      "source_id": "src_002"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming LLM capabilities scale linearly like human intelligence.",
+      "why_it_fails": "LLMs possess 'jagged intelligence'—they can solve complex math but fail at simple comparisons (like 9.11 vs 9.9). Blind trust leads to catastrophic failures on seemingly easy tasks.",
+      "source_id": "src_002"
+    },
+    {
+      "description": "Baking problem-solving knowledge exclusively into weights via Reinforcement Learning.",
+      "why_it_fails": "RL is less data-efficient for explicit problem-solving strategies. Karpathy argues this should be handled by a new 'System Prompt learning' paradigm using edits instead of gradient descent.",
+      "source_id": "src_002"
+    },
+    {
+      "description": "Building web apps and documentation exclusively for human consumption (GUIs).",
+      "why_it_fails": "It ignores the new category of AI agents that struggle to parse complex HTML, necessitating agent-friendly formats like llms.txt.",
+      "source_id": "src_002"
+    }
+  ]
+}

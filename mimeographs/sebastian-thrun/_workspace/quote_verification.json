@@ -1,0 +1,847 @@
+{
+  "total": 66,
+  "verified": 59,
+  "unverified": [
+    {
+      "category": "principles",
+      "label": "Fund Outcomes, Not Effort",
+      "quote": "let's not fund effort let's fund outcomes... they automatically drew out all these contractors who are used to the drug of getting money... and they drew in a whole bunch of new people",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7934782608695652
+    },
+    {
+      "category": "principles",
+      "label": "Set Non-Negotiable Technical Milestones",
+      "quote": "I wanted clarity about where we're going. And the best way to codify is was to set ourselves milestones... effectively became a contractual document where we really say this is the technical thing we have to accomplish",
+      "source_ids": [
+        "src_020",
+        "src_032"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5963302752293578
+    },
+    {
+      "category": "frameworks",
+      "label": "End-to-End System Building",
+      "quote": "we build an end to- end system literally from day one that drove literally a public streets like a week or a month in... we realized these are the five most important problems and then we didn't have to argue anymore we just to solve them",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5840336134453782
+    },
+    {
+      "category": "mental_models",
+      "label": "Growing the Pie vs. Divvying Up the Pie",
+      "quote": "In Silicon Valley, our attitude is: 'How do we grow the pie?'",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6229508196721312
+    },
+    {
+      "category": "heuristics",
+      "label": "Freeze Software Early",
+      "quote": "we were done with everything a month before the race and we froze the entire of a month before the race... we had an entire month to shake that system",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On Funding Outcomes",
+      "quote": "let's not fund effort let's fund outcomes",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6829268292682927
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Inevitability and Responsibility",
+      "quote": "Everything that can be made will be made. Whether you say it should or should not be made is immaterial because it will be made. Our job is to prevent the misuse of things that we make.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7945945945945946
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "Regulate Through Liability, Not Preemption",
+      "quote": "Liability goes a long way to regulate – and it’s a good way to regulate – because it ties together the company’s success with its actions as well as shifting the onus of figuring out whether or not your product is safe enough to the company.",
+      "source_ids": [
+        "src_000",
+        "src_006",
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Technological Optimism",
+      "quote": "Technologically pretty much everything can be done. Uh almost nothing cannot be done. And that's actually a surprising thing because most of us in our mindset believe we we love the past invention.",
+      "source_ids": [
+        "src_000",
+        "src_020",
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "AI as a Complement, Not a Replacement",
+      "quote": "Artificial intelligence will not replace us, it will complement us. It gives people new abilities and a perfect memory.",
+      "source_ids": [
+        "src_000",
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Choose Jobs You Are Bad At",
+      "quote": "I don't want to be in the job I'm good at, because if I'm in a job that I'm good at, the chance for me to learn something interesting is actually minimized.",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Education as a Basic Human Right",
+      "quote": "the vision is education ought to be a basic human right it cannot be locked up behind ivory tower walls only for the rich people",
+      "source_ids": [
+        "src_007",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Empower, Don't Program",
+      "quote": "many, many engineers turn management believe they can treat their team just the same way with a computer. And it just doesn't work that way.",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Explicitly Represent Uncertainty",
+      "quote": "A robot that carries a notion of its own uncertainty and that acts accordingly is superior to one that does not.",
+      "source_ids": [
+        "src_037",
+        "src_047"
+      ],
+      "verified": true,
+      "matched_source_id": "src_037",
+      "match_ratio": 0.9821428571428571
+    },
+    {
+      "category": "principles",
+      "label": "Fund Outcomes, Not Effort",
+      "quote": "let's not fund effort let's fund outcomes... they automatically drew out all these contractors who are used to the drug of getting money... and they drew in a whole bunch of new people",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7934782608695652
+    },
+    {
+      "category": "principles",
+      "label": "Knowledge Transfer in Lifelong Learning",
+      "quote": "We argue that knowledge transfer is essential if robots are to learn control with moderate learning times in complex scenarios.",
+      "source_ids": [
+        "src_043",
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_043",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Service-Oriented Leadership",
+      "quote": "Management is not about accountability and all that stuff. Management is about removing roadblocks and really empowering your people.",
+      "source_ids": [
+        "src_020",
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Set Non-Negotiable Technical Milestones",
+      "quote": "I wanted clarity about where we're going. And the best way to codify is was to set ourselves milestones... effectively became a contractual document where we really say this is the technical thing we have to accomplish",
+      "source_ids": [
+        "src_020",
+        "src_032"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5963302752293578
+    },
+    {
+      "category": "principles",
+      "label": "Solve Problems for Ordinary People",
+      "quote": "I can easily impress my colleagues that that's that that is much easier. But impressing my grandmother is very, very hard.",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Active Sensors are Indispensable",
+      "quote": "machine learning alone proved insufficient so far be it alone for the simple case that cars continuously encounter situations that you never train for",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "AI is a Humanities Discipline",
+      "quote": "AI is just a mirror of society. It’s a mirror of the documents we’ve written. Nothing more. What we see is not technology, what we see is us—the way we communicate, the way we paint, the way we are creative, the way we argue.",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Audacious Goals are Easier than Incremental Ones",
+      "quote": "Surprisingly, in Silicon Valley, building something crazy audacious is easier than building something incremental. If you don’t aim high, you won’t shoot high.",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Celebrate Failures to Eliminate Fear",
+      "quote": "If you celebrate your failures really well if you say wow I failed I tried I was wrong but I learned something then you realize you have no fear when your fear goes away you can move the world",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Collective Fleet Learning",
+      "quote": "when one robot makes the mistakes they come home with this knowledge and then we take that knowledge onto the dis drives and and copy it and and the next day all the cars will avoid the same mistakes",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 0.9899497487437185
+    },
+    {
+      "category": "principles",
+      "label": "Embrace Statistical Techniques in Robotics",
+      "quote": "This approach relies on statistical techniques to seamlessly integrate imperfect models and imperfect sensing.",
+      "source_ids": [
+        "src_031"
+      ],
+      "verified": true,
+      "matched_source_id": "src_031",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "End-to-End Execution Over Component Debate",
+      "quote": "I'm a big fan of end to end systems I am not a big fan of arguing components.",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 0.987012987012987
+    },
+    {
+      "category": "principles",
+      "label": "Never Declare a Problem Unsolvable by AI",
+      "quote": "every single time the experts in the worlds agreed that a problem cannot be solved by ey it was solved a few years later so it's a very risky thing to propose something can't be solved by ey",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Technology Makes Humans Superhuman",
+      "quote": "I have very unique human properties and I want the machines to make me turn me into a superhuman like I'm already a superhuman today thanks to the machines that surround me",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Future Belongs to Generalists",
+      "quote": "And going forward, the most important thing is to be a bit of a generalist. Don’t box yourself in.",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Continuous Weak-Link Testing (Early Freeze)",
+      "quote": "It was a continuous focus on improving the weakest part of the system. And as long as you you focus on improving the weakest part of the system, you eventually build a really great system.",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 0.9627659574468085
+    },
+    {
+      "category": "frameworks",
+      "label": "Probabilistic State Estimation (Bayes Filter)",
+      "quote": "The generic Bayes filter calculates a posterior probability over the state xt via the following recursive equation...",
+      "source_ids": [
+        "src_037",
+        "src_047"
+      ],
+      "verified": true,
+      "matched_source_id": "src_047",
+      "match_ratio": 0.9743589743589743
+    },
+    {
+      "category": "frameworks",
+      "label": "Simultaneous Localization and Mapping (SLAM)",
+      "quote": "both the robot localization and the map are uncertain, and by focusing just on one the other introduces systematic noise.",
+      "source_ids": [
+        "src_047",
+        "src_044"
+      ],
+      "verified": true,
+      "matched_source_id": "src_047",
+      "match_ratio": 0.9834710743801653
+    },
+    {
+      "category": "frameworks",
+      "label": "End-to-End System Building",
+      "quote": "we build an end to- end system literally from day one that drove literally a public streets like a week or a month in... we realized these are the five most important problems and then we didn't have to argue anymore we just to solve them",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5840336134453782
+    },
+    {
+      "category": "frameworks",
+      "label": "Explanation-Based Neural Network learning (EBNN)",
+      "quote": "With increasing experience, EBNN employs domain knowledge to explain and to analyze training data in order to generalize in a more knowledgeable way.",
+      "source_ids": [
+        "src_043"
+      ],
+      "verified": true,
+      "matched_source_id": "src_043",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Moonshot Ideation",
+      "quote": "So the first thing is pick a problem you care about like your grandmother cares about like in my case the death of my friend Harold and then ask yourself can you envision a technology that can solve this problem and then work on it.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Problem-First AI Research",
+      "quote": "find yourself a problem that you you belief is solvable and where you believe these meth mechanisms are needed and try to solve it and if you solve it and you still need those mechanisms you have a phenomenal research results",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "3D vs. 1D Transportation (Virtual Lanes)",
+      "quote": "the roads are onedimensional the air is threedimensional and that makes all the difference",
+      "source_ids": [
+        "src_012",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "AI as a Shovel",
+      "quote": "To me, AI is just a tool set, a bit like a shovel. It’s a better shovel, but it's still people who dig for gold with that shovel.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Growing the Pie vs. Divvying Up the Pie",
+      "quote": "In Silicon Valley, our attitude is: 'How do we grow the pie?'",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6229508196721312
+    },
+    {
+      "category": "mental_models",
+      "label": "Intentions vs. Actions Gap",
+      "quote": "We judge ourselves by our intentions in others by the actions.",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 0.9838709677419355
+    },
+    {
+      "category": "mental_models",
+      "label": "Map as a Web-like Network of Local Constraints",
+      "quote": "the posterior distribution in SLAM problems is dominated by a small number of relative links between adjacent features in the map.",
+      "source_ids": [
+        "src_044"
+      ],
+      "verified": true,
+      "matched_source_id": "src_044",
+      "match_ratio": 0.9846153846153847
+    },
+    {
+      "category": "mental_models",
+      "label": "Technology as a Shovel",
+      "quote": "for me a is a tool it's like a shovel and the ethics of using the shovel I always with us the people",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 0.95
+    },
+    {
+      "category": "mental_models",
+      "label": "The Chicken-and-Egg Problem of SLAM",
+      "quote": "The robot mapping problem is like a chicken and egg problem: If the robot’s pose was known all along, building a map would be quite simple.",
+      "source_ids": [
+        "src_047"
+      ],
+      "verified": true,
+      "matched_source_id": "src_047",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Assume Good Intentions",
+      "quote": "I've really never really met a person with bad intentions. I believe every person wants to contribute.",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Focus on the Weakest Link",
+      "quote": "As long as you focus on improving the weakest part of the system, you eventually build a really great system.",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 0.963302752293578
+    },
+    {
+      "category": "heuristics",
+      "label": "Freeze Software Early",
+      "quote": "we were done with everything a month before the race and we froze the entire of a month before the race... we had an entire month to shake that system",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8
+    },
+    {
+      "category": "heuristics",
+      "label": "Move to the Sky to Solve Traffic",
+      "quote": "the roads are onedimensional the air is threedimensional and that makes all the difference",
+      "source_ids": [
+        "src_012",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "The 1% Rule of Invention",
+      "quote": "I deeply believe that only 1% of interesting things have been invented yet. And 99% of stuff has not been invented yet.",
+      "source_ids": [
+        "src_020",
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Aim High to Shoot High",
+      "quote": "If you don’t aim high, you won’t shoot high.",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Product Over Papers",
+      "quote": "You can have a thousand people reference your paper or a billion people use your product and you can only pick one. Which one is it going to be?",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Represent Information as Distributions",
+      "quote": "They key idea of probabilistic robotics is to represent uncertainty explicitly, using the calculus of probability theory.",
+      "source_ids": [
+        "src_037"
+      ],
+      "verified": true,
+      "matched_source_id": "src_037",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AI as a Complement",
+      "quote": "Artificial intelligence will not replace us, it will complement us.",
+      "source_ids": [
+        "src_000",
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On 3D Transportation",
+      "quote": "the roads are onedimensional the air is threedimensional and that makes all the difference",
+      "source_ids": [
+        "src_012",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On Choosing Jobs",
+      "quote": "I don't want to be in the job I'm good at, because if I'm in a job that I'm good at, the chance for me to learn something interesting is actually minimized.",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On Education as a Human Right",
+      "quote": "Our vision at Udacity is to make high-quality education a basic human right.",
+      "source_ids": [
+        "src_007",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_007",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On Funding Outcomes",
+      "quote": "let's not fund effort let's fund outcomes",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6829268292682927
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On Impressing Your Grandmother",
+      "quote": "I can easily impress my colleagues that that's that that is much easier. But impressing my grandmother is very, very hard.",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AI as a Mirror",
+      "quote": "AI is just a mirror of society. It’s a mirror of the documents we’ve written. Nothing more.",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Audacious vs. Incremental",
+      "quote": "Surprisingly, in Silicon Valley, building something crazy audacious is easier than building something incremental.",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "End-to-End Systems",
+      "quote": "I'm a big fan of end to end systems I am not a big fan of arguing components.",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 0.987012987012987
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Inevitability and Responsibility",
+      "quote": "Everything that can be made will be made. Whether you say it should or should not be made is immaterial because it will be made. Our job is to prevent the misuse of things that we make.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7945945945945946
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Management as Roadblock Removal",
+      "quote": "Management is not about accountability and all that stuff. Management is about removing roadblocks and really empowering your people.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On Empathy and Judgment",
+      "quote": "We judge ourselves by our intentions in others by the actions.",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 0.9838709677419355
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On Fleet Learning",
+      "quote": "when one robot makes the mistakes they come home with this knowledge and then we take that knowledge onto the dis drives and and copy it and and the next day all the cars will avoid the same mistakes",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 0.9899497487437185
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On Overcoming Fear",
+      "quote": "If you celebrate your failures really well if you say wow I failed I tried I was wrong but I learned something then you realize you have no fear when your fear goes away you can move the world",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "On Probabilistic Robotics",
+      "quote": "A robot that carries a notion of its own uncertainty and that acts accordingly is superior to one that does not.",
+      "source_ids": [
+        "src_037"
+      ],
+      "verified": true,
+      "matched_source_id": "src_037",
+      "match_ratio": 0.9821428571428571
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Service as the Best Strategy",
+      "quote": "Everything I have—every small thing, every big thing—was given to me by other people. The best way to get what I want is to serve people.",
+      "source_ids": [
+        "src_032"
+      ],
+      "verified": true,
+      "matched_source_id": "src_032",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Technological Possibility",
+      "quote": "Technologically pretty much everything can be done. Uh almost nothing cannot be done.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Changing Nature of Work",
+      "quote": "Whatever you believe your job is, you can be sure that it is going to be different five years from now.",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Preemptive Regulation",
+      "quote": "My greatest worry is that society destroys artificial intelligence through rash regulation.",
+      "source_ids": [
+        "src_000",
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Treating Employees Like Computers",
+      "quote": "many, many engineers turn management believe they can treat their team just the same way with a computer. And it just doesn't work that way.",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Writing Explicit Rules for Complex Behaviors",
+      "quote": "The majority of the human brain doesn't deal with language. It deals with subconscious numerical perceptual things if you don't even every self aware of.",
+      "source_ids": [
+        "src_029",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Emotional AI and Blind Biomimicry",
+      "quote": "I want my car to work I don't want to fall in love with my car I just wanted to work I wanted to compliment me not to replace me",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 1.0
+    }
+  ]
+}

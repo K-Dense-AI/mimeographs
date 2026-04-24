@@ -1,0 +1,56 @@
+{
+  "source_id": "src_024",
+  "summary": "A brief collection of podcast notes highlighting John D. Rockefeller's ruthless business tactics, including his belief in divine wealth, his view of competitors as amateurs, and his strategy of using scale to secure secret railroad rates and force acquisitions.",
+  "themes": [
+    "Monopoly",
+    "Negotiation",
+    "Scale advantage",
+    "Divine providence"
+  ],
+  "principles": [
+    {
+      "statement": "Wealth is a divine mandate.",
+      "rationale": "He had an absolute conviction that his financial success was ordained by God.",
+      "source_quote": "Rockefeller believed that he would be rich and he believed that this was because God wanted him to be.",
+      "source_id": "src_024"
+    },
+    {
+      "statement": "Published prices are only for the small player.",
+      "rationale": "Major operators should use their scale and steady volume to play suppliers against each other for preferential, unlisted rates.",
+      "source_quote": "Published railway tariffs were for the small man. They were not for major shippers who could play one railroad against another while promising steady cargo.",
+      "source_id": "src_024"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The 'Look at the Books' Acquisition Strategy",
+      "when_to_apply": "When attempting to acquire a reluctant competitor.",
+      "steps": [
+        "Achieve a cost of production significantly lower than the competitor's.",
+        "Offer the target competitor a transparent look at your internal accounting books.",
+        "Demonstrate that you can profitably sell at a price lower than their cost of production, proving their inevitable defeat if they refuse to sell."
+      ],
+      "source_quote": "His clincher was to offer the victim a look at the books of Standard. A potential seller was dumbfounded to learn that standard was able to sell at less than his own cost of production.",
+      "source_id": "src_024"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Competitors as Amateurs",
+      "description": "Viewing the rest of the industry as unserious or inefficient, which justifies aggressive tactics to consolidate the market under professional control.",
+      "example": "Rockefeller’s competitors and associates were amateurs by comparison, and he saw them for what they were.",
+      "source_id": "src_024"
+    }
+  ],
+  "heuristics": [
+    "Play suppliers against each other by promising steady volume to secure unlisted rates."
+  ],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Accepting published tariffs or standard pricing.",
+      "why_it_fails": "It surrenders the natural leverage of scale. Standard pricing is for the 'small man' who cannot promise steady volume to suppliers.",
+      "source_id": "src_024"
+    }
+  ]
+}

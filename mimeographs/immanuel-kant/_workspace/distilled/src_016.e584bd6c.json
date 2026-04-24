@@ -1,0 +1,90 @@
+{
+  "source_id": "src_016",
+  "summary": "This academic article examines Immanuel Kant's critique of Plato's metaphysics, specifically Kant's assertion that Plato wrongly abandoned the sensible world in favor of pure ideas. Through this lens, the text outlines Kant's own philosophical commitments: that all thought must be grounded in sensible intuition, that existence cannot be inferred purely from logical concepts, and that ideas like God function not as objective realities but as necessary regulative ideals for practical reason and morality.",
+  "themes": [
+    "Transcendental Idealism",
+    "Sensibility and Understanding",
+    "Critique of Pure Reason",
+    "Practical Reason and Morality",
+    "Regulative Ideals"
+  ],
+  "principles": [
+    {
+      "statement": "All thought must ultimately be grounded in sensible intuition.",
+      "rationale": "Understanding cannot generate knowledge on its own; it requires the receptivity of sensibility because there is no other way for objects to be given to us to think about.",
+      "source_quote": "all thought … must ultimately be related to intuition, thus, in our case, to sensibility, since there is no other way in which the objects can be given to us",
+      "source_id": "src_016"
+    },
+    {
+      "statement": "Reason naturally seeks the unconditioned to complete the unity of understanding.",
+      "rationale": "It is the proper principle of reason to find the ultimate, unconditioned ground for the conditioned cognitions we experience, even though this unconditioned ground is never actually given in experience.",
+      "source_quote": "proper principle of reason in general (in its logical use) is to find the unconditioned for conditioned cognitions of the understanding, with which its unity will be completed",
+      "source_id": "src_016"
+    },
+    {
+      "statement": "The moral law requires us to postulate the existence of God as a subjective necessity.",
+      "rationale": "While theoretical reason cannot prove God's existence objectively, practical reason must assume God exists as an adequate cause to make the highest good possible.",
+      "source_quote": "The moral Law … must … lead to … to the presupposition of the existence [Dasein] of a cause adequate to this effect; i.e., it must postulate the existence of God",
+      "source_id": "src_016"
+    },
+    {
+      "statement": "Moral actions must be based on universalizable maxims.",
+      "rationale": "To act autonomously and morally, a free agent must determine their will using a principle that could logically and consistently be applied to everyone.",
+      "source_quote": "I ought never to act except in such a way that I could also will that my maxim should become a universal law",
+      "source_id": "src_016"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Categorical Imperative (Universalizability Test)",
+      "when_to_apply": "When determining whether a proposed action or maxim is morally permissible.",
+      "steps": [
+        "Identify the maxim (the subjective principle) behind your proposed action.",
+        "Ask whether you could will that this maxim should become a universal law for all rational beings.",
+        "If it cannot be universalized, you ought never to act on it."
+      ],
+      "source_quote": "I ought never to act except in such a way that I could also will that my maxim should become a universal law",
+      "source_id": "src_016"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Flight in Empty Space",
+      "description": "A metaphor for pure understanding attempting to operate without the grounding of sensible experience. Just as a bird needs the resistance of air to fly, human understanding needs the 'resistance' and support of sensible intuition to make any headway. Without it, reason merely spins illusions.",
+      "example": "Kant uses this to critique Plato, stating Plato 'dared to go beyond it on the wings of the ideas, in the empty space of pure understanding. He did not notice that he made no headway by his efforts, for he had no resistance...'",
+      "source_id": "src_016"
+    }
+  ],
+  "heuristics": [
+    "I ought never to act except in such a way that I could also will that my maxim should become a universal law."
+  ],
+  "signature_quotes": [
+    {
+      "text": "We understand him even better than he understood himself",
+      "context": "Kant's famous remark regarding his interpretation of Plato's ideas.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "Plato abandoned the world of the senses because it posed so many hindrances for the understanding, and dared to go beyond it on the wings of the ideas, in the empty space of pure understanding.",
+      "context": "Kant critiquing what he perceived as Plato's ungrounded metaphysical idealism.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "all thought … must ultimately be related to intuition, thus, in our case, to sensibility, since there is no other way in which the objects can be given to us",
+      "context": "Establishing the absolute necessity of sensibility for human cognition.",
+      "source_id": "src_016"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Attempting to attain knowledge of reality purely through ideas, completely divorced from sensible experience.",
+      "why_it_fails": "Understanding requires the 'resistance' and 'support' of sensible intuition to function. Without empirical input, pure reason produces mere phantasms, fictions, and transcendental illusions rather than valid concepts.",
+      "source_id": "src_016"
+    },
+    {
+      "description": "Inferring the real existence of a thing directly from its logical possibility or pure concept (e.g., the Ontological Argument for God).",
+      "why_it_fails": "Existence is not a property that can be derived from an a priori definition. You cannot infer immediately from the logical possibility of a concept to the real possibility (or existence) of the thing.",
+      "source_id": "src_016"
+    }
+  ]
+}

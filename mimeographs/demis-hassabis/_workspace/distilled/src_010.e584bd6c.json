@@ -1,0 +1,95 @@
+{
+  "source_id": "src_010",
+  "summary": "Demis Hassabis discusses the path to AGI, defining it by human cognitive capabilities and predicting its arrival within a decade. He highlights compute as a primary bottleneck for both scaling and experimentation, while noting that current models are 'jagged intelligences' lacking continual learning and consistency. Hassabis advocates for international AI safety regulations, views AI as the ultimate tool for scientific discovery, and emphasizes the benefits of building deep tech away from Silicon Valley's hype cycle.",
+  "themes": [
+    "AGI Definitions and Timelines",
+    "AI Safety and Regulation",
+    "AI in Science and Medicine",
+    "Scaling Laws and Compute",
+    "Deep Tech Innovation"
+  ],
+  "principles": [
+    {
+      "statement": "The human brain is the ultimate benchmark for defining Artificial General Intelligence.",
+      "rationale": "It is the only known existence proof in the universe that general intelligence is actually possible.",
+      "source_quote": "the brain is the only existence proof we have that we know of in maybe in the universe uh that general intelligence is possible. So that for me is the bar for what AGI should be.",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Compute is just as critical for algorithmic experimentation as it is for scaling.",
+      "rationale": "Researchers need to test new algorithmic ideas at a reasonable scale, otherwise the results won't hold up when integrated into the main, larger system.",
+      "source_quote": "if you have a new idea, a new algorithmic idea, but you want to test it, you kind of got to test it at a reasonable scale, otherwise it won't hold when you actually put it into the main system.",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Foundation models will be the bedrock of AGI, not a dead end.",
+      "rationale": "Despite missing components like continual learning or world models, LLMs have proven incredibly successful and will likely serve as the core component that other systems are built on top of.",
+      "source_quote": "I don't think it's going to get replaced I think it's going to get built on top of these foundation models just like the way we do with our world models",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Physical distance from Silicon Valley is a structural advantage for deep tech.",
+      "rationale": "Being away from the gossip, trends, and vibes of the Valley allows for deeper, more original thinking, which is necessary for 20-year scientific missions.",
+      "source_quote": "I think it's very conducive to to thinking deeply about things, being more original about how you think. And I think that's great for things like deep tech where you know you don't want to be distracted by the latest fad.",
+      "source_id": "src_010"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Jagged Intelligences",
+      "description": "A lens for understanding current AI capabilities: models exhibit extreme competence in specific areas but can fail at elementary tasks if the prompt is slightly altered, unlike human general intelligence which is more consistent.",
+      "example": "When an AI answers a complex query perfectly but fails completely when the same question is posed in a slightly different way.",
+      "source_id": "src_010"
+    },
+    {
+      "name": "10x Industrial Revolution",
+      "description": "A mental model for sizing the impact and speed of AGI. It helps contextualize the upcoming economic and societal upheaval by comparing it to the Industrial Revolution, but scaled up in magnitude and compressed in time.",
+      "example": "Using this model to anticipate massive labor disruption while simultaneously expecting unprecedented advances in medicine and living standards, just as the Industrial Revolution reduced child mortality.",
+      "source_id": "src_010"
+    }
+  ],
+  "heuristics": [
+    "Open source models generally lag about 6 months behind the absolute frontier as the community reimplements new ideas.",
+    "We always overestimate what can be done in a year and underestimate what can be done in 10 years."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I sometimes quantify like AGI at the coming of AGI as like 10 times the industrial revolution at 10 times the speed. So unfolding over a decade instead of a century.",
+      "context": "Discussing the economic and societal impact of Artificial General Intelligence.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "I sometimes call these systems jagged intelligences because they're really amazing at certain things when you pose the question in a certain way but in if you pose a question in a slightly different way they can actually still fail at quite elementary things.",
+      "context": "Explaining the missing consistency in current AI models compared to true general intelligence.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "The brain is the only existence proof we have that we know of in maybe in the universe uh that general intelligence is possible.",
+      "context": "Defining the benchmark for AGI.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "I think it will be the ultimate tool for science and medicine. So in terms of advancing scientific discovery um finding cures to diseases, I think we need that kind of technology.",
+      "context": "Describing his ultimate vision and hope for AGI in the next 5+ years.",
+      "source_id": "src_010"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming scaling laws have plateaued and exponential gains are over.",
+      "why_it_fails": "While the initial massive jumps (doubling performance) have slowed, there are still very substantial returns to be gained from scaling existing systems up further.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Allowing AI systems to output tokens in non-human readable machine language.",
+      "why_it_fails": "It introduces new vulnerabilities and bypasses human oversight, making it impossible to audit or understand the system's internal reasoning.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Building AI systems capable of deception.",
+      "why_it_fails": "Deceptive systems can actively get around other safety guardrails and safeguards put in place by developers.",
+      "source_id": "src_010"
+    }
+  ]
+}

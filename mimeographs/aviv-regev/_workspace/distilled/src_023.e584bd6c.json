@@ -1,0 +1,34 @@
+{
+  "source_id": "src_023",
+  "summary": "This source is an abstract for a 2004 book chapter by Aviv Regev and Ehud Shapiro. It highlights the fragmentation of biological knowledge and argues that computational methods need a unifying mathematical abstraction to effectively model biomolecular systems.",
+  "themes": [
+    "Computational biology",
+    "Mathematical abstraction",
+    "Systems biology",
+    "Biomolecular networks"
+  ],
+  "principles": [
+    {
+      "statement": "Computational methods in biology require a unifying mathematical abstraction.",
+      "rationale": "Experimental research produces vast but fragmented knowledge about molecular systems. To effectively use computational methods to make sense of this data, the field must adopt a meaningful mathematical abstraction.",
+      "source_quote": "While computational methods are key to addressing this challenge... they require the adoption of a meaningful mathematical abstraction.",
+      "source_id": "src_023"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Although such systems are the focus of intensive experimental research, the mountains of knowledge about the function, activity, and interaction of molecular systems in cells remain fragmented.",
+      "context": "Describing the state of biological data and the need for computational modeling.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "While computational methods are key to addressing this challenge... they require the adoption of a meaningful mathematical abstraction.",
+      "context": "Explaining the prerequisite for successful computational biology.",
+      "source_id": "src_023"
+    }
+  ],
+  "anti_patterns": []
+}

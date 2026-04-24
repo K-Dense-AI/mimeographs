@@ -1,0 +1,97 @@
+{
+  "source_id": "src_026",
+  "summary": "Stuart Russell argues against the current industry practice of building AI systems first and trying to make them safe after the fact. Instead, he advocates for 'safe AI' by design, enforced through strict 'red line' regulations where developers bear the burden of formally proving their systems will not exhibit specific unacceptable behaviors.",
+  "themes": [
+    "AI Safety",
+    "Regulation and Policy",
+    "Safety by Design",
+    "Burden of Proof",
+    "Red Lines"
+  ],
+  "principles": [
+    {
+      "statement": "Safety must be built in by design, not added after the fact.",
+      "rationale": "We do not understand the internal principles of operation of current AI systems, so post-hoc attempts to constrain their behavior inevitably fail.",
+      "source_quote": "Instead, we need to make safe AI. Safety should be built in by design.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "The onus of proof for safety must be on the developers, not regulators.",
+      "rationale": "Developers should have to demonstrate with high confidence and formal arguments that their systems are safe, allowing regulators to probe and question their underlying assumptions.",
+      "source_quote": "The key point here is that the onus of proof is on developers, not regulators, and the proof leads to high-confidence statements based on assumptions that can be checked and refined.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Difficulty of compliance is not a valid excuse for deploying unsafe systems.",
+      "rationale": "In other high-stakes industries like medicine and nuclear power, we do not accept the difficulty of proving safety as a reason to bypass safety regulations.",
+      "source_quote": "Nonetheless, we do not consider the difficulty of compliance to be a valid excuse for non-compliance in other areas where safety is a concern such as medicines and nuclear power.",
+      "source_id": "src_026"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Red Line Regulation",
+      "when_to_apply": "When drafting regulations to ensure AI systems do not cause catastrophic harm.",
+      "steps": [
+        "Define specific classes of behavior that are obviously unacceptable to an ordinary person (red lines).",
+        "Ensure the red line is clearly demarcated so it can be checked algorithmically or by a 'reasonable person' standard.",
+        "Require developers to prove, prior to deployment, that the AI system will not cross the red line regardless of input.",
+        "Implement post-deployment monitoring to detect violations and terminate the system's operation if a line is crossed."
+      ],
+      "source_quote": "This approach to regulation draws red lines that must not be crossed.",
+      "source_id": "src_026"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Unacceptable Uses vs. Unacceptable Behaviors",
+      "description": "A distinction for categorizing AI risks. 'Uses' involve human intent to misuse the system, whereas 'behaviors' are actions the AI takes without human intent to misuse, placing the onus entirely on the developer to prevent.",
+      "example": "An unacceptable use is a human using ChatGPT to generate malware. An unacceptable behavior is an AI system spontaneously outputting false and defamatory material about a real person.",
+      "source_id": "src_026"
+    },
+    {
+      "name": "The Nuclear/Medical Safety Analogy",
+      "description": "Comparing AI safety regulation to established high-risk industries where operators must mathematically or statistically prove safety margins before deployment.",
+      "example": "Nuclear operators must prove through probabilistic fault tree analysis that the expected time before 'core damage' exceeds a stipulated minimum. AI developers should similarly provide formal proofs of safety.",
+      "source_id": "src_026"
+    }
+  ],
+  "heuristics": [
+    "Make safe AI, don't just make AI safe.",
+    "Draw behavioral red lines that must not be crossed."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The approach aims to make AI safe through after-the-fact attempts to reduce unacceptable behaviour once an AI system has been built. There is ample evidence that this approach does not work...",
+      "context": "Critiquing the current approach of leading AI companies like OpenAI.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "Instead, we need to make safe AI. Safety should be built in by design.",
+      "context": "Proposing the alternative to post-hoc safety measures.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "The key point here is that the onus of proof is on developers, not regulators...",
+      "context": "Explaining how regulation should shift the burden of demonstrating safety.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "...we do not consider the difficulty of compliance to be a valid excuse for non-compliance in other areas where safety is a concern such as medicines and nuclear power.",
+      "context": "Addressing the argument that current LLMs cannot demonstrably comply with strict safety rules.",
+      "source_id": "src_026"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Building an AI system first, then trying to figure out how to make it safe (post-hoc safety).",
+      "why_it_fails": "We do not understand the internal principles of operation of current AI systems, so we cannot ensure behavior conforms to constraints except in a trivial sense.",
+      "source_id": "src_026"
+    },
+    {
+      "description": "Basing regulations on vague terms like 'safety' and 'harm'.",
+      "why_it_fails": "The boundary between safe and unsafe behaviors is fuzzy and context-dependent, making it too vague to form a solid basis for regulation.",
+      "source_id": "src_026"
+    }
+  ]
+}

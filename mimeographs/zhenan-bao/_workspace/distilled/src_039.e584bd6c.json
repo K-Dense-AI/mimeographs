@@ -1,0 +1,48 @@
+{
+  "source_id": "src_039",
+  "summary": "This article summarizes a paper by Zhenan Bao's research team on developing strain-insensitive, intrinsically stretchable transistor arrays for wearables. The team utilized 'elastiff' layers—patterned regions of mechanical heterogeneity—to protect active electronic components from deformation, ensuring stable electrical performance even under significant strain.",
+  "themes": [
+    "Stretchable electronics",
+    "Strain engineering",
+    "Wearable health diagnostics",
+    "Mechanical heterogeneity"
+  ],
+  "principles": [
+    {
+      "statement": "Active programming of strain distribution can suppress the attenuation of electronic performance caused by mechanical deformation.",
+      "rationale": "By directing mechanical strain away from the active electronic components, devices can maintain stable operation and high data quality when worn on the skin.",
+      "source_quote": null,
+      "source_id": "src_039"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Elastiff Layer Design",
+      "when_to_apply": "When engineering intrinsically stretchable electronics to protect active regions from mechanical strain.",
+      "steps": [
+        "Ensure the overall material maintains high stretchability so the device remains soft.",
+        "Use a material for the elastiff layer with a significantly higher Young's modulus than the substrate to minimize deformation in active regions.",
+        "Ensure strong interfacial adhesion between the elastiff layer and the substrate (e.g., by using similar chemical compositions) to prevent delamination or wrinkling."
+      ],
+      "source_quote": "The elastiff layers needed to fulfil three criteria. First, the material should have high stretchability... Second, the Young’s modulus... should be significantly higher than that of the substrate... Third, there must be strong adhesion of the elastiff layer with the substrate.",
+      "source_id": "src_039"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Mechanical Heterogeneity",
+      "description": "Introducing patterned regions of varying stiffness (rigid vs. soft) within a single substrate to selectively route mechanical strain away from fragile active components.",
+      "example": "Using rigid SEBS for the elastiff layer and soft SEBS for the substrate, creating a 32-fold modulus difference. When a 100% global strain is applied to the array, the active device only experiences ~10% strain.",
+      "source_id": "src_039"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Creating intrinsically stretchable electronics without strain engineering.",
+      "why_it_fails": "Without strain engineering, mechanical deformation during physiological movements directly affects the active devices, degrading electronic performance and the quality of the collected data.",
+      "source_id": "src_039"
+    }
+  ]
+}

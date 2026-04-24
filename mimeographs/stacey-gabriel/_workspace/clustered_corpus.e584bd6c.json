@@ -1,0 +1,206 @@
+{
+  "expert_name": "Stacey Gabriel",
+  "themes": [
+    "Genomics & Precision Medicine",
+    "Industrial-Scale Science",
+    "Cancer Genomics",
+    "Data Standardization & Governance",
+    "Biomedical Research Operations",
+    "Multiomics & Cellular Perturbation"
+  ],
+  "principles": [
+    {
+      "label": "Dual-Approach Cancer Genomics",
+      "summary": "A comprehensive understanding of the cancer genome requires combining multiple investigative approaches for both germline and somatic mutations.",
+      "details": "Germline mutations are best investigated through large-scale case-control or family studies, while somatic alterations require state-of-the-art technologies like high-density oligonucleotide arrays and targeted resequencing. Only by combining these can we fully understand the cancer genome.",
+      "representative_quote": "The genome structure of cancer can be examined in several ways: (1) large-scale case-control or family studies can investigate germline mutations; and (2) state-of-the-art genomic technologies... can identify somatic alterations. Combined, these approaches will lead to a better understanding of the cancer genome.",
+      "source_ids": [
+        "src_034",
+        "src_037"
+      ]
+    },
+    {
+      "label": "Mutation Profiling for Precision Medicine",
+      "summary": "Understanding common mutations in distinct cancers is critical for advancing targeted treatments and drug discovery.",
+      "details": "Identifying these mutations allows researchers to find new drug targets, stratify patients for clinical trials, and analyze drug response data to determine which patient classes will respond to specific therapies.",
+      "representative_quote": "An understanding of the common mutations that can cause distinct human cancers will be critical for identifying new targets for drug discovery, patient stratification for clinical trials, and analysis of drug response data to delineate classes of patients that respond to therapy.",
+      "source_ids": [
+        "src_034",
+        "src_037"
+      ]
+    },
+    {
+      "label": "Academic-Industrial Hybrid Model",
+      "summary": "Meld academic creativity with industrial scale to tackle massive, collaborative projects for the public good.",
+      "details": "Traditional academia focuses on exploratory science, while industry focuses on financial return. Research institutions must combine the best of both worlds to execute goal-oriented, project-driven science at scale.",
+      "representative_quote": "how can we take the best of both worlds and meld sort of that academic creativity with industrial scale and sort of a focus on sort of that goal oriented sort of pro pro project driven driven science",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Systematic Data Generation as AI Fuel",
+      "summary": "Systematic, high-scale data generation is the necessary fuel for AI in biology.",
+      "details": "To move beyond studying genes one at a time, we must routinely produce massive, well-controlled perturbational datasets that can power new analytic approaches and models.",
+      "representative_quote": "ultimately this this kind of activity is going to produce massive data sets that are going to really be the fuel for those sort of those AI enabled tools that are going to be able to turn that all that data you know we hope into into great insights",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Flagship Efforts as Capability Drivers",
+      "summary": "Ambitious, boundary-pushing flagship projects force the development of new methods and foundational datasets.",
+      "details": "These efforts create communities and drive the scientific field to scale, creating capabilities and access that eventually benefit the entire scientific community.",
+      "representative_quote": "flagship efforts that create communities, push boundaries and drive us to scale or create some sort of capability or access that wasn't possible in the past.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Genomic Data Standardization",
+      "summary": "Genomic data must be standardized into formats that can be easily and effectively shared.",
+      "details": "Standardization (like the CRAM file format) prevents the massive waste of time and resources that occurs when researchers have to reformat data before analyzing it, while also drastically reducing storage costs.",
+      "representative_quote": "And it becomes absolutely critical that that data is in a format that can be easily and effectively shared amongst many investigators.",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Equitable Healthcare through Women's Health Research",
+      "summary": "Advancing women's health research is essential for creating more equitable healthcare.",
+      "details": "Historically, women's health issues have been significantly underfunded and understudied, requiring targeted investment and focus to close the gap.",
+      "representative_quote": "There’s no question that issues of women’s health have long been underfunded and understudied.",
+      "source_ids": [
+        "src_005"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Achieving Scientific Revolutions",
+      "summary": "A three-step framework for tackling large collaborative biomedical projects that cannot be readily done in a traditional research setting.",
+      "details": "1. Define the vision: determine what you want to accomplish, why, and what you intend to change. 2. Launch flagship efforts: create communities, push boundaries, and drive the creation of new capabilities or foundational datasets. 3. Apply a hybrid execution model: bring together academic creativity with industrial scale and goal-oriented project management.",
+      "representative_quote": "first is vision. So what do you want to accomplish and why?... second thing. So flagship efforts that create communities, push boundaries and drive us to scale... finally a big part is the model sort of the way we do approach things here",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "High-Scale Cellular Perturbation Platform",
+      "summary": "A systematic pipeline for turning lists of disease-associated genetic variants into functional insights at scale.",
+      "details": "1. Collect various types of cellular inputs (single cells, tumor samples, tissue samples, or inducible stem cells). 2. Perturb the cells systematically (e.g., via CRISPR knock-in/out, or treatment with compounds/drugs). 3. Perform a variety of molecular or imaging readouts. 4. Conduct downstream data analysis to fuel AI-enabled tools.",
+      "representative_quote": "The four parts of that platform for for cell um perturbation will include various types of inputs... a next step of perturbing that cell in different ways... then performing a variety of readouts next is the is the next stage and then there's there's downstream data analysis",
+      "source_ids": [
+        "src_010"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Hand-to-hand combat vs. Systematic scale",
+      "summary": "A lens for evaluating research efficiency, contrasting slow, one-by-one genetic studies with high-throughput, genome-wide perturbation.",
+      "details": "Traditional genetic research is viewed as slow, one-by-one battles ('hand-to-hand combat') to understand a gene's function. The modern alternative is systematic, high-throughput, genome-wide perturbation to generate massive datasets all at once (e.g., using CRISPR and single-cell transcriptomics to systematically install sequence changes across many cell types).",
+      "representative_quote": "we've known about many many genes and many many variants that that are associated with disease for a long time and so far it's I would say an exercise of kind of like hand-tohand combat to go after that gene or that variant",
+      "source_ids": [
+        "src_010"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Methodical Scaling Precedes Rapid Change",
+      "summary": "True speed and rapid change in science only occur after taking the necessary time to methodically grow, automate, and lower costs.",
+      "details": "Before pushing into production, you must systematically build the infrastructure. The illusion of sudden rapid change is built on a foundation of slow, deliberate automation and cost-reduction.",
+      "representative_quote": "Things change quickly because we take time to grow, learn how to automate, lower costs, be systematic, and then push into production.",
+      "source_ids": [
+        "src_010"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Unprecedented Opportunity in Cancer Genomics",
+      "summary": "Describing the inflection point in genomics that enables systematic disease research.",
+      "details": null,
+      "representative_quote": "The availability of a reference human genome sequence, an increasingly dense catalog, knowledge of common genetic variation, and new developments in technology present an unprecedented opportunity to systematically explore the genetic basis of complex human diseases such as cancer.",
+      "source_ids": [
+        "src_034",
+        "src_037"
+      ]
+    },
+    {
+      "label": "Melding Academia and Industry",
+      "summary": "Describing the operational model of the Broad Institute.",
+      "details": null,
+      "representative_quote": "how can we take the best of both worlds and meld sort of that academic creativity with industrial scale",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Hand-to-hand Combat in Genetics",
+      "summary": "Explaining the need for high-scale cellular perturbations over traditional methods.",
+      "details": null,
+      "representative_quote": "we've known about many many genes and many many variants that that are associated with disease for a long time and so far it's I would say an exercise of kind of like hand-tohand combat to go after that gene or that variant",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Fueling AI with Massive Datasets",
+      "summary": "Discussing the output of systematic cellular perturbation platforms.",
+      "details": null,
+      "representative_quote": "ultimately this this kind of activity is going to produce massive data sets that are going to really be the fuel for those sort of those AI enabled tools",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "The Impossible Becomes Routine",
+      "summary": "Encouraging the audience not to be deterred by the apparent impossibility of future scientific revolutions.",
+      "details": null,
+      "representative_quote": "when we started the Broad Institute, some of the things we're doing today now quite routinely seemed impossible at the time too",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "The Wastefulness of Unstandardized Data",
+      "summary": "Explaining the necessity of standardized file formats for genomic data sharing.",
+      "details": null,
+      "representative_quote": "In other words, it really becomes very wasteful if an investigator has to go and reprocess or reformat the data every time they get a new data set in order to perform an analysis.",
+      "source_ids": [
+        "src_015"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Siloed Research Models",
+      "summary": "Relying solely on traditional academic or purely industrial models for foundational biomedical research.",
+      "details": "Traditional academia focuses on exploratory basic science by trainees, while industry focuses on product development for financial return. Neither is optimized for massive, collaborative, goal-oriented projects for the public good.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "One-by-One Variant Studies",
+      "summary": "Studying genetic variants and their functional insights one at a time.",
+      "details": "It is an exercise in 'hand-to-hand combat' that is too slow and fails to produce the massive, harmonized datasets needed to power modern AI and analytic approaches.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Bespoke Data Formatting",
+      "summary": "Requiring individual investigators to reprocess or reformat data every time they receive a new dataset.",
+      "details": "It creates massive inefficiencies and waste, slowing down analysis and hindering collaboration across large research consortiums.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_015"
+      ]
+    }
+  ]
+}

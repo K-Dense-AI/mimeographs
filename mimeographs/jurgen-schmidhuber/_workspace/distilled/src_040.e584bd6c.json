@@ -1,0 +1,79 @@
+{
+  "source_id": "src_040",
+  "summary": "The abstract of the seminal 1997 paper introducing Long Short-Term Memory (LSTM). It outlines the problem of decaying error backflow in standard recurrent neural networks and proposes LSTM's constant error carousels and multiplicative gates as a highly efficient solution for learning over extended time intervals.",
+  "themes": [
+    "Recurrent Neural Networks",
+    "Gradient Descent",
+    "Long Short-Term Memory (LSTM)",
+    "Vanishing Gradient Problem"
+  ],
+  "principles": [
+    {
+      "statement": "Standard recurrent backpropagation is insufficient for learning over extended time intervals.",
+      "rationale": "The error backflow decays over time, making it incredibly slow or impossible for the network to learn long-term dependencies.",
+      "source_quote": "Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow.",
+      "source_id": "src_040"
+    },
+    {
+      "statement": "Enforcing constant error flow allows networks to bridge massive time lags.",
+      "rationale": "By preventing the error gradient from decaying, the network can successfully learn dependencies spanning thousands of discrete-time steps.",
+      "source_quote": "LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units.",
+      "source_id": "src_040"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Long Short-Term Memory (LSTM)",
+      "when_to_apply": "When training recurrent neural networks to store information over extended time intervals and solve complex long-time-lag tasks.",
+      "steps": [
+        "Identify the need to bridge long time lags in sequence data.",
+        "Use special units with constant error carousels to enforce constant error flow.",
+        "Implement multiplicative gate units to learn to open and close access to the constant error flow.",
+        "Truncate the gradient where it does not do harm to maintain O(1) computational complexity per time step and weight."
+      ],
+      "source_quote": "We briefly review Hochreiter's (1991) analysis of this problem, then address it by introducing a novel, efficient, gradient based method called long short-term memory (LSTM).",
+      "source_id": "src_040"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Constant Error Carousels",
+      "description": "A structural mechanism within a neural network unit designed to trap and circulate error signals without decay, allowing the network to remember information across long time gaps.",
+      "example": "Used within LSTM special units to bridge time lags in excess of 1000 discrete-time steps.",
+      "source_id": "src_040"
+    },
+    {
+      "name": "Multiplicative Gate Units",
+      "description": "Components that act like valves, learning when to open and close access to the constant error flow, thereby protecting the memory contents from irrelevant inputs.",
+      "example": "Used in LSTM to control access to the constant error carousels.",
+      "source_id": "src_040"
+    }
+  ],
+  "heuristics": [
+    "Truncate the gradient where it does not do harm to maintain O(1) computational complexity per time step and weight."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow.",
+      "context": "Explaining the fundamental problem with traditional RNNs (the vanishing gradient problem).",
+      "source_id": "src_040"
+    },
+    {
+      "text": "LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units.",
+      "context": "Describing the core mechanism and capability of the LSTM architecture.",
+      "source_id": "src_040"
+    },
+    {
+      "text": "Multiplicative gate units learn to open and close access to the constant error flow.",
+      "context": "Explaining how LSTM controls information flow.",
+      "source_id": "src_040"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Using standard recurrent backpropagation to learn long-time-lag tasks.",
+      "why_it_fails": "It suffers from 'insufficient, decaying error backflow,' causing the learning process to take a very long time or fail entirely on complex tasks.",
+      "source_id": "src_040"
+    }
+  ]
+}

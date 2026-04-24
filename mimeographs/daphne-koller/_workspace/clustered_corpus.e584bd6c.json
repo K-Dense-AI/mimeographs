@@ -1,0 +1,757 @@
+{
+  "expert_name": "Daphne Koller",
+  "themes": [
+    "AI and Machine Learning in Biology",
+    "Interdisciplinary Collaboration",
+    "Drug Discovery and Precision Medicine",
+    "Academia to Industry Transition",
+    "Probabilistic Graphical Models",
+    "Moral Imperative and Social Impact",
+    "Purpose-Built Data Generation",
+    "AI in Drug Discovery",
+    "Data Generation vs. Data Mining",
+    "Causality vs. Correlation",
+    "Interdisciplinary AI (AI + X)",
+    "Academia vs. Industry Incentives"
+  ],
+  "principles": [
+    {
+      "label": "True innovation happens at the boundaries of disciplines",
+      "summary": "The most transformative solutions emerge when distinct fields intersect, provided domain experts and technologists treat each other as equal collaborators.",
+      "details": "If kept separate, ML scientists will solve biologically irrelevant problems, and biologists will only ask ML to automate boring tasks. Together, they discover the right questions to ask. Approaching domain experts with arrogance ruins the collaboration.",
+      "representative_quote": "what you get if you put them in a room together and actually get to the point where they communicate with each other effectively, is that not only do you get better solutions, you get better problems.",
+      "source_ids": [
+        "src_006",
+        "src_034",
+        "src_000"
+      ]
+    },
+    {
+      "label": "Deliberate Cross-Disciplinary Architecture",
+      "summary": "The most impactful work happens at the boundaries of disciplines, but this requires deliberately building a shared vocabulary and culture.",
+      "details": "Life scientists and computational scientists naturally use different jargon. If you don't deliberately build a culture where they form a single team, they will talk past each other. When successfully integrated, the whole becomes much larger than the sum of its parts.",
+      "representative_quote": "if you create a world in which those people are actually part of a team they develop a shared vocabulary and a shared Vision magic just happens",
+      "source_ids": [
+        "src_014",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Drug failures primarily stem from pursuing the wrong biological target",
+      "summary": "Most drugs fail in late-stage clinical development not because the molecule was poorly designed, but because the biological target was incorrect for the specific disease and patient population.",
+      "details": "Failures usually happen because we didn't understand the underlying biology and went after targets that have no meaningful impact on the disease. AI's greatest potential lies in identifying the right therapeutic targets rather than just generating molecules.",
+      "representative_quote": "most of the things that fail in clinical development is because our therapeutic hypothesis was just wrong we don't understand the biology",
+      "source_ids": [
+        "src_012",
+        "src_000"
+      ]
+    },
+    {
+      "label": "Generate Fit-for-Purpose Data",
+      "summary": "Data is not fungible. To solve complex physical problems like human biology, you cannot rely on existing web-scale data; you must intentionally generate massive, high-quality, domain-specific data.",
+      "details": "Existing data collected from the web (text and images) does not contain the answers needed to disentangle complex biology. Novel insights require building 'data printing factories' to cross the threshold where emergent properties appear.",
+      "representative_quote": "We need to generate the right data—data that is fit-for-purpose for machine learning.",
+      "source_ids": [
+        "src_014",
+        "src_048"
+      ]
+    },
+    {
+      "label": "Generate purpose-built data rather than just analyzing what exists",
+      "summary": "Existing biological datasets are often too small or poorly designed for machine learning. To solve complex problems, we must intentionally generate massive, high-quality datasets specifically designed to train ML models.",
+      "details": "Providing processed, accessible data with well-defined problems is critical for bringing new researchers into a field and dictating what problems get solved.",
+      "representative_quote": "instead of asking what can we do with the existing data it's asking what do we want to do and then let's generate the data so that we can do it well",
+      "source_ids": [
+        "src_027",
+        "src_011"
+      ]
+    },
+    {
+      "label": "Maximize your unique value and leverage",
+      "summary": "Focus on problems where your specific skills, experience, and mindset allow you to have a disproportionately large impact compared to the next best person.",
+      "details": "When choosing what to work on, consider not just the absolute value of the work, but the value you bring relative to what would happen if someone else took your place. If 500 other people could do it just as well, it's not the ideal use of your time.",
+      "representative_quote": "i've always looked for opportunities where the experience the skills the the mindset that i bring have a disproportionate leverage i'm a big believer in leverage",
+      "source_ids": [
+        "src_006",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Technology transfer requires moving people, not just publishing papers",
+      "summary": "To make a real-world impact, you must build products. You cannot simply publish a paper and expect industry to adopt it without the original creators championing it.",
+      "details": "Real change requires the people who developed the ideas to transition with them into practice. Conceptual and theoretical work is beautiful, but technology transfer requires getting your hands dirty and building something people can actually use.",
+      "representative_quote": "we realize that you can't really do Tech transfer with a paper you can do Tech transfer with a product",
+      "source_ids": [
+        "src_012",
+        "src_034"
+      ]
+    },
+    {
+      "label": "The privileged have a moral imperative to improve the world",
+      "summary": "Those born into affluent, well-educated families without basic struggles have a higher burden to give back and leave the world better than they found it.",
+      "details": "Recognizing the vast discrepancy between a privileged upbringing and the struggles of others should drive a desire to achieve and create positive social impact.",
+      "representative_quote": "For those of us who had the privilege of being born to relatively affluent, well-educated families, where we didn’t need to struggle for where our next meal is coming from, that burden is actually even higher and we — we should be thinking about how we can give back.",
+      "source_ids": [
+        "src_006",
+        "src_027"
+      ]
+    },
+    {
+      "label": "AI Amplifies Rigorous Science",
+      "summary": "In the physical world, AI is an amplifier of rigorous scientific experimentation, not a substitute for it.",
+      "details": "While AI can move at the speed of computation in the virtual world, the physical world ('where bits meet atoms') is constrained by data scarcity and the need for causal validation. Learning must be tightly coupled to physical experimentation.",
+      "representative_quote": "Done right, A.I. is an amplifier of rigorous biology—not a substitute for it.",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Anti-Hypothesis Driven Discovery",
+      "summary": "Human biology is too complex for the human brain to comprehend manually. Instead of starting with human-generated hypotheses, collect massive amounts of unbiased data and let machine learning surface the insights.",
+      "details": "Traditional hypothesis-driven drug discovery has a 90% failure rate because we define diseases using coarse-grained symptoms and intervene in systems we don't understand. Machine learning can find patterns that humans fundamentally cannot.",
+      "representative_quote": "We take a very different approach that is anti-hypothesis driven... rather than starting out with a hypothesis and then doing experiments to test those out we do experiments to feed into machine learning models who tell us what the interesting findings the interesting insights that emerge from those data",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Causality for Physical Interventions",
+      "summary": "While correlational data is sufficient for observational tasks, intervening in complex physical systems requires causal understanding.",
+      "details": "Tasks like text summarization can rely on correlation. However, when AI intervenes in the physical world (e.g., treating a disease, driving a car), relying on correlation leads to dangerous or misleading conclusions.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Causality is necessary for drug development, but mechanism is not",
+      "summary": "Knowing that perturbing a specific target causes a desired phenotypic effect is enough to develop a drug, even if the exact biological mechanism remains unknown.",
+      "details": "Understanding the exact biological mechanism of *why* it works is scientifically interesting but neither necessary nor sufficient for creating an effective medicine.",
+      "representative_quote": "understanding cause and effect is absolutely necessary for drug development understanding the entirety of the why is... neither necessary or sufficient",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Industry Incentives Drive Usable Products",
+      "summary": "To build persistent, reusable products that have real-world impact, one must align with industry incentives rather than academic ones.",
+      "details": "Academia incentivizes publishing papers and individual credit. It does not incentivize building persistent, reusable products or data pipelines, which are necessary for real-world adoption.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Machine learning is the mathematical foundation for biology",
+      "summary": "Unlike physics, biology is an evolved, highly complex natural system that cannot be captured by de novo mathematical models. Machine learning is required to let the data speak.",
+      "details": "Because biological systems are so complex and full of exceptions, traditional mathematical modeling fails. Machine learning allows us to find predictable patterns directly from massive datasets.",
+      "representative_quote": "math is to physics as machine learning is to biology.",
+      "source_ids": [
+        "src_000"
+      ]
+    },
+    {
+      "label": "Measurement is the prerequisite to understanding biological systems",
+      "summary": "You cannot design effective therapeutic interventions without first mapping the causal pathways of a disease, which requires high-fidelity, quantitative data.",
+      "details": "Understanding complex systems requires rigorous measurement. Without it, you are flying blind when attempting to fix or modulate those systems.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Pragmatism Over Elegance",
+      "summary": "Prioritize methods that solve the real problem over the coolest or most elegant machine learning method.",
+      "details": "Solving a real problem provides a clarifying lens that strips away unnecessary complexity. Sometimes a simple, established model is the fastest way to build something that actually works.",
+      "representative_quote": "First of all, the focus of the work is not do you use the coolest, most elegant machine learning method, it's do you use the thing that works.",
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Stick to your principles over short-term gains",
+      "summary": "Making principled decisions might be slower or face internal pushback, but it builds long-term success and provides a defensible moral compass.",
+      "details": "Whether it's partnering with universities instead of bypassing them, or offering financial aid, principled actions speak louder than words during controversies.",
+      "representative_quote": "i think sticking to your principles really allows you to when there is controversy to go back and say look our you know don't judge us by our words justice by our actions",
+      "source_ids": [
+        "src_006"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Interdisciplinary Dataset Design",
+      "summary": "A method for applying machine learning to a new scientific domain by collaboratively designing datasets.",
+      "details": "1. Put domain scientists and machine learning experts in a room together as equal partners. 2. Ask the domain experts to identify the really big questions they wish they had a magic wand to solve. 3. Evaluate if machine learning is actually the right tool for those specific questions. 4. Collaboratively design experiments and datasets specifically to allow ML approaches to be trained and applied effectively.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_034",
+        "src_027"
+      ]
+    },
+    {
+      "label": "The Three Buckets of Drug Discovery",
+      "summary": "A framework for mapping the drug discovery and development process to identify where AI and resources should be allocated.",
+      "details": "1. Biology discovery: Discovering new therapeutic hypotheses (identifying which target to modulate). 2. Molecule generation: Turning the therapeutic hypothesis into an actual molecule with the right properties. 3. Clinical development: Enabling and accelerating the clinical trial process.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012",
+        "src_000"
+      ]
+    },
+    {
+      "label": "A.I.-First End-to-End Drug Discovery",
+      "summary": "A pipeline for discovering entirely new treatments by re-architecting the drug discovery process around machine learning.",
+      "details": "Steps: 1) Generate fit-for-purpose data to disentangle biology. 2) Use ML for novel target discovery. 3) Advance to drug discovery to design molecules against these new targets. 4) Move into the clinic, turning an artisanal journey into a repeatable process.",
+      "representative_quote": "We have built an A.I.-first engine that transforms drug discovery and development end-to-end—from target discovery, through drug discovery, and into the clinic.",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Bridging Data Modalities for Causal Predictions",
+      "summary": "A method for building predictive models of causal interventions in humans by linking in-vitro cellular data with human clinical data.",
+      "details": "Steps: 1) Collect human genetic and phenotypic data to establish ground truth causality. 2) Generate in-house cellular data using genetic interventions. 3) Use ML to create representations of both modalities. 4) Bridge the modalities so lab experiments predict human interventions.",
+      "representative_quote": "we've taken a rather unusual strategy of bringing together and bridging between two very distinct and complementary data modalities",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Decision-Making for Maximum Impact",
+      "summary": "A framework for deciding which problems to dedicate your life to during major career transitions.",
+      "details": "1. Identify a deep internal urgency to do something meaningful that touches people's lives. 2. Evaluate your unique abilities, experiences, and mindset. 3. Look for opportunities where your specific background provides disproportionate leverage. 4. Choose the path where you can do the work much better than the next best person.",
+      "representative_quote": "if people are facing decision points i would encourage them to think about what do you bring to the table that is unique to the point that you can do something much better than the next best person",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Intervening on Meeting Microaggressions",
+      "summary": "A tactical approach for allies to redirect credit when an underrepresented person's idea is co-opted.",
+      "details": "1. Notice the dynamic where the original speaker was ignored. 2. Use your voice to speak up, especially if you are in a position of privilege. 3. Validate the second speaker's contribution while explicitly redirecting credit back to the original speaker (e.g., 'Yeah John, that was a great idea and Jane made a very similar point a few moments ago').",
+      "representative_quote": "it's okay for you to say yeah john that was a great idea and jane made that it's a very similar point a few moments ago and i think that is very very impactful",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Probabilistic Graphical Models (PGMs)",
+      "summary": "A structural taxonomy for building automated systems that need to reason under uncertainty.",
+      "details": "1. Representation: Construct an interpretable model of the complex system. 2. Inference: Manipulate the model using reasoning algorithms to reach conclusions. 3. Learning: Automatically learn or refine the models from data when manual construction is difficult.",
+      "representative_quote": "For each class of models, the text describes the three fundamental cornerstones: representation, inference, and learning, presenting both basic concepts and advanced techniques.",
+      "source_ids": [
+        "src_043"
+      ]
+    },
+    {
+      "label": "The Data Printing Factory",
+      "summary": "A system for generating massive, high-quality biological data to train high-capacity AI models when existing data is insufficient.",
+      "details": "Steps: 1) Generate cellular systems from human-derived cells at massive scale using robotics to avoid human batch effects. 2) Perturb the cells (e.g., via CRISPR) to generate causal data. 3) Measure resulting cell states across multiple modalities (omics, imaging). 4) Integrate cellular data with human-level clinical data.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Bilingual Professionals",
+      "summary": "Individuals who possess deep expertise in two distinct, highly technical fields, allowing them to communicate on an equal footing with experts in both domains.",
+      "details": "True interdisciplinary work requires individuals who are fluent in the 'languages' (vocabularies, mindsets, and techniques) of two distinct fields, such as machine learning and biology. They act as the crucial bridge in an organization.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_006",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Digital Biology (In Silico and In Vitro Convergence)",
+      "summary": "Viewing modern biology as a convergence of high-throughput data production (physical lab experiments) and machine learning (computational models) to quantitatively measure and engineer biological systems.",
+      "details": "Combining machine learning with high-throughput biology (like CRISPR and mammalian cell models) transforms drug discovery by creating massive, high-fidelity datasets.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_006",
+        "src_027"
+      ]
+    },
+    {
+      "label": "The Exponential Curve of AI",
+      "summary": "AI progress follows an exponential curve, which looks deceptively linear and meager in its early stages, causing people to vastly underestimate the speed of change.",
+      "details": "Looking at AI progress year-over-year and linearly interpolating it makes the 10-year outlook seem pathetic, but as the curve moves up, the capabilities end up far beyond our ability to conceive.",
+      "representative_quote": "The thing about exponential curves is they are very misleading things. In the early stages people basically take the line between whatever we were last year, and this year and they interpolate linearly...",
+      "source_ids": [
+        "src_012",
+        "src_000"
+      ]
+    },
+    {
+      "label": "Bits Meet Atoms",
+      "summary": "The distinction between the virtual world (bits), where AI moves at the speed of computation, and the physical world (atoms), where processes are slower, more complex, and higher stakes.",
+      "details": "Applying AI to biology requires acknowledging that data is scarce and causality matters, necessitating a tight coupling of machine learning to physical experimentation.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Causality vs. Correlation Lens",
+      "summary": "A framework for evaluating AI tasks based on whether they observe or intervene.",
+      "details": "Observational tasks (summarizing text) can rely on correlation. Interventional tasks (treating a disease, driving a car) require causal models to predict the outcome of an action.",
+      "representative_quote": "you need to start thinking really hard about the difference between correlation and causation.",
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Drug Discovery as a Forked Road",
+      "summary": "Viewing drug development not as a straight pipeline, but as a series of forks in the road where wrong turns cost billions.",
+      "details": "The high cost of drug discovery comes from taking the wrong forks, leading to costly detours or dead ends. Machine learning acts as a predictive compass at these forks to choose the right target and patient population early.",
+      "representative_quote": "Each successful drug carries on its back the cost of all of those failures.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Illusion of Causality (Seductive Plausibility)",
+      "summary": "The danger of generative AI models that are optimized for fluency rather than factual accuracy, creating convincing but false scientific narratives.",
+      "details": "This can tempt organizations to bypass experimental validation, launching multimillion-dollar research programs down the wrong path based on beautifully worded hallucinations.",
+      "representative_quote": "My concern about A.I. in science isn’t the distant risk of superintelligence, but the erosion of rigor from the seductive plausibility of generative A.I.",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Language Models of Biology",
+      "summary": "Treating massive biological datasets (like histopathology images and transcriptomes) as a 'language' that machine learning can read and interpret.",
+      "details": "Just as NLP models process text, unbiased machine learning can process biological 'language' to discover hidden patterns, such as identifying the tumor microenvironment as a prognostic factor missed by human pathologists.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Pipeline through Platform",
+      "summary": "Instead of building products as artisanal, one-off projects, invest heavily upfront in building a foundational data and engineering infrastructure to rapidly and repeatedly produce a pipeline of products.",
+      "details": "Once the platform is built, you can 'turn the crank' to go from problem articulation to a translatable proof of concept in a fraction of the traditional time.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_000"
+      ]
+    },
+    {
+      "label": "Precision vs. Personalized Medicine",
+      "summary": "A lens for distinguishing between targeting specific biological subgroups (Precision) versus creating N-of-1 treatments for individuals (Personalized).",
+      "details": "Precision medicine is highly feasible today (e.g., HER2-positive breast cancer drugs), while true personalized medicine remains largely impractical for complex diseases.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "The Biologist vs. Engineer Mindset",
+      "summary": "Understanding that biologists focus on exceptions and details (which lead to new discoveries), while engineers focus on broad principles that cover 95% of cases (to build robust systems).",
+      "details": "Building a successful interdisciplinary company requires creating a unified culture that bridges these two fundamentally opposed mindsets so they can communicate constructively.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "The Inverted Funnel of Drug Development",
+      "summary": "A lens for viewing the inefficiency of traditional pharma, advocating for spending more on upfront ML-driven exploration to drastically increase the success rate of expensive later stages.",
+      "details": "Currently, little money is spent on early, data-driven exploration, while massive amounts are spent on Phase 3 clinical trials where companies are essentially 'praying' the drug works. Inverting this fixes the funnel.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "The Rowing Boat (Organizational Alignment)",
+      "summary": "A metaphor contrasting an academic lab with a company. In academia, individuals do their own independent research. In a company, everyone must be aligned and 'row together' to reach a specific destination.",
+      "details": "This is the hardest skill academics must learn when becoming entrepreneurs: moving from managing independent individuals to creating strict organizational alignment.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_006"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Ask stupid questions",
+      "summary": "Don't be afraid to sound stupid by asking stupid questions, especially in interdisciplinary settings.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "Avoid the golden hammer",
+      "summary": "Avoid the mindset of 'I have an amazing hammer so everything must be a nail.'",
+      "details": null,
+      "representative_quote": "I think it's really important to avoid a mindset of I have an amazing hammer so everything must be a nail.",
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "Data is not fungible",
+      "summary": "Having massive datasets in one domain (like internet text) doesn't automatically grant capabilities in domains where the necessary data hasn't even been generated yet.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Do experiments to feed models, not test hypotheses",
+      "summary": "Design physical experiments specifically to generate data for machine learning models, rather than to validate a preconceived human hypothesis.",
+      "details": null,
+      "representative_quote": "rather than starting out with a hypothesis and then doing experiments to test those out we do experiments to feed into machine learning models",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Hire 'been there, done that' seniors early",
+      "summary": "Hire senior people into your organization who've 'been there, done that' as early as possible to ensure organizational alignment.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Judge by actions, not words",
+      "summary": "Don't judge us by our words, judge us by our actions.",
+      "details": null,
+      "representative_quote": "don't judge us by our words justice by our actions",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Look for disproportionate leverage",
+      "summary": "Always seek out opportunities where your unique background gives you an outsized advantage.",
+      "details": null,
+      "representative_quote": "i've always looked for opportunities where the experience the skills the the mindset that i bring have a disproportionate leverage",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Measure to understand, understand to fix",
+      "summary": "You can't fix what you don't understand, and you can't understand what you don't measure.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Sometimes XGBoost just works",
+      "summary": "Don't overcomplicate the solution. Often, a simple, established model is the fastest way to build something that actually works in the real world.",
+      "details": null,
+      "representative_quote": "Sometimes it's just XGBoost just works and it's hard to beat.",
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Team success vs. Individual success",
+      "summary": "In a startup, you succeed or fail as a team; in academia, you succeed or fail as an individual.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "The 2-year vs 10-year technology estimation rule",
+      "summary": "People tend to overestimate the value of any technology in a 2-year time frame and underestimate it in a 10-year time frame.",
+      "details": null,
+      "representative_quote": "People tend to overestimate the value of any technology in the two-year time frame and underestimate it in a 10year time frame.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Use AI to win more, not fail faster",
+      "summary": "Speed is important, but accelerating a flawed process isn't helpful. The goal of AI should be to fundamentally change the probability of success.",
+      "details": null,
+      "representative_quote": "While speed is important, failing faster is not helpful; our north star is using A.I. to win more.",
+      "source_ids": [
+        "src_048"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "AI as an amplifier",
+      "summary": "On the proper role of AI in physical sciences.",
+      "details": "Addressing misconceptions about A.I. in biotech.",
+      "representative_quote": "Done right, A.I. is an amplifier of rigorous biology—not a substitute for it.",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Anti-hypothesis driven approach",
+      "summary": "On Insitro's core methodology.",
+      "details": "Describing the shift from human-led to data-led scientific discovery.",
+      "representative_quote": "We take a very different approach that is anti-hypothesis driven.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Better solutions and better problems",
+      "summary": "On the importance of integrating machine learning scientists and biologists.",
+      "details": null,
+      "representative_quote": "What you get if you put them in a room together and actually get to the point where they communicate with each other effectively, is that not only do you get better solutions, you get better problems.",
+      "source_ids": [
+        "src_000"
+      ]
+    },
+    {
+      "label": "Bits meet atoms",
+      "summary": "On the difference between virtual and physical AI applications.",
+      "details": "When asked about an assumption about A.I. that is dead wrong.",
+      "representative_quote": "Many people believe that A.I. is a magic wand that can allow you to move super fast. That assumption can be true in the virtual world, where everything moves at the speed of computation. But it’s not true in the physical world, where bits meet atoms.",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Building things people want",
+      "summary": "On leaving academia for industry.",
+      "details": "Discussing why she left academia to found a company.",
+      "representative_quote": "I very quickly came to the realization that if you want to have a real impact, you need to build something that people would want to use.",
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Data fungibility",
+      "summary": "On the need for domain-specific data generation.",
+      "details": "Explaining why Insitro had to build its own data generation factory.",
+      "representative_quote": "Data is not fungible. The fact that we have web-scale data for text and images of cats and dogs and airplanes doesn't mean that we can just take that and transfer those capabilities like that to asking answering questions about human biology.",
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Disproportionate leverage",
+      "summary": "Explaining how she decides which projects and career paths to pursue.",
+      "details": null,
+      "representative_quote": "i've always looked for opportunities where the experience the skills the the mindset that i bring have a disproportionate leverage i'm a big believer in leverage",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Innovation at the boundary",
+      "summary": "Discussing the founding of insitro at the intersection of machine learning and biology.",
+      "details": null,
+      "representative_quote": "i've always believed that the most interesting innovation lies at the boundary of things because that's where you can really sort of bring in ideas from these different disciplines and create something that is truly transformative",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Math is to physics as machine learning is to biology.",
+      "summary": "Explaining how machine learning provides the formal foundation for understanding complex biological systems.",
+      "details": null,
+      "representative_quote": "Math is to physics as machine learning is to biology.",
+      "source_ids": [
+        "src_000"
+      ]
+    },
+    {
+      "label": "Regretting not trying",
+      "summary": "Discussing her regrets and advising people to take on big challenges.",
+      "details": null,
+      "representative_quote": "Very few people regret having tried something and failed a lot of people regret not having tried.",
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "Tech transfer requires a product",
+      "summary": "Explaining her transition from academia to industry and the founding of Coursera and Insitro.",
+      "details": null,
+      "representative_quote": "You can't really do Tech transfer with a paper you can do Tech transfer with a product.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "The burden of privilege",
+      "summary": "Discussing her motivation to work on human health and drug discovery.",
+      "details": null,
+      "representative_quote": "For those of us who had the privilege of being born to relatively affluent, well-educated families, where we didn’t need to struggle for where our next meal is coming from, that burden is actually even higher and we — we should be thinking about how we can give back.",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "The danger of hyperbole",
+      "summary": "Warning against the 'fake it till you make it' culture in deep tech and science.",
+      "details": null,
+      "representative_quote": "I personally find hyperbole very problematic and I think hyperbole is something that is easy to fall prey to.",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "The erosion of scientific rigor",
+      "summary": "On the true danger of generative AI.",
+      "details": "Discussing what keeps her up at night regarding A.I. development.",
+      "representative_quote": "My concern about A.I. in science isn’t the distant risk of superintelligence, but the erosion of rigor from the seductive plausibility of generative A.I.",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "The limits of the human brain in biology",
+      "summary": "On why traditional drug discovery fails.",
+      "details": "Explaining why traditional drug discovery has a 90% failure rate.",
+      "representative_quote": "The human brain just cannot understand the human biology and its complexity.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "The root cause of clinical failures",
+      "summary": "Explaining the root cause of the massive costs and failure rates in drug discovery.",
+      "details": null,
+      "representative_quote": "Most of the things that fail in clinical development is because our therapeutic hypothesis was just wrong we don't understand the biology.",
+      "source_ids": [
+        "src_012"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Siloed Disciplines / Throwing data over the wall",
+      "summary": "Keeping machine learning scientists and biologists siloed, or having scientists generate datasets in isolation and hand them to computational teams.",
+      "details": "This fails because it doesn't encourage the kind of experimental design needed to drive innovative machine learning. ML scientists will solve biologically irrelevant problems, and biologists will only use ML for boring automation tasks.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_000",
+        "src_034",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Assuming data is fungible across domains",
+      "summary": "Dropping AI onto existing, incoherent data or assuming internet text data grants capabilities in biology.",
+      "details": "Having massive datasets in one domain doesn't automatically grant capabilities in domains where the necessary data hasn't even been generated yet. Systems must be re-architected around AI.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014",
+        "src_048"
+      ]
+    },
+    {
+      "label": "Artisanal Drug Discovery",
+      "summary": "Treating drug discovery as an artisanal, one-off process.",
+      "details": "It prevents the sharing of insights and infrastructure across different efforts, making every drug a 'snowflake' and slowing down overall progress.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_000"
+      ]
+    },
+    {
+      "label": "Building persistent products in academia",
+      "summary": "Trying to build reusable pipelines or products within a university setting.",
+      "details": "The incentives are misaligned. Grad students and postdocs are incentivized to get data for papers and move on, not to build data pipelines, maintain reusability, or create something a hospital can actually buy.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Deep learning for everything",
+      "summary": "Assuming deep learning is the solution to every problem.",
+      "details": "It ignores the reality of fields like biology where datasets are small, highly heterogeneous, and require the integration of prior knowledge to compensate for the lack of sample size.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "Focusing AI solely on molecule generation",
+      "summary": "Directing all AI efforts toward generating molecules while ignoring target discovery.",
+      "details": "While molecule generation is a well-defined problem, the most common reason drugs fail in the clinic is because the biological target itself was wrong.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_000"
+      ]
+    },
+    {
+      "label": "Hallucinated Synthetic Data",
+      "summary": "Training AI models on purely hallucinated synthetic data.",
+      "details": "If you generate data entirely from nothing and train a model on it, you are merely reinforcing what the model already knew without anchoring it to ground truth.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Hyperbole and 'Fake it till you make it'",
+      "summary": "Relying on hyperbole and the 'fake it till you make it' mentality in science and deep tech.",
+      "details": "It creates a sense of distrust in the entire field when bold claims fail to materialize, which can lead to massive funding droughts (like historical 'AI winters'). In biology, it is especially dangerous because you are meddling with people's lives.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Hypothesis-driven drug discovery",
+      "summary": "Relying on the human brain to understand complex biological systems.",
+      "details": "It leads to a 90% failure rate when the drug finally reaches clinical trials because the target doesn't actually modulate the clinical outcome in humans.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Relying on correlational data for interventional tasks",
+      "summary": "Using purely observational data to answer causal questions in the physical world.",
+      "details": "You fall prey to false and misleading conclusions when you try to answer causal questions (like drug efficacy or physical world interventions) using purely observational data.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Siloing disciplines",
+      "summary": "Keeping computational scientists and life scientists separated in an organization.",
+      "details": "They use different jargon and think about the world in different ways, causing them to talk past each other rather than compounding their expertise.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Symptom-based Disease Definition",
+      "summary": "Defining diseases by coarse-grained symptomology (e.g., 'Alzheimer's').",
+      "details": "It ignores the multiple different underlying biological mechanisms driving the disease in different people, forcing the use of lowest-common-denominator treatments with poor efficacy.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Trusting articulate AI outputs over experimental validation",
+      "summary": "Falling for the 'seductive plausibility' of generative AI and bypassing rigorous physical experiments.",
+      "details": "Generative models are optimized for fluency, not factual accuracy. This complacency silently erodes the scientific method and wastes years chasing beautifully worded mistakes.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_048"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "source_id": "src_020",
+  "summary": "In this Politico Q&A, Epic Systems CEO Judy Faulkner discusses new interoperability rules and the responsibilities of EHR vendors in protecting patient data. She warns against the risks of third-party apps accessing health data, emphasizing that patient consent often lacks true understanding. Faulkner also outlines her priorities for customer happiness, including physician personalization, effective initial training, and eliminating bureaucratic hurdles for technical changes.",
+  "themes": [
+    "Interoperability",
+    "Data Privacy",
+    "Patient Responsibility",
+    "Customer Happiness",
+    "Physician Burnout",
+    "EHR Usability"
+  ],
+  "principles": [
+    {
+      "statement": "Health systems, EHR vendors, and the government have a shared duty to protect patient data from third-party vendors.",
+      "rationale": "Patients often consent to 55-page terms of agreement without understanding them, so the industry cannot simply offload data responsibility to the patient once a third-party app is involved.",
+      "source_quote": "I think that the health systems and the EHR vendors and government owe the patients to protect their data.",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Initial training must be done right the first time.",
+      "rationale": "If a physician has a horrendous initial training experience, they will still complain about it 10 years later.",
+      "source_quote": "You need to get it right the first time and if you don’t, go back and try to get it right.",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Customers should be allowed to share reasonable amounts of EHR screenshots for academic or presentation purposes.",
+      "rationale": "Being overly restrictive with screenshots is unnecessary and stingy, provided the customer isn't publishing the entire system's interface.",
+      "source_quote": "If it’s a customer and it’s a reasonable number of screen shots and they are going to use them for a paper or presentation or analysis, it should immediately be a yes.",
+      "source_id": "src_020"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Three Pillars of Customer Happiness",
+      "when_to_apply": "When evaluating how to improve physician satisfaction and customer happiness with an EHR system.",
+      "steps": [
+        "Allow personalization so every physician can make their workflow match the software.",
+        "Provide excellent initial training, getting it right the first time.",
+        "Reduce the number of committees required for a technical change to zero."
+      ],
+      "source_quote": "KLAS found three things were most important for Epic customers: personalization for physicians... initial training... how many committees does it go through? The best answer is zero.",
+      "source_id": "src_020"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Cambridge Analytica Analogy",
+      "description": "Evaluating the risk of third-party health apps by comparing them to the Facebook/Cambridge Analytica scandal, where user consent did not absolve the platform of responsibility for data misuse.",
+      "example": "Questioning whether Epic or health systems are responsible if a third-party app gets patient permission but then misuses the data or corrupts the medical record.",
+      "source_id": "src_020"
+    }
+  ],
+  "heuristics": [
+    "When a physician requests a technical change, the number of committees it goes through should be zero.",
+    "If a customer requests a reasonable number of screenshots for a paper or presentation, the answer should immediately be a yes."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I’m not worried about patient data getting into the hands of the patient. I’m worried about it getting into the hands of another vendor before it gets to the patient.",
+      "context": "Discussing the risks of interoperability rules that open EHR data to third-party developers.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "The typical patient might say 'yes' to something they don’t understand. Not because they are not intelligent. You see a 55-page terms of agreement, check here. Everyone says 'I agree.' No one reads them.",
+      "context": "Explaining why patient consent to third-party apps doesn't absolve the industry of responsibility.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "None of us want to do harmful things. That makes us go slower in our development because you can so easily do harmful things.",
+      "context": "Discussing the caution required when writing healthcare code and allowing third-party write access to databases.",
+      "source_id": "src_020"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on patient consent to absolve vendors and health systems of data responsibility.",
+      "why_it_fails": "Patients routinely click 'I agree' on 55-page terms of service without reading or understanding them, leaving them vulnerable to bad actors.",
+      "source_id": "src_020"
+    },
+    {
+      "description": "Allowing third-party apps to write data back into the EHR without strict oversight.",
+      "why_it_fails": "Inaccurate data could be written to the wrong patient's chart, give harmful medical advice, or corrupt the entire database.",
+      "source_id": "src_020"
+    },
+    {
+      "description": "Forcing technical changes requested by physicians to go through multiple committees.",
+      "why_it_fails": "It creates friction and prevents physicians from personalizing the software to match their workflow, reducing customer happiness.",
+      "source_id": "src_020"
+    }
+  ]
+}

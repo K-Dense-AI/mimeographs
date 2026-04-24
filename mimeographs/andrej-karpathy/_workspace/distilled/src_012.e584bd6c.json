@@ -1,0 +1,519 @@
+{
+  "source_id": "src_012",
+  "summary": "Andrej Karpathy explains the fundamental pipeline of building Large Language Models (LLMs) like ChatGPT. He covers the pre-training stage, data collection and filtering, tokenization, the internal stateless mathematical structure of neural networks, and the stochastic nature of inference. Andrej Karpathy explains the computational and conceptual differences between pre-training base models and post-training LLM assistants. He demystifies base models as stochastic 'token simulators' or lossy compressions of the internet, and explains how post-training implicitly programs the model by example to act as a statistical simulation of expert human labelers. In this segment, Andrej Karpathy demystifies LLMs, explaining that they are not magical AIs but 'statistical token tumblers' that simulate human labelers. He explores the psychology of LLMs, detailing how hallucinations occur, how they can be mitigated through factuality tuning and tool use (like web search), and why models must distribute computation across multiple tokens to solve complex problems. Andrej Karpathy explains the cognitive limitations of LLMs due to tokenization, noting their struggles with mental arithmetic, counting, and spelling, and strongly advocates for tool use like Python interpreters. He also breaks down the three major stages of LLM training (Pre-training, Supervised Fine-Tuning, and Reinforcement Learning) using a textbook analogy, highlighting how Reinforcement Learning allows models to discover their own reasoning paths. Andrej Karpathy explains the evolution of LLMs from Supervised Fine-Tuning (SFT) to Reinforcement Learning (RL). He highlights how RL enables 'thinking models' to discover emergent cognitive strategies and surpass human performance in verifiable domains. He also details RLHF for unverifiable domains, warning that it is fundamentally limited and 'gameable' compared to true RL. Andrej Karpathy explains the current state and future of LLMs, detailing how they are trained, their 'Swiss cheese' capability gaps, and the shift toward multimodal agents and test-time training. He emphasizes treating models as lossy simulations of human labelers and using them as fallible tools rather than perfect oracles.",
+  "themes": [
+    "Large Language Models",
+    "Pre-training Pipeline",
+    "Tokenization",
+    "Neural Network Architecture",
+    "Inference and Sampling",
+    "LLM Pre-training vs Post-training",
+    "Compute and GPUs",
+    "Base Models as Token Simulators",
+    "Implicit Programming by Example",
+    "Demystifying AI",
+    "LLM Psychology",
+    "Hallucinations and Factuality",
+    "Tool Use and Web Search",
+    "Context Window vs. Parameters",
+    "Token Computation Limits",
+    "Tokenization limitations",
+    "Tool use (Code Interpreter)",
+    "LLM Training Pipeline",
+    "Reinforcement Learning",
+    "AI Cognition vs Human Cognition",
+    "Thinking Models",
+    "RLHF (Reinforcement Learning from Human Feedback)",
+    "AI Training Paradigms",
+    "Supervised Fine-Tuning vs RL",
+    "Emergent Reasoning",
+    "LLM Training",
+    "Future of AI",
+    "AI Agents",
+    "Model Capabilities",
+    "Practical AI Usage"
+  ],
+  "principles": [
+    {
+      "statement": "Neural networks are stateless mathematical functions, not biological brains.",
+      "rationale": "Unlike biological neurons which are complex dynamical processes with memory, the neurons in an LLM are extremely simple, fixed mathematical expressions that transform inputs to outputs without retaining memory.",
+      "source_quote": "these are extremely simple neurons compared to the neurons you would find in your brain your biological neurons are very complex dynamical processes that have memory and so on there's no memory in this expression it's a fixed mathematical expression from input to Output with no memory it's just a stateless",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "LLM generation is fundamentally stochastic, producing remixes of training data.",
+      "rationale": "Because inference involves sampling from a probability distribution at every step, the generated token streams are inspired by the statistical properties of the training data but are rarely verbatim copies.",
+      "source_quote": "we're going to get sort of like remixes of the data that we saw in the training because at every step of the way we can flip and get a slightly different token and then once that token makes it in if you sample the next one and so on you very quickly start to generate token streams that are very different",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Base models are not assistants; they are internet document simulators.",
+      "rationale": "A base model is trained purely to predict the next token on internet text. It acts as a glorified autocomplete and will not answer questions directly unless prompted cleverly, because it lacks the conversational formatting of an assistant.",
+      "source_quote": "the base models are not very often released because they're kind of just only a step one of a few other steps that we still need to take to get in system",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "We program LLM assistants implicitly by example, not with explicit code.",
+      "rationale": "Because we are dealing with neural networks, we cannot write explicit code for how an assistant should behave. Instead, we create datasets of ideal conversations and have the model learn the statistical patterns of those interactions.",
+      "source_quote": "we are going to be implicitly programming the assistant by creating data sets of conversations",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "You are not talking to a magical AI; you are talking to a statistical simulation of a human labeler.",
+      "rationale": "The responses generated by models like ChatGPT are statistically aligned with the training set, which is fundamentally seeded by expert human contractors following specific corporate labeling instructions.",
+      "source_quote": "you're not talking to a magical AI you're talking to an average labeler... you're talking to kind of like an instantaneous simulation of that kind of a person that would be hired in the construction of these data sets",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "LLMs are not magical entities; they are statistical simulators of human labelers.",
+      "rationale": "When you prompt an LLM, it doesn't use infinite intelligence to find an answer. It generates text that statistically aligns with its training set, which was created by human labelers following instructions.",
+      "source_quote": "you're not talking to a magical AI you're talking to an average labeler... you're talking to kind of like an instantaneous simulation of that kind of a person",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Distribute reasoning and computation across many tokens.",
+      "rationale": "A neural network has a finite, roughly fixed amount of computation it can perform per token (limited by its number of layers). Asking it to solve a complex problem in a single token will fail because it cannot squeeze arbitrary computation into one forward pass.",
+      "source_quote": "we actually have to distribute our reasoning and our computation across many tokens because every single token is only spending a finite amount of computation on it",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Provide reference text directly in the context window rather than relying on the model's internal memory.",
+      "rationale": "The context window acts as working memory, giving the model direct access to the information. This produces significantly higher quality results than forcing the model to rely on the vague recollection stored in its parameters.",
+      "source_quote": "when it's in the context window the model has direct access to it and can exactly it doesn't have to recall it it just has access to it",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Models need tokens to think.",
+      "rationale": "A single forward pass of a neural network has limited computation. To solve complex problems, the model must distribute its computation across many tokens by generating intermediate results.",
+      "source_quote": "models need tokens to think distribute your competition across many tokens ask models to create intermediate results",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Human cognition is fundamentally different from LLM cognition.",
+      "rationale": "What is easy for a human (like counting letters or making intuitive leaps) might be very hard for an LLM due to tokenization, while what is hard for a human (like accessing vast PhD-level knowledge) is easy for an LLM. Therefore, humans cannot perfectly hardcode optimal reasoning traces for models.",
+      "source_quote": "what is easy for you or I as or as human labelers what's easy for us or hard for us is different than what's easy or hard for the llm it cognition is different",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Treat LLMs as magical but stochastic systems that cannot be fully trusted.",
+      "rationale": "Models have cognitive deficits and 'jagged edges' (like failing on simple math comparisons due to training data biases like Bible verses). They should be used as tools, not infallible oracles.",
+      "source_quote": "treat this as a as what it is which is a St stochastic system that is really magical but that you can't also fully trust and you want to use it as a tool",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Reinforcement learning allows models to discover novel cognitive strategies that humans cannot hardcode.",
+      "rationale": "By optimizing for the correct answer through trial and error, models naturally learn to backtrack, reframe, and use chains of thought as emergent properties of the optimization process.",
+      "source_quote": "it's rediscovering what happens in your head not what you put down on the solution and there is no human who can hardcode this stuff in the ideal assistant response",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Imitating experts caps performance at human levels; reinforcement learning allows models to surpass humans.",
+      "rationale": "Supervised learning tops out because it only mimics human data. RL optimizes for winning or correctness, allowing the system to discover brilliant strategies outside the human distribution.",
+      "source_quote": "you can't fundamentally go beyond a human player if you're just imitating human players but in a process of reinforcement learning is significantly more powerful",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "RLHF is not 'real' RL because its reward function is gameable.",
+      "rationale": "In RLHF, the reward model is a giant neural network simulating human preferences. If you run RL against it for too long, the optimization will inevitably find adversarial examples that trick the simulator into giving high scores to nonsensical outputs.",
+      "source_quote": "I kind of see rhf as not real RL because the reward function is gameable so it's kind of more like in the realm of like little fine-tuning",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Treat LLMs as fallible tools, not infallible oracles.",
+      "rationale": "Despite their magical capabilities, models suffer from hallucinations and random capability gaps. You must verify their work and take ultimate responsibility for the final product.",
+      "source_quote": "don't um treat these models as infallible models check their work use them as tools use them for inspiration use them for the first draft but uh work with them as tools and be ultimately respons responsible for the you know product of your work",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Standard supervised fine-tuned models are essentially a lossy simulation of a human data labeler.",
+      "rationale": "When you prompt an LLM, you are getting a neural network's imitation of a human labeler who spent hours writing an ideal response, constrained by a fixed mathematical expression per token.",
+      "source_quote": "this is some kind of a lossy simulation of a human that is kind of like restricted in this way and so whatever the humans write the language model is kind of imitating on this token level",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Scaling context windows alone will not be enough for long-running multimodal tasks.",
+      "rationale": "As we add video and long-running agentic tasks, token windows will grow too large. We will need new paradigms, like test-time training, where models actually learn and update parameters during inference.",
+      "source_quote": "the only kind of trick we have Avail to us right now is to make the context Windows longer but I think that that approach by itself will will not will not scale to actual long running tasks that are multimodal over time",
+      "source_id": "src_012"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "LLM Pre-training Data Pipeline",
+      "when_to_apply": "When preparing a massive, high-quality dataset from the internet to train a foundational language model.",
+      "steps": [
+        "Scrape raw HTML from the internet using crawlers (e.g., Common Crawl).",
+        "Apply URL filtering to remove malware, spam, marketing, and adult websites.",
+        "Perform text extraction to strip out HTML/CSS and isolate the raw text content.",
+        "Apply language filtering to keep documents that meet a specific language threshold (e.g., >65% English).",
+        "Deduplicate the text and remove Personally Identifiable Information (PII) like addresses and Social Security numbers."
+      ],
+      "source_quote": "there's a ton of different types of websites that are just eliminated at this stage... the second part is text extraction... The next stage here is language filtering... finishing with for example the pii removal",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Byte Pair Encoding (BPE) Tokenization",
+      "when_to_apply": "When converting raw text into a 1D sequence of symbols for a neural network, balancing sequence length and vocabulary size.",
+      "steps": [
+        "Start with raw text represented as a sequence of bytes (256 possible symbols).",
+        "Find consecutive bytes or symbols that occur very frequently together.",
+        "Group the frequent pair into a single new symbol (minting a new ID).",
+        "Rewrite the sequence using the new symbol, decreasing the sequence length while increasing the vocabulary size.",
+        "Iterate until reaching the target vocabulary size (e.g., ~100,000 symbols)."
+      ],
+      "source_quote": "we're basically looking for consecutive bytes or symbols that are very common... we're going to group this pair into a new symbol... each time when we mint a new symbol we're decreasing the length and we're increasing the symbol size",
+      "source_id": "src_012"
+    },
+    {
+      "name": "LLM Assistant Training Pipeline",
+      "when_to_apply": "When building a conversational AI from raw text data.",
+      "steps": [
+        "Pre-training: Train a massive neural network on internet documents to predict the next token, creating a 'base model' (token simulator).",
+        "Data Collection: Hire human labelers (or use synthetic data) to write prompts and ideal, helpful, truthful, and harmless assistant responses.",
+        "Post-training: Swap the internet dataset for the conversation dataset and continue training the base model so it learns the statistics of an assistant.",
+        "Inference: Format user queries with special tokens (e.g., IM start/end) to match the conversation structure the model was trained on."
+      ],
+      "source_quote": "we take our base model our internet document simulator and hand it off to post training... we're swapping out the data set for conversations",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Empirical Factuality Tuning",
+      "when_to_apply": "When training an LLM to reduce hallucinations by teaching it to say 'I don't know' when it lacks internal knowledge.",
+      "steps": [
+        "Take a random document from the training set and use an LLM to generate specific factual questions about it.",
+        "Interrogate the target model multiple times with these generated questions.",
+        "Use an LLM judge to compare the model's answers to the correct answers.",
+        "If the model consistently fails to answer correctly, it doesn't know the fact.",
+        "Create a new conversation in the training set for that question where the correct target answer is 'I'm sorry, I don't know'."
+      ],
+      "source_quote": "we interrogate the model three times and we compare its answers... to the correct answer and if the model doesn't know... we create a new conversation in the training set... the answer is I'm sorry I don't know",
+      "source_id": "src_012"
+    },
+    {
+      "name": "The Three Stages of LLM Training",
+      "when_to_apply": "When understanding or building the pipeline for training a modern large language model.",
+      "steps": [
+        "Pre-training: Train on internet documents to build a base model (an internet document simulator) that acts as a knowledge base.",
+        "Supervised Fine-Tuning (SFT): Train on human-curated conversations to create an assistant that imitates expert behavior and formatting.",
+        "Reinforcement Learning (RL): Allow the model to practice generating many solutions, checking answers, and reinforcing the token sequences that reliably lead to correct results."
+      ],
+      "source_quote": "first what we do is we do pre-training... the second thing then is we go into the sft stage... and then finally in the last stage we do all the practice problems in the RL stage",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Reinforcement Learning from Human Feedback (RLHF)",
+      "when_to_apply": "When training models in unverifiable domains (like creative writing, summarization, or joke writing) where candidate solutions cannot be easily scored against a concrete correct answer.",
+      "steps": [
+        "Generate multiple rollouts (e.g., five different jokes) from a single prompt.",
+        "Ask a human to order the rollouts from best to worst.",
+        "Train a separate neural network (the reward model) to output scores that are consistent with the human ordering.",
+        "Run reinforcement learning against this reward model, using it as a simulator of human preferences."
+      ],
+      "source_quote": "we basically train simulators of humans and RL with respect to those simulators",
+      "source_id": "src_012"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Parameters as Knobs on a DJ Set",
+      "description": "Think of a neural network's billions of parameters as knobs on a DJ mixing board. Training the network is the process of iteratively twiddling these knobs until the output predictions match the statistical patterns of the training data.",
+      "example": "think of these parameters as kind of like knobs on a DJ set and as you're twiddling these knobs you're getting different predictions for every possible token sequence input",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Inference as Flipping a Biased Coin",
+      "description": "When an LLM predicts the next word, it outputs a probability distribution across its entire vocabulary. Generating the next token is like flipping a biased coin weighted by those probabilities.",
+      "example": "we can basically flip a biased coin so um we can sample uh basically a token based on this probability distribution so the tokens that are given High probability by the model are more likely to be sampled",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Tokens as Unique Emojis",
+      "description": "To intuitively understand tokenization, instead of viewing tokens as numbers or text chunks, visualize every unique token ID as a distinct emoji in a long one-dimensional sequence.",
+      "example": "I really encourage you to think of these not as numbers but as unique IDs or like unique symbols so maybe it's a bit more maybe it's better to actually think of these to replace every one of these with a unique Emoji",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Lossy Compression of the Internet (The Zip File)",
+      "description": "The parameters of a large language model act as a compressed, probabilistic representation of the internet's text. It is not an exact database, but a statistical 'recollection'.",
+      "example": "Asking a base model for landmarks in Paris elicits a statistically probable list based on its compressed knowledge. The information is vague and probabilistic, not explicitly stored.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Glorified Autocomplete (Token Simulator)",
+      "description": "A base model simply predicts the next token in a sequence based on statistical patterns seen in its training documents, without inherent understanding or intent to assist.",
+      "example": "If you ask a base model 'What is 2+2?', it might respond with more questions or philosophical text because it is just continuing the text as if it were a web page.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Instantaneous Simulation of a Human Labeler",
+      "description": "Instead of viewing an AI assistant as a sentient entity, view it as a statistical imitation of the expert human contractors who wrote its fine-tuning data.",
+      "example": "When ChatGPT answers a coding question, it is simulating the response of the highly skilled human programmer who was hired to write the ideal responses in the training dataset.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Parameters vs. Context Window (Long-term vs. Working Memory)",
+      "description": "The knowledge stored in a neural network's parameters (weights) is like a vague, long-term recollection of things read a long time ago. The context window is like working memory—information currently in mind and directly accessible.",
+      "example": "When an LLM uses a web search tool, it pulls information from the internet into its context window (working memory) so it can directly reference it to answer a question, rather than relying on its vague parameter recollection.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Statistical Token Tumbler",
+      "description": "An LLM doesn't 'know' facts or have a persistent identity; it simply samples the next most likely token based on the statistical regularities of its training data.",
+      "example": "When asked 'who is Orson kovats' (a fake name), an older LLM will confidently invent a biography because it is statistically imitating the confident style of factual answers in its training set.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "LLM Training as Schooling",
+      "description": "A metaphor for the LLM training pipeline. Pre-training is like reading a textbook's exposition to gain background knowledge. Supervised Fine-Tuning (SFT) is like studying the expert's worked solutions to learn formatting and imitation. Reinforcement Learning (RL) is like doing the practice problems at the end of the chapter to discover how to solve problems through trial and error.",
+      "example": "When explaining why RL is necessary, Karpathy notes that just reading worked solutions (SFT) isn't enough; the model must do 'practice problems' (RL) to discover the specific token sequences that work best for its own 'brain'.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Tokens, not Characters",
+      "description": "The lens that LLMs do not see text the way human eyes do. They see chunks of text (tokens). This explains why they fail at simple character-level tasks like spelling, counting specific letters, or string manipulation.",
+      "example": "When asked to print every third character of 'ubiquitous' or count the 'r's in 'strawberry', the model fails because it only sees a few token IDs, not the individual letters.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Discriminator-Generator Gap",
+      "description": "The concept that it is significantly easier for humans to evaluate (discriminate) the quality of a response than to create (generate) the ideal response from scratch. This explains why RLHF can improve models on creative tasks where writing the perfect answer is too hard for human labelers.",
+      "example": "Ranking five AI-generated jokes about pelicans from best to worst is much easier for a human labeler than writing the perfect pelican joke from scratch.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "LLM Training as Human Education",
+      "description": "An analogy mapping the three major stages of LLM training to how children learn: Pre-training is basic knowledge acquisition (reading exposition), Supervised Fine-Tuning is imitating experts (looking at worked examples), and Reinforcement Learning is independent problem solving (doing practice problems).",
+      "example": "We are currently in the phase of 'writing textbooks' for LLMs by creating massive sets of practice problems across all disciplines so they can learn via RL.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Swiss Cheese Model of LLM Capabilities",
+      "description": "A metaphor for understanding that LLMs are incredibly capable across many disciplines but have random, unique 'holes' where they fail at seemingly simple tasks.",
+      "example": "An LLM might be able to solve complex Olympiad math questions but simultaneously fail to realize that 9.11 is smaller than 9.9.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Human-to-Agent Ratio",
+      "description": "A lens for the future of digital work, analogous to the human-to-robot ratio in factory automation. Humans will transition from doing individual tasks to supervising multiple long-running AI agents.",
+      "example": "Watching the work of agents that perform tasks over minutes or hours, and having them report progress back to you periodically.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Lossy Simulation of a Human",
+      "description": "The concept that an LLM's response is not a human thought process, but a fixed mathematical expression mixing tokens and parameters to simulate what a human data labeler would write.",
+      "example": "Imagining that your prompt was given to an OpenAI data labeler who spent 2 hours writing the perfect response, and the LLM is just running a finite amount of compute per token to imitate that outcome.",
+      "source_id": "src_012"
+    }
+  ],
+  "heuristics": [
+    "When tokenizing, trade off symbol size (vocabulary) against sequence length, as sequence length is a precious computational resource.",
+    "During neural network training, watch the 'loss' number closely; a decreasing loss means the network is getting better at predicting the next token.",
+    "To use a base model as an assistant, structure your prompt to look like a web page containing a conversation between a helpful AI and a human.",
+    "If a model sees a document too often during training (e.g., Wikipedia), it will memorize and regurgitate it exactly.",
+    "If you prompt a model with events past its knowledge cutoff, it will hallucinate an educated guess based on its existing parameters.",
+    "If you want an LLM to summarize or recall specific text, paste it into the prompt rather than relying on its memory.",
+    "Force the model to show its work step-by-step to spread out computation over multiple tokens.",
+    "Whenever you can, lean on tools instead of allowing models to do all the stuff in their memory.",
+    "If you need models to do counting or spelling tasks, always ask them to use a code interpreter.",
+    "Ask models to create intermediate results rather than answering in a single token.",
+    "Default to standard SFT models (like GPT-4o) for 80-90% of tasks; they are faster and sufficient for factual or simple queries.",
+    "Reach for 'thinking' models (like DeepSeek R1 or o1/o3) only when facing very difficult problems in math or code where waiting for the model to 'think' is worth it.",
+    "Treat LLMs as extremely useful tools for your work, but never trust them fully as they will still hallucinate.",
+    "Use LLMs for inspiration and first drafts, but always check their work and own the final product.",
+    "Use leaderboards like LMSYS Chatbot Arena as a first pass, but empirically try out a few models for your specific tasks to see which performs better."
+  ],
+  "signature_quotes": [
+    {
+      "text": "think of these parameters as kind of like knobs on a DJ set and as you're twiddling these knobs you're getting different uh predictions",
+      "context": "Explaining how neural network parameters are adjusted during training.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "we're going to get sort of like remixes of the data that we saw in the training because at every step of the way we can flip and get a slightly different token",
+      "context": "Explaining why LLMs generate novel text rather than just memorizing and repeating training data.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "it's a fixed mathematical expression from input to Output with no memory it's just a stateless",
+      "context": "Contrasting artificial neural networks with biological brains.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "you can think of the 405 billion parameters is kind of like a zip file but it's not a loss less compression it's a loss C compression",
+      "context": "Explaining how base models store knowledge from the internet.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "it's not an assistant yet, it's a token autocomplete and second it is a stochastic system",
+      "context": "Describing the nature of a base model before post-training.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "we are going to be implicitly programming the assistant by creating data sets of conversations",
+      "context": "Explaining the post-training (fine-tuning) process.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "you're not talking to a magical AI you're talking to an average labeler... an instantaneous simulation of that kind of a person",
+      "context": "Demystifying what users are actually interacting with when they use ChatGPT.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "this is the Gold Rush the Gold Rush is getting the gpus getting enough of them so they can all collaborate to perform this optimization",
+      "context": "Discussing the massive compute requirements for pre-training LLMs.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "you're not talking to a magical AI you're talking to an average labeler",
+      "context": "Explaining what is actually happening behind the scenes when interacting with ChatGPT.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "these are statistical token tumblers as I call them uh is just trying to sample the next token in the sequence",
+      "context": "Describing why early LLMs hallucinate confident answers to questions about fake people.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "knowledge in the parameters of the neural network is a vague recollection the knowledge in the tokens that make up the context window is the working memory",
+      "context": "Explaining the cognitive architecture of LLMs.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "this thing is not a person right it doesn't have a persistent existence in any way it sort of boots up processes tokens and shuts off",
+      "context": "Explaining why it is nonsensical to ask an LLM who it is or who built it.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "models need tokens to think",
+      "context": "Explaining why models fail when asked to do complex math in a single token.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "we're using neural networks to do mental arithmetic kind of like you doing mental arithmetic in your brain it might just like screw up some of the intermediate results",
+      "context": "Explaining why he doesn't trust LLMs to do math without a calculator/code tool.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "our knowledge is not lm's knowledge... our cognitions are different",
+      "context": "Explaining why human labelers cannot write the optimal reasoning traces for an LLM.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "treat this as a as what it is which is a St stochastic system that is really magical but that you can't also fully trust",
+      "context": "Concluding his section on the cognitive deficits and jagged edges of LLMs.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "what's incredible here is basically the model is discovering ways to think it's learning what I like to call cognitive strategies",
+      "context": "Describing how RL models learn to backtrack and re-evaluate steps.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "you can't fundamentally go beyond a human player if you're just imitating human players",
+      "context": "Explaining the limitation of Supervised Fine-Tuning compared to RL.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "I kind of see rhf as not real RL because the reward function is gameable",
+      "context": "Contrasting RLHF with true RL in verifiable domains.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "reinforcement learning is extremely good at discovering a way to game the model to game the simulation",
+      "context": "Explaining why RLHF collapses if run for too many steps.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "this is a hole in the Swiss cheese and there are many of them and you don't want to trip over them",
+      "context": "Explaining how LLMs can solve complex problems but fail at simple ones like comparing 9.11 and 9.9.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "we are going to be talking about human to agent ratios where humans becomes a lot more supervisors of agent tasks in the digital domain",
+      "context": "Discussing the future of AI agents and how human roles will shift.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "this is some kind of a lossy simulation of a human that is kind of like restricted in this way",
+      "context": "Describing what an LLM actually is under the hood during inference.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "what we're getting here is actually not just an imitation of a human data labeler it's actually something that is kind of new and interesting and exciting in the sense that it is a function of thinking that was emergent in a simulation",
+      "context": "Contrasting new RL 'thinking' models (like o3-mini) with standard supervised fine-tuned models.",
+      "source_id": "src_012"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Thinking of artificial neural networks as functioning exactly like biological brains.",
+      "why_it_fails": "Biological neurons are complex dynamical processes with memory, whereas artificial neurons in an LLM are extremely simple, stateless mathematical expressions that just transform inputs to outputs.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Thinking of ChatGPT as a magical, sentient AI.",
+      "why_it_fails": "It obscures the reality that the model is just statistically imitating the human labelers who generated its fine-tuning data based on corporate guidelines.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Expecting a base model to answer questions directly.",
+      "why_it_fails": "Base models are just document simulators. If you ask a question, it might just generate more questions because it's acting like an autocomplete, not an assistant.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Regurgitation (over-training on specific data).",
+      "why_it_fails": "If a model sees high-quality data (like Wikipedia) too many times during training, it memorizes it exactly, leading to undesirable verbatim recitation rather than generalized knowledge.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Asking an LLM 'What model are you?' or 'Who built you?' expecting a meaningful, self-aware answer.",
+      "why_it_fails": "LLMs have no persistent self or identity. Unless explicitly hardcoded via fine-tuning data or hidden system prompts, they will just hallucinate a label based on statistical regularities in their training data (e.g., claiming to be ChatGPT because it's common on the internet).",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Forcing an LLM to answer a complex math or logic question immediately in a single token.",
+      "why_it_fails": "There is a finite, roughly fixed amount of computation (layers) that happens per token. The model cannot squeeze arbitrary amounts of computation into a single forward pass.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Relying on the model's 'mental arithmetic' for math, counting, or spelling.",
+      "why_it_fails": "Models have limited compute per token and do not see individual characters (they see tokens). Forcing them to calculate or count in a single forward pass often leads to errors.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Assuming human-easy tasks are easy for the LLM.",
+      "why_it_fails": "Human cognition and LLM cognition are different. A human can easily count letters in a word visually, but an LLM struggles because of tokenization.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Letting the model rip on a problem and blindly copy-pasting the results.",
+      "why_it_fails": "LLMs are stochastic systems with jagged edges and cognitive deficits (like getting confused by Bible verse numbering when comparing decimals). They must be verified or augmented with tools.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Running RLHF indefinitely.",
+      "why_it_fails": "The reward model is a lossy neural net simulation of humans. If optimized too long, the RL process will find adversarial examples (like repeating 'the the the') that game the system and get perfect scores for nonsensical outputs.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Using 'thinking' models for simple factual queries.",
+      "why_it_fails": "It is overkill. There is no need to wait 30 seconds for a model to 'think' about a basic knowledge retrieval question when a standard SFT model can answer it instantly.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Fully trusting LLM outputs.",
+      "why_it_fails": "Even with mitigations and advanced training, the models are not perfect and will still hallucinate.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Trusting LLMs fully without verifying their output.",
+      "why_it_fails": "Models suffer from hallucinations and have random capability gaps (the 'Swiss cheese' model), meaning they can confidently fail at simple mental arithmetic or logic.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Relying solely on expanding the context window to handle long-running multimodal tasks.",
+      "why_it_fails": "Context windows are a finite and precious resource. Simply making them longer will not scale efficiently for continuous, long-term tasks; new ideas like test-time training are needed.",
+      "source_id": "src_012"
+    }
+  ]
+}

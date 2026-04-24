@@ -1,0 +1,103 @@
+{
+  "source_id": "src_018",
+  "summary": "A discussion of David Hume's political and moral philosophy, highlighting his rejection of religion in favor of empiricism, his reliance on custom and habit over rational justification, and his belief that society is founded on self-interest and utility rather than divine or natural law.",
+  "themes": [
+    "Empiricism",
+    "Skepticism",
+    "Utility",
+    "Self-Interest",
+    "Passions vs. Reason",
+    "Secularism"
+  ],
+  "principles": [
+    {
+      "statement": "Reason is and ought always to be slave of the passions.",
+      "rationale": "Human beings are driven by feeling and passions, not by reason. Reason cannot motivate action on its own; it only serves the desires and ends established by our passions.",
+      "source_quote": "reason is and ought always to be slave of the passions",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "Custom and habit, not rational justification, are the foundation of our basic beliefs.",
+      "rationale": "We cannot rationally justify our belief in the self, external objects, or the uniformity of nature. Instead, it is custom, habit, and human nature that impel us to believe in them so we can function in the world.",
+      "source_quote": "it's custom it's habit it's nature that impels me to believe in the existence of myself in the existence of external objects",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "Self-interest and utility form the foundation of justice and society.",
+      "rationale": "In a state of limited goods, people realize it is in their self-interest to moderate their pursuits in agreement with others to avoid chaos and live peacefully.",
+      "source_quote": null,
+      "source_id": "src_018"
+    },
+    {
+      "statement": "Reject any volume of divinity or school metaphysics that lacks abstract reasoning on quantity or experimental reasoning on matters of fact.",
+      "rationale": "If a text is not based on mathematics or empirical evidence, it contains nothing but sophistry and illusion.",
+      "source_quote": "commit it then to the Flames for it can contain nothing but sophistry and illusion",
+      "source_id": "src_018"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Hume's Fork",
+      "when_to_apply": "When evaluating the validity of a book, theory, or philosophical claim.",
+      "steps": [
+        "Ask: Does it contain any abstract reasoning concerning quantity or number?",
+        "Ask: Does it contain any experimental reasoning concerning matters of fact and existence?",
+        "If the answer to both is 'no', commit it to the flames."
+      ],
+      "source_quote": "If we take in our hand any volume of divinity or School metaphysics for instance let us ask does it contain any abstract reasoning concerning quantity or number no does it contain any experimental reasoning concerning matters of fact and existence no commit it then to the Flames",
+      "source_id": "src_018"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Self-Interest Balancing Self-Interest",
+      "description": "Viewing the origin of societal rules and justice not as divine law or rational design, but as a utility calculation where competing self-interests naturally moderate each other to avoid conflict.",
+      "example": "Individuals in a savage state want to procure desired goods, but limited resources cause conflict. They realize they cannot get what they want unless they moderate their pursuit in agreement with others, creating the laws of justice.",
+      "source_id": "src_018"
+    },
+    {
+      "name": "Custom as the Guide of Life",
+      "description": "Viewing our fundamental assumptions (like the sun rising tomorrow or the existence of the self) as products of habit and nature rather than deductive logic.",
+      "example": "When paralyzed by philosophical melancholy about whether the self or external objects exist, stepping away to play backgammon and dine with friends restores the natural habit of belief.",
+      "source_id": "src_018"
+    }
+  ],
+  "heuristics": [
+    "When paralyzed by philosophical melancholy, step away and engage in everyday life.",
+    "Commit to the flames anything that isn't math or empirical fact."
+  ],
+  "signature_quotes": [
+    {
+      "text": "reason is and ought always to be slave of the passions",
+      "context": "Describing the relationship between human motivation and rationality.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "If we take in our hand any volume of divinity or School metaphysics for instance let us ask does it contain any abstract reasoning concerning quantity or number no does it contain any experimental reasoning concerning matters of fact and existence no commit it then to the Flames for it can contain nothing but sophistry and illusion",
+      "context": "Introducing what would become known as Hume's Fork.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "they Roar though they have apparently more Liberty than any people in the world a great deal more than they deserve and perhaps more than any men ought to have",
+      "context": "Writing despondently late in life about the British masses and the limits of liberty.",
+      "source_id": "src_018"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Radical Skepticism",
+      "why_it_fails": "It is unlivable. Suspending all belief leads to philosophical melancholy and paralysis; human beings must act, breathe, and decide using custom and habit.",
+      "source_id": "src_018"
+    },
+    {
+      "description": "Religious Enthusiasm and Fanaticism",
+      "why_it_fails": "Bringing the divine and transcendent into public and political life leads to conflict, religious wars, and persecution, disrupting the peace that utility and self-interest provide.",
+      "source_id": "src_018"
+    },
+    {
+      "description": "Belief in Miracles",
+      "why_it_fails": "We know uniformly that human beings lie and exaggerate. It is far more likely that a person is misrepresenting an event than that the uniform laws of nature have been violated.",
+      "source_id": "src_018"
+    }
+  ]
+}

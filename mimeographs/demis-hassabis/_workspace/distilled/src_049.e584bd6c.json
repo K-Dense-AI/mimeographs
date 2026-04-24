@@ -1,0 +1,91 @@
+{
+  "source_id": "src_049",
+  "summary": "In his 2009 PhD thesis, Demis Hassabis explores the neural mechanisms of episodic memory, arguing that memory is a reconstructive process rather than a literal recording. He introduces the concept of 'scene construction', demonstrating that the hippocampus and its associated network are critical not only for recalling the past but also for imagining new experiences and maintaining spatial coherence.",
+  "themes": [
+    "Episodic Memory",
+    "Scene Construction",
+    "Hippocampal Function",
+    "Constructive Cognitive Functions",
+    "Multivariate Pattern Analysis (MVPA)",
+    "Neural Networks"
+  ],
+  "principles": [
+    {
+      "statement": "Memory and imagination rely on the same neural machinery.",
+      "rationale": "Because episodic memory recall is a reconstructive process rather than a literal replay, the brain uses the same constructive mechanisms (centered on the hippocampus) to imagine new, fictitious experiences.",
+      "source_quote": "I therefore hypothesised that the same neural machinery responsible for reconstruction might also support ‘constructive’ cognitive functions such as imagination.",
+      "source_id": "src_049"
+    },
+    {
+      "statement": "Reconstructive memory is computationally superior to literal storage.",
+      "rationale": "Storing memories by reconstructing them from distributed components is highly efficient for storage capacity and naturally supports making abstract inferences and generalizing across distinct experiences.",
+      "source_quote": "From a computational perspective, reconstructing a memory from its components is more efficient in terms of storage capacity than the alternative of storing each memory separately as an intact record.",
+      "source_id": "src_049"
+    },
+    {
+      "statement": "Spatial context acts as the scaffold for episodic memories.",
+      "rationale": "The hippocampus plays a critical role in binding together the disparate elements of a scene. Without this spatial coherence, both recalled memories and imagined experiences fragment.",
+      "source_quote": "It is has been proposed that spatial context may act as the scaffold around which episodic memories are built.",
+      "source_id": "src_049"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Scene Construction",
+      "when_to_apply": "When analyzing how the brain supports complex cognitive functions like episodic memory, imagination, navigation, and future planning.",
+      "steps": [
+        "Retrieve disparate features of an experience from modality-specific cortical areas.",
+        "Use the hippocampus to bind these disparate elements together.",
+        "Generate and maintain a complex and coherent spatial context (the 'scene') to serve as a scaffold for the experience."
+      ],
+      "source_quote": "...the process of ‘scene construction’, defined as the generation and maintenance of a complex and coherent spatial context.",
+      "source_id": "src_049"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Pattern Completion",
+      "description": "A mechanism where a partial input or cue triggers the recall of an entire stored experience by piecing together distributed features stored across the brain.",
+      "example": "Proust’s remembrance of a childhood memory triggered by the taste of a Madeleine cake.",
+      "source_id": "src_049"
+    },
+    {
+      "name": "Distributed Memory Representation",
+      "description": "The concept that no single brain region contains a literal trace or 'engram' of a whole experience. Instead, constituent features are stored in modality-specific cortical areas and linked via a simple hippocampal index.",
+      "example": null,
+      "source_id": "src_049"
+    }
+  ],
+  "heuristics": [
+    "Use rich, ecologically valid stimuli to study complex cognitive processes like episodic memory, rather than simple associative tasks."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I therefore hypothesised that the same neural machinery responsible for reconstruction might also support ‘constructive’ cognitive functions such as imagination.",
+      "context": "Introducing the core hypothesis of his thesis linking memory and imagination.",
+      "source_id": "src_049"
+    },
+    {
+      "text": "From a computational perspective, reconstructing a memory from its components is more efficient in terms of storage capacity than the alternative of storing each memory separately as an intact record.",
+      "context": "Explaining the evolutionary and computational advantages of a reconstructive memory system.",
+      "source_id": "src_049"
+    },
+    {
+      "text": "...the process of ‘scene construction’, defined as the generation and maintenance of a complex and coherent spatial context.",
+      "context": "Defining the primary function of the fronto-temporo-parietal network identified in his fMRI studies.",
+      "source_id": "src_049"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating memory as a literal, passive replay of past experiences.",
+      "why_it_fails": "Memory is highly prone to errors, confabulation, and misattribution because it is a constructive process pulling from distributed sources, not a perfect holistic record.",
+      "source_id": "src_049"
+    },
+    {
+      "description": "Using simple word-pair association tasks to operationalize episodic memory.",
+      "why_it_fails": "Simple tasks do not tap into all the processes involved in true autobiographical memory, such as autonoetic consciousness and rich multimodal re-experiencing.",
+      "source_id": "src_049"
+    }
+  ]
+}

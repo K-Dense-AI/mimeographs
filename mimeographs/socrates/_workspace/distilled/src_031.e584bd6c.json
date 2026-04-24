@@ -1,0 +1,80 @@
+{
+  "source_id": "src_031",
+  "summary": "This excerpt from Britannica outlines Socrates' foundational role in Western ethics. It highlights his method of rigorous inquiry to dismantle false conventional beliefs, his core conviction that virtue is knowledge, and his assertion that moral failures are solely the result of ignorance rather than a weakness of will.",
+  "themes": [
+    "Socratic method",
+    "Virtue as knowledge",
+    "Moral ignorance",
+    "Objective goodness",
+    "Critical inquiry"
+  ],
+  "principles": [
+    {
+      "statement": "Virtue is knowledge, and those who know what is good will necessarily do what is good.",
+      "rationale": "Socrates did not distinguish between knowing what one ought to do and acting upon it; he believed that true comprehension of virtue inherently guarantees virtuous action.",
+      "source_quote": "anyone who knows what virtue is will necessarily act virtuously.",
+      "source_id": "src_031"
+    },
+    {
+      "statement": "Bad actions are the result of ignorance, not a weakness of will.",
+      "rationale": "Because knowing virtue guarantees virtuous action, any failure to act well means the person is simply mistaken about the real nature of virtue.",
+      "source_quote": "Those who act badly, therefore, do so only because they are ignorant of, or mistaken about, the real nature of virtue.",
+      "source_id": "src_031"
+    },
+    {
+      "statement": "The destruction of false beliefs is a necessary prerequisite to discovering truth.",
+      "rationale": "Conventional beliefs often fail under scrutiny. Clearing away these inadequate accounts prepares the mind for the genuine search for objective knowledge.",
+      "source_quote": "the destruction of beliefs that could not stand up to criticism as a necessary preliminary to the search for true knowledge.",
+      "source_id": "src_031"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Socratic Method of Inquiry",
+      "when_to_apply": "When someone claims to know the definition of a moral concept like justice, piety, temperance, or law.",
+      "steps": [
+        "Ask the person to give a general account of the concept, going beyond merely describing particular acts.",
+        "Expose the errors and confusions in their argument to demonstrate that their account is entirely inadequate.",
+        "Use this destruction of conventional beliefs as a preliminary step to clear the way for the search for true knowledge."
+      ],
+      "source_quote": "When the Sophists or their pupils boasted that they knew what justice, piety, temperance, or law was, Socrates would ask them to give an account, which he would then show was entirely inadequate.",
+      "source_id": "src_031"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Virtue as Objective Knowledge",
+      "description": "The lens that moral concepts (like goodness or justice) are not relative to custom, but are objective truths that can be discovered and known through rigorous inquiry.",
+      "example": "Opposing the Sophists' ethical relativism by insisting that virtue is something that can be definitively known.",
+      "source_id": "src_031"
+    }
+  ],
+  "heuristics": [
+    "Subject conventional beliefs to rigorous criticism to see if they stand up.",
+    "Go beyond merely describing particular acts to seek a general account of a virtue."
+  ],
+  "signature_quotes": [
+    {
+      "text": "the unexamined life is not worth living",
+      "context": "Socrates' famous observation regarding the necessity of philosophical inquiry and self-reflection.",
+      "source_id": "src_031"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Believing that someone can know what is good but intentionally choose to do what is bad (weakness of will).",
+      "why_it_fails": "Socrates explicitly denied this was possible, arguing that anyone who truly knows what virtue is will necessarily act virtuously; bad actions stem purely from ignorance.",
+      "source_id": "src_031"
+    },
+    {
+      "description": "Adhering blindly to conventional moral codes without subjecting them to critical inquiry.",
+      "why_it_fails": "Conventional beliefs often cannot stand up to criticism, and relying on them prevents the search for true knowledge.",
+      "source_id": "src_031"
+    },
+    {
+      "description": "Ethical relativism.",
+      "why_it_fails": "The Sophist view that goodness and justice are relative to customs is flawed because virtue is an objective truth that can be known.",
+      "source_id": "src_031"
+    }
+  ]
+}

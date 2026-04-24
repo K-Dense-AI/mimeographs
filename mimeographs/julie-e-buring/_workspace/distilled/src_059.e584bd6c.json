@@ -1,0 +1,30 @@
+{
+  "source_id": "src_059",
+  "summary": "Julie E. Buring co-authored a systematic review and meta-analysis evaluating the association between migraine and cardiovascular disease. The study concluded that migraine with aura is associated with an increased risk of ischemic stroke, particularly in young women who smoke or use oral contraceptives, but found no overall association with myocardial infarction or cardiovascular death.",
+  "themes": [
+    "Migraine with aura",
+    "Ischemic stroke risk",
+    "Women's health",
+    "Cardiovascular disease screening",
+    "Oral contraceptives and smoking"
+  ],
+  "principles": [
+    {
+      "statement": "Patients with migraine should receive standard screening and treatment for traditional cardiovascular risk factors.",
+      "rationale": "Because firm evidence linking migraine to other ischemic vascular events (beyond stroke) is lacking, standard cardiovascular screening and modification of traditional risk factors remains the most appropriate clinical approach.",
+      "source_quote": "Therefore patients with migraine should be treated the same as any other patient without migraine: they should be screened for traditional cardiovascular risk factors, such as hypertension, adverse lipid profile, and increased risk of coronary heart disease and, if appropriate, these risk factors should be modified.",
+      "source_id": "src_059"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Prescribing oral contraceptives to young women who have migraine with aura, especially if they smoke.",
+      "why_it_fails": "The combination of migraine with aura, smoking, and oral contraceptive use significantly magnifies the risk of ischemic stroke, leading to the highest risk estimates for these patients.",
+      "source_id": "src_059"
+    }
+  ]
+}

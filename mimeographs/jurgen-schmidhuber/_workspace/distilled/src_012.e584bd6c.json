@@ -1,0 +1,109 @@
+{
+  "source_id": "src_012",
+  "summary": "In this keynote, Jürgen Schmidhuber discusses the history and future of AI, emphasizing that deep learning and LSTM networks were pioneered decades ago but realized their potential due to exponential hardware acceleration. He argues that AI is fundamentally about improving and extending human life, highlights the importance of artificial curiosity, and predicts a rapidly approaching technological singularity followed by a cosmic expansion of intelligence.",
+  "themes": [
+    "History of AI",
+    "Hardware Acceleration",
+    "LSTM and Sequential Data",
+    "Artificial Curiosity",
+    "AI Democratization",
+    "Cosmic Evolution"
+  ],
+  "principles": [
+    {
+      "statement": "The primary purpose of AI is to improve and extend human life.",
+      "rationale": "AI applications, particularly in healthcare like cancer detection and cardiovascular disease prediction, are designed to make human lives longer, healthier, and easier.",
+      "source_quote": "our AI is really about making human lives longer and healthier",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Hardware acceleration is the fundamental enabler of AI progress.",
+      "rationale": "The theoretical foundations of deep learning were established decades ago, but they only became practically transformative because computational power gets 10 times cheaper every five years.",
+      "source_quote": "without the enormous Hardware acceleration of recent decades all of that would have been in vain but luckily every five years computers getting 10 times cheaper",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "True AI requires artificial curiosity and creativity, not just imitation.",
+      "rationale": "Machines can be designed to ask their own questions, set their own goals, and invent experiments to figure out how the world works, becoming better problem solvers without human teachers.",
+      "source_quote": "we also have creative curious artificial AI is rich ask themselves their own questions and set themselves their own goals and invent their own experiments",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "AI will be democratized and benefit everyone, not just massive corporations.",
+      "rationale": "Similar to the trajectory of smartphones, which went from being luxury items to ubiquitous tools, AI will become accessible to everyone, working to make individual lives easier and happier.",
+      "source_quote": "AI is not going to be uh just making profits for a couple of huge companies no it's going to be for everyone",
+      "source_id": "src_012"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Divide by 1000 Historical Acceleration Framework",
+      "when_to_apply": "When trying to understand the accelerating pace of technological and cosmic evolution to predict the timeline of the next major paradigm shift.",
+      "steps": [
+        "Start with the Big Bang (13.8 billion years ago).",
+        "Divide by 1000 to find the emergence of the first hominids (13.5 million years ago).",
+        "Divide by 1000 again to find the invention of civilization and agriculture (13,000 years ago).",
+        "Divide by 1000 again to predict the next massive revolution, where machines compute as much as human brains, occurring within roughly 13 years."
+      ],
+      "source_quote": "Big Bang 13.8 billion years ago we divide by 1 000 we come out 13.5 million years ago... divide Again by a factor of 1000... civilization was invented... maybe then we will have to divide Again by a factor of 1000 and within 30 13 years again the entire world is going to change",
+      "source_id": "src_012"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Sequential World",
+      "description": "The understanding that the real world is not static but a sequence of events over time. Therefore, processing real-world data requires recurrent systems with memory, rather than standard feedforward networks.",
+      "example": "Using Long Short-Term Memory (LSTM) networks for speech recognition, video processing, and playing complex video games where past events dictate optimal future moves.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Cosmic Intelligence Expansion",
+      "description": "Viewing the future of intelligence on a cosmic scale, where the universe is currently young but will eventually be completely colonized, transformed, and shaped by intelligence within the limits of physics.",
+      "example": "Multiplying the current age of the universe by 1000 to envision a far future shaped entirely by intelligence, rather than just looking at near-term human history.",
+      "source_id": "src_012"
+    }
+  ],
+  "heuristics": [
+    "Every five years, computers get 10 times cheaper.",
+    "Most of the world is sequential, all of the world is sequential."
+  ],
+  "signature_quotes": [
+    {
+      "text": "our AI is really about making human lives longer and healthier",
+      "context": "Speaking about the early victories of deep learning in cancer detection.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "most of the world is sequential all of the world is sequential",
+      "context": "Explaining why recurrent neural networks like LSTM are necessary for real-world applications.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "it's not true that Curiosity and creativity are limited to humans no we have that in machines",
+      "context": "Discussing AI systems that set their own goals and invent their own experiments.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "without the enormous Hardware acceleration of recent decades all of that would have been in vain",
+      "context": "Acknowledging that the theoretical breakthroughs of the 1990s relied on Moore's Law to become practical.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "Don't Be Afraid all will be good",
+      "context": "Concluding his talk about the impending technological singularity and the cosmic future of intelligence.",
+      "source_id": "src_012"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Believing AI only learns by imitating human teachers or following human-defined goals.",
+      "why_it_fails": "It ignores the capability of AI to be curious, set its own goals, and invent its own experiments to learn about the world and become better problem solvers autonomously.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Fearing that AI will only benefit a few massive corporations.",
+      "why_it_fails": "Historical trends show that technology democratizes; just like mobile phones, AI will eventually become cheap, ubiquitous, and work for everyone to make their lives easier.",
+      "source_id": "src_012"
+    }
+  ]
+}

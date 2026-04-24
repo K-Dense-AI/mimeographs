@@ -1,0 +1,100 @@
+{
+  "source_id": "src_020",
+  "summary": "Aviv Regev outlines the vision and computational challenges of building the Human Cell Atlas. She advocates for using single-cell genomic profiles as a unifying coordinate system to map cell types, histology, developmental trajectories, and physiological states. Regev emphasizes that computation must be integrated into experimental design from the very beginning, rather than treated as a post-data afterthought.",
+  "themes": [
+    "Single-cell genomics",
+    "Human Cell Atlas",
+    "Computational biology",
+    "Experimental design",
+    "Developmental biology"
+  ],
+  "principles": [
+    {
+      "statement": "Computation must be integrated before data collection, not just after.",
+      "rationale": "Statistical frameworks and power analyses are necessary to make decisions throughout every step of the process, especially in experimental design, to ensure the right number of cells and spatial patterns are captured.",
+      "source_quote": "computation for the human cell Atlas is not just about what happens after the data has been collected it is as ever it is at every point and in particular before the data has been collected and the experiment has been designed",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Leverage biological asynchrony rather than fighting it.",
+      "rationale": "By taking a single-cell snapshot of a dynamic process, we can pseudo-order cells based on their different points in a continuum, allowing us to map developmental histories and trajectories.",
+      "source_quote": "biologists have also always fought against heterogeneity and synchrony but single cell and in situ analysis allow us to leverage it",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "The Human Cell Atlas must be built on equity and open access.",
+      "rationale": "To function as a true international collaboration across the scientific community, all methods, computational algorithms, and data must be accessible to everyone.",
+      "source_quote": "there has to be equity in the cell Atlas it has to be open Access everything from message to computational algorithms to data has to be accessible to everyone",
+      "source_id": "src_020"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Cells as the Periodic Table",
+      "description": "Viewing cells as the fundamental, categorizable base units of human biology, similar to how chemical elements form the basis of matter. This drives the endeavor to discover, characterize, and map them into a comprehensive reference.",
+      "example": "Building the Human Cell Atlas to identify the unique characteristics of every cell in the human body.",
+      "source_id": "src_020"
+    },
+    {
+      "name": "Cell Type as a Probability Distribution",
+      "description": "Instead of rigid, discrete categories, a cell type can be conceptualized mathematically as a region or probability distribution in a complex, multi-dimensional space of molecular characteristics.",
+      "example": "Using data-driven computational methods to make the concept of a 'cell type' precise as researchers go down to finer and finer biological distinctions.",
+      "source_id": "src_020"
+    },
+    {
+      "name": "Genomic Profiles as Unifying Coordinates",
+      "description": "Using the molecular and genomic profile of a cell as the foundational coordinate system that underlies and connects all its other facets, including histology, taxonomy, developmental biology, and physiology.",
+      "example": "Combining dissociated single-cell profiles with in situ molecular signatures to map cellular profiles directly into their spatial anatomical positions.",
+      "source_id": "src_020"
+    }
+  ],
+  "heuristics": [
+    "When you don't know the answer ahead of time, take a guess, combine different methods, and iterate.",
+    "Never look at one cellular process and forget the others; cells simultaneously have a type, a location, and undergo multiple transitions."
+  ],
+  "signature_quotes": [
+    {
+      "text": "the base unit of our body is the cell and in that sense cells are akin to other elements that we know about in science in general and in biology you can think of them similar to the elements in a periodic table",
+      "context": "Introducing the foundational concept behind the Human Cell Atlas.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "we can think of a cell type maybe as a region or a probability distribution in some complex multi-dimensional space",
+      "context": "Discussing the computational challenge of defining what a 'cell type' actually is.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "biologists have also always fought against heterogeneity and synchrony but single cell and in situ analysis allow us to leverage it",
+      "context": "Explaining how single-cell snapshots allow researchers to map dynamic developmental trajectories.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "computation for the human cell Atlas is not just about what happens after the data has been collected it is as ever it is at every point and in particular before the data has been collected",
+      "context": "Emphasizing the role of computational biology in experimental design.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "like in many many problems in life when you actually don't know the answer ahead of time you're going to have to iterate you're going to have to take a guess and combine different methods because none of them is perfect",
+      "context": "Describing the pragmatic approach to building the Human Cell Atlas.",
+      "source_id": "src_020"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating computation solely as a post-experiment data analysis step.",
+      "why_it_fails": "It misses the opportunity to use statistical frameworks for power analysis and experimental design, which are crucial for determining how many cells to profile or how to detect spatial patterns.",
+      "source_id": "src_020"
+    },
+    {
+      "description": "Reusing a distance metric from a simple system on a complex one without revision.",
+      "why_it_fails": "Algorithms that work well for one cell type (e.g., a simple neuron) often break or fail to classify correctly when applied to a more complex class of cells.",
+      "source_id": "src_020"
+    },
+    {
+      "description": "Studying cellular processes in isolation.",
+      "why_it_fails": "Cells are simultaneously defined by their type, location, and multiple dynamic transitions; ignoring this interconnectedness leads to an incomplete understanding of cell biology.",
+      "source_id": "src_020"
+    }
+  ]
+}

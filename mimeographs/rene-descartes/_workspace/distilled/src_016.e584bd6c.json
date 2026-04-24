@@ -1,0 +1,113 @@
+{
+  "source_id": "src_016",
+  "summary": "In his First Meditation, René Descartes seeks to establish a foundation of absolute certainty by systematically doubting all his existing beliefs. To avoid the impossible task of checking each belief individually, he targets their foundational principles—first discarding sensory knowledge due to illusions and the inability to distinguish waking from dreaming, and finally discarding even mathematical truths by imagining an all-powerful, malicious demon dedicated to deceiving him.",
+  "themes": [
+    "Epistemology",
+    "Skepticism",
+    "Method of Doubt",
+    "Foundationalism",
+    "Rationalism"
+  ],
+  "principles": [
+    {
+      "statement": "I must withhold my assent from opinions that are not completely certain, treating them as if they were patently false.",
+      "rationale": "To build a system of beliefs that is 100% guaranteed to be true, one must reject any belief that contains even a sliver of doubt.",
+      "source_quote": "Reason now leads me to think that I should hold back my ascent from opinions which are not completely certain and injubitable just as carefully as I do from those which are patently false.",
+      "source_id": "src_016"
+    },
+    {
+      "statement": "Never completely trust a source of information that has deceived you before.",
+      "rationale": "Because the senses occasionally deceive us (e.g., regarding small or distant objects), they cannot be relied upon as a foundation for absolute certainty.",
+      "source_quote": "But from time to time, I have found that the senses deceive, and it is prudent never to trust completely those who have deceived us even once.",
+      "source_id": "src_016"
+    },
+    {
+      "statement": "Mathematical and geometric truths are discovered through pure thought, not the senses.",
+      "rationale": "Numbers and geometric shapes do not exist in physical space; we demonstrate their truths by thinking clearly about their nature, independent of sensory observation.",
+      "source_quote": null,
+      "source_id": "src_016"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Method of Doubt",
+      "when_to_apply": "When attempting to wipe out merely 'probably true' beliefs to establish a 100% certain, foolproof foundation for knowledge.",
+      "steps": [
+        "Identify the basic principles or foundations upon which large groups of your beliefs rest.",
+        "Search for at least one reason to doubt that basic principle.",
+        "If a sliver of doubt is found, reject the foundational principle and all the specific beliefs built upon it.",
+        "Rebuild your system of beliefs slowly, accepting only what can be proven for certain."
+      ],
+      "source_quote": "Once the foundations of a building are undermined, anything built on them collapses of its own accord. So, I will go straight to the basic principles on which all my former beliefs rested.",
+      "source_id": "src_016"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Building Metaphor (Foundationalism)",
+      "description": "A lens for evaluating knowledge. Beliefs are structured like a house. Instead of dismantling the house stick by stick (belief by belief), you examine the foundation (basic principles). If the foundation is undermined, the entire structure of beliefs collapses automatically.",
+      "example": "Doubting the basic principle of 'trusting the senses' automatically demolishes thousands of specific beliefs derived from the senses, such as believing you are wearing clothes or that the earth exists.",
+      "source_id": "src_016"
+    },
+    {
+      "name": "The Dream Argument",
+      "description": "A thought experiment used to doubt immediate, nearby sensory experiences. Because there are no definitive tests to prove you are awake (since you could just be dreaming that you are performing the test), you cannot be absolutely certain that your current physical reality is real.",
+      "example": "Believing you are sitting by the fire in a dressing gown, when you might actually be asleep and undressed in bed.",
+      "source_id": "src_016"
+    },
+    {
+      "name": "The Malicious Demon",
+      "description": "An extreme skeptical hypothesis used to test the absolute certainty of a priori beliefs (like math and geometry). You imagine an omnipotent, highly cunning, and evil being whose sole purpose is to deceive you about reality.",
+      "example": "Assuming that a malicious demon is tricking your mind into believing that 1+2=3 or that the physical world has extension, thereby allowing you to doubt even mathematical truths.",
+      "source_id": "src_016"
+    }
+  ],
+  "heuristics": [
+    "If you find even one reason for doubt in a belief, toss it out.",
+    "Never trust completely those who have deceived us even once."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Reason now leads me to think that I should hold back my ascent from opinions which are not completely certain and injubitable just as carefully as I do from those which are patently false.",
+      "context": "Explaining the standard of absolute certainty required for his foundational beliefs.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "So for the purpose of rejecting all my opinions, it will be enough if I find in each of them at least one reason for doubt.",
+      "context": "Establishing the threshold for discarding a belief.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "Once the foundations of a building are undermined, anything built on them collapses of its own accord.",
+      "context": "Explaining why he targets basic principles rather than individual beliefs.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "But from time to time, I have found that the senses deceive, and it is prudent never to trust completely those who have deceived us even once.",
+      "context": "Providing the rationale for doubting sensory information.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "As I think about this more carefully, I see plainly that there are never any sure signs by means of which being awake can be distinguished from being asleep.",
+      "context": "Introducing the Dream Argument to doubt even vivid, nearby sensory experiences.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "I will suppose, therefore, that not God, who is supremely good and the source of truth, but rather some malicious demon of the utmost power and cunning, has employed all of his energies in order to deceive me.",
+      "context": "Introducing the ultimate skeptical hypothesis to doubt mathematical truths and the external world.",
+      "source_id": "src_016"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Attempting to test or doubt every single belief one by one.",
+      "why_it_fails": "Humans hold trillions of beliefs; running through them all individually would be an endless, impossible task. You must target the foundational principles instead.",
+      "source_id": "src_016"
+    },
+    {
+      "description": "Trusting the senses as a source of absolute, guaranteed truth.",
+      "why_it_fails": "The senses frequently deceive us regarding small or distant objects, and even vivid, nearby experiences cannot be trusted because we might be dreaming.",
+      "source_id": "src_016"
+    }
+  ]
+}

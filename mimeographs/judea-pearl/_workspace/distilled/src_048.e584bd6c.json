@@ -1,0 +1,90 @@
+{
+  "source_id": "src_048",
+  "summary": "In this letter to the editor, Judea Pearl clarifies that propensity score (PS) methods can actually increase bias compared to unadjusted estimates, particularly in M-graph structures. He argues that propensity scores are probabilistic, not causal, and emphasizes that selecting the correct covariates for PS analysis requires qualitative causal knowledge and graphical methods, rather than guesswork.",
+  "themes": [
+    "Propensity Scores",
+    "Causal Inference",
+    "Selection Bias",
+    "Graphical Models",
+    "Covariate Selection"
+  ],
+  "principles": [
+    {
+      "statement": "Propensity scores are a probabilistic, not a causal concept.",
+      "rationale": "In large samples, propensity score methods simply reproduce the bias of straight stratification on the chosen covariates. They approach the asymptotic estimate effectively, but whether that estimate is biased depends entirely on the covariates chosen, not the PS method itself.",
+      "source_quote": "First, the PS ei is a probabilistic, not a causal concept. Therefore, in the limit of very large sample, PS methods are bound to produce the same bias as straight stratification on the same set of measured covariates.",
+      "source_id": "src_048"
+    },
+    {
+      "statement": "Choosing covariates for propensity score analysis requires qualitative causal knowledge.",
+      "rationale": "To achieve strong ignorability and eliminate bias, one must understand the relationships between observed and unobserved variables. Covariate selection cannot be left to guesswork.",
+      "source_quote": "Second, the task of choosing a sufficient (i.e. bias-eliminating) set of covariates for PS analysis requires qualitative knowledge of the causal relationships among both observed and unobserved covariates.",
+      "source_id": "src_048"
+    },
+    {
+      "statement": "Graphical methods are the optimal tool for finding a sufficient set of covariates.",
+      "rationale": "Once qualitative causal knowledge is established, graphical methods can readily determine if a sufficient set of covariates exists to eliminate bias, and identify what that set is.",
+      "source_quote": "Given such knowledge, finding a sufficient set of covariates or deciding whether a sufficient set exists are two problems that can readily be solved by graphical methods",
+      "source_id": "src_048"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Graphical Covariate Selection",
+      "when_to_apply": "When deciding which covariates to include in a propensity score analysis to ensure bias elimination.",
+      "steps": [
+        "Obtain qualitative knowledge of the causal relationships among both observed and unobserved covariates.",
+        "Map these relationships using graphical methods (causal diagrams).",
+        "Use the graphical model to determine if a sufficient (bias-eliminating) set of covariates exists.",
+        "Select the sufficient set of covariates to achieve strong ignorability before applying propensity score methods."
+      ],
+      "source_quote": "Given such knowledge, finding a sufficient set of covariates or deciding whether a sufficient set exists are two problems that can readily be solved by graphical methods",
+      "source_id": "src_048"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The M-graph (M-structure)",
+      "description": "A specific causal structure where adjusting for a measured covariate actually introduces new bias that was dormant in the crude, unadjusted estimate.",
+      "example": "When treatment is strongly ignorable initially, but becomes non-ignorable at certain levels of the propensity score because unobserved confounders become highly unbalanced within those strata.",
+      "source_id": "src_048"
+    }
+  ],
+  "heuristics": [
+    "The choice of covariates for propensity score methods cannot be left to guesswork; it requires understanding the underlying causal relationships."
+  ],
+  "signature_quotes": [
+    {
+      "text": "First, the PS ei is a probabilistic, not a causal concept.",
+      "context": "Explaining why propensity scores do not inherently solve causal confounding without the correct covariate selection.",
+      "source_id": "src_048"
+    },
+    {
+      "text": "the crude estimate is bias-free, while PS methods introduce new bias.",
+      "context": "Answering whether propensity score methods can increase bias over an unadjusted comparison, specifically referencing the M-graph.",
+      "source_id": "src_048"
+    },
+    {
+      "text": "the effectiveness of PS methods rests critically on the choice of covariates, X, and that choice cannot be left to guesswork",
+      "context": "Summarizing the core requirement for using propensity scores effectively.",
+      "source_id": "src_048"
+    },
+    {
+      "text": "the task of choosing a sufficient (i.e. bias-eliminating) set of covariates for PS analysis requires qualitative knowledge of the causal relationships among both observed and unobserved covariates.",
+      "context": "Detailing the prerequisites for proper covariate selection.",
+      "source_id": "src_048"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming propensity score methods always reduce bias compared to crude, unadjusted estimates.",
+      "why_it_fails": "In certain causal structures, like an M-graph, unobserved confounders may be highly unbalanced in each stratum of the propensity score. This can awaken dormant bias, making the adjusted estimate worse than the crude estimate.",
+      "source_id": "src_048"
+    },
+    {
+      "description": "Generalizing experimental proofs of propensity score bias-reduction to new observational problems without checking causal structures.",
+      "why_it_fails": "A study proving bias reduction using a specific covariate set only justifies the use of that set in new problems if the causal relationships among covariates, treatment, outcome, and unobserved confounders are exactly the same.",
+      "source_id": "src_048"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "source_id": "src_011",
+  "url": "https://www.youtube.com/watch?v=nWaM6XmQEmU",
+  "title": "The Foundations of Causal Inference [The Book of WHY]",
+  "text": "What exactly is the do function there...  what exactly is the do function in the equations?\nSo here you control both the smoking and the tar, so you have to apply...\nCan you clarify the difference between this\nand just changing the graphical model and removing the arrow into smoking,\nand then doing normal calculus and probability in a graphical model.\nYeah, as  you suggested, you remove the arrow into smoking\nand set the values\nYou can marginalize over it.\nYou can marginalize over it.\nYou can estimate it.\nWe do that all the time in machine learning, [inaudible] latent variables.\nOn latent variables, yeah.\nYou are not randomizing\nthe problem that you are suggesting, you are not randomizing.\n \nThere is an effect from genotype to causing you to smoke.\nYou say, do the surgery, and then marginalize, right?\nMarginalize over genotype.\n...but then you have to randomize over that.\nYou have to find smokers that can smoke regardless of the genotype,\nand do the same for the other population. You can't.\nYou can perform the mathematical operation, but it will not return that.",
+  "char_count": 1078,
+  "fetch_method": "youtube-captions",
+  "language": "en-US"
+}

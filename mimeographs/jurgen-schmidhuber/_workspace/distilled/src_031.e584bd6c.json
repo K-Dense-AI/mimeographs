@@ -1,0 +1,98 @@
+{
+  "source_id": "src_031",
+  "summary": "Jürgen Schmidhuber outlines algorithmic principles for intelligent agents, positing that they should store all sensory data and seek to compress it. He defines subjective beauty as data compressibility, and curiosity as the drive to maximize the progress of this compressibility (its first derivative). This framework models discovery and human creativity as by-products of a reinforcement learner actively seeking to improve its data compression.",
+  "themes": [
+    "Artificial Intelligence",
+    "Algorithmic Information Theory",
+    "Curiosity and Intrinsic Motivation",
+    "Creativity",
+    "Data Compression",
+    "Reinforcement Learning"
+  ],
+  "principles": [
+    {
+      "statement": "The data is holy; store all sensory observations as they come.",
+      "rationale": "Intelligent agents need a complete observation history to find regularities, build world models, and measure progress in their compression algorithms.",
+      "source_quote": "They store all sensory observations as they come - the data is holy.",
+      "source_id": "src_031"
+    },
+    {
+      "statement": "Subjective beauty is algorithmic compressibility.",
+      "rationale": "Data that can be explained or compressed by a short, fast program is perceived by the agent as more regular and therefore more 'beautiful' than random data.",
+      "source_quote": "At any time, given some agent's current coding capabilities, part of the data is compressible by a short and hopefully fast program / description / explanation / world model. In the agent's subjective eyes, such data is more regular and more \"beautiful\" than other data.",
+      "source_id": "src_031"
+    },
+    {
+      "statement": "Interestingness is the first derivative of subjective beauty.",
+      "rationale": "Once a regularity is fully learned, it becomes boring. True interest and curiosity come from the active progress of improving the compression algorithm, turning previously random-seeming data into regular data.",
+      "source_quote": "Then \"interestingness\" becomes the first derivative of subjective beauty: as the learning agent improves its compression algorithm, formerly apparently random data parts become subjectively more regular and beautiful.",
+      "source_id": "src_031"
+    },
+    {
+      "statement": "Curiosity is the drive to maximize progress in data compressibility.",
+      "rationale": "To learn efficiently, agents should actively create action sequences that yield new observations containing unknown but quickly learnable algorithmic regularities.",
+      "source_quote": "Such progress in compressibility is measured and maximized by the curiosity drive: create action sequences that extend the observation history and yield previously unknown / unpredictable but quickly learnable algorithmic regularity.",
+      "source_id": "src_031"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Active Data Selection via Curiosity",
+      "when_to_apply": "When designing general reinforcement learning agents that need to explore and discover in environments without external rewards.",
+      "steps": [
+        "Store all sensory observations as they arrive.",
+        "Provide the agent with an adaptive compressor to find regularities in the data.",
+        "Reward the reinforcement learner for actions that improve the subjective compressibility of the growing data."
+      ],
+      "source_quote": "we reward a general reinforcement learner (with access to the adaptive compressor) for actions that improve the subjective compressibility of the growing data.",
+      "source_id": "src_031"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Creativity as Compression Breakthroughs",
+      "description": "A lens that views human creativity and discovery not as mystical inspiration, but as the algorithmic process of finding unusually large breakthroughs in data compressibility.",
+      "example": "The \"creativity\" of artists, dancers, musicians, pure mathematicians can be viewed as a by-product of this principle.",
+      "source_id": "src_031"
+    }
+  ],
+  "heuristics": [
+    "The data is holy.",
+    "Known beauty is boring.",
+    "Interestingness is the first derivative of subjective beauty."
+  ],
+  "signature_quotes": [
+    {
+      "text": "They store all sensory observations as they come - the data is holy.",
+      "context": "Describing the foundational behavior of intelligent agents.",
+      "source_id": "src_031"
+    },
+    {
+      "text": "In absence of such rewards, however, known beauty is boring.",
+      "context": "Explaining why agents need curiosity rather than just an appreciation for existing regularities.",
+      "source_id": "src_031"
+    },
+    {
+      "text": "Then \"interestingness\" becomes the first derivative of subjective beauty...",
+      "context": "Defining what makes data interesting to a learning agent.",
+      "source_id": "src_031"
+    },
+    {
+      "text": "An unusually large breakthrough in compressibility deserves the name \"discovery\".",
+      "context": "Defining discovery in algorithmic terms.",
+      "source_id": "src_031"
+    },
+    {
+      "text": "The \"creativity\" of artists, dancers, musicians, pure mathematicians can be viewed as a by-product of this principle.",
+      "context": "Applying the algorithmic principle of curiosity to human creative fields.",
+      "source_id": "src_031"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on known regularities and external rewards to drive an agent's actions.",
+      "why_it_fails": "In the absence of external rewards, relying only on known regularities leads to stagnation because 'known beauty is boring'. Agents need an intrinsic curiosity drive to seek out new, learnable regularities.",
+      "source_id": "src_031"
+    }
+  ]
+}

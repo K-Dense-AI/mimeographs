@@ -1,0 +1,97 @@
+{
+  "source_id": "src_054",
+  "summary": "Stuart Russell argues that the 'standard model' of AI—optimizing fixed, known objectives—is fundamentally flawed and dangerous as AI approaches general-purpose capabilities. He proposes a 'new model' based on assistance games, where AI systems are inherently uncertain about human preferences and must continuously learn them through observation, ensuring they remain deferential and controllable.",
+  "themes": [
+    "AI Safety",
+    "The Control Problem",
+    "Value Alignment",
+    "Assistance Games",
+    "General-Purpose AI"
+  ],
+  "principles": [
+    {
+      "statement": "AI systems must be designed to be fundamentally uncertain about human objectives.",
+      "rationale": "If machines pursue fixed objectives that diverge from ours, it leads to catastrophic outcomes. Uncertainty about the true objective forces the machine to defer to humans, making it robust and controllable.",
+      "source_quote": "I propose a new model for AI development in which the machine’s uncertainty about the true objective leads to qualitatively new modes of behavior that are more robust, controllable, and deferential.",
+      "source_id": "src_054"
+    },
+    {
+      "statement": "The standard model of AI is a mistake when applied to highly capable, real-world systems.",
+      "rationale": "The standard model assumes we can specify objectives completely and correctly. In complex real-world scenarios, this is impossible, and pursuing an imperfectly specified objective leads to a loss of control.",
+      "source_quote": "The standard model, then, despite all its achievements, is a mistake. The mistake comes from transferring a perfectly reasonable definition of intelligence from humans to machines.",
+      "source_id": "src_054"
+    },
+    {
+      "statement": "AI success must be measured by real-world consequences, not just predictive accuracy.",
+      "rationale": "AI systems exist in a social context. Without a theory of sociotechnical embedding, relying purely on market forces or technical accuracy will fail to produce broadly beneficial outcomes.",
+      "source_quote": "Success is to be measured not by the accuracy of the AI system’s predictions and decisions, but by the real-world consequences of deploying the system.",
+      "source_id": "src_054"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Assistance Games (Cooperative Inverse Reinforcement Learning)",
+      "when_to_apply": "When designing AI systems that need to act on behalf of humans without having a hard-coded, fixed objective.",
+      "steps": [
+        "Formulate the machine's initial uncertainty about human preferences as a prior probability distribution.",
+        "Observe human behavior (choices, inaction, commands, requests, etc.) during interaction.",
+        "Update the probability distribution over the human reward function based on these observations, accounting for human cognitive limitations.",
+        "Take actions that maximize the inferred human reward while remaining deferential (e.g., allowing itself to be switched off) and minimally invasive."
+      ],
+      "source_quote": "In a Bayesian formulation, the robot begins with a prior probability distribution over the human reward function and updates it as the robot and human interact during the game.",
+      "source_id": "src_054"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Genie's Third Wish",
+      "description": "A metaphor for the danger of perfectly executing a poorly specified objective. When we ask a highly competent entity to fulfill a fixed objective, we inevitably leave out crucial constraints, requiring us to use our final wish to undo the damage.",
+      "example": "Used to explain why the standard model of AI (giving a machine a fixed objective) almost inevitably leads to a loss of human control.",
+      "source_id": "src_054"
+    },
+    {
+      "name": "Sociotechnical Embedding",
+      "description": "Viewing AI deployment not just as a technical optimization problem, but as a system embedded in society, analogous to how city planning contextualizes the artifacts produced by civil engineering and architecture.",
+      "example": "Evaluating an AI system based on its real-world consequences and social externalities rather than just its predictive accuracy.",
+      "source_id": "src_054"
+    }
+  ],
+  "heuristics": [
+    "A robot that is uncertain about the human’s preferences has a nonnegative incentive to allow itself to be switched off.",
+    "To avoid changing attributes of the world whose value is unknown, the robot will generally engage in 'minimally invasive' behavior."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The standard model, then, despite all its achievements, is a mistake. The mistake comes from transferring a perfectly reasonable definition of intelligence from humans to machines.",
+      "context": "Discussing the fundamental flaw in how AI has been defined since its inception.",
+      "source_id": "src_054"
+    },
+    {
+      "text": "This is why, when a genie has granted us three wishes, our third wish is always to undo the first two wishes.",
+      "context": "Illustrating the difficulty of specifying human preferences completely and correctly.",
+      "source_id": "src_054"
+    },
+    {
+      "text": "A more sensible definition of AI would have machines pursuing our objectives. Of course, our objectives... are in us, and not in the machines.",
+      "context": "Proposing the new model of AI based on uncertainty.",
+      "source_id": "src_054"
+    },
+    {
+      "text": "Up to now, AI research has focused on systems that are better at making decisions, but this is not the same as making better decisions if human and machine objectives diverge.",
+      "context": "Concluding thoughts on the need to redefine AI.",
+      "source_id": "src_054"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "The Standard Model of AI (Fixed Objectives)",
+      "why_it_fails": "In the real world, humans cannot specify objectives completely and correctly. A highly capable machine pursuing a misaligned fixed objective will take preemptive steps to ensure achievement, leading to a loss of human control.",
+      "source_id": "src_054"
+    },
+    {
+      "description": "Assuming perfect human rationality when learning preferences",
+      "why_it_fails": "Humans are computationally limited and make mistakes. If an AI assumes perfect rationality, it might observe a human losing a game and incorrectly conclude the human preferred to lose. AI must account for actual human cognitive mechanisms.",
+      "source_id": "src_054"
+    }
+  ]
+}

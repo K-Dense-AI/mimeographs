@@ -1,0 +1,78 @@
+{
+  "source_id": "src_055",
+  "summary": "This paper introduces the 'p' factor, a single dimension of general psychopathology that parallels the 'g' factor of intelligence. Moffitt and Caspi argue that this single dimension accounts for the liability, comorbidity, persistence, and severity of mental disorders, explaining why psychiatric comorbidity is ubiquitous and why different disorders often share the same risk factors and treatments.",
+  "themes": [
+    "General Psychopathology",
+    "The 'p' Factor",
+    "Psychiatric Comorbidity",
+    "Transdiagnostic Research",
+    "Dimensional Classification"
+  ],
+  "principles": [
+    {
+      "statement": "A single dimension of general psychopathology ('p') underlies all mental disorders.",
+      "rationale": "Empirical evidence shows that a single continuous dimension can measure a person's liability to mental disorder, the comorbidity among different disorders, their persistence over time, and overall symptom severity.",
+      "source_quote": "a single dimension is able to measure a person's liability to mental disorder, comorbidity among disorders, persistence of disorders over time, and severity of symptoms. This single dimension of general psychopathology has been termed 'p'",
+      "source_id": "src_055"
+    },
+    {
+      "statement": "Psychiatric comorbidity is ubiquitous and transcends traditional diagnostic boundaries.",
+      "rationale": "Longitudinal data reveals that individuals who meet criteria for one disorder are highly likely to meet criteria for others, and this covariation spans across internalizing, externalizing, and psychotic domains.",
+      "source_quote": "comorbidity/covariation is not just limited to disorders in the same domains (e.g., Internalizing, Externalizing, Psychotic Experiences), but transcends diagnostic domains.",
+      "source_id": "src_055"
+    },
+    {
+      "statement": "The 'p' factor explains the nonspecificity of psychiatric risk factors and treatments.",
+      "rationale": "Because all disorders share a common underlying dimension of psychopathology, multiple distinct diagnoses often share the same biomarkers, family history, and respond to the same therapies.",
+      "source_quote": "A dimension of p may help account for ubiquitous nonspecificity in psychiatry: multiple disorders share the same risk factors and biomarkers and often respond to the same therapies.",
+      "source_id": "src_055"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Hierarchical Aggregation of Psychopathology",
+      "when_to_apply": "When conceptualizing how specific psychiatric symptoms relate to general mental illness severity and overarching diagnostic domains.",
+      "steps": [
+        "Assess present/absent status on hundreds of specific psychiatric symptoms.",
+        "Aggregate these symptoms into dozens of distinct clinical diagnoses.",
+        "Aggregate the diagnoses into three overarching domains: externalizing, internalizing, and psychotic experiences.",
+        "Aggregate these three domains into one single dimension of psychopathology from low to high (the 'p' factor)."
+      ],
+      "source_quote": "It influences present/absent status on hundreds of psychiatric symptoms, which modern nosological systems typically aggregate into dozens of distinct diagnoses, which in turn aggregate into three overarching domains, namely, the externalizing, internalizing, and psychotic experience domains, which finally aggregate into one dimension of psychopathology from low to high: p.",
+      "source_id": "src_055"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The 'p' Factor (General Psychopathology Dimension)",
+      "description": "A conceptual parallel to the 'g' factor of general intelligence. Just as 'g' reflects a continuum from low to high mental ability, 'p' represents a continuum from low to high psychopathology severity, uniting all mental disorders.",
+      "example": "Using the 'p' factor to understand why a patient with severe psychopathology might exhibit a mix of internalizing and externalizing symptoms, have a family history of various psychiatric illnesses, and experience cognitive difficulties in everyday life.",
+      "source_id": "src_055"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "a single dimension is able to measure a person's liability to mental disorder, comorbidity among disorders, persistence of disorders over time, and severity of symptoms.",
+      "context": "Introducing the concept of the 'p' factor in psychiatry.",
+      "source_id": "src_055"
+    },
+    {
+      "text": "As the g dimension reflects low to high mental ability, the p dimension represents low to high psychopathology severity, with thought disorder at the extreme.",
+      "context": "Explaining the conceptual parallel between general intelligence and general psychopathology.",
+      "source_id": "src_055"
+    },
+    {
+      "text": "A dimension of p may help account for ubiquitous nonspecificity in psychiatry: multiple disorders share the same risk factors and biomarkers and often respond to the same therapies.",
+      "context": "Describing the clinical and etiological utility of the 'p' factor.",
+      "source_id": "src_055"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating psychiatric disorders as entirely distinct, independent entities with unique causes and treatments.",
+      "why_it_fails": "It ignores the 'ubiquitous nonspecificity in psychiatry' where multiple disorders share the same risk factors, biomarkers, and therapies, and fails to account for the high rates of comorbidity that transcend diagnostic domains.",
+      "source_id": "src_055"
+    }
+  ]
+}

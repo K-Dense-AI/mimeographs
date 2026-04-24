@@ -1,0 +1,59 @@
+{
+  "source_id": "src_033",
+  "summary": "The source is the abstract of the seminal 1997 paper introducing Long Short-Term Memory (LSTM). It outlines how LSTM uses constant error carousels and multiplicative gate units to solve complex, long-time-lag tasks that previous recurrent neural networks could not handle.",
+  "themes": [
+    "Recurrent Neural Networks",
+    "Gradient-based Learning",
+    "Long Short-Term Memory (LSTM)",
+    "Error Flow"
+  ],
+  "principles": [
+    {
+      "statement": "To bridge long time lags in recurrent networks, you must enforce constant error flow.",
+      "rationale": "Enforcing constant error flow allows the network to bridge minimal time lags of over 1,000 discrete-time steps, solving complex tasks that previous recurrent algorithms could not.",
+      "source_quote": "LSTM can learn to bridge minimal time lags in excess of 1,000 discrete-time steps by enforcing constant error flow through constant error carousels within special units.",
+      "source_id": "src_033"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Long Short-Term Memory (LSTM)",
+      "when_to_apply": "When dealing with complex sequence learning tasks that require bridging long time lags (in excess of 1,000 discrete-time steps).",
+      "steps": [
+        "Enforce constant error flow through constant error carousels within special units.",
+        "Use multiplicative gate units to learn to open and close access to the constant error flow.",
+        "Apply a gradient-based learning algorithm that is local in space and time."
+      ],
+      "source_quote": "Multiplicative gate units learn to open and close access to the constant error flow. LSTM is local in space and time.",
+      "source_id": "src_033"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Constant Error Carousels and Gates",
+      "description": "Viewing memory in a neural network as a protected 'carousel' where error flows constantly without degrading, controlled by 'gates' that learn when to open and close access to this flow.",
+      "example": "Using multiplicative gate units to protect the constant error flow from irrelevant inputs or noise, allowing the network to learn over long time lags.",
+      "source_id": "src_033"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "LSTM can learn to bridge minimal time lags in excess of 1,000 discrete-time steps by enforcing constant error flow through constant error carousels within special units.",
+      "context": "Explaining the core mechanism and capability of the LSTM architecture.",
+      "source_id": "src_033"
+    },
+    {
+      "text": "LSTM also solves complex, artificial long-time-lag tasks that have never been solved by previous recurrent network algorithms.",
+      "context": "Highlighting the breakthrough nature of the LSTM algorithm compared to prior methods.",
+      "source_id": "src_033"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on traditional recurrent network algorithms (like back propagation through time, real-time recurrent learning, or Elman nets) for complex, long-time-lag tasks.",
+      "why_it_fails": "Previous recurrent network algorithms are unable to solve complex, artificial long-time-lag tasks, whereas LSTM succeeds by enforcing constant error flow.",
+      "source_id": "src_033"
+    }
+  ]
+}

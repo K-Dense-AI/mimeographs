@@ -1,0 +1,120 @@
+{
+  "source_id": "src_033",
+  "summary": "In this 1992 talk at MIT Sloan, Steve Jobs discusses NeXT's pivot toward operational enterprise applications and object-oriented programming. He shares his philosophies on why hardware advantages are fleeting, the necessity of direct sales for revolutionary products, and his management approach of hiring smart people to dictate direction rather than taking orders.",
+  "themes": [
+    "Enterprise Software",
+    "Object-Oriented Programming",
+    "Technology Cycles",
+    "Management & Hiring",
+    "Sales & Distribution"
+  ],
+  "principles": [
+    {
+      "statement": "The best code is the code you don't write.",
+      "rationale": "Code that isn't written is the fastest to write, the easiest to maintain, and never breaks. Object-oriented programming enables this by allowing developers to reuse existing objects.",
+      "source_quote": "The code that’s the fastest to write, the code that’s the easiest to maintain, and the code that never breaks, is the code you don’t write.",
+      "source_id": "src_033"
+    },
+    {
+      "statement": "You must own your recommendations and accumulate scar tissue to truly learn.",
+      "rationale": "Consulting only provides a two-dimensional understanding of a business. To get a three-dimensional understanding, you must own the implementation over years, make mistakes, and learn from the consequences.",
+      "source_quote": "without owning something, over an extended period of time... where one has to see one’s recommendations through all action stages and accumulate scar tissue... one learns a fraction of what one can.",
+      "source_id": "src_033"
+    },
+    {
+      "statement": "Revolutionary products require a direct sales force.",
+      "rationale": "Existing retail channels can only fulfill existing demand; they cannot educate the market or create demand for a truly innovative product. You need professionals in the field demonstrating the solution in the context of the customer's problems.",
+      "source_quote": "The current distribution channels for the computer industry over the last several years have lost their ability to create demand. They can fulfill demand, but they can’t create it.",
+      "source_id": "src_033"
+    },
+    {
+      "statement": "Hire smart people to tell you what to do, not the other way around.",
+      "rationale": "It is easy to find people to just execute tasks. The real value comes from paying top talent to dictate the right direction for the company.",
+      "source_quote": "I don’t view that we pay people to do things. That’s easy, to find people to do things. What’s harder is to find people to tell you what should be done",
+      "source_id": "src_033"
+    },
+    {
+      "statement": "Take a long-term view on people and focus on their growth over immediate fixes.",
+      "rationale": "When building a team for the next decade, it is better to help a struggling person learn from their mistakes rather than stepping in to fix the problem yourself.",
+      "source_quote": "when I see something not being done right, my first reaction isn’t to go fix it. It’s to say, we’re building a team here... what do I need to do to help so that the person that’s screwing up learns versus how do I fix the problem?",
+      "source_id": "src_033"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Technology Windows",
+      "when_to_apply": "When evaluating the lifecycle and investment timeline for a new technological paradigm.",
+      "steps": [
+        "Sense when diverse technologies are coming together to make a quantum leap possible (the window opens).",
+        "Spend approximately five years pushing the window open by creating a commercial product.",
+        "Spend the next five years exploiting the technology in the marketplace.",
+        "Begin working on the next paradigm as the current one peaks."
+      ],
+      "source_quote": "It takes around five years, or some number of years like that, to realize that window opening. And then it seems to take about another five years to really exploit it in the marketplace.",
+      "source_id": "src_033"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Picture of a Banana (2D vs 3D Experience)",
+      "description": "A metaphor for the difference between consulting and operating. Consulting gives you a broad but flat (2D) picture of a company. Operating gives you the actual \"taste\" (3D) because you own the results and accumulate scar tissue.",
+      "example": "Explaining why consulting is a limited learning experience: \"It’s like a picture of a banana. You might get a very accurate picture, but it’s only two dimensional. And without the experience of actually doing it, you never get three dimensional.\"",
+      "source_id": "src_033"
+    },
+    {
+      "name": "Management vs. Operational Productivity",
+      "description": "A lens for understanding enterprise software value. Management productivity tools (like standard PCs and Macs) help individuals manage tasks. Operational productivity tools (custom apps) actually run the core business and create new products.",
+      "example": "Noting that Wall Street firms need custom operational apps to launch new financial products, whereas standard PCs only help with management tasks.",
+      "source_id": "src_033"
+    }
+  ],
+  "heuristics": [
+    "Hardware churns every 18 months; you cannot build a sustainable competitive advantage on hardware alone.",
+    "Never compromise on hiring; keep chipping away for a year or more until you get the absolute best person.",
+    "Work through decisions until the core team agrees, rather than forcing people to 'buy in' to something they think is wrong."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The code that’s the fastest to write, the code that’s the easiest to maintain, and the code that never breaks, is the code you don’t write.",
+      "context": "Explaining the value of object-oriented programming and reusing existing code.",
+      "source_id": "src_033"
+    },
+    {
+      "text": "I don’t view that we pay people to do things. That’s easy, to find people to do things. What’s harder is to find people to tell you what should be done.",
+      "context": "Discussing his management style and expectations for top talent.",
+      "source_id": "src_033"
+    },
+    {
+      "text": "Hardware churns every 18 months. It’s pretty impossible to get a sustainable competitive advantage from hardware.",
+      "context": "Explaining why NeXT's true competitive moat was its software (NeXTSTEP), not its hardware.",
+      "source_id": "src_033"
+    },
+    {
+      "text": "It’s like a picture of a banana. You might get a very accurate picture, but it’s only two dimensional. And without the experience of actually doing it, you never get three dimensional.",
+      "context": "Critiquing the consulting industry's lack of operational ownership.",
+      "source_id": "src_033"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Forcing team members to 'buy into' a decision they fundamentally disagree with.",
+      "why_it_fails": "Sooner or later, you are paying somebody to execute something they think is wrong, which inevitably leads to conflict. It is better to talk it through until the core team actually agrees.",
+      "source_id": "src_033"
+    },
+    {
+      "description": "Relying on existing retail channels to sell a revolutionary product.",
+      "why_it_fails": "Retail channels can only fulfill existing demand; they cannot educate the market or create demand for something entirely new.",
+      "source_id": "src_033"
+    },
+    {
+      "description": "Trying to build a sustainable competitive advantage solely on hardware.",
+      "why_it_fails": "Hardware churns every 18 months. Even if you make something twice as good, competitors will catch up in six months. Software takes years to catch up.",
+      "source_id": "src_033"
+    },
+    {
+      "description": "Compromising on hiring when you can't immediately get the best candidate.",
+      "why_it_fails": "If you settle for second best, you will always compare them to the top person you actually wanted. It is better to wait and keep chipping away at the best candidate.",
+      "source_id": "src_033"
+    }
+  ]
+}

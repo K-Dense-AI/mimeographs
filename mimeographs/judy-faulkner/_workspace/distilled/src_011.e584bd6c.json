@@ -1,0 +1,77 @@
+{
+  "source_id": "src_011",
+  "summary": "Judy Faulkner discusses the need to expand evidence-based medicine by leveraging large patient databases to discover disease causes, study extreme outliers, and compare therapies. She demystifies AI as simply applying math and computing power to large datasets to help physicians identify patterns. Finally, she outlines regulatory and cultural barriers, such as the stigmatization of mental health data and overly restrictive meaningful use rules, that hinder healthcare IT progress.",
+  "themes": [
+    "Evidence-based medicine",
+    "Artificial Intelligence in Healthcare",
+    "Healthcare IT barriers",
+    "Electronic Health Records (EHR)"
+  ],
+  "principles": [
+    {
+      "statement": "We must build large, aggregated databases to make medicine truly evidence-based.",
+      "rationale": "Currently, only 10 to 20% of medical decisions are truly evidence-based. By aggregating data from nearly 200 million patients, we can discover the root causes of diseases, identify drug side effects earlier, and accurately compare therapies and outcomes.",
+      "source_quote": "I'm coming away with the concept that it's about 10 to 20% that's truly evidence-based and the 80 to 90% is not... how do we take those 200 little under 200 million patients and come up with a big database that can be used for this",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Study the extreme outliers to unlock new medical discoveries.",
+      "rationale": "Patients who do not react like everyone else—such as those who are spontaneously cured of cancer—hold the key to understanding hidden biological mechanisms and developing new treatments.",
+      "source_quote": "one of my favorites is how can we study the extreme outliers the the very small percent who doesn't react like everyone else does",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Strive to make healthcare systems a joy to use.",
+      "rationale": "IT groups must set a high bar to make systems beautiful, save physicians time, and continuously learn from users to help healthcare organizations operate more effectively.",
+      "source_quote": "trying to make the systems a joy to use which is a very high bar",
+      "source_id": "src_011"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "AI as Math and Computing Power",
+      "description": "A demystified view of Artificial Intelligence. Rather than viewing AI as magic or human-like intelligence, it should be understood simply as feeding massive amounts of data into a computer and using heavy mathematics and computing power to interpret patterns against specific situations.",
+      "example": "Using AI to help a physician see that out of thousands of similar patients, 12,000 had one outcome and 14,000 had another based on specific medications or surgeries.",
+      "source_id": "src_011"
+    }
+  ],
+  "heuristics": [
+    "Study the extreme outliers.",
+    "Don't sever the head from the body (integrate mental and physical health data)."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I'm coming away with the concept that it's about 10 to 20% that's truly evidence-based and the 80 to 90% is not.",
+      "context": "Discussing the current state of evidence-based medicine and the need for large patient databases.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "artificial intelligence is cool but it's not as cool as it sometimes looks the closer you get to it realize one it's not artificial it's real and two it's not all that intelligent",
+      "context": "Demystifying AI as simply math, computing power, and data interpretation.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "don't sever the head from the body and stigmatize mental health",
+      "context": "Listing barriers to healthcare IT progress and the need for holistic patient data.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "trying to make the systems a joy to use which is a very high bar",
+      "context": "Describing the ultimate goal for IT groups developing Electronic Health Records.",
+      "source_id": "src_011"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Stigmatizing mental health data and separating it from physical health records.",
+      "why_it_fails": "It 'severs the head from the body,' preventing physicians from accessing crucial holistic data to treat the patient, ironically while billing departments are often still allowed to see it.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Overly strict 'meaningful use' rules and legal restrictions.",
+      "why_it_fails": "It prevents support staff from placing orders, stops AI from assisting physicians effectively, and blocks helpful efficiency features like copying notes forward or EHR steering.",
+      "source_id": "src_011"
+    }
+  ]
+}

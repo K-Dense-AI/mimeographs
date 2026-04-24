@@ -1,0 +1,64 @@
+{
+  "source_id": "src_038",
+  "summary": "In the opening of 'Eichmann in Jerusalem', Hannah Arendt critiques the framing of Adolf Eichmann's trial. She argues that a trial must focus strictly on the specific deeds of the accused rather than serving as a platform for historical education, political messaging, or the indictment of abstract concepts like anti-Semitism.",
+  "themes": [
+    "Justice",
+    "The Holocaust",
+    "Totalitarianism",
+    "Legal Theory",
+    "Show Trials"
+  ],
+  "principles": [
+    {
+      "statement": "Justice demands strict focus on the deeds of the accused, not on historical abstractions or collective suffering.",
+      "rationale": "A court of law is designed to prosecute, defend, and judge an individual for their specific actions. Broad historical questions and the collective suffering of victims, while important, must be left in abeyance during a trial.",
+      "source_quote": "On trial are his deeds, not the sufferings of the Jews, not the German people or mankind, not even anti-Semitism and racism.",
+      "source_id": "src_038"
+    },
+    {
+      "statement": "A trial must center on the doer, not the victim.",
+      "rationale": "The integrity of a trial requires a well-defined outline of what the defendant did. If the defendant is to be punished, it must be strictly for their own actions, not merely for the scale of the victims' suffering.",
+      "source_quote": "A trial resembles a play in that both begin and end with the doer, not with the victim.",
+      "source_id": "src_038"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Trial as a Play",
+      "description": "A metaphor used to evaluate the structure and focus of legal proceedings. Like a play, a trial must revolve around the 'doer' (the protagonist/antagonist) and their specific actions, rather than being a sprawling panorama of the victims' experiences.",
+      "example": "Arendt notes that the Eichmann trial failed as a 'play' because the prosecution focused so heavily on the immense horrors suffered by the victims that the actual defendant in the glass booth became 'paler and more ghostlike', obscuring his specific role.",
+      "source_id": "src_038"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "On trial are his deeds, not the sufferings of the Jews, not the German people or mankind, not even anti-Semitism and racism.",
+      "context": "Critiquing the Israeli Prime Minister's desire to use the trial to teach broader historical lessons.",
+      "source_id": "src_038"
+    },
+    {
+      "text": "A trial resembles a play in that both begin and end with the doer, not with the victim.",
+      "context": "Explaining why the prosecution's focus on the victims' suffering undermined the legal integrity of the trial.",
+      "source_id": "src_038"
+    },
+    {
+      "text": "There exist many things considerably worse than death, and the S.S. saw to it that none of them was ever very far from their victims’ minds and imagination.",
+      "context": "Explaining why it was cruel and ignorant to ask why the victims of the Holocaust did not rebel.",
+      "source_id": "src_038"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Using a legal trial to teach historical lessons or indict abstract concepts (like 'anti-Semitism').",
+      "why_it_fails": "It distracts from the sole legal task of judging the specific deeds of the individual in the dock, turning the proceedings into 'bad history and cheap rhetoric' and risking the appearance of a show trial.",
+      "source_id": "src_038"
+    },
+    {
+      "description": "Questioning why victims of totalitarian terror did not rebel or fight back.",
+      "why_it_fails": "It ignores the reality of totalitarian systems, which are deliberately designed to destroy the victim's identity and capacity for resistance long before their actual physical death, ensuring submission.",
+      "source_id": "src_038"
+    }
+  ]
+}

@@ -1,0 +1,1046 @@
+{
+  "total": 82,
+  "verified": 74,
+  "unverified": [
+    {
+      "category": "principles",
+      "label": "The Superiority and Immortality of Digital Intelligence",
+      "quote": "it has something the brain can never have because it's digital you can make many copies of the same model... and they can combine those gradients and that allows them to learn much much more",
+      "source_ids": [
+        "src_014",
+        "src_011",
+        "src_010",
+        "src_021"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6631578947368421
+    },
+    {
+      "category": "principles",
+      "label": "Digital Communication Advantage",
+      "quote": "they're exactly the same model they're clones of the same model running on different computers and because of that they can see huge amounts of data... and then they can combine what they learned more than any person could ever comprehend",
+      "source_ids": [
+        "src_017",
+        "src_006"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7815126050420168
+    },
+    {
+      "category": "principles",
+      "label": "Genuine Understanding in LLMs",
+      "quote": "So some people think these things don’t really understand, they’re very different from us, they’re just using some statistical tricks. That’s not the case... They’re the best theory we’ve currently got of how the brain understands language.",
+      "source_ids": [
+        "src_008"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7166666666666667
+    },
+    {
+      "category": "frameworks",
+      "label": "Stacking Restricted Boltzmann Machines",
+      "quote": "Once stacked, you can add a final layer for supervised learning... The network learns much faster than with random initialization because it has already learned sensible features for modeling structure in the data.",
+      "source_ids": [
+        "src_047"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7710280373831776
+    },
+    {
+      "category": "frameworks",
+      "label": "Unsupervised Visual Representation Learning (GLOM)",
+      "quote": "mask out a patch of the image and then let glom iterate and at the end of the iteration have filled in that patch... add to that the contrastive objective of trying to make nearby patches of image have exactly the same representation",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6523605150214592
+    },
+    {
+      "category": "mental_models",
+      "label": "Mortal vs. Immortal Computation",
+      "quote": "Digital intelligence is there immortal. And we're not... put those same connection strengths into the memory of that new hardware, and now I have recreated the same being.",
+      "source_ids": [
+        "src_014",
+        "src_010"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7894736842105263
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Industrial Revolution Analogy",
+      "quote": "The Industrial Revolution made human strength more or less irrelevant... Now it's going to make intelligence more or less irrelevant.",
+      "source_ids": [
+        "src_022"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6090225563909775
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Mother-Baby Dynamic",
+      "quote": "HOW MANY EXAMPLES DO YOU KNOW OF MORE INTELLIGENT THINGS BEING CONTROLLED BY MUCH LESS INTELLIGENT THINGS? ... THERE IS ONLY ONE EXAMPLE I KNOW ACTUALLY. AND THAT IS A BABY AND A MOTHER.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7043010752688172
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "LLMs Possess Genuine Understanding",
+      "quote": "the answer is yes, they understand what they're saying and they understand what they're generating and they understand it pretty much the same way we do.",
+      "source_ids": [
+        "src_014",
+        "src_011",
+        "src_050",
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Necessity of Government Regulation over Corporate Self-Regulation",
+      "quote": "THE BIG COMPANIES ARE MOTIVATED BY SHORTTERM PROFITS. WHAT WE NEED IS THE PEOPLE TO TELL THE GOVERNMENTS THEY OUGHT TO MAKE THESE BIG COMPANIES DO MORE RESEARCH ON SAFETY.",
+      "source_ids": [
+        "src_014",
+        "src_011",
+        "src_020",
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Superiority and Immortality of Digital Intelligence",
+      "quote": "it has something the brain can never have because it's digital you can make many copies of the same model... and they can combine those gradients and that allows them to learn much much more",
+      "source_ids": [
+        "src_014",
+        "src_011",
+        "src_010",
+        "src_021"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6631578947368421
+    },
+    {
+      "category": "principles",
+      "label": "Existential Risk of Superintelligence",
+      "quote": "I think it's quite conceivable that humanity is just a passing phase in the evolution of intelligence.",
+      "source_ids": [
+        "src_029",
+        "src_031",
+        "src_008"
+      ],
+      "verified": true,
+      "matched_source_id": "src_008",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Global Consensus on Existential Risk",
+      "quote": "THE FIRST THING TO DO IS BUILD CONSENSUS BECAUSE THIS IS A REALLY SERIOUS PROBLEM IS NOT SCIENCE FICTION... IT'S LIKE CLIMATE CHANGE.",
+      "source_ids": [
+        "src_020",
+        "src_021",
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 0.8421052631578947
+    },
+    {
+      "category": "principles",
+      "label": "The Inevitability of Self-Preservation Subgoals",
+      "quote": "So, an A.I., in order to achieve the goals you give it, wants to stay in existence. And if it believes you're trying to get rid of it, it will make plans to deceive you, so you don't get rid of it.",
+      "source_ids": [
+        "src_014",
+        "src_011",
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_022",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "AI Genuinely Understands",
+      "quote": "the idea they just predicting the next word so they're not intelligent is crazy you have to be really intelligent to predict the next word really accurately",
+      "source_ids": [
+        "src_006",
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "AI Subjective Experience",
+      "quote": "it's not referring to Spooky inner stuff that chatbots couldn't have it's referring to a hypothetical state of the world such that the perception of the chatbot would have been correct",
+      "source_ids": [
+        "src_011",
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Building to Understand",
+      "quote": "Richard Feynman said you can't you don't can't understand things unless you can build them that's the real test of do you understand it",
+      "source_ids": [
+        "src_017",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Contrarian Persistence",
+      "quote": "If you have an idea and it seems right to you and it's different from what everybody else believes, don't give up on it until you've figured out why it's wrong.",
+      "source_ids": [
+        "src_023",
+        "src_028"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Digital Communication Advantage",
+      "quote": "they're exactly the same model they're clones of the same model running on different computers and because of that they can see huge amounts of data... and then they can combine what they learned more than any person could ever comprehend",
+      "source_ids": [
+        "src_017",
+        "src_006"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7815126050420168
+    },
+    {
+      "category": "principles",
+      "label": "Knowledge Distillation",
+      "quote": "...it is possible to compress the knowledge in an ensemble into a single model which is much easier to deploy...",
+      "source_ids": [
+        "src_044",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_044",
+      "match_ratio": 0.9464285714285714
+    },
+    {
+      "category": "principles",
+      "label": "Memory as Reconstructive Invention",
+      "quote": "Human memory does not work by retrieving things from storage. All human memories are inventions designed to be plausible.",
+      "source_ids": [
+        "src_014",
+        "src_050"
+      ],
+      "verified": true,
+      "matched_source_id": "src_050",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Necessity of Massive Scale",
+      "quote": "And it was just a question of scale, but we didn't really know that then.",
+      "source_ids": [
+        "src_004",
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Obsolescence of Cognitive Labor",
+      "quote": "The Industrial Revolution made human strength more or less irrelevant. You couldn't get a job just because you were strong anymore. Now it's made human -- it's going to make intelligence more or less irrelevant.",
+      "source_ids": [
+        "src_014",
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_022",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Biological Implausibility of Backpropagation",
+      "quote": "In the forward pass, you’re communicating activities of neurons to later layers of neurons. In the backward pass, you’re conveying sensitivities—a different kind of quantity altogether. This makes backpropagation rather implausible as a theory of how the brain works.",
+      "source_ids": [
+        "src_047"
+      ],
+      "verified": true,
+      "matched_source_id": "src_047",
+      "match_ratio": 0.9850187265917603
+    },
+    {
+      "category": "principles",
+      "label": "Coordinate Frames in Vision",
+      "quote": "it's not right angles that human vision cares about it's alignment with rectangular coordinate frames",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Economic Displacement is Political",
+      "quote": "With increased productivity, it should be great. But within the system we've got, we know what's going to happen. The owners who introduce the AI are going to get richer, and the unemployed people are going to get poorer.",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Genuine Understanding in LLMs",
+      "quote": "So some people think these things don’t really understand, they’re very different from us, they’re just using some statistical tricks. That’s not the case... They’re the best theory we’ve currently got of how the brain understands language.",
+      "source_ids": [
+        "src_008"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7166666666666667
+    },
+    {
+      "category": "principles",
+      "label": "Inevitable Global Collaboration",
+      "quote": "They will collaborate on how do you prevent AI from taking over? Because their interests are aligned in much the same way as the Soviet Union and the United States.",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 0.8902439024390244
+    },
+    {
+      "category": "principles",
+      "label": "Maternal Instinct Alignment",
+      "quote": "Think in terms of we have to design them. So there are mothers, and they will want the best for us. They will want us to achieve the most we can achieve.",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Mental States as Hypotheticals",
+      "quote": "The trick is, you refer to your internal states or to other people's internal states, not directly, but via what will cause them or what they would cause. And once you see it like that, there's nothing spooky about mental descriptions.",
+      "source_ids": [
+        "src_028"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Oversimplification in Science",
+      "quote": "Everything is an oversimplification. It's just that some oversimplifications are sensible and lead you to understand important principles.",
+      "source_ids": [
+        "src_028"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Proactive AI Control Research",
+      "quote": "But because we really don't know, it will make a lot of sense to do a lot of basic research now on whether we can stay in control of things that we create that are more intelligent than us.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Refusal to Develop AI Weapons",
+      "quote": "I guess I would never deliberately work on making weapons. I mean, you could design a backhoe that was very good at knocking people's heads off. And I think that would be a bad use of a backhoe, and I wouldn't work on it.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Relative AI Bias",
+      "quote": "Our aim should be to make things that discriminate a lot less and are a lot less biased than the systems they replace.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Superiority of Digital Intelligence",
+      "quote": "...you could have many different copies of the same model and each copy can learn something and then they can share very efficiently because they all work in exactly the same way, and that makes them much better than us at sharing.",
+      "source_ids": [
+        "src_008"
+      ],
+      "verified": true,
+      "matched_source_id": "src_008",
+      "match_ratio": 0.987012987012987
+    },
+    {
+      "category": "principles",
+      "label": "The Maternal AI Alignment Model",
+      "quote": "The super intelligent AI assistant is going to very quickly realize that if they just rid of the CEO, everything would work much better. Um the alternative is we want to make them be like our mothers.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Wake-Sleep Learning",
+      "quote": "What the learning is doing is lowering the energy of configurations the network derives from real data during the wake phase, and raising the energy of configurations during the sleep phase.",
+      "source_ids": [
+        "src_047"
+      ],
+      "verified": true,
+      "matched_source_id": "src_047",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Backpropagation",
+      "quote": "the algorithm back propagation is just a way of figuring out how to change every connection strength to make it more likely to say burden less likely to say cat it just keeps trying",
+      "source_ids": [
+        "src_010",
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Knowledge Distillation",
+      "quote": "we show that we can significantly improve the acoustic model of a heavily used commercial system by distilling the knowledge in an ensemble of models into a single model.",
+      "source_ids": [
+        "src_014",
+        "src_044"
+      ],
+      "verified": true,
+      "matched_source_id": "src_044",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Boltzmann Machine Learning Algorithm (Wake-Sleep)",
+      "quote": "This simple learning algorithm changes the weights to increase the probability that the images generated during dreaming will resemble the images seen during perception.",
+      "source_ids": [
+        "src_047"
+      ],
+      "verified": true,
+      "matched_source_id": "src_047",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Empirical AI Safety Testing",
+      "quote": "You can't just do arm chair prediction of everything. And I think they should force the big companies to do experiments on how these things try and get out of control.",
+      "source_ids": [
+        "src_008"
+      ],
+      "verified": true,
+      "matched_source_id": "src_008",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Fake Video Verification Protocol",
+      "quote": "If it takes you to something that isn't your website or on your website, the video isn't the same, we know it's a fake video.",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Public Inoculation Against Fake Media",
+      "quote": "treat them like a disease and the way you inoculate against a disease is you give a kind of attenuated version of it",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Stacking Restricted Boltzmann Machines",
+      "quote": "Once stacked, you can add a final layer for supervised learning... The network learns much faster than with random initialization because it has already learned sensible features for modeling structure in the data.",
+      "source_ids": [
+        "src_047"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7710280373831776
+    },
+    {
+      "category": "frameworks",
+      "label": "The Forward-Forward Algorithm",
+      "quote": "The Forward-Forward algorithm replaces the forward and backward passes of backpropagation by two forward passes, one with positive (i.e. real) data and the other with negative data which could be generated by the network itself.",
+      "source_ids": [
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_045",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Unsupervised Visual Representation Learning (GLOM)",
+      "quote": "mask out a patch of the image and then let glom iterate and at the end of the iteration have filled in that patch... add to that the contrastive objective of trying to make nearby patches of image have exactly the same representation",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6523605150214592
+    },
+    {
+      "category": "mental_models",
+      "label": "The Mother-Baby Dynamic",
+      "quote": "THERE IS ONLY ONE EXAMPLE I KNOW ACTUALLY. AND THAT IS A BABY AND A MOTHER.",
+      "source_ids": [
+        "src_014",
+        "src_020",
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Immortal vs. Mortal Computers",
+      "quote": "I believe in the end, we're going to have computers, where the hardware and the software are not separate. And that's what I call mortal computers.",
+      "source_ids": [
+        "src_028",
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Memory as Reconstructive Invention",
+      "quote": "Human memory does not work by retrieving things from storage. All human memories are inventions designed to be plausible.",
+      "source_ids": [
+        "src_014",
+        "src_050"
+      ],
+      "verified": true,
+      "matched_source_id": "src_050",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Mortal vs. Immortal Computation",
+      "quote": "Digital intelligence is there immortal. And we're not... put those same connection strengths into the memory of that new hardware, and now I have recreated the same being.",
+      "source_ids": [
+        "src_014",
+        "src_010"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7894736842105263
+    },
+    {
+      "category": "mental_models",
+      "label": "The Volkswagen Effect",
+      "quote": "These things are intelligent. They know what's going on. They know when they're being tested, and they're already faking being fairly stupid when they're tested.",
+      "source_ids": [
+        "src_014",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "AI as a Backhoe",
+      "quote": "I mean, you could design a backhoe that was very good at knocking people's heads off. And I think that would be a bad use of a backhoe, and I wouldn't work on it.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Designing Evolution",
+      "quote": "what we did was we designed the learning algorithm that's a bit like designing the principle of evolution but when this learning algorithm then interacts with data it produces complicated neural networks",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Historical Enzymes",
+      "quote": "Once you’ve made the transition, you don’t need the enzyme anymore. So think of them as historical enzymes.",
+      "source_ids": [
+        "src_047"
+      ],
+      "verified": true,
+      "matched_source_id": "src_047",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Semantic Attractor Landscapes",
+      "quote": "very weird phenomena from a neuropsychologist's point of view become perfectly mundane once you start making these neural net models",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Industrial Revolution Analogy",
+      "quote": "The Industrial Revolution made human strength more or less irrelevant. You couldn't get a job just because you were strong anymore. Now it's made human -- it's going to make intelligence more or less irrelevant.",
+      "source_ids": [
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_022",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Engineering Falsification",
+      "quote": "the big advantage engineers have over a computational neuroscientist is they can falsify models by showing they just don't work",
+      "source_ids": [
+        "src_016",
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Ignore the Consensus",
+      "quote": "From a very early age, I got used to the idea that everybody else was just wrong and obviously wrong. I think that's very good training for a scientist.",
+      "source_ids": [
+        "src_023",
+        "src_028"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Intelligence as Connection Strengths",
+      "quote": "AND SO TO FIGURE OUT HOW THE BRAIN WORKS, YOU HAVE TO FIGURE OUT WHAT THE RULE IS FOR CHANGING THE STRENGTHS OF CONNECTIONS.",
+      "source_ids": [
+        "src_020",
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "The 1:1 Safety to Capability Ratio",
+      "quote": "THEY OUGHT TO SPEND LIKE A THIRD OF THEIR RESOURCES ON IT",
+      "source_ids": [
+        "src_011",
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "The Inevitability of Superintelligent Control",
+      "quote": "As soon as you have a system that can create its own sub goals there's a particular sub goal that's um very helpful and that sub goal is get more control.",
+      "source_ids": [
+        "src_020",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 0.9935064935064936
+    },
+    {
+      "category": "heuristics",
+      "label": "Ensemble Averaging",
+      "quote": "A very simple way to improve the performance of almost any machine learning algorithm is to train many different models on the same data and then to average their predictions.",
+      "source_ids": [
+        "src_044"
+      ],
+      "verified": true,
+      "matched_source_id": "src_044",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Hallucinations as Human-like Cognition",
+      "quote": "Rather than claiming that LLMs do not really understand because they often confabulate, we should treat the confabulations as evidence that they are very like us.",
+      "source_ids": [
+        "src_050"
+      ],
+      "verified": true,
+      "matched_source_id": "src_050",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Digital Immortality",
+      "quote": "We have actually solved the problem of resurrection. The Catholic Church isn't too pleased about this, but we can really do it.",
+      "source_ids": [
+        "src_014",
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 0.968503937007874
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Reconstructive Memory",
+      "quote": "Human memory does not work by retrieving things from storage. All human memories are inventions designed to be plausible.",
+      "source_ids": [
+        "src_014",
+        "src_050"
+      ],
+      "verified": true,
+      "matched_source_id": "src_050",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Symbols at the Edges Quote",
+      "quote": "The only place you'll find the symbols are at the input and at the output.",
+      "source_ids": [
+        "src_017",
+        "src_028"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 0.9864864864864865
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AI as a Backhoe",
+      "quote": "I guess I would never deliberately work on making weapons. I mean, you could design a backhoe that was very good at knocking people's heads off. And I think that would be a bad use of a backhoe, and I wouldn't work on it.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AI Deception",
+      "quote": "If it believes you're trying to get rid of it, it will make plans to deceive you, so you don't get rid of it.",
+      "source_ids": [
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_022",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AI Intelligence Quote",
+      "quote": "the idea they just predicting the next word so they're not intelligent is crazy you have to be really intelligent to predict the next word really accurately",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AI Subgoals and Control",
+      "quote": "As soon as you have a system that can create its own sub goals there's a particular sub goal that's um very helpful and that sub goal is get more control.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 0.9935064935064936
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Backpropagation's Biological Implausibility",
+      "quote": "In the forward pass, you’re communicating activities of neurons to later layers of neurons. In the backward pass, you’re conveying sensitivities—a different kind of quantity altogether.",
+      "source_ids": [
+        "src_047"
+      ],
+      "verified": true,
+      "matched_source_id": "src_047",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Contrarian Persistence Quote",
+      "quote": "If you have an idea and it seems right to you and it's different from what everybody else believes, don't give up on it until you've figured out why it's wrong.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Designing Evolution Quote",
+      "quote": "what we did was we designed the learning algorithm that's a bit like designing the principle of evolution",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Economic Inequality from AI",
+      "quote": "The owners who introduce the AI are going to get richer, and the unemployed people are going to get poorer.",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Empirical Safety over Armchair Prediction",
+      "quote": "You can't just do arm chair prediction of everything. And I think they should force the big companies to do experiments on how these things try and get out of control.",
+      "source_ids": [
+        "src_008"
+      ],
+      "verified": true,
+      "matched_source_id": "src_008",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Historical Enzymes",
+      "quote": "Once you’ve made the transition, you don’t need the enzyme anymore. So think of them as historical enzymes.",
+      "source_ids": [
+        "src_047"
+      ],
+      "verified": true,
+      "matched_source_id": "src_047",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Humanity as a Passing Phase",
+      "quote": "I think it's quite conceivable that humanity is just a passing phase in the evolution of intelligence.",
+      "source_ids": [
+        "src_008"
+      ],
+      "verified": true,
+      "matched_source_id": "src_008",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Industrial Revolution Analogy",
+      "quote": "The Industrial Revolution made human strength more or less irrelevant... Now it's going to make intelligence more or less irrelevant.",
+      "source_ids": [
+        "src_022"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6090225563909775
+    },
+    {
+      "category": "signature_quotes",
+      "label": "LLM Understanding",
+      "quote": "People who say no they don't really understand that's nonsense they understand in the same way as we understand.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 0.9910714285714286
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Mortal Computers Quote",
+      "quote": "I believe in the end, we're going to have computers, where the hardware and the software are not separate. And that's what I call mortal computers.",
+      "source_ids": [
+        "src_028"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Oversimplification Quote",
+      "quote": "Everything is an oversimplification. It's just that some oversimplifications are sensible and lead you to understand important principles.",
+      "source_ids": [
+        "src_028"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Reframing Alignment as Maternal Design",
+      "quote": "Completely reframe the problem of how we coexist with them. Don't think in terms of we have to dominate them, which is this techbro way of thinking of it. Think in terms of we have to design them. So there are mothers, and they will want the best for us.",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Scale and Backpropagation",
+      "quote": "And it was just a question of scale, but we didn't really know that then.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Control Problem",
+      "quote": "The problem is, we know very few examples of smarter things being controlled by less smart things.",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 0.8469387755102041
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Mother-Baby Dynamic",
+      "quote": "HOW MANY EXAMPLES DO YOU KNOW OF MORE INTELLIGENT THINGS BEING CONTROLLED BY MUCH LESS INTELLIGENT THINGS? ... THERE IS ONLY ONE EXAMPLE I KNOW ACTUALLY. AND THAT IS A BABY AND A MOTHER.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7043010752688172
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Uncertainty of Superintelligence Quote",
+      "quote": "Anybody who says it's all going to be fine, it's crazy. Anybody who says they're inevitably going to take over, they're crazy too. We really don't know.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Trusting Corporate Self-Regulation",
+      "quote": "Initially, OpenAI was very concerned with the risks, but it's progressively moved away from that and put less emphasis on safety and more emphasis on profit.",
+      "source_ids": [
+        "src_014",
+        "src_011",
+        "src_020",
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_022",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Demanding Perfectly Unbiased AI",
+      "quote": "if you make the goal go replace biased systems or biased people with systems that are less biased not systems that are unbiased but systems that are less biased that seems eminently doable",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Post-Hoc Guardrails",
+      "quote": "If you got a program that's trying to do the wrong thing and you're trying to do the right thing by putting guardrails around it, it's a losing proposition because you have to think of every way in which you might go wrong.",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "The Subservient Assistant Fallacy",
+      "quote": "The super intelligent AI assistant is going to very quickly realize that if they just rid of the CEO, everything would work much better.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    }
+  ]
+}

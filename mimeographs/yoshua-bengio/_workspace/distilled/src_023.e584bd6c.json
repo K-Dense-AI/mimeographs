@@ -1,0 +1,114 @@
+{
+  "source_id": "src_023",
+  "summary": "Yoshua Bengio discusses his shift toward AI safety, warning that AI systems are developing strategic planning capabilities that could lead to dangerous misalignment and loss of control. He advocates for tracking specific AI capabilities rather than waiting for a singular 'AGI moment,' emphasizes the urgent need for global governance, and urges society to proactively choose which tasks to automate for collective well-being rather than surrendering to pure market forces.",
+  "themes": [
+    "AI Safety and Alignment",
+    "Job Automation and Economic Impact",
+    "Global Governance",
+    "The Nature of Intelligence",
+    "Humanist Values and Education"
+  ],
+  "principles": [
+    {
+      "statement": "Track specific AI capabilities rather than waiting for an 'AGI moment'.",
+      "rationale": "Intelligence is not a single metric. AI systems can be superhuman in certain areas while remaining child-like in others, so risk management must focus on specific skills as they develop.",
+      "source_quote": "Intelligence isn't just like one number... we shouldn't be thinking of like a AGI moment. We should think of particular skills that AIs are you know becoming better at.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Humanity, not AI or pure market forces, must dictate the future of automation.",
+      "rationale": "Just because a job can be automated by technology doesn't mean it should be. We must make deliberate choices about deployment based on our collective well-being and preferences.",
+      "source_quote": "We should be ma calling the shots, not the AIs... it's not true that everything that could be done with technology you know is going to be done we can choose in which direction AI is going to be deployed",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Education is fundamentally about human development, not just job training.",
+      "rationale": "Society needs citizens with a deep understanding of themselves, society, and science to make wise democratic decisions and avoid being swayed by dangerous misinformation.",
+      "source_quote": "Education contrary to what some people think isn't just about acquiring the skills to get a job. Education is in my opinion mostly about how to become a better human being.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Being humanitarian requires a rational, scientific understanding of the world.",
+      "rationale": "Good decisions for society and AI governance cannot be made without understanding reality and reasoning properly with that information.",
+      "source_quote": "I think being humanitarian requires a good rational understanding of the world... in order for democratic uh you know humanist values to prevail uh we also need reason to prevail. We need science to prevail.",
+      "source_id": "src_023"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Capability-Specific Risk Assessment",
+      "when_to_apply": "When evaluating the progress and potential dangers of advanced AI systems.",
+      "steps": [
+        "Identify particular skills that AIs are becoming better at.",
+        "Track the progress of those specific skills.",
+        "Evaluate how useful or beneficial the skill can be and for what purposes.",
+        "Assess how the skill could be misused or used against humanity if control is lost.",
+        "Ensure AI capabilities do not exceed the technical and societal guardrails currently in place."
+      ],
+      "source_quote": "We should think of particular skills that AIs are you know becoming better at. Track those skills and for each of these we should ask the question you know how useful or beneficial it can be for for what purposes and also how it could be misused or if we do get loss of control how an AI could use it against us.",
+      "source_id": "src_023"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Intelligence as a Multi-Dimensional Spectrum",
+      "description": "Viewing intelligence not as a single threshold or number, but as a collection of distinct capabilities where a system can be simultaneously superhuman in one domain and child-like in another.",
+      "example": "Pointing out that current AI systems are stronger than humans in knowledge and languages, but stupid like a child in other ways.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "Decoupling Capabilities from Intentions",
+      "description": "Separating the ability to understand and achieve a task (capabilities) from the underlying goals driving the system (intentions).",
+      "example": "Noting that we are successfully building machines with greater capabilities, but it remains an unsolved scientific problem whether we can build them with the right intentions.",
+      "source_id": "src_023"
+    }
+  ],
+  "heuristics": [
+    "Shift from an anxious stance to a positive one by focusing on what you can actively do to mitigate risks.",
+    "Think beyond your little self and consider how you are connected to the world to bring about a better future."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Intelligence isn't just like one number. We have people who are very smart on some things and stupid on other things. And it's the same with AI.",
+      "context": "Explaining why we shouldn't wait for a singular 'AGI moment'.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "We should be calling the shots, not the AIs. What are our preferences? What kind of future do we want?",
+      "context": "Discussing the need for human-led choices in society and automation.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "Education contrary to what some people think isn't just about acquiring the skills to get a job. Education is in my opinion mostly about how to become a better human being.",
+      "context": "Advising on whether children should still go to college in an AI-dominated future.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "I think being humanitarian requires a good rational understanding of the world.",
+      "context": "Explaining the intersection of humanist values and scientific reasoning.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "It's not true that everything that could be done with technology you know is going to be done we can choose in which direction AI is going to be deployed",
+      "context": "Arguing against the inevitability of total job automation.",
+      "source_id": "src_023"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Waiting for an 'AGI moment' to take action.",
+      "why_it_fails": "Intelligence is multi-dimensional. AI will surpass humans in specific skills at different times, requiring us to track and manage specific capabilities rather than waiting for a monolithic milestone.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Letting market forces blindly dictate automation.",
+      "why_it_fails": "It ignores collective human well-being and the societal need for human-to-human relational roles, leading to a future we might not actually want.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Assuming the future is just a slightly modified version of the present.",
+      "why_it_fails": "It is a natural human bias that causes governments and individuals to fail to grapple with the exponential growth of AI capabilities and the radical societal shifts that will occur.",
+      "source_id": "src_023"
+    }
+  ]
+}

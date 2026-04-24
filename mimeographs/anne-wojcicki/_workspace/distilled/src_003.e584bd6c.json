@@ -1,0 +1,70 @@
+{
+  "source_id": "src_003",
+  "summary": "Anne Wojcicki discusses the founding vision of 23andMe, emphasizing her fascination with genetics as an interactive code. Frustrated by the traditional healthcare system and inspired by patient advocacy groups like ACT-UP, she built 23andMe to empower individuals with their own genetic data and to crowdsource genomic research.",
+  "themes": [
+    "Consumer Genetics",
+    "Patient Empowerment",
+    "Crowdsourced Research",
+    "Healthcare Reform"
+  ],
+  "principles": [
+    {
+      "statement": "Healthcare and genomic research must be driven by the people.",
+      "rationale": "To truly understand the human genome and create a better healthcare system, patients must be empowered to direct research and make their own healthcare decisions.",
+      "source_quote": "I started to realize that if you really wanted to understand the human genome and to have a different type of healthcare system, you had to have it driven by the people and for the people.",
+      "source_id": "src_003"
+    },
+    {
+      "statement": "Empower people by giving them access to their own genetic information.",
+      "rationale": "Direct access to personal genetic data allows individuals to take charge of their health and enables the crowdsourcing of large-scale genomic research.",
+      "source_quote": "23andMe came out of this idea that we're going to empower people by giving them access to their genetic information and we're going to crowdsource research.",
+      "source_id": "src_003"
+    },
+    {
+      "statement": "Ground new health ventures in science and ethics.",
+      "rationale": "Even when pioneering a new industry without existing marketing or sales models to study, a strong foundation in science and ethics is non-negotiable.",
+      "source_quote": null,
+      "source_id": "src_003"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "DNA as an interactive code",
+      "description": "Viewing genetics not as a static blueprint, but as an internal code that dynamically interacts with the environment to determine how the body functions.",
+      "example": null,
+      "source_id": "src_003"
+    },
+    {
+      "name": "Patient-driven healthcare",
+      "description": "Treating patients as active directors of research and healthcare decisions rather than passive recipients of care, a model inspired by activist groups like ACT-UP.",
+      "example": "Crowdsourcing research directly from consumers who have accessed their genetic information through 23andMe.",
+      "source_id": "src_003"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "I loved genetics and the idea that you have a code inside of you that interacts in your environment and determines how your body works. It's absolutely captivating.",
+      "context": "Discussing her foundational fascination with DNA.",
+      "source_id": "src_003"
+    },
+    {
+      "text": "I started to realize that if you really wanted to understand the human genome and to have a different type of healthcare system, you had to have it driven by the people and for the people.",
+      "context": "Explaining the realization that led to the creation of 23andMe.",
+      "source_id": "src_003"
+    },
+    {
+      "text": "23andMe came out of this idea that we're going to empower people by giving them access to their genetic information and we're going to crowdsource research.",
+      "context": "Describing the core mission and origin of 23andMe.",
+      "source_id": "src_003"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "A traditional healthcare system where patients are passive recipients rather than active participants.",
+      "why_it_fails": "It fails to empower individuals to make their own healthcare decisions and limits the scale of genomic research that could otherwise be achieved through crowdsourcing.",
+      "source_id": "src_003"
+    }
+  ]
+}

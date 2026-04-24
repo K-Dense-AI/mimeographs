@@ -1,0 +1,103 @@
+{
+  "source_id": "src_005",
+  "summary": "A biographical essay detailing Walt Disney's early life, his relentless drive for continuous improvement in animation, his struggles with distributors that led to his insistence on creative control, and the innovations (like storyboarding and feature-length animation) that built his enduring brand.",
+  "themes": [
+    "Continuous Improvement",
+    "Creative Control",
+    "Innovation",
+    "Brand Building",
+    "Storytelling",
+    "Resilience"
+  ],
+  "principles": [
+    {
+      "statement": "Never stop improving the product and injecting more entertainment value.",
+      "rationale": "Disney was never satisfied with his past work; he believed in constantly spending more time and money on each new film to elevate the humor, quality, and audience engagement.",
+      "source_quote": "I sincerely believe I have made a great deal of improvement on this subject in the line of humorous situations and I assure you that I will make it a point to inject as many funny gags and comical situations into future productions as possible.",
+      "source_id": "src_005"
+    },
+    {
+      "statement": "Maintain absolute ownership and control over your creations.",
+      "rationale": "After losing the rights to Oswald the Lucky Rabbit and having his animation staff hired away by a distributor, Disney realized that independence and IP ownership were essential to survival.",
+      "source_quote": null,
+      "source_id": "src_005"
+    },
+    {
+      "statement": "Do not rely on sequels to replicate past success.",
+      "rationale": "When pressured to make more 'Three Little Pigs' shorts after its massive success, Disney refused, believing that repeating past successes stifled growth and innovation.",
+      "source_quote": "You can't top pigs with pigs.",
+      "source_id": "src_005"
+    },
+    {
+      "statement": "The ultimate product is the brand name itself.",
+      "rationale": "Unlike other major studios whose film quality varied wildly, Disney wanted his name to be a reliable guarantee of a specific, high-quality family entertainment experience.",
+      "source_quote": "There's just one thing we're selling here, and that's the name Walt Disney.",
+      "source_id": "src_005"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Storyboarding",
+      "when_to_apply": "Before committing countless hours and resources to making final animation drawings.",
+      "steps": [
+        "Create preliminary sketches of scenes and gags.",
+        "Pin the sketches sequentially to a large fiber board.",
+        "Visualize the final product and narrative flow, making adjustments before animation begins."
+      ],
+      "source_quote": null,
+      "source_id": "src_005"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Character Integrity",
+      "description": "Treating fictional characters as real entities with strict behavioral boundaries to ensure consistency and audience trust.",
+      "example": "Chiding artists for drawing Mickey Mouse's tail down when he was angry, or rejecting gags by stating, 'Mickey wouldn't do that.'",
+      "source_id": "src_005"
+    },
+    {
+      "name": "Grounded Fantasy",
+      "description": "The belief that animated fantasy is most effective when rooted in intense, realistic study of the natural world.",
+      "example": "Bringing live deer and other animals into the studio, and paying for anatomy classes for animators, to ensure the movements in Bambi were as lifelike as possible.",
+      "source_id": "src_005"
+    }
+  ],
+  "heuristics": [
+    "Mickey wouldn't do that.",
+    "You can't top pigs with pigs."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I sincerely believe I have made a great deal of improvement on this subject in the line of humorous situations and I assure you that I will make it a point to inject as many funny gags and comical situations into future productions as possible.",
+      "context": "A note attached to the first Alice comedy film he shipped to his distributor.",
+      "source_id": "src_005"
+    },
+    {
+      "text": "You can't top pigs with pigs.",
+      "context": "His response to distributors clamoring for sequels to the hit short 'Three Little Pigs'.",
+      "source_id": "src_005"
+    },
+    {
+      "text": "There's just one thing we're selling here, and that's the name Walt Disney.",
+      "context": "Explaining the company's core value proposition to a new employee.",
+      "source_id": "src_005"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Ceding intellectual property rights to distributors or partners.",
+      "why_it_fails": "It leaves the creator vulnerable to being cut out of the profit stream and losing their own characters, as happened with Oswald the Lucky Rabbit.",
+      "source_id": "src_005"
+    },
+    {
+      "description": "Making direct sequels to chase a previous hit.",
+      "why_it_fails": "It prevents the studio from moving forward and innovating, and you cannot easily recreate the exact magic of the original.",
+      "source_id": "src_005"
+    },
+    {
+      "description": "Having characters 'just burst into song' in musicals.",
+      "why_it_fails": "It feels disconnected from the narrative; music must be carefully integrated to match the story at every point.",
+      "source_id": "src_005"
+    }
+  ]
+}

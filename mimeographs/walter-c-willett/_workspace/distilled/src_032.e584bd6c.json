@@ -1,0 +1,59 @@
+{
+  "source_id": "src_032",
+  "summary": "In this PubMed abstract, Walter C. Willett and Marjorie L. McCullough evaluate the Alternate Healthy Eating Index (AHEI) against the original Healthy Eating Index (HEI). They demonstrate that by distinguishing quality within food groups and acknowledging the benefits of unsaturated oils, the AHEI is twice as effective at predicting and reducing the risk of major chronic diseases, particularly cardiovascular disease.",
+  "themes": [
+    "Nutritional Epidemiology",
+    "Dietary Guidelines",
+    "Chronic Disease Prevention",
+    "Cardiovascular Disease Risk"
+  ],
+  "principles": [
+    {
+      "statement": "Dietary guidance must distinguish nutritional quality within broad food groups.",
+      "rationale": "Treating all foods within a broad category equally limits the ability to predict health outcomes. Distinguishing quality within groups significantly improves the prediction and reduction of chronic disease risk.",
+      "source_quote": "In contrast with the original HEI, the AHEI distinguished quality within food groups...",
+      "source_id": "src_032"
+    },
+    {
+      "statement": "Unsaturated oils provide distinct health benefits that must be explicitly acknowledged in dietary indices.",
+      "rationale": "Incorporating the specific benefits of unsaturated oils into dietary scoring improves the model's ability to predict cardiovascular and overall chronic disease risk.",
+      "source_quote": "...and acknowledged health benefits of unsaturated oils.",
+      "source_id": "src_032"
+    },
+    {
+      "statement": "Comprehensive and detailed dietary guidance is necessary to meaningfully reduce chronic disease risk.",
+      "rationale": "Broad, non-specific guidelines yield only small reductions in disease risk, whereas detailed guidance doubles the predictive strength for disease prevention.",
+      "source_quote": "...major chronic disease risk can be further reduced with more comprehensive and detailed dietary guidance.",
+      "source_id": "src_032"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Alternate Healthy Eating Index (AHEI)",
+      "when_to_apply": "When evaluating an adult's dietary adherence to predict their risk of major chronic diseases, especially cardiovascular disease.",
+      "steps": [
+        "Score dietary intake based on a priori nutritional principles.",
+        "Distinguish nutritional quality within standard food groups.",
+        "Factor in the specific health benefits of unsaturated oils."
+      ],
+      "source_quote": "Dietary intake reported by men and women from two prospective cohorts was scored according to an a priori designed Alternate Healthy Eating Index (AHEI).",
+      "source_id": "src_032"
+    }
+  ],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "The AHEI was twice as strong at predicting major chronic disease and CVD risk compared to the original HEI, suggesting that major chronic disease risk can be further reduced with more comprehensive and detailed dietary guidance.",
+      "context": "Concluding the study comparing the AHEI to the original HEI based on the Food Guide Pyramid.",
+      "source_id": "src_032"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on the original Healthy Eating Index (HEI) or the standard Food Guide Pyramid to assess disease risk.",
+      "why_it_fails": "It fails to distinguish quality within food groups and ignores the benefits of unsaturated oils, resulting in only a small reduction in major chronic disease risk.",
+      "source_id": "src_032"
+    }
+  ]
+}

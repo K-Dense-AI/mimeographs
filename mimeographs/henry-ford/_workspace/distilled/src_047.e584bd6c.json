@@ -1,0 +1,86 @@
+{
+  "source_id": "src_047",
+  "summary": "The text analyzes Henry Ford's 1922 book 'My Life and Work', detailing his philosophy of business and life. It highlights his focus on service over profit, the importance of manufacturing efficiency to provide affordable goods, and his belief in strong individual leadership over management by committee.",
+  "themes": [
+    "Business Philosophy",
+    "Manufacturing Efficiency",
+    "Service over Profit",
+    "Leadership",
+    "Waste Reduction"
+  ],
+  "principles": [
+    {
+      "statement": "Business should focus on service rather than just profit.",
+      "rationale": "The primary goal of business is to provide a service to the public, such as manufacturing a reliable, affordable automobile, and seeking only a fair return.",
+      "source_quote": "a theory that looks toward making this world a better place in which to live.",
+      "source_id": "src_047"
+    },
+    {
+      "statement": "Make the manufacturing process more efficient instead of making slight changes to the product.",
+      "rationale": "Continually redesigning cars every model year is a wasteful exercise; true progress comes from streamlining production to lower costs and improve affordability.",
+      "source_quote": null,
+      "source_id": "src_047"
+    },
+    {
+      "statement": "A company requires strong individual leadership to direct it.",
+      "rationale": "Running operations by committee is ineffective and prone to failure, as demonstrated by the Soviet experiment in factory management.",
+      "source_quote": null,
+      "source_id": "src_047"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Just-In-Time Production System",
+      "when_to_apply": "When facing financial pressures, high inventory costs, and the need to increase cash flow.",
+      "steps": [
+        "Pressure suppliers to ensure on-time delivery of essential components.",
+        "Reduce inventory levels significantly to free up capital.",
+        "Pressure dealers to accelerate sales and increase cash flow.",
+        "Use the freed-up capital to pay off outstanding loans."
+      ],
+      "source_quote": null,
+      "source_id": "src_047"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Efficiency as Service",
+      "description": "Viewing manufacturing efficiency not merely as a cost-saving measure to maximize profit, but as a method to reduce human effort and provide better affordability to the customer.",
+      "example": "Adapting the assembly line from meat packing plants to reduce waste in human effort, resulting in lower manufacturing costs for the Model T.",
+      "source_id": "src_047"
+    }
+  ],
+  "heuristics": [
+    "Seek only a fair return for one's efforts—not extraordinary profits.",
+    "Push for progress, be the best, and serve the public."
+  ],
+  "signature_quotes": [
+    {
+      "text": "a theory that looks toward making this world a better place in which to live.",
+      "context": "Describing his foundational theory of business.",
+      "source_id": "src_047"
+    },
+    {
+      "text": "the better for our existence.",
+      "context": "Describing the positive impact that streamlining the manufacturing process has on all people.",
+      "source_id": "src_047"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Continually redesigning products with slight changes every model year.",
+      "why_it_fails": "It is a wasteful exercise that distracts from the more beneficial goal of making the manufacturing process more efficient.",
+      "source_id": "src_047"
+    },
+    {
+      "description": "Running factories by committee.",
+      "why_it_fails": "It lacks the strong individual leadership required to effectively direct a company, as evidenced by the failing Soviet experiment.",
+      "source_id": "src_047"
+    },
+    {
+      "description": "Focusing solely on extraordinary profits and greed.",
+      "why_it_fails": "It ignores the true purpose of business, which is to provide a service to the public and seek only a fair return.",
+      "source_id": "src_047"
+    }
+  ]
+}

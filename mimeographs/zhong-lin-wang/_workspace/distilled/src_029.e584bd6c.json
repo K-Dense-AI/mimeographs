@@ -1,0 +1,84 @@
+{
+  "source_id": "src_029",
+  "summary": "Zhong Lin Wang outlines the history, fundamental science, and modern applications of contact-electrification (CE) and triboelectrification (TE). He distinguishes CE as a fundamental scientific effect independent of friction, introduces his pioneering models (Electron Cloud Model, Tribovoltaic Effect, Two-Step EDL Model), and highlights the paradigm-shifting invention of Triboelectric Nanogenerators (TENGs) that reframe CE from a historical nuisance to a valuable energy source.",
+  "themes": [
+    "Contact-Electrification",
+    "Triboelectric Nanogenerators (TENGs)",
+    "Energy Harvesting",
+    "Surface Science",
+    "Electron Transfer"
+  ],
+  "principles": [
+    {
+      "statement": "Contact-electrification (CE) and triboelectrification (TE) are fundamentally different; CE is the underlying scientific effect, while TE is a practical operation.",
+      "rationale": "Friction is not necessary for charge transfer to occur. TE convolutes CE with friction, which introduces debris production and a friction coefficient, whereas CE is the pure charge transfer phenomenon.",
+      "source_quote": "CE and TE are conventionally treated the same by many readers, but the two have major differences. TE is a convolution of CE and friction. CE occurs in TE, but friction is not necessary for charge transfer.",
+      "source_id": "src_029"
+    },
+    {
+      "statement": "The study of contact-electrification has been historically neglected because it was primarily viewed as a negative, destructive phenomenon.",
+      "rationale": "Because static electricity causes fires, discharges, and disrupts industrial processes, there was little motivation to study its fundamental mechanisms until the invention of TENGs provided a way to harness it.",
+      "source_quote": "Because TE is always treated as a negative effect so there is a little motivation for studying it.",
+      "source_id": "src_029"
+    },
+    {
+      "statement": "Electron transfer is the dominant process for contact-electrification between materials.",
+      "rationale": "Charge transfer is only possible in areas where there is close contact between atoms with a strong overlap of electron wave functions.",
+      "source_quote": "By assuming that the electron transfer is the dominant process for CE, charge transfer is only possible in the areas there are close contact between atoms with a strong overlap of electron wave functions.",
+      "source_id": "src_029"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Electron Cloud Model",
+      "description": "A model to understand contact-electrification between insulators, positing that electron transfer dominates and only occurs where atoms are in such close contact that their electron wave functions strongly overlap.",
+      "example": "Used to explain the fundamental mechanism of charge transfer between two dielectric materials at the atomic level.",
+      "source_id": "src_029"
+    },
+    {
+      "name": "Tribovoltaic Effect",
+      "description": "A model explaining contact-electrification at semiconductor interfaces where sliding creates atomic binding that releases energy (a 'bindington') as internal photons, exciting electron-hole pairs that are separated by a built-in electric field to produce DC output.",
+      "example": "Sliding an n-type semiconductor on a p-type semiconductor to generate a direct current (DC) output.",
+      "source_id": "src_029"
+    },
+    {
+      "name": "Wang's Two-Step EDL Model",
+      "description": "A model elucidating the formation of the electrical double layer (EDL) at liquid-dielectric interfaces, emphasizing that electron transfer at the interface is the initial and key contributing factor.",
+      "example": "Describing charge behavior and the initial formation of the EDL on dielectric surfaces when they come into contact with a liquid.",
+      "source_id": "src_029"
+    }
+  ],
+  "heuristics": [
+    "CE is a scientific effect in which no friction is necessary, while TE is a practical operation."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I believe that the study of CE has been a 'forgotten' corner in science in the past centuries possibly due to its negative effects in many cases, such as causing fire and discharge...",
+      "context": "Explaining why the fundamental mechanisms of contact-electrification remained poorly understood for so long.",
+      "source_id": "src_029"
+    },
+    {
+      "text": "CE and TE are conventionally treated the same by many readers, but the two have major differences. TE is a convolution of CE and friction.",
+      "context": "Distinguishing between the scientific phenomenon of contact-electrification and the practical operation of triboelectrification.",
+      "source_id": "src_029"
+    },
+    {
+      "text": "Because TE is always treated as a negative effect so there is a little motivation for studying it.",
+      "context": "Discussing the historical lack of scientific inquiry into triboelectricity.",
+      "source_id": "src_029"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating contact-electrification (CE) and triboelectrification (TE) as the exact same phenomenon.",
+      "why_it_fails": "It ignores that TE involves friction (producing debris and friction coefficients), whereas CE is the pure scientific effect of charge transfer that does not require friction.",
+      "source_id": "src_029"
+    },
+    {
+      "description": "Viewing triboelectrification solely as a negative effect to be mitigated.",
+      "why_it_fails": "This mindset caused the fundamental study of CE mechanisms to be sluggish for centuries, delaying paradigm-shifting technologies like TENGs that harvest this energy for power.",
+      "source_id": "src_029"
+    }
+  ]
+}

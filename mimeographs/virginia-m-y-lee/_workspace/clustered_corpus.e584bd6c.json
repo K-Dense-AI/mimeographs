@@ -1,0 +1,377 @@
+{
+  "expert_name": "Virginia M.-Y. Lee",
+  "themes": [
+    "Neurodegenerative Disease Pathology",
+    "Protein Misfolding & Aggregation",
+    "Cell-to-Cell Transmission",
+    "Multidisciplinary Collaboration",
+    "Women in STEM & Career Longevity",
+    "Experimental Rigor & Brain Banking"
+  ],
+  "principles": [
+    {
+      "label": "Start with the Patient's Brain",
+      "summary": "To understand and cure a neurodegenerative disease, research must begin by examining the actual human brain.",
+      "details": "Before developing models or discussing cures, researchers must see the physical changes of aging and disease directly in patient tissue. This grounds all subsequent research in biological reality.",
+      "representative_quote": "in order to study and understand the disease, we need to go to the patient's brain and to see what's wrong with the brain before we can even talk about cure or things like that.",
+      "source_ids": [
+        "src_019",
+        "src_025",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Multidisciplinary Approach is Mandatory",
+      "summary": "Successful disease research requires integrating clinical expertise, pathology, and basic neuroscience.",
+      "details": "Understanding complex diseases and developing treatments is too challenging for isolated work; it inherently requires diverse skill sets and contributions from many people.",
+      "representative_quote": "you need multidisciplinary research. So you need people with clinical expertise, with pathology expertise, with basic science and neuroscientists and so on, in order to be able to be successful in understanding the disease.",
+      "source_ids": [
+        "src_019",
+        "src_024",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Career Longevity for Women in Science",
+      "summary": "Women should not permanently give up their scientific careers due to family caregiving; careers are long enough to accommodate gaps.",
+      "details": "The intensive caregiving period for young children or aging parents is relatively short (10-15 years) compared to a lifespan. Returning to work allows women to make a professional difference and keeps the mind active for decades.",
+      "representative_quote": "Even if you take time off for family life, remember that careers are very long. Take the time you need, and know that you can work for a long time.",
+      "source_ids": [
+        "src_008",
+        "src_019",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Dual Mechanism: Loss and Gain of Function",
+      "summary": "Neurodegenerative diseases are driven by both a loss of normal protein function and a gain of toxic function.",
+      "details": "It is not enough to only study the aggregation of proteins; understanding the disruption of their normal physiological roles (such as nuclear clearance in TDP-43) is equally critical to understanding the disease.",
+      "representative_quote": "I really think that, all these neurodegenerative diseases are both loss of function and gain of function. Toxic function.",
+      "source_ids": [
+        "src_019",
+        "src_028",
+        "src_032"
+      ]
+    },
+    {
+      "label": "Protein Aggregates are Causal Culprits",
+      "summary": "Protein aggregates are definitively the drivers of neurodegenerative diseases, not merely innocent bystanders.",
+      "details": "The discovery of genetic mutations that cause disease in humans, and the fact that expressing these mutant genes in animal models induces pathology and death, proves causality.",
+      "representative_quote": "I really think that it's not controversial and at least from my perspective, it's not controversial anymore. And I think that it's, basically what we call the fat lady had sung.",
+      "source_ids": [
+        "src_019",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Cell-to-Cell Transmission of Pathology",
+      "summary": "Neurodegenerative diseases progress through the brain via the cell-to-cell transmission of misfolded proteins.",
+      "details": "Misfolded proteins exit affected cells, enter healthy ones, and corrupt normal endogenous proteins, causing pathology to spread progressively along anatomical connections.",
+      "representative_quote": "it has to get out of the cell and it has to be internalized by healthy cell and then once it gets inside it would corrupt the endogenous protein",
+      "source_ids": [
+        "src_027",
+        "src_044"
+      ]
+    },
+    {
+      "label": "Enjoy the Daily Process of Science",
+      "summary": "You must enjoy the day-to-day process of scientific research, not just the rare breakthroughs.",
+      "details": "True discoveries are incredibly rare. Relying on them for motivation will lead to frequent disappointment; resilience requires finding satisfaction in the daily work and learning from failed experiments.",
+      "representative_quote": "One thing about science, those 'discoveries,' end quote, are far, few, and in between. And so unless you enjoy the process, you're going to be disappointed a lot of the times.",
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "Challenge the Scientific Consensus",
+      "summary": "Do not hesitate to challenge the field's consensus if you believe it is making a mistake.",
+      "details": "When the scientific community ignores critical evidence, it is a researcher's duty to straighten it out to prevent the field from wasting time on the wrong path.",
+      "representative_quote": "we had a feeling that the field was making a mistake so I set the jump we need to straighten this out because you know this area is very important and I don't want people to go down the wrong path",
+      "source_ids": [
+        "src_024"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "The Cellular Pathway of Alpha-Synuclein Propagation",
+      "summary": "A step-by-step model for how Parkinson's disease pathology spreads from cell to cell.",
+      "details": "1. Binding: Extracellular fibrils interact with cell membranes. 2. Internalization: Fibrils are delivered to lysosomes. 3. Escape: Fibrils resist degradation and leak into the cytosol. 4. Seeding: Escaped fibrils interact with soluble endogenous monomers. 5. Maturation: Accumulating fibrils trap cellular components to form mature Lewy bodies.",
+      "representative_quote": "Failure to degrade fibrils in the lysosome leads to leakage, allowing some fibrils to escape into the cytosol. [...] Soluble monomers in the cytosol can interact with fibrils released from the lysosome... to seed the generation of more fibrils",
+      "source_ids": [
+        "src_044"
+      ]
+    },
+    {
+      "label": "In Vitro Amplification of Patient Lewy Bodies",
+      "summary": "A method for developing accurate cellular models by amplifying patient-derived aggregates.",
+      "details": "1. Purify pathological alpha-synuclein from postmortem human brain tissue. 2. Seed recombinant monomers with a small percentage of the patient-derived material. 3. Allow the mixture to aggregate in vitro, preserving the original pathological phenotype.",
+      "representative_quote": "...these LB-derived aggregates can be amplified in vitro using recombinant α-Syn to generate aggregates that maintain the unique, somatic pathological phenotype of the original material.",
+      "source_ids": [
+        "src_045"
+      ]
+    },
+    {
+      "label": "Therapeutic Intervention for Protein Transmission",
+      "summary": "A framework for designing drugs to halt the progression of neurodegenerative diseases.",
+      "details": "Interventions can target three stages: blocking the release of the misfolded protein from the affected cell, blocking the uptake of the bad protein into healthy cells, or promoting the degradation of the misfolded proteins.",
+      "representative_quote": "you can different have different ways to try to come up with therapy by blocking the release of this miss photo protein... you can block the uptake of the bad protein into the healthy cells as well and you can also and promote degradation",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Brain Banking and Tissue Preservation",
+      "summary": "A meticulous process for preserving donated brain tissue for modern molecular research.",
+      "details": "Take samples across different regions, bisect the brain, slice into 1 cm thick pieces, seal in bags, freeze at minus 80 degrees Celsius, and catalog all patient clinical and postmortem data alongside the samples.",
+      "representative_quote": "we actually take samples on one side of the brain... bisect the brain in half and then we slap the brain this way you have now different pieces of brain they're about maybe 1 cm thick we put these pieces of brain into sealing bags... they're frozen in minus 80",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "Systematic Antibody-Based Protein Identification",
+      "summary": "A method for discovering the unknown protein building blocks of pathological accumulations.",
+      "details": "Identify unusual accumulations in patient tissue, generate thousands of antibodies against the tissue, and systematically use these antibodies to identify the specific building block proteins comprising the pathology.",
+      "representative_quote": "we basically made thousands and thousands of antibodies so we actually systematically identify each of the protein",
+      "source_ids": [
+        "src_024"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Genetic Proof of Causality (The Fat Lady Has Sung)",
+      "summary": "A lens for determining when a scientific debate is definitively settled using human genetics.",
+      "details": "The debate over whether aggregates are culprits or bystanders ends when human genetic mutations linked to the disease are identified and subsequently shown to cause the exact pathology when expressed in animal models.",
+      "representative_quote": "I really think that it's not controversial and at least from my perspective, it's not controversial anymore. And I think that it's, basically what we call the fat lady had sung.",
+      "source_ids": [
+        "src_019",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Cell-to-Cell Transmission (Prion-like Spread)",
+      "summary": "Viewing neurodegenerative disease progression as an infectious spread where misfolded proteins act as templates.",
+      "details": "Misfolded proteins corrupt healthy endogenous proteins across connected brain regions, much like a prion, explaining the anatomical progression of symptoms.",
+      "representative_quote": "it has to get out of the cell and it has to be internalized by healthy cell and then once it gets inside it would corrupt the endogenous protein",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Conformational Strains",
+      "summary": "The concept that the specific physical conformation of a misfolded protein dictates its biological activity and pathology.",
+      "details": "Patient-derived aggregates induce unique somatic inclusions and spread differently than standard recombinant fibrils, showing that the origin and shape of the aggregate determine the disease phenotype.",
+      "representative_quote": "Our work indicates that LB-derived α-Syn from diseased brains represents a distinct conformation species with unique biological activities that has not been previously observed in fully recombinant α-Syn aggregates",
+      "source_ids": [
+        "src_045"
+      ]
+    },
+    {
+      "label": "Pleiotropic Toxicity (Two-Hit Mechanism)",
+      "summary": "Viewing neurodegeneration as a dual process of toxic gain and functional loss.",
+      "details": "The cell suffers simultaneously from the toxic properties of cytoplasmic aggregates (gain of function) and the depletion of the protein from its normal functional site, such as the nucleus (loss of function).",
+      "representative_quote": "In addition, the distinct possibility of pleotropic or combined effects — in which gains of toxic properties and losses of normal TDP43 functions act together — needs to be considered.",
+      "source_ids": [
+        "src_032"
+      ]
+    },
+    {
+      "label": "The 'Control' Baseline",
+      "summary": "Viewing healthy, aged individuals as vital scientific baselines necessary to decode the mechanics of disease.",
+      "details": "Without a baseline of healthy aging, researchers cannot compare or identify what specifically changes in a diseased brain.",
+      "representative_quote": "you need brains with no disease that's what I call a control brain without the control we would not able to compare",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "Garbage In, Garbage Out",
+      "summary": "A foundational lens for experimental rigor: flawed inputs guarantee flawed conclusions.",
+      "details": "If the initial models, patient samples, or biochemical conditions (like buffer percentages) are flawed, any resulting data or conclusions will inherently be wrong.",
+      "representative_quote": "Garbage in, garbage out.",
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "The 'I Can' Mantra (Self-Efficacy Loop)",
+      "summary": "Using tangible, difficult achievements as undeniable proof of one's own competence to overcome imposter syndrome.",
+      "details": "Especially for women who may lack early mentorship, proving to yourself that you are capable through concrete success is the foundational breakthrough needed to sustain a career.",
+      "representative_quote": "I said to myself, I can. I can go to school full time. I can run my grants. Clearly, I can sustain myself as a scientist.",
+      "source_ids": [
+        "src_008"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Start with the patient's brain",
+      "summary": "To understand a disease, always start by looking at the patient's brain.",
+      "details": null,
+      "representative_quote": "in order to study and understand the disease we need to go to the patient's brain",
+      "source_ids": [
+        "src_025",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Take a gap, but go back",
+      "summary": "Don't give up on your career; if you must take a gap for family, always go back.",
+      "details": null,
+      "representative_quote": "my advice is the particularly for women don't give up keep working and even if you have to have a gap because of young children and so on go back",
+      "source_ids": [
+        "src_019",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Keep working to stay active",
+      "summary": "Keep working to stimulate your mind and body as you age to enjoy a long life.",
+      "details": null,
+      "representative_quote": "as long as you stay active and so that your body is it's active and your mind is active then you can live for a long time and enjoy life",
+      "source_ids": [
+        "src_019",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Learn from failure",
+      "summary": "Use failed experiments as a tool to plan better ones.",
+      "details": null,
+      "representative_quote": "You learn from a failed experiment. And then you can plan the next experiment better.",
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "Don't dwell on things",
+      "summary": "Address obstacles directly and immediately refocus your attention on the work.",
+      "details": null,
+      "representative_quote": "These things came along, and I dealt with it and moved on. I don't dwell on things.",
+      "source_ids": [
+        "src_026"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Patient Brain First",
+      "summary": "On the foundational approach to studying neurodegenerative diseases.",
+      "details": null,
+      "representative_quote": "in order to study and understand the disease, we need to go to the patient's brain and to see what's wrong with the brain before we can even talk about cure or things like that.",
+      "source_ids": [
+        "src_019",
+        "src_028"
+      ]
+    },
+    {
+      "label": "The Fat Lady Has Sung",
+      "summary": "On the definitive proof that protein aggregates cause neurodegeneration.",
+      "details": null,
+      "representative_quote": "I really think that it's not controversial and at least from my perspective, it's not controversial anymore. And I think that it's, basically what we call the fat lady had sung.",
+      "source_ids": [
+        "src_019",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Advice for Women in Science",
+      "summary": "On navigating work-life balance and career longevity.",
+      "details": null,
+      "representative_quote": "My advice is that particularly for women. Don't give up, keep working, and even if you have to have a gap because of, young children and so on, go back.",
+      "source_ids": [
+        "src_019",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Enjoy the Process",
+      "summary": "On the reality of scientific discovery and the need to love the daily work.",
+      "details": null,
+      "representative_quote": "One thing about science, those 'discoveries,' end quote, are far, few, and in between. And so unless you enjoy the process, you're going to be disappointed a lot of the times.",
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "Unique Partnership",
+      "summary": "On her scientific and life partnership with John Trojanowski.",
+      "details": null,
+      "representative_quote": "We really did have a unique partnership. We literally sleep, eat, and shit science 24/7, literally.",
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "Self-Belief Breakthrough",
+      "summary": "On realizing her own capabilities to sustain a scientific career.",
+      "details": null,
+      "representative_quote": "I said to myself, I can. I can go to school full time. I can run my grants. Clearly, I can sustain myself as a scientist.",
+      "source_ids": [
+        "src_008"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Relying Solely on Recombinant Proteins",
+      "summary": "Using only test-tube generated protein aggregates to study disease pathology.",
+      "details": "The structural conformation of pathology isolated from a patient's brain is fundamentally different from what is made in a test tube, and they induce different types of pathology in cells and animals.",
+      "representative_quote": "Our work indicates that LB-derived α-Syn from diseased brains represents a distinct conformation species with unique biological activities that has not been previously observed in fully recombinant α-Syn aggregates",
+      "source_ids": [
+        "src_019",
+        "src_028",
+        "src_045"
+      ]
+    },
+    {
+      "label": "Permanently Leaving Science for Caregiving",
+      "summary": "Women permanently giving up their scientific careers due to the demands of raising children or caring for parents.",
+      "details": "The intensive caregiving period is relatively short (10-15 years) in a long lifespan. Giving up permanently prevents you from making a professional difference and deprives you of mental stimulation later in life.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_008",
+        "src_019",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Massive Overexpression Animal Models",
+      "summary": "Relying solely on transgenic mice that massively overexpress disease proteins to model neurodegeneration.",
+      "details": "It fails to accurately represent the human condition, as diseases like Alzheimer's are rarely characterized by massive gene duplications of the aggregating proteins.",
+      "representative_quote": "we thought we make models to more rep closely representing the human condition so we decided that we eliminate a void of expression but instead we try to basically inject some of these and emerald fibroids into all type mice",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Conflating Mislocalization with Nuclear Clearance",
+      "summary": "Assuming that the presence of a cytoplasmic inclusion automatically means the normal protein is depleted from the nucleus.",
+      "details": "In diseases like Huntington's, inclusions exist without nuclear clearance. Treating them as the same phenomenon obscures the specific functional loss occurring in TDP43 proteinopathies.",
+      "representative_quote": "A distinction between mislocalization and nuclear clearance should be made, as the presence of an abnormally localized inclusion does not necessarily translate into the reduction of a normal protein in its normal location.",
+      "source_ids": [
+        "src_032"
+      ]
+    },
+    {
+      "label": "Focusing Solely on the End Discovery",
+      "summary": "Relying on major breakthroughs for motivation rather than the daily work.",
+      "details": "Because discoveries are 'far, few, and in between,' making it a guaranteed recipe for frequent disappointment and burnout.",
+      "representative_quote": "One thing about science, those 'discoveries,' end quote, are far, few, and in between. And so unless you enjoy the process, you're going to be disappointed a lot of the times.",
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "Dumping the Whole Brain in Formalin",
+      "summary": "Preserving donated brains by simply placing the entire organ in a bucket of formalin.",
+      "details": "It 'fixes everything' in a way that makes the tissue useless for modern, detailed molecular or regional sampling experiments.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_025"
+      ]
+    }
+  ]
+}

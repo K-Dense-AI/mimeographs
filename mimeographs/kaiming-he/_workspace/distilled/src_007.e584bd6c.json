@@ -1,0 +1,33 @@
+{
+  "source_id": "src_007",
+  "summary": "A third-party mathematical tutorial explaining the derivation of Kaiming initialization. It highlights how Kaiming He's approach solves the vanishing/exploding gradient problem for deep neural networks using ReLU by accounting for the non-linear activation function, unlike previous methods.",
+  "themes": [
+    "Weight Initialization",
+    "Deep Learning",
+    "Vanishing/Exploding Gradients"
+  ],
+  "principles": [
+    {
+      "statement": "Weight initialization must account for the specific activation function being used to ensure variance at the input equals variance at the output.",
+      "rationale": "If the variance is not maintained across layers, the network will suffer from exploding or vanishing gradients during backpropagation. Previous methods assumed linear activations, which fails for non-linear functions like ReLU.",
+      "source_quote": null,
+      "source_id": "src_007"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Using Xavier initialization for neural networks with ReLU activation functions.",
+      "why_it_fails": "Xavier initialization assumes the activation function is linear. Because ReLU is non-linear and does not have a zero mean, this assumption fails, leading to variance imbalances in deep networks.",
+      "source_id": "src_007"
+    },
+    {
+      "description": "Initializing weights using a Normal Distribution with a fixed standard deviation.",
+      "why_it_fails": "It does not account for the variance of weights across layers, leading to very large or small activation values, which results in exploding or vanishing gradients as network depth increases.",
+      "source_id": "src_007"
+    }
+  ]
+}

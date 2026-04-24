@@ -1,0 +1,580 @@
+{
+  "expert_name": "Hannah Arendt",
+  "themes": [
+    "Totalitarianism and Absolute Evil",
+    "The Banality of Evil and Thoughtlessness",
+    "The Vita Activa (Labor, Work, Action)",
+    "Political Theory vs. Philosophy",
+    "The Public Realm and Human Plurality",
+    "Thinking, Willing, and Judging",
+    "Truth, Authority, and Power"
+  ],
+  "principles": [
+    {
+      "label": "The Banality of Evil as Thoughtlessness",
+      "summary": "Monstrous deeds are often committed by ordinary people who lack firm ideological convictions or demonic motives, but who simply fail to stop and think about their actions outside of routine procedures.",
+      "details": "Atrocities can be committed by innocuous bureaucrats who operate unthinkingly, failing to exercise the moral imagination required to understand the human dimensions of their deeds from their victims' perspectives.",
+      "representative_quote": "it was not stupidity it was thoughtlessness... in the absence of firm ideological convictions and also of specific evil obeys motives",
+      "source_ids": [
+        "src_011",
+        "src_003",
+        "src_026",
+        "src_030",
+        "src_036"
+      ]
+    },
+    {
+      "label": "Political Theory vs. Philosophy",
+      "summary": "To truly understand political action, one must step outside the philosophical tradition, which has historically harbored a hostility toward politics and human action.",
+      "details": "Philosophers view man as a thinking being, whereas political theory views man as an acting being. Arendt explicitly identified as a political theorist to see politics with 'unclouded eyes'.",
+      "representative_quote": "I want to see politics with eyes that are unclouded by philosophy, so to speak.",
+      "source_ids": [
+        "src_019",
+        "src_023",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Human Plurality as the Condition of Political Life",
+      "summary": "Action and politics require distinct individuals interacting with one another; plurality is the fundamental condition of all political life.",
+      "details": "If humans were endlessly reproducible repetitions of the same model, action would be an unnecessary luxury. Action and speech need an audience of others who are sufficiently like us to understand us, yet distinct enough to recognize our uniqueness.",
+      "representative_quote": "Action, the only activity that goes on directly between men without the intermediary of things or matter, corresponds to the human condition of plurality, to the fact that men, not Man, live on the earth and inhabit the world.",
+      "source_ids": [
+        "src_052",
+        "src_003",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Thinking vs. Knowing",
+      "summary": "Thinking is the ceaseless, unnatural quest for meaning, fundamentally distinct from the pursuit of positive knowledge or truth.",
+      "details": "Knowing seeks a specific goal, builds the world, and leaves tangible results behind. Thinking is an endless activity that interrupts ordinary life, constantly questioning the meaning of experiences, and is crucial for moral responsibility.",
+      "representative_quote": "the need to think can be satisfied only through thinking... thinking is concerned with meaning and not with truths",
+      "source_ids": [
+        "src_011",
+        "src_003"
+      ]
+    },
+    {
+      "label": "Power vs. Violence",
+      "summary": "Power arises only when people act in concert through persuasion and consent; violence is fundamentally instrumental and relies on coercion.",
+      "details": "Unlike strength (an individual property) or force (a natural phenomenon), power is a uniquely human creation that depends on unconstrained communication. Violence is a tool used to achieve an end, and its rationality is strictly limited to its effectiveness.",
+      "representative_quote": "Power springs up whenever people get together and act in concert, but it derives its legitimacy from the initial getting together rather than from any action that then may follow",
+      "source_ids": [
+        "src_034",
+        "src_050"
+      ]
+    },
+    {
+      "label": "Writing to Understand",
+      "summary": "The primary goal of thinking and writing is personal comprehension, not exerting influence over the masses.",
+      "details": "Seeking to 'have an effect' or influence others is a secondary vanity that distracts from the pure process of understanding. Writing is simply the final step of the understanding process.",
+      "representative_quote": "What is important to me is the process of thinking itself. When I have that, I am personally totally satisfied. And then, if I succeed in expressing it adequately in writing, then I am satisfied again.",
+      "source_ids": [
+        "src_019",
+        "src_023",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Concrete Defense of Identity",
+      "summary": "When attacked as a member of a specific group, you must defend yourself concretely as a member of that group, not with abstract universal concepts.",
+      "details": "Abstract defenses (like claiming to be a 'citizen of the world' or focusing on universal human rights) are ineffective and evasive when political persecution is targeted at a specific identity.",
+      "representative_quote": "wenn man als Juda angegriffen ist muss man sich als Jude verteidigen nicht als Deutscher oder als Bürger der Welt oder der Menschenrecht",
+      "source_ids": [
+        "src_019",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Love is Personal, Not Political",
+      "summary": "Love belongs exclusively to individuals and direct personal relationships; it has no place in collectives or political groups.",
+      "details": "Political and social organizations are based on shared worldly interests. Loving a collective (like a nation, a people, or a class) confuses the personal realm with the worldly realm, leading to political sterility and disaster.",
+      "representative_quote": "ich habe nie in meinem Leben irgendein Volk oder Kollektiv geliebt... Ich liebe in der Tat nur meine Freunde und bin zu aller anderen Liebe völlig unfähig",
+      "source_ids": [
+        "src_019",
+        "src_024"
+      ]
+    },
+    {
+      "label": "The Nature of Authority",
+      "summary": "Authority is fundamentally incompatible with both coercion by force and persuasion through arguments.",
+      "details": "Force implies that authority has already failed, while persuasion presupposes equality. True authority relies on a mutually recognized hierarchical order where both the ruler and the ruled have a predetermined, stable place.",
+      "representative_quote": "Yet authority precludes the use of external means of coercion; where force is used, authority itself has failed. Authority, on the other hand, is incompatible with persuasion, which presupposes equality and works through a process of argumentation.",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Thinking is Inherently Dangerous",
+      "summary": "There are no 'dangerous thoughts' because the very act of critical thinking is itself a dangerous enterprise that undermines rigid rules and general convictions.",
+      "details": "Thinking unfreezes dogmatic habits and sweeps away the established signs by which people unthinkingly orient themselves.",
+      "representative_quote": "there are no dangerous thoughts, for the simple reason that thinking itself is such a dangerous enterprise.",
+      "source_ids": [
+        "src_021",
+        "src_022",
+        "src_011"
+      ]
+    },
+    {
+      "label": "Freedom as Action",
+      "summary": "Freedom is an active, worldly, and public reality, synonymous with the capacity to begin something new through action.",
+      "details": "Freedom is not an inner contemplative state. We only become aware of freedom through our interactions with others in a public space.",
+      "representative_quote": "Men are free…as long as they act, neither before nor after; for to be free and to act are the same.",
+      "source_ids": [
+        "src_003"
+      ]
+    },
+    {
+      "label": "Totalitarianism Targets the Innocent",
+      "summary": "Totalitarianism is fundamentally different from tyranny because it persecutes victims regardless of their actual actions or obedience.",
+      "details": "In a traditional tyranny, people are punished for opposing the ruler. In a totalitarian system, victims are assigned a role by the regime and persecuted even if they are entirely innocent and compliant.",
+      "representative_quote": "il s'agit du rôle des innocents des victimes innocentes... il n'était pas nécessaire de faire quoi que ce soit pour être déportés ou pour être exécutés",
+      "source_ids": [
+        "src_021",
+        "src_057"
+      ]
+    },
+    {
+      "label": "Preservation of Factual Truth",
+      "summary": "Factual truths must be told and protected, regardless of whose political interests they might offend.",
+      "details": "Factual truths are not matters of opinion. If we allow interests or state orders to suppress them, we risk descending into a reality where history is constantly rewritten and basic facts are erased.",
+      "representative_quote": "we come now to the question of what in the eighteenth century were called 'factual truths.' This is not a matter of opinion.",
+      "source_ids": [
+        "src_023",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Justice Focuses on Deeds, Not Abstractions",
+      "summary": "A trial must center strictly on the specific actions of the accused, not on historical abstractions or the collective suffering of victims.",
+      "details": "The integrity of a trial requires a well-defined outline of what the defendant did. Broad historical questions and the collective suffering of victims must be left in abeyance during a trial.",
+      "representative_quote": "On trial are his deeds, not the sufferings of the Jews, not the German people or mankind, not even anti-Semitism and racism.",
+      "source_ids": [
+        "src_038"
+      ]
+    },
+    {
+      "label": "Guilt vs. Responsibility",
+      "summary": "There is a firm distinction between guilt, which is individual, and responsibility, which can be collective.",
+      "details": "Guilt is strictly individual and specific to one's actions. Responsibility, however, can be shared by groups, nations, or communal leaders who passively cooperate or fail to act.",
+      "representative_quote": "My agreement concerns his firm distinction between guilt and responsibility.",
+      "source_ids": [
+        "src_050",
+        "src_054"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "The Vita Activa",
+      "summary": "A tripartite hierarchy of fundamental human activities: labor, work, and action, each corresponding to a basic condition of human existence.",
+      "details": "1. Labor: Corresponds to biological necessity, metabolism, and survival (animal laborans). 2. Work: Corresponds to the fabrication of an artificial, durable world of things (homo faber). 3. Action: Corresponds to human plurality, freedom, and the initiation of the new, occurring directly between people (zoon politikon).",
+      "representative_quote": "With the term vita activa, I propose to designate three fundamental human activities: labor, work, and action. They are fundamental because each corresponds to one of the basic conditions under which life on earth has been given to man.",
+      "source_ids": [
+        "src_052",
+        "src_034",
+        "src_003"
+      ]
+    },
+    {
+      "label": "The Three Mental Activities",
+      "summary": "A framework dividing mental life into three distinct, irreducible faculties: thinking, willing, and judging.",
+      "details": "1. Thinking: Deals with invisibles, tends to generalize, and pursues a purposeless quest for meaning. 2. Willing: Deals with the future ('not yet') and acts as an organ of free spontaneity. 3. Judging: Deals with the past ('no more') and the world of particular appearances, relying on taste and a 'silent sense'.",
+      "representative_quote": "Thinking, willing, and judgment are the three basic mental activities; they cannot be derived from each other and they cannot be reduced to a common denominator.",
+      "source_ids": [
+        "src_014",
+        "src_050"
+      ]
+    },
+    {
+      "label": "Reflective Judgment (Enlarged Mentality)",
+      "summary": "A method for judging unprecedented events for which no established rule or customary morality exists.",
+      "details": "Steps: 1. Acknowledge the particular event without subsuming it under a preconceived universal rule. 2. Set aside purely private, egocentric concerns. 3. Train your imagination to 'go visiting' by putting yourself in the position of everybody else. 4. Compare your judgment with the possible judgments of others to arrive at a conclusion with public validity.",
+      "representative_quote": "To think with an enlarged mentality means that one trains one’s imagination to go visiting.",
+      "source_ids": [
+        "src_003"
+      ]
+    },
+    {
+      "label": "Socratic Thinking",
+      "summary": "A method of engaging in thought to unfreeze dogmatic habits and evaluate moral propositions.",
+      "details": "Act as a 'gadfly' to arouse people from unthinking sleep; act as a 'midwife' to purge people of unexamined prejudices; act as a 'stingray' to share perplexity and paralyze the unthinking application of conventional rules.",
+      "representative_quote": "Socrates gets like Midwife electric fish is not a philosopher for he teaches nothing... he only points out to them that they are not wise",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Writing as Transcription",
+      "summary": "A process for producing theoretical or political writing by separating the thinking phase entirely from the writing phase.",
+      "details": "Engage in the thinking process entirely in your head without writing. Wait until the thought is completely formed and finished. Then, write down the finished thought in a single, rapid draft, treating the writing process merely as transcribing what has already been thought.",
+      "representative_quote": "ich schreibe niemals bevor ich nicht sozusagen abschreibe... ich weiß genau was man vorher schreibe ich nicht",
+      "source_ids": [
+        "src_024"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "The Banality of Evil",
+      "summary": "A lens for understanding how horrific, large-scale atrocities are often perpetrated by innocuous, unthinking bureaucrats rather than sociopaths or ideological fanatics.",
+      "details": "Applied notably to Adolf Eichmann, demonstrating that evil can spread like a fungus across society when ordinary people simply follow orders and fail to exercise moral imagination or critical thought.",
+      "representative_quote": "the fearsome, word-and-thought-defying banality of evil",
+      "source_ids": [
+        "src_030",
+        "src_026",
+        "src_036",
+        "src_003"
+      ]
+    },
+    {
+      "label": "The Onion (Totalitarianism)",
+      "summary": "A structural model for totalitarian rule, contrasting with the Pyramid (Authoritarianism) and the Suspended Top (Tyranny).",
+      "details": "The leader is at the center of an empty space. The movement is organized in concentric layers (front organizations, party members, elite police). Each layer acts as a facade of normality to the outside world and a radical extreme to the layer inside it, making the system shock-proof against reality.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Natality",
+      "summary": "The human capacity to begin something entirely new and unexpected, rooted in the biological fact of birth.",
+      "details": "It is the ontological root of freedom and political action. Because of natality, human action can interrupt the predictable chain of historical events with something miraculous and unprecedented.",
+      "representative_quote": "It is in the nature of beginning that something new is started which cannot be expected from whatever may have happened before.",
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "The Two-in-One (Conscience)",
+      "summary": "The model of the self as a duality in consciousness, where thinking is an internal dialogue between 'me and myself'.",
+      "details": "Conscience is the internal partner who waits for you at home to cross-examine your actions. Because you must live with yourself, you must strive to maintain harmony with this internal partner by not committing wrongs.",
+      "representative_quote": "it would be better for me that my life... should be out of tune and loudness discard... rather than I being one should be out of harmony with myself and contradict me",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Worldlessness (Weltlosigkeit)",
+      "summary": "A condition where people lack a shared public, political space (a 'world'), reducing them to biological cycles or isolated warmth.",
+      "details": "This can occur in historically oppressed groups (creating intense personal warmth but lacking political agency) or in modern mass society, where humans are reduced to laboring and consuming, stripped of the public space where human excellence can appear.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_019",
+        "src_024"
+      ]
+    },
+    {
+      "label": "The Space of Appearance",
+      "summary": "A highly fragile, potential public space that comes into existence only when individuals gather together to act and speak politically.",
+      "details": "It must be continually recreated by action and disappears the moment these activities cease. It is the only place where true political power can spring up.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "The Trap of Intellect (Eigene Einfälle)",
+      "summary": "A lens for understanding why highly educated people often succumb to totalitarianism by inventing complex justifications for evil regimes.",
+      "details": "Instead of seeing brutal reality, intellectuals fall into the trap of their own clever ideas, voluntarily aligning with evil because they are seduced by their own fascinating theories.",
+      "representative_quote": "sie gehen ihren eigenen einfällen in die falle",
+      "source_ids": [
+        "src_024"
+      ]
+    },
+    {
+      "label": "Earth vs. World",
+      "summary": "A distinction between the natural, biological habitat given to humans (Earth) and the artificial, durable environment constructed by human work (World).",
+      "details": "Modern alienation occurs on both fronts: science causes 'earth-alienation' by attempting to escape natural limits, while consumer society causes 'world-alienation' by treating durable objects as mere consumables.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_052"
+      ]
+    },
+    {
+      "label": "The Web of Relationships",
+      "summary": "A metaphor for human action, which is never isolated but always weaves a new thread into an existing, complex web of human relationships.",
+      "details": "Because every action interacts with this existing web, the ultimate outcome of any action is inherently boundless and unpredictable.",
+      "representative_quote": "Wir fangen etwas an, wir schlagen unseren Faden in ein Netz der Beziehung. Was daraus wird, wissen wir nie.",
+      "source_ids": [
+        "src_019"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Think what we are doing",
+      "summary": "Actively and simply reflect on your daily actions to combat the pervasive thoughtlessness of modern society.",
+      "details": null,
+      "representative_quote": "What I propose, therefore, is very simple: it is nothing more than to think what we are doing.",
+      "source_ids": [
+        "src_052"
+      ]
+    },
+    {
+      "label": "Think without a banister",
+      "summary": "When facing unprecedented historical horrors or novel situations, think without relying on traditional rules, precedents, or customary morality.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_034",
+        "src_003"
+      ]
+    },
+    {
+      "label": "Defend yourself as who you are attacked as",
+      "summary": "If you are attacked as a member of a specific identity (e.g., as a Jew), defend yourself concretely as that identity, not with abstract universalisms.",
+      "details": null,
+      "representative_quote": "Wenn man als Jude angegriffen ist, muss man sich als Jude verteidigen.",
+      "source_ids": [
+        "src_019",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Write to understand",
+      "summary": "Write to satisfy your own need for comprehension, not to exert influence or achieve a broad impact.",
+      "details": null,
+      "representative_quote": "What is important to me is the process of thinking itself. When I have that, I am personally totally satisfied.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Do not deduce the unprecedented from precedents",
+      "summary": "Face and resist reality as it is, rather than explaining away novel horrors with historical analogies that dull the shock of experience.",
+      "details": null,
+      "representative_quote": "Comprehension, in short, means the unpremeditated, attentive facing up to, and resisting of, reality-whatever it may be.",
+      "source_ids": [
+        "src_057"
+      ]
+    },
+    {
+      "label": "Love only your friends",
+      "summary": "Reserve love for direct, personal relationships; never love a collective, a nation, or a political group.",
+      "details": null,
+      "representative_quote": "Ich habe nie in meinem Leben irgendein Volk oder Kollektiv geliebt... Ich liebe in der Tat nur meine Freunde.",
+      "source_ids": [
+        "src_024"
+      ]
+    },
+    {
+      "label": "Go visiting",
+      "summary": "Train your imagination to view issues from the perspective of everybody else to achieve an enlarged mentality and reflective judgment.",
+      "details": null,
+      "representative_quote": "To think with an enlarged mentality means that one trains one’s imagination to go visiting.",
+      "source_ids": [
+        "src_003"
+      ]
+    },
+    {
+      "label": "Force signals the failure of authority",
+      "summary": "Recognize that where external means of coercion or force are used, true authority has already failed.",
+      "details": null,
+      "representative_quote": "where force is used, authority itself has failed.",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Better to suffer wrong than do wrong",
+      "summary": "Avoid committing wrongs because you must live with yourself and maintain harmony in your internal dialogue (conscience).",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Political criminals are not great men",
+      "summary": "Do not confuse a man who committed great political crimes with a 'great man'; expose them to ridicule to reveal their profound mediocrity.",
+      "details": null,
+      "representative_quote": "Ce ne sont pas de grands criminels politiques mais des hommes qui ont commis de grands crimes politiques ce qui est quelque chose d'entièrement différent",
+      "source_ids": [
+        "src_021"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "The Banality of Evil",
+      "summary": "Describing the nature of Adolf Eichmann's crimes and the spread of such evil across Europe.",
+      "details": null,
+      "representative_quote": "the fearsome, word-and-thought-defying banality of evil",
+      "source_ids": [
+        "src_036",
+        "src_030",
+        "src_026"
+      ]
+    },
+    {
+      "label": "Thinking is Dangerous",
+      "summary": "Addressing the accusation that thinking subverts society.",
+      "details": null,
+      "representative_quote": "there are no dangerous thoughts, for the simple reason that thinking itself is such a dangerous enterprise.",
+      "source_ids": [
+        "src_011",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Think What We Are Doing",
+      "summary": "Stating the central theme and purpose of her work in response to modern thoughtlessness.",
+      "details": null,
+      "representative_quote": "What I propose, therefore, is very simple: it is nothing more than to think what we are doing.",
+      "source_ids": [
+        "src_052"
+      ]
+    },
+    {
+      "label": "Freedom and Action",
+      "summary": "Equating freedom directly with the worldly practice of action.",
+      "details": null,
+      "representative_quote": "Men are free…as long as they act, neither before nor after; for to be free and to act are the same.",
+      "source_ids": [
+        "src_003"
+      ]
+    },
+    {
+      "label": "Human Plurality",
+      "summary": "Defining the condition of human plurality and the nature of action.",
+      "details": null,
+      "representative_quote": "Action, the only activity that goes on directly between men without the intermediary of things or matter, corresponds to the human condition of plurality, to the fact that men, not Man, live on the earth and inhabit the world.",
+      "source_ids": [
+        "src_052",
+        "src_003",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Unclouded Eyes",
+      "summary": "Explaining why she considers herself a political theorist rather than a philosopher.",
+      "details": null,
+      "representative_quote": "I want to see politics with eyes that are unclouded by philosophy, so to speak.",
+      "source_ids": [
+        "src_023",
+        "src_024"
+      ]
+    },
+    {
+      "label": "The Ideal Subject of Totalitarianism",
+      "summary": "Describing the psychological foundation required for totalitarianism to function.",
+      "details": null,
+      "representative_quote": "The ideal subject of totalitarian rule is not the convinced Nazi or the convinced Communist, but people for whom the distinction between fact and fiction (i.e., the reality of experience) and the distinction between true and false (i.e., the standards of thought) no longer exist.",
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "Power and Concerted Action",
+      "summary": "Distinguishing power from violence and locating its source in collective political action.",
+      "details": null,
+      "representative_quote": "Power springs up whenever people get together and act in concert, but it derives its legitimacy from the initial getting together rather than from any action that then may follow",
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "Comprehension as Resistance",
+      "summary": "Defining what it means to truly understand the horrors of the 20th century.",
+      "details": null,
+      "representative_quote": "Comprehension, in short, means the unpremeditated, attentive facing up to, and resisting of, reality-whatever it may be.",
+      "source_ids": [
+        "src_057"
+      ]
+    },
+    {
+      "label": "The Focus of a Trial",
+      "summary": "Critiquing the desire to use the Eichmann trial to teach broader historical lessons.",
+      "details": null,
+      "representative_quote": "On trial are his deeds, not the sufferings of the Jews, not the German people or mankind, not even anti-Semitism and racism.",
+      "source_ids": [
+        "src_038"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Intellectualizing Evil (The Trap of Intellect)",
+      "summary": "Inventing complex, fascinating justifications for terrible regimes instead of facing brutal reality.",
+      "details": "Highly educated people often lose touch with basic moral reality by overlaying it with complex theories, leading them to voluntarily align with evil because they are seduced by their own ideas.",
+      "representative_quote": "sie gehen ihren eigenen einfällen in die falle",
+      "source_ids": [
+        "src_019",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Treating 'History' as the Ultimate Judge",
+      "summary": "Believing in historical determinism or assuming that whatever succeeds is morally right.",
+      "details": "This strips humans of their autonomy and dignity, turning History into a 'pseudo-divinity' and ignoring the massive role of contingency, chance, and human agency.",
+      "representative_quote": "we may reclaim our human dignity, win it back, as it were, from the pseudo-divinity named History of the modern age, without denying history's importance but denying its right to be the ultimate judge.",
+      "source_ids": [
+        "src_014",
+        "src_021",
+        "src_003"
+      ]
+    },
+    {
+      "label": "Conflating Power with Violence",
+      "summary": "Mistaking coercion and force for true political power.",
+      "details": "Power is a collective human creation based on consent and rational persuasion. Violence relies on coercion, force is a natural phenomenon, and strength is merely an individual property.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_034",
+        "src_009"
+      ]
+    },
+    {
+      "label": "Using Trials for Historical Education",
+      "summary": "Turning a legal trial into a show trial to indict abstract concepts rather than focusing strictly on the deeds of the accused.",
+      "details": "It distracts from the sole legal task of judging the specific deeds of the individual in the dock, turning the proceedings into 'bad history and cheap rhetoric'.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_038"
+      ]
+    },
+    {
+      "label": "Suppressing Factual Truth for Political Interests",
+      "summary": "Allowing state orders or group interests to dictate facts, leading to the rewriting of history.",
+      "details": "When factual truth opposes a given group's profit or pleasure, it is often rejected or treated as mere opinion, which destroys the foundation of historical reality and mimics totalitarian practices.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_023",
+        "src_024",
+        "src_050"
+      ]
+    },
+    {
+      "label": "The Rise of the Social (Laboring Society)",
+      "summary": "Elevating mere biological survival, economics, and consumption above the public realm of political action.",
+      "details": "It reduces human existence to mere biological survival. When automation liberates this society from labor, it is left empty, having lost the knowledge of higher, more meaningful political activities.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_052",
+        "src_003"
+      ]
+    },
+    {
+      "label": "Mythologizing Political Criminals",
+      "summary": "Assuming perpetrators of massive crimes must be demonic 'great men' rather than exposing their profound mediocrity.",
+      "details": "It grants them a privileged, grandiose position in history instead of exposing their thoughtlessness and subjecting them to the ridicule they deserve.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_021",
+        "src_036"
+      ]
+    },
+    {
+      "label": "Bringing Love into Politics",
+      "summary": "Confusing personal, direct relationships with worldly, interest-based political organization.",
+      "details": "Loving a political collective (a nation, a people, a class) is politically sterile, apolitical, and a source of great disaster.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_019",
+        "src_024"
+      ]
+    }
+  ]
+}

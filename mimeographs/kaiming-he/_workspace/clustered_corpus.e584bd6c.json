@@ -1,0 +1,431 @@
+{
+  "expert_name": "Kaiming He",
+  "themes": [
+    "Deep Learning Architecture",
+    "Computer Vision",
+    "Generative Modeling",
+    "Representation Learning",
+    "Optimization",
+    "AI as a Common Language"
+  ],
+  "principles": [
+    {
+      "label": "Residual Learning",
+      "summary": "Network layers should learn residual functions referenced to their inputs rather than unreferenced functions.",
+      "details": "Without a structural change, adding layers makes optimization harder rather than improving accuracy. By reformulating layers to learn a residual (a delta or adjustment), deep networks become easier to optimize and can successfully gain accuracy from considerably increased depth.",
+      "representative_quote": "We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions.",
+      "source_ids": [
+        "src_042"
+      ]
+    },
+    {
+      "label": "Depth is Central to Representation",
+      "summary": "The depth of neural network representations is of central importance for visual recognition tasks.",
+      "details": "Extremely deep representations yield massive improvements in object detection and classification tasks, driving the need for architectures like ResNet that can scale depth without degrading trainability.",
+      "representative_quote": "The depth of representations is of central importance for many visual recognition tasks.",
+      "source_ids": [
+        "src_042"
+      ]
+    },
+    {
+      "label": "Activation-Aware Weight Initialization (He Initialization)",
+      "summary": "Weight initialization must explicitly account for the specific activation function being used to maintain constant variance across layers.",
+      "details": "If the variance of forward and backward signals is not maintained, deep networks suffer from exploding or vanishing gradients. Previous methods assumed linear activations, which fails for non-linear functions like ReLU. A robust initialization tailored to rectifiers enables training extremely deep models directly from scratch.",
+      "representative_quote": "Second, we derive a robust initialization method that particularly considers the rectifier nonlinearities. This method enables us to train extremely deep rectified models directly from scratch.",
+      "source_ids": [
+        "src_029",
+        "src_007",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Generative Models as Universal Solvers",
+      "summary": "Almost any real-world problem can be formulated as a generative model by framing it as a conditional distribution.",
+      "details": "By viewing problems as conditional distributions where you generate an output X based on a condition Y, you can apply generative models to anything from image creation to protein design and robotics, because there are no strict constraints on what X and Y can be.",
+      "representative_quote": "in my opinion actually there is no any constraints or requirements about what can be X or what can be Y. so they conceptually they can be anything so that means we can use generative models to solve many kinds of real world problems",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Generative Modeling as Distribution Mapping",
+      "summary": "Generative modeling is fundamentally harder than discriminative modeling because it maps entire distributions, not just instances.",
+      "details": "Supervised learning maps paired inputs to outputs. Generative modeling is an unsupervised problem that must figure out how to map a simple noise distribution to a complex data distribution without explicit instance-to-instance pairing.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Generative Models as New Building Blocks",
+      "summary": "Generative models are the next level of abstraction in AI, serving as foundational primitives for higher-level systems.",
+      "details": "Just as individual layers (like ReLU or convolutions) were the building blocks for deep neural networks a decade ago, generative models are now the foundational abstractions used to build higher-level reasoning and agentic systems.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Recognition and Generation are Symmetrical",
+      "summary": "Recognition and generation are two sides of the same coin.",
+      "details": "Recognition is an abstraction process that flows from a complex data manifold to a simple embedding/label manifold. Generation is the exact reverse, flowing from an unstructured embedding (noise) to concretize a data point.",
+      "representative_quote": "the problem of recognition and the problem of generation are just the uh two sides of the same coin.",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "The Need for End-to-End Generative Training",
+      "summary": "Today's generative models are conceptually trained layer-wise, lacking true end-to-end optimization.",
+      "details": "Models like diffusion or autoregressive networks have multi-step computational graphs at inference time, but during training, they only optimize one time step (or token) at a time. This mirrors the pre-AlexNet era of training deep networks one layer at a time.",
+      "representative_quote": "today's most successful genative models are conceptually a kind of layer wise training if we compare it with um the classification models um before after uh the Alex net area.",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "AI as a Common Scientific Language",
+      "summary": "AI acts as a common language that breaks down the walls between disparate scientific disciplines.",
+      "details": "Machine learning tools translate domain-specific terminology into understandable concepts, allowing researchers from vastly different fields (e.g., biology, physics, computer science) to share tools, experiences, and solutions.",
+      "representative_quote": "In this sense, these AI tools are like a common language between these scientific areas: the machine learning tools ‘translate’ their terminology and concepts into terms that I can understand",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Reciprocal Relationship of AI and Science",
+      "summary": "Science and AI evolve together; they should not be treated as isolated subjects.",
+      "details": "While AI helps scientists solve domain-specific problems, scientists provide new challenges that evolve AI tools. Furthermore, many foundational AI tools were directly inspired by scientific observations (e.g., neural networks from biology, diffusion from physics).",
+      "representative_quote": "Science and AI are not isolated subjects. We have been approaching the same goal from different perspectives, and now we are getting together.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Simplicity in Complexity",
+      "summary": "Complex visual problems should be solved using simple and intuitive methods.",
+      "details": "Despite the intrinsic complexity of visual perception, the most effective deep learning solutions for tasks like object detection and segmentation are those designed to be straightforward and intuitive.",
+      "representative_quote": "enabling deep learning to solve complex object detection and segmentation problems in simple and intuitive ways.",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Quantization Distortion as a Universal Objective",
+      "summary": "Quantization distortion is a universal objective function that tightly correlates with Approximate Nearest Neighbor (ANN) search accuracy.",
+      "details": "Different ANN methods (like k-means, PQ, and ITQ) can all be viewed as optimizing the exact same distortion objective, just subject to different structural constraints. Stricter constraints inherently lead to higher quantization distortion.",
+      "representative_quote": "The quantization distortion is a common objective function among the different methods studied. We can treat the specific configuration of each method as the constraints when optimizing the common objective function.",
+      "source_ids": [
+        "src_031"
+      ]
+    },
+    {
+      "label": "Optimal Space Decomposition",
+      "summary": "Optimal space decomposition in product quantization requires subspaces to be mutually independent and have balanced variances.",
+      "details": "Under a Gaussian assumption, the theoretical lower bound of quantization distortion is minimized when Fischer's inequality (independence) and the AM-GM inequality (balanced variances) are simultaneously satisfied.",
+      "representative_quote": "We theoretically prove that this lower bound is minimized when (i) the subspaces are mutually independent, and simultaneously (ii) the vectors have balanced variances in all subspaces.",
+      "source_ids": [
+        "src_031"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Residual Learning Framework",
+      "summary": "A method for training substantially deeper neural networks by reformulating layers to learn residual functions.",
+      "details": "Steps: 1. Reformulate layers to learn residual functions with reference to the layer inputs, rather than unreferenced functions. 2. Optimize the network, leveraging the fact that these residual connections make the deep network easier to train. 3. Scale up the depth of the network to gain accuracy without increasing complexity beyond manageable levels.",
+      "representative_quote": "We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously.",
+      "source_ids": [
+        "src_042"
+      ]
+    },
+    {
+      "label": "Conditional Distribution Formulation",
+      "summary": "A framework for applying generative AI to solve novel real-world problems by framing them as conditional probability estimations.",
+      "details": "Steps: 1. Identify the condition 'Y' (usually abstract, less informative, or lower-dimensional, such as a text prompt). 2. Identify the target data 'X' (usually concrete, higher-dimensional, such as a 3D protein structure). 3. Formulate the problem as estimating the conditional probability distribution of X given Y. 4. Apply modern generative modeling tools to learn this mapping.",
+      "representative_quote": "we can just try to formulate all these real world problems as kind of conditional distribution problem and then we can try to apply the latest advance in generative models as a tool for this problem",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Mean Flows Algorithm",
+      "summary": "A framework for training generative models to perform one-step generation by learning average velocity rather than instantaneous velocity.",
+      "details": "Steps: 1. Define a neural network to predict average velocity, conditioned on start and end times. 2. Sample data, time steps, and noise. 3. Interpolate between data and noise to compute instantaneous conditional velocity. 4. Compute the time derivative of velocity using a Jacobian Vector Product (JVP). 5. Modify the regression target using the mean flow identity. 6. Optimize using a conditional flow matching objective.",
+      "representative_quote": "conceptually it's just two line modification of the original flow matching algorithm",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Optimized Product Quantization (OPQ)",
+      "summary": "A framework for optimizing product quantization codebooks and space decomposition to minimize quantization distortion.",
+      "details": "Non-parametric steps: 1. Fix the space decomposition matrix R and optimize sub-codebooks via k-means. 2. Fix sub-codebooks and optimize R by solving the Orthogonal Procrustes problem using SVD. 3. Iterate until convergence. Parametric initialization (Eigenvalue Allocation): Align data using PCA, sort eigenvalues, and sequentially allocate the largest available eigenvalue to the bucket with the minimum product of eigenvalues to form balanced, independent subspaces.",
+      "representative_quote": "In the first solution, we iteratively solve two simpler sub-problems: solving for the space decomposition with the codewords fixed, and vice versa.",
+      "source_ids": [
+        "src_031"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Residual vs. Unreferenced Functions",
+      "summary": "Viewing network layers not as learning a complete mapping from scratch, but as learning a residual (a delta or adjustment) with reference to the layer's input.",
+      "details": "This mental shift allows networks to be scaled to extreme depths (e.g., 152 layers) while remaining easy to optimize and maintaining lower complexity.",
+      "representative_quote": "We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions.",
+      "source_ids": [
+        "src_042"
+      ]
+    },
+    {
+      "label": "The Abstraction Stack",
+      "summary": "Viewing AI progress as a stack of increasingly complex building blocks, where each era's final product becomes the next era's primitive component.",
+      "details": "Layers (ReLU, Softmax) built Deep Neural Networks. Deep Neural Networks build Generative Models. Generative Models build Reasoning Agents.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "The Pre-AlexNet Analogy for Generative Models",
+      "summary": "Viewing the current paradigm of training diffusion and autoregressive models as analogous to the pre-2012 era of computer vision.",
+      "details": "Just as researchers used to train deep networks one layer at a time (e.g., denoising autoencoders) before AlexNet popularized end-to-end backpropagation, today's generative models are trained one time-step at a time rather than optimizing the full multi-step inference trajectory.",
+      "representative_quote": "today's most successful genative models are conceptually a kind of layer wise training if we compare it with um the classification models um before after uh the Alex net area.",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Instantaneous vs. Average Velocity",
+      "summary": "Borrowing from physics, instantaneous velocity only describes the tangent direction at a single point in time, whereas average velocity is required for large steps.",
+      "details": "To take large steps (like one-step generation from noise to image), one must use average velocity, which characterizes the total displacement between a starting point and an end point, rather than following hundreds of tiny instantaneous tangents.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "AI as a Common Language",
+      "summary": "Viewing artificial intelligence methodologies as a universal translator that bridges disparate scientific disciplines.",
+      "details": "A computer scientist and a biologist might not understand each other's core research, but they can sit together and use deep learning and neural network models as a shared framework to discuss and solve problems.",
+      "representative_quote": "In this sense, these AI tools are like a common language between these scientific areas: the machine learning tools ‘translate’ their terminology and concepts into terms that I can understand",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Vector Quantization as Constrained Optimization",
+      "summary": "Viewing various Approximate Nearest Neighbor (ANN) methods not as fundamentally different algorithms, but as the exact same optimization problem subject to different structural constraints.",
+      "details": "For example, k-means has no constraints, Product Quantization constrains codewords to a Cartesian product of sub-codebooks, and Iterative Quantization constrains codewords to the vertices of a rotating hyper-cube.",
+      "representative_quote": "The quantization distortion is a common objective function among the different methods studied. We can treat the specific configuration of each method as the constraints when optimizing the common objective function",
+      "source_ids": [
+        "src_031"
+      ]
+    },
+    {
+      "label": "Discriminative Tasks as Generative Tasks",
+      "summary": "Reframing traditional classification (predicting a fixed label) as conditional generation (generating text conditioned on an image).",
+      "details": "Instead of a closed-vocabulary classifier outputting 'bird', a generative model can output 'flamingo' or 'red color', enabling open-vocabulary recognition and rich image captioning.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Neural ODEs as ResNets",
+      "summary": "The realization that while Neural ODEs are theoretically formulated as continuous integration over time, practical computational constraints force them to be implemented as finite sums, making them conceptually identical to ResNets.",
+      "details": "When building a Neural ODE to solve an integral, the actual operation performed by the computer is a finite sum addition, mirroring the discrete time operation of a ResNet.",
+      "representative_quote": "we want to do integration but what we are doing is still a finite sum.",
+      "source_ids": [
+        "src_027"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Condition vs. Output Dimensionality",
+      "summary": "In conditional generation, the condition (Y) is usually abstract and low-dimensional, while the output (X) is concrete and high-dimensional.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Generative over Discriminative for Multiple Truths",
+      "summary": "If a problem has multiple plausible correct answers (like robot trajectories or image generation), it should be modeled as a generative probability distribution rather than a single prediction.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Integral vs. Finite Sum Reality",
+      "summary": "In theory we want to do integrals, but in practice we can only do finite sums.",
+      "details": null,
+      "representative_quote": "we want to do integration but what we are doing is still a finite sum.",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Parametric Initialization for OPQ",
+      "summary": "If no other prior knowledge is available, use the parametric solution (Eigenvalue Allocation) to initialize the non-parametric iterative solution for space decomposition.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_031"
+      ]
+    },
+    {
+      "label": "Predicting ANN Accuracy via Distortion",
+      "summary": "Evaluate quantization distortion directly to predict ANN search accuracy across different methods.",
+      "details": null,
+      "representative_quote": "We empirically verify that the distortion is tightly correlated to the ANN search accuracy of different methods.",
+      "source_ids": [
+        "src_031"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Residual Reformulation",
+      "summary": "Explaining the core innovation of the ResNet architecture.",
+      "details": null,
+      "representative_quote": "We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions.",
+      "source_ids": [
+        "src_042"
+      ]
+    },
+    {
+      "label": "Depth is Central",
+      "summary": "Justifying the pursuit of extremely deep networks.",
+      "details": null,
+      "representative_quote": "The depth of representations is of central importance for many visual recognition tasks.",
+      "source_ids": [
+        "src_042"
+      ]
+    },
+    {
+      "label": "Generative Models as Distribution Mappings",
+      "summary": "Explaining the fundamental difference between generative and discriminative models.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Recognition and Generation Symmetry",
+      "summary": "Explaining how recognition maps data to embeddings, while generation maps embeddings to data.",
+      "details": null,
+      "representative_quote": "the problem of recognition and the problem of generation are just the uh two sides of the same coin.",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Pre-AlexNet Era of Generative Models",
+      "summary": "Critiquing the current training paradigm of diffusion and autoregressive models.",
+      "details": null,
+      "representative_quote": "today's most successful genative models are conceptually a kind of layer wise training if we compare it with um the classification models um before after uh the Alex net area.",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "AI as a Common Language",
+      "summary": "Explaining how AI enables interdisciplinary collaboration.",
+      "details": null,
+      "representative_quote": "In this sense, these AI tools are like a common language between these scientific areas: the machine learning tools ‘translate’ their terminology and concepts into terms that I can understand, and then I can learn their problems and share my experience",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Science and AI Convergence",
+      "summary": "Discussing the reciprocal relationship between scientific discovery and AI development.",
+      "details": null,
+      "representative_quote": "Science and AI are not isolated subjects. We have been approaching the same goal from different perspectives, and now we are getting together.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Quantization Distortion as Common Objective",
+      "summary": "Explaining the unified framework for evaluating different vector quantization methods.",
+      "details": null,
+      "representative_quote": "The quantization distortion is a common objective function among the different methods studied. We can treat the specific configuration of each method as the constraints when optimizing the common objective function, rather than incorporate the configuration into the objective function.",
+      "source_ids": [
+        "src_031"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Learning Unreferenced Functions in Deep Networks",
+      "summary": "Attempting to learn complete, unreferenced mappings from scratch when building very deep neural networks.",
+      "details": "It makes the network substantially more difficult to train and optimize as depth increases, leading to degradation in accuracy.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_042"
+      ]
+    },
+    {
+      "label": "Mismatching Initialization and Activation",
+      "summary": "Using linear initialization methods (like Xavier) or fixed standard deviations for networks with non-linear activation functions (like ReLU).",
+      "details": "Different activation functions alter the variance of signals differently (e.g., ReLU's zero negative section reduces variance by a factor of two). Failing to account for this leads to signal gains above or below one, causing exploding or vanishing gradients.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_007",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Layer-wise Generative Training",
+      "summary": "Training generative models by only optimizing one time step at a time while ignoring the full inference-time computational graph.",
+      "details": "It fails to fully respect the model's inference-time behavior, requiring many iterative steps during generation and lacking the benefits of true end-to-end optimization.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Using Instantaneous Velocity for Large Steps",
+      "summary": "Using instantaneous velocity to characterize large time steps or one-step generation in flow models.",
+      "details": "Instantaneous velocity only describes the tangent direction at a single point. It is not precise for characterizing the displacement over a large time interval, leading to massive errors if used for one-step generation.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Treating Science and AI as Isolated",
+      "summary": "Viewing scientific disciplines and artificial intelligence as separate, non-interacting fields.",
+      "details": "It ignores the reciprocal benefit where AI solves scientific problems while scientific challenges and observations (like biological neurons or physics diffusion) inspire new, foundational AI architectures.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Closed-Vocabulary Classification",
+      "summary": "Treating image classification strictly as a closed-vocabulary discriminative problem.",
+      "details": "It limits the model to a predefined set of labels. Formulating it as a generative model (where the image is the condition and the text is the generated output) unlocks open-vocabulary recognition and rich image captioning.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Random Rotation for Variance Balancing",
+      "summary": "Relying on random rotation to balance variances in Product Quantization.",
+      "details": "While random rotation (or Householder transforms) can successfully balance the variances across components, it destroys the independence between subspaces, leading to suboptimal quantization distortion.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_031"
+      ]
+    }
+  ]
+}

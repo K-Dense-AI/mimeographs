@@ -1,0 +1,68 @@
+{
+  "source_id": "src_033",
+  "summary": "A biographical podcast episode detailing Andrew Carnegie's rise from abject poverty in Scotland to becoming an American steel magnate. It covers his early work ethic, his close relationship with his mother, his massive success in the iron and steel industries, his deep regret over the violent Homestead strike, and his eventual transition to a life of massive philanthropy, driven by his belief that the wealthy have a duty to enrich society.",
+  "themes": [
+    "Philanthropy",
+    "Wealth disparity",
+    "Labor relations",
+    "Industrialization",
+    "Self-education"
+  ],
+  "principles": [
+    {
+      "statement": "The wealthy have a moral duty to use their fortunes to better the lives of others.",
+      "rationale": "While he had no issue with wealth disparity itself, he believed that those who accumulated massive wealth were obligated to distribute it in ways that would have a lasting, enriching impact on society, rather than hoarding it.",
+      "source_quote": "the man who dies rich dies in disgrace.",
+      "source_id": "src_033"
+    },
+    {
+      "statement": "Philanthropy should empower people to educate themselves rather than providing direct handouts.",
+      "rationale": "Having educated himself through access to books and culture while working as a messenger boy, he believed that providing access to knowledge (via libraries and universities) would allow anyone with a desire to learn to better their own circumstances.",
+      "source_quote": null,
+      "source_id": "src_033"
+    },
+    {
+      "statement": "Earning money to support your family brings more profound happiness than accumulating vast wealth.",
+      "rationale": "Reflecting on his childhood poverty and his first grueling job as a bobbin boy, he valued the feeling of contributing to his family's survival far more than the millions he later amassed.",
+      "source_quote": "I've made millions since, but none of those millions gave me such happiness as my first week's earnings.",
+      "source_id": "src_033"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "I've made millions since, but none of those millions gave me such happiness as my first week's earnings.",
+      "context": "Reflecting on his first job working in a factory as a bobbin boy to help support his impoverished family.",
+      "source_id": "src_033"
+    },
+    {
+      "text": "The man who dies rich dies in disgrace.",
+      "context": "Summarizing his philosophy on wealth and his dedication to giving away his fortune before his death.",
+      "source_id": "src_033"
+    },
+    {
+      "text": "Trying to run the homestead works with new men, that is a test to which working men should not be subjected, is expecting too much of poor men to stand by and see their work taken by others.",
+      "context": "Expressing regret over the decision to use strikebreakers during the violent Homestead steel strike.",
+      "source_id": "src_033"
+    },
+    {
+      "text": "The works are not worth one drop of human blood. I wish they had sunk.",
+      "context": "Lamenting the loss of life that occurred during the Homestead strike.",
+      "source_id": "src_033"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Replacing striking workers with strikebreakers (scabs).",
+      "why_it_fails": "It subjects working men to an unfair psychological and emotional test, expecting them to peacefully watch others take their livelihoods, which inevitably leads to violence and bloodshed.",
+      "source_id": "src_033"
+    },
+    {
+      "description": "Dying with massive, hoarded wealth.",
+      "why_it_fails": "It represents a failure of duty. Wealthy individuals should actively distribute their money during their lifetimes to create lasting societal impact, rather than dying rich.",
+      "source_id": "src_033"
+    }
+  ]
+}

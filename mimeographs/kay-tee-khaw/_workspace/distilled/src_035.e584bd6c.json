@@ -1,0 +1,70 @@
+{
+  "source_id": "src_035",
+  "summary": "Professor Kay-Tee Khaw discusses the symbiotic relationship between teaching and research, emphasizing that teaching critical evaluation skills is a researcher's true value. She also highlights the complexities of human epidemiological studies, noting the necessity of making sensible inferences from imperfect, real-world data and continuously monitoring changing environmental interactions.",
+  "themes": [
+    "Teaching and Research",
+    "Epidemiology",
+    "Population Health",
+    "Critical Thinking",
+    "Real-world Data"
+  ],
+  "principles": [
+    {
+      "statement": "Researchers provide the most value by teaching critical evaluation, not by providing right answers.",
+      "rationale": "Individuals need to find their own solutions and measure their own problems using critical and technical skills.",
+      "source_quote": "We don't teach right answers. We teach basic principles of how can we assess health impact, how can we evaluate critically the evidence because individuals have to find their own solutions.",
+      "source_id": "src_035"
+    },
+    {
+      "statement": "Human studies require making sensible inferences from imperfect data.",
+      "rationale": "Unlike animal studies, human environments cannot be perfectly controlled and must be studied in real life.",
+      "source_quote": "Human studies are not like animal studies. You can’t control them perfectly. You have to study humans in a real life environment. The challenge is how you make sensible inferences from imperfect data.",
+      "source_id": "src_035"
+    },
+    {
+      "statement": "Population health policies and interventions must be constantly evaluated and monitored.",
+      "rationale": "Environments and human interactions are constantly changing over time.",
+      "source_quote": "Environment and interactions are changing all the time, so that's why I think we need to evaluate and monitor constantly what we're doing.",
+      "source_id": "src_035"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Health trajectory over the life course",
+      "description": "Viewing population health not as a static snapshot, but as a continuous path influenced by biological underpinnings, social determinants, and environmental factors over a person's entire life.",
+      "example": "Using technological developments to measure complex biological processes and pollution in large numbers of people to understand what determines their health trajectory.",
+      "source_id": "src_035"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "We don't teach right answers. We teach basic principles of how can we assess health impact, how can we evaluate critically the evidence because individuals have to find their own solutions.",
+      "context": "Discussing the value of researchers as teachers.",
+      "source_id": "src_035"
+    },
+    {
+      "text": "Human studies are not like animal studies. You can’t control them perfectly. You have to study humans in a real life environment. The challenge is how you make sensible inferences from imperfect data.",
+      "context": "Explaining the fundamental challenge of human epidemiology.",
+      "source_id": "src_035"
+    },
+    {
+      "text": "Environment and interactions are changing all the time, so that's why I think we need to evaluate and monitor constantly what we're doing.",
+      "context": "Advocating for ongoing population studies and policy assessments.",
+      "source_id": "src_035"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating human studies like animal studies by expecting perfect control.",
+      "why_it_fails": "You cannot perfectly control human subjects; they must be studied in real-life environments, which inherently produces imperfect data.",
+      "source_id": "src_035"
+    },
+    {
+      "description": "Teaching students the 'right answers'.",
+      "why_it_fails": "It deprives students of the critical and technical skills needed to evaluate evidence and find their own solutions to new problems.",
+      "source_id": "src_035"
+    }
+  ]
+}

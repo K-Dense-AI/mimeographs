@@ -1,0 +1,83 @@
+{
+  "source_id": "src_046",
+  "summary": "The Stanford Encyclopedia of Philosophy entry on Socrates outlines his historical enigma, his unconventional lifestyle in fifth-century Athens, and his unique approach to philosophy. It details the \"Socratic problem\" of reconstructing his actual views from the divergent accounts of Aristophanes, Xenophon, and Plato, while highlighting his core commitment to examining lives, exposing ignorance, and improving souls.",
+  "themes": [
+    "The Socratic Problem",
+    "Socratic Method / Elenchus",
+    "Virtue and the Soul",
+    "Intellectual Midwifery",
+    "Socratic Irony"
+  ],
+  "principles": [
+    {
+      "statement": "The unexamined life is not worth living for a human being.",
+      "rationale": "Socrates believed that constantly questioning oneself and others about what matters most—such as courage, love, reverence, and moderation—is essential to maintaining the proper state of one's soul.",
+      "source_quote": "the unexamined life is not worth living for a human being",
+      "source_id": "src_046"
+    },
+    {
+      "statement": "I am not a teacher; I merely help others recognize truth on their own.",
+      "rationale": "He rejected the conventional model of education where teachers pour knowledge into passive students, preferring to guide them through questioning to discover what is real and good independently.",
+      "source_quote": "adamantly insisted he was not a teacher",
+      "source_id": "src_046"
+    },
+    {
+      "statement": "I know nothing of importance.",
+      "rationale": "By claiming ignorance, Socrates encouraged his conversation partners to share their views, which he would then probe and dismantle to expose their false confidence and foster genuine curiosity.",
+      "source_quote": "he knew nothing of importance and wanted to listen to others",
+      "source_id": "src_046"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Socratic Questioning (Elenchus)",
+      "when_to_apply": "When examining someone's life, beliefs, or claims about fundamental virtues (e.g., courage, love, moderation) to improve their soul.",
+      "steps": [
+        "Adopt a position of irony, claiming to know nothing of importance and asking to listen to the other person's views.",
+        "Engage in a question-and-answer mode of probing serious matters.",
+        "Confuse, sting, and stun the conversation partner into the unpleasant experience of realizing their own ignorance.",
+        "Use this state of recognized ignorance to foster genuine intellectual curiosity.",
+        "Help the partner recognize on their own what is real, true, and good."
+      ],
+      "source_quote": "confusing, stinging, and stunning his conversation partners into the unpleasant experience of realizing their own ignorance, a state sometimes superseded by genuine intellectual curiosity.",
+      "source_id": "src_046"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Intellectual Midwifery",
+      "description": "Socrates likened his philosophical work to midwifery. Rather than producing knowledge himself, he assists others in giving birth to their own insights and recognizing what is real, true, and good.",
+      "example": "Refusing to be a \"pitcher\" pouring facts into students, he instead questioned them until they realized their ignorance and discovered truths themselves.",
+      "source_id": "src_046"
+    },
+    {
+      "name": "The Daimonion (Internal Voice)",
+      "description": "A personal, semi-divine internal phenomenon that acts as a negative filter, prohibiting Socrates from taking certain actions (both trivial and important) without dictating what he should do.",
+      "example": null,
+      "source_id": "src_046"
+    }
+  ],
+  "heuristics": [
+    "Prioritize the improvement of the soul over fame, wealth, honors, and political power.",
+    "Heed the daimonion (internal voice) when it prohibits certain actions."
+  ],
+  "signature_quotes": [
+    {
+      "text": "the unexamined life is not worth living for a human being",
+      "context": "Spoken at his trial, explaining his single-minded dedication to questioning people about the state of their souls.",
+      "source_id": "src_046"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "The \"Pitcher and Cup\" model of education (treating students as empty vessels to be filled with information).",
+      "why_it_fails": "It assumes students are passive receivers rather than active participants who must be stung into realizing their own ignorance before they can recognize truth on their own.",
+      "source_id": "src_046"
+    },
+    {
+      "description": "Pursuing fame, wealth, honors, and political power as the primary goals of a self-respecting life.",
+      "why_it_fails": "It distracts from what matters most—the examination of one's life and the improvement of the soul.",
+      "source_id": "src_046"
+    }
+  ]
+}

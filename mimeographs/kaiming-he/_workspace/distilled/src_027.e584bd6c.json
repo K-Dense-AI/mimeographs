@@ -1,0 +1,116 @@
+{
+  "source_id": "src_027",
+  "summary": "Kaiming He compares the current state of generative modeling to the 'pre-AlexNet' era of computer vision, arguing that today's diffusion and autoregressive models rely on layer-wise training rather than true end-to-end optimization. To bridge this gap, he introduces 'Mean Flows,' a framework that predicts average velocity rather than instantaneous velocity, enabling high-quality, one-step generative modeling. He challenges the community to find the 'AlexNet counterpart' for generative models that fully respects inference-time behavior during training.",
+  "themes": [
+    "End-to-End Learning",
+    "Generative Modeling",
+    "Flow Matching",
+    "History of Deep Learning",
+    "Continuous vs. Discrete Time Models"
+  ],
+  "principles": [
+    {
+      "statement": "Recognition and generation are two sides of the same coin.",
+      "rationale": "Recognition is an abstraction process that flows from a complex data manifold to a simple embedding/label manifold. Generation is the exact reverse, flowing from an unstructured embedding (noise) to concretize a data point.",
+      "source_quote": "the problem of recognition and the problem of generation are just the uh two sides of the same coin.",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "Today's generative models are conceptually trained layer-wise, not end-to-end.",
+      "rationale": "Models like diffusion or autoregressive networks have multi-step computational graphs at inference time, but during training, they only optimize one time step (or token) at a time. This mirrors the pre-AlexNet era of training deep networks one layer at a time.",
+      "source_quote": "today's most successful genative models are conceptually a kind of layer wise training if we compare it with um the classification models um before after uh the Alex net area.",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "Ground truth flow fields exist independently of neural networks.",
+      "rationale": "The velocity field mapping an input distribution to an output distribution is a mathematical reality defined by the distributions and the interpolation method. Neural networks merely approximate this pre-existing field.",
+      "source_quote": "this ground truth flow field is it doesn't depends on any neuronet networks. It can provide a ground truth for neuronet network to learn but it is something that um that has nothing to do with any neuronet networks",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "Diffusion models are a special case of flow matching.",
+      "rationale": "Flow matching is a broader framework for constructing trajectories between distributions, and diffusion models represent just one specific instantiation of this concept.",
+      "source_quote": "diffusion model is a special case of flow matching model which is a special case of general flows which is a special case of uh generative models.",
+      "source_id": "src_027"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Mean Flows Algorithm",
+      "when_to_apply": "When training a generative model to perform one-step (or few-step) generation by learning the average velocity between two time steps instead of the instantaneous velocity.",
+      "steps": [
+        "Define a neural network function to predict the average velocity, conditioned on two time variables (start and end).",
+        "Sample a batch of data, time steps, and noise.",
+        "Perform interpolation between data and noise to compute the instantaneous conditional velocity.",
+        "Compute the time derivative of the velocity using a Jacobian Vector Product (JVP).",
+        "Modify the regression target using the mean flow identity (combining instantaneous velocity and the time derivative).",
+        "Optimize the network using a conditional flow matching objective."
+      ],
+      "source_quote": "conceptually it's just two line modification of the original flow matching algorithm",
+      "source_id": "src_027"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Pre-AlexNet Analogy for Generative Models",
+      "description": "Viewing the current paradigm of training diffusion and autoregressive models as analogous to the pre-2012 era of computer vision. Just as researchers used to train deep networks one layer at a time (e.g., denoising autoencoders) before AlexNet popularized end-to-end backpropagation, today's generative models are trained one time-step at a time rather than optimizing the full multi-step inference trajectory.",
+      "example": "Comparing the training of a diffusion model (predicting noise for a single time step and ignoring the rest of the generation chain) to freezing layers in a Deep Belief Network.",
+      "source_id": "src_027"
+    },
+    {
+      "name": "Neural ODEs as ResNets",
+      "description": "The realization that while Neural ODEs are theoretically formulated as continuous integration over time, practical computational constraints force them to be implemented as finite sums. Therefore, a Neural ODE in practice is conceptually just another ResNet.",
+      "example": "When building a Neural ODE to solve an integral, the actual operation performed by the computer is a finite sum addition, mirroring the discrete time operation of a ResNet.",
+      "source_id": "src_027"
+    },
+    {
+      "name": "Instantaneous vs. Average Velocity",
+      "description": "Borrowing from physics, instantaneous velocity only describes the tangent direction at a single point in time. To take large steps (like one-step generation), one must use average velocity, which characterizes the total displacement between a starting point and an end point.",
+      "example": "Using average velocity to jump directly from pure noise (t=1) to a clean image (t=0) in a single step, rather than taking hundreds of tiny steps following the instantaneous tangent.",
+      "source_id": "src_027"
+    }
+  ],
+  "heuristics": [
+    "In theory we want to do integral, but in practice we can only do finite sum.",
+    "If you have a good library, doing JVP (Jacobian Vector Product) is not much more complicated than doing VJP (backpropagation)."
+  ],
+  "signature_quotes": [
+    {
+      "text": "the problem of recognition and the problem of generation are just the uh two sides of the same coin.",
+      "context": "Explaining how recognition maps data to embeddings, while generation maps embeddings to data.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "today's most successful genative models are conceptually a kind of layer wise training if we compare it with um the classification models um before after uh the Alex net area.",
+      "context": "Critiquing the current training paradigm of diffusion and autoregressive models.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "we want to do integration but what we are doing is still a finite sum.",
+      "context": "Discussing the practical implementation of Neural ODEs.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "in the area of generative modeling are we still in in in the area of uh um pre Alex stage?",
+      "context": "Concluding the talk by challenging the audience to find true end-to-end training methods for generative models.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "this ground truth flow field is it doesn't depends on any neuronet networks. It can provide a ground truth for neuronet network to learn but it is something that um that has nothing to do with any neuronet networks",
+      "context": "Explaining the mathematical foundation of flow matching.",
+      "source_id": "src_027"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Training generative models by only optimizing one time step at a time while ignoring the full inference-time computational graph.",
+      "why_it_fails": "It fails to fully respect the model's inference-time behavior, requiring many iterative steps during generation and lacking the benefits of true end-to-end optimization.",
+      "source_id": "src_027"
+    },
+    {
+      "description": "Using instantaneous velocity to characterize large time steps or one-step generation.",
+      "why_it_fails": "Instantaneous velocity only describes the tangent direction at a single point. It is not precise for characterizing the displacement over a large time interval, leading to errors if used for one-step generation.",
+      "source_id": "src_027"
+    }
+  ]
+}

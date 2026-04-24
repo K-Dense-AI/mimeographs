@@ -1,0 +1,70 @@
+{
+  "source_id": "src_036",
+  "summary": "Anne Wojcicki discusses the early challenges and ethical considerations of launching 23andMe. She highlights the unexpected hurdle of educating consumers on why they need their genetic data, contrasting it with more easily understood technological shifts. She also emphasizes her core belief that individuals have a fundamental right to access their own genetic information, while society should dictate its ethical limits.",
+  "themes": [
+    "Consumer Genetics",
+    "Healthcare Markets",
+    "Bioethics",
+    "Preventative Care",
+    "Personal Responsibility"
+  ],
+  "principles": [
+    {
+      "statement": "Individuals have a fundamental right to access their own genetic information.",
+      "rationale": "Genetic information fundamentally belongs to the individual, making access to it a matter of personal choice rather than institutional gatekeeping.",
+      "source_quote": "And if you want to get access to something that is fundamentally yours, we believe it’s your right to get access to it.",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Society, not corporations, should set the ethical limits on new technologies.",
+      "rationale": "The ethical implications of genetic data are vast; companies should encourage and participate in the debate, but societal consensus must dictate the boundaries.",
+      "source_quote": "...society really needs to have that debate and 23andMe will be there, but that society should put the limits on it.",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Consumers must take greater personal responsibility for their preventative care.",
+      "rationale": "Because the traditional healthcare system does not operate as a true free market, shifting to a model where individuals control their health data requires them to actively invest in and manage their own well-being.",
+      "source_quote": "...they actually are going to have to take a lot more responsibility for their health. And that’s a pretty big adjustment for people.",
+      "source_id": "src_036"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The TIVO Technology Shift",
+      "description": "A lens for evaluating consumer adoption of new technology by distinguishing between a shift in *delivery* versus a shift in *concept*. If people already understand the underlying concept (like watching TV), adoption is easier. If the concept itself is entirely new (like utilizing personal genetic data), the adoption hurdle is much higher.",
+      "example": "Wojcicki realized 23andMe underestimated their educational burden because, unlike TIVO where 'everyone understood the concept of TV', no one inherently understood 'why would I want my genetic information?'",
+      "source_id": "src_036"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Of course you’re going to want your genetic information. We all want our genetic information. Why would you not want genetic information?",
+      "context": "Reflecting on the initial, overly optimistic assumption 23andMe had about consumer demand.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "And if you want to get access to something that is fundamentally yours, we believe it’s your right to get access to it.",
+      "context": "Stating the core ethical stance of 23andMe regarding personal genetic data.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "...society really needs to have that debate and 23andMe will be there, but that society should put the limits on it.",
+      "context": "Discussing how ethical boundaries should be established for genetic information.",
+      "source_id": "src_036"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming consumers inherently know what to do with radical new information.",
+      "why_it_fails": "If a technology introduces a completely new paradigm rather than just improving an existing habit, consumers will not adopt it without extensive education on its basic utility.",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Treating the healthcare industry like a traditional free market.",
+      "why_it_fails": "Consumers are conditioned to access healthcare through doctors without paying directly out-of-pocket. Asking them to pay directly for preventative health information is a 'hard leap' that requires overcoming deeply ingrained consumer habits.",
+      "source_id": "src_036"
+    }
+  ]
+}

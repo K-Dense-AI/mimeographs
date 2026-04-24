@@ -1,0 +1,103 @@
+{
+  "source_id": "src_013",
+  "summary": "Aviv Regev discusses the application of single-cell and single-nucleus RNA sequencing technologies to map cell types in the nervous system. She outlines computational and experimental strategies to overcome challenges like tissue dissociation, rare cell detection, and harmonizing molecular profiles with legacy morphological classifications.",
+  "themes": [
+    "Single-cell genomics",
+    "Computational biology",
+    "Neuroscience and cell atlasing",
+    "Transcriptional profiling",
+    "Technology development (Drop-seq, sNuc-seq, Div-Seq)"
+  ],
+  "principles": [
+    {
+      "statement": "In complex tissues, maximizing cell numbers trumps sequencing depth per cell.",
+      "rationale": "To accurately cluster highly diverse populations and capture rare cell types, analyzing tens of thousands of cells shallowly is far more effective than analyzing a small number of cells deeply.",
+      "source_quote": "large cell numbers are really critical when you have a complex tissue. the number of cells is probably the most the best thing you can do for yourself more so than the depth per cell",
+      "source_id": "src_013"
+    },
+    {
+      "statement": "When a cell's identity is confusing at its endpoint, look back in developmental time.",
+      "rationale": "Cells can undergo morphological transitions that make them look like one type while molecularly being another. Tracing them back through development reveals their true origin.",
+      "source_quote": "when in doubt like that at the end point go back in time and try to use developmental biology to tell you where you came from",
+      "source_id": "src_013"
+    },
+    {
+      "statement": "Cell types are defined by combinatorial codes of transcription factors, not single master regulators.",
+      "rationale": "Across different biological systems, from hematopoiesis to the retina, cell identities are driven by distinct combinations of factors rather than a single unique transcription factor per type.",
+      "source_quote": "what we see is not one transcription factor or even a set of transcription factor completely distinctive per type but we most definitely see completely distinctive combinations per type",
+      "source_id": "src_013"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Molecular-Morphological Validation Framework",
+      "when_to_apply": "When discovering and validating new cell types or subtypes using unsupervised single-cell RNA-seq clustering.",
+      "steps": [
+        "Perform unsupervised clustering on single-cell RNA-seq data to group cells.",
+        "Identify differentially expressed marker genes for each predicted cluster.",
+        "If known markers exist, use double-color FISH to confirm co-expression of the new marker with the known marker.",
+        "If no markers exist, use sparse morphological labeling (e.g., lentiviral delivery) combined with FISH to match the new molecular marker to the expected cell morphology and lamination."
+      ],
+      "source_quote": "we took each of the Clusters we predicted molecular markers... and now we're going to see whether the marker is actually expressed in the appropriate type",
+      "source_id": "src_013"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Distributed Sensing Systems",
+      "description": "Viewing the nervous system, immune system, and fibroblasts not as isolated biological domains, but as related, distributed sensing networks that likely share underlying organizational principles.",
+      "example": "Applying computational approaches originally developed for immune cells directly to the nervous system, assuming the body didn't strictly separate the logic of these systems.",
+      "source_id": "src_013"
+    },
+    {
+      "name": "The Outsider's Lens",
+      "description": "Entering a new biological field without legacy biases. It allows one to objectively follow the data, though it comes with the blind spot of not knowing which findings resolve major historical debates versus trivial ones.",
+      "example": "Discovering the transcriptional hierarchy of cone versus rod bipolar cells without realizing it was a major unresolved debate in neuroscience.",
+      "source_id": "src_013"
+    }
+  ],
+  "heuristics": [
+    "When in doubt at the end point, go back in developmental time.",
+    "If you can't get intact cells out of a tissue, just get the nuclei.",
+    "In complex tissues, maximize the number of cells relative to the number of transcripts."
+  ],
+  "signature_quotes": [
+    {
+      "text": "no one told the body that you should you know separate all these things from each other",
+      "context": "Discussing how the immune system, nervous system, and fibroblasts are all distributed sensing systems.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "when you're a Foreigner to a field you actually don't know what's an important question and you don't know what's an important answer",
+      "context": "Reflecting on solving a major debate in neuroscience without realizing it was a debate.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "when in doubt like that at the end point go back in time and try to use developmental biology to tell you where you came from",
+      "context": "Explaining how they resolved the identity of a unipolar cell that molecularly looked like a bipolar cell.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "large cell numbers are really critical when you have a complex tissue. the number of cells is probably the most the best thing you can do for yourself more so than the depth per cell",
+      "context": "Advising on experimental design for single-cell RNA sequencing.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "no matter how many you can come up with somebody wants 10 times more that's true for all techniques and they also want it 10 times cheaper",
+      "context": "Joking about the endless demand for scale and cost-efficiency in genomics.",
+      "source_id": "src_013"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Insisting on deep sequencing for every cell in a complex tissue.",
+      "why_it_fails": "It limits the total number of cells you can afford to process, causing you to miss rare cell types that require massive scale to detect.",
+      "source_id": "src_013"
+    },
+    {
+      "description": "Trying to physically dissociate highly complex, dense adult brain tissue to get intact single cells.",
+      "why_it_fails": "The lengthy enzymatic dissociation at 37 degrees degrades RNA and destroys the complex projections of neurons. It is better to bypass this by extracting and sequencing single nuclei instead.",
+      "source_id": "src_013"
+    }
+  ]
+}

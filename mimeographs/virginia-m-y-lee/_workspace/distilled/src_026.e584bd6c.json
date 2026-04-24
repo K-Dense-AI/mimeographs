@@ -1,0 +1,90 @@
+{
+  "source_id": "src_026",
+  "summary": "A podcast transcript detailing the career and mindset of neuroscientist Virginia M.-Y. Lee, focusing on her pioneering work in neurodegenerative diseases (Alzheimer's, Parkinson's, ALS, FTD), her partnership with John Trojanowski, and her resilient, hands-on approach to scientific research.",
+  "themes": [
+    "Neurodegeneration",
+    "Scientific Resilience",
+    "Experimental Rigor",
+    "Partnership and Collaboration",
+    "Women in STEM"
+  ],
+  "principles": [
+    {
+      "statement": "You must enjoy the day-to-day process of science, not just the breakthroughs.",
+      "rationale": "True discoveries are incredibly rare, so relying on them for motivation will lead to frequent disappointment.",
+      "source_quote": "One thing about science, those 'discoveries,' end quote, are far, few, and in between. And so unless you enjoy the process, you're going to be disappointed a lot of the times.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Happiness and emotional support are foundational to achieving your full potential.",
+      "rationale": "Without a baseline of happiness and support, you cannot discover what you are truly capable of accomplishing.",
+      "source_quote": "And if you're not really happy, then you don't know what you're capable of doing.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Do not dwell on doubters or setbacks; defend yourself and move on.",
+      "rationale": "Dwelling on negativity distracts from the work. It is better to address obstacles directly and immediately refocus your attention on the science that interests you.",
+      "source_quote": "These things came along, and I dealt with it and moved on. I don't dwell on things.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Use failed experiments as a tool to plan better ones.",
+      "rationale": "Failure is an inherent part of the scientific journey and provides the necessary information to iterate and improve the next attempt.",
+      "source_quote": "You learn from a failed experiment. And then you can plan the next experiment better.",
+      "source_id": "src_026"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Garbage In, Garbage Out",
+      "description": "A foundational lens for experimental rigor. If the initial models, samples, or biochemical conditions are flawed, any resulting data or conclusions will inherently be wrong.",
+      "example": "Intervening in lab meetings to question the exact percentage of SDS in a buffer to ensure the foundational inputs of an experiment are sound.",
+      "source_id": "src_026"
+    }
+  ],
+  "heuristics": [
+    "Garbage in, garbage out.",
+    "I don't dwell on things.",
+    "You learn from a failed experiment."
+  ],
+  "signature_quotes": [
+    {
+      "text": "We really did have a unique partnership. We literally sleep, eat, and shit science 24/7, literally.",
+      "context": "Speaking at a portrait unveiling ceremony about her scientific and life partnership with her late husband, John Trojanowski.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "One thing about science, those 'discoveries,' end quote, are far, few, and in between. And so unless you enjoy the process, you're going to be disappointed a lot of the times.",
+      "context": "Discussing the grueling, multi-year effort to identify the TDP-43 protein.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "And if you're not really happy, then you don't know what you're capable of doing.",
+      "context": "Reflecting on the emotional support her husband provided and how it unlocked her potential.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "I'm a very straightforward person. I mean what I say, and I say it as it is.",
+      "context": "Explaining her direct communication style in the lab.",
+      "source_id": "src_026"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on flawed models or samples for experiments.",
+      "why_it_fails": "Because of the 'garbage in, garbage out' principle—if the starting material or model is wrong, whatever findings you produce will also be wrong.",
+      "source_id": "src_026"
+    },
+    {
+      "description": "Being a hands-off Principal Investigator who doesn't know the nitty-gritty details of the lab's experiments.",
+      "why_it_fails": "Without knowing the exact details (like buffer percentages) and what to look for, a PI cannot effectively guide the research or ensure the inputs are valid.",
+      "source_id": "src_026"
+    },
+    {
+      "description": "Focusing solely on the end discovery rather than the daily work.",
+      "why_it_fails": "Because discoveries are 'far, few, and in between,' making it a guaranteed recipe for frequent disappointment.",
+      "source_id": "src_026"
+    }
+  ]
+}

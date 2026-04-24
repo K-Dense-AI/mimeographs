@@ -1,0 +1,117 @@
+{
+  "source_id": "src_010",
+  "summary": "Andrej Karpathy discusses the transition to 'Software 3.0', where computers are programmed in English via Large Language Models. He conceptualizes LLMs as a new type of operating system and 'people spirits' with jagged intelligence, advocating for partial autonomy (the 'Iron Man suit') over fully autonomous agents. He also highlights the rise of 'vibe coding' and the necessity of adapting digital infrastructure to be natively readable by AI agents.",
+  "themes": [
+    "Software 3.0",
+    "LLMs as Operating Systems",
+    "Partial Autonomy",
+    "Vibe Coding",
+    "Human-AI Collaboration",
+    "Building for Agents"
+  ],
+  "principles": [
+    {
+      "statement": "Software engineers should be fluent in all three programming paradigms: Software 1.0, 2.0, and 3.0.",
+      "rationale": "Each paradigm (explicit code, neural network weights, and LLM prompting) has slight pros and cons. Developers must fluidly transition between them depending on the functionality required.",
+      "source_quote": "I think if you're entering the industry it's a very good idea to be fluent in all of them because they all have slight pros and cons and you may want to program some functionality in 1.0 or 2.0 or 3.0.",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Keep the AI on a leash by working in small, concrete chunks.",
+      "rationale": "LLMs are fallible and can easily get 'lost in the woods' or generate massive, buggy outputs. Humans must remain in the loop to verify the work, which is easier when prompts are concrete and outputs are incremental.",
+      "source_quote": "we have to keep the AI on the leash. We I think a lot of people are getting way over excited with AI agents and uh it's not useful to me to get a diff of 10,000 lines of code to my repo.",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Build digital infrastructure and documentation specifically for AI agents.",
+      "rationale": "Agents are a new category of consumer and manipulator of digital information. Parsing human-centric HTML or instructions like 'click here' is error-prone for LLMs, so we must provide machine-readable formats like markdown or llms.txt.",
+      "source_quote": "we actually have to change the docs because anytime your docs say click this is bad. An LLM will not be able to natively take this action right now.",
+      "source_id": "src_010"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Autonomy Slider",
+      "when_to_apply": "When designing AI-assisted software products and workflows.",
+      "steps": [
+        "Provide a traditional interface where a human can do the work manually.",
+        "Integrate LLMs to handle larger chunks of context and orchestration.",
+        "Build an application-specific GUI to allow humans to easily audit and verify the AI's work.",
+        "Provide varying levels of autonomy (e.g., tab completion vs. file edit vs. full repo rewrite) that the user can tune based on task complexity."
+      ],
+      "source_quote": "you are in charge of the autonomy slider and depending on the complexity of the task at hand you can uh tune the amount of autonomy that you're willing to give up",
+      "source_id": "src_010"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Software 1.0, 2.0, and 3.0",
+      "description": "A lens for understanding the evolution of programming. Software 1.0 is explicit code (C++/Python). Software 2.0 is neural network weights optimized via data. Software 3.0 is programming Large Language Models using natural language (English) prompts.",
+      "example": "Tesla Autopilot transitioning from C++ code (1.0) to neural networks for image stitching (2.0), and now the industry moving toward prompting LLMs in English (3.0).",
+      "source_id": "src_010"
+    },
+    {
+      "name": "LLMs as Operating Systems",
+      "description": "Viewing the LLM not just as a chatbot, but as a new kind of computer where the LLM is the CPU, the context window is the RAM/memory, and it orchestrates tools and compute. Currently, it resembles the 1960s era of time-shared mainframe computing.",
+      "example": "Using an app like Cursor, which runs on top of the 'operating system' of GPT, Claude, or Gemini, much like downloading VS Code to run on Windows or Mac.",
+      "source_id": "src_010"
+    },
+    {
+      "name": "LLMs as People Spirits",
+      "description": "Treating LLMs as stochastic simulations of humans with an emergent, human-like psychology. They possess encyclopedic memory (like a savant) but suffer from cognitive deficits like anterograde amnesia (their context window wipes clean) and jagged intelligence.",
+      "example": "Comparing an LLM's memory to Dustin Hoffman's character in Rainman, while comparing its lack of continuous learning to the protagonists in Memento or 50 First Dates.",
+      "source_id": "src_010"
+    },
+    {
+      "name": "The Iron Man Suit",
+      "description": "A metaphor for partial autonomy. Instead of building fully autonomous robots that operate entirely on their own, we should build 'suits' that augment human capabilities while keeping the human in the driver's seat.",
+      "example": "Using an AI coding assistant to generate small diffs that the human quickly reviews and accepts, rather than letting an agent rewrite an entire codebase unsupervised.",
+      "source_id": "src_010"
+    }
+  ],
+  "heuristics": [
+    "AI does the generation, humans do the verification.",
+    "Use GUIs to speed up the human verification loop, because looking at visual diffs is faster than reading raw text.",
+    "Go in small incremental chunks to spin the verification loop very fast.",
+    "Spend more time being concrete in your prompts to increase the probability of successful verification."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Remarkably we're now programming computers in English.",
+      "context": "Discussing the paradigm shift of Software 3.0.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "When the state-of-the-art LLMs go down, it's actually kind of like an intelligence brownout in the world.",
+      "context": "Comparing LLMs to utility grids and electricity.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "It's less Iron Man robots and more Iron Man suits that you want to build.",
+      "context": "Advising developers to focus on partial autonomy and human augmentation rather than fully autonomous agents.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "They are stochastic simulations of people... it's got this emergent psychology that is humanlike.",
+      "context": "Explaining the 'psychology' and cognitive profile of Large Language Models.",
+      "source_id": "src_010"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Jumping straight to fully autonomous AI agents without human supervision.",
+      "why_it_fails": "LLMs are fallible, hallucinate, and suffer from jagged intelligence. If they generate massive outputs (like a 10,000-line code diff), the human becomes a bottleneck trying to verify it, defeating the purpose.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Interacting with LLMs purely through raw text/chat for complex tasks.",
+      "why_it_fails": "Reading text is effortful. Without an application-specific GUI (like visual diffs in code), humans cannot quickly audit and verify the AI's work, slowing down the generation-verification loop.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Writing documentation and web interfaces exclusively for humans.",
+      "why_it_fails": "AI agents are a new class of digital consumers. If documentation relies on visual layouts or instructions like 'click here', LLMs cannot natively parse or act on them, breaking agentic workflows.",
+      "source_id": "src_010"
+    }
+  ]
+}

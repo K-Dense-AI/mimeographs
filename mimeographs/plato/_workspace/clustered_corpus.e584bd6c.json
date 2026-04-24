@@ -1,0 +1,404 @@
+{
+  "expert_name": "Plato",
+  "themes": [
+    "Theory of Forms & Metaphysics",
+    "Political Philosophy & Justice",
+    "Epistemology & Recollection",
+    "The Tripartite Soul & Moral Psychology",
+    "Socratic Method & Dialectic",
+    "Philosopher-Kings & Governance"
+  ],
+  "principles": [
+    {
+      "label": "Rule by Philosopher-Kings",
+      "summary": "Society will only be free from evil and properly governed when true philosophers become rulers.",
+      "details": "Only philosophers possess the wisdom, rigorous intellectual training, and incorruptible desire for truth necessary to govern in the interest of the whole city. Those who seek power are easily corrupted by greed, whereas philosophers rule reluctantly, doing so only to avoid being ruled by inferiors.",
+      "representative_quote": "Until philosophers rule as kings or those who are now called kings and leaders genuinely and adequately philosophize ... cities will have no rest from evils, nor will the human race.",
+      "source_ids": [
+        "src_042",
+        "src_055",
+        "src_005",
+        "src_018",
+        "src_002",
+        "src_019",
+        "src_050",
+        "src_053"
+      ]
+    },
+    {
+      "label": "The Theory of Forms",
+      "summary": "The observable material world is defective and changeable; true reality exists in a perfect, eternal realm of abstract Forms.",
+      "details": "Physical objects and properties are flawed and exhibit contradictory traits. They only possess their characteristics because they 'participate in' or approximate the perfect, unchanging Forms (e.g., Beauty itself, Goodness itself) which are accessible only to the mind, not the senses.",
+      "representative_quote": "The world that appears to our senses is in some way defective and filled with error, but there is a more real and perfect realm, populated by entities (called “forms” or “ideas”) that are eternal, changeless...",
+      "source_ids": [
+        "src_004",
+        "src_006",
+        "src_028",
+        "src_041",
+        "src_019",
+        "src_002"
+      ]
+    },
+    {
+      "label": "Justice as Harmony and Specialization",
+      "summary": "Justice consists in each part of a system performing its own proper function without meddling in the affairs of others.",
+      "details": "In a just state, the rulers, auxiliaries, and producers each perform the specific task they are naturally most fit for. Similarly, in a just individual, the rational part of the soul rules over the spirited and appetitive parts. Intermeddling between these parts causes the downfall of both the city and the soul.",
+      "representative_quote": "Justice in a city or an individual is the condition in which each part performs the task that is proper to it",
+      "source_ids": [
+        "src_042",
+        "src_055",
+        "src_037",
+        "src_028",
+        "src_050"
+      ]
+    },
+    {
+      "label": "Learning as Recollection (Anamnesis)",
+      "summary": "Learning is not the acquisition of new information, but the recollection of innate knowledge the soul possessed before birth.",
+      "details": "Because the human soul is eternal and previously existed in the realm of the Forms, it possesses all theoretical knowledge latently. Through proper questioning and reasoning, individuals can be prompted to 'remember' this innate knowledge.",
+      "representative_quote": "What is called learning is really prompted recollection; one possesses all theoretical knowledge latently at birth",
+      "source_ids": [
+        "src_004",
+        "src_037",
+        "src_028",
+        "src_002"
+      ]
+    },
+    {
+      "label": "Wrongdoing is Ignorance (Denial of Akrasia)",
+      "summary": "All wrongdoing is the result of cognitive error; people never knowingly act contrary to what is best.",
+      "details": "Plato denies 'akrasia' (weakness of will). Everyone inherently desires what is good. When people give in to temptation or act unjustly, they are temporarily deceived by the false appearance that an immediate pleasure is greater than it actually is. It is an error in calculation, not a deliberate choice of evil.",
+      "representative_quote": "All wrongdoing is done in ignorance, for everyone desires only what is good",
+      "source_ids": [
+        "src_006",
+        "src_020",
+        "src_037"
+      ]
+    },
+    {
+      "label": "The Intrinsic Value of Justice",
+      "summary": "Justice is inherently valuable for the soul, making it always better to suffer injustice than to commit it.",
+      "details": "Doing injustice harms one's own soul, which is the most precious thing a person possesses. A truly just person acts virtuously for its own sake, not merely because of external rewards or the fear of punishment, because justice creates internal psychological harmony.",
+      "representative_quote": "Even without consequences for self-serving wrongdoings, they wouldn't commit them.",
+      "source_ids": [
+        "src_006",
+        "src_014"
+      ]
+    },
+    {
+      "label": "True Knowledge Requires Explanatory Structure",
+      "summary": "True knowledge cannot exist in isolation; beliefs must be tied down by an account of the reason why.",
+      "details": "True beliefs are fleeting and unreliable on their own. They only become stable knowledge when interconnected through a deep understanding of their underlying causes, relations, and fundamental concepts.",
+      "representative_quote": "After they are tied down, in the first place, they become knowledge, and then they remain in place.",
+      "source_ids": [
+        "src_042",
+        "src_041"
+      ]
+    },
+    {
+      "label": "Art and Leadership Serve the Subject",
+      "summary": "Every true craft (techne), including leadership, serves the interest of its subject, not the practitioner.",
+      "details": "Just as a true physician heals bodies and a true shepherd cares for sheep, a true ruler governs for the benefit of the citizens, not for their own selfish gain, wealth, or power.",
+      "representative_quote": "any techne is concerned with the benefit of its object or subject not the person that is that not the technician",
+      "source_ids": [
+        "src_012",
+        "src_050"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Socratic Cross-Examination (Elenchus)",
+      "summary": "A dialectical method of questioning used to test definitions, expose ignorance, and clear the way for genuine inquiry.",
+      "details": "Steps: 1) Ask an alleged expert a foundational question ('What is X?'). 2) Elicit their proposed definition. 3) Test the definition using analogies or logical extensions to see if it is too broad, too narrow, or contradictory. 4) Expose the flaws to induce a state of perplexity (aporia), revealing their lack of true wisdom.",
+      "representative_quote": "When they are confronted with their inability to explain the nature of their cherished virtue or expertise, they end up admitting their ignorance",
+      "source_ids": [
+        "src_004",
+        "src_042",
+        "src_006",
+        "src_041",
+        "src_012"
+      ]
+    },
+    {
+      "label": "The Method of Collection and Division",
+      "summary": "A late Platonic dialectical method for defining fundamental concepts by mapping them within a genus-species classification tree.",
+      "details": "Steps: 1) Collect all instances of a generic category that share common characteristics. 2) Divide them into specific kinds based on natural differences. 3) Continue subdividing until they cannot be further subdivided, thereby 'carving reality at the joints' to find the real definition.",
+      "representative_quote": "the philosopher collects all of the instances of some generic category that seem to have common characteristics, and then divides them into specific kinds until they cannot be further subdivided.",
+      "source_ids": [
+        "src_006",
+        "src_037",
+        "src_041"
+      ]
+    },
+    {
+      "label": "The Tripartite Class Structure",
+      "summary": "A framework for designing an ideal, just, and stable state based on natural aptitudes and the division of labor.",
+      "details": "Steps: 1) Identify the natural aptitudes of citizens (reason, spirit, or appetite). 2) Assign them to the corresponding class: Rulers (Philosopher-Kings), Auxiliaries (Soldiers), or Producers (Craftsmen/Farmers). 3) Ensure each class performs only its designated function and does not interfere with the others.",
+      "representative_quote": "The city is just if each of its three classes attends to its work.",
+      "source_ids": [
+        "src_042",
+        "src_055"
+      ]
+    },
+    {
+      "label": "The Ladder of Love (Eros)",
+      "summary": "A progression of desire that transcends superficial physical attraction to reach the eternal Form of Beauty.",
+      "details": "Steps: 1) Love a single person's physical body. 2) Recognize the commonality of beauty across all bodies. 3) Value the beauty of the soul or personality over the physical body. 4) Fall in love with broader concepts, such as laws, institutions, or the sciences. 5) Reach the top by contemplating the eternal, unchanging ideal Form of Beauty itself.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_028",
+        "src_037",
+        "src_006"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "The Allegory of the Cave",
+      "summary": "A metaphor for the human condition, distinguishing the deceptive world of sensory appearances from the true reality of the Forms.",
+      "details": "Most people are like prisoners chained in a cave, mistaking shadows cast on the wall for reality. The philosopher is the one who breaks free, leaves the cave, and uses reason to see the true world illuminated by the sun (the Form of the Good).",
+      "representative_quote": "Behold! human beings living in an underground den... here they have been from their childhood, and have their legs and necks chained so they cannot move, and can only see before them...",
+      "source_ids": [
+        "src_037",
+        "src_028",
+        "src_019",
+        "src_024",
+        "src_050",
+        "src_002"
+      ]
+    },
+    {
+      "label": "The City-Soul Analogy",
+      "summary": "A macro/micro lens comparing the political organization of a city-state to the internal psychological constitution of an individual's soul.",
+      "details": "To understand a difficult concept like justice in the individual, Plato first examines it in the structure of the state. The soul is divided into rational, spirited, and appetitive parts, perfectly mirroring the ruling, military, and producing classes of a city.",
+      "representative_quote": "He doesn't let each part in his mind other people's business or the three classes in the soul meddle with each other, but really sets his own house in good order and rules himself.",
+      "source_ids": [
+        "src_042",
+        "src_055",
+        "src_018",
+        "src_028",
+        "src_050",
+        "src_006",
+        "src_014",
+        "src_037"
+      ]
+    },
+    {
+      "label": "The Divided Line / Bifurcated Reality",
+      "summary": "Viewing existence and knowledge as split into two distinct realms: the defective, changing sensory world (opinion) and the perfect, eternal realm of abstract Forms (knowledge).",
+      "details": "This model represents the progression of human understanding, moving away from mere opinion and false images (shadows/reflections), toward physical objects, then mathematical reasoning, and ultimately pure philosophical wisdom of the Forms.",
+      "representative_quote": "The world that appears to our senses is in some way defective and filled with error, but there is a more real and perfect realm...",
+      "source_ids": [
+        "src_004",
+        "src_024"
+      ]
+    },
+    {
+      "label": "The Chariot Allegory",
+      "summary": "A model of human psychology representing the tripartite soul as a charioteer guiding two winged horses.",
+      "details": "The charioteer represents reason, trying to guide a noble white horse (spirit/righteousness) and a base, unruly black horse (appetite/desire). Internal harmony is achieved only when reason successfully commands both horses.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_037"
+      ]
+    },
+    {
+      "label": "The Myth of the Metals (Noble Lie)",
+      "summary": "A foundational narrative used by rulers to ensure citizens accept their societal roles and maintain class harmony.",
+      "details": "It claims that the gods mixed different metals into citizens' souls: gold for rulers, silver for auxiliaries, and iron/bronze for producers. This justifies the rigid class hierarchy and prevents destructive social mobility.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_055",
+        "src_050"
+      ]
+    },
+    {
+      "label": "The Devolution of Regimes",
+      "summary": "A hierarchical model showing how governments inevitably degrade when the wrong values are prioritized.",
+      "details": "The progression moves from Aristocracy (ruled by reason) to Timocracy (ruled by honor), to Oligarchy (ruled by wealth), to Democracy (ruled by absolute freedom/indulgence), and finally to Tyranny (chaos and oppression).",
+      "representative_quote": null,
+      "source_ids": [
+        "src_028"
+      ]
+    },
+    {
+      "label": "The Ring of Gyges",
+      "summary": "A thought experiment involving a ring of invisibility, used to explore human nature and the intrinsic value of justice.",
+      "details": "It asks whether a person would still act justly if they could commit injustices without any fear of consequence or punishment. Plato argues the truly just philosopher would, because injustice inherently ruins the harmony of the soul.",
+      "representative_quote": "Even without consequences for self-serving wrongdoings, they wouldn't commit them.",
+      "source_ids": [
+        "src_050",
+        "src_014"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "One Person, One Job",
+      "summary": "Assign individuals to the single task they are naturally most fit for, and ensure they mind their own business.",
+      "details": null,
+      "representative_quote": "doing your own thing and not meddling with that of others",
+      "source_ids": [
+        "src_042",
+        "src_055"
+      ]
+    },
+    {
+      "label": "The Unexamined Life",
+      "summary": "Constantly question and critically examine your own opinions and societal conventions; a life without philosophical reflection is not worth living.",
+      "details": null,
+      "representative_quote": "the unexamined life is not worth living",
+      "source_ids": [
+        "src_042",
+        "src_006"
+      ]
+    },
+    {
+      "label": "Carve Reality at the Joints",
+      "summary": "When analyzing or categorizing, divide subjects according to their natural, fundamental differences rather than arbitrary distinctions.",
+      "details": null,
+      "representative_quote": "carve reality at the joints.",
+      "source_ids": [
+        "src_041"
+      ]
+    },
+    {
+      "label": "Better to Suffer Wrong Than Do It",
+      "summary": "Never return harm for harm or evil for evil, because committing an injustice damages your own soul.",
+      "details": null,
+      "representative_quote": "the good man does no one any harm",
+      "source_ids": [
+        "src_037",
+        "src_006",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Define by Essence, Not Enumeration",
+      "summary": "A proper definition must state the single invariant feature common to all examples, not merely provide a list of instances.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_006",
+        "src_042"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Philosopher Kings",
+      "summary": "The necessity of philosophical rule for the salvation of society.",
+      "details": null,
+      "representative_quote": "Until philosophers rule as kings or those who are now called kings and leaders genuinely and adequately philosophize ... cities will have no rest from evils, nor will the human race.",
+      "source_ids": [
+        "src_042",
+        "src_055"
+      ]
+    },
+    {
+      "label": "The Unexamined Life",
+      "summary": "Socrates' justification for his relentless philosophical questioning.",
+      "details": null,
+      "representative_quote": "the unexamined life is not worth living",
+      "source_ids": [
+        "src_042",
+        "src_006"
+      ]
+    },
+    {
+      "label": "The Cave",
+      "summary": "Introducing the Allegory of the Cave to describe the unenlightened human condition.",
+      "details": null,
+      "representative_quote": "Behold! human beings living in an underground den, which has a mouth open towards the light and reaching all along the den; here they have been from their childhood, and have their legs and necks chained so they cannot move...",
+      "source_ids": [
+        "src_028"
+      ]
+    },
+    {
+      "label": "Learning as Recollection",
+      "summary": "Explaining the theory of anamnesis.",
+      "details": null,
+      "representative_quote": "what we call learning is only a process of recollection.",
+      "source_ids": [
+        "src_028",
+        "src_042"
+      ]
+    },
+    {
+      "label": "Definition of Justice",
+      "summary": "The ultimate definition of justice in the state and the soul.",
+      "details": null,
+      "representative_quote": "doing your own thing and not meddling with that of others",
+      "source_ids": [
+        "src_042"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Democracy and Indiscriminate Equality",
+      "summary": "Assigning equality to equals and unequals alike, leading to mob rule and anarchy.",
+      "details": "Plato argues that democracy fetishizes absolute freedom and immediate gratification. By flattening out important moral distinctions and treating all desires equally, society descends into an undisciplined pandemonium that inevitably paves the way for a tyrant to seize power.",
+      "representative_quote": "Anarchic and Motley [democracy] assigns a kind of equality indiscriminately to equals and unequals alike.",
+      "source_ids": [
+        "src_004",
+        "src_018",
+        "src_028",
+        "src_050",
+        "src_002"
+      ]
+    },
+    {
+      "label": "Trusting the Senses over Reason",
+      "summary": "Relying on sensory perception of the material world to understand true reality.",
+      "details": "The material world is deceptive, changing, and imperfect. Relying on the senses only provides opinions and illusions (shadows on the cave wall), preventing the soul from grasping the infallible, eternal knowledge of the Forms.",
+      "representative_quote": "The world that appears to our senses is in some way defective and filled with error...",
+      "source_ids": [
+        "src_004",
+        "src_019",
+        "src_002"
+      ]
+    },
+    {
+      "label": "Defining by Enumeration",
+      "summary": "Attempting to define a concept by merely listing examples of it.",
+      "details": "A mere list of examples fails to capture the nature, essence, or the single invariant feature (eidos/idea) that is common to all cases of the virtue or concept in question.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_042",
+        "src_006"
+      ]
+    },
+    {
+      "label": "Class Mobility and Intermeddling",
+      "summary": "Allowing individuals to perform roles they are not naturally suited for (e.g., a producer trying to rule).",
+      "details": "It violates the principle of natural aptitude and specialization. When the appetitive or spirited classes attempt to usurp the rational class, it leads directly to the downfall, injustice, and psychological disease of the city or soul.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_055"
+      ]
+    },
+    {
+      "label": "Rulers Serving Themselves",
+      "summary": "Leaders exercising power to pursue personal wealth, honor, or base desires rather than the good of the subjects.",
+      "details": "True leadership is a craft that aims at the benefit of the ruled. Rulers who govern for self-interest destroy social harmony, impose injustice, and rely on enslaving followers with false images.",
+      "representative_quote": "shun and flee from what senseless and insatiate men call happiness; let them try to change into the form of kings and subject themselves to kingly laws...",
+      "source_ids": [
+        "src_019",
+        "src_024",
+        "src_050"
+      ]
+    },
+    {
+      "label": "Relying Solely on Written Texts",
+      "summary": "Writing philosophical treatises that attempt to directly tell the reader the truth.",
+      "details": "Books are static and cannot adapt to new questions or engage in dialectic. True knowledge requires a mind's active capacity to interpret and reinterpret understandings through cooperative, face-to-face philosophical conversation.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_056",
+        "src_004"
+      ]
+    }
+  ]
+}

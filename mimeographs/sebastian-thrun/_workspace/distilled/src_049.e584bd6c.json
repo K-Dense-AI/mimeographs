@@ -1,0 +1,72 @@
+{
+  "source_id": "src_049",
+  "summary": "A FAQ page from Sebastian Thrun's Stanford homepage designed to manage a high volume of inquiries. It outlines his strict filters for hiring, advising, and reviewing, while emphasizing his commitment to open-access science and prioritizing deep work over endless email correspondence.",
+  "themes": [
+    "Time Management",
+    "Open Access Science",
+    "Academic Advising",
+    "Hiring and Admissions Filters"
+  ],
+  "principles": [
+    {
+      "statement": "Scientific results should be freely and unrestrictedly disseminated.",
+      "rationale": "The internet allows for universal access to information, making paywalled journals that charge fees for access obsolete and counterproductive to the scientific community.",
+      "source_quote": "I am a big advocate of the free and unrestricted dissemination of scientific results, especially now that we can do this through the Web.",
+      "source_id": "src_049"
+    },
+    {
+      "statement": "Only hire or admit individuals based on personal knowledge or strong peer recommendations.",
+      "rationale": "Due to the overwhelming volume of unsolicited applications, cold CVs are an ineffective signal. Trust and proven track records from known researchers are required to make hiring or admission decisions.",
+      "source_quote": "I never hired or admitted a person whom I didn't know personally or who didn't come with very strong recommendations from leading researchers in the field.",
+      "source_id": "src_049"
+    },
+    {
+      "statement": "Always be eager to learn from your own students.",
+      "rationale": "Student feedback is valuable for improving courses. Treating their suggestions and criticisms confidentially encourages honest communication.",
+      "source_quote": "I try to answer every message I receive from a student in my class, and treat suggestions and criticism confidential. I am always eager to learn.",
+      "source_id": "src_049"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [
+    "Cap email processing at two hours a day to ensure time remains for actual work.",
+    "Do not read unsolicited CVs.",
+    "Only take on advisees after getting to know them through a class or direct interaction.",
+    "Refuse to review manuscripts for or join editorial boards of journals that sell papers for money."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I am a big advocate of the free and unrestricted dissemination of scientific results, especially now that we can do this through the Web.",
+      "context": "Explaining why he refuses to join editorial boards of paywalled journals.",
+      "source_id": "src_049"
+    },
+    {
+      "text": "On the flip side, if I only did Email all day and nothing else, would you really want to talk to me?",
+      "context": "Justifying his strict two-hour daily limit on answering emails despite receiving up to 400 messages a day.",
+      "source_id": "src_049"
+    },
+    {
+      "text": "I never hired or admitted a person whom I didn't know personally or who didn't come with very strong recommendations from leading researchers in the field.",
+      "context": "Addressing prospective students and staff who send unsolicited CVs.",
+      "source_id": "src_049"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Sending unsolicited CVs to faculty members in hopes of being hired or admitted.",
+      "why_it_fails": "Faculty receive hundreds of these messages and ignore them. Admissions and hiring are driven by personal interactions, official university channels, or strong recommendations from known peers.",
+      "source_id": "src_049"
+    },
+    {
+      "description": "Asking for a recommendation letter from a faculty member who barely knows you.",
+      "why_it_fails": "The recommender will explicitly state in the letter that they barely know you, which looks highly negative to the institution evaluating your application.",
+      "source_id": "src_049"
+    },
+    {
+      "description": "Mailing physical manuscripts for review without prior email agreement.",
+      "why_it_fails": "It causes unnecessary delays. Sending an email first allows the reviewer to quickly decline if they are unavailable, speeding up the turnaround time for the author to find another reviewer.",
+      "source_id": "src_049"
+    }
+  ]
+}

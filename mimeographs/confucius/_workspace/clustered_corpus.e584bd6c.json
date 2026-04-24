@@ -1,0 +1,535 @@
+{
+  "expert_name": "Confucius",
+  "themes": [
+    "Governance by Virtue",
+    "Ritual Propriety (Li)",
+    "Humaneness (Ren)",
+    "Filial Piety (Xiao)",
+    "Lifelong Self-Cultivation",
+    "Social Harmony & Hierarchy",
+    "The Noble Man (Junzi)"
+  ],
+  "principles": [
+    {
+      "label": "Governance by Virtue over Punishment",
+      "summary": "Govern through moral virtue and ritual propriety rather than strict laws and punitive measures.",
+      "details": "When people are controlled by punishment, they merely learn to avoid getting caught and develop no sense of shame. When guided by a leader's virtuous example and the rules of propriety, they develop an internal moral compass and naturally correct themselves.",
+      "representative_quote": "If you govern them by means of virtue and control them with propriety, they will gain their own sense of shame, and thus correct themselves.",
+      "source_ids": [
+        "src_016",
+        "src_034",
+        "src_033",
+        "src_040",
+        "src_023",
+        "src_046",
+        "src_001",
+        "src_037",
+        "src_002"
+      ]
+    },
+    {
+      "label": "The Golden Rule (Reciprocity)",
+      "summary": "Do not impose upon others what you yourself do not desire.",
+      "details": "This principle of reciprocity (shu) is the foundation of harmonious social relationships. A humane person uses empathy to guide their actions, ensuring they do not force unwanted circumstances onto others.",
+      "representative_quote": "Do not impose on others what you yourself do not desire.",
+      "source_ids": [
+        "src_016",
+        "src_040",
+        "src_023",
+        "src_046",
+        "src_037",
+        "src_030",
+        "src_010"
+      ]
+    },
+    {
+      "label": "Sincerity in Rituals",
+      "summary": "Rituals and ceremonies require sincere reverence and genuine emotion, not just rote mechanical performance.",
+      "details": "The affective state behind an action is more important than the action's perfection. Without fundamental human virtue and genuine feeling (like deep sorrow in mourning), the outward expressions of propriety and musical harmony are meaningless and empty.",
+      "representative_quote": "I cannot tolerate ritual without reverence, or mourning without grief.",
+      "source_ids": [
+        "src_016",
+        "src_040",
+        "src_032",
+        "src_026",
+        "src_010"
+      ]
+    },
+    {
+      "label": "The Balance of Learning and Thought",
+      "summary": "True wisdom requires the integration of both diligent study and independent critical thought.",
+      "details": "Acquiring knowledge without reflecting on it leads to confusion and wasted effort. Conversely, speculating purely on one's own thoughts without studying the wisdom of the past is actively dangerous.",
+      "representative_quote": "Learning without thought is labor lost; thought without learning is perilous.",
+      "source_ids": [
+        "src_034",
+        "src_033",
+        "src_046",
+        "src_037"
+      ]
+    },
+    {
+      "label": "Filial Piety as the Root",
+      "summary": "Devotion and reverence to parents is the foundational root of moral development and a harmonious society.",
+      "details": "Moral life begins in the family. True filial piety requires deep reverence, not just providing physical support (which one also does for animals). Practicing devotion to parents and older siblings scales up to create a stable, harmonious state.",
+      "representative_quote": "The gentleman works at the roots. Once the roots are established, the way comes to life.",
+      "source_ids": [
+        "src_016",
+        "src_033",
+        "src_010",
+        "src_030",
+        "src_002"
+      ]
+    },
+    {
+      "label": "Social Hierarchy and Role Fulfillment",
+      "summary": "Society functions harmoniously when everyone fulfills the specific duties of their hierarchical roles.",
+      "details": "Adherence to the proper conduct expected between members of social groupings (rulers and ministers, parents and children) guarantees a harmonious relationship. This requires mutual responsibility: superiors must be benevolent, and inferiors must be respectful.",
+      "representative_quote": "Let the ruler be a ruler, the minister a minister, the father a father, and the son a son.",
+      "source_ids": [
+        "src_026",
+        "src_002",
+        "src_037",
+        "src_010"
+      ]
+    },
+    {
+      "label": "Intellectual Honesty",
+      "summary": "True knowledge is recognizing the boundary between what you know and what you do not know.",
+      "details": "You can only progress in learning if you accurately distinguish between what you actually understand and what you do not. Pretending to know is a barrier to wisdom.",
+      "representative_quote": "When you know a thing, to hold that you know it; and when you do not know a thing, to allow that you do not know it - this is knowledge.",
+      "source_ids": [
+        "src_034",
+        "src_033",
+        "src_037"
+      ]
+    },
+    {
+      "label": "Righteousness over Profit",
+      "summary": "Prioritize righteousness and the 'Way' over conventional desires for wealth, status, and personal profit.",
+      "details": "While wealth and rank are naturally desired, they must be relinquished if they conflict with moral standards. The superior man focuses on what is right and fair, whereas the petty man focuses on personal advantage.",
+      "representative_quote": "The superior man understands what is right, the mean man understands profit.",
+      "source_ids": [
+        "src_016",
+        "src_034",
+        "src_046"
+      ]
+    },
+    {
+      "label": "Actions Precede Words",
+      "summary": "A noble man acts first and speaks only after his actions have validated his words.",
+      "details": "Speaking before acting risks hypocrisy. True character is demonstrated by embodying a principle first, and only speaking of it afterward.",
+      "representative_quote": "He acts before he speaks, and afterwards speaks according to his actions.",
+      "source_ids": [
+        "src_034",
+        "src_033"
+      ]
+    },
+    {
+      "label": "Transmitting, Not Innovating",
+      "summary": "Study and transmit the wisdom of the past to understand the future and restore order, rather than innovating blindly.",
+      "details": "During times of chaos, the best way to restore order is to embody and transmit the successful cultural practices and rituals that worked well in history. This also demonstrates humility.",
+      "representative_quote": "I transmit but do not innovate. I love antiquity and have faith in it.",
+      "source_ids": [
+        "src_040",
+        "src_023",
+        "src_002",
+        "src_025",
+        "src_027"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Stages of Moral Development",
+      "summary": "The lifelong path of self-cultivation, moving from basic intention in youth to effortless moral alignment in old age.",
+      "details": "1. At 15: Set your heart on learning. 2. At 30: Stand firm (established in character). 3. At 40: Overcome doubts. 4. At 50: Know the Mandate of Heaven. 5. At 60: Attain an obedient/receptive ear. 6. At 70: Follow your heart's desires without transgressing moral norms.",
+      "representative_quote": "At fifteen my heart was set on learning; at thirty I stood firm; at forty I had no more doubts; at fifty I knew the mandate of heaven; at sixty my ear was obedient; at seventy I could follow my heart’s desire without transgressing the norm.",
+      "source_ids": [
+        "src_000",
+        "src_034",
+        "src_033",
+        "src_023",
+        "src_046",
+        "src_037"
+      ]
+    },
+    {
+      "label": "Evaluating Character",
+      "summary": "A three-step observational method to understand a person's true nature and determine if they are trustworthy.",
+      "details": "1. See what a person does (observe their actions and means). 2. Mark their motives (understand why they take those actions). 3. Examine in what things they rest (observe what brings them peace or satisfaction).",
+      "representative_quote": "See what a man does. Mark his motives. Examine in what things he rests. How can a man conceal his character?",
+      "source_ids": [
+        "src_034",
+        "src_033"
+      ]
+    },
+    {
+      "label": "The Five Virtues (Cultivation of Ren)",
+      "summary": "The core practices required to develop a good moral character and create harmony in one's community.",
+      "details": "1. Ren (altruism and humanity). 2. Yi (righteousness). 3. Li (good conduct and ritual propriety). 4. Zhi (knowledge and wisdom). 5. Xin (loyalty and trustworthiness).",
+      "representative_quote": "Confucianism teaches 5 virtues: Ren (Jen), that refers to altruism and humanity... Yi, that refers to righteousness... Li, that refers to good conduct... Zhi, that refers to knowledge... Xin, which means loyalty.",
+      "source_ids": [
+        "src_037",
+        "src_030",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Securing Official Emolument (Career Advancement)",
+      "summary": "A method for acting in public life or official positions without incurring blame or regret.",
+      "details": "1. Listen widely, put aside points of doubt, and speak cautiously about the rest to minimize faults. 2. See much, put aside perilous things, and act cautiously on the rest to minimize regret.",
+      "representative_quote": "Hear much and put aside the points of which you stand in doubt, while you speak cautiously at the same time of the others - then you will afford few occasions for blame.",
+      "source_ids": [
+        "src_034",
+        "src_033"
+      ]
+    },
+    {
+      "label": "Rectification of Names (Zhengming)",
+      "summary": "Ensuring language accords with the truth of things so that affairs succeed and social order is maintained.",
+      "details": "1. Ensure the names used correspond directly with actualities. 2. Align language with the truth of things. 3. Carry out affairs to success based on truthful language. 4. Allow proprieties and music to flourish. 5. Award punishments properly so people know how to act.",
+      "representative_quote": "If names be not correct, language is not in accordance with the truth of things.",
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "Corner-Pointing Pedagogy",
+      "summary": "An educational approach that requires the student to use their own effort and intellect to discover answers.",
+      "details": "1. Provide initial guidance or 'point out one corner' of the problem. 2. Require the student to use their own effort to discover the remaining 'three corners'. 3. Act as a guide to impart light, rather than spoon-feeding answers.",
+      "representative_quote": "point out one corner of a square... to come back with the other three",
+      "source_ids": [
+        "src_040"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "The North Star (Governance by Virtue)",
+      "summary": "A virtuous leader is like the North Star: remaining steadfast in their moral center while others naturally align around them.",
+      "details": "A leader does not need to force compliance or micromanage. By embodying virtue, they act as a fixed point of reference, and the people will naturally position themselves properly around the leader's example.",
+      "representative_quote": "He who exercises government by means of his virtue may be compared to the north polar star, which keeps its place and all the stars turn towards it.",
+      "source_ids": [
+        "src_034",
+        "src_033",
+        "src_046",
+        "src_037"
+      ]
+    },
+    {
+      "label": "The Wind and the Grass",
+      "summary": "The moral influence of leadership is like the wind, and the common people are like grass; the grass naturally bends to the wind.",
+      "details": "Used to explain how the moral transformation of society relies on the positive example of the ruler. When a superior provides direction, the inferior gracefully yields in a gesture of humility and respect.",
+      "representative_quote": "The character of those at the top is like that of the wind. The character of those below is like that of grass. When wind blows over the grass, the grass is sure to bend.",
+      "source_ids": [
+        "src_016",
+        "src_040",
+        "src_010"
+      ]
+    },
+    {
+      "label": "Junzi vs. Xiaoren (The Noble Man vs. The Petty Person)",
+      "summary": "A dichotomy of character: the Junzi is driven by fairness and virtue, while the Xiaoren is driven by immediate personal advantage.",
+      "details": "The 'junzi' (superior person) is disciplined, virtuous, and seeks long-term benefit for others. The 'xiaoren' (petty person) is egotistic, seeks immediate gains, and indulges in sensual pleasures.",
+      "representative_quote": "The noble man is aware of fairness, the inferior man is aware of advantage.",
+      "source_ids": [
+        "src_009",
+        "src_026",
+        "src_046",
+        "src_034"
+      ]
+    },
+    {
+      "label": "The Utensil / Vessel",
+      "summary": "A noble man is not a 'utensil' (a tool designed for a single narrow task); he cultivates broad moral capacity.",
+      "details": "A metaphor for specialization vs. holistic development. A virtuous person refuses to be narrowly defined by a specific job title or technical skill, instead developing a comprehensive worldview and moral foundation so they cannot be used as a mindless cog.",
+      "representative_quote": "The noble man is not a utensil.",
+      "source_ids": [
+        "src_034",
+        "src_046"
+      ]
+    },
+    {
+      "label": "The Family as Microcosm",
+      "summary": "Viewing the political order through the lens of family dynamics, where filial piety scales up to govern the state.",
+      "details": "The extended family is the central arena for learning social roles. The vertical lines of familial obligation (e.g., filial piety) serve as the blueprint for all other social and political hierarchies. A good ruler wins respect in the same way a good father does.",
+      "representative_quote": "The family is the most important group for Confucian ethics, and devotion to family can only strengthen the society surrounding it.",
+      "source_ids": [
+        "src_002",
+        "src_037",
+        "src_030"
+      ]
+    },
+    {
+      "label": "The Plain Ground Before Colors",
+      "summary": "Just as a painting requires a plain canvas, the refinement of manners and rituals requires a foundational, unadorned human goodness.",
+      "details": "A lens for understanding the relationship between raw human substance and cultural refinement. One must possess fundamental, unadorned virtue before they can be refined by the 'colors' of ceremonies and manners.",
+      "representative_quote": "The business of laying on the colours follows (the preparation of) the plain ground.",
+      "source_ids": [
+        "src_034",
+        "src_032"
+      ]
+    },
+    {
+      "label": "Working at the Roots",
+      "summary": "Moral development is like growing a plant; foundational behaviors must be established before the broader moral 'way' can flourish.",
+      "details": "Practicing filial piety to parents and siblings is seen as the root of the broader virtue of benevolence. Without the root, the plant cannot grow.",
+      "representative_quote": "The gentleman works at the roots. Once the roots are established, the way comes to life.",
+      "source_ids": [
+        "src_016"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "The Reciprocity Heuristic",
+      "summary": "Do not impose on others what you yourself do not desire.",
+      "details": null,
+      "representative_quote": "What you do not wish for yourself, do not do to others.",
+      "source_ids": [
+        "src_016",
+        "src_040",
+        "src_023",
+        "src_046",
+        "src_037",
+        "src_030",
+        "src_010"
+      ]
+    },
+    {
+      "label": "The Correction Heuristic",
+      "summary": "When you make a mistake, don't hesitate to correct it.",
+      "details": null,
+      "representative_quote": "When a noble man makes a mistake, he doesn’t hesitate to correct it.",
+      "source_ids": [
+        "src_034",
+        "src_037"
+      ]
+    },
+    {
+      "label": "The Ritual Filter",
+      "summary": "If contrary to ritual, do not look, listen, speak, or act.",
+      "details": null,
+      "representative_quote": "If contrary to ritual, do not look; if contrary to ritual, do not listen; if contrary to ritual, do not speak; if contrary to ritual, do not act.",
+      "source_ids": [
+        "src_016",
+        "src_026",
+        "src_037"
+      ]
+    },
+    {
+      "label": "The Historical Precedent Heuristic",
+      "summary": "Study the past if you would divine the future.",
+      "details": null,
+      "representative_quote": "Study the past if you would divine the future.",
+      "source_ids": [
+        "src_025",
+        "src_046",
+        "src_030"
+      ]
+    },
+    {
+      "label": "The Mirror of Others",
+      "summary": "When you see a good person, think of becoming like them. When you see someone not so good, reflect on your own weak points.",
+      "details": null,
+      "representative_quote": "If I’m walking with two other men, each of them will serve as my teacher. I will pick out the good points of the one and imitate them, and the bad points of the other and correct them in myself.",
+      "source_ids": [
+        "src_034",
+        "src_023"
+      ]
+    },
+    {
+      "label": "The Sincerity over Extravagance Heuristic",
+      "summary": "In festive ceremonies, it is better to be sparing than extravagant; in mourning, deep sorrow is better than ease.",
+      "details": null,
+      "representative_quote": "In festive ceremonies, it is better to be sparing than extravagant. In the ceremonies of mourning, it is better that there be deep sorrow than a minute attention to observances.",
+      "source_ids": [
+        "src_034",
+        "src_032"
+      ]
+    },
+    {
+      "label": "The Worthiness Heuristic",
+      "summary": "Do not worry about being unknown; seek to be worthy of being known.",
+      "details": null,
+      "representative_quote": "Do not worry about nobody recognizing you; strive for that for which you can be recognized.",
+      "source_ids": [
+        "src_044",
+        "src_046"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "On Governance by Virtue",
+      "summary": "Explaining why moral leadership is superior to strict laws and punishments.",
+      "details": null,
+      "representative_quote": "If you govern them by means of virtue and control them with propriety, they will gain their own sense of shame, and thus correct themselves.",
+      "source_ids": [
+        "src_034",
+        "src_040",
+        "src_023",
+        "src_037"
+      ]
+    },
+    {
+      "label": "On the Stages of Life",
+      "summary": "Reflecting on his own lifelong journey of moral and intellectual development.",
+      "details": null,
+      "representative_quote": "At fifteen my heart was set on learning; at thirty I stood firm; at forty I had no more doubts; at fifty I knew the mandate of heaven; at sixty my ear was obedient; at seventy I could follow my heart’s desire without transgressing the norm.",
+      "source_ids": [
+        "src_034",
+        "src_033",
+        "src_023",
+        "src_046",
+        "src_037"
+      ]
+    },
+    {
+      "label": "On the Golden Rule",
+      "summary": "Teaching compassion and altruism as the basis of social behavior.",
+      "details": null,
+      "representative_quote": "Do not impose on others what you yourself do not desire.",
+      "source_ids": [
+        "src_016",
+        "src_023",
+        "src_040",
+        "src_030",
+        "src_010",
+        "src_037"
+      ]
+    },
+    {
+      "label": "On Learning and Thought",
+      "summary": "Explaining the necessary balance between acquiring information and critical reflection.",
+      "details": null,
+      "representative_quote": "Learning without thought is labor lost; thought without learning is perilous.",
+      "source_ids": [
+        "src_033",
+        "src_046",
+        "src_037"
+      ]
+    },
+    {
+      "label": "On the North Star",
+      "summary": "Describing the ideal method of ruling a state through moral gravity.",
+      "details": null,
+      "representative_quote": "He who exercises government by means of his virtue may be compared to the north polar star, which keeps its place and all the stars turn towards it.",
+      "source_ids": [
+        "src_033",
+        "src_046",
+        "src_037"
+      ]
+    },
+    {
+      "label": "On the Noble Man",
+      "summary": "Explaining that a superior person is not a narrow technician meant to be used for a single purpose.",
+      "details": null,
+      "representative_quote": "The noble man is not a utensil.",
+      "source_ids": [
+        "src_034",
+        "src_046"
+      ]
+    },
+    {
+      "label": "On True Knowledge",
+      "summary": "Teaching his disciple about the true definition of intellectual honesty.",
+      "details": null,
+      "representative_quote": "When you know a thing, to hold that you know it; and when you do not know a thing, to allow that you do not know it - this is knowledge.",
+      "source_ids": [
+        "src_034",
+        "src_033",
+        "src_037"
+      ]
+    },
+    {
+      "label": "On Transmitting Wisdom",
+      "summary": "Explaining his reliance on historical texts and past traditions rather than inventing new philosophies.",
+      "details": null,
+      "representative_quote": "I transmit but do not innovate. I love antiquity and have faith in it.",
+      "source_ids": [
+        "src_040",
+        "src_023",
+        "src_002"
+      ]
+    },
+    {
+      "label": "On Social Roles",
+      "summary": "Explaining that good governance lies in each person carrying out their duties as prescribed by their position.",
+      "details": null,
+      "representative_quote": "Let the ruler be a ruler, the minister a minister, the father a father, and the son a son.",
+      "source_ids": [
+        "src_026",
+        "src_002",
+        "src_037",
+        "src_010"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Governing Strictly by Laws and Punishments",
+      "summary": "Relying on laws, ordinances, and threats of punishment to maintain social order.",
+      "details": "People will only learn how to avoid the punishment out of fear. They will fail to develop a personal sense of shame or the internal moral compass needed to genuinely reform themselves.",
+      "representative_quote": "If the people be led by laws, and uniformity sought to be given them by punishments, they will try to avoid the punishment, but have no sense of shame.",
+      "source_ids": [
+        "src_016",
+        "src_034",
+        "src_033",
+        "src_040",
+        "src_023",
+        "src_046",
+        "src_002",
+        "src_037"
+      ]
+    },
+    {
+      "label": "Mechanical Rituals Without Sincerity",
+      "summary": "Performing rituals or courtesies mechanically without sincere emotion or reverence.",
+      "details": "Rituals are meant to cultivate moral dispositions and restrict desires. Without the proper affective state (like grief in mourning or reverence in sacrifice), it hollows out the ceremony, turning it into a meaningless or offensive display.",
+      "representative_quote": "I consider my not being present at the sacrifice, as if I did not sacrifice.",
+      "source_ids": [
+        "src_016",
+        "src_034",
+        "src_040",
+        "src_023",
+        "src_032",
+        "src_026"
+      ]
+    },
+    {
+      "label": "Learning Without Thinking",
+      "summary": "Engaging in learning without thinking, or thinking without learning.",
+      "details": "Learning without thought is wasted effort; thought without learning is dangerous and perilous. Relying purely on one's own thoughts without grounding them in diligent study leads to perilous conclusions.",
+      "representative_quote": "To study and not think is a waste. To think and not study is dangerous.",
+      "source_ids": [
+        "src_033",
+        "src_037"
+      ]
+    },
+    {
+      "label": "Superficial Charm (Glibness)",
+      "summary": "Relying on clever words and a contrived smile.",
+      "details": "It is a superficial display that masks a lack of genuine humaneness (ren). People who focus on smooth talk and affected manners are rarely truly good.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_034",
+        "src_046",
+        "src_037"
+      ]
+    },
+    {
+      "label": "Obsessing Over Recognition and Profit",
+      "summary": "Valuing conventional wealth, status, and personal advantage over moral standards.",
+      "details": "Obsessing over whether other people recognize your talents distracts from the actual work of building capability and merit. Working only for your own profit inevitably incurs resentment from others and leads to corruption.",
+      "representative_quote": "Do not worry about not having a position; worry about what it takes to establish yourself.",
+      "source_ids": [
+        "src_016",
+        "src_034",
+        "src_044",
+        "src_046",
+        "src_030"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "source_id": "src_014",
+  "summary": "David Silver argues that AI is transitioning from the 'Era of Human Data' (LLMs trained on finite internet data) to the 'Era of Experience' (agents learning continuously through interaction). He contrasts the 'shallow problem' of distilling existing knowledge with the 'deep problem' of agents learning for themselves, using AlphaZero, AlphaProof, and meta-learned RL algorithms as case studies for the power of experiential learning.",
+  "themes": [
+    "Reinforcement Learning",
+    "Era of Experience",
+    "Superintelligence",
+    "Meta-learning",
+    "AlphaZero",
+    "AlphaProof"
+  ],
+  "principles": [
+    {
+      "statement": "AI systems trained solely on human data cannot reach superintelligence because they cannot discover new knowledge.",
+      "rationale": "Systems built purely from human knowledge are stuck in human paradigms and lack the capability to discover new knowledge or create new paradigms for themselves.",
+      "source_quote": "human data, the era of human data in itself leads to AI systems that can't in isolation go all the way to super intelligence. Why is that? Well, it's because they can't discover new knowledge.",
+      "source_id": "src_014"
+    },
+    {
+      "statement": "To achieve superhuman intelligence, the AI field must transition its attention to learning from experience.",
+      "rationale": "Interacting with the environment at vast scales allows agents to continually discover new knowledge and capabilities, eventually exceeding the scale of human knowledge on the internet.",
+      "source_quote": "I think that in order to achieve superhuman intelligence, I think it's unarguable that we will need to transition to a greater attention um that's primarily focused on learning from experience.",
+      "source_id": "src_014"
+    },
+    {
+      "statement": "There is a new scaling law for AI: exposing agents to more sources of experience makes them better at learning from experience.",
+      "rationale": "When agents are exposed to diverse streams of experience and environments, they can meta-learn robust and general reinforcement learning algorithms that outperform human-created ones.",
+      "source_quote": "as we start to expose our agents to more sources of experience, the agent gets better at learning from that experience.",
+      "source_id": "src_014"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "AlphaZero Learning Process",
+      "when_to_apply": "When solving complex, formalizable domains (like board games or mathematics) from scratch without human knowledge.",
+      "steps": [
+        "Run a Monte Carlo tree search that makes use of two neural networks: one for policy (actions) and one for value (estimating how well it is doing).",
+        "Update the policy towards the best action found by the tree search.",
+        "Update the value function towards the outcome of the self-play games (policy evaluation)."
+      ],
+      "source_quote": "The second step was it updated the policy towards the best action that was found by its um by its search by its tree search. And the third step was it updated the value function towards the outcome of these self-play games.",
+      "source_id": "src_014"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Fossil Fuels vs. Renewable Energy",
+      "description": "A metaphor for AI training data. Human data on the internet is like fossil fuels: cheap to exploit initially, allowing rapid progress, but finite and running out. Experience (interaction with the world) is like renewable energy: it allows an agent to keep learning forever with no limit.",
+      "example": "Pre-training LLMs on internet text is burning fossil fuels; training an agent to explore and learn in a simulated or real environment is using renewable energy.",
+      "source_id": "src_014"
+    },
+    {
+      "name": "The Shallow vs. Deep Problem of AI",
+      "description": "The 'shallow problem' is distilling all existing human knowledge into an agent (which LLMs do well). The 'deep problem' is how an agent can learn for itself, adapt, and acquire new knowledge directly from experience.",
+      "example": "Taking all knowledge found on the internet and putting it into an LLM solves the shallow problem. A baby playing with toys to figure out how the world works represents the deep problem.",
+      "source_id": "src_014"
+    },
+    {
+      "name": "Looking Under the Lampost",
+      "description": "A lens for understanding research trends. The AI field has converged on one approach (LLMs) because it's where the light currently is, ignoring other areas with massive potential (RL/experience) that are currently in the dark.",
+      "example": "The whole field of AI collapsing on the LLM approach while neglecting the 'second lampost' of reinforcement learning and experience.",
+      "source_id": "src_014"
+    }
+  ],
+  "heuristics": [
+    "Treat mathematics as a complex game and solve it using self-play and formal provers.",
+    "Allow systems to make mistakes so they can learn to avoid making worse mistakes later."
+  ],
+  "signature_quotes": [
+    {
+      "text": "human data, the era of human data in itself leads to AI systems that can't in isolation go all the way to super intelligence.",
+      "context": "Explaining the limitations of current LLMs.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "We haven't put into them the capability to discover knowledge for themselves. So, they're basically stuck in the paradigms that humans have built.",
+      "context": "Discussing why human data alone is insufficient for superintelligence.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "The shallow problem is basically you know how can you distill all the knowledge that's already out there into an agent.",
+      "context": "Defining what current AI systems have successfully achieved.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "We can think of this as um you know we discovered fossil fuels um on the internet... but the problem is that we've used up most of the fuel.",
+      "context": "Using an analogy to describe the limits of training on internet data.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "The real call to arms I think is to try and solve the deep problem of AI you know the deep problem of AI how to learn from experience.",
+      "context": "Concluding the keynote with a directive for the AI research community.",
+      "source_id": "src_014"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying exclusively on human data (like internet text) to build AI systems.",
+      "why_it_fails": "It only solves the 'shallow problem' of distilling existing knowledge. It cannot discover new knowledge or break out of human paradigms, and the 'fuel' (data) is running out.",
+      "source_id": "src_014"
+    },
+    {
+      "description": "Throwing out the baby with the bathwater by abandoning reinforcement learning in favor of LLMs.",
+      "why_it_fails": "By focusing entirely on LLMs, the field stopped focusing on how agents can adapt, keep acquiring knowledge from the environment, and solve the deep problem of AI.",
+      "source_id": "src_014"
+    }
+  ]
+}

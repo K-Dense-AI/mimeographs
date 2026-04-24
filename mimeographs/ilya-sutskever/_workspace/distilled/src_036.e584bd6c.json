@@ -1,0 +1,36 @@
+{
+  "source_id": "src_036",
+  "summary": "Ilya Sutskever emphasizes connectionism and biological inspiration as the foundational principles of deep learning. He argues that the loose analogy between artificial and biological neurons justifies the belief that scaling neural networks will eventually replicate human cognitive capabilities.",
+  "themes": [
+    "Connectionism",
+    "Biological Inspiration",
+    "Scaling Neural Networks",
+    "Deep Learning"
+  ],
+  "principles": [
+    {
+      "statement": "Scaling artificial neural networks can replicate human cognitive capabilities.",
+      "rationale": "Because artificial neurons are loosely analogous to biological neurons, building large enough networks of them should, in principle, yield similar cognitive results to the human brain.",
+      "source_quote": "artificial neurons are “kind of, sort of like” biological neurons",
+      "source_id": "src_036"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Biological Analogy (Connectionism)",
+      "description": "Viewing artificial neural networks as loosely analogous to biological brains. This lens provides the foundational confidence that scaling up artificial neurons will result in human-like cognitive capabilities.",
+      "example": "Using the biological similarity of neurons as the primary justification for deploying and scaling large neural networks.",
+      "source_id": "src_036"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "kind of, sort of like",
+      "context": "Describing the degree of similarity between artificial neurons and biological neurons.",
+      "source_id": "src_036"
+    }
+  ],
+  "anti_patterns": []
+}

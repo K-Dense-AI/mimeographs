@@ -1,0 +1,75 @@
+{
+  "source_id": "src_013",
+  "summary": "Richard S. Sutton argues that Large Language Models lack true intelligence because they do not possess substantive goals regarding the external world. He distinguishes between next-token prediction—which doesn't influence the environment—and true goal-oriented behavior, while also contrasting purely computational tasks like math with the necessity of learning empirical consequences in the physical world.",
+  "themes": [
+    "Definition of Intelligence",
+    "Large Language Models (LLMs)",
+    "Goal-oriented behavior",
+    "Empirical vs. Computational learning"
+  ],
+  "principles": [
+    {
+      "statement": "Intelligence is fundamentally defined by the ability to achieve goals.",
+      "rationale": "A system without goals is merely a 'behaving system.' True intelligence requires the computational capacity to enact change and achieve specific outcomes.",
+      "source_quote": "For me, having a goal is the essence of intelligence, right? Something is intelligent if it can achieve goals.",
+      "source_id": "src_013"
+    },
+    {
+      "statement": "Next-token prediction is not a substantive goal.",
+      "rationale": "Predicting tokens does not influence the external world; it only determines what the model should say next, rather than predicting how the world will respond to its actions.",
+      "source_quote": "You can't look at a system and say, \"Oh, it uh has a goal if it's just sitting there predicting and being happy with itself that it's predicting accurately.\"",
+      "source_id": "src_013"
+    },
+    {
+      "statement": "Modeling the physical world requires learning empirical consequences, which is fundamentally different from solving math problems.",
+      "rationale": "Math is purely computational and akin to standard planning, whereas navigating the physical world requires an agent to actively learn the consequences of its actions through experience.",
+      "source_quote": "The empirical world has to be learned. You have to learn the consequences. Um whereas the uh the math is is more just computational. It's more like standard planning.",
+      "source_id": "src_013"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Empirical vs. Computational Domains",
+      "description": "A distinction between environments where rules and consequences must be learned through interaction (the physical/empirical world) and environments where rules are predefined and success relies on search and planning (mathematics).",
+      "example": "Explaining why LLMs can achieve gold at the Math Olympiad (computational planning) but still lack the ability to model the physical world (empirical learning).",
+      "source_id": "src_013"
+    },
+    {
+      "name": "Intelligence as Goal Achievement",
+      "description": "Viewing intelligence not merely as complex behavior or pattern matching, but specifically as the computational part of the ability to achieve goals in an environment (borrowing from John McCarthy's definition).",
+      "example": null,
+      "source_id": "src_013"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "For me, having a goal is the essence of intelligence, right? Something is intelligent if it can achieve goals.",
+      "context": "Defining what separates true intelligence from mere behaving systems.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "Next token is what they should say, what the action should be. It's not what the world will give them in response to what they do.",
+      "context": "Explaining why next-token prediction is not a true prediction of the world.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "You can't look at a system and say, \"Oh, it uh has a goal if it's just sitting there predicting and being happy with itself that it's predicting accurately.\"",
+      "context": "Arguing that LLMs lack substantive goals about the external world.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "The empirical world has to be learned. You have to learn the consequences. Um whereas the uh the math is is more just computational.",
+      "context": "Contrasting the success of LLMs in math with their inability to model the physical world.",
+      "source_id": "src_013"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Equating next-token prediction with having a substantive goal or making true predictions about the world.",
+      "why_it_fails": "Next-token prediction only dictates the model's immediate output (what it should say), not what the external world will return in response to an action. It lacks a feedback loop of influencing and being surprised by the environment.",
+      "source_id": "src_013"
+    }
+  ]
+}

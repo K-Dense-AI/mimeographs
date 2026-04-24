@@ -1,0 +1,58 @@
+{
+  "source_id": "src_039",
+  "summary": "A LinkedIn profile for Christopher Manning detailing his publications and projects in natural language processing, including work on machine translation evaluation, unlexicalized parsing, and on-the-job learning.",
+  "themes": [
+    "Natural Language Processing",
+    "Machine Translation",
+    "Semantic Equivalence",
+    "Parsing",
+    "Crowdsourcing"
+  ],
+  "principles": [
+    {
+      "statement": "Machine translation evaluation metrics must capture semantic meaning, not just surface formulation.",
+      "rationale": "Traditional metrics struggle to distinguish good from fair translations because they ignore whether the candidate actually means the same thing as the reference.",
+      "source_quote": "A good translation candidate _means_ the same thing as the reference translation, regardless of formulation.",
+      "source_id": "src_039"
+    },
+    {
+      "statement": "High-accuracy classification systems can be deployed without massive up-front data labeling.",
+      "rationale": "By using an 'on-the-job' approach with real-time crowdsourcing to resolve uncertainty, models can improve over time while balancing latency, cost, and accuracy.",
+      "source_quote": "We consider an \"on-the-job\" setting, where as queries arrive, we use real-time crowdsourcing to resolve uncertainty where needed and output our classification when confident.",
+      "source_id": "src_039"
+    },
+    {
+      "statement": "Unlexicalized parsing can achieve high accuracy by breaking down false independence assumptions.",
+      "rationale": "Applying simple, linguistically motivated state splits to a vanilla treebank grammar significantly improves parsing accuracy.",
+      "source_quote": "We demonstrate that an unlexicalized PCFG can parse much more accurately than previously shown, by making use of simple, linguistically motivated state splits, which break down false independence assumptions latent in a vanilla treebank grammar",
+      "source_id": "src_039"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Current evaluation metrics for machine translation have increasing difficulty in distinguishing good from merely fair translations. We believe the main problem to be their inability to properly capture _meaning_.",
+      "context": "From the abstract of his 2009 paper on measuring machine translation quality.",
+      "source_id": "src_039"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Evaluating machine translation quality without capturing semantic equivalence.",
+      "why_it_fails": "It leads to an inability to distinguish good translations from merely fair ones, as it focuses on formulation rather than meaning.",
+      "source_id": "src_039"
+    },
+    {
+      "description": "Relying on vanilla treebank grammars with false independence assumptions.",
+      "why_it_fails": "It limits parsing accuracy, which can be overcome by using simple, linguistically motivated state splits.",
+      "source_id": "src_039"
+    },
+    {
+      "description": "Assuming an enormous up-front data labelling effort is required to deploy a high-accuracy, low-latency classification system.",
+      "why_it_fails": "It ignores the viability of 'on-the-job' learning, where real-time crowdsourcing can resolve uncertainty dynamically as queries arrive.",
+      "source_id": "src_039"
+    }
+  ]
+}

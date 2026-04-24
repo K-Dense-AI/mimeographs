@@ -1,0 +1,75 @@
+{
+  "source_id": "src_048",
+  "summary": "A biographical overview of Thomas Edison's career, highlighting his pioneering of the industrial research laboratory, his focus on practical and profitable inventions, and his systems-level approach to electrification.",
+  "themes": [
+    "Invention",
+    "Research and Development",
+    "Electrification",
+    "Systems Thinking",
+    "Commercialization"
+  ],
+  "principles": [
+    {
+      "statement": "Pursue only inventions that are practical and profitable.",
+      "rationale": "To sustain the high costs of running a research laboratory and ensure the inventions actually reach and benefit society.",
+      "source_quote": "His method of raising money was to pursue only the inventions that were both 'practical and profitable.'",
+      "source_id": "src_048"
+    },
+    {
+      "statement": "Focus on practical results rather than theoretical knowledge.",
+      "rationale": "Edison disdained the career of a 'pure scientist', preferring to systematically test materials and build things that worked in the real world.",
+      "source_quote": "his systematic approach to inventing focused on practical results rather than theoretical knowledge.",
+      "source_id": "src_048"
+    },
+    {
+      "statement": "Create whole systems, not just isolated pieces.",
+      "rationale": "For an invention to be commercially viable and widely adopted, the entire infrastructure required to support it must also be built.",
+      "source_quote": "instead of just fabricating pieces of the electric puzzle, it was Edison’s intention to create a whole system, from electrical generation and distribution to the end products for home and business use.",
+      "source_id": "src_048"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Invention Factory",
+      "when_to_apply": "When aiming to produce marketable products more productively than a lone inventor could achieve.",
+      "steps": [
+        "Generate initial ideas for practical products.",
+        "Assign dedicated teams of researchers ('muckers') to work on specific projects.",
+        "Systematically test materials and iterate until a viable product is found.",
+        "Develop the surrounding systems required to commercialize the product."
+      ],
+      "source_quote": "Edison’s system was to come up with ideas and assign teams of researchers to work on projects, whom he referred to as 'muckers.'",
+      "source_id": "src_048"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Whole System Design",
+      "description": "Approaching a new technology not as an isolated device, but as an entire ecosystem that includes generation, distribution, and end-use products.",
+      "example": "Instead of just inventing the light bulb, Edison founded the Edison Illuminating Company, built the Pearl Street Power Station, and laid electrical conduits to deliver the necessary power.",
+      "source_id": "src_048"
+    }
+  ],
+  "heuristics": [
+    "Only pursue inventions that are both practical and profitable."
+  ],
+  "signature_quotes": [
+    {
+      "text": "practical and profitable",
+      "context": "Edison's criteria for deciding which inventions to pursue in order to fund his laboratory.",
+      "source_id": "src_048"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Acting as a 'pure scientist' focused solely on theoretical knowledge.",
+      "why_it_fails": "It fails to produce practical, marketable results that can be commercialized to fund further research.",
+      "source_id": "src_048"
+    },
+    {
+      "description": "Using Alternating Current (AC) for electrical distribution.",
+      "why_it_fails": "Edison believed AC was inherently dangerous due to its high voltages and tendency to spark, leading to fatal accidents.",
+      "source_id": "src_048"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "source_id": "src_018",
+  "summary": "This thesis summary outlines Elizabeth Anscombe's moral philosophy, emphasizing her critique of consequentialism and modern moral obligation. It highlights her belief that moral philosophy requires a foundational 'philosophy of psychology' and explores her views on intentional action, practical truth, and the absolute prohibition against killing innocents.",
+  "themes": [
+    "Moral Philosophy",
+    "Action Theory",
+    "Virtue Ethics",
+    "Consequentialism",
+    "Intentionality",
+    "Philosophy of Psychology"
+  ],
+  "principles": [
+    {
+      "statement": "Moral philosophy requires an adequate philosophy of psychology.",
+      "rationale": "Without understanding human action, intention, and virtues, moral philosophy becomes a sterile study.",
+      "source_quote": "nous manquons d’une « philosophie adéquate de la psychologie », sans laquelle la philosophie morale devient une étude stérile",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "Concepts of moral obligation should be abandoned in modern secular society.",
+      "rationale": "These concepts stem from a law-based conception of ethics (like divine law) that has lost its foundation in contemporary secular life, rendering them meaningless.",
+      "source_quote": "les concepts d’obligation morale devraient être abandonnés, car ils ne sont pas pertinents pour la société laïque contemporaine",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "Every human action is a moral action.",
+      "rationale": "Morality is not an extra ingredient added to some actions; rather, goodness or badness is an inherent property of any human action involving deliberation and choice.",
+      "source_quote": "Toute action humaine est une action morale. Elle est soit bonne, soit mauvaise (elle peut être les deux)",
+      "source_id": "src_018"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Action Under Multiple Descriptions",
+      "when_to_apply": "When evaluating the intentionality, consequences, and moral weight of a human action.",
+      "steps": [
+        "Identify the human action or movement.",
+        "Describe the action under various possible descriptions.",
+        "Determine under which specific descriptions the action is intentional, foreseen, or accidental."
+      ],
+      "source_quote": "an action can be intentional under several descriptions",
+      "source_id": "src_018"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Practical Truth",
+      "description": "Truth in agreement with right desire. A model for understanding good decisions, requiring both that the reasons are true and that the desire is right and pursues what reason affirms.",
+      "example": "Used to explain how intentional actions are linked to thoughts about good and bad, bridging Aristotelian decision-making with modern action theory.",
+      "source_id": "src_018"
+    }
+  ],
+  "heuristics": [
+    "An action can be intentional under one description and not intentional under another."
+  ],
+  "signature_quotes": [
+    {
+      "text": "an action can be intentional under several descriptions",
+      "context": "Quoted from her book 'Intention', illustrating her foundational approach to action theory.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "Toute action humaine est une action morale. Elle est soit bonne, soit mauvaise (elle peut être les deux)",
+      "context": "Explaining that morality is an inherent property of human action, not an added ingredient.",
+      "source_id": "src_018"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Consequentialism (judging the moral value of an action solely by its consequences).",
+      "why_it_fails": "It erases the difference between intended and foreseen consequences, leading to the absurd and dangerous justification of killing innocents as a means to an end.",
+      "source_id": "src_018"
+    },
+    {
+      "description": "Misusing the principle of double effect.",
+      "why_it_fails": "It blurs the distinction between 'intentional', 'foreseen', and 'accidental' consequences, often used as a poor excuse to justify the deaths of innocents (e.g., Truman's atomic bombings) as mere accidents.",
+      "source_id": "src_018"
+    }
+  ]
+}

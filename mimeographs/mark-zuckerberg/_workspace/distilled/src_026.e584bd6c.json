@@ -1,0 +1,108 @@
+{
+  "source_id": "src_026",
+  "summary": "Mark Zuckerberg discusses the evolution of social media, the return to 'OG Facebook' via the Friends tab, and the shift of intimate social interactions to messaging. He outlines his vision for the future of AI, emphasizing a diverse ecosystem of AI agents over a single monolithic assistant, and highlights the growing cultural dominance of internet creators.",
+  "themes": [
+    "Social Media Evolution",
+    "Artificial Intelligence",
+    "Creator Economy",
+    "Product Strategy",
+    "Messaging & Group Chats"
+  ],
+  "principles": [
+    {
+      "statement": "Build what people want first, figure out the business later.",
+      "rationale": "The hardest part of building a platform is creating a service that brings value and joy to users. If you achieve massive scale, monetization will naturally follow.",
+      "source_quote": "If we're able to build a service that people like and a billion or more people use it, we're gonna have a fine business, right?",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "There will not be one single AI that everyone uses.",
+      "rationale": "Different entities have different needs. Millions of small businesses will need their own customer support agents, and creators will want their own AI agents to engage with their specific communities.",
+      "source_quote": "one of my core beliefs on AI is that I don't think that there's going to be like one single AI that everyone wants to use. Um I think that there's going to be more diversity and interestingness of the content.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Intimate connections have moved to messaging.",
+      "rationale": "While social feeds have evolved to surface the best public content and entertainment, authentic, deep connections and the 'workshopping' of ideas now primarily happen in private group chats and DMs.",
+      "source_quote": "the kind of intimate connections I think have moved more to messaging.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "You must define your own narrative.",
+      "rationale": "If you do not actively shape your own story, other people will do it for you, and they will often do it inaccurately or nefariously.",
+      "source_quote": "people increasingly have an imperative to try to define their own narrative or else others will um sometimes and and often nefariously define it for you.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Creators are the new cultural relevance.",
+      "rationale": "The internet has decentralized media, allowing niche communities to thrive. Consequently, internet and social media creators have become the most esteemed and elite cultural figures of this generation.",
+      "source_quote": "I think the the cultural figures that people care about these days are creators.",
+      "source_id": "src_026"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Scale-First Product Sequencing",
+      "when_to_apply": "When building new consumer social products or major platform features.",
+      "steps": [
+        "Focus entirely on building an engaging service that people actually like and want to use.",
+        "Scale the product to a massive user base (e.g., hundreds of millions or billions of users).",
+        "Once scale and engagement are proven, focus on building the business and monetization systems around it."
+      ],
+      "source_quote": "because the kind of building the service and the content part of it is so much harder, we really just focus on that and getting that to scale and then focus on building up the business around it later.",
+      "source_id": "src_026"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Topology of Media",
+      "description": "Viewing the evolution of media from a physical/local structure (local newspapers, local TV) to an internet-enabled, interest-based structure where creators can serve highly specific, global niches that were previously unviable.",
+      "example": "Observing how early internet groups and creators grew by representing highly specific, weird, and fun interests that lacked a physical local audience but had a massive global one.",
+      "source_id": "src_026"
+    },
+    {
+      "name": "Platform Arbitrage",
+      "description": "Identifying a mismatch between user attention and creator focus on a platform. When a platform has billions of users and strong monetization but is ignored by top creators, it creates a massive 'arbitrage opportunity' for creators who choose to invest in it.",
+      "example": "Creators posting native video content to Facebook today, taking advantage of the massive user base and high ad monetization while most other creators focus primarily on YouTube or TikTok.",
+      "source_id": "src_026"
+    }
+  ],
+  "heuristics": [
+    "Build services that people like first, worry about the business later.",
+    "The 'best' content isn't just the funniest; it's what is socially relevant to you."
+  ],
+  "signature_quotes": [
+    {
+      "text": "If we're able to build a service that people like and a billion or more people use it, we're gonna have a fine business, right?",
+      "context": "Discussing the business case for building intimate, friend-to-friend connections on Facebook.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "one of my core beliefs on AI is that I don't think that there's going to be like one single AI that everyone wants to use.",
+      "context": "Explaining his divergent strategy from other tech companies regarding AI assistants.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "people increasingly have an imperative to try to define their own narrative or else others will um sometimes and and often nefariously define it for you.",
+      "context": "Reflecting on the inaccuracies of 'The Social Network' movie and the power of the internet to let individuals control their own stories.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "I think most of your interesting online experiences with friends at this point are in messaging and group chats, right?",
+      "context": "Discussing the 'dead internet theory' and where authentic human connection actually lives today.",
+      "source_id": "src_026"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Building a single, monolithic AI assistant for everyone.",
+      "why_it_fails": "It ignores the diverse needs of the internet. Small businesses need specific sales agents, creators need personalized community-engagement agents, and users want a variety of quirky, one-time-use AI experiences.",
+      "source_id": "src_026"
+    },
+    {
+      "description": "Letting others define your founding mythology or personal narrative.",
+      "why_it_fails": "People will project their own desired narratives onto you, often getting your motivations completely wrong (e.g., claiming Facebook was started to get a girlfriend).",
+      "source_id": "src_026"
+    }
+  ]
+}

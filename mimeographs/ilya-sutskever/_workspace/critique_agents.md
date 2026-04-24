@@ -1,0 +1,34 @@
+# Critique of AGENTS.md
+
+**Score:** 6/10
+
+The artifact successfully captures Sutskever's technical ML philosophy, particularly his views on scaling, prediction as compression, and the generalization gap. However, it completely omits his critical focus on AI safety and superalignment, which is a massive oversight given his recent career trajectory and the provided corpus. Additionally, there is noticeable duplication between sections and missing attributions in the frameworks.
+
+## Strengths
+
+- Accurately captures his unique analogies (15-year-old AGI, detective novel, fossil fuel) without diluting them.
+- Strong, opinionated 'Default stance' that translates his theoretical philosophy into actionable agent behavior.
+- Effectively distinguishes between the 'age of scaling' and the 'age of research' using his exact phrasing.
+
+## Issues
+
+### High
+
+- **[coverage]** _Entire Artifact_
+  - Complete omission of AI Safety, Superalignment, and the 'Parent-Child Relationship' mental model. The corpus heavily emphasizes prioritizing safe superintelligence over revenue and using superintelligence to solve alignment, but the artifact ignores this entirely despite name-dropping Safe Superintelligence Inc. in the intro.
+  - _Suggestion:_ Add a Core Principle on 'Safe Superintelligence' and a Mental Model for the 'Parent-Child Relationship' to reflect his alignment philosophy.
+
+### Medium
+
+- **[duplication]** _Core principles & Frameworks_
+  - 'Top-Down Research Taste' is repeated almost verbatim as both a Core Principle and a Framework. This is lazy authoring that wastes space.
+  - _Suggestion:_ Keep it as a Core Principle and replace the Framework with 'The Three Challenges of Superintelligence' or 'Generative Sequence Modeling with RNNs' from the corpus.
+- **[unattributed]** _Frameworks_
+  - The frameworks 'Two-Stage AI Training' and 'Domain Randomization' lack `src_XXX` citations, violating the requirement that frameworks point back to the corpus.
+  - _Suggestion:_ Append `(src_015, src_020)` to Two-Stage AI Training and `(src_019)` to Domain Randomization.
+
+### Low
+
+- **[coverage]** _Anti-patterns > Hacking RL Evals_
+  - The anti-pattern 'Hacking RL Evals' is oversurfaced. The corpus discusses RL efficiency and value functions, but does not explicitly focus on hacking evaluations as a primary anti-pattern.
+  - _Suggestion:_ Replace with an anti-pattern directly supported by the corpus, such as 'Prioritizing Revenue Over Safety' or 'Assuming AGI is an Omniscient Mind'.

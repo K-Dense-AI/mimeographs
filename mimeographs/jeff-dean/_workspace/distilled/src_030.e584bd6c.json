@@ -1,0 +1,83 @@
+{
+  "source_id": "src_030",
+  "summary": "In this podcast episode, Jeff Dean discusses the evolution of Google's AI and search stack, emphasizing the importance of owning the Pareto frontier of model performance and latency. He highlights energy-based thinking in hardware design, the necessity of distillation for efficient models, and the shift toward unified multimodal systems over symbolic or siloed approaches.",
+  "themes": [
+    "Model Scaling",
+    "Hardware Co-design",
+    "Distillation",
+    "Latency and UX",
+    "Energy-based Compute",
+    "Multimodal AI"
+  ],
+  "principles": [
+    {
+      "statement": "Bigger model, more data, better results.",
+      "rationale": "A mantra held for decades, reflecting the belief that scaling parallel training consistently leads to winning outcomes.",
+      "source_quote": "bigger model, more data, better results",
+      "source_id": "src_030"
+    },
+    {
+      "statement": "You need the biggest model to make the smallest one good.",
+      "rationale": "Distillation uses the frontier model's logits as soft supervision to compress capabilities into smaller, highly efficient models.",
+      "source_quote": null,
+      "source_id": "src_030"
+    },
+    {
+      "statement": "General multimodal models tend to dominate vertical silos.",
+      "rationale": "Unified models outperform specialized, symbolic systems by leveraging shared representations across different modalities.",
+      "source_quote": null,
+      "source_id": "src_030"
+    },
+    {
+      "statement": "Scaling isn't blind; ideas and scale multiply together.",
+      "rationale": "Raw compute isn't enough; architectural breakthroughs like transformers, sparsity, RL, and systems engineering must combine with scale to drive progress.",
+      "source_quote": "scaling wasn’t blind; the pieces had to multiply together",
+      "source_id": "src_030"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Energy-based thinking",
+      "description": "Evaluating system and hardware bottlenecks in terms of energy (picojoules per bit) rather than just FLOPs, recognizing that data movement is vastly more expensive than computation.",
+      "example": "Viewing batching and speculative decoding through the lens of energy amortization, because moving data costs 1000x more than a multiply operation.",
+      "source_id": "src_030"
+    },
+    {
+      "name": "Pareto Frontier Strategy",
+      "description": "Maintaining a dual approach to model deployment by offering both maximum-capability frontier models and highly distilled, low-latency models to cover the full spectrum of user needs.",
+      "example": "Developing both frontier 'Pro' models for complex reasoning and low-latency 'Flash' models for wide deployment.",
+      "source_id": "src_030"
+    },
+    {
+      "name": "Illusion of Scale",
+      "description": "Instead of just building larger brute-force context windows, building systems that narrow down massive datasets to a small set of highly relevant documents.",
+      "example": "Using retrieval pipelines to narrow trillions of tokens down to 117 relevant documents, giving the illusion of attending to the entire corpus.",
+      "source_id": "src_030"
+    }
+  ],
+  "heuristics": [
+    "Moving data costs 1000x more than a multiply.",
+    "Predict ML workloads 2-6 years out when co-designing hardware.",
+    "10-50x lower latency changes UX entirely."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Pareto Frontiers are good. It's good to be out there.",
+      "context": "Responding to being congratulated on owning the Pareto frontier of AI models.",
+      "source_id": "src_030"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on bigger context windows for long-context reasoning.",
+      "why_it_fails": "True scale requires systems that give the illusion of attending to trillions of tokens through retrieval, rather than just brute-forcing larger context windows.",
+      "source_id": "src_030"
+    },
+    {
+      "description": "Building specialized symbolic systems or vertical silos.",
+      "why_it_fails": "General, unified multimodal models tend to dominate and outperform vertical silos.",
+      "source_id": "src_030"
+    }
+  ]
+}

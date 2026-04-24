@@ -1,0 +1,60 @@
+{
+  "source_id": "src_015",
+  "summary": "This source outlines David Hume's skeptical epistemology, focusing on his division of ideas into memory and imagination. It highlights his three principles of association (resemblance, contiguity, cause and effect) and his rejection of both a permanent self and external causal forces in favor of mental habits.",
+  "themes": [
+    "Epistemology",
+    "Skepticism",
+    "Origin of Ideas",
+    "Causality",
+    "Personal Identity"
+  ],
+  "principles": [
+    {
+      "statement": "Our conceptions of cause-effect relations are grounded in habits of thinking.",
+      "rationale": "We do not perceive causal forces in the external world itself; rather, our minds form habits based on observation.",
+      "source_quote": "our conceptions of cause-effect relations are grounded in habits of thinking, rather than in the perception of causal forces in the external world itself.",
+      "source_id": "src_015"
+    },
+    {
+      "statement": "There is no permanent self that continues over time.",
+      "rationale": "Common notions of personal identity fail under skeptical epistemological scrutiny.",
+      "source_quote": "there is no permanent “self” that continues over time.",
+      "source_id": "src_015"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Principles of Association",
+      "when_to_apply": "When analyzing how the imagination directs and combines basic ideas to form new ones.",
+      "steps": [
+        "Identify resemblance between ideas.",
+        "Identify contiguity (closeness in time or space).",
+        "Identify cause and effect relationships."
+      ],
+      "source_quote": "As our imagination takes our most basic ideas and leads us to form new ones, it is directed by three principles of association, namely, resemblance , contiguity , and cause and effect .",
+      "source_id": "src_015"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Memory vs. Imagination",
+      "description": "A lens for categorizing how the mind produces ideas. Memory creates comparatively accurate copies of past sense impressions, whereas imagination breaks apart and combines these basic ideas to form novel concepts.",
+      "example": "The idea of a golden mountain is formed by the imagination combining the basic idea of gold with the basic idea of a mountain.",
+      "source_id": "src_015"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Accepting standard accounts of causality as an external force.",
+      "why_it_fails": "Causality is not a perceived force in the external world, but rather a habit of thinking formed by the mind.",
+      "source_id": "src_015"
+    },
+    {
+      "description": "Believing in a permanent, continuous self.",
+      "why_it_fails": "Epistemological scrutiny reveals that common notions of personal identity do not hold up, as there is no observable permanent self that persists over time.",
+      "source_id": "src_015"
+    }
+  ]
+}

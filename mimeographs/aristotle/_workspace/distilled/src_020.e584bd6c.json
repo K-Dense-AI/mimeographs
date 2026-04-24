@@ -1,0 +1,121 @@
+{
+  "source_id": "src_020",
+  "summary": "This source provides a comprehensive overview of Aristotle's foundational contributions to logic, natural philosophy, rhetoric, and poetics. It details his empirical approach to knowledge, his hylomorphic view of living things as compounds of matter and form, and his teleological understanding of nature.",
+  "themes": [
+    "Logic and Syllogism",
+    "Hylomorphism",
+    "Teleology",
+    "Rhetoric and Poetics",
+    "Natural Philosophy",
+    "Epistemology"
+  ],
+  "principles": [
+    {
+      "statement": "The validity of an argument depends on its structure, not its content.",
+      "rationale": "By abstracting the subject and predicates into variables, one can determine if a conclusion necessarily follows from its premises regardless of the specific subject matter.",
+      "source_quote": "the deductive validity of any argument can be determined by its structure rather than its content",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Knowledge of universals is actualized through induction from perceptual experience.",
+      "rationale": "We cannot grasp universal truths without first observing particulars. Repeated perception builds memory, which builds experience, which finally allows the universal concept to come to rest in the soul.",
+      "source_quote": "universals come to rest in the soul through experience, which comes about from many memories of the same thing, which in turn comes about by perception",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Happiness (eudaimonia) is achieved only through excellence.",
+      "rationale": "The best kind of human life, characterized by blessedness or true happiness, requires the cultivation of excellent habits and character.",
+      "source_quote": "it is only by becoming excellent that one could achieve eudaimonia, a sort of happiness or blessedness that constitutes the best kind of human life.",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Nature acts with purpose and does nothing without reason.",
+      "rationale": "To distinguish between living and inanimate things, one must assume that biological functions and natural changes are directed toward a final cause or end.",
+      "source_quote": "nature does nothing in vain",
+      "source_id": "src_020"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Four Causes",
+      "when_to_apply": "When completely describing a process of change or explaining the nature of a being.",
+      "steps": [
+        "Identify the material cause: the underlying matter of which the thing is composed (e.g., bronze).",
+        "Identify the formal cause: what kind of thing it is or its essential shape (e.g., a sphere).",
+        "Identify the efficient cause: the agent or force that brought the change about (e.g., the sculptor).",
+        "Identify the final cause: the purpose or end goal of the change (e.g., why the sculptor chose to make it)."
+      ],
+      "source_quote": "A process of change is completely described when its four causes are given.",
+      "source_id": "src_020"
+    },
+    {
+      "name": "Rhetorical Proof (Ethos, Pathos, Logos)",
+      "when_to_apply": "When constructing a persuasive speech to help an audience reach a judgment.",
+      "steps": [
+        "Ethos: Establish the character of the speaker to show they are worthy of credence.",
+        "Pathos: Produce the appropriate emotional state or disposition in the audience.",
+        "Logos: Demonstrate a consequence or meaning using the words and arguments themselves."
+      ],
+      "source_quote": "Proofs given in speech depend on three things: the character (ethos) of the speaker, the disposition (pathos) of the audience, and the meaning (logos) of the sounds and gestures used",
+      "source_id": "src_020"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Hylomorphism (Matter and Form)",
+      "description": "The lens of viewing natural substances as an inseparable compound of underlying material (matter) and an organizing principle or essence (form).",
+      "example": "Aristotle thinks of the body as the matter, and the psyche as the form of each living animal.",
+      "source_id": "src_020"
+    },
+    {
+      "name": "Potentiality and Actuality",
+      "description": "A model for understanding natural change over time, where a subject possesses a latent capacity (potential) that is eventually realized (actualized). The actual state is logically prior because the potential state is defined by its aim toward actualization.",
+      "example": "A natural change occurs in time arising from a potential, which is actualized when the change is complete, though there must invariably be a preexisting actuality that brings the potentiality to its own actualization.",
+      "source_id": "src_020"
+    },
+    {
+      "name": "The Square of Opposition",
+      "description": "A relational model used to test the validity of syllogisms by comparing four basic types of assertions (All S are P, No S are P, Some S are P, Some S are not P) through contradiction, contrariety, and subalternation.",
+      "example": null,
+      "source_id": "src_020"
+    }
+  ],
+  "heuristics": [
+    "Nature does nothing in vain.",
+    "The good is the most exact of measures."
+  ],
+  "signature_quotes": [
+    {
+      "text": "nature does nothing in vain",
+      "context": "Used as a foundational assumption in biology to explain teleological functions in living organisms.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "the good is the most exact of measures",
+      "context": "From the Politicus, reflecting on the ideal statesman and ethical standards.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "The ancients blessedly say that the psyche pays penalty and that our life is for the atonement of great sins.",
+      "context": "From a fragment of the Protrepticus, illustrating an early, possibly Platonic view of the soul's embodiment.",
+      "source_id": "src_020"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Attempting to demonstrate every single premise in an argument (Infinite Regress).",
+      "why_it_fails": "If every premise required a further demonstration ad infinitum, no demonstration could ever be completed. One must accept that certain starting principles are indemonstrable and known through experience.",
+      "source_id": "src_020"
+    },
+    {
+      "description": "Reductive materialism in biology and psychology.",
+      "why_it_fails": "It ignores the formal cause. The body is merely the matter; a living thing cannot be fully explained without its psyche, which is its form.",
+      "source_id": "src_020"
+    },
+    {
+      "description": "Using rhetoric as a technique for persuasion at any cost.",
+      "why_it_fails": "Rhetoric is fundamentally a second-personal way of using language to allow the auditor to reach a reasoned judgment, not a tool for manipulation as taught by some Sophists.",
+      "source_id": "src_020"
+    }
+  ]
+}

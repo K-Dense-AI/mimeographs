@@ -1,0 +1,54 @@
+{
+  "source_id": "src_037",
+  "summary": "This source is an abstract and figure summary from a prospective review article co-authored by Robert Langer. It outlines the core challenges and materials-based solutions for next-generation encapsulated cell therapies, focusing on overcoming the foreign-body response, improving mass transport, and ensuring adequate oxygenation to keep transplanted cells alive.",
+  "themes": [
+    "Biomaterials",
+    "Drug Delivery",
+    "Encapsulated Cell Therapies",
+    "Foreign-Body Response",
+    "Tissue Engineering"
+  ],
+  "principles": [
+    {
+      "statement": "Transplanted cells should be utilized as living drug factories.",
+      "rationale": "By secreting therapeutic proteins directly inside the body, transplanted cells can provide functional, continuous cures for chronic conditions like Type 1 diabetes and degenerative neural diseases.",
+      "source_quote": "Transplanted cells can act as living drug factories capable of secreting therapeutic proteins in vivo... potentially representing functional cures for chronic conditions.",
+      "source_id": "src_037"
+    },
+    {
+      "statement": "Engineered biomaterials are required to replace chronic immunosuppression in cell therapies.",
+      "rationale": "To protect transplanted cells from host immune system attacks without relying on systemic immunosuppressive drugs, cells must be encapsulated in semipermeable membranes that block immune components while allowing nutrients and therapeutic proteins to pass.",
+      "source_quote": "Encapsulating cells in engineered biomaterials capable of excluding components of the host immune system while allowing for the transport of therapeutic proteins, oxygen, nutrients, metabolites, and waste products represents a potential solution.",
+      "source_id": "src_037"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Cells as Living Drug Factories",
+      "description": "A conceptual shift from viewing transplanted cells merely as tissue replacements to viewing them as active, continuous manufacturing plants that secrete therapeutic proteins directly into the patient's body.",
+      "example": "Using encapsulated cells to treat Type 1 diabetes by having them continuously produce and secrete insulin in response to the body's needs.",
+      "source_id": "src_037"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Transplanted cells can act as living drug factories capable of secreting therapeutic proteins in vivo.",
+      "context": "Describing the ultimate promise of encapsulated cell therapies for chronic diseases.",
+      "source_id": "src_037"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on chronic immunosuppression to enable long-lived cell transplantation.",
+      "why_it_fails": "It leaves the patient vulnerable to other diseases and complications; materials-based immune isolation is a safer, more sustainable alternative.",
+      "source_id": "src_037"
+    },
+    {
+      "description": "Failing to account for the foreign-body response when designing implantable cell therapies.",
+      "why_it_fails": "The host's foreign-body response leads to fibrosis, which isolates the implanted device from native vasculature, causing hypoxia and ultimately the death of the transplanted cells.",
+      "source_id": "src_037"
+    }
+  ]
+}

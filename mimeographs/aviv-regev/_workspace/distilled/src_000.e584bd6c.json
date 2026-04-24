@@ -1,0 +1,47 @@
+{
+  "source_id": "src_000",
+  "summary": "A brief profile of Aviv Regev from Genentech's website, outlining her research focus on single-cell and spatial genomics to decipher cellular circuits. It includes her philosophy on scientific mentorship and a list of recent publications.",
+  "themes": [
+    "Mentorship",
+    "Single-cell genomics",
+    "Cellular circuits",
+    "Computational biology"
+  ],
+  "principles": [
+    {
+      "statement": "Scientific mentorship is about guiding mentees to self-start from a lack of knowledge, not just teaching facts.",
+      "rationale": "Because science is fundamentally about discovering the unknown, a mentor cannot simply impart existing knowledge or act as a manager; they must help scientists learn how to navigate into new knowledge.",
+      "source_quote": "a mentor does not simply teach existing knowledge, because science is about discovering and understand what is not yet known; and they surely do not simply manage, because to become a research scientist one must learn how to self-start from lack of knowledge to navigate into new knowledge.",
+      "source_id": "src_000"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Cells and tissues as circuits",
+      "description": "Viewing the complex molecular interactions within and between cells as 'circuits' that govern biological function in health and malfunction in disease, which can be systematically deciphered using computational and experimental methods.",
+      "example": "Developing algorithms and single-cell genomics methods to \"decipher intra- and intercellular circuits in cells in tissues.\"",
+      "source_id": "src_000"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Mentorship is a special part of every scientific endeavor: a mentor does not simply teach existing knowledge, because science is about discovering and understand what is not yet known...",
+      "context": "Describing her philosophy on postdoctoral mentorship.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "...to become a research scientist one must learn how to self-start from lack of knowledge to navigate into new knowledge.",
+      "context": "Explaining why scientific mentors must do more than simply manage their mentees.",
+      "source_id": "src_000"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating scientific mentorship as simply teaching existing knowledge or managing people.",
+      "why_it_fails": "It fails to prepare the mentee for actual scientific research, which requires the ability to self-start from a place of ignorance and navigate toward discovering what is not yet known.",
+      "source_id": "src_000"
+    }
+  ]
+}

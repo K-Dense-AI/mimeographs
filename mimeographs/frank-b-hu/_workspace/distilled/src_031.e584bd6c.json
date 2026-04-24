@@ -1,0 +1,59 @@
+{
+  "source_id": "src_031",
+  "summary": "In this 2002 paper abstract, Frank B. Hu introduces dietary pattern analysis as a complementary approach to traditional nutritional epidemiology. He argues that analyzing overall dietary patterns, rather than isolated nutrients or foods, provides a broader and potentially more predictive picture of chronic disease risk.",
+  "themes": [
+    "Nutritional Epidemiology",
+    "Dietary Pattern Analysis",
+    "Chronic Disease Risk",
+    "Holistic Nutrition"
+  ],
+  "principles": [
+    {
+      "statement": "Nutritional epidemiology should examine the effects of the overall diet rather than just individual nutrients or foods.",
+      "rationale": "Dietary patterns represent a broader picture of consumption and are likely more predictive of chronic disease risk than isolated components.",
+      "source_quote": "Conceptually, dietary patterns represent a broader picture of food and nutrient consumption, and may thus be more predictive of disease risk than individual foods or nutrients.",
+      "source_id": "src_031"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Dietary Pattern Analysis",
+      "when_to_apply": "When examining the relationship between diet and the risk of chronic diseases or mortality.",
+      "steps": [
+        "Derive dietary patterns using quantitative methods like factor or cluster analysis.",
+        "Alternatively, use dietary quality indices to evaluate adherence to a specific pattern (e.g., Mediterranean pattern) or current dietary guidelines.",
+        "Analyze the relationship between these derived patterns and the risk of diseases, such as cardiovascular disease."
+      ],
+      "source_quote": "Several studies have suggested that dietary patterns derived from factor or cluster analysis predict disease risk or mortality. In addition, there is growing interest in using dietary quality indices to evaluate whether adherence to a certain dietary pattern (e.g. Mediterranean pattern) or current dietary guidelines lowers the risk of disease.",
+      "source_id": "src_031"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Overall Diet vs. Individual Nutrients",
+      "description": "A holistic lens for nutritional epidemiology that shifts focus from isolated components (reductionism) to the broader, combined effects of a person's entire dietary intake.",
+      "example": "Evaluating adherence to the Mediterranean pattern rather than just measuring the intake of a single vitamin or macronutrient.",
+      "source_id": "src_031"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Instead of looking at individual nutrients or foods, pattern analysis examines the effects of overall diet.",
+      "context": "Explaining the shift in nutritional epidemiology methods.",
+      "source_id": "src_031"
+    },
+    {
+      "text": "Conceptually, dietary patterns represent a broader picture of food and nutrient consumption, and may thus be more predictive of disease risk than individual foods or nutrients.",
+      "context": "Providing the rationale for studying dietary patterns.",
+      "source_id": "src_031"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Exclusively looking at individual nutrients or foods to predict chronic disease risk.",
+      "why_it_fails": "It fails to capture the broader picture of food and nutrient consumption, making it less predictive of actual disease risk than overall dietary patterns.",
+      "source_id": "src_031"
+    }
+  ]
+}

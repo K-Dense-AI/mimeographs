@@ -1,0 +1,40 @@
+{
+  "source_id": "src_001",
+  "summary": "This source is an abstract for an essay reviewing strategies for creating deformable and stretchable batteries. It highlights the necessity of flexible energy storage for next-generation wearables and identifies key outstanding challenges such as energy density, packaging, and device integration.",
+  "themes": [
+    "Deformable batteries",
+    "Wearable electronics",
+    "Energy storage",
+    "Stretchable materials"
+  ],
+  "principles": [
+    {
+      "statement": "Deformable energy storage is essential for next-generation wearable electronics.",
+      "rationale": "Wearables must interface intimately with human skin, which is hindered by traditional rigid, bulky battery compartments.",
+      "source_quote": "Deformable energy storage devices are needed to power next-generation wearable electronics that interface intimately with human skin.",
+      "source_id": "src_001"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Deformable energy storage devices are needed to power next-generation wearable electronics that interface intimately with human skin.",
+      "context": "Discussing the motivation for developing stretchable batteries.",
+      "source_id": "src_001"
+    },
+    {
+      "text": "Currently, deformable energy storage devices demonstrate poor performance compared to their rigid lithium-ion counterparts, forcing wearable manufacturers to design their devices around bulky battery compartments.",
+      "context": "Highlighting the current limitations of wearable device design.",
+      "source_id": "src_001"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on rigid lithium-ion batteries for wearable electronics.",
+      "why_it_fails": "It forces manufacturers to design devices around bulky battery compartments, preventing intimate and comfortable integration with the human body.",
+      "source_id": "src_001"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "source_id": "src_000",
+  "summary": "In this interview, Ilya Sutskever argues that the AI industry is transitioning from an 'age of scaling' back to an 'age of research.' He highlights that current models generalize dramatically worse than humans, suggests that human emotions act as highly robust value functions for learning, and redefines superintelligence as a highly capable, continual learner rather than a finished mind.",
+  "themes": [
+    "The shift from scaling to research",
+    "Generalization and sample efficiency",
+    "Reinforcement learning vs. Pre-training",
+    "Emotions as biological value functions",
+    "Continual learning and the definition of AGI",
+    "Compute requirements for AI research"
+  ],
+  "principles": [
+    {
+      "statement": "We are moving from the age of scaling back to the age of research.",
+      "rationale": "For the last few years, the industry relied on the simple recipe of scaling pre-training. Now that compute is massive and data is finite, simply scaling 100x won't transform everything. We need new ideas and fundamental research to progress.",
+      "source_quote": "But now the scale is so big. Is the belief really, 'Oh, it’s so big, but if you had 100x more, everything would be so different?' It would be different, for sure. But is the belief that if you just 100x the scale, everything would be transformed? I don’t think that’s true. So it’s back to the age of research again, just with big computers.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "The most fundamental problem in AI right now is that models generalize dramatically worse than people.",
+      "rationale": "Despite massive amounts of data and compute, models lack the robustness and sample efficiency of humans, pointing to a missing fundamental machine learning principle rather than just a lack of evolutionary priors.",
+      "source_quote": "The thing which I think is the most fundamental is that these models somehow just generalize dramatically worse than people. It’s super obvious. That seems like a very fundamental thing.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "Superintelligence should be deployed as a fast learner, not a finished mind.",
+      "rationale": "The concept of AGI as a system that inherently knows how to do everything is flawed. Like a highly capable human teenager, a superintelligence will start with a foundation of skills but will need continual learning and trial-and-error on the job to master specific domains.",
+      "source_quote": "I produce a superintelligent 15-year-old that’s very eager to go. They don’t know very much at all, a great student, very eager. You go and be a programmer, you go and be a doctor, go and learn. So you could imagine that the deployment itself will involve some kind of a learning trial-and-error period.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "Value functions are necessary to make reinforcement learning efficient.",
+      "rationale": "Naive RL requires waiting until the end of a long trajectory to get a reward signal. A value function allows the model to short-circuit this wait by evaluating intermediate steps, preventing wasted compute on unpromising paths.",
+      "source_quote": "The value function lets you short-circuit the wait until the very end... My expectation is that a value function should be useful, and I fully expect that they will be used in the future, if not already.",
+      "source_id": "src_000"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Competitive Programmer Analogy",
+      "description": "A lens to understand why heavily RL-trained models fail to generalize. A model trained on massive amounts of specific RL environments is like a student who memorizes 10,000 hours of competitive programming proofs—they become the best at that specific game but lack the underlying 'it' factor (generalization) of a naturally talented student who only practiced for 100 hours.",
+      "example": "Explaining why models perform amazingly on coding evals but introduce looping bugs in real-world 'vibe coding' scenarios.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "Emotions as a Biological Value Function",
+      "description": "A metaphor for understanding human sample efficiency. Human emotions act as a built-in, highly robust value function that provides immediate feedback during continual learning (e.g., a teenager feeling unconfident while learning to drive), allowing humans to self-correct without an external teacher.",
+      "example": "Referencing a brain-damaged patient who lost emotional processing and subsequently lost the ability to make basic decisions, illustrating that emotions are critical for viable agency.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "Language Shapes Research",
+      "description": "The idea that the specific terminology adopted by the AI community dictates the direction of capital and engineering. Words like 'scaling', 'AGI', and 'pre-training' act as powerful conceptual constraints that force the entire industry into uniform behaviors.",
+      "example": "Noting that the word 'scaling' caused everyone to stop tinkering and just scale, while the word 'AGI' (a reaction to 'narrow AI') created a false expectation that a model must be able to do everything uniformly out of the box.",
+      "source_id": "src_000"
+    }
+  ],
+  "heuristics": [
+    "You don't need the absolute maximal scale of compute to prove a new research idea is correct.",
+    "If you are doing something different, you don't need to compete on raw compute scale.",
+    "Ideas are currently the bottleneck in AI, not just compute."
+  ],
+  "signature_quotes": [
+    {
+      "text": "These models somehow just generalize dramatically worse than people. It's a very fundamental thing.",
+      "context": "Discussing the core limitation of current AI systems despite their success on benchmarks.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "Up until 2020, from 2012 to 2020, it was the age of research. Now, from 2020 to 2025, it was the age of scaling... So it’s back to the age of research again, just with big computers.",
+      "context": "Explaining the historical eras of deep learning and where the field is heading next.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "One consequence of the age of scaling is that scaling sucked out all the air in the room. Because scaling sucked out all the air in the room, everyone started to do the same thing.",
+      "context": "Discussing why there is currently a lack of diverse ideas in the AI industry.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "We are in a world where there are more companies than ideas by quite a bit.",
+      "context": "Commenting on the current state of the AI startup ecosystem.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "I produce a superintelligent 15-year-old that’s very eager to go. They don’t know very much at all, a great student, very eager. You go and be a programmer, you go and be a doctor, go and learn.",
+      "context": "Describing his vision for what the deployment of a superintelligence will actually look like.",
+      "source_id": "src_000"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Researchers inadvertently hacking the reward by designing RL environments specifically to pass public evals.",
+      "why_it_fails": "It creates models that are single-minded and narrowly focused on benchmarks. They perform incredibly well on tests but fail at basic, real-world tasks (like fixing a bug without re-introducing a previous one) because they lack true generalization.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Believing that simply scaling compute by 100x will automatically transform AI capabilities.",
+      "why_it_fails": "The obvious recipe (pre-training on all text) is running out of data. Without new research ideas and better generalization techniques, raw compute scaling has diminishing returns.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Defining AGI as a system that inherently knows how to do every job uniformly.",
+      "why_it_fails": "It overshoots the target and ignores how intelligence actually works. Even humans rely heavily on continual learning and trial-and-error to acquire specific knowledge.",
+      "source_id": "src_000"
+    }
+  ]
+}

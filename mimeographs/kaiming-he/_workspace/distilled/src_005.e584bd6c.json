@@ -1,0 +1,29 @@
+{
+  "source_id": "src_005",
+  "summary": "An abstract for Kaiming He's 2023 talk at Princeton University, outlining his past work on ResNets and object detection, and his current focus on visual self-supervised learning and its potential application to broader scientific observations.",
+  "themes": [
+    "Computer Vision",
+    "Deep Learning",
+    "Self-Supervised Learning",
+    "ResNets"
+  ],
+  "principles": [
+    {
+      "statement": "Complex visual problems should be solved using simple and intuitive methods.",
+      "rationale": "Despite the intrinsic complexity of visual perception, the most effective deep learning solutions for tasks like object detection and segmentation are those designed to be straightforward and intuitive.",
+      "source_quote": "enabling deep learning to solve complex object detection and segmentation problems in simple and intuitive ways.",
+      "source_id": "src_005"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "The intrinsic complexity of visual perception problems urged the community to explore effective methods for learning abstractions from data.",
+      "context": "Discussing the origins of the deep learning revolution in computer vision.",
+      "source_id": "src_005"
+    }
+  ],
+  "anti_patterns": []
+}

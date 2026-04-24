@@ -1,0 +1,904 @@
+{
+  "total": 65,
+  "verified": 52,
+  "unverified": [
+    {
+      "category": "principles",
+      "label": "RLHF is Fundamentally Ungrounded",
+      "quote": "I want to say that when we train a system from human feedback that it is not grounded... it's like the human is prejudging the output of the system.",
+      "source_ids": [
+        "src_013",
+        "src_019"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7702702702702703
+    },
+    {
+      "category": "principles",
+      "label": "Creativity is Trial-and-Error Learning",
+      "quote": "The whole process of trial-and-error learning... is a process of creativity. ... The process is a million mini discoveries, one after the other. It is the essence of creativity.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6949152542372882
+    },
+    {
+      "category": "principles",
+      "label": "RL Breaks the IID Assumption",
+      "quote": "we're not talking about IID data here... the agent is actually influencing the data that it sees this is like an active learning process",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8088235294117647
+    },
+    {
+      "category": "frameworks",
+      "label": "Zero-Knowledge Self-Play Loop (AlphaZero)",
+      "quote": "you take the best move according to your search and you train your policy to do more things like that... and you train your value function based on how the game actually panned out... You just iterate that millions of times and out pops a superhuman game player.",
+      "source_ids": [
+        "src_014",
+        "src_004",
+        "src_013",
+        "src_019"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5877862595419847
+    },
+    {
+      "category": "frameworks",
+      "label": "Autonomous RL Rule Discovery (DiscoRL)",
+      "quote": "During the discovery process, we instantiate a population of agents, each of which interacts with its own instance of an environment taken from a diverse set of challenging tasks... We then use the meta-gradient method to incrementally improve the RL rule.",
+      "source_ids": [
+        "src_050"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.796875
+    },
+    {
+      "category": "frameworks",
+      "label": "RL Agent Decomposition",
+      "quote": "how do you solve a really hard problem like that? Well, one approach you can take is, is to decompose that that very hard problem into into pieces... whether or not that solution has a value function... a policy... a model...",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7866666666666666
+    },
+    {
+      "category": "frameworks",
+      "label": "RL Agent Taxonomy",
+      "quote": "an RL agent may include one of these three things these are the main objects for reinforcement... a policy... a value function... a model",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7664233576642335
+    },
+    {
+      "category": "mental_models",
+      "label": "Fossil Fuels vs. Sustainable Energy",
+      "quote": "human data might give us a head start. It's a bit like to to borrow a metaphor fossil fuels... And I think that's what reinforcement learning is. It's a sustainable fuel.",
+      "source_ids": [
+        "src_014",
+        "src_013",
+        "src_019"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.611764705882353
+    },
+    {
+      "category": "mental_models",
+      "label": "State as a Summary of History",
+      "quote": "the history isn't very useful useful because it's typically enormous... and we don't want to have to go back to this history every time",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7037037037037037
+    },
+    {
+      "category": "mental_models",
+      "label": "The Cake Recipe Grounding Metaphor",
+      "quote": "I want to say that when we train a system from human feedback that it is not grounded... it's like the human is prejudging the output of the system.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7702702702702703
+    },
+    {
+      "category": "signature_quotes",
+      "label": "RL as sustainable fuel",
+      "quote": "human data might give us a head start. It's a bit like to to borrow a metaphor fossil fuels... And I think that's what reinforcement learning is. It's a sustainable fuel.",
+      "source_ids": [
+        "src_013",
+        "src_019"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.611764705882353
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Ungrounded RLHF",
+      "quote": "I want to say that when we train a system from human feedback that it is not grounded... it's like the human is prejudging the output of the system.",
+      "source_ids": [
+        "src_013",
+        "src_019"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7702702702702703
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Model-Free vs Model-Based",
+      "quote": "perhaps the fundamental distinction in RL is between model free and modelbased reinforcement learning",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7821782178217822
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "The Era of Experience Over Human Data",
+      "quote": "human data, the era of human data in itself leads to AI systems that can't in isolation go all the way to super intelligence. Why is that? Well, it's because they can't discover new knowledge.",
+      "source_ids": [
+        "src_014",
+        "src_007",
+        "src_013",
+        "src_019",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Tabula Rasa Learning Surpasses Human Expertise",
+      "quote": "Our results comprehensively demonstrate that a pure reinforcement learning approach is fully feasible, even in the most challenging of domains: it is possible to train to superhuman level, without human examples or guidance, given no knowledge of the domain beyond basic rules.",
+      "source_ids": [
+        "src_049",
+        "src_044",
+        "src_041",
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_049",
+      "match_ratio": 0.9927797833935018
+    },
+    {
+      "category": "principles",
+      "label": "The Purity of Self-Learning (The Bitter Lesson)",
+      "quote": "If you throw out the human data, you actually spend more effort on how the system can learn for itself. And that's the part which can then learn and learn and learn forever.",
+      "source_ids": [
+        "src_020",
+        "src_004",
+        "src_013",
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Generality Over Domain Specificity",
+      "quote": "...a general-purpose reinforcement learning algorithm can achieve, tabula rasa, superhuman performance across many challenging domains.",
+      "source_ids": [
+        "src_044",
+        "src_041"
+      ],
+      "verified": true,
+      "matched_source_id": "src_041",
+      "match_ratio": 0.9407407407407408
+    },
+    {
+      "category": "principles",
+      "label": "RLHF is Fundamentally Ungrounded",
+      "quote": "I want to say that when we train a system from human feedback that it is not grounded... it's like the human is prejudging the output of the system.",
+      "source_ids": [
+        "src_013",
+        "src_019"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7702702702702703
+    },
+    {
+      "category": "principles",
+      "label": "The Beauty of Diverse Intelligence",
+      "quote": "why not build systems which are doing things which humans can't do, which are, you know, actually occupying a different niche in the space of intelligence and have their own strengths and and and weaknesses.",
+      "source_ids": [
+        "src_007",
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_007",
+      "match_ratio": 0.9082125603864735
+    },
+    {
+      "category": "principles",
+      "label": "Autonomous Algorithm Discovery",
+      "quote": "Unlike humans, whose learning mechanism has been naturally discovered by biological evolution, RL algorithms are typically manually designed. This is usually slow and laborious, and limited by reliance on human knowledge and intuition.",
+      "source_ids": [
+        "src_050"
+      ],
+      "verified": true,
+      "matched_source_id": "src_050",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Big Worlds as Occam's Razor",
+      "quote": "In contrast, big worlds act as a form of Occam’s razor, with only the simplest and clearest ideas achieving success.",
+      "source_ids": [
+        "src_052"
+      ],
+      "verified": true,
+      "matched_source_id": "src_052",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Creativity is Trial-and-Error Learning",
+      "quote": "The whole process of trial-and-error learning... is a process of creativity. ... The process is a million mini discoveries, one after the other. It is the essence of creativity.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6949152542372882
+    },
+    {
+      "category": "principles",
+      "label": "Deterministic Policy Gradients Efficiency",
+      "quote": "In the stochastic case, the policy gradient integrates over both state and action spaces, whereas in the deterministic case it only integrates over the state space.",
+      "source_ids": [
+        "src_046"
+      ],
+      "verified": true,
+      "matched_source_id": "src_046",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Glorious Failure Over Incremental Success",
+      "quote": "it's much better, in my opinion, to, try and do something glorious in research, and maybe fail, than it is to do something you know is incremental, and be guaranteed to succeed.",
+      "source_ids": [
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Intelligence Formalized as Reinforcement Learning",
+      "quote": "I see the problem of intelligence. I would say it can be formalised as the reinforcement learning problem and that that formalization is enough to capture most, if not all, of the things that we mean by intelligence",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Limitations of Model-Based RL",
+      "quote": "Model-based RL is only as good as the estimated model",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "MCTS Scales Better Than Alpha-Beta",
+      "quote": "AlphaZero’s MCTS scaled more effectively with thinking time than either Stockfish or Elmo, calling into question the widely held belief that alpha-beta search is inherently superior in these domains.",
+      "source_ids": [
+        "src_041"
+      ],
+      "verified": true,
+      "matched_source_id": "src_041",
+      "match_ratio": 0.9095477386934674
+    },
+    {
+      "category": "principles",
+      "label": "RL Breaks the IID Assumption",
+      "quote": "we're not talking about IID data here... the agent is actually influencing the data that it sees this is like an active learning process",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8088235294117647
+    },
+    {
+      "category": "principles",
+      "label": "Simple Ideas Generalize Best",
+      "quote": "I think it's likely to be the case that it's the simple, clear ideas which will have the longest legs and which will carry us further into the future.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Stochastic Policies for State Aliasing",
+      "quote": "Whenever state aliasing occurs a stochastic policy can do better than a deterministic policy",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Temporality and Local Evaluation",
+      "quote": "Rather than trying to approximate the entire state space, our idea is to specialise the evaluation function to the current region of the state space.",
+      "source_ids": [
+        "src_052"
+      ],
+      "verified": true,
+      "matched_source_id": "src_052",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Markov Property for State",
+      "quote": "if you have the mark of property then the future is independent of the past given the present in other words that you only need to store this St here... you can throw away the whole rest of the history",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 0.845771144278607
+    },
+    {
+      "category": "principles",
+      "label": "The Reward Hypothesis",
+      "quote": "all goals can be described by the maximization of expected cumulative reward.",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 0.987012987012987
+    },
+    {
+      "category": "frameworks",
+      "label": "Zero-Knowledge Self-Play Loop (AlphaZero)",
+      "quote": "you take the best move according to your search and you train your policy to do more things like that... and you train your value function based on how the game actually panned out... You just iterate that millions of times and out pops a superhuman game player.",
+      "source_ids": [
+        "src_014",
+        "src_004",
+        "src_013",
+        "src_019"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5877862595419847
+    },
+    {
+      "category": "frameworks",
+      "label": "AlphaZero Self-Play Reinforcement Learning",
+      "quote": "The main idea of our reinforcement learning algorithm is to use these search operators repeatedly in a policy iteration procedure: the neural network’s parameters are updated to make the move probabilities and value more closely match the improved search probabilities and self-play winner.",
+      "source_ids": [
+        "src_049",
+        "src_041",
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_049",
+      "match_ratio": 0.8206896551724138
+    },
+    {
+      "category": "frameworks",
+      "label": "The Rising Tide Problem Selection",
+      "quote": "picking a good problem is about picking something which is just the right height above the tide that you know it's it's feasible like it's going to be cracked within the next you know a couple of years.",
+      "source_ids": [
+        "src_007",
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_007",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Autonomous RL Rule Discovery (DiscoRL)",
+      "quote": "During the discovery process, we instantiate a population of agents, each of which interacts with its own instance of an environment taken from a diverse set of challenging tasks... We then use the meta-gradient method to incrementally improve the RL rule.",
+      "source_ids": [
+        "src_050"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.796875
+    },
+    {
+      "category": "frameworks",
+      "label": "Compatible Off-Policy Deterministic Actor-Critic (COPDAC)",
+      "quote": "The basic idea is to choose actions according to a stochastic behaviour policy (to ensure adequate exploration), but to learn about a deterministic target policy (exploiting the efficiency of the deterministic policy gradient).",
+      "source_ids": [
+        "src_046"
+      ],
+      "verified": true,
+      "matched_source_id": "src_046",
+      "match_ratio": 0.9911894273127754
+    },
+    {
+      "category": "frameworks",
+      "label": "Deep Q-Networks (DQN)",
+      "quote": "DQN uses experience replay and fixed Q-targets",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Dyna-2 Architecture",
+      "quote": "The temporal-difference learning algorithm acquires general domain knowledge from its past interactions with the world. In contrast, the temporal-difference search algorithm acquires local knowledge that is specialised to the current state... We combine both forms of knowledge together in the Dyna-2 architecture.",
+      "source_ids": [
+        "src_052"
+      ],
+      "verified": true,
+      "matched_source_id": "src_052",
+      "match_ratio": 0.8343949044585988
+    },
+    {
+      "category": "frameworks",
+      "label": "RL Agent Decomposition",
+      "quote": "how do you solve a really hard problem like that? Well, one approach you can take is, is to decompose that that very hard problem into into pieces... whether or not that solution has a value function... a policy... a model...",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7866666666666666
+    },
+    {
+      "category": "frameworks",
+      "label": "RL Agent Taxonomy",
+      "quote": "an RL agent may include one of these three things these are the main objects for reinforcement... a policy... a value function... a model",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7664233576642335
+    },
+    {
+      "category": "mental_models",
+      "label": "Fossil Fuels vs. Sustainable Energy",
+      "quote": "human data might give us a head start. It's a bit like to to borrow a metaphor fossil fuels... And I think that's what reinforcement learning is. It's a sustainable fuel.",
+      "source_ids": [
+        "src_014",
+        "src_013",
+        "src_019"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.611764705882353
+    },
+    {
+      "category": "mental_models",
+      "label": "Games as Microcosms",
+      "quote": "I think it's really important you know we're always trying to find like microcosms of the world that allow you to kind of um do research on important aspects of the world without having to do you know really build a robot",
+      "source_ids": [
+        "src_007",
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_007",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Learning vs. Planning",
+      "quote": "in RL the environment is unknown in planning the environment is known",
+      "source_ids": [
+        "src_015",
+        "src_052"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "\"Human-like\" Selective Search",
+      "quote": "AlphaZero compensates for the lower number of evaluations by using its deep neural network to focus much more selectively on the most promising variations – arguably a more 'human-like' approach to search...",
+      "source_ids": [
+        "src_041"
+      ],
+      "verified": true,
+      "matched_source_id": "src_041",
+      "match_ratio": 0.961352657004831
+    },
+    {
+      "category": "mental_models",
+      "label": "Biological Evolution as Meta-Learning",
+      "quote": "Unlike humans, whose learning mechanism has been naturally discovered by biological evolution, RL algorithms are typically manually designed.",
+      "source_ids": [
+        "src_050"
+      ],
+      "verified": true,
+      "matched_source_id": "src_050",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Exploration vs. Exploitation Tradeoff",
+      "quote": "exploration means choosing to give up some reward that you know about in order to find out more about the environment",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "High-Dimensional Escapes",
+      "quote": "...in high dimensions, when we make really big neural nets, there's always a way out and there's a way to go even lower.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 0.975
+    },
+    {
+      "category": "mental_models",
+      "label": "State as a Summary of History",
+      "quote": "the history isn't very useful useful because it's typically enormous... and we don't want to have to go back to this history every time",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7037037037037037
+    },
+    {
+      "category": "mental_models",
+      "label": "The Cake Recipe Grounding Metaphor",
+      "quote": "I want to say that when we train a system from human feedback that it is not grounded... it's like the human is prejudging the output of the system.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7702702702702703
+    },
+    {
+      "category": "mental_models",
+      "label": "The Shallow vs. Deep Problem of AI",
+      "quote": "The shallow problem is basically you know how can you distill all the knowledge that's already out there into an agent.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Value Function as an Oscilloscope",
+      "quote": "this thing is like it's a cillos scope of how well it's doing at any given moment in time it can be used to make decisions",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Throw out human data to break ceilings",
+      "quote": "If you throw out the human data, you actually spend more effort on how the system can learn for itself.",
+      "source_ids": [
+        "src_013",
+        "src_019",
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Target the 50/50 sweet spot",
+      "quote": "I try to choose problems where I I believe that the chance of success is is, at most 50%.",
+      "source_ids": [
+        "src_018",
+        "src_007"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Train from Experience to Break the Human Ceiling",
+      "quote": "a system that's trained solely from human knowledge doesn't have the ability to discover new knowledge or new paradigms that aren't already in the human data.",
+      "source_ids": [
+        "src_049",
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Find a microcosm",
+      "quote": "we're always trying to find like microcosms of the world that allow you to kind of um do research on important aspects of the world without having to do you know really build a robot",
+      "source_ids": [
+        "src_007"
+      ],
+      "verified": true,
+      "matched_source_id": "src_007",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Find the native fit",
+      "quote": "not all problems are best suited to RL. You know, you really have to find the problems which are, natively better understood in a different way.",
+      "source_ids": [
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Think Ahead, Don't Be Greedy",
+      "quote": "you can't be greedy when you do reinforcement learning you have to think ahead",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Update a Guess from a Guess",
+      "quote": "Bootstrapping is a general method for reducing the variance of an estimate, by updating a guess from a guess.",
+      "source_ids": [
+        "src_052"
+      ],
+      "verified": true,
+      "matched_source_id": "src_052",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "RL as sustainable fuel",
+      "quote": "human data might give us a head start. It's a bit like to to borrow a metaphor fossil fuels... And I think that's what reinforcement learning is. It's a sustainable fuel.",
+      "source_ids": [
+        "src_013",
+        "src_019"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.611764705882353
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Limits of Human Data",
+      "quote": "a system that's trained solely from human knowledge doesn't have the ability to discover new knowledge or new paradigms that aren't already in the human data.",
+      "source_ids": [
+        "src_012",
+        "src_014"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Ungrounded RLHF",
+      "quote": "I want to say that when we train a system from human feedback that it is not grounded... it's like the human is prejudging the output of the system.",
+      "source_ids": [
+        "src_013",
+        "src_019"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7702702702702703
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Big Worlds as Occam's Razor",
+      "quote": "In contrast, big worlds act as a form of Occam’s razor, with only the simplest and clearest ideas achieving success.",
+      "source_ids": [
+        "src_052"
+      ],
+      "verified": true,
+      "matched_source_id": "src_052",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Building AI that learns for itself",
+      "quote": "I build AI that learns for itself to solve problems that humans can’t.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Formalizing intelligence",
+      "quote": "I see the problem of intelligence. I would say it can be formalised as the reinforcement learning problem and that that formalization is enough to capture most, if not all, of the things that we mean by intelligence.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 0.9953703703703703
+    },
+    {
+      "category": "signature_quotes",
+      "label": "General-Purpose Superhuman Performance",
+      "quote": "...a general-purpose reinforcement learning algorithm can achieve, tabula rasa, superhuman performance across many challenging domains.",
+      "source_ids": [
+        "src_041"
+      ],
+      "verified": true,
+      "matched_source_id": "src_041",
+      "match_ratio": 0.9407407407407408
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Glorious failure",
+      "quote": "it's much better, in my opinion, to, try and do something glorious in research, and maybe fail, than it is to do something you know is incremental, and be guaranteed to succeed.",
+      "source_ids": [
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Model-Based RL Limitations",
+      "quote": "Model-based RL is only as good as the estimated model",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Model-Free vs Model-Based",
+      "quote": "perhaps the fundamental distinction in RL is between model free and modelbased reinforcement learning",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7821782178217822
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Monte-Carlo Off-Policy Failure",
+      "quote": "Monte-Carlo learning is a really bad idea off-policy, it does not work because over many steps, your target policy and your behavior policy never match enough to be useful",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Stochastic Policy Advantage",
+      "quote": "Whenever state aliasing occurs a stochastic policy can do better than a deterministic policy",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Tabula Rasa Goal",
+      "quote": "A long-standing goal of artificial intelligence is an algorithm that learns, tabula rasa, superhuman proficiency in challenging domains.",
+      "source_ids": [
+        "src_049"
+      ],
+      "verified": true,
+      "matched_source_id": "src_049",
+      "match_ratio": 0.875
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The beauty of intelligence",
+      "quote": "We should do this not because of what it does or how it helps us, but because intelligence is a beautiful thing.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Bottleneck of Manual Design",
+      "quote": "Unlike humans, whose learning mechanism has been naturally discovered by biological evolution, RL algorithms are typically manually designed. This is usually slow and laborious, and limited by reliance on human knowledge and intuition.",
+      "source_ids": [
+        "src_050"
+      ],
+      "verified": true,
+      "matched_source_id": "src_050",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The essence of creativity",
+      "quote": "The process is a million mini discoveries, one after the other. It is the essence of creativity.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Reward Hypothesis",
+      "quote": "all goals can be described by the maximization of expected cumulative reward.",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 0.987012987012987
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Monte-Carlo for Off-Policy Control",
+      "quote": "Monte-Carlo learning is a really bad idea off-policy, it does not work because over many steps, your target policy and your behavior policy never match enough to be useful",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    }
+  ]
+}

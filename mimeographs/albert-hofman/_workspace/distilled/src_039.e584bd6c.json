@@ -1,0 +1,61 @@
+{
+  "source_id": "src_039",
+  "summary": "This source is an abstract for a 2014 paper co-authored by Albert Hofman, proposing a conceptual framework for child health to be used in healthy ageing research. It argues that ageing research must adopt a life-course perspective, starting in childhood rather than focusing exclusively on the elderly.",
+  "themes": [
+    "Healthy Ageing",
+    "Life-course Epidemiology",
+    "Child Health",
+    "Preventive Medicine"
+  ],
+  "principles": [
+    {
+      "statement": "Healthy ageing research must include younger populations and start in childhood.",
+      "rationale": "The ageing process begins much earlier than old age, making childhood a critical window to establish a foundation for lifelong health.",
+      "source_quote": "Childhood offers an important window to lay a base for future healthy ageing. Thus, to address the full ageing process, we should include younger populations in ageing research.",
+      "source_id": "src_039"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Five Core Dimensions of Child Health",
+      "when_to_apply": "When designing studies or frameworks for healthy ageing across the life course to measure health at younger ages.",
+      "steps": [
+        "Assess for the absence of physical disease.",
+        "Assess for the absence of psychiatric disorders.",
+        "Evaluate for optimal physical, mental, and social functioning, including adequate development.",
+        "Measure quality of life or well-being.",
+        "Determine the presence of adequate resilience."
+      ],
+      "source_quote": "We propose five core dimensions of child health: Absence of physical disease; absence of psychiatric disorders; optimal physical, mental, and social functioning, including adequate development; good quality of life or well-being; and adequate resilience.",
+      "source_id": "src_039"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Life-course perspective on ageing",
+      "description": "Viewing ageing not as a static phase that begins in late adulthood, but as a continuous, lifelong process that begins in childhood.",
+      "example": "Studying child health metrics (like resilience and optimal functioning) as early indicators and foundational elements of healthy ageing in later life.",
+      "source_id": "src_039"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Childhood offers an important window to lay a base for future healthy ageing. Thus, to address the full ageing process, we should include younger populations in ageing research.",
+      "context": "Arguing for a life-course approach to ageing research.",
+      "source_id": "src_039"
+    },
+    {
+      "text": "[Child health is] a dynamic state, not merely the absence of disease or disability, but also adequate resilience that permits optimal physical, mental, and social functioning, and optimal quality of life in order to achieve full potential and to become an independent, functional, and social individual.",
+      "context": "Defining child health in the context of healthy ageing research.",
+      "source_id": "src_039"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Focusing healthy ageing research and interventions exclusively on the elderly.",
+      "why_it_fails": "It ignores the fact that the ageing process starts much earlier, missing the critical childhood window where the foundation for future healthy ageing is laid.",
+      "source_id": "src_039"
+    }
+  ]
+}

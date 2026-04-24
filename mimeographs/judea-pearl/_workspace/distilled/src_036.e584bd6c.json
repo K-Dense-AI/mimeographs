@@ -1,0 +1,80 @@
+{
+  "source_id": "src_036",
+  "summary": "In this blog post and its comments section, Judea Pearl discusses the necessity of explicit assumptions in causal inference and defends causal diagrams against traditional statistical approaches. He critiques the reduction of causal inference to a missing data problem and argues that causal graphs are not just communication tools, but powerful inference engines.",
+  "themes": [
+    "Causal Inference",
+    "Missing Data",
+    "Causal Diagrams / Graphs",
+    "Structural Equations vs. Regression",
+    "Transparency of Assumptions"
+  ],
+  "principles": [
+    {
+      "statement": "All causal conclusions in nonexperimental settings must be based on untested, judgmental assumptions.",
+      "rationale": "Investigators must be prepared to defend these assumptions on scientific grounds, as they cannot be derived purely from data.",
+      "source_quote": "ALL causal conclusions in nonexperimental settings must be based on untested, judgmental assumptions that investigators are prepared to defend on scientific grounds.",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Explicit assumptions invite criticism, which is why people avoid them.",
+      "rationale": "Causal diagrams make assumptions highly transparent, which makes them a target for harsh criticism. This honesty is self-destructive but scientifically necessary.",
+      "source_quote": "Assumptions are self-destructive in their honesty. The more explicit the assumption, the more criticism it invites . . . causal diagrams invite the harshest criticism because they make assumptions more explicit and more transparent than other representation schemes.",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Potential outcomes are simply abbreviations of structural equations.",
+      "rationale": "They should not be confused with standard statistical regression models; they inherently represent structural, causal relationships.",
+      "source_quote": "potential outcomes should not be confusing, because they are nothing but abbreviations of structural equations (not regression ,as you stated, but structural).",
+      "source_id": "src_036"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Graphs as Inference Engines",
+      "description": "Viewing causal diagrams not merely as visual aids or neat ways to communicate assumptions, but as 'hidden calculators' that automatically compute all logical and testable implications of those assumptions (e.g., conditional independencies via d-separation).",
+      "example": "Using d-separation in a causal graph to get conditional independencies for free, rather than attempting to derive them manually using Graphoid axioms.",
+      "source_id": "src_036"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "ALL causal conclusions in nonexperimental settings must be based on untested, judgmental assumptions that investigators are prepared to defend on scientific grounds.",
+      "context": "Quoted by Andrew Gelman from Pearl's overview on causal inference.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "Assumptions are self-destructive in their honesty. The more explicit the assumption, the more criticism it invites . . . causal diagrams invite the harshest criticism because they make assumptions more explicit and more transparent than other representation schemes.",
+      "context": "Explaining why researchers are often reluctant to use causal diagrams.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "People think that graphs are merely a neat way of communicating causal assumptions, and no more. What they do not realize is that graphs are hidden calculators, or inference engines, that compute for us ALL the logical implications of the assumptions...",
+      "context": "Commenting on a new theory for why people are reluctant to adopt causal graphs.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "Should we continue to rejoice the reduction from causal to statistical conceptualization of the problem?",
+      "context": "Questioning Rubin's old mantra that 'causal inference is a missing data problem' in light of modern graphical tools.",
+      "source_id": "src_036"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Reducing causal inference entirely to a statistical missing data problem.",
+      "why_it_fails": "It relies on assumptions like Missing At Random (MAR), which amounts to knowing the very distribution you are trying to estimate. It ignores the transparency and power provided by structural equations and the do(x) operator.",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Relying on traditional missing data classifications (MCAR, MAR, MNAR).",
+      "why_it_fails": "These definitions are incomprehensible to the typical user who actually has to determine if a given problem falls under them. They need to be replaced with 'humanized' classifications using causal graphs.",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Keeping assumptions under the rug.",
+      "why_it_fails": "It prevents the assumptions from being explicitly tested or criticized, which hinders scientific progress and understanding of what the world must be like for a procedure to work.",
+      "source_id": "src_036"
+    }
+  ]
+}

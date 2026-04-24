@@ -1,0 +1,108 @@
+{
+  "source_id": "src_023",
+  "summary": "Dr. Fei-Fei Li discusses her journey from a Chinese immigrant to an AI pioneer. She details the creation of ImageNet, emphasizing that scientific breakthroughs are a lineage rather than the work of lone geniuses. She also advocates for human-centered AI, describing AI as a civilizational technology, and introduces her current work on spatial intelligence at World Labs.",
+  "themes": [
+    "AI History",
+    "Human-Centered AI",
+    "Spatial Intelligence",
+    "Scientific Process",
+    "Immigration & Upbringing"
+  ],
+  "principles": [
+    {
+      "statement": "Science is a non-linear lineage, not the work of a single genius.",
+      "rationale": "Scientific breakthroughs build upon generations of unsung heroes and cross-disciplinary ideas, rather than isolated individuals.",
+      "source_quote": "One thing I actually don't like about the telling of scientific history is there's too much focus on single genius... science is a lineage and science is actually a non-linear lineage.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "People must remain at the heart of AI development.",
+      "rationale": "AI is a civilizational technology that will impact everyone, so human dignity and agency must be preserved and prioritized over pure technological growth.",
+      "source_quote": "People made AI, people will be using AI, people will be impacted by AI, and people should have a say in AI.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Ask audacious questions and turn them into a North Star.",
+      "rationale": "Having a massive, guiding question drives meaningful scientific pursuit and helps formulate the right hypotheses.",
+      "source_quote": "physics taught me to ask audacious questions and turn them into a north star.",
+      "source_id": "src_023"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Dataset Hypothesis Formulation",
+      "when_to_apply": "When building large-scale datasets to solve complex AI problems.",
+      "steps": [
+        "Define the right scientific hypothesis and question (e.g., organizing around visual object categorization rather than just RGB colors).",
+        "Determine the dimensions of quality (e.g., resolution, photorealism, clutter).",
+        "Source massive amounts of data (e.g., filtering billions of images).",
+        "Implement rigorous human-filtering and quality control, using known 'gold standard' answers to implicitly monitor labeler accuracy."
+      ],
+      "source_quote": "Every scientific quest, you have to have the right hypothesis and asking the right question.",
+      "source_id": "src_023"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Civilizational Technology",
+      "description": "A technology so powerful that it fundamentally redefines the economic, social, cultural, and political downstream effects of society.",
+      "example": "AI driving a massive portion of US GDP growth while simultaneously shifting culture across Hollywood, Wall Street, and education.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "Spatial Intelligence",
+      "description": "The cognitive loop between seeing, understanding a 3D environment, and interacting with it.",
+      "example": "Packing a sandwich: recognizing the bread, knowing how to use a knife, placing the lettuce, and putting it into a Ziploc bag.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "Pragmatic Optimism",
+      "description": "A worldview that avoids utopian extremes but actively believes in the upside of technology and human agency to build a better civilization.",
+      "example": null,
+      "source_id": "src_023"
+    }
+  ],
+  "heuristics": [
+    "Turn audacious questions into a North Star.",
+    "Big data is not just size; it requires the right scientific hypothesis."
+  ],
+  "signature_quotes": [
+    {
+      "text": "AI is absolutely a civilizational technology.",
+      "context": "Describing the profound economic, social, and cultural impact of AI.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "People made AI, people will be using AI, people will be impacted by AI, and people should have a say in AI.",
+      "context": "Explaining what Silicon Valley is missing in the current AI hype.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "I call myself a pragmatic optimist. I'm not a utopian, so I'm actually the boring kind.",
+      "context": "Describing her stance on the future of AI amidst doomer and utopian extremes.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "One thing I actually don't like about the telling of scientific history is there's too much focus on single genius.",
+      "context": "Discussing how ImageNet was built upon the work of many prior scientists.",
+      "source_id": "src_023"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "The 'Single Genius' narrative in science.",
+      "why_it_fails": "It ignores the generations of computer scientists, cognitive scientists, and engineers who actually make fields like AI happen, obscuring the true collaborative nature of innovation.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Focusing solely on technology and economic growth in AI discussions.",
+      "why_it_fails": "It strips away human dignity and agency, causing anxiety and alienating the people who will be most impacted by the technology.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Assuming big data is only about collecting a massive volume of data.",
+      "why_it_fails": "Without asking the right scientific question or defining quality dimensions (e.g., organizing around objects vs. RGB), the data won't solve the underlying problem.",
+      "source_id": "src_023"
+    }
+  ]
+}

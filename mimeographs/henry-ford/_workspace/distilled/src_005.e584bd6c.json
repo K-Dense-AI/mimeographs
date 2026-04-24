@@ -1,0 +1,48 @@
+{
+  "source_id": "src_005",
+  "summary": "An Amazon product page for Henry Ford's autobiography, 'My Life & Work'. While the primary text is absent, detailed customer reviews summarize Ford's core business philosophies, including his focus on service over profit, continuous price reduction, high worker wages, and his deep distrust of financiers and bankers.",
+  "themes": [
+    "Business Philosophy",
+    "Manufacturing Efficiency",
+    "Service over Profit",
+    "Labor and Wages"
+  ],
+  "principles": [
+    {
+      "statement": "Business exists primarily to serve mankind, not solely for profit.",
+      "rationale": "By focusing on service and making products accessible to everyone, a business will ultimately achieve greater financial success than if it focused exclusively on profitability.",
+      "source_quote": null,
+      "source_id": "src_005"
+    },
+    {
+      "statement": "Continually lower prices to make products accessible to the masses.",
+      "rationale": "Lowering prices expands the market and ensures that the average person—including the workers who manufacture the goods—can afford to purchase them.",
+      "source_quote": null,
+      "source_id": "src_005"
+    },
+    {
+      "statement": "Constantly seek manufacturing and engineering improvements to eliminate waste.",
+      "rationale": "Doing things smarter and eliminating waste benefits the company, which in turn allows for higher wages for workers and enriches society as a whole.",
+      "source_quote": null,
+      "source_id": "src_005"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [
+    "More money will not prevent bad management; rather, it will perpetuate it."
+  ],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Relying on external financing, bankers, or financial hedging rather than operational excellence.",
+      "why_it_fails": "Infusing more money into a poorly run business removes the urgency to make fundamental operational changes. Furthermore, making a profit through financial hedging tempts a business to abandon its core focus on production and service.",
+      "source_id": "src_005"
+    },
+    {
+      "description": "Allowing bankers or financiers to control a business.",
+      "why_it_fails": "It leads to a loss of operational control and forces the business to be run in a way that contradicts the philosophy of service and efficiency.",
+      "source_id": "src_005"
+    }
+  ]
+}

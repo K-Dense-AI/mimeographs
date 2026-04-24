@@ -12,8 +12,3 @@ wheels/
 
 # macOS
 .DS_Store
-
-# mimeo cached intermediates (raw scraped content, distilled JSON, clustered corpus)
-# These are regeneratable via `uv run mimeo <name>` and may contain copyrighted
-# third-party material that shouldn't be redistributed.
-mimeographs/*/_workspace/

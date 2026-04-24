@@ -1,0 +1,60 @@
+{
+  "source_id": "src_036",
+  "summary": "This text comprises scholarly excerpts analyzing the historical and literary representations of Socrates. It contrasts Xenophon's dogmatic portrayal with Plato's early dialogues, and critically examines the mechanics, perceived insincerity, and destructive nature of the Socratic elenchus (cross-examination).",
+  "themes": [
+    "The Socratic Problem",
+    "Elenchus (Cross-examination)",
+    "Socratic Irony",
+    "Maieutic Method"
+  ],
+  "principles": [
+    {
+      "statement": "The interlocutor must produce the answers themselves.",
+      "rationale": "By forcing the interlocutor to supply the hypotheses and answers, they are genuinely convinced of the conclusion, even if it is a refutation of their own thesis.",
+      "source_quote": "the general procedure by which Socrates tries to make his interlocutor come up with the answer for himself",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Follow where the argument leads, as if it has a life of its own.",
+      "rationale": "Socrates often frames his inquiries as an impersonal search for truth, claiming he does not control the outcome but is merely following the logical progression of the discussion.",
+      "source_quote": "the logoi run away without his agency, and he would rather they remained",
+      "source_id": "src_036"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Elenchus (Socratic Refutation)",
+      "when_to_apply": "When testing the truth-value of a proposition or examining a person's claim to knowledge.",
+      "steps": [
+        "Elicit a primary answer or thesis from the interlocutor through earnest requests for instruction.",
+        "Ask a series of secondary questions to secure additional premises that the interlocutor readily admits.",
+        "Use these newly admitted premises to logically contradict and refute the interlocutor's original thesis."
+      ],
+      "source_quote": "looking for a way to persuade the answerer that his thesis is false... keeps the conversation going somehow until he has thought of another starting-point which the answerer will admit and which will serve to refute him.",
+      "source_id": "src_036"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Midwife",
+      "description": "Viewing the philosopher's role not as a teacher imparting new truths, but as a midwife helping others give birth to their own ideas and conclusions through rigorous questioning.",
+      "example": "Extracting a geometrical theorem from an uneducated slave boy by asking him a series of questions until he realizes the answer himself.",
+      "source_id": "src_036"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Well, that is good enough.",
+      "context": "Spoken when an interlocutor has admitted just enough premises to ensure the downfall of their original argument.",
+      "source_id": "src_036"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Defending a position yourself or revealing your own opinion.",
+      "why_it_fails": "It prevents the questioner from maintaining the role of the ignorant inquirer, which is necessary to probe the interlocutor's beliefs and expose their contradictions.",
+      "source_id": "src_036"
+    }
+  ]
+}

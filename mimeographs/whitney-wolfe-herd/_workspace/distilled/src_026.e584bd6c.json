@@ -1,0 +1,100 @@
+{
+  "source_id": "src_026",
+  "summary": "Whitney Wolfe Herd discusses how small product tweaks can drive massive social impact. She shares her journey from Tinder to Bumble, emphasizing the responsibility tech creators have for user behavior, the power of engineering kindness, and the importance of letting users guide product expansion.",
+  "themes": [
+    "Product Design",
+    "Social Impact",
+    "User Behavior",
+    "Tech Responsibility",
+    "Marketing and Empathy"
+  ],
+  "principles": [
+    {
+      "statement": "Tech creators are inherently responsible for the consequences of their platforms.",
+      "rationale": "When you build a piece of technology and encourage people to use it, you cannot simply wash your hands of how they behave on it. You must anticipate and manage the social consequences.",
+      "source_quote": "the minute you encourage someone to use a piece of technology, you are inherently responsible.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Good behavior and kindness can be engineered to be contagious.",
+      "rationale": "Just as toxic or bad behavior can go viral on social networks, platforms can be intentionally designed with constraints that promote and amplify positive, kind interactions.",
+      "source_quote": "just like bad behavior can become addictive and viral, good behavior can also be contagious and kindness can also be contagious.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Let the users dictate your product roadmap after the initial launch.",
+      "rationale": "Founders make the first move by launching the core product, but after that, they should closely observe how users are 'hijacking' or adapting the product and build features to support those emergent behaviors.",
+      "source_quote": "The users are what give us every move we make, except for the very first move.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "True marketing is rooted in empathy and human connectivity.",
+      "rationale": "Marketing isn't just about getting eyeballs on a commercial; it requires understanding human emotion, hyperlocality, and how individuals connect with a brand's message.",
+      "source_quote": "It's all about humans and emotions and connecting with the individual, wherever that individual is.",
+      "source_id": "src_026"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Reversing the Wheel",
+      "description": "Instead of inventing an entirely new and unfamiliar user flow, take a comfortable, established user flow and reverse a single key dynamic to change the social outcome.",
+      "example": "Bumble kept the familiar swipe mechanism of dating apps but reversed the traditional gender dynamic by requiring women to send the first message.",
+      "source_id": "src_026"
+    },
+    {
+      "name": "The Cinderella Constraint",
+      "description": "Using a strict, non-negotiable time limit to force action and overcome deeply ingrained social hesitations.",
+      "example": "Giving women exactly 24 hours to make the first move on a match before it disappears forever, forcing them to break the societal norm of waiting for the man to speak first.",
+      "source_id": "src_026"
+    }
+  ],
+  "heuristics": [
+    "We weren't trying to reinvent the wheel, we were just trying to reverse it.",
+    "The users are what give us every move we make, except for the very first move."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The minute you encourage someone to use a piece of technology, you are inherently responsible.",
+      "context": "Reflecting on the unintended dark side of Tinder and the responsibility of tech founders.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "Just like bad behavior can become addictive and viral, good behavior can also be contagious and kindness can also be contagious.",
+      "context": "Explaining her motivation to build a social ecosystem focused on kindness.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "We weren't trying to reinvent the wheel, we were just trying to reverse it.",
+      "context": "Describing the subtle but impactful design change that defined Bumble.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "You have 24 hours to make the first move. Otherwise, your carriage turns into a pumpkin.",
+      "context": "Explaining the time constraint used to encourage women to initiate conversation.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "The users are what give us every move we make, except for the very first move.",
+      "context": "Discussing how user behavior led to the creation of Bumble BFF and Bumble Bizz.",
+      "source_id": "src_026"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Building a platform and ignoring the social consequences of how people use it.",
+      "why_it_fails": "Assuming users will just 'do as they want' without guardrails allows toxic behavior, harassment, and misogyny to scale unchecked.",
+      "source_id": "src_026"
+    },
+    {
+      "description": "Imposing one-sided accountability in a two-sided marketplace.",
+      "why_it_fails": "When Bumble gave women 24 hours to message but let men take as long as they wanted to reply, it stalled momentum. Both parties need constraints to drive mutual engagement.",
+      "source_id": "src_026"
+    },
+    {
+      "description": "Marketing based purely on metrics and 'eyeballs' rather than empathy.",
+      "why_it_fails": "It lacks human connectivity and fails to account for cultural nuances, leading to tone-deaf campaigns.",
+      "source_id": "src_026"
+    }
+  ]
+}

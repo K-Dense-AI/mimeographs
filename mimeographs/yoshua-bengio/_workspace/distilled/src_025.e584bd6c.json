@@ -1,0 +1,110 @@
+{
+  "source_id": "src_025",
+  "summary": "In this interview, Yoshua Bengio discusses his early inspirations in deep learning, the evolution of neural networks, and the importance of biological connections. He emphasizes the need for unsupervised learning to achieve true understanding, advocates for using toy problems to accelerate research, and advises newcomers to build intuition and implement algorithms from scratch rather than just chasing benchmarks.",
+  "themes": [
+    "History of Deep Learning",
+    "Biological Inspiration in AI",
+    "Unsupervised Learning",
+    "Research Methodology",
+    "Advice for Beginners"
+  ],
+  "principles": [
+    {
+      "statement": "Implement algorithms from scratch to truly understand them.",
+      "rationale": "Relying solely on plug-and-play software leads to a superficial understanding, making it incredibly difficult to debug or figure out what is going wrong when a model fails.",
+      "source_quote": "trying to implement things yourself even if it's inefficient but just to make sure you really understand what is going on is really useful",
+      "source_id": "src_025"
+    },
+    {
+      "statement": "Focus on the 'why' to advance the science of deep learning, not just beating benchmarks.",
+      "rationale": "Research should aim to logically understand the underlying phenomena and why algorithms work under certain circumstances, rather than blindly searching for a better baseline.",
+      "source_quote": "it's more about understanding and it's about also doing our research not to beat the next baseline or benchmark... it's the why that really matters that's what science is about",
+      "source_id": "src_025"
+    },
+    {
+      "statement": "Develop intuition first, and the math will follow.",
+      "rationale": "Mathematical formalization is important, but it becomes much easier to grasp once you have a solid intuitive understanding of what is happening in the system.",
+      "source_quote": "don't be afraid by the math just you know just develop the intuitions and then the math become really easier to understand",
+      "source_id": "src_025"
+    },
+    {
+      "statement": "Unsupervised learning is essential for achieving human-level understanding of the world.",
+      "rationale": "Humans and animals learn intuitive physics and concepts by observing and interacting with the world, not through exhaustive labeled data provided by a supervisor.",
+      "source_quote": "humans are able to do much more they are able to explore and discover new concepts by observation and interaction with the world",
+      "source_id": "src_025"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Toy Problem Experimentation",
+      "when_to_apply": "When trying to understand fundamental principles, analyze failures, or when hardware constraints make large-scale experiments too slow.",
+      "steps": [
+        "Reduce the problem to a simple, intuitive 'toy' environment (e.g., a simple programmable video game).",
+        "Run fast experiments that take hours instead of days to accelerate the research cycle.",
+        "Understand the failures and intuitively manipulate the variables.",
+        "Transfer the meta-learnings to larger, real-world problems."
+      ],
+      "source_quote": "we can reduce the problem to something we can intuitively sort of manipulate and understand more easily so sort of classical divide and conquer",
+      "source_id": "src_025"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Distributed Representations",
+      "description": "The concept that information is represented by the distributed activation of many neurons simultaneously, rather than a single 'grandmother cell' or symbolic representation. This helps tackle the curse of dimensionality.",
+      "example": "Using neural networks to learn joint distributions over sequences of words, which gave birth to word embeddings where words with similar semantic meanings generalize across each other.",
+      "source_id": "src_025"
+    },
+    {
+      "name": "Neural Nets as Data Structure Handlers",
+      "description": "Moving beyond the view of neural networks as simple vector-to-vector mapping machines. With the introduction of attention mechanisms, networks can process and handle arbitrary data structures.",
+      "example": "Using attention mechanisms in neural machine translation, which allowed systems to handle complex sequential data and is now used in industrial systems like Google Translate.",
+      "source_id": "src_025"
+    }
+  ],
+  "heuristics": [
+    "Don't be afraid of the math; develop the intuitions first.",
+    "Practice by deriving and programming things yourself from first principles.",
+    "Use toy problems to speed up your research cycle and intuitively understand failures.",
+    "Formalize logically first so you can convince someone it makes sense, then use math to make it tighter."
+  ],
+  "signature_quotes": [
+    {
+      "text": "it's the why that really matters that's what science is about it's why",
+      "context": "Discussing the need to treat deep learning as a science rather than just an engineering discipline focused on benchmarks.",
+      "source_id": "src_025"
+    },
+    {
+      "text": "I feel like the current state of science of deep learning is far from anything we're applying it to... our systems right now make mistakes that suggest that they have a very superficial understanding of the world",
+      "context": "Explaining his ambition for the future of deep learning and the need for systems that truly understand how the world works.",
+      "source_id": "src_025"
+    },
+    {
+      "text": "new nets we used to think as machines that can map a vector to a vector but but really with attention mechanisms you can now handle any kind of data structure",
+      "context": "Reflecting on how attention mechanisms fundamentally changed his view of neural networks.",
+      "source_id": "src_025"
+    },
+    {
+      "text": "don't be afraid by the math just you know just develop the intuitions and then the math become really easier to understand",
+      "context": "Giving advice to newcomers entering the field of deep learning.",
+      "source_id": "src_025"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on plug-and-play deep learning frameworks without understanding the underlying code.",
+      "why_it_fails": "It creates a superficial understanding, making it nearly impossible to figure out what went wrong when the model fails to work.",
+      "source_id": "src_025"
+    },
+    {
+      "description": "Doing research just to beat the next baseline or benchmark.",
+      "why_it_fails": "It leads to researchers acting like 'blind people trying to find their way' rather than building a transferable, logical understanding of why algorithms actually work.",
+      "source_id": "src_025"
+    },
+    {
+      "description": "Assuming smooth non-linearities are required for backpropagation to work.",
+      "why_it_fails": "Historically, researchers thought flat parts (like in ReLU) would make training impossible due to zero derivatives, but ReLU actually turned out to work much better for deep nets than sigmoids.",
+      "source_id": "src_025"
+    }
+  ]
+}

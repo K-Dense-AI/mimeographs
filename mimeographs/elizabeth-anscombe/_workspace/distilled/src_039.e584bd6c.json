@@ -1,0 +1,95 @@
+{
+  "source_id": "src_039",
+  "summary": "In this introduction and opening chapter to her collected papers, Elizabeth Anscombe reflects on her focus on practical moral questions over meta-ethics, arguing that moral theory is inextricably tied to the philosophy of mind and action-description. She explores the nature of human action, consent, and culpability, establishing that actions are intentional under specific descriptions and that 'error destroys action.'",
+  "themes": [
+    "Action Theory",
+    "Moral Philosophy",
+    "Intention and Consent",
+    "Philosophy of Mind",
+    "Political Philosophy"
+  ],
+  "principles": [
+    {
+      "statement": "Consent is always consent to something under a specific description.",
+      "rationale": "Consent is not a free-floating psychological state; it is directed at an object or action. Deception about the nature of that object means consent did not occur for that specific action.",
+      "source_quote": "Consent is consent to something. Thus there may be consent to one thing, that one has done... and yet not to another thing that one has done...",
+      "source_id": "src_039"
+    },
+    {
+      "statement": "General questions of moral theory cannot be settled without the philosophy of mind.",
+      "rationale": "Moral philosophy is deeply tied to problems of action-description, which requires understanding intention, knowledge, and how the mind relates to physical events.",
+      "source_quote": "So far as general questions of moral theory have interested me, I have thought them closely tied up with problems of action-description and unsettlable without help from philosophy of mind.",
+      "source_id": "src_039"
+    },
+    {
+      "statement": "Error destroys action.",
+      "rationale": "Ignorance or lack of intent can nullify an action under a certain description, just as fraud can vitiate consent.",
+      "source_quote": "We could enlarge the maxim, in moral philosophy, to 'Error destroys action.'",
+      "source_id": "src_039"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Formal vs. Material Object of Action",
+      "when_to_apply": "When evaluating the moral culpability of an agent who commits an act in error or ignorance.",
+      "steps": [
+        "Identify the material object: what actually occurred in the physical world (e.g., shooting a man).",
+        "Identify the formal object: what the agent believed they were interacting with or doing (e.g., shooting a stag).",
+        "Evaluate the action and culpability based on the formal object (the agent's understanding), while recognizing the material reality."
+      ],
+      "source_quote": "Here it is helpful to introduce the old distinction between the formal and the material as in 'formal and material object' of, say, shooting. You shoot, as you think, at a stag; what you thought was a stag turns out to be a man. In one sense—the formal—your object is a stag; in the other—the material—it was a man.",
+      "source_id": "src_039"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Action Under a Description",
+      "description": "The concept that a single physical happening can be described in multiple ways, and human actions (like marrying, murdering, or consenting) only exist under specific descriptions that depend on the agent's knowledge and intent.",
+      "example": "Signing a piece of paper can be described as 'signing the document presented' or 'signing a transfer of property.' An agent might consent to the former description but not the latter if they are deceived.",
+      "source_id": "src_039"
+    }
+  ],
+  "heuristics": [
+    "In doing what was he doing X?",
+    "If you want to promote abortion, promote contraception."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Consent is consent to something.",
+      "context": "Arguing against the legal view that consent is merely a psychological fact that cannot be destroyed by fraud.",
+      "source_id": "src_039"
+    },
+    {
+      "text": "We could enlarge the maxim, in moral philosophy, to 'Error destroys action.'",
+      "context": "Expanding the legal maxim 'fraud vitiates consent' to broader moral philosophy.",
+      "source_id": "src_039"
+    },
+    {
+      "text": "In general, my interest in moral philosophy has been more in particular moral questions than in what is now called 'meta-ethics'.",
+      "context": "Reflecting on her career and focus in philosophy.",
+      "source_id": "src_039"
+    },
+    {
+      "text": "'Murder' is a moral action concept of great complexity, and one cannot give an account of it without discussing both whether its definition includes its wrongfulness, and also whether and why capital punishment and some other deliberate killings under the authority of the state do not fall under the concept 'murder'.",
+      "context": "Explaining how her interest in political philosophy grew out of her interest in the concept of murder.",
+      "source_id": "src_039"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating consent as a mere psychological fact that cannot be destroyed by fraud.",
+      "why_it_fails": "It ignores that consent is intentional and directed at a specific description of an event. If the description is falsified by fraud, the consent to that specific event never existed.",
+      "source_id": "src_039"
+    },
+    {
+      "description": "Treating all deliberate action as a matter of acting on a calculation of how to obtain one's ends.",
+      "why_it_fails": "It forces practical reasons into an artificial mold, creating a false contrast between constructed descriptions of ends (like 'being polite') and actual means-end calculations.",
+      "source_id": "src_039"
+    },
+    {
+      "description": "Believing that the widespread availability of contraception will prevent abortion.",
+      "why_it_fails": "Anscombe argues this is an illusion; historically, abortion simply becomes a 'long-stop for unwanted conceptions' and a desired means of population control once the societal mindset shifts.",
+      "source_id": "src_039"
+    }
+  ]
+}

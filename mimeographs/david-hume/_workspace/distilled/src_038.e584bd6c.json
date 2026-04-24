@@ -1,0 +1,111 @@
+{
+  "source_id": "src_038",
+  "summary": "David Hume investigates the foundations of morals, arguing that while reason helps establish facts, moral distinctions ultimately stem from sentiment. He asserts that the merit of social virtues like benevolence and justice is derived primarily—and in the case of justice, entirely—from their public utility.",
+  "themes": [
+    "Moral Philosophy",
+    "Empiricism",
+    "Utility",
+    "Justice",
+    "Benevolence",
+    "Reason vs. Sentiment"
+  ],
+  "principles": [
+    {
+      "statement": "Moral determinations ultimately depend on sentiment, not just reason.",
+      "rationale": "Reason can discover truths and establish facts, but it cannot motivate action or create desire and aversion. A universal internal sense or feeling is required to pronounce an action praiseworthy or blamable.",
+      "source_quote": "The final sentence, it is probable, which pronounces characters and actions amiable or odious, praise-worthy or blameable... depends on some internal sense or feeling, which nature has made universal in the whole species.",
+      "source_id": "src_038"
+    },
+    {
+      "statement": "The merit of benevolence arises largely from its public utility.",
+      "rationale": "When we praise humane and beneficent people, we always highlight the happiness and satisfaction they bring to society. The usefulness of these traits is a core source of the approbation they receive.",
+      "source_quote": "the UTILITY, resulting from the social virtues, forms, at least, a part of their merit, and is one source of that approbation and regard so universally paid to them",
+      "source_id": "src_038"
+    },
+    {
+      "statement": "Justice is founded entirely on its utility to society.",
+      "rationale": "In hypothetical situations of extreme abundance or extreme scarcity, the rules of property and justice become useless and are suspended. Justice only exists because it is necessary to maintain order and security in our moderately scarce world.",
+      "source_quote": "That public utility is the sole origin of justice, and that reflections on the beneficial consequences of this virtue are the sole foundation of its merit",
+      "source_id": "src_038"
+    },
+    {
+      "statement": "Moral philosophy must be grounded in the experimental method of fact and observation.",
+      "rationale": "Abstract, a priori systems often lead to illusion and mistake because they do not suit human nature. Just as natural philosophy moved to experience-based reasoning, ethics must do the same.",
+      "source_quote": "As this is a question of fact, not of abstract science, we can only expect success, by following the experimental method, and deducing general maxims from a comparison of particular instances.",
+      "source_id": "src_038"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Experimental Method in Ethics",
+      "when_to_apply": "When attempting to discover the true origin of morals and the foundation of ethics.",
+      "steps": [
+        "Analyze the complication of mental qualities that form 'Personal Merit'.",
+        "Consider every attribute of the mind that renders a person an object of esteem or contempt.",
+        "Use the natural language (words taken in a good sense vs. opposite) to collect and arrange estimable and blamable qualities.",
+        "Use reasoning to discover the common circumstances on both sides (e.g., observing that estimable qualities share the trait of public utility).",
+        "Deduce general maxims from this comparison of particular instances."
+      ],
+      "source_quote": "The only object of reasoning is to discover the circumstances on both sides, which are common to these qualities... and thence to reach the foundation of ethics, and find those universal principles, from which all censure or approbation is ultimately derived.",
+      "source_id": "src_038"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Thought Experiment of Extremes",
+      "description": "Testing the validity, origin, and necessity of a concept (like justice) by imagining environments of extreme abundance/benevolence or extreme scarcity/malice to see if the concept survives.",
+      "example": "Hume imagines a world of infinite abundance where every person has more than enough of everything. In such a state, he notes that the concept of property ('mine' and 'thine') would be meaningless, proving that justice is not an absolute truth but a tool created for its utility in a world of moderate scarcity.",
+      "source_id": "src_038"
+    },
+    {
+      "name": "Reason vs. Sentiment",
+      "description": "A lens for dividing human cognition into two faculties: Reason (which discerns facts, relations, and truths but is cold and unmotivating) and Sentiment (which feels beauty, deformity, love, and hatred, and actually drives human behavior).",
+      "example": "In a criminal trial, reason is used to ascertain the facts of what happened. But once the facts are known, it is sentiment that feels disgust at the crime and pronounces the moral judgment of guilt.",
+      "source_id": "src_038"
+    }
+  ],
+  "heuristics": [
+    "To convert an obstinate, disingenuous disputant, leave him to himself until he tires of the controversy.",
+    "In determining the bounds of duty, ascertain the true interests of mankind.",
+    "The safety of the people is the supreme law."
+  ],
+  "signature_quotes": [
+    {
+      "text": "What is intelligible, what is evident, what is probable, what is true, procures only the cool assent of the understanding; and gratifying a speculative curiosity, puts an end to our researches.",
+      "context": "Explaining why reason alone cannot be the foundation of morals.",
+      "source_id": "src_038"
+    },
+    {
+      "text": "By rendering justice totally useless, you thereby totally destroy its essence, and suspend its obligation upon mankind.",
+      "context": "Concluding his thought experiments on extreme abundance and extreme necessity.",
+      "source_id": "src_038"
+    },
+    {
+      "text": "It is full time they should attempt a like reformation in all moral disquisitions; and reject every system of ethics, however subtile or ingenious, which is not founded on fact and observation.",
+      "context": "Advocating for the experimental method in moral philosophy.",
+      "source_id": "src_038"
+    },
+    {
+      "text": "The final sentence, it is probable, which pronounces characters and actions amiable or odious... depends on some internal sense or feeling, which nature has made universal in the whole species.",
+      "context": "Summarizing the role of sentiment in moral judgments.",
+      "source_id": "src_038"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on abstract, a priori systems in moral philosophy.",
+      "why_it_fails": "It ignores human nature and facts. Establishing a general abstract principle first and branching out into inferences is a common source of illusion and mistake.",
+      "source_id": "src_038"
+    },
+    {
+      "description": "Attempting to enforce perfect equality of property.",
+      "why_it_fails": "It is highly impracticable and pernicious. Men's different degrees of art, care, and industry will immediately break the equality. Enforcing it requires severe tyranny and ultimately reduces the whole community to extreme indigence.",
+      "source_id": "src_038"
+    },
+    {
+      "description": "Engaging in logical disputes with disingenuous people who argue purely from affectation or a spirit of opposition.",
+      "why_it_fails": "Reasoning is not the source of their tenets, so no logic that fails to speak to their affections will ever convince them.",
+      "source_id": "src_038"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "source_id": "src_056",
+  "summary": "This source explores Descartes's theory of 'machine psychology' and the passions, challenging the oversimplified view of his substance dualism. Descartes posits that while the mind and body are distinct, the body's mechanistic processes are responsible for a vast array of complex, adaptive behaviors in both humans and animals. He details how the 'passions of the soul' are mental states caused by the body, and how these bodily mechanisms can be retrained through habituation for moral ends.",
+  "themes": [
+    "Substance Dualism",
+    "Machine Psychology",
+    "Passions of the Soul",
+    "Mind-Body Interaction",
+    "Animal Automata"
+  ],
+  "principles": [
+    {
+      "statement": "Most human thoughts result from a bodily cause.",
+      "rationale": "While the pure intellect can operate independently, the vast majority of human mental life—including sensations, imaginings, memories, and passions—requires the mind to interact with the brain.",
+      "source_quote": "most human thoughts result from a bodily cause... all sensations and imaginings, a large class of memories, and other sorts of feelings, including all ‘passions’",
+      "source_id": "src_056"
+    },
+    {
+      "statement": "Nonhuman animals are mere machines, devoid of mental substance.",
+      "rationale": "The complex, functionally adapted behaviors of animals do not require an immaterial mind; they are generated entirely by mechanistic bodily processes.",
+      "source_quote": "Descartes considered nonhuman animals to be mere machines, devoid of mental substance and of all properly mental states.",
+      "source_id": "src_056"
+    },
+    {
+      "statement": "Purely bodily processes function as psychological mechanisms that cause complex behaviors independently of the mind.",
+      "rationale": "Because the human body operates on the same mechanical principles as animal bodies, it possesses mechanisms capable of producing sophisticated behaviors aimed at self-preservation without any conscious mental intervention.",
+      "source_quote": "many behaviors result from bodily processes alone, without any role at all for the mind",
+      "source_id": "src_056"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Retraining the Passions",
+      "when_to_apply": "When seeking to mitigate harmful passions and align emotional responses with moral ends.",
+      "steps": [
+        "Identify the passion and the specific object or bodily state triggering it.",
+        "Utilize habituation or association to realign the link between the passion and the object.",
+        "Leverage this new association to mitigate the passion and guide moral judgment."
+      ],
+      "source_quote": "a principle of ‘habituation’ or ‘association’ plays a central role in Descartes’s account of the passions, especially in mitigating the passions and in realigning the links between passions and objects.",
+      "source_id": "src_056"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Animal Machine",
+      "description": "A lens for viewing the physical body (both human and nonhuman) as a purely mechanistic, mindless system capable of generating complex, functionally adapted behaviors aimed at self-preservation.",
+      "example": "Blinking when an object rapidly approaches the eyes, or other sophisticated sensory-motor responses that occur without the intervention of the conscious soul.",
+      "source_id": "src_056"
+    }
+  ],
+  "heuristics": [
+    "Use the passions, which are inherently bodily caused, to aid in forming moral judgments.",
+    "Attribute all physical pain, including phantom limb pain, to a physical neural cause rather than a purely mental one."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Passions of the soul are defined as mental states that have bodily states as their causes.",
+      "context": "Defining the core concept of his treatise on the passions.",
+      "source_id": "src_056"
+    },
+    {
+      "text": "The mind is passive, relative to the body that acts on it.",
+      "context": "Explaining why bodily caused mental states are specifically termed 'passions'.",
+      "source_id": "src_056"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Believing that mind-body dualism means the body makes no real contribution to guiding human behavior or reasoning.",
+      "why_it_fails": "Most human reasoning relies on images (which requires mind-brain interaction), and the passions (which are bodily caused) actively aid us in forming moral judgments.",
+      "source_id": "src_056"
+    },
+    {
+      "description": "Restricting purely bodily caused behaviors to simple mechanical reflexes.",
+      "why_it_fails": "The body's mechanisms are capable of producing a gallery of complex, functionally adaptive behaviors aimed at preserving the organism, functioning as a complete 'machine psychology'.",
+      "source_id": "src_056"
+    }
+  ]
+}

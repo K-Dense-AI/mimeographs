@@ -1,0 +1,62 @@
+{
+  "source_id": "src_014",
+  "summary": "In her acceptance speech for the 2025 Dickson Prize in Science, Dr. Aviv Regev discusses the evolution of computational biology from a field focused on small, high-quality datasets to one dealing with massive, noisy single-cell data. She emphasizes the necessity of AI algorithms to extract biological meaning from this noise and advises students to embrace the freedom of emerging fields by rethinking paradigms rather than retrofitting new tools into old workflows.",
+  "themes": [
+    "Computational Biology",
+    "Single-cell Genomics",
+    "Artificial Intelligence",
+    "Scientific Innovation",
+    "Career Advice"
+  ],
+  "principles": [
+    {
+      "statement": "Massive, noisy biological data requires AI algorithms to extract meaningful insights.",
+      "rationale": "Modern lab technologies, like droplet-based microfluidics, produce data at an unprecedented scale but with high levels of noise. Manual or traditional analysis is insufficient; AI is the necessary cost to make sense of this complexity.",
+      "source_quote": "There’s no free lunch. You always have to pay. If we want to make sense of this noisy and messy data, we need AI algorithms",
+      "source_id": "src_014"
+    },
+    {
+      "statement": "The choice of algorithm dictates the biological insight you uncover.",
+      "rationale": "Applying different mathematical and AI approaches to the exact same dataset reveals fundamentally different biological phenomena, from static cell types to dynamic differentiation patterns.",
+      "source_quote": "When algorithms cluster, we find cell types. When algorithms find continual trajectories or optimal transport maps, we see dynamical patterns, like cell differentiation, or tumorous cells. When the algorithm finds covariations across variables, we see gene profiles",
+      "source_id": "src_014"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Liberating vs. Retrofitting",
+      "description": "A lens for adopting new technologies. Instead of forcing a new tool (like AI) into an existing, traditional workflow ('retrofitting'), one should reimagine the entire process from the ground up to fully utilize the new capabilities ('liberating').",
+      "example": "Instead of just using AI to try new sequences in a traditional in situ experiment, a scientist should 'liberate' the technology by rethinking the whole paradigm, such as running the lab autonomously.",
+      "source_id": "src_014"
+    }
+  ],
+  "heuristics": [
+    "Instead of trying to retrofit a new thing into the old way of doing things, ask 'How do we liberate it?'",
+    "Embrace fields without textbooks; that is where your ideas can become 'the thing'."
+  ],
+  "signature_quotes": [
+    {
+      "text": "There’s no free lunch. You always have to pay. If we want to make sense of this noisy and messy data, we need AI algorithms.",
+      "context": "Discussing the trade-off of modern high-throughput single-cell sequencing technologies.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "It’s an unbelievable privilege to be in that career stage when there aren’t textbooks and there isn’t a way things are done … Your ideas could be ‘the thing.’ No one knows what will be ‘the thing’ ahead of time.",
+      "context": "Giving advice to students entering the emerging field of computational biology.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "Think about new things in new ways. Instead of trying to retrofit a new thing into the old way of doing things say, ‘How do we liberate it?'",
+      "context": "Encouraging students to think creatively about how to apply AI in biology.",
+      "source_id": "src_014"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Retrofitting new technologies into old ways of doing things.",
+      "why_it_fails": "It limits the potential of the new technology. By just plugging a new tool into an existing experimental setup, scientists miss the opportunity to completely reimagine and optimize the scientific process.",
+      "source_id": "src_014"
+    }
+  ]
+}

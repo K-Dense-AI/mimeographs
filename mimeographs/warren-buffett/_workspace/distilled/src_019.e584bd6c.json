@@ -1,0 +1,55 @@
+{
+  "source_id": "src_019",
+  "summary": "Warren Buffett discusses his continued involvement in Berkshire Hathaway's investment decisions after stepping down as CEO. He emphasizes maintaining alignment with current CEO Greg Abel and downplays recent market volatility, noting that true buying opportunities arise from much larger historical market drops.",
+  "themes": [
+    "Investment Strategy",
+    "Market Volatility",
+    "Leadership Transition",
+    "Cash Management"
+  ],
+  "principles": [
+    {
+      "statement": "Maintain strict alignment with current leadership on investment decisions.",
+      "rationale": "Even when retaining investment authority, it is crucial to ensure the current CEO agrees with the capital allocation to maintain unified firm leadership.",
+      "source_quote": "I won't make any [investments] that Greg thinks are wrong. ... Greg gets the sheet every day",
+      "source_id": "src_019"
+    },
+    {
+      "statement": "Do not get excited by minor market volatility; wait for major drops to find true buying opportunities.",
+      "rationale": "Historical context shows that the most significant buying opportunities only occur during massive market declines, such as drops of 50% or more.",
+      "source_quote": "Three times since I took over, for sure it's gone down more than 50%. ... This is nothing to make you get excited",
+      "source_id": "src_019"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Historical Baseline for Volatility",
+      "description": "Evaluating current market dips against historical extremes to determine if a genuine buying opportunity exists, rather than reacting to minor, day-to-day fluctuations.",
+      "example": "Buffett downplayed recent market volatility by comparing it to the three times during his tenure when the market dropped by more than 50%.",
+      "source_id": "src_019"
+    }
+  ],
+  "heuristics": [
+    "Wait for market drops of 50% or more before getting excited about major buying opportunities."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I won't make any [investments] that Greg thinks are wrong. ... Greg gets the sheet every day",
+      "context": "Discussing his ongoing investment role and relationship with new Berkshire CEO Greg Abel.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "Three times since I took over, for sure it's gone down more than 50%. ... This is nothing to make you get excited",
+      "context": "Downplaying recent market volatility and explaining what constitutes a real buying opportunity.",
+      "source_id": "src_019"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating minor market volatility as a major buying opportunity.",
+      "why_it_fails": "It causes investors to deploy capital prematurely during routine fluctuations, rather than saving it for the rare, massive market drops (e.g., 50% declines) that create true value.",
+      "source_id": "src_019"
+    }
+  ]
+}

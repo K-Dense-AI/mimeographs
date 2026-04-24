@@ -1,0 +1,109 @@
+{
+  "source_id": "src_012",
+  "summary": "Fei-Fei Li discusses the next frontier of AI, moving beyond language models to 'world modeling' and spatial intelligence. Drawing on evolutionary history, she explains that perception evolved for action and interactivity, making spatial reasoning crucial for both robotics and advanced cognitive tasks. She also emphasizes that trust in the AI age must remain fundamentally human and advocates for fearlessness in scientific and entrepreneurial pursuits.",
+  "themes": [
+    "Spatial Intelligence",
+    "World Modeling",
+    "AGI",
+    "Robotics",
+    "Evolutionary Biology",
+    "Human-Centered AI",
+    "Fearlessness"
+  ],
+  "principles": [
+    {
+      "statement": "Trust cannot be outsourced to machines.",
+      "rationale": "Trust operates at the individual, community, and societal levels. Even as AI systems become more capable, human agency must remain the ultimate source of trust in any product or service.",
+      "source_quote": "One thing I feel very strongly is in the AI age, trust cannot be outsourced to machines. Trust is fundamentally human.",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Perception is the foundation of movement and interactivity.",
+      "rationale": "Looking at the Cambrian explosion, the evolutionary purpose of perception was not passive observation, but to enable animals to interact with their environment and move effectively.",
+      "source_quote": "the evolutionary reason animals have perception is actually for activity for interactivity. It's active. It's not passive and that means perception and the perceptual intelligence is the foundation of movement",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Language is not the limit of intelligence; spatial reasoning is essential for major breakthroughs.",
+      "rationale": "Many milestones of human civilization, such as building the pyramids or deducing the 3D double-helix structure of DNA from flat X-ray imagery, required deep spatial and geometric reasoning that language alone cannot achieve.",
+      "source_quote": "You cannot language your way into this deduction. I'm sure language participated. I'm not anti-language... but that is a beautiful example of humans using spatial reasoning and cognitive ability to do something or discover something we've never done.",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Entrepreneurs and scientists must be fearless to unlock true creativity.",
+      "rationale": "Fearlessness removes the constraints on creativity and courage, allowing innovators to tackle hard, uncertain tasks and contrarian hypotheses where the real magic happens.",
+      "source_quote": "fearless is to be free. is to be to get rid of the shackles that constrain your creativity, your courage, and your ability to just get done.",
+      "source_id": "src_012"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "AGI as a Door with Multiple Keyholes",
+      "description": "A metaphor for achieving Artificial General Intelligence. The door represents the future of AGI, and different modalities of intelligence are the keyholes needed to unlock it. Language is one major keyhole, but world modeling and spatial intelligence are others.",
+      "example": "Recognizing that while language models (like LLMs) unlock a significant part of AGI, we must also build 'world models' that understand 3D space, physics, and visual semantics to fully open the door.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "The Evolutionary Lens (Cambrian Explosion)",
+      "description": "Looking at biological evolution to understand the fundamental purpose of intelligence. By studying how the nervous system and photosensitive cells developed simultaneously, one can deduce the core function of perception.",
+      "example": "Using the Cambrian explosion to realize that perception evolved for active movement and survival (fighting, mating, nesting), which informed her pivot toward spatial intelligence as the 'brain of embodied intelligence' for robots.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "AI as the New Computing",
+      "description": "Viewing AI not as a separate software category, but as an inevitable layer of all future computing infrastructure.",
+      "example": "Reasoning that wherever there are physical chips (from light bulbs to airplanes), there is compute, and wherever there is compute, there will eventually be AI.",
+      "source_id": "src_012"
+    }
+  ],
+  "heuristics": [
+    "Run into uncertainties and bold ideas that no one has made happen yet.",
+    "Hire for fearlessness, especially in young people.",
+    "Wherever there is compute, there will be AI."
+  ],
+  "signature_quotes": [
+    {
+      "text": "One thing I feel very strongly is in the AI age, trust cannot be outsourced to machines. Trust is fundamentally human.",
+      "context": "Discussing how leaders and entrepreneurs should build trust as AI becomes a civilizational technology.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "You cannot language your way into this deduction.",
+      "context": "Explaining how Rosalind Franklin, Francis Crick, and James Watson used spatial reasoning, not just language, to deduce the 3D double-helix structure of DNA.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "fearless is to be free. is to be to get rid of the shackles that constrain your creativity, your courage, and your ability to just get done.",
+      "context": "Defining what it means to be an intellectually fearless scientist or entrepreneur.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "the evolutionary reason animals have perception is actually for activity for interactivity. It's active. It's not passive and that means perception and the perceptual intelligence is the foundation of movement",
+      "context": "Explaining her realization after studying the Cambrian explosion, which led her to focus on spatial intelligence.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "wherever there is chip there's compute wherever there's compute there will be AI.",
+      "context": "Arguing why AI is not overhyped as a fundamental business and technological future.",
+      "source_id": "src_012"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Believing language models alone are sufficient to achieve AGI or fully understand the world.",
+      "why_it_fails": "Language defines the boundary of the world in symbolic forms, but the physical world is limitless, 3D, and requires spatial intelligence, geometry, and physics to fully comprehend and interact with.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Treating perception as a passive process (like a camera).",
+      "why_it_fails": "Evolution shows that perception developed specifically for active interactivity and movement. Separating perception from action fundamentally misunderstands how intelligence operates in the physical world.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Assuming infrastructure or SaaS applications are removed from the need to build human trust.",
+      "why_it_fails": "Even in backend infrastructure, you are ultimately serving people and businesses. Trust must remain anchored in human agency regardless of the product layer.",
+      "source_id": "src_012"
+    }
+  ]
+}

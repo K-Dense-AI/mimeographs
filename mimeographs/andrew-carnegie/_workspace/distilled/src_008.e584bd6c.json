@@ -1,0 +1,83 @@
+{
+  "source_id": "src_008",
+  "summary": "A historical overview of Andrew Carnegie's philanthropic legacy of funding free public libraries. The text highlights his core belief that access to books is the greatest gift a community can receive, provided the community takes ownership of maintaining the institution, and emphasizes his focus on creating accessible branch systems rather than isolated monuments.",
+  "themes": [
+    "Philanthropy",
+    "Public Libraries",
+    "Education",
+    "Community Ownership",
+    "Self-Improvement"
+  ],
+  "principles": [
+    {
+      "statement": "The best gift to a community is a free library, provided the community commits to maintaining it.",
+      "rationale": "Philanthropy should provide the initial capital for public goods, but the community must take ownership and treat the institution as essential public property, akin to public schools, to ensure its longevity.",
+      "source_quote": "The result of my own study of the question, What is the best gift which can be given to a community? is that a free library occupies the first place, provided the community will accept and maintain it as a public institution, as much a part of the city property as its public schools, and, indeed, an adjunct to these.",
+      "source_id": "src_008"
+    },
+    {
+      "statement": "Instilling a love of reading is far more valuable than giving monetary handouts.",
+      "rationale": "A taste for reading provides lifelong instruction, enjoyment, and self-improvement, which ultimately holds more enduring value for a working person than a temporary financial gift.",
+      "source_quote": "The taste for reading is one of the most precious possessions of life. I should much rather be instrumental in bringing to the working man or woman this taste than mere dollars. It is better than a fortune.",
+      "source_id": "src_008"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Community-Matched Philanthropy",
+      "when_to_apply": "When providing large philanthropic gifts for public infrastructure or community institutions.",
+      "steps": [
+        "Provide the upfront capital required to build the physical infrastructure (e.g., a library building).",
+        "Require the local government or community to formally agree to fund the ongoing maintenance and operations.",
+        "Integrate the new institution into the city's existing public property and services."
+      ],
+      "source_quote": "...provided the community will accept and maintain it as a public institution, as much a part of the city property as its public schools...",
+      "source_id": "src_008"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Fishing Sloop (Hub and Spoke Model)",
+      "description": "A metaphor for system design: a massive central hub is useless to the masses without a network of local branches to distribute its value. A central institution must be connected to neighborhood outposts to truly serve the public.",
+      "example": "Carnegie argued against building a grand central New York Public Library unless it was connected to neighborhood branch systems, ensuring it was accessible to everyday people rather than just a rarefied few.",
+      "source_id": "src_008"
+    }
+  ],
+  "heuristics": [
+    "If you have surplus wealth, use it to lend books to others."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The result of my own study of the question, What is the best gift which can be given to a community? is that a free library occupies the first place, provided the community will accept and maintain it as a public institution...",
+      "context": "Written in his influential book, The Gospel of Wealth, regarding his philanthropic philosophy.",
+      "source_id": "src_008"
+    },
+    {
+      "text": "The taste for reading is one of the most precious possessions of life. I should much rather be instrumental in bringing to the working man or woman this taste than mere dollars. It is better than a fortune.",
+      "context": "Speaking on the value of funding libraries over direct financial handouts.",
+      "source_id": "src_008"
+    },
+    {
+      "text": "A great central public library without branch libraries in a large city resembles a fishing sloop without small boats.",
+      "context": "Arguing in an 1895 letter to the New York Sun that the New York Public Library must include neighborhood branches.",
+      "source_id": "src_008"
+    },
+    {
+      "text": "Whatever agencies for good may rise or fall in the future, it seems certain that the Free Library is destined to stand and become a never-ceasing foundation of good to all the inhabitants.",
+      "context": "Reflecting on the permanence and enduring value of public libraries.",
+      "source_id": "src_008"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Building grand, centralized public institutions without local neighborhood branches.",
+      "why_it_fails": "It serves only a 'rarefied few' rather than the general public, making the term 'Public' a misnomer because the resources are not actually accessible to the masses.",
+      "source_id": "src_008"
+    },
+    {
+      "description": "Giving 'mere dollars' (direct financial handouts) to the working class instead of tools for self-education.",
+      "why_it_fails": "Money is fleeting, whereas providing access to books and instilling a taste for reading gives people a 'precious possession' that lasts a lifetime and enables self-improvement.",
+      "source_id": "src_008"
+    }
+  ]
+}

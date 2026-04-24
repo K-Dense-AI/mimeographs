@@ -1,0 +1,102 @@
+{
+  "source_id": "src_036",
+  "summary": "Notes from David Silver's 2015 Reinforcement Learning course at UCL, covering foundational concepts such as Markov Decision Processes, model-free prediction and control, value function approximation, policy gradients, and the exploration-exploitation trade-off.",
+  "themes": [
+    "Reinforcement Learning",
+    "Markov Decision Processes",
+    "Policy Gradients",
+    "Exploration vs. Exploitation",
+    "Model-Free vs. Model-Based RL"
+  ],
+  "principles": [
+    {
+      "statement": "Model-based reinforcement learning is fundamentally limited by the accuracy of the learned model.",
+      "rationale": "Because model-based RL relies on simulated experience to plan the value function or policy, any approximation errors in the model will compound and degrade the resulting policy.",
+      "source_quote": "Model-based RL is only as good as the estimated model",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Stochastic policies can outperform deterministic policies in environments with state aliasing.",
+      "rationale": "When an agent cannot fully observe the true state (aliasing), a deterministic policy might get stuck making consistently wrong choices, whereas a stochastic policy can break symmetry and perform better.",
+      "source_quote": "Whenever state aliasing occurs a stochastic policy can do better than a deterministic policy",
+      "source_id": "src_036"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Deep Q-Networks (DQN)",
+      "when_to_apply": "When approximating value functions in reinforcement learning using neural networks to ensure stable learning.",
+      "steps": [
+        "Take action a_t according to epsilon-greedy policy",
+        "Store transition (s_t, a_t, r_{t+1}, s_{t+1}) in replay memory D",
+        "Sample random mini-batch of transition (s, a, r, s') from D",
+        "Compute Q-learning targets with respect to fixed parameters w^-",
+        "Optimize MSE between Q-network and Q-learning targets"
+      ],
+      "source_quote": "DQN uses experience replay and fixed Q-targets",
+      "source_id": "src_036"
+    },
+    {
+      "name": "Dyna",
+      "when_to_apply": "When integrating learning and planning to maximize data efficiency from both real and simulated environments.",
+      "steps": [
+        "Learn a model from real experience",
+        "Learn and plan value function (and/or policy) from real and simulated experience"
+      ],
+      "source_quote": null,
+      "source_id": "src_036"
+    },
+    {
+      "name": "Actor-Critic Algorithm",
+      "when_to_apply": "When using policy gradient methods and needing to reduce the high variance of evaluating a policy.",
+      "steps": [
+        "Critic: Updates action-value function parameters w",
+        "Actor: Updates policy parameter theta, in the direction suggested by the critic"
+      ],
+      "source_quote": null,
+      "source_id": "src_036"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "On-policy vs. Off-policy learning",
+      "description": "A metaphor for understanding how agents learn from experience. On-policy is 'learning on the job' (learning from the actions you are currently taking), while off-policy is 'looking over someone's shoulder' (learning from the actions of another agent or a past policy).",
+      "example": null,
+      "source_id": "src_036"
+    },
+    {
+      "name": "Optimism in the face of uncertainty",
+      "description": "An approach to the exploration-exploitation dilemma where the agent assumes unknown states or actions have high value, naturally driving exploration of unexplored areas.",
+      "example": "Probability matching and the UCB1 algorithm.",
+      "source_id": "src_036"
+    }
+  ],
+  "heuristics": [
+    "Assign credit to the most frequent states (frequency heuristic) and the most recent states (recency heuristic) using eligibility traces.",
+    "Reduce variance in policy gradients by subtracting a baseline function, such as the state value function."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Monte-Carlo learning is a really bad idea off-policy, it does not work because over many steps, your target policy and your behavior policy never match enough to be useful",
+      "context": "Explaining why Monte-Carlo methods fail for off-policy control.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "Model-based RL is only as good as the estimated model",
+      "context": "Discussing the disadvantages and limitations of model-based reinforcement learning.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "Whenever state aliasing occurs a stochastic policy can do better than a deterministic policy",
+      "context": "Discussing the advantages of policy-based RL over value-based RL.",
+      "source_id": "src_036"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Using Monte-Carlo learning for off-policy control.",
+      "why_it_fails": "Over many steps, the target policy and the behavior policy diverge too much, meaning they 'never match enough to be useful.'",
+      "source_id": "src_036"
+    }
+  ]
+}

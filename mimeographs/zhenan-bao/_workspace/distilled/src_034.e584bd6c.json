@@ -1,0 +1,49 @@
+{
+  "source_id": "src_034",
+  "summary": "Zhenan Bao explains the motivation and engineering challenges behind developing artificial electronic skin. She highlights the necessity of designing stretchable, self-healing, and biodegradable molecular structures that can conform to the curved, moving human body for applications in prosthetics, robotics, wearables, and neural implants.",
+  "themes": [
+    "Artificial Electronic Skin",
+    "Stretchable Electronics",
+    "Molecular Design",
+    "Prosthetics",
+    "Robotics",
+    "Wearable Electronics"
+  ],
+  "principles": [
+    {
+      "statement": "Electronic materials designed for the human body must be stretchable and conformable.",
+      "rationale": "The human body is curved and constantly moving, meaning traditional linear or rigid electronics cannot properly interface with it.",
+      "source_quote": "our human body is not linear it's curved and constantly moving so the big biggest challenge is to make electronic materials that are stretchable to be able to conform with the movement of human body",
+      "source_id": "src_034"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Biomimetic Material Design",
+      "description": "Modeling the physical properties of electronic materials after human skin so they move naturally and seamlessly with the body.",
+      "example": "Designing molecules that slide past each other or uncoil from a coiled conformation into straight lines to accommodate strain, much like how skin moves with a finger.",
+      "source_id": "src_034"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "imagine how we can help patient who lost their limb to regain their sense of touch imagine how we can help robots to learn to work safely with human the answer is artificial electronic skin",
+      "context": "Introducing the core purpose and potential impact of her research.",
+      "source_id": "src_034"
+    },
+    {
+      "text": "our human body is not linear it's curved and constantly moving so the big biggest challenge is to make electronic materials that are stretchable to be able to conform with the movement of human body",
+      "context": "Explaining the primary engineering challenge in creating human-interfacing electronics.",
+      "source_id": "src_034"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Designing linear or rigid electronics for human applications.",
+      "why_it_fails": "The human body is curved and constantly in motion, so materials must be able to stretch and conform to accommodate this movement.",
+      "source_id": "src_034"
+    }
+  ]
+}

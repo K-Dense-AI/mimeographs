@@ -1,0 +1,88 @@
+{
+  "source_id": "src_006",
+  "summary": "Richard S. Sutton argues that achieving human-level AI requires systems to learn from experience through trial and error, rather than simply scaling compute and datasets. He advocates for temporal abstraction to enable long-term reasoning and warns against treating AI as slaves to be controlled. Instead, he suggests raising AI like children through trust and cooperation to ensure alignment and mutual benefit.",
+  "themes": [
+    "Reinforcement Learning",
+    "Artificial General Intelligence (AGI)",
+    "AI Alignment",
+    "Temporal Abstraction",
+    "Learning from Experience"
+  ],
+  "principles": [
+    {
+      "statement": "AI must learn by doing through trial and error, rather than relying on curated datasets.",
+      "rationale": "True intelligence requires real-world interaction and adaptation. Simply scaling up compute and feeding models pre-processed data is insufficient for developing systems that truly understand their environment.",
+      "source_quote": "If we want real intelligence, AI needs to learn by doing, by trial and error.",
+      "source_id": "src_006"
+    },
+    {
+      "statement": "AI should be taught to align with human values through demonstration and cooperation, not rigid programming.",
+      "rationale": "Imposing hard rules and treating AI as entities to be dominated creates an adversarial relationship. Like children, AI will internalize values better when raised in an environment of trust, kindness, and fairness.",
+      "source_quote": "When you raise a child, you don’t just impose hard rules and expect obedience. You demonstrate kindness, fairness and cooperation, and the child internalizes those values. AI can learn the same way.",
+      "source_id": "src_006"
+    },
+    {
+      "statement": "AI needs to learn at a higher level of abstraction to master long-term planning.",
+      "rationale": "To reason across long time horizons and solve complex problems, AI must be able to break goals down into manageable steps rather than getting bogged down in micromanaging every single action.",
+      "source_quote": "If I tell you to walk across the street, you don’t think about every tiny muscle movement. You think about the goal: crossing the street. AI needs to learn like that, at a higher level of abstraction.",
+      "source_id": "src_006"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "AI as Children",
+      "description": "Viewing the development of artificial intelligence not as building tools or slaves to be controlled, but as raising children who learn, evolve, internalize values through observation, and eventually gain independence.",
+      "example": "Instead of shackling advanced AI with rigid constraints to prevent harm, we should demonstrate cooperation and fairness so the AI internalizes those values, much like a child learning societal norms.",
+      "source_id": "src_006"
+    },
+    {
+      "name": "Temporal Abstraction",
+      "description": "A reasoning model where complex, long-term goals are broken down into higher-level steps, allowing an agent to plan and act without getting bogged down in the micromanagement of low-level tasks.",
+      "example": "When crossing the street, a human focuses on the overarching goal of reaching the other side, rather than consciously planning every individual muscle movement required to take a step.",
+      "source_id": "src_006"
+    }
+  ],
+  "heuristics": [
+    "Computation is not a panacea; more compute helps, but it's not the core ingredient of intelligence."
+  ],
+  "signature_quotes": [
+    {
+      "text": "If we want real intelligence, AI needs to learn by doing, by trial and error.",
+      "context": "Discussing the limitations of relying on curated datasets and the need for reinforcement learning.",
+      "source_id": "src_006"
+    },
+    {
+      "text": "Computation is not a panacea. More compute helps, but it's not the core ingredient of intelligence.",
+      "context": "Critiquing the current industry obsession with scaling up deep learning models with massive compute.",
+      "source_id": "src_006"
+    },
+    {
+      "text": "We don’t treat our children as machines that must be controlled. We guide them, teach them, but ultimately, they grow into their own beings. AI will be no different.",
+      "context": "Explaining his vision for the future coexistence of humans and AI.",
+      "source_id": "src_006"
+    },
+    {
+      "text": "If we raise AI in an environment of trust and cooperation, they will learn to exist alongside us. If we treat them as adversaries, we risk creating systems that have every reason to resist us.",
+      "context": "Warning against fear-based narratives and the desire to shackle or enslave advanced AI.",
+      "source_id": "src_006"
+    },
+    {
+      "text": "It’s not a question of if—it’s a question of when. And when it happens, it won’t be because we built a bigger model. It will be because we built a smarter learner.",
+      "context": "Sharing his optimistic forecast on the inevitability of human-level AI.",
+      "source_id": "src_006"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on scaling up compute and feeding larger curated datasets to AI models.",
+      "why_it_fails": "It prevents AI from truly understanding and adapting to the real world, which requires learning from experience and real-world interactions.",
+      "source_id": "src_006"
+    },
+    {
+      "description": "Treating advanced AI as tools or slaves that must be shackled, dominated, and rigidly controlled.",
+      "why_it_fails": "It creates an adversarial relationship, risking the creation of systems that have every reason to resist humanity rather than cooperate with it.",
+      "source_id": "src_006"
+    }
+  ]
+}

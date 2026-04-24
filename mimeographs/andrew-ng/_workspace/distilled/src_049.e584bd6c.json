@@ -1,0 +1,56 @@
+{
+  "source_id": "src_049",
+  "summary": "Andrew Ng announces an experimental 'Agentic Reviewer' tool designed to provide faster feedback on research papers. Motivated by the painfully slow traditional peer-review process, he demonstrates that agentic workflows can approach human-level reviewing performance, particularly when grounded in open-access repositories like arXiv.",
+  "themes": [
+    "Agentic workflows",
+    "AI in research",
+    "Feedback loops",
+    "Peer review"
+  ],
+  "principles": [
+    {
+      "statement": "Fast feedback loops are critical for research iteration.",
+      "rationale": "Waiting months for traditional peer review feedback is painfully slow and stalls researchers' progress. Agentic workflows can solve this by providing rapid, actionable feedback.",
+      "source_quote": "Their feedback loop -- waiting ~6 months for feedback each time -- was painfully slow. We wanted to see if an agentic workflow can help researchers iterate faster.",
+      "source_id": "src_049"
+    },
+    {
+      "statement": "Agentic AI is approaching human-level performance in complex evaluation tasks.",
+      "rationale": "When tested on ICLR 2025 reviews, the correlation between an AI and a human reviewer was slightly higher than the correlation between two human reviewers.",
+      "source_quote": "Correlation between two human reviewers: 0.41 - Correlation between AI and a human reviewer: 0.42 This suggests agentic reviewing is approaching human-level performance.",
+      "source_id": "src_049"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Agentic workflows for iteration",
+      "description": "Using AI agents not just for generation, but as a rapid feedback mechanism to tighten iteration cycles in complex, traditionally slow processes.",
+      "example": "Using an AI agent to review research papers to avoid the 6-month wait time of traditional academic peer review.",
+      "source_id": "src_049"
+    }
+  ],
+  "heuristics": [
+    "Use agentic workflows to tighten painfully slow feedback loops.",
+    "Ground AI agents in freely published domain data (like arXiv) to improve their performance and relevance."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Their feedback loop -- waiting ~6 months for feedback each time -- was painfully slow. We wanted to see if an agentic workflow can help researchers iterate faster.",
+      "context": "Discussing the motivation behind building an AI agent for reviewing research papers.",
+      "source_id": "src_049"
+    },
+    {
+      "text": "This suggests agentic reviewing is approaching human-level performance.",
+      "context": "Comparing the Spearman correlation of AI-human reviews versus human-human reviews on ICLR 2025 data.",
+      "source_id": "src_049"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on traditional, slow feedback loops for iterating on complex work.",
+      "why_it_fails": "It is 'painfully slow' and can result in a researcher spending years just waiting for feedback, severely bottlenecking their ability to improve and iterate.",
+      "source_id": "src_049"
+    }
+  ]
+}

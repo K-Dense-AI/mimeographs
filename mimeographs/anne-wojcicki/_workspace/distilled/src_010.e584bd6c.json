@@ -1,0 +1,107 @@
+{
+  "source_id": "src_010",
+  "summary": "Anne Wojcicki discusses the founding of 23andMe as a rebellion against a paternalistic healthcare system. She emphasizes consumer empowerment, redefining privacy as choice, and leveraging massive human datasets to revolutionize drug discovery and preventive care. She also advocates for treating research participants as partners and urges scientists to communicate more accessibly.",
+  "themes": [
+    "Consumer Empowerment",
+    "Data-Driven Healthcare",
+    "Privacy as Choice",
+    "Disrupting Pharma",
+    "Science Communication",
+    "Preventive Health"
+  ],
+  "principles": [
+    {
+      "statement": "Individuals own their genetic data and have a fundamental right to access it.",
+      "rationale": "The genome is simply a digital representation of the self, and consumers shouldn't need a doctor's permission or a paternalistic healthcare system to learn about their own bodies.",
+      "source_quote": "I own myself like it's my body and my genome is just the digital representation of me and so like of course I can get access to it",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Privacy is about enabling choice, not just restricting sharing.",
+      "rationale": "People have different preferences—some want to keep data entirely private, while others want to share it with family or researchers to help others. True privacy respects those individual choices.",
+      "source_quote": "privacy doesn't mean not sharing and that privacy actually means choice",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Research participants must be treated as partners, not subjects.",
+      "rationale": "Extracting data without giving anything back is disrespectful. Participants are contributing to science and deserve to receive their data and insights in return.",
+      "source_quote": "I'm frankly like kind of disgusted the way the research environment today treats participants like you're called a human subject",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Preventive healthcare happens in daily life, not in clinical settings.",
+      "rationale": "Health is the accumulation of daily decisions. To drive real change, healthcare must meet people where they make those choices, such as retail stores, rather than waiting for them to visit a doctor.",
+      "source_quote": "the future of prevention is not with your doctor but the future prevention is with Walmart",
+      "source_id": "src_010"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Healthcare System as a \"Money Machine\"",
+      "description": "Viewing the traditional healthcare and pharmaceutical industries as entities optimized for margin expansion and profit rather than consumer health or efficient drug discovery.",
+      "example": "She shorted healthcare stocks out of frustration after realizing CEOs were bragging about \"margin expansion\" by squeezing the uninsured, recognizing the system did not reflect her values.",
+      "source_id": "src_010"
+    },
+    {
+      "name": "The Genome as Digital Code",
+      "description": "Treating human DNA not as a mystical biological essence, but as a decipherable digital dataset that can be aggregated, queried, and used to find patterns.",
+      "example": "Using a massive database of human genetic data to find therapeutic targets by following the data across all phenotypes, rather than starting with a specific disease hypothesis.",
+      "source_id": "src_010"
+    }
+  ],
+  "heuristics": [
+    "Whatever you think your life is gonna be at the age of 18 to 22, your life will not be that.",
+    "If you're changing society and how people think and how they work, you have to have patience.",
+    "Dinner meetings are also usually a total waste of time."
+  ],
+  "signature_quotes": [
+    {
+      "text": "23 we came out of a rebellion and in some ways like we've always meant to be a rebellious brand.",
+      "context": "Explaining the origin of 23andMe as a reaction against the traditional healthcare system.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "I own myself like it's my body and my genome is just the digital representation of me",
+      "context": "Arguing for the consumer's right to access their own genetic information directly.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "privacy doesn't mean not sharing and that privacy actually means choice",
+      "context": "Discussing how 23andMe handles user data and consent.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "the future of prevention is not with your doctor but the future prevention is with Walmart",
+      "context": "Explaining why 23andMe partners with retail groups to reach consumers where they make daily lifestyle choices.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "you hurt yourself by wearing the white coat and using big words and talking down to people",
+      "context": "Criticizing the scientific community for poor communication, which drives the public toward unscientific influencers.",
+      "source_id": "src_010"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Paternalistic medicine where doctors act as gatekeepers to a patient's own health information.",
+      "why_it_fails": "It disempowers consumers, assumes they cannot handle the truth about their own bodies, and prevents them from taking proactive steps in their health.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Scientists using jargon and wearing white coats to assert authority.",
+      "why_it_fails": "It alienates the public, causing them to trust relatable but unscientific influencers (like Gwyneth Paltrow) over actual experts.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Treating research contributors as \"human subjects\".",
+      "why_it_fails": "It is an extractive, dirty model that fails to acknowledge the participant's contribution or return any value or data to them.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Hypothesis-first drug discovery using animal models.",
+      "why_it_fails": "It has created a horribly inefficient process where the pharmaceutical industry spends billions and gets worse at drug discovery every year.",
+      "source_id": "src_010"
+    }
+  ]
+}

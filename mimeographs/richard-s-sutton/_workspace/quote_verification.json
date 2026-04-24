@@ -1,0 +1,900 @@
+{
+  "total": 73,
+  "verified": 69,
+  "unverified": [
+    {
+      "category": "principles",
+      "label": "Value Functions are Essential for Efficient Decision-Making",
+      "quote": "all efficient methods for solving sequential decision problems... learn or compute value functions as an intermediate solution step",
+      "source_ids": [
+        "src_031"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5648854961832062
+    },
+    {
+      "category": "frameworks",
+      "label": "The Common Model of the Intelligent Agent",
+      "quote": "I want to talk about the base common model of the agent with the four parts... We need a policy... a value function... the perception component... the transition model of the world.",
+      "source_ids": [
+        "src_024",
+        "src_040"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4861878453038674
+    },
+    {
+      "category": "mental_models",
+      "label": "The 'Signals to Symbols' Problem",
+      "quote": "There is an awesome gap between the low-level signals and the high-level ways that we think about them. That is the main thing that we need to understand better in order to solve AI.",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7032967032967034
+    },
+    {
+      "category": "heuristics",
+      "label": "Look to Animals",
+      "quote": "Supervised learning is not something that happens in nature... Squirrels don’t go to school.",
+      "source_ids": [
+        "src_024"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.75
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "AI Must Learn from Experience (Continual Learning)",
+      "quote": "If we want real intelligence, AI needs to learn by doing, by trial and error.",
+      "source_ids": [
+        "src_010",
+        "src_020",
+        "src_006",
+        "src_019",
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 0.987012987012987
+    },
+    {
+      "category": "principles",
+      "label": "Learning from Runtime Experience",
+      "quote": "What we want, to quote Alan Turing, is a machine that can learn from experience, where experience is the things that actually happen in your life. You do things, you see what happens, and that’s what you learn from.",
+      "source_ids": [
+        "src_012",
+        "src_014",
+        "src_016",
+        "src_018",
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 0.9023255813953488
+    },
+    {
+      "category": "principles",
+      "label": "Intelligence is Achieving Goals, Not Mimicry",
+      "quote": "For me, having a goal is the essence of intelligence, right? Something is intelligent if it can achieve goals.",
+      "source_ids": [
+        "src_029",
+        "src_031",
+        "src_013",
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.8363636363636363
+    },
+    {
+      "category": "principles",
+      "label": "The Limits of Large Language Models",
+      "quote": "The purpose of all the modern machine learning is to transfer knowledge that already exists that people already have to the machine and the machine is then static and no longer learns.",
+      "source_ids": [
+        "src_014",
+        "src_016",
+        "src_018",
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 0.9836956521739131
+    },
+    {
+      "category": "principles",
+      "label": "Intelligence Requires a Goal",
+      "quote": "For me, having a goal is the essence of intelligence. Something is intelligent if it can achieve goals.",
+      "source_ids": [
+        "src_012",
+        "src_014",
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Abstract Agent-Environment Boundary",
+      "quote": "An agent is not necessarily an entire robot or organism, and its environment is not necessarily only what is outside of a robot or organism.",
+      "source_ids": [
+        "src_003",
+        "src_008",
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_003",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "AI as Cosmic Evolution",
+      "quote": "AI is the inevitable next step in the development of the universe and we should embrace it with courage, pride, and a sense of adventure.",
+      "source_ids": [
+        "src_014",
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Decentralized Cooperation Over Centralized Control",
+      "quote": "The politics of AI is parallels the politics of humanity. And in all cases, we should seek decentralized cooperation over centralized control.",
+      "source_ids": [
+        "src_014",
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "No Design-Time Commitments",
+      "quote": "The common model does not include anything specific to any organism, world, or application domain.",
+      "source_ids": [
+        "src_012",
+        "src_040"
+      ],
+      "verified": true,
+      "matched_source_id": "src_040",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Raise AI Like Children Through Trust and Cooperation",
+      "quote": "When you raise a child, you don’t just impose hard rules and expect obedience. You demonstrate kindness, fairness and cooperation, and the child internalizes those values. AI can learn the same way.",
+      "source_ids": [
+        "src_006",
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Reward Hypothesis",
+      "quote": "all of what we mean by goals and purposes can be well thought of as the maximization of the expected value of the cumulative sum of a received scalar signal called reward",
+      "source_ids": [
+        "src_029",
+        "src_031"
+      ],
+      "verified": true,
+      "matched_source_id": "src_031",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Autonomous Sub-problem Generation",
+      "quote": "The problems possible sub problems are too various and they're too world dependent. We have to give the responsibility for forming the subpros for posing the problems uh to the agent",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "High-Level Abstract Knowledge",
+      "quote": "To achieve AI, we must have agents that know all sorts of things other than value functions and policies. We must have agents that know all the little facts about life, about physics and trees and people and houses...",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 0.9769585253456221
+    },
+    {
+      "category": "principles",
+      "label": "Insufficiency of Gradient Descent",
+      "quote": "Gradient descent is deterministic and follow follows the gradient. That's not enough. You need something that will generate variety.",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Learn Slow to Learn Fast",
+      "quote": "I have this phrase you have to learn learning slow so that you can learn fast.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Subjective Feelings are Manifestations of TD Error",
+      "quote": "when you feel good or feel bad you don't know if it's you don't really know if it's because the reward was high or the change in evaluation was high",
+      "source_ids": [
+        "src_031"
+      ],
+      "verified": true,
+      "matched_source_id": "src_031",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Bitter Lesson",
+      "quote": "70 years of AI research [had shown] that general methods that leverage computation are ultimately the most effective, and by a large margin",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Value Functions are Essential for Efficient Decision-Making",
+      "quote": "all efficient methods for solving sequential decision problems... learn or compute value functions as an intermediate solution step",
+      "source_ids": [
+        "src_031"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5648854961832062
+    },
+    {
+      "category": "principles",
+      "label": "Work on the Important, Not the Popular",
+      "quote": "you should try to be neutral on what's popular... if it's popular well then it'll be easier to work on it because people will understand it but but it'll be less valuable because everyone's doing that",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 0.825
+    },
+    {
+      "category": "frameworks",
+      "label": "Tenets of Realist AI Prognostication",
+      "quote": "I offer these tenets of realist AI prognostication sort of like analogous to like John Mirshimer talked about realist geopolitics. We're just going to be realistic. What's actually going to happen?",
+      "source_ids": [
+        "src_014",
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 0.949238578680203
+    },
+    {
+      "category": "frameworks",
+      "label": "The Common Model of the Intelligent Agent",
+      "quote": "I want to talk about the base common model of the agent with the four parts... We need a policy... a value function... the perception component... the transition model of the world.",
+      "source_ids": [
+        "src_024",
+        "src_040"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4861878453038674
+    },
+    {
+      "category": "frameworks",
+      "label": "The Four Great Ages of the Universe",
+      "quote": "I think what it would mean to take design to its limit would be to design things that are themselves capable of designing.",
+      "source_ids": [
+        "src_014",
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Getting Started in Reinforcement Learning",
+      "quote": "Learn the basics and find an application with inexpensive costs.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Standardized Empirical RL Evaluation",
+      "quote": "Evaluating algorithms is more difficult in reinforcement learning than in other kinds of machine learning because the test problems must be programs.",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Temporal Difference (TD) Learning",
+      "quote": "the reinforcement is sure it's the reward but beyond that it's the change in your expectation from one time step to the next",
+      "source_ids": [
+        "src_031"
+      ],
+      "verified": true,
+      "matched_source_id": "src_031",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "The Daily Research Notebook",
+      "quote": "get a research notebook and write in it write in it every day write what write your thoughts and and and work on your thoughts try to challenge them and make them better",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 0.9644970414201184
+    },
+    {
+      "category": "frameworks",
+      "label": "The OaK (Open-ended Knowledge) Architecture",
+      "quote": "the oak architecture involves these uh eight steps that we'll be talking about they're all done in parallel at runtime",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Replicators vs. Designers",
+      "quote": "We humans are the catalyst, the midwife, the progenitor, the thing that fulfills the age of design which is the fourth great age of the universe.",
+      "source_ids": [
+        "src_010",
+        "src_014",
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Mind-Body Environment Boundary",
+      "quote": "The reward comes from outside the agent but it doesn't come from outside our body. Right? The reward is computed inside our head in fact inside our brain but it's a part of the brain that I don't that is not considered part of the agent",
+      "source_ids": [
+        "src_003",
+        "src_008",
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Stream of Experience",
+      "quote": "without experience there's nothing for intelligence to be about no way to say that one thing is better than anything else because there's no goal",
+      "source_ids": [
+        "src_014",
+        "src_018",
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Empirical vs. Computational Domains",
+      "quote": "The empirical world has to be learned. You have to learn the consequences. Um whereas the uh the math is is more just computational.",
+      "source_ids": [
+        "src_013",
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Sub-goals as Solution Methods",
+      "quote": "we choose except they're not they're not they're not reward goals so maybe they shouldn't be called goals they are sub goals they are strategies",
+      "source_ids": [
+        "src_029",
+        "src_031"
+      ],
+      "verified": true,
+      "matched_source_id": "src_031",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Three Eras of AI",
+      "quote": "fully intelligent agents require learning from experience which is beyond large language models as magnificent as they are as customizable interfaces to all the world's knowledge.",
+      "source_ids": [
+        "src_014",
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Compiled Value Judgments",
+      "quote": "the value judgments are compiled... they're hard-coded and they're automatic and they're intuitive they're not the reasons for them are no longer present",
+      "source_ids": [
+        "src_031"
+      ],
+      "verified": true,
+      "matched_source_id": "src_031",
+      "match_ratio": 0.8366013071895425
+    },
+    {
+      "category": "mental_models",
+      "label": "Continual Backpropagation",
+      "quote": "I don't think it's a problem with neural networks, the structure of neural networks. I think it's a problem with the weakness of of simple back propagation.",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Decentralized Cooperation vs. Centralized Control",
+      "quote": "Agents can live together in peace and productivity flourishing even when they all want different things.",
+      "source_ids": [
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Design Time vs. Runtime",
+      "quote": "Instead, we should build in only the meta methods that can find and capture this complexity.",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Hedonism with Foresight",
+      "quote": "basically it's all Hedonism it's all Hedonism but value functions make it Hedonism with foresight",
+      "source_ids": [
+        "src_031"
+      ],
+      "verified": true,
+      "matched_source_id": "src_031",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Temporal Abstraction",
+      "quote": "If I tell you to walk across the street, you don’t think about every tiny muscle movement. You think about the goal: crossing the street. AI needs to learn like that, at a higher level of abstraction.",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 0.995
+    },
+    {
+      "category": "mental_models",
+      "label": "The 'Signals to Symbols' Problem",
+      "quote": "There is an awesome gap between the low-level signals and the high-level ways that we think about them. That is the main thing that we need to understand better in order to solve AI.",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7032967032967034
+    },
+    {
+      "category": "heuristics",
+      "label": "Embrace Being Out of Sync",
+      "quote": "I’m personally just content being out of sync with my field for a long period of time, perhaps decades, because occasionally I have been proved right in the past.",
+      "source_ids": [
+        "src_014",
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Approximate Everything",
+      "quote": "Even a single state of the world you can't really keep in your head because the state of the world can includes what's going on in all those other agents minds.",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Be Neutral on Popularity",
+      "quote": "you should try to be neutral on what's popular...",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 0.9387755102040817
+    },
+    {
+      "category": "heuristics",
+      "label": "Do the Work, Don't Just Argue",
+      "quote": "It's a good way to lose is to spend your time trying to convince other people that they should do what you think is important.",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 0.9920634920634921
+    },
+    {
+      "category": "heuristics",
+      "label": "Don't Build In How We Think We Think",
+      "quote": "building in how we think we think does not work in the long run",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Knowledge is Prediction",
+      "quote": "Everything we know is a prediction about what will happen if we were to do something.",
+      "source_ids": [
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Learn Slow to Learn Fast",
+      "quote": "I have this phrase you have to learn learning slow so that you can learn fast.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Look to Animals",
+      "quote": "Supervised learning is not something that happens in nature... Squirrels don’t go to school.",
+      "source_ids": [
+        "src_024"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.75
+    },
+    {
+      "category": "heuristics",
+      "label": "Prioritize the Model Over Values",
+      "quote": "It's easier to get the model right than the values right.",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Write to Clarify Confusion",
+      "quote": "Usually the value of writing down your thoughts is directly proportional to how vague and Confused they are.",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 0.9907407407407407
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AI as Cosmic Evolution",
+      "quote": "AI is the inevitable next step in the development of the universe and we should embrace it with courage, pride, and a sense of adventure.",
+      "source_ids": [
+        "src_014",
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Essence of Intelligence",
+      "quote": "For me, having a goal is the essence of intelligence. Something is intelligent if it can achieve goals.",
+      "source_ids": [
+        "src_014",
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Purpose of Modern ML",
+      "quote": "The purpose of all the modern machine learning is to transfer knowledge that already exists that people already have to the machine and the machine is then static and no longer learns.",
+      "source_ids": [
+        "src_014",
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 0.9836956521739131
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Reward Hypothesis",
+      "quote": "all of what we mean by goals and purposes can be well thought of as the maximization of the expected value of the cumulative sum of a received scalar signal called reward",
+      "source_ids": [
+        "src_031",
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_031",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Ambitious Without Being Arrogant",
+      "quote": "We wanted to be ambitious without being arrogant.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 0.9795918367346939
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Content Being Out of Sync",
+      "quote": "I’m personally just content being out of sync with my field for a long period of time, perhaps decades, because occasionally I have been proved right in the past.",
+      "source_ids": [
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Decentralized Cooperation",
+      "quote": "Agents can live together in peace and productivity flourishing even when they all want different things.",
+      "source_ids": [
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Intelligence is Goal Achievement",
+      "quote": "For me, having a goal is the essence of intelligence, right? Something is intelligent if it can achieve goals.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.8363636363636363
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Interaction as Reality",
+      "quote": "I start with the interaction between the intelligent agent and its environment. Goals, choices, and sources of information are all defined in terms of this interaction. In some sense it is the only thing that is real, and from it all our sense of the world is created.",
+      "source_ids": [
+        "src_008"
+      ],
+      "verified": true,
+      "matched_source_id": "src_008",
+      "match_ratio": 0.9925373134328358
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Learning by Doing",
+      "quote": "If we want real intelligence, AI needs to learn by doing, by trial and error.",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 0.987012987012987
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Learning During Normal Operation",
+      "quote": "The winning feature of reinforcement learning is that you can learn during normal operation.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Learning from Experience",
+      "quote": "What we want, to quote Alan Turing, is a machine that can learn from experience, where experience is the things that actually happen in your life. You do things, you see what happens, and that’s what you learn from.",
+      "source_ids": [
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 0.9023255813953488
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Mimicry vs. Experience",
+      "quote": "Still today, I’d say the importance of learning from experience is not appreciated. I’ve had to explain to so many people that learning from experience is not what modern AI does. It learns from people, and it tries to mimic people.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 0.9353448275862069
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Abstract Agent-Environment Boundary",
+      "quote": "An agent is not necessarily an entire robot or organism, and its environment is not necessarily only what is outside of a robot or organism.",
+      "source_ids": [
+        "src_003"
+      ],
+      "verified": true,
+      "matched_source_id": "src_003",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Bitter Lesson",
+      "quote": "70 years of AI research [had shown] that general methods that leverage computation are ultimately the most effective, and by a large margin",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Complexity of the World",
+      "quote": "The actual contents of minds are part of the arbitrary intrinsically complex outside world. Arbitrarily complex uh their complexity is endless. They should not buil be built in.",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Need for Abstract Knowledge",
+      "quote": "To achieve AI, we must have agents that know all sorts of things other than value functions and policies. We must have agents that know all the little facts about life...",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 0.9058823529411765
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Value of Confusion",
+      "quote": "Usually the value of writing down your thoughts is directly proportional to how vague and Confused they are.",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 0.9907407407407407
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Equating Intelligence with Mimicry or Next-Token Prediction",
+      "quote": "You can't look at a system and say, \"Oh, it uh has a goal if it's just sitting there predicting and being happy with itself that it's predicting accurately.\"",
+      "source_ids": [
+        "src_031",
+        "src_013",
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Assuming Self-Play is Sufficient for the Real World",
+      "quote": "The limitation is in regular life, we don’t have an analogous to the rules of the game, just tells us how good the pieces of your real life.",
+      "source_ids": [
+        "src_020",
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Imposing Centralized Control and Forced Alignment",
+      "quote": "If we raise AI in an environment of trust and cooperation, they will learn to exist alongside us. If we treat them as adversaries, we risk creating systems that have every reason to resist us.",
+      "source_ids": [
+        "src_010",
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 0.9947916666666666
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Hard-Coding Human Knowledge",
+      "quote": "building in how we think we think does not work in the long run",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "The Streetlight Effect in AI Research",
+      "quote": "The field wants to focus on what they can do instead of noticing what they can't do.",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 0.9880952380952381
+    }
+  ]
+}

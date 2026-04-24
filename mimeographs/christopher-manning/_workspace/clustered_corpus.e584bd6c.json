@@ -1,0 +1,711 @@
+{
+  "expert_name": "Christopher Manning",
+  "themes": [
+    "Natural Language Processing",
+    "Large Language Models",
+    "Cognitive Science & Linguistics",
+    "AI Architecture & Design",
+    "Self-Supervised Learning",
+    "Open Science",
+    "Natural Language Processing & Linguistics",
+    "Machine Learning Architecture",
+    "Interactive AI Agents",
+    "Modularity & Compositional Reasoning",
+    "AI Research Strategy",
+    "History & Evolution of AI"
+  ],
+  "principles": [
+    {
+      "label": "Adaptability as True Intelligence",
+      "summary": "True intelligence requires rapid adaptation and continuous learning, not just vast knowledge accumulation.",
+      "details": "LLMs appear highly intelligent because they have memorized centuries of hard-won human knowledge. However, they lack the human ability to quickly learn and adapt to novel, uncertain environments. Knowing a lot of facts or performing specific tasks well is not enough to constitute general intelligence.",
+      "representative_quote": "the heart of human intelligence is being able to adapt to new situations to very quickly learn new things that's the real intelligence and that's not what large language models are doing",
+      "source_ids": [
+        "src_013",
+        "src_023",
+        "src_024",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Language Structure from Data",
+      "summary": "The hierarchical structure of human language can be learned from observed data alone, without innate machinery.",
+      "details": "Contrary to traditional Chomskian linguistics, which argues language structure is innate and unlearnable from data alone, modern neural networks (like Transformers) demonstrate that with enough data, models successfully learn syntax, context-free grammars, and coreference relations purely from positive evidence.",
+      "representative_quote": "what precisely what large language models show is that actually you can learn the structure of a human language",
+      "source_ids": [
+        "src_020",
+        "src_028",
+        "src_042"
+      ]
+    },
+    {
+      "label": "Compete on Ideas, Not Compute",
+      "summary": "Academic researchers should compete on novel ideas and architectural innovations rather than trying to out-compute massive tech companies.",
+      "details": "University students cannot out-compute massive tech companies. Instead of training huge models on hundreds of GPUs, they should focus on finding fresh problems or solving specific architectural gaps at a modest scale.",
+      "representative_quote": "what a much scarce supply is good ideas and it's very easy to be successful doing things at a modest scale with good ideas",
+      "source_ids": [
+        "src_016",
+        "src_011"
+      ]
+    },
+    {
+      "label": "Linguistic Intuition Without Hardcoded Rules",
+      "summary": "Linguistic intuition remains highly valuable for modeling, even though explicitly building formal grammars for neural networks is a dead end.",
+      "details": "Transformers naturally learn grammatical structures directly from data. While practitioners shouldn't manually encode grammar rules, having a sensitivity to how human language works helps them know what features to model.",
+      "representative_quote": "I suspect that there isn't future in humans explicitly building grammarss and hoping that those can help transformers. I mean, I think instead the right way to think about it is that large neural networks like transformers are actually learning human language grammar by themselves.",
+      "source_ids": [
+        "src_019",
+        "src_011"
+      ]
+    },
+    {
+      "label": "NLP as a Domain Science",
+      "summary": "NLP is fundamentally a domain science focused on language problems, requiring linguistically sophisticated design, not just generic machine learning.",
+      "details": "Machine learning is not generic heavy lifting; it requires design. NLP researchers are the designers who understand the central domain problems (like compositionality and noncategorical representations), which will not go away regardless of the underlying ML method.",
+      "representative_quote": "Our field is the domain science of language technology; it’s not about the best method of machine learning—the central issue remains the domain problems.",
+      "source_ids": [
+        "src_022",
+        "src_044"
+      ]
+    },
+    {
+      "label": "Self-Supervised Word Prediction",
+      "summary": "Self-supervised word prediction is a powerful multidimensional signal that forces models to induce rich linguistic structures.",
+      "details": "Because predicting a missing word requires an understanding of syntax, semantics, and discourse, the simple task of word prediction acts as a profound supervision signal, allowing models to learn major aspects of linguistic structure without explicit manual labeling.",
+      "representative_quote": "Despite its simple nature, the generality of word prediction, as a task that benefits from syntactic, semantic, and discourse information, leads to it being a very powerful multidimensional supervision signal.",
+      "source_ids": [
+        "src_024",
+        "src_042"
+      ]
+    },
+    {
+      "label": "AGI Realism",
+      "summary": "Human-level AI (AGI) is not close at hand, and historical predictions of imminent AGI have been consistently wrong.",
+      "details": "Current rhetoric mirrors the overly optimistic claims of the 1970s. Breakthroughs have been made, but claims of AGI by 2030 are highly unrealistic.",
+      "representative_quote": "I do not believe human-level AI (artificial superintelligence, or the commonest sense of AGI) is close at hand. AI has made breakthroughs, but the claim of AGI by 2030 is as laughable as claims of AGI by 1980 are in retrospect.",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "AI Should Complement Human Intelligence",
+      "summary": "Artificial intelligence does not need to exactly replicate human intelligence; it should complement human strengths.",
+      "details": "AI has different capabilities, such as a massive breadth of knowledge that exceeds humans. The goal of AI should be to complement human strengths rather than duplicate human cognition exactly.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Career Adaptability",
+      "summary": "Long-term research success requires adapting and combining old ideas with new paradigms.",
+      "details": "Fields move fast, and dominant paradigms change (e.g., rule-based to probabilistic to neural). Progress often comes from rediscovering old ideas and combining them with new learnings rather than just knowing the current state-of-the-art.",
+      "representative_quote": "...really progress is made by sort of taking the old ideas, and rediscovering them and putting them together with some stuff that's been learned in the meantime, and sort of further raising the bar on where we can get to.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Compositionality",
+      "summary": "Intelligence and language understanding require compositionality—constructing meaning from smaller parts.",
+      "details": "To understand novel and complex sentences, systems must be able to construct meaning from smaller parts, like words and multi-word expressions, rather than just relying on flat distributed representations.",
+      "representative_quote": "Intelligence requires being able to understand bigger things from knowing about smaller parts. In particular for language, understanding novel and complex sentences crucially depends on being able to construct their meaning compositionally from smaller parts",
+      "source_ids": [
+        "src_044"
+      ]
+    },
+    {
+      "label": "Foundational ML Skills First",
+      "summary": "Newcomers must build a strong foundation in core technical methods before specializing.",
+      "details": "Before tackling advanced domains, practitioners must understand the fundamentals of building models from data and diagnosing errors.",
+      "representative_quote": "knowing some of the core technical methods of machine learning, understanding ideas of how to build models from data, diagnose errors, all of these core things.",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "Human Language as Knowledge Representation",
+      "summary": "Human language text has proven to be the ultimate knowledge representation, defeating formal reasoning systems and knowledge graphs.",
+      "details": "For decades, the AI field believed it needed formal representations to achieve intelligence. However, treating human language text directly as the knowledge encoding has proven to be the successful path.",
+      "representative_quote": "what we've ended up with is human language as the knowledge representation and human language thinking as how we do our reasoning.",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Meaning via Use",
+      "summary": "Language models capture a gradient form of meaning because meaning is derived from use.",
+      "details": "Rejecting the internalist view that meaning requires mapping to a physical world, Manning aligns with Wittgenstein's inferentialism. Because LLMs learn the appropriate contexts for using words, they possess a valid, gradient form of meaning, even without physical grounding.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Modularity Over Pure End-to-End Learning",
+      "summary": "General intelligence requires modularity and compositional reasoning, not just massive monolithic end-to-end networks.",
+      "details": "Human brains have distinct regions and components that are repurposed for different tasks. A single monolithic network optimized end-to-end is unlikely to achieve flexible, general language understanding.",
+      "representative_quote": "I believe ultimately that we have to have models of intelligence which have different components in different parts and there is a certain level of modularity",
+      "source_ids": [
+        "src_016"
+      ]
+    },
+    {
+      "label": "Open Science and University Research",
+      "summary": "University research and open science are foundational to commercial AI breakthroughs and essential for long-term technological leadership.",
+      "details": "Foundational technologies (like diffusion models) are often invented in universities long before commercialization. Maintaining open software and knowledge ecosystems is necessary to train engineers and fuel startups, especially since frontier AI companies lack a permanent technical moat.",
+      "representative_quote": "University research really underpins these new developments and often precedes it by a decade.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Principle of Least Effort",
+      "summary": "Human behavior and language use are heavily influenced by the drive to minimize the probable average rate of work over time.",
+      "details": "People naturally act to balance the immediate effort required against the future work that might result from doing something poorly in the short term.",
+      "representative_quote": "The Principle of Least Effort argues that people will act so as to minimize their probable average rate of work",
+      "source_ids": [
+        "src_035"
+      ]
+    },
+    {
+      "label": "Semantic Equivalence in Translation",
+      "summary": "Machine translation evaluation metrics must capture semantic meaning, not just surface formulation.",
+      "details": "Traditional metrics struggle to distinguish good from fair translations because they ignore whether the candidate actually means the same thing as the reference.",
+      "representative_quote": "A good translation candidate _means_ the same thing as the reference translation, regardless of formulation.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "True Intelligence Requires Adaptation",
+      "summary": "True intelligence is the ability to learn and adapt in an ever-varying world through interaction, not just possessing vast static knowledge.",
+      "details": "Current LLMs have enormous knowledge and can interpolate across what they've seen, but they struggle with unseen circumstances. Intelligence fundamentally requires learning to cope with new, unexpected conditions.",
+      "representative_quote": "the ability to learn and perform a range of techniques to solve problems and achieve goals appropriate to the context in an uncertain ever varying world.",
+      "source_ids": [
+        "src_011"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Bagel (Exploration-Guided Synthetic Demonstrations)",
+      "summary": "A method for training web agents using prompted LLMs to generate and filter synthetic instruction-trajectory pairs.",
+      "details": "Uses an exploration policy (a prompted LLM) to take actions in an environment, a trajectory labeler to assign natural language instructions to those actions, and a demonstration filter to score correspondence. Bad pairs are refined via a back-translation-like procedure.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Critical Reading for Research",
+      "summary": "A method for reading scientific papers to cultivate creativity by actively questioning assumptions and aiming to 'break' the authors' ideas.",
+      "details": "Steps include: 1) Take a critical mindset. 2) Actively ask what the authors are assuming. 3) Question why they chose their specific method. 4) Aim to find why their ideas aren't the best way. 5) Explore modifications or 'second vectors' off current practices.",
+      "representative_quote": "...you really want to be concentrating, on being awake as you read, and trying to think well what are they assuming, why are they doing it this way rather than some other way...",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Interactive Linguistic Web Agent Loop",
+      "summary": "A framework for building AI agents that navigate and perform tasks on the web using accessibility trees and interactive learning.",
+      "details": "Steps include: 1) Define the agent's action space. 2) Provide an explicit objective. 3) Supply a history of past events. 4) Provide the current state using a textual accessibility tree (not raw pixels). 5) Allow the agent to learn interactively by building trajectories.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Layer-Grouped Universal Transformer",
+      "summary": "An architectural design for transformers to achieve better systematic generalization and parameter efficiency.",
+      "details": "Replace standard MLPs with a mixture of experts using individual sigmoids, extend MoE down to the attention layer, apply 'per-layer norm', and group 2 to 3 layers together to implement complex circuits recurrently across the network.",
+      "representative_quote": "we could get a lot further in uni using universal transformers if instead we had a group of layers which could implement circuits or universal computation and then we can repeat that group of layers recurrently going up.",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Retrieval-Augmented Generation (RAG)",
+      "summary": "A framework to reduce LLM hallucinations by performing a neural search to retrieve relevant documents and providing them to the model to generate grounded answers.",
+      "details": "Steps: 1) Identify an information need. 2) Perform a neural network search to find relevant documents from a large corpus. 3) Provide the LLM access to these retrieved documents. 4) Have the model read, extract relevant pieces, and generate an answer.",
+      "representative_quote": "We do a usually neural network search to find relevant documents. The model then reads these documents, finds relevant pieces, and then can answer our questions about them.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "The Structural Probe Method",
+      "summary": "A technique to investigate whether discrete hierarchical structures (like syntax trees) are embedded in the continuous internal representations of neural networks.",
+      "details": "By viewing a tree as a metric space where distance equals path length, researchers can define a distance metric with tunable parameters for the vector space, use supervised data to find the linear transformation that best fits tree path distances, and construct minimum-spanning trees to recreate syntax trees from continuous space.",
+      "representative_quote": "At a high level, this method finds a single distance metric on which, when applied to any two word representations constructed by the model for the same sentence, approximates the result of the distance metric defined by the syntax tree of that sentence",
+      "source_ids": [
+        "src_042"
+      ]
+    },
+    {
+      "label": "Unsupervised Open-Ended Goal Discovery",
+      "summary": "A method for autonomous web agents to explore unknown websites, propose goals, and fine-tune smaller models without prior human demonstration.",
+      "details": "Provide a base LLM with a textual accessibility tree, prompt it to explore, follow the trajectory, use the LLM to propose a goal, evaluate progress, use rejection sampling to optimize trajectories, and fine-tune a smaller model on the collected data.",
+      "representative_quote": "we are able to learn by unsupervised interaction from any site that you show. So, it tries to discover what you can do with a website. It then works out ways of satisfying goals and that can then build a strong system for a web agent.",
+      "source_ids": [
+        "src_011"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "LLMs as Talking Encyclopedias / Simulacra",
+      "summary": "Viewing LLMs as vast, static repositories of memorized human knowledge that mimic understanding and reasoning, rather than adaptable, generally intelligent agents.",
+      "details": "They impress us with the volume of facts they have 'slurped up' and can perfectly answer questions about known data, but they fail to adapt on the fly when presented with completely novel situations or logical constraints.",
+      "representative_quote": "I sometimes use the analogy that a large language model isn't really much more intelligent than a talking encyclopedia",
+      "source_ids": [
+        "src_013",
+        "src_023",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Software Reinvention",
+      "summary": "Viewing modern machine learning as a fundamental reinvention of how software and computer science operate.",
+      "details": "Moving away from manually encoding rules of human language into computing systems, and instead building models from data to interpret language. Machine learning is effectively 'eating' traditional algorithms.",
+      "representative_quote": "I think there's just no doubt at all that we're still in the early stages of seeing the impact of this new approach where effectively software computer science is being reinvented.",
+      "source_ids": [
+        "src_019",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Brain Modularity Lens",
+      "summary": "Using human neuroscience as a metaphor for AI architecture, advocating for distinct, repurposable components.",
+      "details": "Just as the human brain has distinct regions with clear roles that can be repurposed, AI systems should be built with modular components rather than as single, monolithic end-to-end networks.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_016"
+      ]
+    },
+    {
+      "label": "Deep Learning as a Vein of Ore",
+      "summary": "A metaphor for research progress: when a highly productive technological direction is discovered, keep mining it to see how far it goes, even if its ultimate limits are unknown.",
+      "details": "Despite skepticism about whether deep learning or LLMs can achieve true reasoning, Manning advocates continuing to scale and push the architecture because it remains the most productive path forward.",
+      "representative_quote": "Deep learning seems to be a really rich vein of awe [ore] that we've found and I don't really know how far this vein of awe extends but it sort of seems like the most productive way to make progress at the moment is to dig in the direction of the vein of awe.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Electricity is the new AI",
+      "summary": "An inversion of 'AI is the new electricity', highlighting that modern AI progress is fundamentally gated by and consuming massive amounts of computational power and energy.",
+      "details": "Training models that are tens to hundreds of thousands of times bigger than previous generations drives up computational and energy demands to unprecedented levels.",
+      "representative_quote": "I've been turning it around, and saying that electricity is the new AI, because if you look at what's been happening, people are now training models that are... ten thousand, a hundred thousand times bigger...",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Gradient Meaning",
+      "summary": "The concept that understanding meaning is not binary but partial and contextual, allowing LLMs to possess meaning without physical grounding.",
+      "details": "You can understand a word partially through text definitions, more by seeing it, and even more by interacting with it. An LLM reading text gains partial meaning about cultural context and use, which is a valid form of understanding.",
+      "representative_quote": "We want to say that meaning is gradient. You can partially understand appropriate context for use of a word without understanding everything that anybody knows.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Language Understanding as an Inverse Problem",
+      "summary": "The concept that understanding language requires working backward from an observed linear sequence of words to reconstruct the hidden hierarchical structures and causes.",
+      "details": "Similar to vision, the hearer (or model) must reconstruct the underlying syntax and semantics (e.g., relative clauses) from a flat surface form to truly comprehend the meaning.",
+      "representative_quote": "Language understanding, like vision, can be seen as an inverse problem, where the hearer has to reconstruct structures and causes from the observed surface form.",
+      "source_ids": [
+        "src_042"
+      ]
+    },
+    {
+      "label": "Machine Learning as Design",
+      "summary": "Viewing machine learning not as commoditized coding, but as a design discipline where domain experts craft architectures tailored to specific problems.",
+      "details": "Treating ML as 'undifferentiated heavy lifting' ignores the need for domain expertise to design the right architectures and representations (like Universal Dependencies) that work across human languages.",
+      "representative_quote": "Our field is the domain science of language technology; it’s not about the best method of machine learning—the central issue remains the domain problems.",
+      "source_ids": [
+        "src_044"
+      ]
+    },
+    {
+      "label": "The Landmine Test",
+      "summary": "A heuristic lens for evaluating definitions of Artificial Intelligence.",
+      "details": "If a proposed definition of AI perfectly describes a simple, non-intelligent mechanical device (like a landmine, which is autonomous, has an objective, and reacts to input), the definition is too broad and fundamentally flawed.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "The Long Tail of the Web",
+      "summary": "The concept that AI agents cannot rely solely on pre-trained knowledge because they will inevitably encounter niche, obscure environments.",
+      "details": "The internet consists of a few massive sites and an enormous number of niche sites. Agents must learn by poking around interactively when they lack prior context.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "The Noisy Channel Model",
+      "summary": "Treating translation as a decoding problem where the source text is a 'garbled' version of the target language.",
+      "details": "A conceptual lens for machine translation that assumes the text passed through a noisy communication channel, reframing translation as recovering the original signal.",
+      "representative_quote": "The noisy channel model for translation assumes that the true text is in French, but that, unfortunately, when it was transmitted to us, it went through a noisy communication channel and came out as English.",
+      "source_ids": [
+        "src_035"
+      ]
+    },
+    {
+      "label": "The Scientist in the Crib",
+      "summary": "A metaphor for true intelligence based on how human children learn by actively interacting with the world and inferring causality.",
+      "details": "Intelligence is developed by playing around and discovering how the physical world works to deal with different environments, rather than just passively absorbing static data.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Thinking Fast vs. Thinking Slow in AI",
+      "summary": "Applying Daniel Kahneman's cognitive framework to artificial intelligence.",
+      "details": "Deep learning has successfully solved 'thinking fast' (perceptual, signal processing tasks like vision and speech), but the field must now tackle 'thinking slow' (high-level cognition involving memory, inference, and planning).",
+      "representative_quote": null,
+      "source_ids": [
+        "src_016"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Agent Survival Knowledge",
+      "summary": "To survive, agents must have enough built-in knowledge to survive initially, paired with the ability to learn from interaction.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Avoid the Kaggle Game",
+      "summary": "Focus on fundamental problems, architectures, and cognitive science rather than just chasing state-of-the-art numbers on benchmark tasks.",
+      "details": "Over-focusing on incremental benchmark improvements distracts the field from solving actual domain problems and understanding the details of human language.",
+      "representative_quote": "Recently at ACL conferences, there has been an over-focus on numbers, on beating the state of the art. Call it playing the Kaggle game.",
+      "source_ids": [
+        "src_044"
+      ]
+    },
+    {
+      "label": "Bottom-Up NLU",
+      "summary": "Introduce natural language understanding bottom-up where it actually works, rather than attempting a full, brittle solution all at once.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_016"
+      ]
+    },
+    {
+      "label": "Build from Scratch",
+      "summary": "Reimplementing models yourself from scratch is the best way to deeply understand AI, even if you are just replicating existing frameworks.",
+      "details": "You learn significantly more by building the underlying mechanics than by merely using off-the-shelf packages.",
+      "representative_quote": "just by building things for yourself from scratch even if they um replicate something that someone has done or a big framework from a tech company you just learn so much",
+      "source_ids": [
+        "src_024"
+      ]
+    },
+    {
+      "label": "Don't bet against LLMs",
+      "summary": "It's a mistake to bet against large language models; despite their flaws, we consistently find ways to do more with them.",
+      "details": "Dismissing them ignores the huge order-of-magnitude productivity gains they offer; they are better at natural language processing than anything developed in the past 60 years.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "On-the-Job Learning",
+      "summary": "Deploy high-accuracy classification systems without massive up-front data labeling by using real-time crowdsourcing to resolve uncertainty dynamically.",
+      "details": null,
+      "representative_quote": "We consider an \"on-the-job\" setting, where as queries arrive, we use real-time crowdsourcing to resolve uncertainty where needed and output our classification when confident.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Problem-Oriented Research",
+      "summary": "Work from a problem-oriented direction rather than just chasing benchmark metrics.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_016"
+      ]
+    },
+    {
+      "label": "Small Models for Web Latency",
+      "summary": "To solve latency in web agents, use smaller models (like 8B) that can eventually run on-device rather than round-tripping to a server.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "The Landmine Test",
+      "summary": "If a proposed definition of artificial intelligence also accurately describes a landmine, it is a flawed definition.",
+      "details": "Definitions that merely require a machine to 'infer from input to generate outputs that influence environments' are too broad and mechanistic.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "The Worst Technology",
+      "summary": "The AI technology you use today is the worst technology you will ever deal with in the future; it will only improve.",
+      "details": "A reminder to project current capabilities forward rather than judging the ultimate potential of AI solely by its present limitations.",
+      "representative_quote": "The technology we're going to see for the rest of these two days is the worst technology that we're ever going to deal with in the future. It's going to keep on getting better from here.",
+      "source_ids": [
+        "src_023"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Adaptability as Intelligence",
+      "summary": "Defining true intelligence as the ability to adapt and learn.",
+      "details": "Discussing the flaws in current definitions of artificial intelligence and AGI.",
+      "representative_quote": "I think you can only claim to have intelligence if you have the ability to be adaptive to different environments and to learn as you go.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "AGI Skepticism",
+      "summary": "Discussing AGI timelines and pushing back against claims of AGI by 2030.",
+      "details": null,
+      "representative_quote": "I do not believe human-level AI (artificial superintelligence, or the commonest sense of AGI) is close at hand.",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Competing on Ideas",
+      "summary": "Giving advice to PhD students on how to compete with large tech companies.",
+      "details": null,
+      "representative_quote": "What a much scarce supply is good ideas and it's very easy to be successful doing things at a modest scale with good ideas.",
+      "source_ids": [
+        "src_016"
+      ]
+    },
+    {
+      "label": "Definition of Intelligence",
+      "summary": "Manning's own definition of intelligence, emphasizing adaptation.",
+      "details": null,
+      "representative_quote": "the ability to learn and perform a range of techniques to solve problems and achieve goals appropriate to the context in an uncertain ever varying world.",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Domain Science over ML Methods",
+      "summary": "Emphasizing that NLP is about solving language problems, not just applying ML.",
+      "details": "Arguing why computational linguists do not need to worry about deep learning making their field obsolete.",
+      "representative_quote": "Our field is the domain science of language technology; it’s not about the best method of machine learning—the central issue remains the domain problems.",
+      "source_ids": [
+        "src_044"
+      ]
+    },
+    {
+      "label": "Electricity is the new AI",
+      "summary": "Flipping a common trope to highlight the massive energy and compute demands of modern AI.",
+      "details": "Discussing the massive scaling of compute and energy required for modern NLP models.",
+      "representative_quote": "I've been turning it around, and saying that electricity is the new AI, because if you look at what's been happening, people are now training models that are... ten thousand, a hundred thousand times bigger...",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Emergent Linguistic Structure",
+      "summary": "Confirming that neural networks learn rich latent structures.",
+      "details": "Concluding the paper's findings on emergent linguistic structure in models like BERT.",
+      "representative_quote": "We have demonstrated the surprising extent to which BERT, an NLP representation learner trained via self-supervision on word prediction tasks, implicitly learns to recover the rich latent structure of human language.",
+      "source_ids": [
+        "src_042"
+      ]
+    },
+    {
+      "label": "Human Language as Knowledge Representation",
+      "summary": "On the philosophical shift away from formal knowledge graphs toward text-based LLMs.",
+      "details": null,
+      "representative_quote": "what we've ended up with is human language as the knowledge representation and human language thinking as how we do our reasoning.",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "ML Eating Algorithms",
+      "summary": "Commenting on learned index structures replacing traditional algorithms.",
+      "details": null,
+      "representative_quote": "Machine Learning just ate Algorithms in one large bite...",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Software Reinvention",
+      "summary": "On the current state and future opportunities in machine learning.",
+      "details": null,
+      "representative_quote": "I think there's just no doubt at all that we're still in the early stages of seeing the impact of this new approach where effectively software computer science is being reinvented.",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "The End of Explicit Grammars",
+      "summary": "Answering a question about whether decades of linguistic grammar research can augment LLMs.",
+      "details": null,
+      "representative_quote": "I suspect that there isn't future in humans explicitly building grammarss and hoping that those can help transformers.",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "The Need for Modularity",
+      "summary": "Discussing the limitations of purely end-to-end neural networks for general intelligence.",
+      "details": null,
+      "representative_quote": "I believe ultimately that we have to have models of intelligence which have different components in different parts and there is a certain level of modularity.",
+      "source_ids": [
+        "src_016"
+      ]
+    },
+    {
+      "label": "The Talking Encyclopedia",
+      "summary": "Comparing LLMs to encyclopedias rather than intelligent beings.",
+      "details": "Discussing the difference between the vast knowledge of LLMs and true human intelligence.",
+      "representative_quote": "I sometimes use the analogy that a large language model isn't really much more intelligent than a talking encyclopedia",
+      "source_ids": [
+        "src_028"
+      ]
+    },
+    {
+      "label": "The Worst Technology",
+      "summary": "Highlighting the rapid and continuous improvement of AI.",
+      "details": "Concluding his talk on the future trajectory of AI capabilities.",
+      "representative_quote": "The technology we're going to see for the rest of these two days is the worst technology that we're ever going to deal with in the future. It's going to keep on getting better from here.",
+      "source_ids": [
+        "src_023"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Assuming Scaling Leads to AGI",
+      "summary": "Believing that simply making current Transformer models bigger will inevitably lead to Artificial General Intelligence.",
+      "details": "Current models lack actionable world models and true reasoning/planning capabilities. They rely on advanced pattern matching, which hits a ceiling for higher-level cognition. Meta-learning and adaptability are more promising paths.",
+      "representative_quote": "people have been trying to sell the story that just keep with what we have and make it bigger and bigger and bigger and we'll solve AI which I don't actually believe myself",
+      "source_ids": [
+        "src_020",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Manually Encoding Linguistic Rules",
+      "summary": "Explicitly building formal grammars or hardcoding rules of human language into computing systems.",
+      "details": "Modern machine learning approaches have shifted away from hardcoded rules toward building models directly from data. Formal grammars are idealizations that miss nuance, whereas large neural networks naturally learn grammar on their own.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_019",
+        "src_011"
+      ]
+    },
+    {
+      "label": "The Stochastic Parrot Dismissal",
+      "summary": "Claiming language models cannot possess meaning or learn structure because they only process form.",
+      "details": "This relies on an overly strict internalist philosophy of language and underestimates the capacity of large neural networks to induce rich, hierarchical linguistic structures purely from self-supervised word prediction.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_013",
+        "src_042"
+      ]
+    },
+    {
+      "label": "Trusting LLM Reasoning Blindly",
+      "summary": "Assuming LLMs can truly reason or that everything they say is correct.",
+      "details": "LLMs are often just pattern-matching reasoning templates. If you change the variables slightly in a way that breaks the template, they make glaring, non-sensical errors and can confidently hallucinate false information.",
+      "representative_quote": "I actually don't think we should say at the moment that large language models can reason they can behave in ways that it looks like they can reason",
+      "source_ids": [
+        "src_023",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Academic Compute Chasing",
+      "summary": "Academic researchers trying to compete with big tech companies by building massive models that require huge amounts of compute.",
+      "details": "Universities have vastly fewer resources (GPUs and compute) than industry labs, making it impossible to win on scale or speed.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_016"
+      ]
+    },
+    {
+      "label": "Confusing Vast Knowledge with Intelligence",
+      "summary": "Assuming that memorizing massive amounts of information equates to intelligence.",
+      "details": "Memorizing massive amounts of information allows a system to interpolate across what it has seen, but it does not equip the system to adapt, learn, or infer causality in new, unseen circumstances.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Defining Intelligence as Encyclopedic Knowledge",
+      "summary": "Mistaking a static repository of facts or high task performance for true intelligence.",
+      "details": "True intelligence requires the ability to adapt, learn, and operate in uncertain, ever-varying environments, not just regurgitating memorized data.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Evaluating Translation Without Semantics",
+      "summary": "Evaluating machine translation quality without capturing semantic equivalence.",
+      "details": "It leads to an inability to distinguish good translations from merely fair ones, as it focuses on formulation rather than meaning.",
+      "representative_quote": "Current evaluation metrics for machine translation have increasing difficulty in distinguishing good from merely fair translations. We believe the main problem to be their inability to properly capture _meaning_.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Near-term AGI Doomerism",
+      "summary": "Making governance or leadership decisions based on 'EA-infused fantasy lands' or believing in near-term AGI timelines.",
+      "details": "It leads to irrational fears, such as believing there is a 50/50 chance everyone gets 'paperclipped & dies', which undermines sound leadership and ignores historical realities of AI progress.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Playing the Kaggle Game",
+      "summary": "Over-focusing on incremental benchmark improvements and beating the state of the art.",
+      "details": "It distracts the field from solving actual domain problems, developing new architectures, and understanding the cognitive and scientific details of human language.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_044"
+      ]
+    },
+    {
+      "label": "Relying on Formal Reasoning Systems",
+      "summary": "Historically assuming AI needed formal representations and knowledge graphs to achieve intelligence.",
+      "details": "Human language text itself proved to be a far more effective, scalable, and natural knowledge encoding than formal logic systems.",
+      "representative_quote": "this informal ubiquitous probably 100,000 years old technology invented by humans of human languages has completely won over the formal languages of recent centuries",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "The 'Kaggle-ization' of ML Research",
+      "summary": "Downloading a benchmark dataset and simply training a larger neural network to beat the state-of-the-art metric.",
+      "details": "It provides a bad education for students by skipping the hard work of defining problems and metrics. It also results in brittle models that are overfit to specific datasets and fail to generalize to real-world tasks.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_016"
+      ]
+    }
+  ]
+}

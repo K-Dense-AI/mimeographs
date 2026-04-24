@@ -1,0 +1,96 @@
+{
+  "source_id": "src_011",
+  "summary": "A lecture detailing Elizabeth Anscombe's philosophical and personal commitment to 'practical truth.' It explores her critique of consequentialism, her account of intentional action, and her Aristotelian view that practical truth is achieved when right judgment aligns with right desire and is realized in action.",
+  "themes": [
+    "Practical Truth",
+    "Action Theory",
+    "Intention",
+    "Consequentialism",
+    "Virtue Ethics",
+    "Practical Reasoning"
+  ],
+  "principles": [
+    {
+      "statement": "Practical truth is brought about and made true by action.",
+      "rationale": "Unlike theoretical truth, which is a property of a judgment corresponding to reality, practical truth requires an agent to form a good choice and execute it, making the intentional description of the action true through their doing of it.",
+      "source_quote": "the truth is brought about made true by action since the description of what one does is made true by his doing it provided that a man forms and executes a good choice",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "In practical reasoning, the goodness of the end functions like the truth of the premises in theoretical reasoning.",
+      "rationale": "Theoretical inference is truth-preserving (passing from true beliefs to true conclusions). Practical inference is goodness-preserving, ensuring reasoning passes from a good end to an action ordered to realize that good.",
+      "source_quote": "in the sphere of practical reasoning goodness of the end has the same role as truth of the premises has in theoretical reasoning",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Absolute moral prohibitions cannot be violated for the sake of good consequences.",
+      "rationale": "Consequentialism is a degeneration of thought because it justifies inherently evil acts (like the intentional murder of innocents) if the calculated outcomes are deemed favorable, violating the principle that we may never do evil that good may come.",
+      "source_quote": null,
+      "source_id": "src_011"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Practical Syllogism",
+      "when_to_apply": "When analyzing the structure of rational deliberation and intentional action.",
+      "steps": [
+        "Identify the starting point: an intention or object of desire representing a human good.",
+        "Stipulate the suitable means to realize this good in the minor premise.",
+        "Execute the action (the conclusion), which makes the intentional descriptions specified in the premises practically true."
+      ],
+      "source_quote": null,
+      "source_id": "src_011"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The 'Why?' Question",
+      "description": "A lens used to sort intentional from non-intentional descriptions of what a person does. An action is intentional if the agent can give a sincerely true answer to 'why' they are doing it, revealing their practical knowledge and reasons.",
+      "example": "If asked why you are reading a sentence, you answer 'because I'm giving a talk.' If asked why you are giving a talk, you answer 'to build my CV.' This reveals the rational order of ends and goods.",
+      "source_id": "src_011"
+    },
+    {
+      "name": "Truth-Preserving vs. Goodness-Preserving Inference",
+      "description": "A model distinguishing theoretical reasoning from practical reasoning. Theoretical reasoning ensures you never pass from a true premise to a false conclusion. Practical reasoning ensures you never pass from a good end to an action ordered to a bad end.",
+      "example": null,
+      "source_id": "src_011"
+    }
+  ],
+  "heuristics": [
+    "We may never do evil that good may come."
+  ],
+  "signature_quotes": [
+    {
+      "text": "the truth is brought about made true by action since the description of what one does is made true by his doing it provided that a man forms and executes a good choice",
+      "context": "Explaining how practical truth differs from theoretical truth.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "the judgment involved in the formation of the choice leading to the action are all true but the practical truth is not the truth of those judgments it is truth and agreement with right desire",
+      "context": "Defining practical truth in relation to Aristotle's concept of right desire.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "in the sphere of practical reasoning goodness of the end has the same role as truth of the premises has in theoretical reasoning",
+      "context": "Describing the validity of practical inference.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "the man who forms and execute an evil choice will also make true some description of what he does he then will have produced practical falsehood",
+      "context": "Explaining what happens when an agent acts on a bad choice.",
+      "source_id": "src_011"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Consequentialism (justifying actions solely by their outcomes).",
+      "why_it_fails": "It allows for the intentional killing of innocents (murder) if the calculated consequences seem favorable, destroying absolute moral prohibitions and leading to practical falsehood.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Treating practical truth as just 'regular old truth plus something'.",
+      "why_it_fails": "It misunderstands the nature of practical thought, which essentially aims at acting and terminates in an action, rather than merely terminating in a theoretical judgment about a practical matter.",
+      "source_id": "src_011"
+    }
+  ]
+}

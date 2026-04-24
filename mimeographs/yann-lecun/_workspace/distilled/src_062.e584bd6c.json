@@ -1,0 +1,73 @@
+{
+  "source_id": "src_062",
+  "summary": "A comprehensive bibliography of Yann LeCun's publications, featuring abstracts that outline his foundational contributions to deep learning, convolutional neural networks, energy-based models, and end-to-end learning.",
+  "themes": [
+    "Deep Learning",
+    "Convolutional Neural Networks",
+    "Energy-Based Models",
+    "End-to-End Learning",
+    "Computer Vision"
+  ],
+  "principles": [
+    {
+      "statement": "Deep architectures are required for complex AI tasks, whereas shallow architectures are inefficient.",
+      "rationale": "Theoretical and empirical evidence demonstrates that shallow architectures, such as kernel methods, cannot efficiently represent the complex functions necessary for artificially intelligent behaviors like visual perception.",
+      "source_quote": "We present theoretical and empirical evidence showing that kernel methods and other \"shallow\" architectures are inefficient for representing complex functions such as the ones involved in artificially intelligent behavior, such as visual perception. We argue that \"deep\" architectures are not subject to the same limitations",
+      "source_id": "src_062"
+    },
+    {
+      "statement": "Complex recognition systems should be trained end-to-end as a single learning machine.",
+      "rationale": "Integrating all modules (segmentation, feature extraction, classification, etc.) into one globally trained system yields better performance than disjointed pipelines.",
+      "source_quote": "We show how to build systems that integrate segmentation, feature extraction, classification, contextual post-processing, and language modeling into one single learning machine trained end-to-end.",
+      "source_id": "src_062"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Energy-Based Learning (EBM)",
+      "when_to_apply": "When building a common theoretical framework for probabilistic and non-probabilistic learning models, or when trying to circumvent the problem of evaluating partition functions.",
+      "steps": [
+        "Define an energy function for the model.",
+        "Perform inference by searching for the value of the output variables that minimize the energy function.",
+        "Perform learning by shaping the energy function so that desired configurations have lower energy than undesired ones."
+      ],
+      "source_quote": "Inference in EBMs consists in searching for the value of the output variables that minimize an energy function. Learning consists in shaping that energy function in such a way that desired configuration have lower energy than undesired ones.",
+      "source_id": "src_062"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Energy Landscape",
+      "description": "Viewing machine learning as the process of shaping a topographical energy landscape, where the system is trained to ensure that correct or desired configurations sit in low-energy valleys, while incorrect configurations are pushed up to higher energy states.",
+      "example": "Using an Energy-Based loss function to train convolutional networks to produce points on a 'face manifold' for simultaneous face detection and pose estimation.",
+      "source_id": "src_062"
+    }
+  ],
+  "heuristics": [
+    "Learning is optimal when the number of training samples is about 4 times the number of parameters."
+  ],
+  "signature_quotes": [
+    {
+      "text": "kernel methods and other \"shallow\" architectures are inefficient for representing complex functions such as the ones involved in artificially intelligent behavior",
+      "context": "Arguing for the necessity of deep architectures over shallow ones for AI.",
+      "source_id": "src_062"
+    },
+    {
+      "text": "Learning consists in shaping that energy function in such a way that desired configuration have lower energy than undesired ones.",
+      "context": "Explaining the core mechanism of Energy-Based Models.",
+      "source_id": "src_062"
+    },
+    {
+      "text": "We show how to build systems that integrate segmentation, feature extraction, classification, contextual post-processing, and language modeling into one single learning machine trained end-to-end.",
+      "context": "Describing the application of gradient-based learning to document recognition.",
+      "source_id": "src_062"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on kernel methods and other \"shallow\" architectures for complex AI tasks like visual perception.",
+      "why_it_fails": "They are theoretically and empirically inefficient for representing the complex functions required for artificially intelligent behavior.",
+      "source_id": "src_062"
+    }
+  ]
+}

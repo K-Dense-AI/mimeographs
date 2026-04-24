@@ -1,0 +1,9 @@
+{
+  "source_id": "src_005",
+  "url": "https://www.youtube.com/watch?v=E-4EcrQbNwA",
+  "title": "Ian Goodfellow GAN inventor - YouTube",
+  "text": "when we make machine learning algorithms\nthat make important decisions affecting\npeople's lives we would like them to\nignore certain attributes of people that\nare not relevant to those decisions and\nthat are commonly discriminated against\nsuch as gender or race\nit's not sufficient to just take a\nmachine learning model and train it with\nno access to the race variable or no\naccess to the gender variable because\nyour trading data may have been created\nby people who had biases themselves and\nthe model May learn to repeat their\nbehavior without observing the race\nvariable or the gender variable if they\nfind that some other characteristic is\ncorrelated with the race variable or the\ngender variable the model can make\nbiased decisions using that intermediary\nvariable\nso when I do an adversarial machine\nlearning is to create an adversarial\nprocess for learning the features where\num one player pulls out the features and\nanother player tries to guess the value\nof variables that we don't want to\nparticipate in the decision\nover time this forces the feature\nextractor to learn a representation that\nhas hidden all of the information about\nthe sensitive variable thus helping to\nmake decisions that are not biased by\nthat particular information",
+  "char_count": 1246,
+  "fetch_method": "youtube-captions",
+  "language": "en"
+}

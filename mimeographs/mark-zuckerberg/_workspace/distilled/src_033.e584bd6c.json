@@ -1,0 +1,102 @@
+{
+  "source_id": "src_033",
+  "summary": "Mark Zuckerberg discusses the release of Llama 3, Meta's push toward AGI, and the strategic importance of open-sourcing AI. He explores the physical bottlenecks to AI scaling, particularly energy constraints, and argues that a concentration of AI power is far more dangerous than widespread open-source availability.",
+  "themes": [
+    "Open Source AI",
+    "Artificial General Intelligence (AGI)",
+    "Compute & Infrastructure",
+    "AI Safety & Security",
+    "Energy Constraints"
+  ],
+  "principles": [
+    {
+      "statement": "Always build enough infrastructure capacity for what you can't yet see on the horizon.",
+      "rationale": "You never know exactly what the next big shift will be, but having excess compute ensures you aren't caught behind when a new paradigm arrives.",
+      "source_quote": "We always want to have enough capacity to build something that we can't quite see on the horizon yet... let's order enough GPUs to do what we need to do... But let's also double that.",
+      "source_id": "src_033"
+    },
+    {
+      "statement": "There will not be one singular AI; there will be many specialized AIs.",
+      "rationale": "Businesses and creators will want AIs that represent their specific interests and engage their specific communities, rather than a generic assistant that might sell a competitor's product.",
+      "source_quote": "My theory on this is that there's not going to be just one singular AI that you interact with. Every business is going to want an AI that represents their interests.",
+      "source_id": "src_033"
+    },
+    {
+      "statement": "The concentration of AI power is potentially more dangerous than widespread open-source AI.",
+      "rationale": "If one untrustworthy actor or institution has a vastly superior AI, they can cause massive mayhem. Open source levels the playing field and hardens systems collectively.",
+      "source_quote": "I do think that a concentration of AI in the future has the potential to be as dangerous as it being widespread... I stay up at night worrying more about an untrustworthy actor having the super strong AI",
+      "source_id": "src_033"
+    },
+    {
+      "statement": "AGI is not a single threshold, but a progressive addition of capabilities.",
+      "rationale": "Intelligence isn't one monolithic thing; it involves progressively adding reasoning, memory, multimodality, and emotional understanding over time.",
+      "source_quote": "I don't believe that there's a single threshold of intelligence for humanity because people have different skills... I think it's progressive and I don't think AGI is one thing.",
+      "source_id": "src_033"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Progressive Model Integration",
+      "when_to_apply": "When developing new capabilities (like tool use or agentic behaviors) for foundation models.",
+      "steps": [
+        "Build application-specific code and hand-engineer features around the current base model to unlock immediate use cases.",
+        "Hack around with these interim solutions to hone your intuition for what the model actually needs to do.",
+        "Train those capabilities directly into the next generation of the base model to make it more general and less brittle."
+      ],
+      "source_quote": "You do a bunch of hand coding and that makes the products better, if only for the interim. That helps show the way then of what we want to build into the next version of the model.",
+      "source_id": "src_033"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Time-Traveling Hacker",
+      "description": "A metaphor for the security threat of an asymmetric AI advantage. A vastly superior AI finding zero-days is like a human hacker who travels back in time a year or two with knowledge of future security holes, allowing them to compromise any system.",
+      "example": "Zuckerberg uses this to explain why open-source AI is safer: if everyone has access to the AI, defensive software gets hardened collectively, neutralizing the 'time-travel' advantage of any single bad actor.",
+      "source_id": "src_033"
+    }
+  ],
+  "heuristics": [
+    "Order enough compute to do what you need, and then double it for the unknown.",
+    "Most good decisions come from messing something up previously and refusing to repeat the mistake.",
+    "Don't be dogmatic about AI release strategies; evaluate the risks and mitigations with each specific release."
+  ],
+  "signature_quotes": [
+    {
+      "text": "We always want to have enough capacity to build something that we can't quite see on the horizon yet.",
+      "context": "Explaining why Meta purchased a massive surplus of H100 GPUs before the generative AI boom.",
+      "source_id": "src_033"
+    },
+    {
+      "text": "Actually, most of the times where we make some decision that ends up seeming good is because we messed something up before and just didn't want to repeat the mistake.",
+      "context": "Reflecting on the decision to over-index on GPU purchases after falling behind TikTok's infrastructure.",
+      "source_id": "src_033"
+    },
+    {
+      "text": "I stay up at night worrying more about an untrustworthy actor having the super strong AI, whether it's an adversarial government or an untrustworthy company or whatever.",
+      "context": "Discussing the risks of closed vs. open-source AI.",
+      "source_id": "src_033"
+    },
+    {
+      "text": "Every business is going to want an AI that represents their interests. They're not going to want to primarily interact with you through an AI that is going to sell their competitors’ products.",
+      "context": "Explaining his thesis that the future will have millions of specialized AIs rather than one monolithic assistant.",
+      "source_id": "src_033"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Believing that keeping AI models closed and concentrated in the hands of a few companies is the safest path.",
+      "why_it_fails": "It creates a massive vulnerability where a single bad actor or institution with a vastly superior AI could compromise global systems. Open source hardens security collectively.",
+      "source_id": "src_033"
+    },
+    {
+      "description": "Assuming AI scaling will only be bottlenecked by capital or GPU supply.",
+      "why_it_fails": "It ignores physical and regulatory realities. Energy constraints, such as permitting and building gigawatt data centers, will become the primary bottleneck long before capital runs out.",
+      "source_id": "src_033"
+    },
+    {
+      "description": "Being dogmatic about open-sourcing every future AI model regardless of capabilities.",
+      "why_it_fails": "Future models may exhibit qualitative changes or unmitigable harms (e.g., bioweapons) that require a flexible, release-by-release evaluation rather than a blanket open-source commitment.",
+      "source_id": "src_033"
+    }
+  ]
+}

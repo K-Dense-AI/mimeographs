@@ -1,0 +1,41 @@
+{
+  "source_id": "src_067",
+  "summary": "A prospective epidemiological study and meta-analysis co-authored by Kay-Tee Khaw, investigating the association between sleep duration and stroke incidence. The research concludes that prolonged sleep, or a substantial increase in sleep duration over time, serves as a significant marker for increased future stroke risk in older populations.",
+  "themes": [
+    "Epidemiology",
+    "Stroke Risk Factors",
+    "Sleep Duration",
+    "Preventive Medicine",
+    "Public Health"
+  ],
+  "principles": [
+    {
+      "statement": "Prolonged sleep or a marked increase in sleep duration should be treated as a potential early marker of increased stroke risk in older adults.",
+      "rationale": "Longitudinal data shows that individuals reporting persistently long sleep or a substantial increase in sleep duration over time have at least double the stroke risk compared to those with persistently average sleep, independent of conventional cardiovascular risk factors.",
+      "source_quote": "Prolonged sleep might be a useful marker of increased stroke risk in older people, and should be tested further for its utility in clinical practice.",
+      "source_id": "src_067"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "This prospective study and meta-analysis identified prolonged sleep as a potentially useful marker of increased future stroke risk in an apparently healthy aging population.",
+      "context": "Concluding the abstract of the study on sleep duration and stroke risk.",
+      "source_id": "src_067"
+    },
+    {
+      "text": "Long sleep might be an early sign of system dysregulation and future stroke risk in an apparently healthy, aging population.",
+      "context": "Discussing the potential mechanisms and implications of the association between long sleep and stroke.",
+      "source_id": "src_067"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming that increased sleep duration in older individuals is merely a benign consequence of retirement or reduced social demands.",
+      "why_it_fails": "Excessive sleep or a substantial increase in sleep duration can actually be an early sign of underlying system dysregulation, inflammation, or preclinical disease, significantly elevating the risk of stroke.",
+      "source_id": "src_067"
+    }
+  ]
+}

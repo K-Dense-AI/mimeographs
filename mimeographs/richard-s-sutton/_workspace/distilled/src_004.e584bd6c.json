@@ -1,0 +1,58 @@
+{
+  "source_id": "src_004",
+  "summary": "A news article covering Richard S. Sutton's receipt of the 2024 Turing Award for his pioneering work in reinforcement learning. Sutton emphasizes that true AI must learn from experience rather than merely mimicking humans, a distinction he feels is lost in the current hype around large language models.",
+  "themes": [
+    "Reinforcement Learning",
+    "Future of AI",
+    "Learning from Experience",
+    "AI vs Human Mimicry"
+  ],
+  "principles": [
+    {
+      "statement": "The future of AI lies in systems that focus on reinforcement learning, not just large language models.",
+      "rationale": "True artificial intelligence requires learning from experience through trial-and-error, whereas modern LLMs primarily learn from and mimic human data.",
+      "source_quote": "Still today, I’d say the importance of learning from experience is not appreciated. I’ve had to explain to so many people that learning from experience is not what modern AI does. It learns from people, and it tries to mimic people.",
+      "source_id": "src_004"
+    },
+    {
+      "statement": "Be ambitious without being arrogant.",
+      "rationale": "When pioneering a completely new endeavor that others do not yet recognize, it is important to aim high while remaining grounded.",
+      "source_quote": "We wanted to be ambitious without being arrogant.",
+      "source_id": "src_004"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Learning from Experience vs. Mimicking People",
+      "description": "A lens for evaluating AI systems. True AI (reinforcement learning) adapts its behavior through trial-and-error to maximize a desired outcome, whereas modern generative AI (LLMs) analyzes mass quantities of data to mimic human outputs.",
+      "example": "Contrasting reinforcement learning systems with large language models like ChatGPT or DeepSeek-R1.",
+      "source_id": "src_004"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "We wanted to be ambitious without being arrogant.",
+      "context": "Reflecting on his early days pioneering reinforcement learning with Andrew Barto before it was an established field.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "Still today, I’d say the importance of learning from experience is not appreciated. I’ve had to explain to so many people that learning from experience is not what modern AI does. It learns from people, and it tries to mimic people.",
+      "context": "Explaining the difference between reinforcement learning and modern large language models.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "The University of Alberta, far more than any other place, is the leader in reinforcement learning. It seems almost inevitable that a lot of responsibility falls to us. We’re the ones to do it or fail to do it.",
+      "context": "Discussing the role of the University of Alberta in the future development of AI.",
+      "source_id": "src_004"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Believing that modern AI (like large language models) learns from experience.",
+      "why_it_fails": "Modern AI primarily learns by analyzing mass quantities of data to mimic humans, rather than genuinely learning from trial-and-error experience to achieve optimal results.",
+      "source_id": "src_004"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "source_id": "src_015",
+  "summary": "Fei-Fei Li argues that spatial intelligence is the next major frontier in artificial intelligence. While current Large Language Models excel at text, they lack a grounded understanding of the physical world. To overcome this, she advocates for developing 'world models' that are generative, multimodal, and interactive, ultimately aiming to augment human capabilities across creativity, robotics, healthcare, and scientific discovery.",
+  "themes": [
+    "Spatial Intelligence",
+    "World Models",
+    "Human-Centered AI",
+    "Robotics and Embodied AI",
+    "Multimodality",
+    "Generative AI"
+  ],
+  "principles": [
+    {
+      "statement": "AI must augment human capability, not replace it.",
+      "rationale": "AI is developed, used, and governed by people. Its true value lies in extending human capabilities, making us more creative and productive, while always respecting human agency and dignity.",
+      "source_quote": "AI must augment human capability, not replace it... It must always respect the agency and dignity of people. Its magic lies in extending our capabilities; making us more creative, connected, productive, and fulfilled.",
+      "source_id": "src_015"
+    },
+    {
+      "statement": "Spatial intelligence is the scaffolding upon which our cognition is built.",
+      "rationale": "Spatial intelligence drives our reasoning, planning, and interaction with the physical world. It forms the basis for imagination, creativity, and civilization-defining discoveries.",
+      "source_quote": "Spatial Intelligence is the scaffolding upon which our cognition is built. It’s at work when we passively observe or actively seek to create.",
+      "source_id": "src_015"
+    },
+    {
+      "statement": "Perception and action form the core loop driving the evolution of intelligence.",
+      "rationale": "The ability to glean information from the external world and coordinate interactions created a bridge between perception and survival, which served as the foundation for complex nervous systems and human cognition.",
+      "source_quote": "...perception and action became the core loop driving the evolution of intelligence, and the foundation on which nature created our species—the ultimate embodiment of perceiving, learning, thinking, and doing.",
+      "source_id": "src_015"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Three Essential Capabilities of World Models",
+      "when_to_apply": "When defining, building, or evaluating spatially intelligent AI systems and world models.",
+      "steps": [
+        "Generative: Ensure the model can generate simulated worlds that follow semantic instructions while maintaining perceptual, geometrical, and physical consistency.",
+        "Multimodal: Design the model to process diverse inputs (images, videos, depth maps, text, actions) to predict or generate complete world states.",
+        "Interactive: Require the model to output the next states of the world based on input actions, respecting physical laws and dynamical behaviors."
+      ],
+      "source_quote": "For spatial intelligence, I define world models through three essential capabilities:",
+      "source_id": "src_015"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "LLMs as Wordsmiths in the Dark",
+      "description": "Viewing current Large Language Models as highly articulate but fundamentally disconnected from physical reality because they lack spatial and physical grounding.",
+      "example": "State-of-the-art MLLM models failing to estimate distance, orientation, and size, or being unable to 'mentally' rotate objects, despite their ability to generate coherent text.",
+      "source_id": "src_015"
+    },
+    {
+      "name": "The Core Loop of Intelligence",
+      "description": "Understanding intelligence not just as abstract reasoning, but as an evolutionary loop between perceiving the environment and taking action within it.",
+      "example": "A firefighter navigating a collapsing building through shifting smoke, making split-second judgments about stability and survival based on spatial intuition.",
+      "source_id": "src_015"
+    }
+  ],
+  "heuristics": [
+    "For AI, there is more than just words; spatial intelligence is the frontier beyond language."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Spatial intelligence will transform how we create and interact with real and virtual worlds—revolutionizing storytelling, creativity, robotics, scientific discovery, and beyond. This is AI’s next frontier.",
+      "context": "Introducing the core thesis of the essay and the mission of World Labs.",
+      "source_id": "src_015"
+    },
+    {
+      "text": "Yet they remain wordsmiths in the dark; eloquent but inexperienced, knowledgeable but ungrounded.",
+      "context": "Describing the limitations of current Large Language Models (LLMs).",
+      "source_id": "src_015"
+    },
+    {
+      "text": "Spatial Intelligence is the scaffolding upon which our cognition is built.",
+      "context": "Explaining the fundamental role of spatial awareness in human thought and history.",
+      "source_id": "src_015"
+    },
+    {
+      "text": "AI must augment human capability, not replace it.",
+      "context": "Stating her core motivation and guiding principle for AI development.",
+      "source_id": "src_015"
+    },
+    {
+      "text": "Our dreams of truly intelligent machines will not be complete without spatial intelligence.",
+      "context": "Concluding the essay with a call to pursue the next generation of AI capabilities.",
+      "source_id": "src_015"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on 1D or 2D sequence tokenization for spatial tasks.",
+      "why_it_fails": "It makes simple spatial tasks unnecessarily difficult (like counting unique chairs in a video or remembering a room's layout) because it lacks 3D or 4D-aware context and spatial memory.",
+      "source_id": "src_015"
+    },
+    {
+      "description": "Believing AI can achieve true understanding of the world through text and language alone.",
+      "why_it_fails": "Without spatial intelligence, AI is disconnected from physical reality. It cannot understand how things relate spatially, what they mean, or how to interact with the environment, limiting its use in robotics, healthcare, and physical sciences.",
+      "source_id": "src_015"
+    },
+    {
+      "description": "Subscribing to extreme narratives of techno-utopia or apocalypse.",
+      "why_it_fails": "It ignores the pragmatic reality that AI is developed, used, and governed by people, and distracts from the practical work of aligning AI with human needs and dignity.",
+      "source_id": "src_015"
+    }
+  ]
+}

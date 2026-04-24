@@ -1,0 +1,63 @@
+{
+  "source_id": "src_039",
+  "summary": "Kaiming He discusses how artificial intelligence is breaking down traditional silos between scientific disciplines by acting as a 'common language.' He highlights the reciprocal relationship between AI and science, noting that while AI tools help solve complex scientific problems, scientific challenges and observations continuously inspire and evolve new AI methodologies.",
+  "themes": [
+    "Interdisciplinary Collaboration",
+    "AI in Science",
+    "Deep Learning Revolution",
+    "Future of Research"
+  ],
+  "principles": [
+    {
+      "statement": "AI acts as a common language that breaks down the walls between scientific disciplines.",
+      "rationale": "Machine learning tools translate domain-specific terminology into understandable concepts, allowing researchers from vastly different fields to share tools, experiences, and solutions.",
+      "source_quote": "In this sense, these AI tools are like a common language between these scientific areas: the machine learning tools ‘translate’ their terminology and concepts into terms that I can understand, and then I can learn their problems and share my experience",
+      "source_id": "src_039"
+    },
+    {
+      "statement": "Science and AI have a reciprocal relationship and should not be treated as isolated subjects.",
+      "rationale": "While AI helps scientists solve domain-specific problems, scientists provide new challenges that evolve AI tools. Furthermore, many foundational AI tools were directly inspired by scientific observations, such as neural networks from biology and diffusion models from physics.",
+      "source_quote": "Science and AI are not isolated subjects. We have been approaching the same goal from different perspectives, and now we are getting together.",
+      "source_id": "src_039"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "AI as a Common Language",
+      "description": "Viewing artificial intelligence methodologies (like deep learning) as a universal translator that bridges disparate scientific disciplines, enabling researchers who do not understand each other's domain-specific science to collaborate effectively.",
+      "example": "A computer scientist and a biologist might not understand each other's core research, but they can sit together and use deep learning and neural network models as a shared framework to discuss and solve protein structure prediction problems.",
+      "source_id": "src_039"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "When you are in your PhD stage, there is a high wall between different disciplines and subjects, and there was even a high wall within computer science. The guy sitting next to me could be doing things that I completely couldn’t understand.",
+      "context": "Reflecting on how siloed academic research used to be before the deep learning revolution.",
+      "source_id": "src_039"
+    },
+    {
+      "text": "There is no way I could ever understand high-energy physics, chemistry, or the frontier of biology research, but now we are seeing something that can help us to break these walls, and that is the creation of a common language that has been found in AI.",
+      "context": "Explaining how AI enables interdisciplinary collaboration.",
+      "source_id": "src_039"
+    },
+    {
+      "text": "Science and AI are not isolated subjects. We have been approaching the same goal from different perspectives, and now we are getting together.",
+      "context": "Discussing the reciprocal relationship between scientific discovery and AI development.",
+      "source_id": "src_039"
+    },
+    {
+      "text": "I expect in 10 or more years, everyone will be using some kind of AI in some way for their research — it’s just their basic tools, their basic language, and they can use AI to solve their problems.",
+      "context": "Predicting the future ubiquity of AI in scientific research, comparing it to the adoption of personal computers.",
+      "source_id": "src_039"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating science and AI as isolated subjects.",
+      "why_it_fails": "It ignores the reciprocal benefit where AI solves scientific problems while scientific challenges and observations (like biological neurons or physics diffusion) inspire new, foundational AI architectures.",
+      "source_id": "src_039"
+    }
+  ]
+}

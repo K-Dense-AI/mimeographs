@@ -1,0 +1,119 @@
+{
+  "source_id": "src_010",
+  "summary": "Yann LeCun outlines the critical role of unsupervised learning in achieving human-level AI, arguing that reinforcement and supervised learning provide insufficient information to train massive neural networks. He advocates for energy-based models over probabilistic ones to avoid intractable normalization in high-dimensional spaces, and defines 'common sense' as the ability to predict future states based on physical constraints.",
+  "themes": [
+    "Unsupervised Learning",
+    "Energy-Based Models",
+    "Common Sense and Predictive Learning",
+    "Limitations of Reinforcement Learning",
+    "High-Dimensional Data Modeling"
+  ],
+  "principles": [
+    {
+      "statement": "Unsupervised learning is the primary obstacle to achieving human-level artificial intelligence.",
+      "rationale": "Animals and humans are highly efficient at unsupervised learning, which allows them to learn the physical constraints of the world. Machines currently lack this ability, making true AI impossible until it is solved.",
+      "source_quote": "I think this is the main obstacle in artificial intelligence... I do not believe that we'll be able to build really intelligent machines before that.",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Reinforcement learning is too slow and sample-inefficient for real-world environments.",
+      "rationale": "In reinforcement learning, the environment only provides a scalar reward from time to time. This is mathematically insufficient to set constraints for a machine with billions of parameters.",
+      "source_quote": "this form of learning unfortunate is extremely slow and calls for a lot of samples the reason being that if the environment gives the only a scalar from time to time in terms of information there's very little information given to the system to set constraints and parameters",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Intelligence is fundamentally the ability to predict what will happen in the environment.",
+      "rationale": "Predicting future states or filling in missing information (like a blind spot or a hidden object) is what enables survival and the extraction of information from the environment.",
+      "source_quote": "the ability to predict what will happen in the environment is what intelligence is all about really",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Energy-based models are safer and more fundamental than probabilistic models.",
+      "rationale": "Probabilities require normalization (partition functions) which are often intractable in high-dimensional spaces, unnecessarily restricting the types of loss functions that can be used.",
+      "source_quote": "you must be weary of probabilities probabilities restrict us to a certain type of lost function that is not necessarily tractable",
+      "source_id": "src_010"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Energy-Based Model Training",
+      "when_to_apply": "When training a machine to predict manifolds or surfaces in unsupervised learning without relying on intractable probabilistic normalization.",
+      "steps": [
+        "Define an energy function that takes a point in space and outputs a scalar value.",
+        "Adjust the parameters of the energy function so that observed data points from the learning manifold are given low energy (pushed downwards).",
+        "Apply a strategy to ensure points outside the data manifold are given higher energy (pushed upwards), such as limiting the volume of low energy space, using contrastive divergence, or adversarial training."
+      ],
+      "source_quote": "you push downwards the energy here and you push upwards all the terms of all energy in this integral",
+      "source_id": "src_010"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Chocolate Cake of Intelligence",
+      "description": "A metaphor for the amount of information provided to the machine by different learning paradigms. Unsupervised learning provides the vast majority of the information (the cake), supervised learning provides some constraints (the icing), and reinforcement learning provides very sparse feedback (the cherry).",
+      "example": "If intelligence were a chocolate cake let's see a black forest I believe in this case the cake itself the gin was in the cake is unsupervised learning the icing on the cake that supervised learning and the cherry on the cake is reinforcement learning",
+      "source_id": "src_010"
+    },
+    {
+      "name": "Unsupervised Learning as Dark Matter",
+      "description": "An analogy comparing unsupervised learning in AI to dark matter in physics: it makes up the vast majority of the universe (or learning process) but remains largely unknown and unmastered by scientists.",
+      "example": "unsupervised learning is the dark matter or the dark energy of learning like for physicists for whom ninety-five percent of the mass of universes are known a bit embarrassing for physicists the same thing for us in artificial intelligence",
+      "source_id": "src_010"
+    },
+    {
+      "name": "Common Sense as Physical Prediction",
+      "description": "The concept that 'common sense' is simply the brain's internalized model of physical constraints, allowing it to infer missing information and predict future states.",
+      "example": "If I say Bernard picks up his bag and leaves the room you can infer many different scenario of what will happen because you know the constraints of this physical world... you can fill in the gaps of missing information because you know the constraints of the physical world and this is what is known as common sense",
+      "source_id": "src_010"
+    }
+  ],
+  "heuristics": [
+    "Do not be hypnotized by the beauty of mathematics at the expense of practicality.",
+    "Avoid probabilistic normalization in high-dimensional spaces; use energy functions instead.",
+    "To train huge models with billions of parameters, force the model to predict high-dimensional environments."
+  ],
+  "signature_quotes": [
+    {
+      "text": "If intelligence were a chocolate cake let's see a black forest I believe in this case the cake itself the gin was in the cake is unsupervised learning the icing on the cake that supervised learning and the cherry on the cake is reinforcement learning",
+      "context": "Explaining the relative importance and information density of different machine learning paradigms.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "unsupervised learning is the dark matter or the dark energy of learning",
+      "context": "Comparing the unknown nature of unsupervised learning to the mysteries of physics.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "the ability to predict what will happen in the environment is what intelligence is all about really",
+      "context": "Defining the core function of intelligence and common sense.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "don't be hypnotized with the beauty of mathematics to the price of the practical side of things",
+      "context": "Warning against using mathematically elegant probabilistic models that are computationally intractable in practice.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "you must be weary of probabilities probabilities restrict us to a certain type of lost function that is not necessarily tractable",
+      "context": "Advocating for energy-based models over strict probabilistic models.",
+      "source_id": "src_010"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying purely on sampling methods in high-dimensional spaces.",
+      "why_it_fails": "Sampling is too sparse and diluted in high dimensions, requiring an impractically huge amount of information to accurately characterize a surface or distribution.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Using probabilistic maximum likelihood models that require calculating a partition function (normalization) in high dimensions.",
+      "why_it_fails": "The integral required for normalization is almost never tractable in interesting, high-dimensional models, forcing researchers to use restrictive loss functions or inaccurate approximations.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Believing that AGI is imminent based solely on successes in reinforcement learning or supervised learning.",
+      "why_it_fails": "These methods do not provide enough information to the machine to learn 'common sense' or the physical constraints of the real world, which requires unsupervised learning.",
+      "source_id": "src_010"
+    }
+  ]
+}

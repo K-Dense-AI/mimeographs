@@ -1,0 +1,59 @@
+{
+  "source_id": "src_003",
+  "summary": "A biographical overview of Henry Ford, detailing his development of the Model T, his pioneering of mass production techniques like the moving assembly line, and his labor practices. The source also covers his later career, including his staunch anti-union stance and controversial anti-Semitic views.",
+  "themes": [
+    "Mass production",
+    "Automotive engineering",
+    "Manufacturing efficiency",
+    "Labor relations"
+  ],
+  "principles": [
+    {
+      "statement": "Automobiles should be efficient, reliable, and affordable for everyone.",
+      "rationale": "To ensure the vehicle is accessible to the general public rather than just a luxury item.",
+      "source_quote": null,
+      "source_id": "src_003"
+    },
+    {
+      "statement": "Prototypes require constant improvement before finalizing for the market.",
+      "rationale": "To ensure the highest quality and efficiency, even if it frustrates investors who are eager to sell immediately.",
+      "source_quote": null,
+      "source_id": "src_003"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Mass Production",
+      "when_to_apply": "When facing overwhelming product demand and needing to significantly cut down production time to keep consumer costs low.",
+      "steps": [
+        "Build large production plants.",
+        "Utilize standardized, interchangeable parts.",
+        "Implement a moving assembly line."
+      ],
+      "source_quote": null,
+      "source_id": "src_003"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Vertical Integration",
+      "description": "Consolidating all necessary components and raw materials of production into a single, massive operation to control the entire manufacturing process.",
+      "example": "Building the River Rouge plant, which included its own glass factory, steel mill, and assembly line to handle all components of automotive production.",
+      "source_id": "src_003"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Unionization of labor.",
+      "why_it_fails": null,
+      "source_id": "src_003"
+    },
+    {
+      "description": "Rushing a product to market to satisfy impatient investors.",
+      "why_it_fails": null,
+      "source_id": "src_003"
+    }
+  ]
+}

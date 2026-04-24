@@ -1,0 +1,28 @@
+{
+  "source_id": "src_007",
+  "summary": "A brief description of a TED Talk by Stuart Russell advocating for human-compatible AI. He argues against building 'all-knowing machines' and instead proposes designing robots with uncertainty to prevent catastrophic outcomes and align them with human values.",
+  "themes": [
+    "AI Safety",
+    "Human-compatible AI",
+    "Uncertainty in AI"
+  ],
+  "principles": [
+    {
+      "statement": "AI systems should be designed with uncertainty rather than absolute certainty.",
+      "rationale": "Designing 'robots with uncertainty' is necessary to create human-compatible AI that solves problems using common sense, altruism, and human values, thereby preventing a robotic takeover.",
+      "source_quote": "...Stuart Russell is working on something a bit different: robots with uncertainty. Hear his vision for human-compatible AI that can solve problems using common sense, altruism and other human values.",
+      "source_id": "src_007"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Creating 'all-knowing machines' that lack uncertainty.",
+      "why_it_fails": "It risks the 'catastrophe of robotic takeover' because the machines are not designed to be human-compatible or to rely on human values.",
+      "source_id": "src_007"
+    }
+  ]
+}

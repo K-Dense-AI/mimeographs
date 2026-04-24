@@ -1,0 +1,106 @@
+{
+  "source_id": "src_010",
+  "summary": "Terrie E. Moffitt presents findings from the Dunedin longitudinal study demonstrating that childhood self-control strongly predicts adult health, wealth, and public safety. She highlights that this effect remains significant even when controlling for IQ and social class, and advocates for universal self-control interventions, comparing the need for self-control today to the 20th-century push for universal literacy.",
+  "themes": [
+    "Childhood Development",
+    "Self-Control",
+    "Longitudinal Research",
+    "Public Health",
+    "Universal Interventions",
+    "Aging"
+  ],
+  "principles": [
+    {
+      "statement": "Childhood self-control predicts adult success independently of intelligence and social class.",
+      "rationale": "Data from the Dunedin study showed that the gradient linking childhood self-control to adult outcomes remained identical even after statistically adjusting for IQ and socioeconomic status, and even when comparing siblings raised in the same home.",
+      "source_quote": "The self control gradient is the same among children from high-income families, children with above-average IQ's, it's the same within girls and within boys.",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Self-control is more necessary now than ever before in human history.",
+      "rationale": "Modern society presents unprecedented challenges to willpower, including easy food availability, sedentary jobs, accessible addictive substances, sophisticated marketing, and the need to independently save for retirement.",
+      "source_quote": "Historians are telling us that we need our self control to avoid becoming obese because we live for the first time in human history in era of easy food availability.",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Universal interventions for self-control are more appropriate than targeted ones.",
+      "rationale": "The benefits of self-control exist on a continuous gradient. Even children with above-average self-control and high intelligence benefit from having even better self-control skills, meaning society-wide programs are more effective than just treating clinical cases like ADHD.",
+      "source_quote": "I showed you that even children who are above average I'm self control could benefit from better self control skills. The gradient was there for them.",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Self-control is the discipline that converts creativity into a successful product.",
+      "rationale": "Self-control does not predict whether someone engages in creative activities (like playing music or writing), but it strongly predicts whether they achieve publicly acclaimed success in those endeavors.",
+      "source_quote": "So it's not creativity per se that's related to are self control but it seems to be the self-discipline that converts creativity into a product.",
+      "source_id": "src_010"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Defining Persistent Self-Control",
+      "when_to_apply": "When measuring self-control in developmental research to distinguish true individual differences from developmentally typical poor behavior (like the 'terrible twos').",
+      "steps": [
+        "Assess the child's style of self-control across multiple ages (e.g., 3, 5, 7, 9, and 11 years) to ensure it is persistent.",
+        "Collect ratings from multiple independent reporters (staff observations, parent checklists, teacher reports, and self-interviews) to ensure it is pervasive and cross-situational."
+      ],
+      "source_quote": "For the research that we're doing now we wanted to define self control in terms of its persistence and pervasiveness.",
+      "source_id": "src_010"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Pace of Aging",
+      "description": "A gerontology theory that views aging not as a sudden onset of disease, but as a gradual, correlated, and simultaneous deterioration across all bodily systems that begins decades before age-related diseases appear.",
+      "example": "Tracking 18 different biomarkers (like gum disease, telomere length, and blood pressure) in 20- and 30-somethings to calculate their 'biological age' and showing that low self-control individuals age biologically faster than their chronological age.",
+      "source_id": "src_010"
+    },
+    {
+      "name": "The Universal Literacy Analogy",
+      "description": "Viewing the modern need to teach self-control through the historical lens of the 20th-century push for universal literacy. Just as teaching everyone to read transformed societal prosperity, teaching self-control could be the defining societal goal for the 21st century.",
+      "example": "Comparing the 20th-century education gap (where only an elite few went to university and many couldn't read) to today's self-control gap, suggesting that expecting better self-control as a cultural adaptation is the next logical step.",
+      "source_id": "src_010"
+    }
+  ],
+  "heuristics": [
+    "Look at the shape of the gradient, not just the extremes."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I know that intelligence is where it's at and if you control for intelligence self control will become unimportant. So they didn't believe me, these pesky economist and we made a 100 dollar wager.",
+      "context": "Explaining her initial skepticism about self-control compared to IQ, which led to her research.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "It's not merely the family into which you're born that matters, it's whether you're able to develop self control skills that counts as well.",
+      "context": "Concluding the findings from the twin study where siblings in the same home had different outcomes based on their self-control.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "So it's not creativity per se that's related to are self control but it seems to be the self-discipline that converts creativity into a product.",
+      "context": "Addressing concerns that high self-control stifles creativity.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "The gradient usually is taken to imply the advantages of universal enhancement and universal programs are also politically popular because taxpayers don't mind paying for them if everyone's child is going to benefit.",
+      "context": "Advocating for universal self-control interventions over targeted ones.",
+      "source_id": "src_010"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming poor adult outcomes are solely the result of adolescent mistakes (like teen pregnancy or dropping out of school).",
+      "why_it_fails": "Even 'utopian' teenagers who made none of these mistakes still showed the exact same gradient, where their childhood self-control predicted their adult health and wealth.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Believing that only a few 'problem' children with clinical diagnoses (like ADHD) lack self-control and need targeted treatment.",
+      "why_it_fails": "The data shows a continuous gradient; even intelligent children from well-to-do homes with above-average self-control benefit from having even more of it.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Fearing that teaching high self-control will create humorless robots or children with obsessive-compulsive disorder who lack personal happiness.",
+      "why_it_fails": "Surveys of the study cohort in their 30s revealed that the adults who had the highest self-control as children are actually the most satisfied with their lives.",
+      "source_id": "src_010"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "source_id": "src_000",
+  "summary": "A brief biographical article highlighting Ian Goodfellow's contributions to machine learning, specifically his work on convolutional neural networks for Google Maps address transcription and his pioneering research on adversarial attacks and AI vulnerabilities.",
+  "themes": [
+    "Machine Learning",
+    "Adversarial Attacks",
+    "Artificial Intelligence Safety",
+    "Computer Vision"
+  ],
+  "principles": [
+    {
+      "statement": "Train AI systems on false or manipulated data alongside correct data to improve their robustness.",
+      "rationale": "Exposing neural networks to adversarial examples during training significantly reduces their vulnerability to being tricked or exploited by malicious actors.",
+      "source_quote": "...training the systems in identifying false images as well as the correct ones can go a long way in reducing their vulnerability to attack.",
+      "source_id": "src_000"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Adversarial Vulnerability",
+      "description": "The concept that machine learning models, despite high accuracy, have blind spots where slight, often human-imperceptible manipulations to input data (images, audio) can cause them to confidently misclassify the data.",
+      "example": "Adding slight manipulation to a photo of a school bus so the AI classifies it as an ostrich, or using garbled white noise to make a voice assistant register the sound of a horse.",
+      "source_id": "src_000"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "We show you a photo that’s clearly a photo of a school bus, and we make you think it’s an ostrich.",
+      "context": "Explaining to Popular Science in 2016 how adversarial attacks can trick an otherwise accurate AI system.",
+      "source_id": "src_000"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming highly accurate AI systems perceive inputs the way humans do and are therefore immune to manipulation.",
+      "why_it_fails": "AI systems can be easily tricked by slight manipulations (like garbled white noise or minor pixel changes) that humans would easily ignore or correctly interpret, leaving the systems vulnerable to exploitation.",
+      "source_id": "src_000"
+    }
+  ]
+}

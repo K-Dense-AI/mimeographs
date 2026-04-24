@@ -1,0 +1,403 @@
+{
+  "expert_name": "Judy Faulkner",
+  "themes": [
+    "Private Ownership & Independence",
+    "Healthcare Technology & EHR",
+    "Interoperability & Data Sharing",
+    "Customer Empathy & Happiness",
+    "Long-term Thinking",
+    "Unconventional Leadership",
+    "Philanthropy"
+  ],
+  "principles": [
+    {
+      "label": "Remain Privately Held",
+      "summary": "Avoid outside institutional investment, venture capital, and public markets to maintain focus on customers and technology rather than short-term financial pressures.",
+      "details": "Publicly traded or private-equity-backed companies are subjected to the 'tyranny of the quarter,' forcing leadership to maximize short-term revenue and manage Wall Street expectations. Staying private allows a company to prioritize long-term growth, ethical decisions, and its core mission.",
+      "representative_quote": "We have to do what is right and ethical. That’s harder if you're publicly traded. That’s harder if you’re private-equity backed. Because what is right for them financially isn’t necessarily what is right.",
+      "source_ids": [
+        "src_000",
+        "src_006",
+        "src_008",
+        "src_010",
+        "src_013",
+        "src_019",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Grow Organically",
+      "summary": "Do not acquire or be acquired; build everything in-house.",
+      "details": "Remaining independent preserves the company's unique culture. Making acquisitions serves as an unnecessary distraction and complicates the integration of software and corporate values.",
+      "representative_quote": "Others have asked to come and persuade us, and I've heard our staff say to them, 'Just leave your car running.'",
+      "source_ids": [
+        "src_000",
+        "src_006",
+        "src_019"
+      ]
+    },
+    {
+      "label": "Universal but Protected Data Sharing",
+      "summary": "Patient data must be universally shareable across vendors to save lives, but the industry has a shared duty to fiercely protect it from third-party misuse.",
+      "details": "Having access to medical records across state lines can save lives in emergencies. However, patients often consent to 55-page terms of agreement without understanding them. The industry cannot simply offload data responsibility to the patient once a third-party app is involved.",
+      "representative_quote": "I think that the health systems and the EHR vendors and government owe the patients to protect their data.",
+      "source_ids": [
+        "src_017",
+        "src_020",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Heroes Helping Heroes",
+      "summary": "Build a culture of ownership where employees view their primary role as supporting frontline healthcare workers.",
+      "details": "Health systems and frontline workers are the true heroes saving lives; the role of a healthcare software vendor is to rapidly build and adapt tools that support them.",
+      "representative_quote": "I think of our health systems as heros. They're heros. And we see our job as being heros helping heros, and we're proud to be that.",
+      "source_ids": [
+        "src_017",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Work Should Be Fun",
+      "summary": "Humor and playfulness are necessary components of learning, product design, and corporate culture.",
+      "details": "Life is short, so the workplace and even software module names (like 'Bugsy' for infection control) should be playful rather than boring. Leading with humor inspires employees to learn and enjoy their environment.",
+      "representative_quote": "life is short it's a whole lot more fun to have fun with the names that have boring names",
+      "source_ids": [
+        "src_010",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Speed Over Perfection in a Crisis",
+      "summary": "In an emergency, the rapid availability of actionable information is more important than waiting for perfect data.",
+      "details": "During the COVID-19 pandemic, waiting months for traditional medical journals to publish findings cost lives. It is better to release good, actionable data immediately. Furthermore, companies should not profit from a global crisis.",
+      "representative_quote": "it's better to have good data available quickly than perfect data available too late",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Avoid Traditional Corporate Budgeting",
+      "summary": "Strict budgets are unnecessary constraints; spending should be dictated purely by actual need.",
+      "details": "Instead of adhering to arbitrary financial plans, leadership should trust their gut and operate on common sense regarding expenditures.",
+      "representative_quote": "We don't have budgets. We say, if you need it, buy it. If you don't need it, don't buy it.",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Provide Roots to Grow Wings",
+      "summary": "Provide people with foundational basic needs so they can reach their full potential.",
+      "details": "Supplying 'roots' like food, warmth, shelter, healthcare, and education is a necessary prerequisite for people to thrive and develop 'wings.' This is the core philosophy behind Faulkner's philanthropic commitments.",
+      "representative_quote": "...to help others with roots – food, warmth, shelter, healthcare, education – so they too can have wings.",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "Build Databases for Evidence-Based Medicine",
+      "summary": "Aggregate massive patient databases to discover disease causes, study extreme outliers, and compare therapies.",
+      "details": "Currently, only 10 to 20% of medical decisions are truly evidence-based. By aggregating data from hundreds of millions of patients, the medical field can identify drug side effects earlier and accurately compare outcomes.",
+      "representative_quote": "I'm coming away with the concept that it's about 10 to 20% that's truly evidence-based and the 80 to 90% is not...",
+      "source_ids": [
+        "src_011"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Mitigating EHR-Driven Physician Burnout",
+      "summary": "A three-pronged approach to improving physician satisfaction and reducing friction with electronic health records.",
+      "details": "1. Personalization: Allow every physician to adjust settings so the software matches their specific workflow. 2. Continuous Training: Provide excellent initial training and ongoing 'at the elbow' support to uncover unknown capabilities. 3. Zero Committees: Utilize 'physician builders' and reduce the number of committees required for a technical change to zero.",
+      "representative_quote": "KLAS found three things were most important for Epic customers: personalization for physicians... initial training... how many committees does it go through? The best answer is zero.",
+      "source_ids": [
+        "src_010",
+        "src_020"
+      ]
+    },
+    {
+      "label": "Customer Empathy & BFF Alignment",
+      "summary": "A framework for ensuring continuous, deep understanding of a specific client's high-stakes needs.",
+      "details": "1. Send programmers on annual immersive visits to customer sites (e.g., the Emergency Department) to observe end-users. 2. Assign a specific staff member to a customer as their 'Best Friend Forever' (BFF). 3. Make the BFF responsible for deeply learning the client's best practices to share globally, while bringing external best practices back to the client.",
+      "representative_quote": "And you feel this enormous sense of responsibility to do right by them.",
+      "source_ids": [
+        "src_010",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Trust-Based Succession Governance",
+      "summary": "A legal and structural framework to ensure a company remains private and mission-driven after the founder's death.",
+      "details": "1. Transfer all voting shares into a dedicated trust upon death. 2. Establish a voting committee of trusted family members and long-time employees to govern the trust. 3. Set strict, unbreakable rules (e.g., the company cannot go public or be acquired). 4. Create an independent oversight board of customers whose sole job is to sue the voting committee if they violate the rules.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_006"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "The Tyranny of the Quarter",
+      "summary": "The concept that public markets force companies into a short-term mindset, optimizing for 90-day financial reporting cycles rather than long-term value creation.",
+      "details": "Viewing public market pressures as a restrictive force that forces executives to prioritize short-term financial gains and career protection over long-term, ethical, and customer-centric growth.",
+      "representative_quote": "being privately owned is great because we don't have to worry about the tyranny of the quarter",
+      "source_ids": [
+        "src_006",
+        "src_008",
+        "src_010",
+        "src_034"
+      ]
+    },
+    {
+      "label": "The Anti-MBA Mindset",
+      "summary": "Viewing business leadership through practical necessity and independence rather than traditional business school training.",
+      "details": "It involves actively rejecting standard corporate playbooks like venture capital, IPOs, and strict budgeting in favor of common sense and gut instinct.",
+      "representative_quote": "I never got an MBA, which I think is a really good thing.",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Computer as Mental Clay",
+      "summary": "Viewing computer programming as a highly creative, malleable process akin to sculpting physical clay, but existing entirely in the mental realm.",
+      "details": "A metaphor used to explain the creative draw of software development, emphasizing that code is a medium for building and shaping ideas.",
+      "representative_quote": "I always liked making things out of clay. And the computer was clay of the mind. Instead of physical, it was mental.",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "Roots and Wings",
+      "summary": "A metaphor for human development where foundational basic needs must be secured before a person can reach their full potential.",
+      "details": "'Roots' represent food, warmth, shelter, healthcare, and education. Once these are established, individuals can develop 'wings' to thrive.",
+      "representative_quote": "...to help others with roots – food, warmth, shelter, healthcare, education – so they too can have wings.",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "AI as Math and Computing Power",
+      "summary": "A demystified view of Artificial Intelligence as heavy mathematics and computing power applied to large datasets, rather than magic or human-like intelligence.",
+      "details": "AI should be understood simply as feeding massive amounts of data into a computer to interpret patterns against specific situations, requiring mutual learning between the AI and the clinician.",
+      "representative_quote": "artificial intelligence is cool but it's not as cool as it sometimes looks the closer you get to it realize one it's not artificial it's real and two it's not all that intelligent",
+      "source_ids": [
+        "src_011",
+        "src_017"
+      ]
+    },
+    {
+      "label": "The Cambridge Analytica Analogy",
+      "summary": "Evaluating the risk of third-party health apps by comparing them to social media data scandals, where user consent did not absolve the platform of responsibility for data misuse.",
+      "details": "Used to explain why EHR vendors and health systems cannot simply rely on a patient clicking 'I agree' to a 55-page terms of service when sharing sensitive medical data with external developers.",
+      "representative_quote": "The typical patient might say 'yes' to something they don’t understand. Not because they are not intelligent. You see a 55-page terms of agreement, check here. Everyone says 'I agree.' No one reads them.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "The Fax Machine Analogy",
+      "summary": "A mental model for understanding the physical limits of data sharing: you cannot seamlessly exchange records with a system that lacks interoperability standards.",
+      "details": "Just as a fax cannot be sent to an office without a fax machine, electronic health records require proactive workarounds (like web viewers) to bypass the limitations of non-interoperable clinics.",
+      "representative_quote": "It's like a fax machine. We can't send a fax to someone who doesn't have a fax machine, so you can't interoperate with someone who doesn't interoperate.",
+      "source_ids": [
+        "src_017"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "The Budgeting Heuristic",
+      "summary": "If you need it, buy it. If you don't need it, don't buy it.",
+      "details": null,
+      "representative_quote": "We don't have budgets. We say, if you need it, buy it. If you don't need it, don't buy it.",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "The Long-Term Horizon",
+      "summary": "Think 25 to 30 years from now, not in terms of quarters.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "Zero Committees for Technical Changes",
+      "summary": "When a physician requests a technical change to improve their workflow, the number of committees it goes through should be zero.",
+      "details": null,
+      "representative_quote": "how many committees does it go through? The best answer is zero.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Speed Over Perfection",
+      "summary": "Better to have good data available quickly than perfect data available too late.",
+      "details": null,
+      "representative_quote": "it's better to have good data available quickly than perfect data available too late",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Study the Outliers",
+      "summary": "Study the extreme outliers to unlock new medical discoveries.",
+      "details": null,
+      "representative_quote": "one of my favorites is how can we study the extreme outliers the the very small percent who doesn't react like everyone else does",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Equal Customer Value",
+      "summary": "Treat every customer as if they are your best customer.",
+      "details": null,
+      "representative_quote": "Each Is Our Best Customer",
+      "source_ids": [
+        "src_028"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "On Going Public",
+      "summary": "Explaining her aversion to the public market and the short-term pressures it creates.",
+      "details": null,
+      "representative_quote": "Why be owned by people whose interest is primarily return of equity? ...being privately owned is great because we don't have to worry about the tyranny of the quarter.",
+      "source_ids": [
+        "src_006",
+        "src_010"
+      ]
+    },
+    {
+      "label": "On Mission",
+      "summary": "Describing the internal culture and mission of Epic Systems staff.",
+      "details": null,
+      "representative_quote": "I think of our health systems as heros. They're heros. And we see our job as being heros helping heros.",
+      "source_ids": [
+        "src_017",
+        "src_022"
+      ]
+    },
+    {
+      "label": "On Data Privacy",
+      "summary": "Discussing the risks of interoperability rules that open EHR data to third-party developers.",
+      "details": null,
+      "representative_quote": "I’m not worried about patient data getting into the hands of the patient. I’m worried about it getting into the hands of another vendor before it gets to the patient.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "On Programming",
+      "summary": "Explaining her affinity for computers and programming.",
+      "details": null,
+      "representative_quote": "I always liked making things out of clay. And the computer was clay of the mind. Instead of physical, it was mental.",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "On Predicting the Future",
+      "summary": "Discussing the purpose of anticipating future needs in healthcare.",
+      "details": null,
+      "representative_quote": "You predict the future for two reasons. One is to prepare for it. And two is to change it.",
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "On Artificial Intelligence",
+      "summary": "Demystifying AI as simply math, computing power, and data interpretation.",
+      "details": null,
+      "representative_quote": "artificial intelligence is cool but it's not as cool as it sometimes looks the closer you get to it realize one it's not artificial it's real and two it's not all that intelligent",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "On Philanthropy",
+      "summary": "Explaining her rationale for joining The Giving Pledge.",
+      "details": null,
+      "representative_quote": "...to help others with roots – food, warmth, shelter, healthcare, education – so they too can have wings.",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "On Business Education",
+      "summary": "Discussing how she avoided conventional business practices.",
+      "details": null,
+      "representative_quote": "I never got an MBA, which I think is a really good thing.",
+      "source_ids": [
+        "src_006"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Going Public or Taking Private Equity",
+      "summary": "Subjecting the company to the 'tyranny of the quarter'.",
+      "details": "It forces leadership to prioritize short-term financial metrics and shareholder demands over long-term customer care, ethical decisions, and technological focus.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_000",
+        "src_006",
+        "src_008",
+        "src_010",
+        "src_013",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Acquiring Other Companies",
+      "summary": "Growing a business through corporate acquisitions rather than organic growth.",
+      "details": "Acquisitions act as a distraction and threaten the preservation of a company's unique, independent culture.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_000",
+        "src_006"
+      ]
+    },
+    {
+      "label": "Relying Solely on Patient Consent",
+      "summary": "Using patient consent to absolve vendors and health systems of data responsibility.",
+      "details": "Patients routinely click 'I agree' on 55-page terms of service without reading or understanding them, leaving them vulnerable to bad actors and data misuse.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_019",
+        "src_020"
+      ]
+    },
+    {
+      "label": "Bureaucratic Friction for Technical Changes",
+      "summary": "Forcing technical changes requested by physicians to go through multiple committees.",
+      "details": "It creates friction and prevents physicians from personalizing the software to match their workflow, significantly reducing customer happiness and increasing burnout.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Waiting for Perfect Data or Standardization",
+      "summary": "Delaying action in a crisis to wait for perfect data or industry-wide standardization.",
+      "details": "Relying on traditional medical journal publishing timelines during a pandemic takes weeks or months, which is too late to save lives. Similarly, waiting for competitors to standardize blocks interoperability.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010",
+        "src_017"
+      ]
+    },
+    {
+      "label": "Stigmatizing Mental Health Data",
+      "summary": "Separating mental health data from physical health records.",
+      "details": "It 'severs the head from the body,' preventing physicians from accessing crucial holistic data to treat the patient effectively.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_011"
+      ]
+    }
+  ]
+}

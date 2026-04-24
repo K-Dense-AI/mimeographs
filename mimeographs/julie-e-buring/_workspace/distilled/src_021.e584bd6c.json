@@ -1,0 +1,35 @@
+{
+  "source_id": "src_021",
+  "summary": "A 1994 abstract co-authored by Julie E. Buring highlighting the severe underutilization of low-dose aspirin in treating acute myocardial infarction, despite its proven efficacy, safety, and low cost.",
+  "themes": [
+    "Cardiovascular disease",
+    "Aspirin therapy",
+    "Clinical implementation gaps",
+    "Cost-effective treatments"
+  ],
+  "principles": [
+    {
+      "statement": "Low-dose aspirin should be widely administered during acute evolving myocardial infarction.",
+      "rationale": "It decreases mortality by about a quarter, has a highly favorable safety profile, can be given to almost all patients, and provides comparable benefits to thrombolytic agents at a fraction of the cost.",
+      "source_quote": "Aspirin can be given to virtually all patients, has a far more favorable safety profile than thrombolysis, and confers a comparable benefit at a small fraction of the cost of thrombolytic agents.",
+      "source_id": "src_021"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "The more widespread use of aspirin in acute MI is one of the most important and timely clinical challenges in the United States.",
+      "context": "Concluding the abstract on the underutilization of aspirin for acute myocardial infarction.",
+      "source_id": "src_021"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Underutilizing low-dose aspirin and thrombolytic therapy during acute evolving myocardial infarction.",
+      "why_it_fails": "It represents a failure to deploy a highly accessible, safe, and cheap intervention that is proven to decrease mortality by about one quarter.",
+      "source_id": "src_021"
+    }
+  ]
+}

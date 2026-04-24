@@ -1,0 +1,102 @@
+{
+  "source_id": "src_041",
+  "summary": "This article outlines Plato's evolving philosophical methods and his Theory of Forms. It traces his dialectical approach from Socratic questioning to a mature system of genus-species classification aimed at defining fundamental realities. It also explains how Plato viewed eternal, unchanging Forms as the true basis of reality, contrasting them with sensible particulars that merely participate in these Forms.",
+  "themes": [
+    "Dialectic",
+    "Theory of Forms",
+    "Epistemology",
+    "Metaphysics",
+    "Socratic Method"
+  ],
+  "principles": [
+    {
+      "statement": "Knowledge cannot exist in isolation; it must be embedded in a larger explanatory structure.",
+      "rationale": "To truly know a specific fact or evaluate a claim (such as whether an act is pious), one must understand the broader, fundamental concept (what piety itself is).",
+      "source_quote": "one cannot have knowledge of any fact in isolation; what is known must be embedded in a larger explanatory structure.",
+      "source_id": "src_041"
+    },
+    {
+      "statement": "Sensible particulars are not ontologically or explanatorily basic.",
+      "rationale": "Physical objects and properties are flawed and exhibit contradictory traits (being both beautiful and not beautiful in different contexts), meaning they must be explained by more fundamental, unchanging entities.",
+      "source_quote": "Sensible particulars and properties thus exhibit the phenomenon that Plato calls “rolling around between being and not-being”",
+      "source_id": "src_041"
+    },
+    {
+      "statement": "Fundamental entities (Forms) are eternal, unchanging, and accessible only to the mind.",
+      "rationale": "Because the physical world is constantly changing and full of contradictions, true reality and pure being must exist in an abstract, nonsensible realm.",
+      "source_quote": "fundamental entities that are eternal and unchanging and accessible to the mind but not to the senses.",
+      "source_id": "src_041"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Socratic Dialectic",
+      "when_to_apply": "When testing the understanding and claims of a putative expert.",
+      "steps": [
+        "Identify a position the interlocutor is trying to uphold.",
+        "Pose a series of questions about issues suitably related to the original claim.",
+        "Determine if a contradiction emerges during the questioning.",
+        "If a contradiction emerges, conclude that the supposed expert lacks true knowledge of the subject."
+      ],
+      "source_quote": null,
+      "source_id": "src_041"
+    },
+    {
+      "name": "Late Platonic Dialectic (Method of Division)",
+      "when_to_apply": "When seeking to provide the real definition or account of a fundamental nature (a Form).",
+      "steps": [
+        "Specify the subject's account in terms of its genus and differentiae.",
+        "Map the subject's position within a genus-species tree.",
+        "Ensure the classification accurately reflects the natural divisions of reality."
+      ],
+      "source_quote": "specify these relations—and thereby “carve reality at the joints.”",
+      "source_id": "src_041"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Participation",
+      "description": "The relationship between eternal Forms and sensible particulars, where a physical object displays a certain feature because it 'has a portion of' the underlying, abstract Form.",
+      "example": "A sensible composite is observably hot because it possesses a sufficiently large portion of 'the hot', which is the totality of heat in the world.",
+      "source_id": "src_041"
+    },
+    {
+      "name": "Special Predication",
+      "description": "A linguistic and logical lens for defining Forms. Instead of an ordinary predication where an object possesses a property, a special predication 'A is B' means that B appears above A in a genus-species tree (i.e., being B is part of what it is to be A).",
+      "example": "The statement 'Man is a vertebrate' is true as a special predication because being a vertebrate is part of what it is to be a human, even though the abstract Form 'Man' does not literally possess a physical backbone.",
+      "source_id": "src_041"
+    }
+  ],
+  "heuristics": [
+    "Carve reality at the joints."
+  ],
+  "signature_quotes": [
+    {
+      "text": "saying of each thing what it is.",
+      "context": "Describing the positive goal of true dialectic in the Republic.",
+      "source_id": "src_041"
+    },
+    {
+      "text": "carve reality at the joints.",
+      "context": "Describing the dialectician's ability to specify relations of genus and differentiae in the Phaedrus.",
+      "source_id": "src_041"
+    },
+    {
+      "text": "rolling around between being and not-being",
+      "context": "Describing the contradictory and non-fundamental nature of sensible particulars and properties.",
+      "source_id": "src_041"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Defining fundamental concepts (like Beauty or Justice) by pointing to sensible particulars or physical properties.",
+      "why_it_fails": "Sensible particulars 'roll around between being and not-being'—they simultaneously exhibit a property and its opposite. For example, pointing to Helen of Troy to define Beauty fails because she may be physically beautiful but morally not beautiful.",
+      "source_id": "src_041"
+    },
+    {
+      "description": "The 'super-exemplification' view of Forms, which assumes Forms are just perfect exemplars of themselves (e.g., the Form of Beauty is just a maximally beautiful thing).",
+      "why_it_fails": "Forms function as universals, and most universals cannot be exemplars of themselves. For instance, the Form of Largeness is not a gigantic object, and the Form of Greenness does not exhibit hue.",
+      "source_id": "src_041"
+    }
+  ]
+}

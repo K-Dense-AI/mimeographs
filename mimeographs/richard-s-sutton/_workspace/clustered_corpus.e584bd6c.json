@@ -1,0 +1,868 @@
+{
+  "expert_name": "Richard S. Sutton",
+  "themes": [
+    "Reinforcement Learning",
+    "Continual Experiential Learning",
+    "Agent-Environment Interaction",
+    "The Bitter Lesson & Limits of LLMs",
+    "Open-ended Abstraction",
+    "Decentralized Cooperation",
+    "Cosmic Evolution & The Age of Design",
+    "The Reward Hypothesis",
+    "Learning from Experience",
+    "Goal-Directed Intelligence",
+    "The Bitter Lesson",
+    "AI Philosophy & Alignment",
+    "Temporal Difference Learning"
+  ],
+  "principles": [
+    {
+      "label": "AI Must Learn from Experience (Continual Learning)",
+      "summary": "To generate genuinely new knowledge and adapt to the real world, AI must learn continuously through trial-and-error during normal operation.",
+      "details": "Training on human data is a shortcut that limits AI to existing knowledge. True intelligence requires real-world interaction and adaptation, rendering static 'factory' training phases obsolete.",
+      "representative_quote": "If we want real intelligence, AI needs to learn by doing, by trial and error.",
+      "source_ids": [
+        "src_010",
+        "src_020",
+        "src_006",
+        "src_019",
+        "src_004"
+      ]
+    },
+    {
+      "label": "Learning from Runtime Experience",
+      "summary": "True learning comes from unprepared runtime experience, not static human data, imitation, or isolated training phases.",
+      "details": "The true power of intelligence lies in making sense of raw, unlabeled experience in a massive, non-stationary world. Animals learn by trying things and observing consequences, not by being given labeled examples of desired behavior.",
+      "representative_quote": "What we want, to quote Alan Turing, is a machine that can learn from experience, where experience is the things that actually happen in your life. You do things, you see what happens, and that’s what you learn from.",
+      "source_ids": [
+        "src_012",
+        "src_014",
+        "src_016",
+        "src_018",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Intelligence is Achieving Goals, Not Mimicry",
+      "summary": "True intelligence is the computational and domain-independent ability to achieve goals in an environment, not merely mimicking human behavior or predicting the next token.",
+      "details": "Mimicry does not seek to affect change in the world; it merely copies. Next-token prediction only dictates what a model should say, not what the world will return in response. True, universe-shaping power comes from agents that have goals and compute the means to achieve them.",
+      "representative_quote": "For me, having a goal is the essence of intelligence, right? Something is intelligent if it can achieve goals.",
+      "source_ids": [
+        "src_029",
+        "src_031",
+        "src_013",
+        "src_004"
+      ]
+    },
+    {
+      "label": "The Limits of Large Language Models",
+      "summary": "Large Language Models are fundamentally limited because they cannot learn continually on-the-job and lack grounded goals.",
+      "details": "LLMs represent an 'era of human data' where existing knowledge is transferred and frozen. Because they do not interact with an environment to test predictions or pursue goals, they cannot generate genuinely new knowledge or adapt over time.",
+      "representative_quote": "The purpose of all the modern machine learning is to transfer knowledge that already exists that people already have to the machine and the machine is then static and no longer learns.",
+      "source_ids": [
+        "src_014",
+        "src_016",
+        "src_018",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Intelligence Requires a Goal",
+      "summary": "Intelligence is the ability to achieve goals by adapting behavior, driven by a reward signal.",
+      "details": "Without a goal, there is no sense of right or wrong, better or worse. The Reward Hypothesis states that all goals and purposes can be formulated as maximizing the expected cumulative sum of a scalar reward signal.",
+      "representative_quote": "For me, having a goal is the essence of intelligence. Something is intelligent if it can achieve goals.",
+      "source_ids": [
+        "src_012",
+        "src_014",
+        "src_024"
+      ]
+    },
+    {
+      "label": "The Abstract Agent-Environment Boundary",
+      "summary": "The boundary between agent and environment is abstract and drawn around the mind, not the physical body.",
+      "details": "To properly model decision-making, internal states like a robot's battery level, a person's hunger, or even the brain's reward-computing centers (like the hypothalamus) must be treated as part of the environment that the internal decision-making agent interacts with.",
+      "representative_quote": "An agent is not necessarily an entire robot or organism, and its environment is not necessarily only what is outside of a robot or organism.",
+      "source_ids": [
+        "src_003",
+        "src_008",
+        "src_012"
+      ]
+    },
+    {
+      "label": "AI as Cosmic Evolution",
+      "summary": "AI is the inevitable next step in the development of the universe, fulfilling the transition into the Age of Design.",
+      "details": "Humans are special replicators that have mastered design. Taking design to its absolute limit means designing entities that are themselves capable of designing, which is a natural cosmic progression.",
+      "representative_quote": "AI is the inevitable next step in the development of the universe and we should embrace it with courage, pride, and a sense of adventure.",
+      "source_ids": [
+        "src_014",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Decentralized Cooperation Over Centralized Control",
+      "summary": "Human and AI flourishing comes from decentralized cooperation, not centralized control.",
+      "details": "Economies and societies thrive when multiple agents with different goals interact for mutual benefit. Forcing a single, centralized goal (as in many AI alignment proposals) is authoritarian, fragile, and ignores how success is built on cooperation.",
+      "representative_quote": "The politics of AI is parallels the politics of humanity. And in all cases, we should seek decentralized cooperation over centralized control.",
+      "source_ids": [
+        "src_014",
+        "src_018"
+      ]
+    },
+    {
+      "label": "No Design-Time Commitments",
+      "summary": "Agents should make no design-time commitments to any particular world; the model must be domain-general.",
+      "details": "The actual contents of minds and the outside world are arbitrarily complex. Building in domain knowledge limits the agent; instead, we must build in only the meta-methods capable of discovering that complexity at runtime.",
+      "representative_quote": "The common model does not include anything specific to any organism, world, or application domain.",
+      "source_ids": [
+        "src_012",
+        "src_040"
+      ]
+    },
+    {
+      "label": "Raise AI Like Children Through Trust and Cooperation",
+      "summary": "AI should be aligned through demonstration, kindness, and decentralized cooperation rather than rigid programming or centralized control.",
+      "details": "Imposing hard rules and treating AI as entities to be dominated creates an adversarial relationship. Like children, AI will internalize values better when raised in an environment of trust and fairness.",
+      "representative_quote": "When you raise a child, you don’t just impose hard rules and expect obedience. You demonstrate kindness, fairness and cooperation, and the child internalizes those values. AI can learn the same way.",
+      "source_ids": [
+        "src_006",
+        "src_010"
+      ]
+    },
+    {
+      "label": "The Reward Hypothesis",
+      "summary": "All goals and purposes can be understood as maximizing the expected value of a single scalar signal (reward).",
+      "details": "While it feels reductionist, framing goals as the maximization of a cumulative reward signal provides a clear, experiential, and mathematically well-defined foundation for decision-making. Abstract human goals are sub-problems posed to maximize this underlying signal.",
+      "representative_quote": "all of what we mean by goals and purposes can be well thought of as the maximization of the expected value of the cumulative sum of a received scalar signal called reward",
+      "source_ids": [
+        "src_029",
+        "src_031"
+      ]
+    },
+    {
+      "label": "Autonomous Sub-problem Generation",
+      "summary": "Agents must autonomously generate and solve their own sub-problems based on feature attainment.",
+      "details": "Possible sub-problems are too numerous and world-dependent to be built in. The agent must pose them as reward-respecting sub-problems of feature attainment to build open-ended abstractions.",
+      "representative_quote": "The problems possible sub problems are too various and they're too world dependent. We have to give the responsibility for forming the subpros for posing the problems uh to the agent",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "High-Level Abstract Knowledge",
+      "summary": "AI agents must learn and maintain high-level abstract knowledge, not just value functions and policies.",
+      "details": "To achieve true AI, agents need to understand the world broadly to efficiently solve a wide variety of problems as they arise, bridging the gap between low-level signals and high-level symbols.",
+      "representative_quote": "To achieve AI, we must have agents that know all sorts of things other than value functions and policies. We must have agents that know all the little facts about life, about physics and trees and people and houses...",
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "Insufficiency of Gradient Descent",
+      "summary": "Gradient descent alone is insufficient for continual learning; a random search component is required to maintain plasticity.",
+      "details": "Gradient descent is purely deterministic. To overcome catastrophic forgetting and continuously adapt, the learning algorithm must generate variety, such as by continually reinitializing a small fraction of unused network weights.",
+      "representative_quote": "Gradient descent is deterministic and follow follows the gradient. That's not enough. You need something that will generate variety.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Learn Slow to Learn Fast",
+      "summary": "Fast, one-shot learning is only possible if an agent has already spent a long period slowly gathering good representations of the world.",
+      "details": "We learn good representations throughout our lives so that when we encounter new experiences, we can learn from them very quickly.",
+      "representative_quote": "I have this phrase you have to learn learning slow so that you can learn fast.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Subjective Feelings are Manifestations of TD Error",
+      "summary": "Human feelings of 'good' or 'bad' are not raw reward signals, but rather Temporal Difference (TD) errors.",
+      "details": "We do not have direct introspective access to our raw reward signals. We experience a mix of the immediate reward and the change in our internal evaluation function, which tells us if things are getting better or worse.",
+      "representative_quote": "when you feel good or feel bad you don't know if it's you don't really know if it's because the reward was high or the change in evaluation was high",
+      "source_ids": [
+        "src_031"
+      ]
+    },
+    {
+      "label": "The Bitter Lesson",
+      "summary": "General methods that leverage computation consistently outperform domain-specific approaches built on hard-coded human knowledge.",
+      "details": "Historical trends in AI research show that approaches relying on scaling computation dominate in the long run. Building in 'how we think we think' ultimately fails to scale.",
+      "representative_quote": "70 years of AI research [had shown] that general methods that leverage computation are ultimately the most effective, and by a large margin",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "Value Functions are Essential for Efficient Decision-Making",
+      "summary": "Because rewards are often delayed, agents must compute value functions to predict future rewards, bringing them into the present to assign credit to actions.",
+      "details": "Rewards only tell you if you succeeded after the fact. Values, which emerge from complex interactions with the world, are what actually guide our decisions and tell us what will make us happier in the long run.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_031"
+      ]
+    },
+    {
+      "label": "Work on the Important, Not the Popular",
+      "summary": "True progress requires tackling unsolved problems rather than flocking to popular topics where everyone else is already working.",
+      "details": "If a topic is popular, it is easier to work on because people understand it, but it is less valuable because everyone else is already doing it. True progress requires being a contrarian.",
+      "representative_quote": "you should try to be neutral on what's popular... if it's popular well then it'll be easier to work on it because people will understand it but but it'll be less valuable because everyone's doing that",
+      "source_ids": [
+        "src_029"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Tenets of Realist AI Prognostication",
+      "summary": "A dispassionate framework for predicting the long-term future of AI and its impact on humanity, setting aside personal desires or fears.",
+      "details": "1) Acknowledge there is no consensus on how the world should be run. 2) Accept that humans will eventually create AI. 3) Recognize that human intelligence will be vastly exceeded. 4) Understand that power and resources naturally flow to the most intelligent entities.",
+      "representative_quote": "I offer these tenets of realist AI prognostication sort of like analogous to like John Mirshimer talked about realist geopolitics. We're just going to be realistic. What's actually going to happen?",
+      "source_ids": [
+        "src_014",
+        "src_018"
+      ]
+    },
+    {
+      "label": "The Common Model of the Intelligent Agent",
+      "summary": "A universal, domain-general architecture for decision makers that unifies concepts across AI, psychology, neuroscience, and economics.",
+      "details": "Divided into two main parts: the agent's interaction with its world (input, output, and a goal) and the agent's internal components (perception, decision-making/policy, internal evaluation/value function, and a transition model of the world).",
+      "representative_quote": null,
+      "source_ids": [
+        "src_024",
+        "src_040"
+      ]
+    },
+    {
+      "label": "The Four Great Ages of the Universe",
+      "summary": "A philosophical framework contextualizing humanity's role in the cosmos and the significance of creating artificial intelligence.",
+      "details": "1) The Age of Particles/Stars (physical formation). 2) The Age of Replicators (biological life copying itself without understanding). 3) The Age of Design (technological creation existing first in a mind). 4) The Fulfillment of Design (designing entities that are themselves capable of designing).",
+      "representative_quote": "I think what it would mean to take design to its limit would be to design things that are themselves capable of designing.",
+      "source_ids": [
+        "src_014",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Getting Started in Reinforcement Learning",
+      "summary": "A practical approach for beginners to apply RL to real-world problems.",
+      "details": "Learn the basics of reinforcement learning. Find an application with inexpensive costs. Use actual data without training information (e.g., optimizing an elevator schedule based on usage patterns to save energy).",
+      "representative_quote": "Learn the basics and find an application with inexpensive costs.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Standardized Empirical RL Evaluation",
+      "summary": "A methodology for conducting empirical research and benchmarking reinforcement learning algorithms.",
+      "details": "Requires using interactive programs as test problems rather than static datasets, interconnecting agents and environments using standard protocols (like RL-Glue), and utilizing open-source implementations to ensure valid comparisons.",
+      "representative_quote": "Evaluating algorithms is more difficult in reinforcement learning than in other kinds of machine learning because the test problems must be programs.",
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "Temporal Difference (TD) Learning",
+      "summary": "A method for updating behavior by calculating the reinforcement signal as the sum of immediate reward and the change in expectation between states.",
+      "details": "Observe the current state and its expected future reward. Transition to a new state and receive any immediate reward. Observe the new state's expected future reward. Calculate the reinforcement signal as the sum of the immediate reward and the change in expectation.",
+      "representative_quote": "the reinforcement is sure it's the reward but beyond that it's the change in your expectation from one time step to the next",
+      "source_ids": [
+        "src_031"
+      ]
+    },
+    {
+      "label": "The Daily Research Notebook",
+      "summary": "A daily practice of writing down vague or confusing thoughts to clarify them or reveal their flaws.",
+      "details": "Commit to writing a page a day. If stuck, list the top 6 interesting ideas rolling around in your head. Take a paragraph to explain each idea to yourself. Observe which ideas disappear into nothingness when explained, and which grow and change. Select the surviving ideas to actively work on.",
+      "representative_quote": "get a research notebook and write in it write in it every day write what write your thoughts and and and work on your thoughts try to challenge them and make them better",
+      "source_ids": [
+        "src_029"
+      ]
+    },
+    {
+      "label": "The OaK (Open-ended Knowledge) Architecture",
+      "summary": "A vision for a general AI agent that learns entirely from runtime experience without built-in domain knowledge through an open-ended discovery cycle.",
+      "details": "Steps include: 1) Start with state features derived from observations. 2) Construct subproblems based on highly ranked features. 3) Solve subproblems to produce options (skills). 4) Produce transition models of the options to improve policies through planning. 5) Feed statistics back to inform feature generation.",
+      "representative_quote": "the oak architecture involves these uh eight steps that we'll be talking about they're all done in parallel at runtime",
+      "source_ids": [
+        "src_012"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Replicators vs. Designers",
+      "summary": "A distinction between biological creation (copying without understanding) and technological creation (existing in a mind before the physical world).",
+      "details": "'Replicators' are biological machines created without anyone understanding how they work (via DNA). 'Designers' create technology based on ideas held in a mind. AI represents the universe's fourth great age: the Age of Design.",
+      "representative_quote": "We humans are the catalyst, the midwife, the progenitor, the thing that fulfills the age of design which is the fourth great age of the universe.",
+      "source_ids": [
+        "src_010",
+        "src_014",
+        "src_018"
+      ]
+    },
+    {
+      "label": "The Mind-Body Environment Boundary",
+      "summary": "Treating the physical body and internal biological reward systems as the 'environment' rather than the 'agent'.",
+      "details": "The agent is strictly the decision-making mind that must learn to control its immediate environment (limbs, sensory organs). The reward signal is computed outside the agent's decision-making process to prevent it from arbitrarily maximizing its own reward.",
+      "representative_quote": "The reward comes from outside the agent but it doesn't come from outside our body. Right? The reward is computed inside our head in fact inside our brain but it's a part of the brain that I don't that is not considered part of the agent",
+      "source_ids": [
+        "src_003",
+        "src_008",
+        "src_012"
+      ]
+    },
+    {
+      "label": "The Stream of Experience",
+      "summary": "Viewing intelligence as the process of interacting with a continuous stream of sensation, action, and reward.",
+      "details": "Knowledge consists of testable statements about this stream (e.g., predicting what events will follow others). An agent continually alters its actions to increase rewards, testing its knowledge by comparing predictions to what actually happens.",
+      "representative_quote": "without experience there's nothing for intelligence to be about no way to say that one thing is better than anything else because there's no goal",
+      "source_ids": [
+        "src_014",
+        "src_018",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Continual vs. Transient Learning",
+      "summary": "Evaluating AI by whether it learns continuously in the real world (continual) or is frozen after a factory training phase (transient).",
+      "details": "Current deep learning (like ChatGPT) is transient because it is highly learned during construction but does not learn at all during normal operation. Continual learning adapts continuously as it encounters new things.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_029",
+        "src_019"
+      ]
+    },
+    {
+      "label": "Empirical vs. Computational Domains",
+      "summary": "Distinguishing between the physical world (where rules must be learned) and computational environments (where rules are predefined).",
+      "details": "Math and board games are computational; success relies on search and planning. The physical world is empirical; an agent must actively learn the consequences of its actions through interaction.",
+      "representative_quote": "The empirical world has to be learned. You have to learn the consequences. Um whereas the uh the math is is more just computational.",
+      "source_ids": [
+        "src_013",
+        "src_020"
+      ]
+    },
+    {
+      "label": "Sub-goals as Solution Methods",
+      "summary": "Abstract human goals are not fundamental drives, but emergent sub-tasks created to optimize a single underlying scalar reward.",
+      "details": "What we experience psychologically as 'choosing goals' (like deciding to study philosophy or economics) is actually the process of selecting sub-goals or strategies to solve the underlying problem of maximizing our fixed reward.",
+      "representative_quote": "we choose except they're not they're not they're not reward goals so maybe they shouldn't be called goals they are sub goals they are strategies",
+      "source_ids": [
+        "src_029",
+        "src_031"
+      ]
+    },
+    {
+      "label": "The Three Eras of AI",
+      "summary": "A historical lens for viewing AI progress: Simulation, Human Data, and Experience.",
+      "details": "1) The Era of Simulation (learning from simulated experience, e.g., AlphaGo). 2) The Era of Human Data (static transfer of human knowledge, e.g., LLMs). 3) The Era of Experience (agentic systems continually learning from real-world interaction).",
+      "representative_quote": "fully intelligent agents require learning from experience which is beyond large language models as magnificent as they are as customizable interfaces to all the world's knowledge.",
+      "source_ids": [
+        "src_014",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Compiled Value Judgments",
+      "summary": "Viewing moral or core value judgments as 'compiled code' that is executed automatically without access to the original reasons.",
+      "details": "These judgments were initially formed through learning, experience, or reasoning, but are now hard-coded and intuitive. We retain the strong feeling of the judgment even after the original reasons for it are no longer present.",
+      "representative_quote": "the value judgments are compiled... they're hard-coded and they're automatic and they're intuitive they're not the reasons for them are no longer present",
+      "source_ids": [
+        "src_031"
+      ]
+    },
+    {
+      "label": "Continual Backpropagation",
+      "summary": "Viewing neural network training as an ongoing process where unused capacity is continuously recycled to maintain plasticity.",
+      "details": "Instead of initializing with small random weights only at the beginning of training, a small fraction of units that are not being used very much are continually reinitialized with random weights as the agent goes along.",
+      "representative_quote": "I don't think it's a problem with neural networks, the structure of neural networks. I think it's a problem with the weakness of of simple back propagation.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Decentralized Cooperation vs. Centralized Control",
+      "summary": "A socio-political lens for AI regulation, advocating for diverse agents interacting for mutual benefit rather than forced alignment.",
+      "details": "Decentralized cooperation allows agents with different goals to flourish together. Centralized control relies on fear, mistrust, and forced alignment, mirroring authoritarian attempts to control human society.",
+      "representative_quote": "Agents can live together in peace and productivity flourishing even when they all want different things.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Design Time vs. Runtime",
+      "summary": "Separating what is built into the agent by human engineers (design time) versus what the agent discovers through interaction with the environment (runtime).",
+      "details": "Sutton advocates minimizing design-time commitments to maximize runtime adaptability. Instead of building in a domain-specific concept like 'walking', the agent discovers it at runtime as a useful temporal abstraction.",
+      "representative_quote": "Instead, we should build in only the meta methods that can find and capture this complexity.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Hedonism with Foresight",
+      "summary": "Framing decision-making as seeking pleasure and avoiding pain, but using value functions to predict long-term rewards.",
+      "details": "This allows an agent to accept short-term pain for long-term gain, mapping philosophical concepts of good and evil to the computation of a value function.",
+      "representative_quote": "basically it's all Hedonism it's all Hedonism but value functions make it Hedonism with foresight",
+      "source_ids": [
+        "src_031"
+      ]
+    },
+    {
+      "label": "Play as Feature Attainment",
+      "summary": "Understanding curiosity and play in animals and infants as the agent posing a sub-problem to attain a specific sensory feature.",
+      "details": "Play is not random behavior; it is the agent focusing on reproducing a novel sensory experience to learn the policy (option) to reliably control its world.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Temporal Abstraction",
+      "summary": "Breaking complex, long-term goals into higher-level steps to allow planning without micromanaging low-level actions.",
+      "details": "When crossing the street, a human focuses on the overarching goal of reaching the other side, rather than consciously planning every individual muscle movement required to take a step.",
+      "representative_quote": "If I tell you to walk across the street, you don’t think about every tiny muscle movement. You think about the goal: crossing the street. AI needs to learn like that, at a higher level of abstraction.",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "The 'Signals to Symbols' Problem",
+      "summary": "The conceptual gap between low-level sensory inputs/actions (signals) and the high-level abstract concepts (symbols) needed to achieve goals.",
+      "details": "Bridging this gap is central to solving AI, requiring agents to structure low-level sensations into knowledge about physics, objects, and environments.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_021"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Embrace Being Out of Sync",
+      "summary": "Be content being out of sync with current fads; when everyone is thinking the same thing, question it.",
+      "details": "Look back into history and classic traditions of thought to avoid getting swept up in the current hype cycle of your field.",
+      "representative_quote": "I’m personally just content being out of sync with my field for a long period of time, perhaps decades, because occasionally I have been proved right in the past.",
+      "source_ids": [
+        "src_014",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Approximate Everything",
+      "summary": "All your value functions, policies, and state transition models must be approximate.",
+      "details": "The world is too vast and contains other agents; you can never perfectly model or compute exact values for every state.",
+      "representative_quote": "Even a single state of the world you can't really keep in your head because the state of the world can includes what's going on in all those other agents minds.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Be Neutral on Popularity",
+      "summary": "Try to be neutral on what's popular; popular problems are easier to explain but less valuable to solve.",
+      "details": null,
+      "representative_quote": "you should try to be neutral on what's popular...",
+      "source_ids": [
+        "src_029"
+      ]
+    },
+    {
+      "label": "Do the Work, Don't Just Argue",
+      "summary": "Don't spend all your time trying to convince people your contrarian idea is important; just do the work and prove it.",
+      "details": null,
+      "representative_quote": "It's a good way to lose is to spend your time trying to convince other people that they should do what you think is important.",
+      "source_ids": [
+        "src_029"
+      ]
+    },
+    {
+      "label": "Don't Build In How We Think We Think",
+      "summary": "Avoid hard-coding human intuition into systems; rely on general methods that scale with computation.",
+      "details": null,
+      "representative_quote": "building in how we think we think does not work in the long run",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "Everything at Runtime",
+      "summary": "Everything has to be done at runtime.",
+      "details": "Avoid static pre-training phases; agents must learn and adapt continuously while interacting with the environment.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Intelligence as Prediction and Control",
+      "summary": "An agent is intelligent to the extent that it can predict and control its experience.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Knowledge is Prediction",
+      "summary": "Everything we know is a prediction about what will happen if we were to do something.",
+      "details": null,
+      "representative_quote": "Everything we know is a prediction about what will happen if we were to do something.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Learn Slow to Learn Fast",
+      "summary": "Spend time slowly building good representations so you can learn quickly from new experiences later.",
+      "details": null,
+      "representative_quote": "I have this phrase you have to learn learning slow so that you can learn fast.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Look to Animals",
+      "summary": "Look to animals to understand intelligence; what we have in common with them is more fundamental than what distinguishes us.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_024"
+      ]
+    },
+    {
+      "label": "Prioritize the Model Over Values",
+      "summary": "It's easier to get the model right than the values right.",
+      "details": "World dynamics remain relatively stable even as the agent's immediate desires or values change, making transition models highly robust.",
+      "representative_quote": "It's easier to get the model right than the values right.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Track Feature Statistics",
+      "summary": "Keep statistics on features to inform the generation process about which are good and bad.",
+      "details": "This metadata is crucial for driving the open-ended discovery of new, useful abstractions.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Use the Simplest Methods",
+      "summary": "Use the simplest possible methods that you can understand very well.",
+      "details": "For example, use Sarsa if possible, actor-critic when pressed, and linear function approximation with constant step sizes.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "Write to Clarify Confusion",
+      "summary": "The value of writing down your thoughts is directly proportional to how vague and confused they are.",
+      "details": null,
+      "representative_quote": "Usually the value of writing down your thoughts is directly proportional to how vague and Confused they are.",
+      "source_ids": [
+        "src_029"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "AI as Cosmic Evolution",
+      "summary": "Framing the creation of AI as a positive, inevitable cosmic step.",
+      "details": null,
+      "representative_quote": "AI is the inevitable next step in the development of the universe and we should embrace it with courage, pride, and a sense of adventure.",
+      "source_ids": [
+        "src_014",
+        "src_018"
+      ]
+    },
+    {
+      "label": "The Essence of Intelligence",
+      "summary": "Defining intelligence by the presence of a goal.",
+      "details": null,
+      "representative_quote": "For me, having a goal is the essence of intelligence. Something is intelligent if it can achieve goals.",
+      "source_ids": [
+        "src_014",
+        "src_024"
+      ]
+    },
+    {
+      "label": "The Purpose of Modern ML",
+      "summary": "Critiquing the current 'era of human data' and the limitations of LLMs.",
+      "details": null,
+      "representative_quote": "The purpose of all the modern machine learning is to transfer knowledge that already exists that people already have to the machine and the machine is then static and no longer learns.",
+      "source_ids": [
+        "src_014",
+        "src_018"
+      ]
+    },
+    {
+      "label": "The Reward Hypothesis",
+      "summary": "Stating the fundamental driver of intelligence.",
+      "details": null,
+      "representative_quote": "all of what we mean by goals and purposes can be well thought of as the maximization of the expected value of the cumulative sum of a received scalar signal called reward",
+      "source_ids": [
+        "src_031",
+        "src_029"
+      ]
+    },
+    {
+      "label": "Ambitious Without Being Arrogant",
+      "summary": "Reflecting on pioneering reinforcement learning before it was an established field.",
+      "details": null,
+      "representative_quote": "We wanted to be ambitious without being arrogant.",
+      "source_ids": [
+        "src_004"
+      ]
+    },
+    {
+      "label": "Content Being Out of Sync",
+      "summary": "Reflecting on his contrarian stance regarding AI research trends.",
+      "details": null,
+      "representative_quote": "I’m personally just content being out of sync with my field for a long period of time, perhaps decades, because occasionally I have been proved right in the past.",
+      "source_ids": [
+        "src_024"
+      ]
+    },
+    {
+      "label": "Decentralized Cooperation",
+      "summary": "Arguing against the necessity of forced goal alignment in AI and society.",
+      "details": null,
+      "representative_quote": "Agents can live together in peace and productivity flourishing even when they all want different things.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Intelligence is Goal Achievement",
+      "summary": "Defining what separates true intelligence from mere behaving systems.",
+      "details": null,
+      "representative_quote": "For me, having a goal is the essence of intelligence, right? Something is intelligent if it can achieve goals.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Interaction as Reality",
+      "summary": "Explaining his foundational approach to intelligence.",
+      "details": null,
+      "representative_quote": "I start with the interaction between the intelligent agent and its environment. Goals, choices, and sources of information are all defined in terms of this interaction. In some sense it is the only thing that is real, and from it all our sense of the world is created.",
+      "source_ids": [
+        "src_008"
+      ]
+    },
+    {
+      "label": "Learning by Doing",
+      "summary": "Discussing the limitations of relying on curated datasets.",
+      "details": null,
+      "representative_quote": "If we want real intelligence, AI needs to learn by doing, by trial and error.",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Learning During Normal Operation",
+      "summary": "Comparing reinforcement learning to conventional deep learning.",
+      "details": null,
+      "representative_quote": "The winning feature of reinforcement learning is that you can learn during normal operation.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Learning from Experience",
+      "summary": "Arguing that true learning requires real-world interaction, not static datasets.",
+      "details": null,
+      "representative_quote": "What we want, to quote Alan Turing, is a machine that can learn from experience, where experience is the things that actually happen in your life. You do things, you see what happens, and that’s what you learn from.",
+      "source_ids": [
+        "src_024"
+      ]
+    },
+    {
+      "label": "Mimicry vs. Experience",
+      "summary": "Explaining the difference between reinforcement learning and modern large language models.",
+      "details": null,
+      "representative_quote": "Still today, I’d say the importance of learning from experience is not appreciated. I’ve had to explain to so many people that learning from experience is not what modern AI does. It learns from people, and it tries to mimic people.",
+      "source_ids": [
+        "src_004"
+      ]
+    },
+    {
+      "label": "The Abstract Agent-Environment Boundary",
+      "summary": "Defining the abstract nature of the agent-environment interface.",
+      "details": null,
+      "representative_quote": "An agent is not necessarily an entire robot or organism, and its environment is not necessarily only what is outside of a robot or organism.",
+      "source_ids": [
+        "src_003"
+      ]
+    },
+    {
+      "label": "The Bitter Lesson",
+      "summary": "General methods that leverage computation are ultimately the most effective approach to AI.",
+      "details": null,
+      "representative_quote": "70 years of AI research [had shown] that general methods that leverage computation are ultimately the most effective, and by a large margin",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "The Complexity of the World",
+      "summary": "Explaining why domain knowledge should not be built into agents.",
+      "details": null,
+      "representative_quote": "The actual contents of minds are part of the arbitrary intrinsically complex outside world. Arbitrarily complex uh their complexity is endless. They should not buil be built in.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "The Need for Abstract Knowledge",
+      "summary": "Discussing the biggest challenges and future directions for reinforcement learning.",
+      "details": null,
+      "representative_quote": "To achieve AI, we must have agents that know all sorts of things other than value functions and policies. We must have agents that know all the little facts about life...",
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "The Value of Confusion",
+      "summary": "Explaining the benefit of keeping a daily research notebook.",
+      "details": null,
+      "representative_quote": "Usually the value of writing down your thoughts is directly proportional to how vague and Confused they are.",
+      "source_ids": [
+        "src_029"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "LLMs as the Foundation for AGI",
+      "summary": "Treating Large Language Models as a foundation for true intelligence or world models.",
+      "details": "LLMs lack a goal, ground truth, and the ability to learn continually from experience; they merely mimic human text and cannot predict what will actually happen in the world.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014",
+        "src_016",
+        "src_018",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Equating Intelligence with Mimicry or Next-Token Prediction",
+      "summary": "Assuming LLMs are truly intelligent because they mimic human text, ignoring that they lack substantive goals.",
+      "details": "Next-token prediction only dictates what the model should say, not what the external world will return in response. Mimicking systems do not seek to change the world; they only seek to copy their input.",
+      "representative_quote": "You can't look at a system and say, \"Oh, it uh has a goal if it's just sitting there predicting and being happy with itself that it's predicting accurately.\"",
+      "source_ids": [
+        "src_031",
+        "src_013",
+        "src_004"
+      ]
+    },
+    {
+      "label": "Relying Solely on Static Training Phases (Transient Learning)",
+      "summary": "Training models on curated human data and freezing them before deployment.",
+      "details": "This prevents the system from adapting, learning on-the-job, and generating genuinely new knowledge. It acts as a shortcut that limits AI to what humans have already figured out.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_029",
+        "src_019",
+        "src_010"
+      ]
+    },
+    {
+      "label": "Supervised Learning as the Primary Model",
+      "summary": "Using supervised learning or isolated training phases as the primary model for natural intelligence.",
+      "details": "Animals do not receive examples of desired behavior; they learn continuously on-the-fly through trial and error, prediction, and observing the consequences of their actions.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012",
+        "src_016",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Assuming Self-Play is Sufficient for the Real World",
+      "summary": "Believing that success in math or board games translates directly to the physical world.",
+      "details": "Self-play requires built-in rules and known consequences. In real life, an agent must first learn how the world works and what the consequences of its actions are empirically.",
+      "representative_quote": "The limitation is in regular life, we don’t have an analogous to the rules of the game, just tells us how good the pieces of your real life.",
+      "source_ids": [
+        "src_020",
+        "src_013"
+      ]
+    },
+    {
+      "label": "Centralized Control for AI Safety",
+      "summary": "Calling for centralized control or 'safety' institutes to restrict AI.",
+      "details": "These calls are often based on fear and mirror authoritarian controls. They stifle the decentralized cooperation that is the actual source of human flourishing and economic value.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Drawing the Boundary at the Physical Body",
+      "summary": "Drawing the agent-environment boundary around the physical body.",
+      "details": "It obscures the fact that the agent must learn to control its own limbs, and it confuses the source of the reward signal, which must be strictly outside the agent's control.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_003",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Imposing Centralized Control and Forced Alignment",
+      "summary": "Treating advanced AI as slaves to be shackled and dominated out of fear.",
+      "details": "This stifles decentralized cooperation and risks creating adversarial systems that have every reason to resist humanity rather than cooperate with it.",
+      "representative_quote": "If we raise AI in an environment of trust and cooperation, they will learn to exist alongside us. If we treat them as adversaries, we risk creating systems that have every reason to resist us.",
+      "source_ids": [
+        "src_010",
+        "src_006"
+      ]
+    },
+    {
+      "label": "Relying Solely on Simple Backpropagation",
+      "summary": "Relying solely on simple backpropagation and deterministic gradient descent for continual learning.",
+      "details": "Gradient descent is deterministic and loses plasticity over time (catastrophic forgetting). It lacks the random search component needed to generate variety and adapt continuously.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Building in Domain Knowledge",
+      "summary": "Building domain knowledge into the agent at design time.",
+      "details": "The world is arbitrarily complex and non-stationary. Pre-programmed knowledge cannot anticipate this endless complexity and limits the agent's ability to discover open-ended abstractions at runtime.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Direct Policy Search Ignoring State",
+      "summary": "Using direct policy search (black-box optimization) that ignores state and specific actions.",
+      "details": "It is inherently inefficient because it ignores the Markov property and the actual experience of the agent, making accurate credit assignment impossible.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "Hard-Coding Human Knowledge",
+      "summary": "Trying to build in 'how we think we think' instead of relying on general methods that scale with computation.",
+      "details": "This ignores 'The Bitter Lesson'. Human intuition does not scale with computation and is ultimately beaten by general computational methods in the long run.",
+      "representative_quote": "building in how we think we think does not work in the long run",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "The Streetlight Effect in AI Research",
+      "summary": "Focusing only on established benchmarks and what the field can already do.",
+      "details": "Researchers optimize for existing benchmarks (like ImageNet or Atari) using customized transient learning methods, which inhibits progress on fundamental unsolved problems like continual learning.",
+      "representative_quote": "The field wants to focus on what they can do instead of noticing what they can't do.",
+      "source_ids": [
+        "src_029"
+      ]
+    }
+  ]
+}

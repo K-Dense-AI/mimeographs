@@ -1,0 +1,114 @@
+{
+  "source_id": "src_019",
+  "summary": "In two 1959 interviews, Walt Disney reflects on his early career struggles, the creation of iconic characters like Mickey Mouse, and his business philosophy. He emphasizes the importance of quality over profit, the necessity of cutting out middlemen, and his approach to delegating creative projects once the core vision is established.",
+  "themes": [
+    "Creative Delegation",
+    "Quality over Profit",
+    "Intellectual Property",
+    "Diversification",
+    "Business Strategy"
+  ],
+  "principles": [
+    {
+      "statement": "Focus on the quality of the work, not the money.",
+      "rationale": "The primary goal should be maximizing the potential of the medium and the artistic talent, which ultimately leads to success.",
+      "source_quote": "We were never interested in how much money we could make, only in how good a job we could do on film.",
+      "source_id": "src_019"
+    },
+    {
+      "statement": "Never use a middleman.",
+      "rationale": "Middlemen contribute nothing to the actual creation process but can exploit creators and steal intellectual property.",
+      "source_quote": "So that was one of the big lessons I learned and from then on I said, 'There's no middleman.' He contributed nothing. We did everything.",
+      "source_id": "src_019"
+    },
+    {
+      "statement": "Maintain multiple projects to absorb failures.",
+      "rationale": "Having several things going at once ensures that a single flop doesn't destroy the company.",
+      "source_quote": "I can make a flop now and nobody pays attention. We always have two or three other things going to save us.",
+      "source_id": "src_019"
+    },
+    {
+      "statement": "Coordinate the talents of others rather than doing everything yourself.",
+      "rationale": "To build a large, successful organization, a founder must eventually step away from the technical execution and focus on coordinating highly talented people.",
+      "source_quote": "...coordinating their talents is what has built this business. And if I hadn't dropped the drawing end of it myself, I don't think I'd have built this organization.",
+      "source_id": "src_019"
+    },
+    {
+      "statement": "Use new mediums to support your core business, not replace it.",
+      "rationale": "Secondary platforms can act as a marketing engine to keep audiences engaged with your primary products.",
+      "source_quote": "We went into TV with one thing in mind. Not to go out of the motion picture business, but to keep the audience aware of motion pictures.",
+      "source_id": "src_019"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Project Delegation Process",
+      "when_to_apply": "When starting and managing new creative projects or business ventures.",
+      "steps": [
+        "Stay closely involved while chewing over the basic idea.",
+        "Set the pattern for the project.",
+        "Let the staff take over execution.",
+        "Move on to other things."
+      ],
+      "source_quote": "I'm always close to projects when we're chewing over the basic idea. Once the pattern is set, the answer to your question is simple. I let the staff take over and I go on to other things.",
+      "source_id": "src_019"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Medium Synergy",
+      "description": "Viewing a new or secondary medium (like television) not as a standalone profit center, but as a loss-leading marketing engine to keep audiences aware of the primary product (motion pictures).",
+      "example": "Disney lost $2 million on TV in one year, but viewed it as a success because it successfully sold their motion picture products.",
+      "source_id": "src_019"
+    },
+    {
+      "name": "Technical Skill as a Means to an End",
+      "description": "Viewing a specific technical skill (like drawing) not as an ultimate identity, but as a stepping stone to building a larger organization and coordinating broader talent.",
+      "example": "Walt Disney dropped the drawing end of the business himself to focus on coordinating the talents of other draftsmen and artists.",
+      "source_id": "src_019"
+    }
+  ],
+  "heuristics": [
+    "Once the pattern is set, let the staff take over.",
+    "There's no middleman."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I came to Hollywood and arrived here in August 1923 with $30 in my pocket and a coat and a pair of trousers that didn't match.",
+      "context": "Discussing his early beginnings and struggles in Hollywood.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "We were never interested in how much money we could make, only in how good a job we could do on film.",
+      "context": "Explaining the core philosophy that drove him and his brother Roy.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "I can make a flop now and nobody pays attention. We always have two or three other things going to save us.",
+      "context": "Discussing the benefits of diversification and having multiple projects in production.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "I'm always close to projects when we're chewing over the basic idea. Once the pattern is set, the answer to your question is simple. I let the staff take over and I go on to other things.",
+      "context": "Explaining his management and delegation style.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "So that was one of the big lessons I learned and from then on I said, 'There's no middleman.' He contributed nothing. We did everything.",
+      "context": "Reflecting on losing the rights to Oswald the Rabbit to an unscrupulous distributor.",
+      "source_id": "src_019"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on middlemen for distribution or business deals.",
+      "why_it_fails": "They contribute nothing to the creative process but can leverage their position to steal your intellectual property, as happened with Oswald the Rabbit.",
+      "source_id": "src_019"
+    },
+    {
+      "description": "Refusing to give up the technical work (like drawing) as a founder.",
+      "why_it_fails": "It prevents the founder from coordinating the talents of others, which is necessary to scale and build a larger organization.",
+      "source_id": "src_019"
+    }
+  ]
+}

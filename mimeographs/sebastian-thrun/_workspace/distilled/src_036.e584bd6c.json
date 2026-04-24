@@ -1,0 +1,42 @@
+{
+  "source_id": "src_036",
+  "summary": "This source is an overview of the book 'Learning To Learn,' edited by Sebastian Thrun and Lorien Y. Pratt. It introduces the concept of machine learning algorithms that improve their own ability to learn and generalize over time, using human cognitive abilities—specifically the ability to learn from very few examples—as a benchmark for artificial intelligence.",
+  "themes": [
+    "Machine Learning",
+    "Learning to Learn",
+    "Generalization",
+    "Lifelong Learning",
+    "Knowledge Transfer"
+  ],
+  "principles": [
+    {
+      "statement": "Machine learning algorithms should be designed to change the way they generalize, effectively improving on the act of learning itself.",
+      "rationale": "Traditional algorithms induce general functions from experience, but algorithms that learn how to learn can achieve a deeper understanding and have a much larger practical impact on real-world applications.",
+      "source_quote": "However, the book investigates algorithms that can change the way they generalize, i.e., practice the last of learning itself, and improve on it.",
+      "source_id": "src_036"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Human Learning Benchmark",
+      "description": "A lens for evaluating machine learning by comparing it to human cognition. Humans encounter a continual stream of tasks and learn 'bias' (how to generalize), which allows them to learn new concepts from extremely few examples. Machine learning should strive to replicate this meta-learning capability.",
+      "example": "Observing that a human can learn a new thing from just a single example, and using that observation to inspire algorithms that selectively transfer knowledge across multiple learning tasks.",
+      "source_id": "src_036"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Humans encounter a continual stream of learning tasks. They do not just learn concepts of motor skills, they also learn bias, i.e., they learn how to generalize.",
+      "context": "Explaining the difference between traditional machine learning and human learning.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "As a result, humans are often able to generalize correctly from extremely few examples---often just a single example suffices to teach us a new thing.",
+      "context": "Illustrating the utility and ultimate goal of 'learning to learn' algorithms.",
+      "source_id": "src_036"
+    }
+  ],
+  "anti_patterns": []
+}

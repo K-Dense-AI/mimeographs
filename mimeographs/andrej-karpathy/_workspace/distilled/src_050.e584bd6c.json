@@ -1,0 +1,64 @@
+{
+  "source_id": "src_050",
+  "summary": "Andrej Karpathy describes a visualizer tool he built to explore US job market data using LLMs. He explains how LLMs can be used to score and color occupations based on custom prompts, such as 'Digital AI Exposure'. He cautions that high AI exposure indicates a job will be reshaped, not necessarily replaced, due to economic factors like demand elasticity.",
+  "themes": [
+    "AI impact on jobs",
+    "Data visualization",
+    "LLM utility",
+    "Economic modeling"
+  ],
+  "principles": [
+    {
+      "statement": "High AI exposure means a job will be reshaped, not necessarily replaced.",
+      "rationale": "Increased productivity from AI could actually grow demand for a profession, and raw exposure scores don't account for demand elasticity, latent demand, or regulatory barriers.",
+      "source_quote": "Many high-exposure jobs will be reshaped, not replaced.",
+      "source_id": "src_050"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "LLM-powered data scoring pipeline",
+      "when_to_apply": "When you need to evaluate and visualize a large dataset (like hundreds of occupations) against subjective or complex criteria.",
+      "steps": [
+        "Write a custom LLM prompt defining the criteria (e.g., AI exposure, offshoring risk).",
+        "Have the LLM score each item in the dataset based on the prompt.",
+        "Visualize the dataset (e.g., as a treemap) coloring the items according to the LLM's scores."
+      ],
+      "source_quote": "You write a prompt, the LLM scores each occupation, and the treemap colors accordingly.",
+      "source_id": "src_050"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "AI Exposure vs. Job Replacement",
+      "description": "A lens for evaluating AI's impact on employment. Instead of viewing AI exposure as a direct predictor of job loss, view it as a measure of transformation. Actual job numbers depend on secondary factors like demand elasticity, latent demand, regulatory barriers, and social preferences.",
+      "example": "Software developers score 9/10 for AI exposure because AI transforms their work, but demand for them could easily grow as they become more productive.",
+      "source_id": "src_050"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Many high-exposure jobs will be reshaped, not replaced.",
+      "context": "Discussing the caveat of LLM-estimated AI exposure scores for occupations.",
+      "source_id": "src_050"
+    },
+    {
+      "text": "A high score does not predict the job will disappear.",
+      "context": "Warning against misinterpreting the 'Digital AI Exposure' metric in his job market visualizer.",
+      "source_id": "src_050"
+    },
+    {
+      "text": "This is not a report, a paper, or a serious economic publication — it is a development tool for exploring BLS data visually.",
+      "context": "Clarifying the intent and scope of his US Job Market Visualizer project.",
+      "source_id": "src_050"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming that a high 'AI exposure' score means a job will disappear.",
+      "why_it_fails": "It fails to account for demand elasticity, latent demand, regulatory barriers, or social preferences for human workers. Increased productivity might actually increase demand for the role.",
+      "source_id": "src_050"
+    }
+  ]
+}

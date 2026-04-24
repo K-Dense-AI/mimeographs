@@ -1,0 +1,47 @@
+{
+  "source_id": "src_036",
+  "summary": "In a 1985 longitudinal study of Dutch children, Albert Hofman and colleagues investigated the 'tracking' of blood pressure over time. They concluded that childhood blood pressure only tracks moderately, making it impossible to predict future hypertension based solely on early blood pressure measurements.",
+  "themes": [
+    "Epidemiology",
+    "Pediatric Hypertension",
+    "Longitudinal Studies",
+    "Blood Pressure Tracking"
+  ],
+  "principles": [
+    {
+      "statement": "Childhood blood pressure measurements are insufficient for predicting adult hypertension.",
+      "rationale": "Because blood pressure only tracks moderately during childhood, many children with high blood pressure will not remain in the upper percentiles as they grow.",
+      "source_quote": "They further imply that it is impossible to detect future hypertensives early in life by measurement of blood pressure only.",
+      "source_id": "src_036"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Tracking (Distribution Stability)",
+      "description": "Assessing the stability of an individual's relative position within a population's distribution over time.",
+      "example": "Measuring whether children in the upper 10% of the systolic blood pressure distribution remain in that top percentile after four years of follow-up.",
+      "source_id": "src_036"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "These observations indicate that there is a moderate degree of blood pressure ’tracking‘ in childhood.",
+      "context": "Concluding the results of a four-year longitudinal study on childhood blood pressure.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "They further imply that it is impossible to detect future hypertensives early in life by measurement of blood pressure only.",
+      "context": "Warning against relying solely on early blood pressure screenings to predict adult hypertension.",
+      "source_id": "src_036"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Attempting to detect future hypertensive patients early in life by relying solely on childhood blood pressure measurements.",
+      "why_it_fails": "Blood pressure position within a population distribution ('tracking') is only moderately stable during childhood, meaning many children in high percentiles will naturally drop to lower ones over time.",
+      "source_id": "src_036"
+    }
+  ]
+}

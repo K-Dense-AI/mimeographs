@@ -1,0 +1,48 @@
+{
+  "source_id": "src_048",
+  "summary": "In this paper abstract, Dorret I. Boomsma and colleagues demonstrate the methodological advantages of using an extended twin-pedigree design over traditional twin studies. By analyzing extended family data from the Netherlands Twin Register, they successfully estimated the heritability of neuroticism while simultaneously accounting for additive genetics, non-additive genetics, and shared household effects.",
+  "themes": [
+    "Behavior Genetics",
+    "Twin Studies",
+    "Extended Pedigree Analysis",
+    "Heritability",
+    "Neuroticism"
+  ],
+  "principles": [
+    {
+      "statement": "Extended pedigrees allow for the simultaneous estimation of shared household effects and non-additive genetic factors.",
+      "rationale": "Traditional twin designs struggle to separate these specific variance components, but mapping relations among nuclear and larger twin families provides the statistical power to estimate both.",
+      "source_quote": "In contrast to much of the earlier work based on twin data rather than on extended pedigrees, we could also estimate the contribution of shared household effects in the presence of non-additive genetic factors.",
+      "source_id": "src_048"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Extended Twin-Family Design",
+      "when_to_apply": "When estimating complex genetic and environmental variance components, particularly when both non-additive genetic factors and shared household effects are suspected to influence a trait.",
+      "steps": [
+        "Construct extended pedigrees specifying all relations among nuclear and larger twin families in a register.",
+        "Harmonize phenotype scores (e.g., neuroticism) across the participant pool.",
+        "Analyze the pedigree data using specialized software (e.g., Mendel) to estimate the contributions of additive genetic, non-additive genetic, shared household, and unique environmental factors."
+      ],
+      "source_quote": "For the participants in the Netherlands Twin Register (NTR) we constructed the extended pedigrees which specify all relations among nuclear and larger twin families in the register... We analyzed these data in the Mendel software package... to estimate the contributions of additive and non-additive genetic factors.",
+      "source_id": "src_048"
+    }
+  ],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "In contrast to much of the earlier work based on twin data rather than on extended pedigrees, we could also estimate the contribution of shared household effects in the presence of non-additive genetic factors.",
+      "context": "Highlighting the methodological superiority of the extended twin-pedigree design over standard twin studies for complex variance estimation.",
+      "source_id": "src_048"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on standard twin data to model complex genetic and environmental architectures.",
+      "why_it_fails": "Standard twin-only data cannot easily estimate the contribution of shared household effects when non-additive (dominance) genetic factors are also present.",
+      "source_id": "src_048"
+    }
+  ]
+}

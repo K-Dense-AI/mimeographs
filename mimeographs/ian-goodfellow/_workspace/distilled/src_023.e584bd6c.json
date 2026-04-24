@@ -1,0 +1,60 @@
+{
+  "source_id": "src_023",
+  "summary": "Ian Goodfellow discusses the unexpected success of domain-to-domain translation in GANs and reflects on his career trajectory. He emphasizes his focus on developing core machine learning technologies rather than specific applications to maximize his overall impact.",
+  "themes": [
+    "Generative Adversarial Networks (GANs)",
+    "Career Strategy",
+    "Machine Learning Impact",
+    "Data Collection"
+  ],
+  "principles": [
+    {
+      "statement": "Focus on developing core technologies rather than specific applications.",
+      "rationale": "Building foundational technology provides a faster and broader path to impact many different fields simultaneously, as opposed to solving isolated problems one at a time.",
+      "source_quote": "I realized that would be a faster path to impact more things than working on specific medical applications one at a time",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Unpaired domain-to-domain translation is a highly powerful capability for AI.",
+      "rationale": "Collecting matched pairs of data across domains is expensive and time-consuming, whereas passively collecting independent data in separate domains is much easier.",
+      "source_quote": "That’s very powerful because it can be easy to passively collect data in each domain, but it’s time-consuming and expensive to get data that matches up across domains.",
+      "source_id": "src_023"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Core Technology Leverage",
+      "description": "Evaluating the potential impact of a career or project by whether it builds foundational tools (high leverage) or solves isolated, domain-specific problems (low leverage).",
+      "example": "Switching from premed to computer science and machine learning in order to impact medicine and other fields simultaneously through core technology.",
+      "source_id": "src_023"
+    }
+  ],
+  "heuristics": [
+    "Work on the core technology, not the applications."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I realized that would be a faster path to impact more things than working on specific medical applications one at a time.",
+      "context": "Explaining his decision to switch from premed to studying machine learning.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "[I am] someone who works on the core technology, not the applications.",
+      "context": "Describing his professional identity and focus.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "That’s very powerful because it can be easy to passively collect data in each domain, but it’s time-consuming and expensive to get data that matches up across domains.",
+      "context": "Discussing the value of domain-to-domain translation models like CycleGAN.",
+      "source_id": "src_023"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Depending exclusively on matched pairs of data for cross-domain machine learning tasks.",
+      "why_it_fails": "Getting data that perfectly matches up across domains is time-consuming and expensive compared to passively collecting unpaired data.",
+      "source_id": "src_023"
+    }
+  ]
+}

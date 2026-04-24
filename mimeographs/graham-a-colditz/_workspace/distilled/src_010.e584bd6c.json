@@ -1,0 +1,103 @@
+{
+  "source_id": "src_010",
+  "summary": "In this lecture, Graham A. Colditz discusses the evolution of breast cancer risk prediction, emphasizing the shift from identifying high-risk genetic carriers to population-wide precision prevention. He advocates for using longitudinal mammography and AI to assess risk, while strongly urging epidemiologists to design and evaluate their models based on clinical actionability rather than purely statistical metrics like the AUC.",
+  "themes": [
+    "Precision prevention",
+    "Breast cancer risk prediction",
+    "Translating epidemiology to clinical action",
+    "AI in mammography",
+    "Windows of susceptibility",
+    "Early-onset breast cancer"
+  ],
+  "principles": [
+    {
+      "statement": "Design and present epidemiological analyses for clinical action, not just statistical refinement.",
+      "rationale": "Epidemiology should inform guidelines and policy to improve public health, rather than just marginally improving statistical metrics like p-values.",
+      "source_quote": "I challenge everyone to think how they do their analysis, present their analysis to position results so that an editorialist such as Saxon can actually act on it. Guidelines panels can act on it and we're not just getting a better third decimal point uh on a p value.",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Evaluate prediction models based on clinical impact, not just the Area Under the Curve (AUC).",
+      "rationale": "Regulatory bodies and clinicians care about how a tool impacts patient outcomes, satisfaction, and decision-making at specific cut points, not its overall statistical discrimination.",
+      "source_quote": "You go to FDA with an AU, they'll say no clinician is going to use a tool based on an AU... You're evaluating on its impact on patients, their satisfaction and their outcomes and the decisions being made about intervening or not, which means you got to look at performance with a cut point, not overall.",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Do not conclude papers by simply stating 'more research is needed'.",
+      "rationale": "Researchers have a responsibility to translate their current findings into actionable recommendations for guidelines, policy, or practice, rather than just deferring to future studies.",
+      "source_quote": "We don't just say more research is needed. Richard Monson used to say that's just a jobs program for epidemiologists. You should not put that in your manuscript.",
+      "source_id": "src_010"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Breast Tissue Aging / Risk Accumulation Model",
+      "when_to_apply": "When modeling the accumulation of breast cancer risk over a woman's life course based on reproductive factors.",
+      "steps": [
+        "Start modeling tissue aging (risk accumulation) at the first menstrual period.",
+        "Apply a high rate of risk accumulation (e.g., 9% per year) during the gap between the first period and the first birth.",
+        "Slow the rate of risk accumulation with the first pregnancy and each additional birth.",
+        "Lower the rate of risk accumulation again at menopause (e.g., dropping to 2.3-2.5% per year)."
+      ],
+      "source_quote": "Tissue aging starts with the first menstrual period proceeds to the first pregnancy... slowing of the rate of accumulation with each additional birth and the area under the curve you can think of as the attained risk.",
+      "source_id": "src_010"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Windows of Susceptibility",
+      "description": "The concept that the timing of an exposure during a person's life course drastically alters its impact on disease risk. Exposures during periods of rapid tissue development or before certain reproductive milestones carry much higher risk.",
+      "example": "Using atomic bomb survivor data to show that women exposed to radiation before age 22 had an enormous increase in breast cancer risk compared to women exposed in their 40s who had minimal increase in risk.",
+      "source_id": "src_010"
+    },
+    {
+      "name": "The Blind Spot of Early-Onset Risk",
+      "description": "A conceptual gap in clinical prevention where a disease burden is rising in a younger population, but the tools to assess risk (like mammography or evolving clinical risk factors) are not yet applicable or stable for that age group.",
+      "example": "The inability to accurately predict breast cancer risk for a 25-to-30-year-old woman because she is too young for screening mammograms and her reproductive risk factors (like age at first birth) are still evolving.",
+      "source_id": "src_010"
+    }
+  ],
+  "heuristics": [
+    "Stratification should be for action, not just to get an AUC that's better than the last one published.",
+    "Translate results to action tied to guidelines, policy, and local health departments instead of asking for more research."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I challenge everyone to think how they do their analysis, present their analysis to position results so that an editorialist such as Saxon can actually act on it. Guidelines panels can act on it and we're not just getting a better third decimal point uh on a p value.",
+      "context": "Urging epidemiologists to focus on the clinical and public health translation of their work.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "You go to FDA with an AU, they'll say no clinician is going to use a tool based on an AU.",
+      "context": "Explaining why prediction models must be evaluated on clinical cut points and patient impact rather than just statistical discrimination.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "We don't just say more research is needed. Richard Monson used to say that's just a jobs program for epidemiologists. You should not put that in your manuscript.",
+      "context": "Advising researchers to focus on translating current evidence into practice.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "Think of what we're doing to improve risk stratification, getting the right women to the right prevention at the right time as the real take-home out of all this work.",
+      "context": "Summarizing the ultimate goal of precision prevention in breast cancer.",
+      "source_id": "src_010"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Evaluating clinical prediction models solely on the Area Under the Curve (AUC or C-statistic).",
+      "why_it_fails": "It fails to demonstrate clinical utility. Clinicians and regulatory bodies need to know how a model performs at specific cut points, how it impacts patient decisions, and whether it improves outcomes, none of which are captured by a general AUC score.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Generating prediction models from big data without a clear clinical purpose or biological basis.",
+      "why_it_fails": "It leads to statistically significant but clinically irrelevant findings (e.g., predicting retinal thickness from liver enzymes) that do not improve patient management or risk stratification.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Concluding a study by stating 'more research is needed'.",
+      "why_it_fails": "It acts as a cop-out that prevents the translation of current scientific findings into actionable guidelines, policy, or public health practice.",
+      "source_id": "src_010"
+    }
+  ]
+}

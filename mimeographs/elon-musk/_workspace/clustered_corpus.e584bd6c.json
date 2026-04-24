@@ -1,0 +1,531 @@
+{
+  "expert_name": "Elon Musk",
+  "themes": [
+    "Multi-Planetary Expansion & Space Exploration",
+    "Artificial Intelligence & Human Symbiosis",
+    "First Principles Engineering & Manufacturing",
+    "Government Efficiency & Overregulation",
+    "Free Speech & Institutional Transparency",
+    "Existential Risk & The Great Filter"
+  ],
+  "principles": [
+    {
+      "label": "The Multi-Planetary Imperative",
+      "summary": "Humanity must actively intervene to become a multi-planetary species to survive extinction-level events and expand the light cone of consciousness.",
+      "details": "Earth has a long history of extinction events. Becoming multi-planetary acts as life insurance for Earth's biosphere. Furthermore, it provides an inspiring goal that makes people excited about the future. A Mars settlement, however, must be entirely self-sustaining to survive the 'Great Filter'.",
+      "representative_quote": "A species that does not become multi-planetary is simply waiting around until there is some extinction event, either self-inflicted or external.",
+      "source_ids": [
+        "src_030",
+        "src_010",
+        "src_011",
+        "src_066",
+        "src_026"
+      ]
+    },
+    {
+      "label": "Production is Exponentially Harder than Prototyping",
+      "summary": "Designing a prototype is relatively easy; building the manufacturing system and supply chain to produce it reliably at scale is vastly more difficult.",
+      "details": "The manufacturing system is 1,000% to 10,000% harder to build than the initial design. A small team of maniacally driven people is required to force breakthroughs in production.",
+      "representative_quote": "It's easy to do a car prototype. It's hard to do production.",
+      "source_ids": [
+        "src_030",
+        "src_057"
+      ]
+    },
+    {
+      "label": "Human-AI Symbiosis via High Bandwidth",
+      "summary": "To avoid being left behind by superintelligent AI, humans must achieve symbiosis by drastically increasing the data rate between our brains and machines.",
+      "details": "AI operates at terabits per second while humans output at bits per second. Without high-bandwidth interfaces, aligning human will with AI is difficult because humans are too slow to communicate their intent.",
+      "representative_quote": "If you want to be along for the ride. Other than you need to do some kind of symbiosis",
+      "source_ids": [
+        "src_037",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Bureaucracy vs. Democracy",
+      "summary": "If an unelected bureaucracy prevents an elected president from implementing policies, the system functions as a bureaucracy, not a democracy.",
+      "details": "The president represents the will of the people. Bureaucrats who slow-walk or ignore executive orders are actively fighting the democratic process.",
+      "representative_quote": "if the bureaucracy is fighting the will of the people and preventing the president from implementing what the people want then what we live in is a bureaucracy and not a democracy",
+      "source_ids": [
+        "src_020",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Government Competence and Caring",
+      "summary": "Saving taxpayer money and preventing national bankruptcy requires both competence to negotiate and caring to protect the taxpayer.",
+      "details": "A country that chronically overspends will go bankrupt just like an individual. Without competence and caring, the government inherently gets terrible deals on contracts.",
+      "representative_quote": "in order to save taxpayer money it comes down to two things competence and caring... if you don't have competence you don't have caring you're going to get a terrible deal",
+      "source_ids": [
+        "src_020",
+        "src_024"
+      ]
+    },
+    {
+      "label": "The Counter to Misinformation is Better Information",
+      "summary": "Censorship is an Orwellian tool; the best way to combat false claims is through absolute transparency and open community debate.",
+      "details": "Instead of silencing people, platforms should provide transparency and allow the community to openly debate and correct false claims with evidence.",
+      "representative_quote": "The counter to misinformation is better information.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Wealth as Capital Allocation",
+      "summary": "Wealth is not a measure of personal consumption, but the right to allocate capital to organizations that produce useful goods and services for society.",
+      "details": "Billionaires are often criticized because people conflate consumption with capital allocation. If you organize people to produce better products, your wealth is essentially the right to allocate more capital to grow those enterprises.",
+      "representative_quote": "it's that there's a conflation of consumption and capital allocation... if a company is making compelling products and services, it should get more capital",
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "Safety is Everyone's Job",
+      "summary": "True safety comes from distributed ownership across the entire engineering team, not from a dedicated, powerless safety department.",
+      "details": "Dedicated safety teams are often fake, existing only to reassure outsiders. Safety must be the absolute number one priority integrated into every engineer's daily work.",
+      "representative_quote": "Because everyone’s job is safety. It’s not some fake department with no power to assuage the concerns of outsiders.",
+      "source_ids": [
+        "src_026",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Rigorous Truth-Seeking & Evidence",
+      "summary": "Beliefs should be proportionate to the evidence. You cannot understand the universe or invent working technologies if you are delusional.",
+      "details": "The scientific method is fundamentally about questioning the science. Truth is absolutely fundamental to the mission of understanding the universe.",
+      "representative_quote": "Truth has to be absolutely fundamental because you can’t understand the universe if you’re delusional.",
+      "source_ids": [
+        "src_030",
+        "src_026",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Balanced Regulation",
+      "summary": "Regulation is necessary for public safety, but an overabundance of regulators paralyzes progress and makes action impossible.",
+      "details": "Extended periods of prosperity naturally breed overregulation because there is no cleansing function (like an existential war) to remove unnecessary laws.",
+      "representative_quote": "there should be some referees on the field, a few a few referees, but you shouldn't have a field jam-packed with referees uh such that you cannot kick a ball in any direction without hitting one.",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Self-Sustaining Colonies",
+      "summary": "A Mars settlement must be entirely self-sustaining; if it relies on Earth for even a single minor ingredient, it will die if supply ships stop.",
+      "details": "The threshold that really matters for getting past the Great Filter is having enough local resources (energy, propellant, food) to survive indefinitely without Earth.",
+      "representative_quote": "it's going to be incredibly difficult to make a self-sustaining city because if it's missing any ingredient any ingredient at all however minor that ingredient is then if the ships from earth stop coming for any reason the city will die out",
+      "source_ids": [
+        "src_011",
+        "src_030"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "First Principles Thinking",
+      "summary": "Break complex problems down to their fundamental physical truths and rebuild solutions from the ground up, rather than relying on analogy or traditional assumptions.",
+      "details": "Ask the core question: 'What do we know to be absolutely true?' Break challenges down into elemental truths, and rebuild elegant solutions based only on those truths.",
+      "representative_quote": "What do we know to be absolutely true?",
+      "source_ids": [
+        "src_040",
+        "src_044",
+        "src_026"
+      ]
+    },
+    {
+      "label": "The Physics Approach to Truth",
+      "summary": "Assume you are inherently wrong about a problem. Set your primary goal to simply be 'less wrong' over time through rigorous testing and iteration.",
+      "details": "Accept that you won't succeed every day, but aim to be less wrong most of the time.",
+      "representative_quote": "the tools of physics are very powerful... assume you're wrong... Your goal is to be less wrong.",
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "Fixing the Future",
+      "summary": "When observing a trend that makes the future look depressing, imagine the ultimate perfect solution, determine the next best physically possible solution, and build it.",
+      "details": "Identify an element of the future you do not like. Imagine the perfect solution (e.g., teleportation). Determine the next best solution possible within the laws of physics (e.g., Hyperloop), and propose it.",
+      "representative_quote": "usually it's um there's something that that makes me not like the future you know or or not like some element of the future and then wonder whether there's some way to fix that",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "50th Percentile Deadlines",
+      "summary": "Determine the fastest possible route to a target and set the deadline at the 50th percentile of probability to force a maniacal sense of urgency.",
+      "details": "Accept that the team will be late half the time, using the aggressive target to drive execution speed.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "Unprepared Skip-Level Technical Reviews",
+      "summary": "Hold technical reviews with the people who report to your direct reports, strictly forbidding advanced preparation, to get an unvarnished view of engineering reality.",
+      "details": "Go around the room and ask questions, plotting points on a curve to identify outliers and ensure no one pre-packaged their answers.",
+      "representative_quote": "I’m a big believer in skip-level meetings where instead of having the person that reports to me say things, it’s everyone that reports to them saying something in the technical review. And there can’t be advanced preparation.",
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "The Neuralink Tech Tree",
+      "summary": "When developing radical medical technology, start by solving severe medical damage to justify the irreducible risk, scale to prove safety, and only then pursue elective augmentation.",
+      "details": "Solve basic neuron damage first. Restore basic functionality to a level equal to normal humans. Scale to thousands of users to minimize risk. Finally, pursue superhuman capabilities.",
+      "representative_quote": "So, there’s kind of a tech tree, if you will. You’ve got the basics. You need literacy before you can have Lord of the Rings.",
+      "source_ids": [
+        "src_037"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Language as Lossy Compression",
+      "summary": "Spoken language is a low-bandwidth way to compress complex thoughts into words, resulting in significant information loss upon decompression by the listener.",
+      "details": "Human communication is the process of compressing complex mental concepts into a low-bandwidth stream of syllables or keystrokes. High-bandwidth brain-machine interfaces aim to bypass this entirely.",
+      "representative_quote": "Your brain spends a lot of effort compressing a complex concept into words. And there's a lot of loss information loss that occurs when compressing a complex concept into words.",
+      "source_ids": [
+        "src_037",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Humans as Slow Cyborgs",
+      "summary": "We are already cybernetic organisms because we rely entirely on our phones and computers for memory and computation; our only limitation is our extremely slow input/output data rate.",
+      "details": "The human will originates in the limbic system, is served by the cortex, and is augmented by a tertiary digital compute layer. The bottleneck is the speed at which we can type with our thumbs.",
+      "representative_quote": "We're already partly a cyborg or an A.I. symbiote, essentially. It's just that the data rate to the electronics is slow.",
+      "source_ids": [
+        "src_037",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Tech Support for Government",
+      "summary": "Framing government efficiency roles not as political positions, but as operational 'tech support' designed to ensure the elected executive's commands are actually executed by the underlying bureaucratic system.",
+      "details": "When an executive order is signed, the bureaucracy often ignores it. Efficiency teams act as 'tech support' to go in and force the system to comply with the order.",
+      "representative_quote": "I'm here to provide the president with Technology support.",
+      "source_ids": [
+        "src_020",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Referees on the Field",
+      "summary": "A metaphor for regulation: a game needs a few referees to ensure safety and fairness, but if the field is packed with them, the players cannot move.",
+      "details": "Comparing legacy industries like automotive and aerospace (which have too many 'referees') to new fields like AI (which currently have zero 'referees').",
+      "representative_quote": "You can think of regulators like referees on the on the field in sports. Um, there should be some number of referees, but that you shouldn't have so many referees that you can't kick the ball without hitting one.",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Corner Case Exponentials",
+      "summary": "The understanding that in complex engineering problems, solving the first 90% is relatively easy, but each subsequent '9' of reliability becomes exponentially more difficult due to rare edge cases.",
+      "details": "This explains why fully autonomous cars are so difficult to perfect; getting rid of the final fraction of a percent of corner cases requires exponentially more effort.",
+      "representative_quote": "getting to 90% is one thing but then it's going to be another factor of 10 harder to get to 99% another factor of 10 to get to 99.9 then it you know becomes exponentially more difficult to get rid of the corner cases",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Capability Extrapolation",
+      "summary": "Evaluating technological progress by plotting historical data points of actual capability, rather than assuming continuous automatic improvement.",
+      "details": "Looking at spaceflight capability in 1969 vs. 2011 reveals that without active intervention, technological capability can actually degrade over time.",
+      "representative_quote": "If you look at what our capability has been at various points in time and you extrapolate that it doesn't go in a good direction.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Statistical Reality vs. Sensation",
+      "summary": "Evaluating risk using base rates and large numbers rather than isolated, sensationalized media anecdotes.",
+      "details": "For example, comparing the 1-in-8,000 fire rate of EVs to the 1-in-1,300 fire rate of gasoline cars to debunk media narratives that focus heavily on a single EV fire.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Musk's Occam's Razor",
+      "summary": "An ironic twist on the philosophical principle, positing that the most entertaining or ironic outcome is the one that will most likely happen.",
+      "details": null,
+      "representative_quote": "My version of Occam’s Razor: most entertaining outcome is most likely …",
+      "source_ids": [
+        "src_077"
+      ]
+    },
+    {
+      "label": "Limbic System Stress",
+      "summary": "The realization that the human brain did not evolve to understand corporate failure, so the limbic system processes the existential threat of a company dying as actual physical death.",
+      "details": "This explains the extreme, painful stress of entrepreneurship and why serial entrepreneurship is rare.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Aspire to be less wrong",
+      "summary": "Assume you're wrong, and aspire to be less wrong.",
+      "details": null,
+      "representative_quote": "assume you're wrong... Your goal is to be less wrong.",
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "Go to the source material",
+      "summary": "Don't take anyone's opinion for it. Go to the source material.",
+      "details": null,
+      "representative_quote": "don't take anyone's opinion for it. Go to the source material.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "If you can't measure it, it's bullshit",
+      "summary": "If a claim cannot be accurately measured, it should be dismissed as false or irrelevant.",
+      "details": null,
+      "representative_quote": "And if somebody says it does make a difference, I'm like, how will you measure it? And if you can't even measure it, then it's bullshit.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Simplify and robustify",
+      "summary": "Simplify and robustify: remove 'fiddly bits' to reduce cost and increase performance.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Hire for exceptionalism, not pixie dust",
+      "summary": "Hire based on evidence of exceptionalism and execution, not the 'pixie dust' of where someone previously worked.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "Flak over the target",
+      "summary": "If they are complaining loudly, you must be taking flak over the target.",
+      "details": "Taking heavy criticism from opponents is a strong indicator that your actions are effective and threatening to the status quo.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_024"
+      ]
+    },
+    {
+      "label": "Never be complacent",
+      "summary": "Never be complacent, even if you have succeeded many times before.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_020",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Literacy before Lord of the Rings",
+      "summary": "You need literacy before you can have Lord of the Rings (start with the basics before attempting complex feats).",
+      "details": null,
+      "representative_quote": "You need literacy before you can have Lord of the Rings.",
+      "source_ids": [
+        "src_037"
+      ]
+    },
+    {
+      "label": "Don't repeat proven mistakes",
+      "summary": "Don't repeat proven mistakes; if someone else tried it and it was dumb, don't do it.",
+      "details": null,
+      "representative_quote": "Dude, we tried that and that turned out to be really dumb, so I’m telling you don’t do the dumb thing we did.",
+      "source_ids": [
+        "src_057"
+      ]
+    },
+    {
+      "label": "Most entertaining outcome",
+      "summary": "Assume the most entertaining outcome is the most likely.",
+      "details": null,
+      "representative_quote": "My version of Occam’s Razor: most entertaining outcome is most likely …",
+      "source_ids": [
+        "src_077"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Production vs Prototyping",
+      "summary": "On the difficulty of manufacturing.",
+      "details": null,
+      "representative_quote": "It's easy to do a car prototype. It's hard to do production.",
+      "source_ids": [
+        "src_030"
+      ]
+    },
+    {
+      "label": "Multi-planetary Survival",
+      "summary": "On the necessity of colonizing space.",
+      "details": null,
+      "representative_quote": "A species that does not become multi-planetary is simply waiting around until there is some extinction event, either self-inflicted or external.",
+      "source_ids": [
+        "src_030"
+      ]
+    },
+    {
+      "label": "AI Bandwidth Disconnect",
+      "summary": "On the need for brain-computer interfaces.",
+      "details": null,
+      "representative_quote": "If the AI can communicate at terabits per second, and you’re communicating at bits per second, it’s like talking to a tree.",
+      "source_ids": [
+        "src_037"
+      ]
+    },
+    {
+      "label": "Eating Glass",
+      "summary": "On the stress of entrepreneurship.",
+      "details": null,
+      "representative_quote": "creating a company is it's like eating glass and staring into the abyss.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Bureaucracy vs Democracy",
+      "summary": "On unelected officials blocking executive orders.",
+      "details": null,
+      "representative_quote": "If the bureaucracy is fighting the will of the people and preventing the president from implementing what the people want then what we live in is a bureaucracy and not a democracy.",
+      "source_ids": [
+        "src_020",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Inspiring the Future",
+      "summary": "On the philosophical reason for space exploration.",
+      "details": null,
+      "representative_quote": "life can't just be about solving problems they have to be things that inspire you that that move your heart that make you glad to be when you wake up in the morning you're excited about the future",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Countering Misinformation",
+      "summary": "On free speech and censorship.",
+      "details": null,
+      "representative_quote": "The counter to misinformation is better information.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Referees on the Field",
+      "summary": "On the balance of regulation.",
+      "details": null,
+      "representative_quote": "You can think of regulators like referees on the on the field in sports. Um, there should be some number of referees, but that you shouldn't have so many referees that you can't kick the ball without hitting one.",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Not a Chill Dude",
+      "summary": "On his intense personality.",
+      "details": null,
+      "representative_quote": "I reinvented electric cars and I’m sending people to Mars in a rocket ship. Did you also think I was going to be a chill, normal dude?",
+      "source_ids": [
+        "src_057"
+      ]
+    },
+    {
+      "label": "Competence and Caring",
+      "summary": "On saving taxpayer money.",
+      "details": null,
+      "representative_quote": "In order to save taxpayer money it comes down to two things competence and caring.",
+      "source_ids": [
+        "src_020",
+        "src_024"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Assuming Automatic Technological Progress",
+      "summary": "Believing that technological capability automatically improves over time.",
+      "details": "If left unchecked, capabilities (like spaceflight after the Apollo era) can actually degrade. Progress requires active, intense intervention.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Dedicated Safety Departments",
+      "summary": "Creating isolated safety teams with no real power.",
+      "details": "They become 'fake' departments existing only to manage public relations and assuage outsiders, rather than integrating safety into everyone's daily engineering job.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "Advanced Preparation for Technical Reviews",
+      "summary": "Allowing teams to prepare polished presentations for technical reviews.",
+      "details": "It results in management getting 'glazed' (presented with polished, misleading information) rather than seeing the raw, unvarnished truth of the engineering.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "Over-allocating Talent to Finance and Law",
+      "summary": "Draining the smartest people away from manufacturing and engineering.",
+      "details": "It starves the real work that drives society forward, as top talent focuses on zero-sum games rather than making tangible, valuable things.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "Mars as a Luxury Escape",
+      "summary": "Viewing Mars colonization as a luxury escape hatch for the rich.",
+      "details": "Ignores the reality that early colonization will be cramped, highly dangerous, and require grueling work with a high probability of death.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_030",
+        "src_011"
+      ]
+    },
+    {
+      "label": "Incrementalism in Aerospace",
+      "summary": "Spending massive amounts of money to achieve tiny, incremental efficiency gains.",
+      "details": "Incumbents spend billions for 2% better airframes instead of pursuing radical, necessary improvements like rapid reusability or supersonic electric VTOL jets.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Unelected Bureaucratic Resistance",
+      "summary": "Allowing unelected bureaucrats to slow-walk or ignore executive orders.",
+      "details": "It subverts the democratic process by preventing the elected representative of the people from implementing the policies the public voted for.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_020",
+        "src_024"
+      ]
+    },
+    {
+      "label": "Conflating Wealth with Consumption",
+      "summary": "Using 'billionaire' as a pejorative by misunderstanding how wealth works.",
+      "details": "Extreme wealth is mostly capital tied up in companies; it represents the right to allocate capital to organizations that are successfully producing goods and services, not personal consumption.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_034"
+      ]
+    }
+  ]
+}

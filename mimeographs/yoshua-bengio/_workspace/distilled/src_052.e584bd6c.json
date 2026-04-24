@@ -1,0 +1,72 @@
+{
+  "source_id": "src_052",
+  "summary": "Yoshua Bengio advocates for a six-month pause on training AI systems more powerful than GPT-4. He argues that society is currently unprepared for the risks posed by unpredictable, black-box AI models and calls for international governance, robust auditing processes, and safety guardrails akin to those established for nuclear technologies.",
+  "themes": [
+    "AI Safety",
+    "AI Governance",
+    "International Cooperation",
+    "Existential Risk",
+    "Technology Regulation"
+  ],
+  "principles": [
+    {
+      "statement": "We must pause the development of giant AI models to build necessary safety guardrails.",
+      "rationale": "Society is not ready to deal with the negative uses of powerful AI tools. A pause is required to understand these large systems, improve their robustness, and develop auditing processes to verify they are safe for the public.",
+      "source_quote": "Let’s slow down. Let’s make sure that we develop better guardrails... Let’s make sure we better understand these very large systems, that we improve on their robustness and the process by which we can audit them and verify that they are safe for the public",
+      "source_id": "src_052"
+    },
+    {
+      "statement": "AI governance requires international coordination.",
+      "rationale": "The risks posed by advanced AI systems are on a scale that necessitates global discussion and treaties, similar to how the world manages nuclear threats.",
+      "source_quote": "let’s make sure that we discuss these questions internationally just like we’ve done for nuclear power and nuclear weapons.",
+      "source_id": "src_052"
+    },
+    {
+      "statement": "A temporary pause is just the beginning of a longer governance process.",
+      "rationale": "Six months is insufficient to solve all AI risks, but it is a necessary starting point to raise awareness and begin working on ambitious, thought-out proposals for governance.",
+      "source_quote": "six months is not going to be enough for society to find all the solutions to deal with those risks, but we have to start somewhere. We have to raise the flag, we need to pause, we need to think, we need to work around solutions and governance.",
+      "source_id": "src_052"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Nuclear Technology Analogy",
+      "description": "Comparing the existential and societal risks of advanced AI to nuclear power and nuclear weapons to emphasize the necessity of international treaties, strict guardrails, and global governance.",
+      "example": "Arguing for international discussions on AI safety by explicitly referencing how the global community handled nuclear power and nuclear weapons.",
+      "source_id": "src_052"
+    }
+  ],
+  "heuristics": [
+    "When facing unprecedented technological risks: raise the flag, pause, think, and work on governance."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I’m concerned that powerful tools can also have negative uses, and society is not ready to deal with that.",
+      "context": "Speaking at a virtual press conference regarding the open letter to pause giant AI experiments.",
+      "source_id": "src_052"
+    },
+    {
+      "text": "Let’s slow down. Let’s make sure that we develop better guardrails, let’s make sure that we discuss these questions internationally just like we’ve done for nuclear power and nuclear weapons.",
+      "context": "Advocating for international cooperation on AI safety.",
+      "source_id": "src_052"
+    },
+    {
+      "text": "six months is not going to be enough for society to find all the solutions to deal with those risks, but we have to start somewhere. We have to raise the flag, we need to pause, we need to think, we need to work around solutions and governance.",
+      "context": "Explaining the rationale behind the proposed six-month pause on advanced AI training.",
+      "source_id": "src_052"
+    },
+    {
+      "text": "This is just the beginning. We will need more ambitious and more thought-out proposals as we move forward.",
+      "context": "Discussing the long-term need for AI regulation beyond the initial six-month pause.",
+      "source_id": "src_052"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Engaging in an out-of-control race to develop ever-larger, unpredictable black-box AI models.",
+      "why_it_fails": "It leads to the deployment of digital minds with emergent capabilities that no one—not even their creators—can understand, predict, or reliably control, posing serious threats to society.",
+      "source_id": "src_052"
+    }
+  ]
+}

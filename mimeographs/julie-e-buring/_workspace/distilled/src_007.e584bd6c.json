@@ -1,0 +1,49 @@
+{
+  "source_id": "src_007",
+  "summary": "In a co-authored epidemiological study, Julie E. Buring and colleagues demonstrate that while premature paternal history of myocardial infarction (MI) is a strong predictor of cardiovascular disease, any maternal history of MI—even at older ages—confers significant risk. The findings challenge the standard clinical assumption that only early-onset family history is relevant for assessing cardiovascular risk.",
+  "themes": [
+    "Cardiovascular disease risk",
+    "Epidemiology",
+    "Women's health",
+    "Family history",
+    "Preventive medicine"
+  ],
+  "principles": [
+    {
+      "statement": "Any maternal history of myocardial infarction, regardless of the mother's age at the event, provides clinically relevant information for assessing CVD risk.",
+      "rationale": "Because women generally experience MIs at older ages than men, restricting the definition of a 'positive family history' to early-onset events (e.g., before age 60) severely underestimates the risk conferred by maternal history.",
+      "source_quote": "Therefore, any maternal history of MI, regardless of age at the event, may provide clinically relevant information in the assessment of CVD risk.",
+      "source_id": "src_007"
+    },
+    {
+      "statement": "Premature paternal history of MI is a strong, independent predictor of cardiovascular disease.",
+      "rationale": "Data shows that younger paternal ages at MI confer greater magnitudes of CVD risk in offspring, and this risk decreases as the paternal age at MI increases.",
+      "source_quote": "A premature paternal history of MI was an important, independent predictor of CVD in both men and women.",
+      "source_id": "src_007"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [
+    "Treat any maternal history of MI as a valid cardiovascular risk factor, rather than only looking for premature maternal MI."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Therefore, any maternal history of MI, regardless of age at the event, may provide clinically relevant information in the assessment of CVD risk.",
+      "context": "Concluding the clinical implications of the study's findings regarding maternal age at MI.",
+      "source_id": "src_007"
+    },
+    {
+      "text": "Therefore, any maternal history of MI may provide valuable clinical information, perhaps challenging the assumption that only an early maternal history of MI is important and warranting other studies.",
+      "context": "Challenging standard clinical definitions of family history.",
+      "source_id": "src_007"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Defining a 'positive family history' of myocardial infarction strictly by early onset (e.g., before age 60).",
+      "why_it_fails": "It neglects the natural age distribution of MI in women, causing clinicians to miss the significant cardiovascular disease risk conferred by a maternal history of MI at older ages.",
+      "source_id": "src_007"
+    }
+  ]
+}

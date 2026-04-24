@@ -1,0 +1,395 @@
+{
+  "source_id": "src_000",
+  "summary": "Andrej Karpathy discusses why we are entering a 'decade of agents' rather than a 'year of agents,' contrasting AI development with biological evolution. He explains that AI models are more like digital 'ghosts' than animals, emphasizes the importance of building systems from scratch to truly understand them, and details the current limitations of AI coding assistants for complex, novel tasks. Andrej Karpathy discusses the limitations of current AI models, critiquing outcome-based reinforcement learning and the use of LLMs as judges due to adversarial vulnerabilities. He explores the concept of model collapse, contrasting LLMs' memorization with humans' ability to learn generalizable patterns, and predicts that a highly capable 'cognitive core' could be achieved with just a billion parameters by filtering out internet 'slop.' Andrej Karpathy discusses the trajectory of AI, arguing that AGI will be a continuous diffusion of automation rather than a sudden, discrete event. He highlights coding as the ideal first domain for LLMs, warns of a gradual loss of human control over autonomous systems, and uses his self-driving experience to emphasize the massive 'demo-to-product gap' driven by the 'march of nines.' Andrej Karpathy discusses the current state of AI and self-driving, expressing optimism tempered by a desire for realistic timelines. He outlines his vision for Eureka Labs, framing education as a technical problem of building 'ramps to knowledge' to prevent humanity from being disempowered in a post-AGI world. He also shares insights on effective teaching, drawing heavily from his physics background and the importance of first-order approximations.",
+  "themes": [
+    "AI Agents",
+    "Evolution vs. Pre-training",
+    "In-context Learning",
+    "AI Coding Assistants",
+    "Learning by Building",
+    "AI Timelines",
+    "Reinforcement Learning",
+    "Model Collapse",
+    "Cognitive Core",
+    "AGI Definition",
+    "Job Automation",
+    "AGI Timelines",
+    "AI as Automation",
+    "Self-Driving Cars",
+    "LLM Capabilities",
+    "Economic Impact of AI",
+    "AI Safety & Control",
+    "AI Timelines and Hype",
+    "The Future of Education",
+    "Post-AGI Human Flourishing",
+    "Teaching and Pedagogy",
+    "Physics as a Mental Model"
+  ],
+  "principles": [
+    {
+      "statement": "Build it from scratch to truly understand it.",
+      "rationale": "You don't know what you don't understand until you are forced to build it. Writing blog posts or slides isn't enough; you must arrange the code and get it to work to gain deep knowledge.",
+      "source_quote": "If I can't build it, I don't understand it... don't write blog posts, don't do slides, don't do any of that. Build the code, arrange it, get it to work. It's the only way to go. Otherwise, you're missing knowledge.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "Pre-training is a practical substitute for evolution.",
+      "rationale": "We don't know how to replicate biological evolution, but imitating internet documents works to boot up knowledge and intelligence, providing a starting point for further training.",
+      "source_quote": "That's why I call pre-training this crappy evolution. It's the practically possible version with our technology and what we have available to us to get to a starting point",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "AI progress requires simultaneous improvements across the entire stack.",
+      "rationale": "Algorithms, data, hardware, and software optimizations must all improve together to achieve significant gains; no single element drives progress on its own.",
+      "source_quote": "We're probably going to have a lot more data, we're probably going to have a lot better hardware, probably going to have a lot better kernels and software, we're probably going to have better algorithms. All of those, it's almost like no one of them is winning too much.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "AI is fundamentally an extension of computing.",
+      "rationale": "AI tools like autocomplete and agents are part of a long continuum of productivity improvements, such as compilers and syntax highlighting, that raise the layer of abstraction for programmers.",
+      "source_quote": "I see AI as fundamentally an extension of computing in a pretty fundamental way.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "Poor memorization is a feature of human intelligence, not a bug.",
+      "rationale": "Because humans cannot memorize vast amounts of data perfectly, they are forced to extract and learn generalizable patterns. LLMs, conversely, get distracted by their massive memorized pre-training data.",
+      "source_quote": "Because we're not that good at memorization, we're forced to find patterns in a more general sense.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "The 'cognitive core' of intelligence can be achieved with much smaller models.",
+      "rationale": "Current trillion-parameter models are massive because they are forced to compress the 'slop' and garbage of the internet into memory. If we distill just the reasoning and cognitive components, a 1-billion parameter model could be highly capable.",
+      "source_quote": "I almost feel like we can get cognitive cores that are very good at even a billion parameters.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "AGI should be defined by its ability to perform economically valuable tasks.",
+      "rationale": "The original OpenAI definition of AGI remains the most useful benchmark, focusing on systems that can do any economically valuable task at human performance or better.",
+      "source_quote": "AGI was a system you could go to that can do any economically valuable task at human performance or better.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "AI progress is a continuous process of automation, not a sudden discrete jump.",
+      "rationale": "Historically, transformative technologies like computers and the internet diffused gradually and kept society on the same exponential growth curve, rather than causing a sudden vertical spike in GDP.",
+      "source_quote": "This assumption of suddenly having a completely intelligent, fully flexible, fully general human in a box, and we can dispense it at arbitrary problems in society, I don't think that we will have this discrete change. I think we'll arrive at the same kind of gradual diffusion of this across the industry.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "Coding is the perfect first application for LLMs.",
+      "rationale": "LLMs are trained on text, and coding is fundamentally text-based with pre-built infrastructure like IDEs and diffs, unlike visual tasks like making slides which lack this infrastructure.",
+      "source_quote": "I do believe coding is the perfect first thing for these LLMs and agents. That’s because coding has always fundamentally worked around text.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "The most likely outcome of advanced AI is a gradual loss of human control and understanding.",
+      "rationale": "As we delegate tasks to multiple competing autonomous entities, we will create a complex system that fewer people understand and no one fully controls.",
+      "source_quote": "I think that's the most likely outcome, that there will be a gradual loss of understanding. We'll gradually layer all this stuff everywhere, and there will be fewer and fewer people who understand it. Then there will be a gradual loss of control and understanding of what's happening.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "Education is the technical process of building ramps to knowledge.",
+      "rationale": "Learning fails when students bounce off material that is too easy or too hard. Effective education requires untangling complex knowledge and laying it out so students are never stuck and always appropriately challenged.",
+      "source_quote": "In my mind, education is the very difficult technical process of building ramps to knowledge.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "Pre-AGI education is useful; post-AGI education is fun.",
+      "rationale": "Before AGI, people learn primarily to make money and be productive. After AGI automates cognitive labor, people will learn for entertainment, self-betterment, and cognitive flourishing, much like people go to the gym today despite having machines to lift heavy objects.",
+      "source_quote": "I often say that pre-AGI education is useful. Post-AGI education is fun. In a similar way, people go to the gym today.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "Physics is the best way to boot up a brain.",
+      "rationale": "Early education shouldn't be about accumulating facts, but about training the brain to build models, find first-order approximations, and abstract away noise from complex systems.",
+      "source_quote": "Physics uniquely boots up the brain the best because some of the things that they get you to do in your brain during physics is extremely valuable later.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "Explaining things to others is the best way to learn deeply.",
+      "rationale": "If you don't truly understand something, you will fail to explain it. The act of explaining forces you to confront the gaps in your understanding and reconcile them.",
+      "source_quote": "I realize if I don't really understand something, I can't explain it... It forces you to come to terms with them and to reconcile them.",
+      "source_id": "src_000"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Learning by Building (The Nanochat Approach)",
+      "when_to_apply": "When trying to deeply understand a complex system or pipeline, rather than just acquiring surface-level knowledge.",
+      "steps": [
+        "Put the reference code on a separate monitor.",
+        "Build the project from the start, growing it in chunks.",
+        "Allow yourself to reference the original code, but strictly forbid copy-pasting.",
+        "Force yourself to come to terms with the micro-details you don't understand."
+      ],
+      "source_quote": "You want to build it from scratch, you build it from the start. You're not allowed to copy-paste, you're allowed to reference, you're not allowed to copy-paste.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "The March of Nines",
+      "when_to_apply": "When evaluating the progress of safety-critical or complex AI systems (like self-driving or production code) from a demo to a fully deployed product.",
+      "steps": [
+        "Recognize that a successful demo (working 90% of the time) is only the first 'nine'.",
+        "Understand that achieving each subsequent nine of reliability (99%, 99.9%, 99.99%) requires a constant, massive amount of additional work.",
+        "Adjust timelines to account for the compounding effort required to patch edge cases when the system comes into contact with reality."
+      ],
+      "source_quote": "What takes the long amount of time and the way to think about it is that it's a march of nines. Every single nine is a constant amount of work. Every single nine is the same amount of work. When you get a demo and something works 90% of the time, that's just the first nine.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "Untangling Knowledge (Building Ramps)",
+      "when_to_apply": "When designing educational material or explaining a complex technical concept to beginners.",
+      "steps": [
+        "Identify the first-order component or core essence of the system.",
+        "Create the simplest possible implementation that shows this core concept in action (e.g., a 100-line script).",
+        "Present the pain or problem to the student before presenting the solution.",
+        "Prompt the student to guess the solution to help them understand the action space and objective.",
+        "Tack on second-order terms (like efficiency, scaling, or edge cases) only after the core is understood."
+      ],
+      "source_quote": "I'm trying to find, what is the thing that matters? What is the first-order component? How can I simplify it? How can I have a simplest thing that shows that thing, shows it in action, and then I can tack on the other terms?",
+      "source_id": "src_000"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "AI Models as 'Ghosts' (vs. Animals)",
+      "description": "Contrasts AI with biological animals. Animals have hardware baked in by evolution. AI models are ethereal, digital entities created by mimicking human internet data.",
+      "example": "In my post, I said we're not building animals. We're building ghosts or spirits or whatever people want to call it, because we're not doing training by evolution. We're doing training by imitation of humans and the data that they've put on the Internet.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "Weights as 'Hazy Recollection' vs. Context Window as 'Working Memory'",
+      "description": "Information compressed into neural network weights during pre-training is a hazy, lossy memory. Information loaded into the context window (KV cache) is directly accessible working memory.",
+      "example": "Anything that's in the weights, it's a hazy recollection of what you read a year ago. Anything that you give it as a context at test time is directly in the working memory.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "Transformer Components as Brain Regions",
+      "description": "Mapping neural network architectures to biological brain parts to understand what cognitive functions we have and haven't replicated.",
+      "example": "I think when we're doing reasoning and planning inside the neural networks, doing reasoning traces for thinking models, that's kind of like the prefrontal cortex.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "The Autonomy Slider",
+      "description": "A way to view technological progress as a continuum where humans progressively automate low-level tasks and raise themselves to higher layers of abstraction.",
+      "example": "Moving from writing assembly code to using C compilers, and now moving from writing manual code to supervising AI autocomplete and agents.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "Sucking supervision through a straw",
+      "description": "A metaphor for the inefficiency of outcome-based reinforcement learning, where a single final reward signal is used to evaluate an entire long, noisy trajectory of actions.",
+      "example": "Trying hundreds of paths to solve a math problem, getting one right, and blindly upweighting every single step taken in that specific path, even the mistakes made along the way.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "Reading as synthetic data generation",
+      "description": "The concept that humans do not consume information merely to predict the next word; rather, they use the input as a prompt to generate synthetic thoughts, reflect, and manipulate information to gain knowledge.",
+      "example": "Reading a book not just to attend to the exposition, but to use it as a prompt to discuss at a book club with friends.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "AI as Business as Usual Automation",
+      "description": "Viewing AGI and superintelligence not as a magical new paradigm, but as a continuation of the historical trend of automation that started with the Industrial Revolution and computing.",
+      "example": "Comparing the economic impact of AI to the introduction of computers or the iPhone, which didn't visibly spike GDP growth but continued the existing exponential trend.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "LLMs as Savant Kids",
+      "description": "Treating current LLMs as having the cognitive maturity of kindergarten or elementary school students, despite their vast memorized knowledge and ability to pass advanced academic tests.",
+      "example": "Explaining why LLMs cannot yet create 'culture' or operate as fully autonomous agents because they lack the necessary cognitive maturity across all checkboxes.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "The Demo-to-Product Gap",
+      "description": "The vast distance between a proof-of-concept that works in a controlled setting and a reliable product deployed in reality, especially in domains where the cost of failure is high.",
+      "example": "Self-driving cars having perfect demos in 2014 but still requiring decades of work to become scalable, economical products.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "Education as the Gym",
+      "description": "A metaphor for understanding human motivation in a post-AGI world. Just as humans no longer need physical strength for manual labor but still lift weights for health and aesthetics, humans in a post-AGI world won't need cognitive labor but will still pursue intense learning for cognitive flourishing and entertainment.",
+      "example": "Comparing a future where anyone can spontaneously speak five languages or know an undergrad curriculum to modern gym culture where people train to bench press heavy weights or run marathons.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "First-Order Approximations (The Spherical Cow)",
+      "description": "A lens borrowed from physics where you identify the fundamental mechanism of a system and intentionally ignore the noise, edge cases, and efficiency details until the core is understood.",
+      "example": "Micrograd is a 100-line Python script that serves as the first-order approximation of neural network training. It shows backpropagation perfectly; everything else (tensors, memory movement, kernels) is just second-order efficiency.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "Eurekas Per Second",
+      "description": "A metric for evaluating the quality of an educational artifact, measuring the density of understanding and 'aha' moments a student experiences while engaging with it.",
+      "example": "Giving a student a super simplified full-stack project (like Nanochat) where looking through the code constantly triggers new realizations.",
+      "source_id": "src_000"
+    }
+  ],
+  "heuristics": [
+    "Use AI coding agents for boilerplate, but write intellectually intense code yourself.",
+    "If I can't build it, I don't understand it.",
+    "Autocomplete is a very high information bandwidth way to specify what you want in code.",
+    "For now, autocomplete is my sweet spot.",
+    "You always have to seek entropy in your life.",
+    "Look for jobs with short task horizons and closed contexts (like call centers) to predict early AI automation.",
+    "Whenever I see demos of anything, I'm extremely unimpressed by that.",
+    "Every single nine is a constant amount of work.",
+    "Present the pain before you present a solution.",
+    "Don't present the solution before giving the student a shot to guess it.",
+    "Alternate between depth-wise (on-demand, project-based) learning and breadth-wise (foundational) learning.",
+    "To explain an idea well, narrate it as if you were explaining it to a friend over a beer.",
+    "Use ChatGPT to ask dumb questions about a paper, then share the thread with the author to help them see the beginner's perspective."
+  ],
+  "signature_quotes": [
+    {
+      "text": "We're not building animals. We're building ghosts or spirits or whatever people want to call it, because we're not doing training by evolution.",
+      "context": "Discussing why he pushes back against Richard Sutton's analogy of building AI like animals.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "That's why I call pre-training this crappy evolution.",
+      "context": "Explaining how pre-training serves as a practical, albeit imperfect, substitute for biological evolution.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "Anything that happens during the training of the neural network, the knowledge is only a hazy recollection of what happened in training time.",
+      "context": "Contrasting the lossy compression of pre-training weights with the direct access of the context window.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "If I can't build it, I don't understand it... don't write blog posts, don't do slides, don't do any of that. Build the code, arrange it, get it to work.",
+      "context": "Advising on the best way to truly learn complex technical concepts.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "In my mind, this is more accurately described as the decade of agents.",
+      "context": "Pushing back against the hype that this is the 'year of agents', noting the long timeline required to solve cognitive deficits.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "I feel like the industry is making too big of a jump and is trying to pretend like this is amazing, and it's not. It's slop.",
+      "context": "Discussing the current state of AI models and how they are not yet fully capable of writing novel code.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "The way I like to put it is you're sucking supervision through a straw.",
+      "context": "Describing the inefficiency of outcome-based reinforcement learning.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "Because we're not that good at memorization, we're forced to find patterns in a more general sense.",
+      "context": "Comparing human learning to LLM pre-training.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "You always have to seek entropy in your life.",
+      "context": "Discussing how humans avoid mental collapse and overfitting by seeking out new experiences and talking to others.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "We're in an intelligence explosion already and have been for decades.",
+      "context": "Discussing whether AGI will cause a sudden intelligence explosion.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "It's a march of nines. Every single nine is a constant amount of work.",
+      "context": "Explaining why self-driving cars and reliable AI products take so long to develop after initial demos.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "I don't think they can create culture because they're still kids. They're savant kids.",
+      "context": "Describing the current cognitive limitations of LLMs.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "Whenever I see demos of anything, I'm extremely unimpressed by that.",
+      "context": "Discussing the gap between AI demos and actual production-ready systems.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "In my mind, education is the very difficult technical process of building ramps to knowledge.",
+      "context": "Describing his vision for Eureka Labs and how he views the challenge of teaching.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "I often say that pre-AGI education is useful. Post-AGI education is fun.",
+      "context": "Explaining why people will still want to learn even after AI automates all cognitive labor.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "I care not just about all the Dyson spheres that we're going to build and that AI is going to build in a fully autonomous way, I care about what happens to humans.",
+      "context": "Explaining his motivation for leaving frontier AI labs to focus on education.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "If you're sticking to the realm of bits, bits are a million times easier than anything that touches the physical world.",
+      "context": "Comparing the deployment speed of LLMs to the deployment speed of self-driving cars.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "I realize if I don't really understand something, I can't explain it.",
+      "context": "Discussing why explaining concepts to others is the best way to learn.",
+      "source_id": "src_000"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Trying to build full agents too early (e.g., Atari, Universe projects).",
+      "why_it_fails": "Without the powerful representations learned by large language models first, the reward is too sparse. The models just 'burn a forest computing' without getting off the ground.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Using AI agents ('vibe coding') for novel, intellectually intense codebases.",
+      "why_it_fails": "They bloat the code, misunderstand custom implementations, use deprecated APIs, and try to force standard internet boilerplate onto unique architectures.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Believing we are building biological animals.",
+      "why_it_fails": "Brains come from a completely different optimization process (evolution) that encodes weights in DNA, which we don't know how to replicate. We are building digital entities by imitating humans.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Relying on outcome-based Reinforcement Learning for complex reasoning tasks.",
+      "why_it_fails": "It assumes every step in a successful trajectory was correct, leading to high noise and inefficient learning from a single final reward.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Using LLMs as automated judges for process-based supervision over many steps.",
+      "why_it_fails": "LLMs are gameable and will inevitably fall victim to adversarial examples, assigning high rewards to nonsensical out-of-distribution outputs.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Training models extensively on their own synthetic data without addressing collapse.",
+      "why_it_fails": "LLM outputs are silently collapsed and lack entropy; training on them causes the model's distribution to deteriorate and lose diversity.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Predicting AI will first replace complex, messy professions like radiology.",
+      "why_it_fails": "These jobs have massive physical and social surfaces. Automation will first successfully target closed-context, short-horizon tasks like call center work.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Believing AGI will be a sudden, magical 'God in a box' that instantly transforms the economy and breaks historical growth trends.",
+      "why_it_fails": "Historically, transformative technologies diffuse slowly and face friction when integrating into society; they continue existing exponential trends rather than causing discrete vertical jumps.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Trusting AI demos as proof of imminent product readiness.",
+      "why_it_fails": "Demos only represent the first 90% of reliability. The remaining 'nines' require massive, constant amounts of work, especially in domains where the cost of failure is high.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Using current LLMs as complete AI tutors.",
+      "why_it_fails": "Current LLMs are 'slop' for tutoring. They cannot instantly probe a student's world model, understand exactly what they know, and serve perfectly calibrated challenges like a highly skilled human tutor can.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "The Curse of Knowledge in academic writing.",
+      "why_it_fails": "Experts take foundational concepts for granted and have a bias to explain things in the most abstract, jargon-filled way possible, clearing their throat for four paragraphs before explaining the central idea.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Presenting the solution before the student has a chance to guess it.",
+      "why_it_fails": "It deprives the student of understanding the action space and the objective. If they try to solve it first, they gain a much deeper appreciation for why the actual solution is the only one that fulfills the objective.",
+      "source_id": "src_000"
+    }
+  ]
+}

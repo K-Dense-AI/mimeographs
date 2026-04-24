@@ -1,0 +1,75 @@
+{
+  "source_id": "src_033",
+  "summary": "A comprehensive epidemiological study utilizing data from the Nurses' Health Study and Health Professionals Follow-up Study to quantify the impact of lifestyle on longevity. The authors demonstrate that adhering to five low-risk lifestyle factors can prolong life expectancy at age 50 by 12 to 14 years, arguing that the US healthcare system must shift its focus from disease treatment to preventive care.",
+  "themes": [
+    "Preventive Medicine",
+    "Lifestyle Epidemiology",
+    "Public Health Policy",
+    "Longevity and Life Expectancy",
+    "Chronic Disease Prevention"
+  ],
+  "principles": [
+    {
+      "statement": "Prevention must be prioritized over disease treatment in national health policy.",
+      "rationale": "Chronic diseases like cardiovascular disease and cancer are the most common and costly health problems, yet they are largely preventable through lifestyle modifications.",
+      "source_quote": "Prevention should be a top priority for national health policy, and preventive care should be an indispensable part of the US healthcare system.",
+      "source_id": "src_033"
+    },
+    {
+      "statement": "Adopting a combination of healthy lifestyle factors dramatically extends life expectancy.",
+      "rationale": "Epidemiological data shows that adhering to five specific low-risk lifestyle factors can add 14.0 years for women and 12.2 years for men at age 50 compared to those with zero factors.",
+      "source_quote": "Adherence to 5 low-risk lifestyle-related factors... could prolong life expectancy at age 50 years by 14.0 and 12.2 years for female and male US adults compared with individuals who adopted zero low-risk lifestyle factors.",
+      "source_id": "src_033"
+    },
+    {
+      "statement": "Public health interventions must address the living environment, not just individual choices.",
+      "rationale": "Healthy eating and exercise habits are heavily influenced by built and social environments (e.g., access to parks vs. fast food), meaning longevity promotion requires supportive environments.",
+      "source_quote": "This phenomenon suggests that the living environment contributes to life expectancy beyond socioeconomic status... supporting environments for health lifestyle should be 1 part of the promotion of longevity for the US population.",
+      "source_id": "src_033"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "5-Factor Low-Risk Lifestyle Score",
+      "when_to_apply": "When assessing an individual's or population's adherence to a life-extending healthy lifestyle to predict mortality risk.",
+      "steps": [
+        "Assess diet quality: Must be in the top 40% of the Alternate Healthy Eating Index.",
+        "Check smoking status: Must be 'never smoking'.",
+        "Measure physical activity: Must engage in >= 30 minutes per day of moderate to vigorous physical activity.",
+        "Evaluate alcohol intake: Must be moderate (5 to 15 g/day for women, 5 to 30 g/day for men).",
+        "Calculate BMI: Must be in the normal range of 18.5 to 24.9 kg/m2.",
+        "Sum the factors met to generate a total score from 0 to 5, with 5 indicating the lowest risk of premature mortality."
+      ],
+      "source_quote": "We defined 5 low-risk lifestyle factors as never smoking, body mass index of 18.5 to 24.9 kg/m2, ≥30 min/d of moderate to vigorous physical activity, moderate alcohol intake, and a high diet quality score (upper 40%), and estimated hazard ratios for the association of total lifestyle score (0–5 scale) with mortality.",
+      "source_id": "src_033"
+    }
+  ],
+  "mental_models": [],
+  "heuristics": [
+    "To maximize life expectancy, adhere to five core habits: never smoke, maintain a BMI under 25, exercise 30 minutes daily, eat a high-quality diet, and consume alcohol only in moderation."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The US healthcare system has focused primarily on drug discoveries and disease treatment rather than prevention.",
+      "context": "Critiquing the current allocation of healthcare resources in the United States.",
+      "source_id": "src_033"
+    },
+    {
+      "text": "Prevention should be a top priority for national health policy, and preventive care should be an indispensable part of the US healthcare system.",
+      "context": "Concluding recommendation based on the finding that lifestyle factors account for a massive percentage of premature mortality.",
+      "source_id": "src_033"
+    },
+    {
+      "text": "Americans could narrow the life-expectancy gap between the United States and other industrialized countries by adopting a healthier lifestyle.",
+      "context": "Explaining how the US can improve its global ranking in life expectancy.",
+      "source_id": "src_033"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Focusing healthcare systems and expenditures primarily on drug discoveries and disease treatment.",
+      "why_it_fails": "It ignores the root causes of the most common and costly chronic diseases (like cardiovascular disease and cancer), which are largely preventable through lifestyle changes, leading to lower overall life expectancy despite high healthcare spending.",
+      "source_id": "src_033"
+    }
+  ]
+}

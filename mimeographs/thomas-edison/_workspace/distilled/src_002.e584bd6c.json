@@ -1,0 +1,68 @@
+{
+  "source_id": "src_002",
+  "summary": "This source outlines Thomas Edison's philosophical, religious, and economic views, alongside brief biographical details. It highlights his belief in 'Nature' as a supreme intelligence rather than a personal religious deity, his view of humans as aggregates of cells, and his strong opposition to debt-based monetary systems and interest.",
+  "themes": [
+    "Religion and Nature",
+    "Monetary Reform",
+    "Scientific Deism",
+    "Economics"
+  ],
+  "principles": [
+    {
+      "statement": "What people call God is actually Nature, a supreme intelligence that rules matter, not a merciful or loving personal deity.",
+      "rationale": "Observation of the natural world shows it is not inherently kind or merciful (e.g., the food chain), suggesting that a supreme intelligence governs matter without human-like emotions.",
+      "source_quote": "what you call God I call Nature, the Supreme intelligence that rules matter.",
+      "source_id": "src_002"
+    },
+    {
+      "statement": "The government should issue credit-based money rather than debt-based money.",
+      "rationale": "It is absurd for taxpayers to be compelled to pay double the principal in interest when the government has the power to produce money as a credit instead.",
+      "source_quote": "if the government can produce debt-based money, it could equally as well produce money that was a credit to the taxpayer.",
+      "source_id": "src_002"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Human as an Aggregate",
+      "description": "Viewing a human being not as a singular, indivisible entity or soul, but as a collective aggregate of smaller living components (cells).",
+      "example": "Edison compared a human being to New York City, asking 'Will New York City go to heaven?' to illustrate the absurdity of an aggregate entity having an afterlife.",
+      "source_id": "src_002"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "I am not an individual—I am an aggregate of cells, as, for instance, New York City is an aggregate of individuals. Will New York City go to heaven?",
+      "context": "Discussing his views on individuality, the soul, and the afterlife.",
+      "source_id": "src_002"
+    },
+    {
+      "text": "Nature is what we know. We do not know the gods of religions. And nature is not kind, or merciful, or loving.",
+      "context": "From an October 2, 1910, interview in The New York Times Magazine regarding his religious beliefs.",
+      "source_id": "src_002"
+    },
+    {
+      "text": "Gold is a relic of Julius Caesar, and interest is an invention of Satan.",
+      "context": "Quoted in the New York Times discussing his desire for monetary reform.",
+      "source_id": "src_002"
+    },
+    {
+      "text": "There is no such denial, what you call God I call Nature, the Supreme intelligence that rules matter.",
+      "context": "Clarifying his views in a private letter after being publicly labeled an atheist.",
+      "source_id": "src_002"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on debt-based monetary systems and charging interest.",
+      "why_it_fails": "It creates an absurd system where taxpayers are compelled to pay back double the principal or more, when the government could simply issue credit-based, interest-free currency.",
+      "source_id": "src_002"
+    },
+    {
+      "description": "Believing in a personal, merciful deity that grants eternal life to the individual soul.",
+      "why_it_fails": "Nature demonstrates a lack of mercy (e.g., humans catching and eating fish), and humans are merely aggregates of cells that will likely disperse back into nature upon death rather than living on as a singular entity.",
+      "source_id": "src_002"
+    }
+  ]
+}

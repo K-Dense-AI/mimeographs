@@ -1,0 +1,121 @@
+{
+  "source_id": "src_050",
+  "summary": "René Descartes recounts his intellectual journey, expressing disillusionment with traditional education and outlining his decision to rebuild his knowledge from the ground up. He introduces his four-step method for seeking truth and a provisional moral code to guide his actions while in a state of philosophical doubt.",
+  "themes": [
+    "Epistemology",
+    "Rationalism",
+    "Scientific Method",
+    "Stoicism",
+    "Intellectual Independence"
+  ],
+  "principles": [
+    {
+      "statement": "Having a good mind is insufficient; the correct application of it is what matters most.",
+      "rationale": "Even the greatest minds are capable of great vices, and slow thinkers on the right path will outpace sprinters who wander off it.",
+      "source_quote": "For it isn’t enough to have a good mind; what matters most is using it well.",
+      "source_id": "src_050"
+    },
+    {
+      "statement": "Works created by a single mind are generally superior to those patched together by many.",
+      "rationale": "Systems, laws, or buildings developed piecemeal by multiple people lack the coherent order and unified purpose of those designed by a single architect.",
+      "source_quote": "there is usually less perfection in works composed of several parts and produced by various different craftsmen than there is in the works of one man.",
+      "source_id": "src_050"
+    },
+    {
+      "statement": "Master yourself rather than fortune.",
+      "rationale": "Nothing lies entirely within our power except our own thoughts. Recognizing this prevents unsatisfied desires and brings contentment, as we stop wishing for external goods beyond our control.",
+      "source_quote": "try always to master myself rather than fortune, and change my desires rather than changing how things stand in the world.",
+      "source_id": "src_050"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Four Rules of Method",
+      "when_to_apply": "When seeking certain truth and building a solid foundation of knowledge in any field or science.",
+      "steps": [
+        "Never accept anything as true if you do not have evident (vivid and clear) knowledge of its truth, avoiding jumping to conclusions.",
+        "Divide each difficulty into as many parts as possible and as might be required to resolve them.",
+        "Direct thoughts in an orderly manner, starting with the simplest and most easily known objects to move up gradually to the most complex.",
+        "Make enumerations so complete and reviews so comprehensive that you can be sure nothing was overlooked."
+      ],
+      "source_quote": "I thought that in place of the large number of rules that make up logic I would find the following four to be sufficient, provided that I made and kept to a strong resolution always to obey them.",
+      "source_id": "src_050"
+    },
+    {
+      "name": "Provisional Moral Code",
+      "when_to_apply": "When you are in the process of questioning your fundamental beliefs and need a practical guide to avoid indecision in daily life.",
+      "steps": [
+        "Obey the laws and customs of your country and religion, adopting the most moderate opinions of the sensible people around you.",
+        "Be as firm and decisive in your actions as you can, following even doubtful opinions constantly once adopted.",
+        "Try always to master yourself rather than fortune, changing your desires rather than the world.",
+        "Devote your life to cultivating your reason and advancing as far as possible in the knowledge of the truth."
+      ],
+      "source_quote": "so as not to be indecisive in my actions during the time when reason obliged me to be so in my judgments, and in order to live as well as I could during this time, I formed for myself a provisional moral code",
+      "source_id": "src_050"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Lost Traveler",
+      "description": "A metaphor for acting decisively under uncertainty. When you don't know the absolute correct path, pick the most probable one and stick to it resolutely, rather than wandering aimlessly or freezing in place.",
+      "example": "Descartes uses this to justify his second moral maxim: following even doubtful opinions with constant firmness once adopted, to avoid the regret and remorse of weak, inconstant characters.",
+      "source_id": "src_050"
+    },
+    {
+      "name": "Rebuilding a House",
+      "description": "An analogy for epistemological reform. Just as one might tear down a structurally unsound house to rebuild it on a firm foundation, one must occasionally sweep away all preconceived opinions to rebuild their knowledge base using reason.",
+      "example": "Descartes uses this to explain his project of ridding himself of all past opinions. He extends the metaphor to explain his 'provisional moral code'—just as you need a temporary place to live while your house is being rebuilt, you need a temporary moral code while your belief system is under construction.",
+      "source_id": "src_050"
+    },
+    {
+      "name": "City Planning",
+      "description": "A lens for evaluating the coherence of systems. Old cities that grew piecemeal from villages are crooked and irregular, whereas towns laid out by a single planner on level ground are orderly.",
+      "example": "Descartes applies this to the sciences and laws, arguing that knowledge built by a single rational mind is closer to the truth than knowledge patched together from the opinions of many different people.",
+      "source_id": "src_050"
+    }
+  ],
+  "heuristics": [
+    "When we can't pick out the truest opinions we should follow the most probable ones.",
+    "Regard all external goods as equally beyond our power.",
+    "To act well, it is sufficient to judge well."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Good sense is the best shared-out thing in the world; for everyone thinks he has such a good supply of it that he doesn’t want more...",
+      "context": "Opening line of Part 1, establishing that the capacity for reason is equal in all humans.",
+      "source_id": "src_050"
+    },
+    {
+      "text": "For it isn’t enough to have a good mind; what matters most is using it well.",
+      "context": "Explaining why a method for reasoning is necessary.",
+      "source_id": "src_050"
+    },
+    {
+      "text": "...those who go very slowly but always on the right path can make much greater progress than those who sprint and go astray.",
+      "context": "Emphasizing the importance of methodical progress over raw intellectual speed.",
+      "source_id": "src_050"
+    },
+    {
+      "text": "Regarding the opinions which I had previously held, I couldn’t do better than set out to get rid of them all at one go, so as then to replace them afterwards with better opinions or even with the same ones after I had straightened them out using reason’s plumb-line.",
+      "context": "Describing his core project of radical doubt and epistemological reconstruction.",
+      "source_id": "src_050"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Attempting to reform a state or public institution by tearing it down to the foundations to rebuild it.",
+      "why_it_fails": "Large bodies are too difficult to reconstruct once overthrown, and their fall causes a massive crash. Custom often smooths over their imperfections better than conscious planning.",
+      "source_id": "src_050"
+    },
+    {
+      "description": "Relying on a majority vote to discover difficult truths.",
+      "why_it_fails": "One man on his own is much more likely to hit upon complex truths than a whole population is, making majority consensus worthless for rigorous discovery.",
+      "source_id": "src_050"
+    },
+    {
+      "description": "Spending too much time studying history or the practices of past ages.",
+      "why_it_fails": "It makes you a stranger in your own country and ignorant of the present century. Furthermore, histories often omit the meaner factors, leading readers to make unrealistic plans based on exaggerated examples.",
+      "source_id": "src_050"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "source_id": "src_002",
+  "summary": "A course syllabus for Pieter Abbeel's Fall 2015 CS287 Advanced Robotics class at UC Berkeley, outlining his pedagogical focus on probabilistic reasoning and optimization as the mathematical foundations of modern robotics.",
+  "themes": [
+    "Robotics education",
+    "Probabilistic reasoning",
+    "Optimization",
+    "Academic writing"
+  ],
+  "principles": [
+    {
+      "statement": "State-of-the-art robotic systems are fundamentally built on probabilistic reasoning and optimization.",
+      "rationale": "These mathematical areas form the core algorithms of modern robotics and have broad applicability across all of Artificial Intelligence.",
+      "source_quote": "The majority of these techniques are heavily based on probabilistic reasoning and optimization---two areas with wide applicability in modern Artificial Intelligence.",
+      "source_id": "src_002"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [
+    "When writing a research paper, focus on the problem setting, novelty, approach, and results; only survey prior work that is directly relevant to understanding your approach."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The majority of these techniques are heavily based on probabilistic reasoning and optimization---two areas with wide applicability in modern Artificial Intelligence.",
+      "context": "Describing the core mathematical foundations of advanced robotics.",
+      "source_id": "src_002"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Rewriting or over-explaining prior work in a research paper when it isn't directly relevant to the new approach.",
+      "why_it_fails": "It distracts from the core focus of the paper, which should be the problem setting, novelty, approach, results, and limitations.",
+      "source_id": "src_002"
+    }
+  ]
+}

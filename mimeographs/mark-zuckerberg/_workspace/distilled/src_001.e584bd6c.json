@@ -1,0 +1,84 @@
+{
+  "source_id": "src_001",
+  "summary": "Mark Zuckerberg announces a major shift in Facebook's product strategy for 2018, moving away from optimizing for relevant content and passive consumption toward fostering meaningful social interactions. He emphasizes that tech companies have a responsibility to ensure their services improve user well-being, even if it means a short-term drop in engagement metrics.",
+  "themes": [
+    "User Well-being",
+    "Social Connection",
+    "Product Strategy",
+    "Meaningful Interactions",
+    "Long-term Business Value"
+  ],
+  "principles": [
+    {
+      "statement": "Social media should foster meaningful social interactions, not just passive consumption.",
+      "rationale": "Academic research shows that actively connecting with people we care about improves well-being and reduces loneliness, whereas passively consuming articles or videos does not yield the same long-term happiness benefits.",
+      "source_quote": "The research shows that when we use social media to connect with people we care about, it can be good for our well-being... On the other hand, passively reading articles or watching videos -- even if they're entertaining or informative -- may not be as good.",
+      "source_id": "src_001"
+    },
+    {
+      "statement": "Tech companies have a responsibility for user well-being.",
+      "rationale": "It is not enough to build products that are merely entertaining or engaging; creators must actively ensure their platforms contribute positively to users' mental health and happiness.",
+      "source_quote": "We feel a responsibility to make sure our services aren’t just fun to use, but also good for people's well-being.",
+      "source_id": "src_001"
+    },
+    {
+      "statement": "Doing what is right for the community is ultimately good for the business.",
+      "rationale": "Prioritizing user well-being over short-term engagement metrics builds a healthier, more valuable ecosystem that sustains the business over the long run.",
+      "source_quote": "And if we do the right thing, I believe that will be good for our community and our business over the long term too.",
+      "source_id": "src_001"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Time Well Spent vs. Time Spent",
+      "description": "Evaluating product success not by the raw amount of time users spend on the platform, but by the value and well-being they derive from that time.",
+      "example": "Changing the News Feed algorithm to prioritize friends and family over viral videos, accepting that overall time spent on the app will decrease, but the quality of that time will increase.",
+      "source_id": "src_001"
+    },
+    {
+      "name": "Active Connection vs. Passive Consumption",
+      "description": "A lens for categorizing user behavior: distinguishing between using a platform to interact with others (which boosts well-being) versus just scrolling and consuming media (which does not).",
+      "example": "Holding public content (like news or brand posts) to a new standard where it is only prioritized if it encourages meaningful interactions and conversations between people.",
+      "source_id": "src_001"
+    }
+  ],
+  "heuristics": [
+    "Focus on bringing people closer together.",
+    "Public content should encourage meaningful interactions between people."
+  ],
+  "signature_quotes": [
+    {
+      "text": "One of our big focus areas for 2018 is making sure the time we all spend on Facebook is time well spent.",
+      "context": "Opening statement of his 2018 product vision.",
+      "source_id": "src_001"
+    },
+    {
+      "text": "We feel a responsibility to make sure our services aren’t just fun to use, but also good for people's well-being.",
+      "context": "Explaining the motivation behind changing the News Feed algorithm.",
+      "source_id": "src_001"
+    },
+    {
+      "text": "I'm changing the goal I give our product teams from focusing on helping you find relevant content to helping you have more meaningful social interactions.",
+      "context": "Announcing the shift in internal metrics and goals.",
+      "source_id": "src_001"
+    },
+    {
+      "text": "Now, I want to be clear: by making these changes, I expect the time people spend on Facebook and some measures of engagement will go down. But I also expect the time you do spend on Facebook will be more valuable.",
+      "context": "Acknowledging the trade-offs of the algorithm change.",
+      "source_id": "src_001"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Optimizing solely for engagement or time spent.",
+      "why_it_fails": "It leads to a proliferation of passive public content (videos, articles) that crowds out personal connections and fails to improve user well-being.",
+      "source_id": "src_001"
+    },
+    {
+      "description": "Passive consumption of content.",
+      "why_it_fails": "Passively reading articles or watching videos, even if entertaining, does not correlate with long-term measures of happiness and health like active social connection does.",
+      "source_id": "src_001"
+    }
+  ]
+}

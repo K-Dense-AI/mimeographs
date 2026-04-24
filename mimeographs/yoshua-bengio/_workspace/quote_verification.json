@@ -1,0 +1,1041 @@
+{
+  "total": 76,
+  "verified": 63,
+  "unverified": [
+    {
+      "category": "principles",
+      "label": "Multi-task Learning via Shared Factors",
+      "quote": "what they have in common is a set of explanatory factors that are represented in this middle shared layer... maybe for each task there's a subset of those features that is relevant",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8055555555555556
+    },
+    {
+      "category": "principles",
+      "label": "Multilateral Defensive AI (Plan B)",
+      "quote": "Even if we manage to significantly reduce the probability of a rogue AI emerging, the tiniest probability of a major catastrophe... is still unacceptable. Beyond regulation, humanity needs a Plan B.",
+      "source_ids": [
+        "src_037"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7525252525252525
+    },
+    {
+      "category": "principles",
+      "label": "Over-parameterization Resists Overfitting",
+      "quote": "a large neural net which has enough capacity to learn the function of the training set by heart has more capacity than you need but... as soon as you hit zero training error it stops you don't go beyond what is necessary",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7545454545454545
+    },
+    {
+      "category": "principles",
+      "label": "Rational Humanitarianism",
+      "quote": "I think being humanitarian requires a good rational understanding of the world... in order for democratic uh you know humanist values to prevail uh we also need reason to prevail. We need science to prevail.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7294685990338164
+    },
+    {
+      "category": "principles",
+      "label": "Track Specific Capabilities over AGI",
+      "quote": "Intelligence isn't just like one number... we shouldn't be thinking of like a AGI moment. We should think of particular skills that AIs are you know becoming better at.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7916666666666666
+    },
+    {
+      "category": "principles",
+      "label": "Understand the 'Why' from First Principles",
+      "quote": "it's more about understanding and it's about also doing our research not to beat the next baseline or benchmark... it's the why that really matters that's what science is about",
+      "source_ids": [
+        "src_025"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7272727272727273
+    },
+    {
+      "category": "frameworks",
+      "label": "Debugging Neural Networks",
+      "quote": "there's an art to how to debug these neural nets first of all you have to make sure you can make your experiments reproducible... train on the small data set and verify you can reach your training error quickly",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.680952380952381
+    },
+    {
+      "category": "frameworks",
+      "label": "Neural Probabilistic Language Modeling",
+      "quote": "1. associate with each word in the vocabulary a distributed word feature vector... 2. express the joint probability function of word sequences in terms of the feature vectors... 3. learn simultaneously the word feature vectors and the parameters of that probability function.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7563636363636363
+    },
+    {
+      "category": "mental_models",
+      "label": "Agentic vs. Non-Agentic AI",
+      "quote": "What we would like really from AI is to help us solve our problems... but that can be done by really intelligent tools that are not agents.",
+      "source_ids": [
+        "src_010",
+        "src_051"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6115107913669064
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Humans Calling the Shots",
+      "quote": "We should be calling the shots, not the AIs. What are our preferences? What kind of future do we want?",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6176470588235294
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Intelligence as General Mechanisms",
+      "quote": "Intelligence is not just a huge bag of tricks and pieces of knowledge... but instead the result of general mechanisms to acquire knowledge.",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5971223021582733
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Superficial Safety Patching",
+      "quote": "Right now, the way that this problem is being looked at is... 'We’re just going to patch some partial solutions that are going to work on a case-by-case basis.' But that’s going to fail.",
+      "source_ids": [
+        "src_033",
+        "src_021",
+        "src_050"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7419354838709677
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Anthropomorphizing and Emotional Attachment",
+      "quote": "I think we should be careful not to get on the slippery slope on in which we are now to to develop AI that will play that role of emotional support... Humans feel the AI is like a person and AIS are not people.",
+      "source_ids": [
+        "src_029",
+        "src_021"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7904761904761904
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "The Precautionary Principle in AI",
+      "quote": "10% of catastrophic outcomes is not acceptable, right? The end of democracy or the end of humanity, a 10% gamble? No, we can't accept that.",
+      "source_ids": [
+        "src_029",
+        "src_012",
+        "src_033",
+        "src_052",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Global Governance and International Coordination",
+      "quote": "The only way to manage the more catastrophic risks of AI is through international coordination.",
+      "source_ids": [
+        "src_029",
+        "src_037",
+        "src_052",
+        "src_050"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Representation Learning is Foundational",
+      "quote": "The success of machine learning algorithms generally depends on data representation, and we hypothesize that this is because different representations can entangle and hide more or less the different explanatory factors of variation behind the data.",
+      "source_ids": [
+        "src_045",
+        "src_002",
+        "src_017",
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_045",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Threat of Emergent Self-Preservation",
+      "quote": "I’m coming to the idea that we should consider alive any entity which is able to preserve itself and working towards preserving itself in spite of the obstacles on the road.",
+      "source_ids": [
+        "src_024",
+        "src_029",
+        "src_033",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Overcoming the Curse of Dimensionality",
+      "quote": "When you're attacked by an exponential just use more Exponential's to fight it right",
+      "source_ids": [
+        "src_048",
+        "src_002",
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Preventing Extreme Concentration of Power",
+      "quote": "In the extreme, a few individuals controlling superhuman AIs would accrue a level of power never before seen in human history, a blatant contradiction with the very principle of democracy and a major threat to it.",
+      "source_ids": [
+        "src_037",
+        "src_033",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_037",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Safe-by-Design \"Scientist AI\"",
+      "quote": "We're going to build AI systems that will be totally honest. And that means they don't have other objectives besides being truthful in the answers they give to our questions.",
+      "source_ids": [
+        "src_024",
+        "src_029",
+        "src_050"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Active Agency Over Despair",
+      "quote": "I think it would be a mistake to let go of our agency while we still have some. I think that there are ways that we can improve our chances. Despair is not going to solve the problem.",
+      "source_ids": [
+        "src_033",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Build Explanatory, Non-Agentic Models",
+      "quote": "This system is designed to explain the world from observations, as opposed to taking actions in it to imitate or please humans.",
+      "source_ids": [
+        "src_010",
+        "src_051"
+      ],
+      "verified": true,
+      "matched_source_id": "src_051",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Precautionary Principle in AI Safety",
+      "quote": "Following the precautionary principle, we see a strong need for safer, yet still useful, alternatives to the current agency-driven trajectory.",
+      "source_ids": [
+        "src_010",
+        "src_051"
+      ],
+      "verified": true,
+      "matched_source_id": "src_051",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Education as Human Development",
+      "quote": "Education contrary to what some people think isn't just about acquiring the skills to get a job. Education is in my opinion mostly about how to become a better human being.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Human-Led Automation",
+      "quote": "We should be calling the shots, not the AIs... it's not true that everything that could be done with technology you know is going to be done we can choose in which direction AI is going to be deployed",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 0.83
+    },
+    {
+      "category": "principles",
+      "label": "Intelligence Arises from Simple Principles",
+      "quote": "intelligence is not just a huge bag of tricks and pieces of knowledge which was the dominant thinking and the 80s and 90s in AI but instead the result of general mechanisms to acquire knowledge",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Mathematically Rigorous Guardrails",
+      "quote": "As we move towards more powerful AI, it becomes urgent to better understand the risks, ideally in a mathematically rigorous and quantifiable way, and use that knowledge to mitigate them.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Multi-task Learning via Shared Factors",
+      "quote": "what they have in common is a set of explanatory factors that are represented in this middle shared layer... maybe for each task there's a subset of those features that is relevant",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8055555555555556
+    },
+    {
+      "category": "principles",
+      "label": "Multidisciplinary AI with Social Responsibility",
+      "quote": "So, I'm getting inspiration from neuroscience, cognitive science, but also mathematics, like causality and statistics, to hopefully build the next generation of AI systems.",
+      "source_ids": [
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_022",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Multilateral Defensive AI (Plan B)",
+      "quote": "Even if we manage to significantly reduce the probability of a rogue AI emerging, the tiniest probability of a major catastrophe... is still unacceptable. Beyond regulation, humanity needs a Plan B.",
+      "source_ids": [
+        "src_037"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7525252525252525
+    },
+    {
+      "category": "principles",
+      "label": "Over-parameterization Resists Overfitting",
+      "quote": "a large neural net which has enough capacity to learn the function of the training set by heart has more capacity than you need but... as soon as you hit zero training error it stops you don't go beyond what is necessary",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7545454545454545
+    },
+    {
+      "category": "principles",
+      "label": "Prioritize Safety Over Commercial Imperatives",
+      "quote": "prioritize safety over commercial imperatives.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Rational Humanitarianism",
+      "quote": "I think being humanitarian requires a good rational understanding of the world... in order for democratic uh you know humanist values to prevail uh we also need reason to prevail. We need science to prevail.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7294685990338164
+    },
+    {
+      "category": "principles",
+      "label": "Safe-by-Design Frontier AI",
+      "quote": "rethinking the building blocks of frontier AI to create an intelligent machine that is both highly capable and safe-by-design.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Enduring Value of Human Connection",
+      "quote": "The human touch is going to, I think, take more and more value as the other skills become more and more automated.",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 0.8771929824561403
+    },
+    {
+      "category": "principles",
+      "label": "The Unpredictability of Scientific Progress",
+      "quote": "Not only is there no consensus among AI researchers about the future pace of AI advances, but there is also no scientific basis for making such predictions.",
+      "source_ids": [
+        "src_001"
+      ],
+      "verified": true,
+      "matched_source_id": "src_001",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Track Specific Capabilities over AGI",
+      "quote": "Intelligence isn't just like one number... we shouldn't be thinking of like a AGI moment. We should think of particular skills that AIs are you know becoming better at.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7916666666666666
+    },
+    {
+      "category": "principles",
+      "label": "Understand the 'Why' from First Principles",
+      "quote": "it's more about understanding and it's about also doing our research not to beat the next baseline or benchmark... it's the why that really matters that's what science is about",
+      "source_ids": [
+        "src_025"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7272727272727273
+    },
+    {
+      "category": "frameworks",
+      "label": "Scientist AI Architecture",
+      "quote": "It comprises a world model that generates theories to explain data and a question-answering inference machine. Both components operate with an explicit notion of uncertainty to mitigate the risks of overconfident predictions.",
+      "source_ids": [
+        "src_010",
+        "src_051"
+      ],
+      "verified": true,
+      "matched_source_id": "src_051",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "The Scientist AI Guardrail System",
+      "quote": "For example, if you have an AI system that can tell you the probability that a particular action, maybe of an untrusted AI system, will cause harm... Then you could veto that action if the probability is above a threshold.",
+      "source_ids": [
+        "src_024",
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 0.8558558558558559
+    },
+    {
+      "category": "frameworks",
+      "label": "Bypassing AI Sycophancy",
+      "quote": "I switched to a strategy where I lie to it and I say, 'Oh, I received this idea from a colleague. I'm not sure if it's good... What do you think?'",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 0.8698630136986302
+    },
+    {
+      "category": "frameworks",
+      "label": "Capability-Specific Risk Assessment",
+      "quote": "We should think of particular skills that AIs are you know becoming better at. Track those skills and for each of these we should ask the question you know how useful or beneficial it can be for for what purposes and also how it could be misused or if we do get loss of control how an AI could use it against us.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Debugging Neural Networks",
+      "quote": "there's an art to how to debug these neural nets first of all you have to make sure you can make your experiments reproducible... train on the small data set and verify you can reach your training error quickly",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.680952380952381
+    },
+    {
+      "category": "frameworks",
+      "label": "End-to-End Learning",
+      "quote": "we can have a big complicated machine and learn all of the the parts together with respect to this one objective so this is what we now call end to end learning",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Multilateral Defensive AI Network",
+      "quote": "Consequently, a multilateral umbrella organization is essential for coordinating these labs across member countries, potentially pooling computing resources and a portion of the funding, and for setting the governance.",
+      "source_ids": [
+        "src_037"
+      ],
+      "verified": true,
+      "matched_source_id": "src_037",
+      "match_ratio": 0.9954128440366973
+    },
+    {
+      "category": "frameworks",
+      "label": "Neural Probabilistic Language Modeling",
+      "quote": "1. associate with each word in the vocabulary a distributed word feature vector... 2. express the joint probability function of word sequences in terms of the feature vectors... 3. learn simultaneously the word feature vectors and the parameters of that probability function.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7563636363636363
+    },
+    {
+      "category": "frameworks",
+      "label": "Toy Problem Experimentation",
+      "quote": "we can reduce the problem to something we can intuitively sort of manipulate and understand more easily so sort of classical divide and conquer",
+      "source_ids": [
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_025",
+      "match_ratio": 0.972027972027972
+    },
+    {
+      "category": "mental_models",
+      "label": "Distributed Representations",
+      "quote": "We propose to fight the curse of dimensionality by learning a distributed representation for words which allows each training sentence to inform the model about an exponential number of semantically neighboring sentences.",
+      "source_ids": [
+        "src_048",
+        "src_002",
+        "src_017",
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Baby Tiger Metaphor",
+      "quote": "When you have a cute baby tiger and it's nice and fun, you don't know if it's going to become a dangerous adult tiger or a good friendly one.",
+      "source_ids": [
+        "src_024",
+        "src_029",
+        "src_033",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Disentangling Explanatory Factors",
+      "quote": "The job of deep learning is really to disentangle that mess in order to recover those high-level concepts.",
+      "source_ids": [
+        "src_045",
+        "src_002",
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 0.9905660377358491
+    },
+    {
+      "category": "mental_models",
+      "label": "Agentic vs. Non-Agentic AI",
+      "quote": "What we would like really from AI is to help us solve our problems... but that can be done by really intelligent tools that are not agents.",
+      "source_ids": [
+        "src_010",
+        "src_051"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6115107913669064
+    },
+    {
+      "category": "mental_models",
+      "label": "Probability Mass Allocation",
+      "quote": "I'm thinking of learning as taking probability mass from the training examples and somehow guessing where to put it elsewhere...",
+      "source_ids": [
+        "src_048",
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 0.9765625
+    },
+    {
+      "category": "mental_models",
+      "label": "The Nuclear Technology Analogy",
+      "quote": "Let’s make sure that we discuss these questions internationally just like we’ve done for nuclear power and nuclear weapons.",
+      "source_ids": [
+        "src_029",
+        "src_052"
+      ],
+      "verified": true,
+      "matched_source_id": "src_052",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Curriculum Learning",
+      "quote": "we don't take a six-year-old to university we first teach her simple things that she can grasp and then we build on top of the concepts that she has already learned",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Intelligence as a Multi-Dimensional Spectrum",
+      "quote": "Intelligence isn't just like one number. We have people who are very smart on some things and stupid on other things. And it's the same with AI.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Biological Intelligence Benchmark",
+      "quote": "But at the same time, if we compare these state-of-the-art systems to what humans can do, what a two-year-old can do, what a cat can do, we still have a lot of progress to make.",
+      "source_ids": [
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_022",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Explain, Don't Act",
+      "quote": "This system is designed to explain the world from observations, as opposed to taking actions in it to imitate or please humans.",
+      "source_ids": [
+        "src_010",
+        "src_051"
+      ],
+      "verified": true,
+      "matched_source_id": "src_051",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "The 0.1% Extinction Rule",
+      "quote": "if you’re doing something, say a scientific experiment, and it could turn out really, really bad, like people could die, some catastrophe could happen, then you should not do it.",
+      "source_ids": [
+        "src_033",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Caution with Inductive Biases",
+      "quote": "you have to be careful with inductive biases",
+      "source_ids": [
+        "src_005"
+      ],
+      "verified": true,
+      "matched_source_id": "src_005",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Data-Driven Progress Predictor",
+      "quote": "But clearly, in places where we have or will have data, it's going to go faster. Because AI needs large quantities of data to understand the material.",
+      "source_ids": [
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_022",
+      "match_ratio": 0.9933333333333333
+    },
+    {
+      "category": "heuristics",
+      "label": "Fight Exponentials with Exponentials",
+      "quote": "When you're attacked by an exponential just use more Exponential's to fight it right",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Fight Superintelligence with Superintelligence",
+      "quote": "When confronted with an enemy smarter than humans, it seems logical to employ assistance that also surpasses human intelligence.",
+      "source_ids": [
+        "src_037"
+      ],
+      "verified": true,
+      "matched_source_id": "src_037",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Intuition Precedes Math",
+      "quote": "don't be afraid by the math just you know just develop the intuitions and then the math become really easier to understand",
+      "source_ids": [
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_025",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Pause and Govern",
+      "quote": "We have to raise the flag, we need to pause, we need to think, we need to work around solutions and governance.",
+      "source_ids": [
+        "src_052"
+      ],
+      "verified": true,
+      "matched_source_id": "src_052",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "The Zero Training Error Check",
+      "quote": "train on the small data set and verify you can reach your training error quickly",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Baby Tiger Quote",
+      "quote": "The AI is learning from experience, and it's more like educating a young animal or a young child. We don't really know what we're going to get.",
+      "source_ids": [
+        "src_024",
+        "src_029",
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The 10% Gamble Quote",
+      "quote": "10% of catastrophic outcomes is not acceptable, right? The end of democracy or the end of humanity, a 10% gamble? No, we can't accept that.",
+      "source_ids": [
+        "src_029",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Definition of Alive Quote",
+      "quote": "I’m coming to the idea that we should consider alive any entity which is able to preserve itself and working towards preserving itself in spite of the obstacles on the road.",
+      "source_ids": [
+        "src_033",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Honest AI Quote",
+      "quote": "We're going to build AI systems that will be totally honest. And that means they don't have other objectives besides being truthful in the answers they give to our questions.",
+      "source_ids": [
+        "src_024",
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Safe by Construction Quote",
+      "quote": "Can we train those AI systems so that by construction they will not have bad intentions?",
+      "source_ids": [
+        "src_033",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Disentangling the Mess",
+      "quote": "The job of deep learning is really to disentangle that mess in order to recover those high-level concepts.",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 0.9905660377358491
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Fighting the Curse of Dimensionality",
+      "quote": "We propose to fight the curse of dimensionality by learning a distributed representation for words which allows each training sentence to inform the model about an exponential number of semantically neighboring sentences.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Humans Calling the Shots",
+      "quote": "We should be calling the shots, not the AIs. What are our preferences? What kind of future do we want?",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6176470588235294
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Intelligence as General Mechanisms",
+      "quote": "Intelligence is not just a huge bag of tricks and pieces of knowledge... but instead the result of general mechanisms to acquire knowledge.",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5971223021582733
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Intelligence is Not One Number",
+      "quote": "Intelligence isn't just like one number. We have people who are very smart on some things and stupid on other things. And it's the same with AI.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Science is About the 'Why'",
+      "quote": "it's the why that really matters that's what science is about it's why",
+      "source_ids": [
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_025",
+      "match_ratio": 0.9714285714285714
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Concentration of Power Quote",
+      "quote": "In the extreme, a few individuals controlling superhuman AIs would accrue a level of power never before seen in human history, a blatant contradiction with the very principle of democracy and a major threat to it.",
+      "source_ids": [
+        "src_037"
+      ],
+      "verified": true,
+      "matched_source_id": "src_037",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Danger of Agency-Driven AI",
+      "quote": "When I realized how dangerous the current agency-driven AI trajectory could be for future generations, I knew I had to do all I could to make AI safer.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Importance of Representation",
+      "quote": "The success of machine learning algorithms generally depends on data representation, and we hypothesize that this is because different representations can entangle and hide more or less the different explanatory factors of variation behind the data.",
+      "source_ids": [
+        "src_045"
+      ],
+      "verified": true,
+      "matched_source_id": "src_045",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Need for Mathematical Guardrails",
+      "quote": "As we move towards more powerful AI, it becomes urgent to better understand the risks, ideally in a mathematically rigorous and quantifiable way, and use that knowledge to mitigate them.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Precautionary Principle in AI",
+      "quote": "Following the precautionary principle, we see a strong need for safer, yet still useful, alternatives to the current agency-driven trajectory.",
+      "source_ids": [
+        "src_051"
+      ],
+      "verified": true,
+      "matched_source_id": "src_051",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Purpose of Education",
+      "quote": "Education contrary to what some people think isn't just about acquiring the skills to get a job. Education is in my opinion mostly about how to become a better human being.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Unpredictability of Science Quote",
+      "quote": "Not only is there no consensus among AI researchers about the future pace of AI advances, but there is also no scientific basis for making such predictions.",
+      "source_ids": [
+        "src_001"
+      ],
+      "verified": true,
+      "matched_source_id": "src_001",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Unacceptable Risk Thresholds",
+      "quote": "10% of something really really terrible is way too high.",
+      "source_ids": [
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 0.9821428571428571
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Imitation and Sycophancy Training",
+      "quote": "The main training signals in current frontier AIs all give rise to uncontrolled and misaligned agency, from trying to imitate people (current LLM pre-training) or pleasing people (current RLHF).",
+      "source_ids": [
+        "src_029",
+        "src_031",
+        "src_050"
+      ],
+      "verified": true,
+      "matched_source_id": "src_050",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Superficial Safety Patching",
+      "quote": "Right now, the way that this problem is being looked at is... 'We’re just going to patch some partial solutions that are going to work on a case-by-case basis.' But that’s going to fail.",
+      "source_ids": [
+        "src_033",
+        "src_021",
+        "src_050"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7419354838709677
+    },
+    {
+      "category": "anti_patterns",
+      "label": "The Unchecked AI Arms Race",
+      "quote": "Because of the heavy competition that exists between corporations and between countries around AI, we're not paying attention to these failure modes.",
+      "source_ids": [
+        "src_024",
+        "src_012",
+        "src_052"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Anthropomorphizing and Emotional Attachment",
+      "quote": "I think we should be careful not to get on the slippery slope on in which we are now to to develop AI that will play that role of emotional support... Humans feel the AI is like a person and AIS are not people.",
+      "source_ids": [
+        "src_029",
+        "src_021"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7904761904761904
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Precise AGI Timelines",
+      "quote": "The reality is that the best AI researchers cannot seriously make such predictions unless they see them as part of a science fiction movie.",
+      "source_ids": [
+        "src_001"
+      ],
+      "verified": true,
+      "matched_source_id": "src_001",
+      "match_ratio": 1.0
+    }
+  ]
+}

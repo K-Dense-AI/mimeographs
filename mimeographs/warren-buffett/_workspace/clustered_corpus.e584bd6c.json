@@ -1,0 +1,452 @@
+{
+  "expert_name": "Warren Buffett",
+  "themes": [
+    "Value Investing",
+    "Capital Allocation",
+    "Decentralized Management & Governance",
+    "Long-term Thinking",
+    "Intrinsic Value & Business Economics",
+    "Shareholder Partnership & Trust",
+    "Temperament & Psychology"
+  ],
+  "principles": [
+    {
+      "label": "Opportunistic Capital Allocation & Fortress Liquidity",
+      "summary": "Capital allocation should be opportunistic, not scheduled. Maintain massive liquidity to survive panics and capitalize on extraordinary opportunities when they arise.",
+      "details": "Investment opportunities do not appear in an orderly fashion. Forcing capital deployment on a timeline leads to buying mediocre assets at bad prices. Financial independence ensures survival during systemic panics and allows the company to act as a supplier of liquidity when others are desperate.",
+      "representative_quote": "We will always arrange our affairs so that any requirements for cash we may conceivably have will be dwarfed by our own liquidity.",
+      "source_ids": [
+        "src_021",
+        "src_056"
+      ]
+    },
+    {
+      "label": "Focus on Per-Share Intrinsic Value and ROE",
+      "summary": "Economic significance and managerial performance should be measured by the average annual rate of gain in intrinsic business value on a per-share basis and return on equity, not by overall corporate size or raw earnings per share.",
+      "details": "Because businesses customarily add to their equity base year to year through retained earnings, a simple increase in earnings per share is not noteworthy. Standard accounting principles often obscure true economic performance.",
+      "representative_quote": "Our long-term economic goal... is to maximize Berkshire’s average annual rate of gain in intrinsic business value on a per-share basis. We do not measure the economic significance or performance of Berkshire by its size; we measure by per-share progress.",
+      "source_ids": [
+        "src_046",
+        "src_069"
+      ]
+    },
+    {
+      "label": "Buy Businesses, Not Just Stocks, for the Long Term",
+      "summary": "Marketable equity securities should be selected in the exact same way one would evaluate a business for acquisition in its entirety, with the intention of holding them for decades.",
+      "details": "Buying a stock is buying a small piece of a business. It is unsound to become mesmerized by short-term stock price behavior or near-term earnings trends. A business needs time to evolve, and investors should seek ownership in quality companies capable of generating long-term earnings.",
+      "representative_quote": "We select our marketable equity securities in much the same way we would evaluate a business for acquisition in its entirety.",
+      "source_ids": [
+        "src_039",
+        "src_069"
+      ]
+    },
+    {
+      "label": "Extreme Managerial Autonomy and Trust",
+      "summary": "Grant managers extreme autonomy and avoid stifling bureaucracy. People are more productive and successful when authorized to exercise judgment and discretion.",
+      "details": "The invisible costs of slow decision-making in a bureaucracy are far worse than the visible costs of a few bad decisions made by independent managers. Know the details of the business intimately, but do not second-guess the managers.",
+      "representative_quote": "We would rather suffer the visible costs of a few bad decisions than incur the many invisible costs that come from decisions made too slowly – or not at all – because of a stifling bureaucracy.",
+      "source_ids": [
+        "src_036",
+        "src_056"
+      ]
+    },
+    {
+      "label": "Treat Shareholders as Owner-Partners",
+      "summary": "Shareholders should be viewed as owner-partners and the company merely as a conduit through which they own the assets, fostering a long-term, co-venturer relationship.",
+      "details": "This requires extreme candor in financial reporting, emphasizing both the pluses and minuses important in appraising business value. Shareholders deserve the same facts managers would want if their positions were reversed.",
+      "representative_quote": "Although our form is corporate, our attitude is partnership. Charlie Munger and I think of our shareholders as owner-partners, and of ourselves as managing partners.",
+      "source_ids": [
+        "src_046"
+      ]
+    },
+    {
+      "label": "Temperament and Emotional Discipline Trump Intellect",
+      "summary": "Emotional temperament and self-control are far more critical to investing success than raw intellect.",
+      "details": "Without emotional discipline and self-control, even highly intelligent people will make irrational decisions and experience disasters in the market. The fundamentals of analyzing securities do not change over time; what causes failure is a lack of discipline.",
+      "representative_quote": "The temperament is all important. I mean, if you can’t control yourself, no matter what the intellect you bring to the process, you’re going to have disasters.",
+      "source_ids": [
+        "src_013",
+        "src_039"
+      ]
+    },
+    {
+      "label": "Invest in Businesses with Economic Tailwinds",
+      "summary": "It is crucial to operate in businesses where underlying economic tailwinds prevail rather than headwinds.",
+      "details": "In a difficult, capital-intensive business with commodity products, even excellent management will likely only achieve modest results. In a good business, you can make mistakes and still achieve satisfactory overall performance.",
+      "representative_quote": "One of the lessons your management has learned - and, unfortunately, sometimes re-learned - is the importance of being in businesses where tailwinds prevail rather than headwinds.",
+      "source_ids": [
+        "src_069"
+      ]
+    },
+    {
+      "label": "Work with People You Admire in a Job You Love",
+      "summary": "Associate with people who are better than you and find a job you would hold even if you didn't need the money.",
+      "details": "Your life and career will naturally progress in the general direction of the people you work with, admire, and befriend. Working purely for money often leads to people quitting once they are rich, whereas finding work you genuinely enjoy leads to a better, longer, and more fulfilling life.",
+      "representative_quote": "what you're really looking for life is something where you've got a job that you'd hold if you didn't need the money",
+      "source_ids": [
+        "src_012",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Conservative Use of Debt",
+      "summary": "Use debt sparingly and reject interesting opportunities rather than over-leverage the balance sheet.",
+      "details": "Fiduciary obligations to policyholders, lenders, and equity holders demand conservatism. Risking what you have and need for what you don't have and don't need is unacceptable.",
+      "representative_quote": "The financial calculus that Charlie and I employ would never permit our trading a good night’s sleep for a shot at a few extra percentage points of return.",
+      "source_ids": [
+        "src_046"
+      ]
+    },
+    {
+      "label": "Welcome Major Market Declines as Buying Opportunities",
+      "summary": "Do not get excited by minor market volatility; wait for major drops to find true buying opportunities, and welcome them when they arrive.",
+      "details": "Falling stock prices present buying opportunities rather than reasons to panic. Historical context shows that the most significant buying opportunities only occur during massive market declines, such as drops of 50% or more.",
+      "representative_quote": "Three times since I took over, for sure it's gone down more than 50%. ... This is nothing to make you get excited",
+      "source_ids": [
+        "src_019",
+        "src_024"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Four-Filter Equity Selection",
+      "summary": "A four-step checklist for evaluating common stocks for investment, treating them as entire businesses.",
+      "details": "1. Ensure the business is one that you can understand. 2. Verify that the business has favorable long-term prospects. 3. Confirm the business is operated by honest and competent people. 4. Ensure the business is available at a very attractive price.",
+      "representative_quote": "We want the business to be (1) one that we can understand, (2) with favorable long-term prospects, (3) operated by honest and competent people, and (4) available at a very attractive price.",
+      "source_ids": [
+        "src_069"
+      ]
+    },
+    {
+      "label": "The Berkshire Acquisition Approach",
+      "summary": "A passive, trust-based approach to sourcing and acquiring new businesses.",
+      "details": "1. Wait for the phone to ring instead of using brokers or active outreach. 2. Read publicly available information to understand the business economics. 3. Sit down and talk to the people to assess trustworthiness and management quality. 4. Offer a commitment of permanent ownership and manager autonomy.",
+      "representative_quote": "I wait for the phone to ring.",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Capital Allocation Priorities",
+      "summary": "A strict hierarchy for deciding how to deploy corporate cash.",
+      "details": "1. Reinvest in the current business to deliver increased profit margins or organic growth. 2. Make acquisitions (add-ons, bolt-ons, or new businesses) if internal rates of return satisfy disciplined hurdle rates. 3. Reinvest in your own shares (buybacks) if the stock is trading below intrinsic value. 4. Distribute extra cash to shareholders as dividends if the first three options are exhausted.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Six-Step Value Investment Methodology",
+      "summary": "A quantitative and qualitative checklist for evaluating a company's intrinsic value and quality.",
+      "details": "1. Analyze Company Performance (consistent high ROE). 2. Evaluate Company Debt (low D/E ratio). 3. Check Profit Margins (high and increasing). 4. Verify Public History (public for at least 10 years, mechanics comprehended). 5. Assess Commodity Reliance (look for a 'protective moat'). 6. Determine if it's Cheap (intrinsic value > market cap).",
+      "representative_quote": null,
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Inversion",
+      "summary": "A problem-solving framework that involves identifying the ultimate goal, determining the exact actions or conditions that would guarantee failure, and strictly avoiding them.",
+      "details": "Inspired by the mathematician Jacobi. Useful when trying to solve difficult problems, evaluate risk, or plan for the future.",
+      "representative_quote": "“All I want to know is where I’m going to die, so I’ll never go there.” That bit of wisdom was inspired by Jacobi, the great Prussian mathematician, who counseled “Invert, always invert” as an aid to solving difficult problems.",
+      "source_ids": [
+        "src_056"
+      ]
+    },
+    {
+      "label": "The Retained Earnings Test",
+      "summary": "A test to evaluate whether to retain earnings within the business or distribute them to shareholders.",
+      "details": "Evaluate performance on a five-year rolling basis: (1) did the book-value gain exceed the performance of the S&P 500 during that period, and (2) did the stock consistently sell at a premium to book value, proving that every $1 retained was valued by the market at more than $1?",
+      "representative_quote": "The five-year test should be: (1) during the period did our book-value gain exceed the performance of the S&P; and (2) did our stock consistently sell at a premium to book, meaning that every $1 of retained earnings was always worth more than $1?",
+      "source_ids": [
+        "src_046"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Voting Machine vs. Weighing Machine",
+      "summary": "A metaphor for the stock market: in the short term, it fluctuates based on popularity and sentiment (voting), but in the long term, it reflects a company's true intrinsic value and ability to generate earnings (weighing).",
+      "details": null,
+      "representative_quote": "In the short run, the market is a voting machine, but in the long run, it is a weighing machine.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Protective Moat",
+      "summary": "A competitive advantage or characteristic that is hard for competitors to replicate, protecting a company's long-term profits and market share.",
+      "details": "The wider the moat, the tougher it is for a competitor to gain market share. Avoid companies whose products are indistinguishable from competitors or that rely solely on a commodity.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Circle of Competence",
+      "summary": "Knowing the boundary between what you know and are good at versus what you don't know and should avoid.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_036",
+        "src_039"
+      ]
+    },
+    {
+      "label": "Insurance Float",
+      "summary": "A 'collect-now, pay-later' model where an insurer holds large sums of money that will eventually be paid out in claims, acting as cost-free leverage if underwriting is profitable.",
+      "details": "In the interim, the company can invest this money for its own benefit. If the company operates at an underwriting profit, holding this float is effectively cost-free, acting like a massive, interest-free deposit.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_056"
+      ]
+    },
+    {
+      "label": "The Market as an Auction / Supermarket",
+      "summary": "Viewing a depressed stock market not as a cause for panic, but as a discount mechanism that benefits net buyers of businesses and stocks.",
+      "details": "The stock market is an auction that occasionally offers pro-rata portions of outstanding businesses at huge discounts compared to the valuations those same businesses would command in negotiated corporate acquisitions.",
+      "representative_quote": "Overall, Berkshire and its long-term shareholders benefit from a sinking stock market much as a regular purchaser of food benefits from declining food prices.",
+      "source_ids": [
+        "src_046",
+        "src_069"
+      ]
+    },
+    {
+      "label": "Intrinsic Value vs. Book Value",
+      "summary": "Book value is the historical cost of an asset, while intrinsic value is the discounted value of the cash that can be taken out of it over its remaining life. They are rarely the same.",
+      "details": "Analogy: The 'book value' of a college education is its cost plus foregone earnings. Its 'intrinsic value' is the discounted excess earnings the graduate will receive over their lifetime compared to what they would have earned without it.",
+      "representative_quote": "Intrinsic value can be defined simply: It is the discounted value of the cash that can be taken out of a business during its remaining life.",
+      "source_ids": [
+        "src_046"
+      ]
+    },
+    {
+      "label": "Tailwinds vs. Headwinds",
+      "summary": "A metaphor for the underlying economic characteristics of an industry. A business with 'tailwinds' can succeed despite mistakes, while a business with 'headwinds' will struggle despite excellent management.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_069"
+      ]
+    },
+    {
+      "label": "The Son-in-Law / Executor Test",
+      "summary": "A mental model for evaluating a potential business partner's trustworthiness by asking if you would be happy having this person marry your child or administer your will.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_036"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Invert, always invert",
+      "summary": "When faced with a difficult problem, figure out how to guarantee failure, and then avoid doing those things.",
+      "details": null,
+      "representative_quote": "Invert, always invert.",
+      "source_ids": [
+        "src_056"
+      ]
+    },
+    {
+      "label": "The 10-Year Rule",
+      "summary": "If you aren't willing to own a stock for 10 years, don't even think about owning it for 10 minutes.",
+      "details": null,
+      "representative_quote": "If you aren't willing to own a stock for 10 years, don't even think about owning it for 10 minutes.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Zero Tolerance for Untrustworthiness",
+      "summary": "At the slightest whiff of lack of trustworthiness in a potential partner or manager, walk away immediately.",
+      "details": null,
+      "representative_quote": "At the slightest whiff of lack of trustworthiness, go away.",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Delegate to the Point of Abdication",
+      "summary": "Give managers extreme autonomy and stay out of their way once you trust them.",
+      "details": null,
+      "representative_quote": "We delegate almost to the point of abdication.",
+      "source_ids": [
+        "src_046"
+      ]
+    },
+    {
+      "label": "Associate Upwards",
+      "summary": "Hang out with people that are better than you are, because your life will progress in their direction.",
+      "details": null,
+      "representative_quote": "Hang out with people that are better than you are.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "The 5-Second Decision",
+      "summary": "You have to be willing to hang up after 5 seconds and you have to be willing to say yes after 5 seconds when a rare opportunity presents itself.",
+      "details": null,
+      "representative_quote": "The main thing is you have to be willing to hang up after 5 seconds and you have to be willing to say yes after 5 seconds. You can't be filled with self-doubt in this business.",
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "Wait for the Phone to Ring",
+      "summary": "Let acquisition opportunities come to you rather than actively chasing them through brokers.",
+      "details": null,
+      "representative_quote": "Wait for the phone to ring.",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Eat Your Own Cooking",
+      "summary": "Managers should have their own net worth heavily invested alongside their shareholders.",
+      "details": null,
+      "representative_quote": "We eat our own cooking.",
+      "source_ids": [
+        "src_046"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Voting vs. Weighing Machine",
+      "summary": "A famous paraphrase of Benjamin Graham explaining why short-term market intricacies should be ignored.",
+      "details": null,
+      "representative_quote": "In the short run, the market is a voting machine, but in the long run, it is a weighing machine.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Temperament Over Intellect",
+      "summary": "Explaining why emotional discipline matters more than IQ in investing.",
+      "details": null,
+      "representative_quote": "The temperament is all important. I mean, if you can’t control yourself, no matter what the intellect you bring to the process, you’re going to have disasters.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Attitude of Partnership",
+      "summary": "Explaining the foundational relationship between Berkshire's management and its shareholders.",
+      "details": null,
+      "representative_quote": "Although our form is corporate, our attitude is partnership.",
+      "source_ids": [
+        "src_046"
+      ]
+    },
+    {
+      "label": "Visible vs. Invisible Costs",
+      "summary": "Explaining the rationale behind Berkshire's highly decentralized management structure.",
+      "details": null,
+      "representative_quote": "We would rather suffer the visible costs of a few bad decisions than incur the many invisible costs that come from decisions made too slowly – or not at all – because of a stifling bureaucracy.",
+      "source_ids": [
+        "src_056"
+      ]
+    },
+    {
+      "label": "Trading Sleep for Returns",
+      "summary": "Explaining Berkshire's extreme conservatism regarding the use of debt.",
+      "details": null,
+      "representative_quote": "The financial calculus that Charlie and I employ would never permit our trading a good night’s sleep for a shot at a few extra percentage points of return.",
+      "source_ids": [
+        "src_046"
+      ]
+    },
+    {
+      "label": "Kindness of Strangers",
+      "summary": "Explaining Berkshire's strict policy on maintaining massive liquidity.",
+      "details": null,
+      "representative_quote": "We will never become dependent on the kindness of strangers. Too-big-to-fail is not a fallback position at Berkshire.",
+      "source_ids": [
+        "src_056"
+      ]
+    },
+    {
+      "label": "Working for Love, Not Money",
+      "summary": "Advising young people on how to choose their career path.",
+      "details": null,
+      "representative_quote": "what you're really looking for life is something where you've got a job that you'd hold if you didn't need the money",
+      "source_ids": [
+        "src_012"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Managing to Quarterly Earnings Targets",
+      "summary": "Managing a business or providing guidance to hit quarterly or annual earnings targets.",
+      "details": "It inevitably tempts management to manipulate accounting numbers rather than focusing on the long-term reality of the business. It creates perverse incentives for the troops to meet short-term goal posts at the expense of long-term product development and value.",
+      "representative_quote": "If you start focusing on what number you're going to produce, you will quickly get tempted to play around with the numbers and sometimes seriously play around with the numbers.",
+      "source_ids": [
+        "src_021",
+        "src_036",
+        "src_046"
+      ]
+    },
+    {
+      "label": "Bureaucratic Command-and-Control Management",
+      "summary": "Micromanaging subsidiaries with committees, budget presentations, and multiple layers of management.",
+      "details": "Strict reporting structures and manuals limit employee creativity, discretion, and willingness to reach for better outcomes. It creates a stifling bureaucracy that causes decisions to be made too slowly or not at all.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_036",
+        "src_056"
+      ]
+    },
+    {
+      "label": "Forced or Scheduled Capital Deployment",
+      "summary": "Investing on a forced timeline rather than waiting for great opportunities.",
+      "details": "Markets do not offer attractive opportunities on a predictable schedule. Forcing capital deployment leads to buying mediocre assets at bad prices.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "Investing Outside Your Circle of Competence",
+      "summary": "Investing in exciting, rapidly growing industries without predictable competitive dynamics, or businesses you do not fully understand.",
+      "details": "Dramatic industry growth attracts a host of competitors battling for supremacy, which decimates profit margins and returns on capital. If you don't comprehend the mechanics of the business, you cannot accurately analyze its stocks.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_039",
+        "src_056"
+      ]
+    },
+    {
+      "label": "Risking What You Have for What You Don't Need",
+      "summary": "Risking what you already have and need in pursuit of something you do not need.",
+      "details": "It is an 'insane' risk-reward proposition driven by greed rather than logic, often manifesting as over-leverage or participating in speculative frenzies.",
+      "representative_quote": "I’ve never believed in risking what my family and friends have and need in order to pursue what they don’t have and don’t need.",
+      "source_ids": [
+        "src_024",
+        "src_046"
+      ]
+    },
+    {
+      "label": "Issuing Undervalued Stock",
+      "summary": "Issuing undervalued stock to raise capital or make acquisitions.",
+      "details": "Owners unfairly lose if their managers deliberately sell assets for 80¢ that in fact are worth $1. It destroys per-share intrinsic value for existing shareholders.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_046"
+      ]
+    },
+    {
+      "label": "Panic Selling During Market Declines",
+      "summary": "Panicking and selling holdings when they falter or the broader market drops.",
+      "details": "Markets naturally correct, and quality businesses will recover over time. Selling during a downturn prevents you from capitalizing on long-term growth and violates the principle of buying businesses for the long haul.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_039"
+      ]
+    }
+  ]
+}

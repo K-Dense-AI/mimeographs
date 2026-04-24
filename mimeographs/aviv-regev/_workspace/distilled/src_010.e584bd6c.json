@@ -1,0 +1,65 @@
+{
+  "source_id": "src_010",
+  "summary": "In the abstract for her 2026 Francis Crick Lecture, Aviv Regev outlines her vision for integrating generative AI with single-cell and spatial genomics. She argues that the vast space of therapeutic possibilities cannot be explored through traditional empirical methods alone or by restricting searches to prior knowledge. Instead, she advocates for a 'Lab in a Loop' approach, where generative AI and physical experiments iteratively inform and improve one another to accelerate drug discovery.",
+  "themes": [
+    "Single-cell genomics",
+    "Generative AI in biology",
+    "Drug discovery and development",
+    "Computational biology"
+  ],
+  "principles": [
+    {
+      "statement": "The space of genetic and therapeutic possibilities is too vast to be explored purely through empirical testing.",
+      "rationale": "The number of possibilities exceeds by many orders of magnitude what can ever be tested in a physical lab, a clinical trial, or even across an entire population.",
+      "source_quote": "...there is an enormous space of genetic and therapeutic possibilities, which exceeds by many orders of magnitude what can ever be tested in a lab, clinical trial, or even an entire population.",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Generative AI must be used to augment biological atlases by predicting missing or nonexistent information.",
+      "rationale": "AI can bridge different layers of biology (like H&E and molecular information), predict disease progression, and generate therapeutic molecules de novo, overcoming the limitations of relying solely on prior knowledge.",
+      "source_quote": "Instead, to augment these atlases, generative AI can make testable predictions of missing or nonexistent information, for example bridging different layers of biology...",
+      "source_id": "src_010"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Lab in a Loop",
+      "when_to_apply": "When navigating enormous spaces of genetic and therapeutic possibilities to discover and develop new drugs.",
+      "steps": [
+        "Use experimental or clinical data to train computational models.",
+        "Use the trained models to predict the next set of experiments to run.",
+        "Iterate the process at scale to yield specific project predictions and globally improve the model."
+      ],
+      "source_quote": "...scientists use experimental or clinical data to train models, the models are used to predict the next set of experiments, and the process is iterated, at scale...",
+      "source_id": "src_010"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Lab in a Loop",
+      "description": "An integrated, iterative interplay between experiments, data, and algorithms. Rather than treating computational analysis as a final step, empirical data continuously trains AI models, and those models dictate the next physical experiments to run.",
+      "example": "Building this loop across Genentech's target discovery, drug discovery, and drug development efforts to generate therapeutic molecules de novo or through optimization.",
+      "source_id": "src_010"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "...there is an enormous space of genetic and therapeutic possibilities, which exceeds by many orders of magnitude what can ever be tested in a lab, clinical trial, or even an entire population.",
+      "context": "Explaining the fundamental bottleneck in modern genomics and drug discovery.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "Key to the success of this approach is an integrated interplay between experiments, data and algorithms, or a “Lab in a Loop”...",
+      "context": "Describing the necessary operational model for AI-driven drug discovery.",
+      "source_id": "src_010"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Restricting the search space of genetic and therapeutic possibilities based solely on prior knowledge.",
+      "why_it_fails": "While practical historically, it severely limits the ability to make new discoveries and effective predictions because the true possibility space is much larger than what is already known.",
+      "source_id": "src_010"
+    }
+  ]
+}

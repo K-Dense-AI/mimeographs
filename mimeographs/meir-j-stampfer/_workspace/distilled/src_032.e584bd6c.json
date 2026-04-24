@@ -1,0 +1,34 @@
+{
+  "source_id": "src_032",
+  "summary": "A brief 2003 article snippet by Walter C. Willett and Meir J. Stampfer arguing that the original Food Pyramid was flawed. They assert that the old guidelines misled the public by failing to distinguish between healthy and unhealthy fats and carbohydrates.",
+  "themes": [
+    "Nutrition",
+    "Dietary Guidelines",
+    "Fats and Carbohydrates"
+  ],
+  "principles": [
+    {
+      "statement": "Dietary guidelines must distinguish between different types of fats and carbohydrates.",
+      "rationale": "Treating all fats as bad and all carbohydrates as good is scientifically inaccurate and harms heart health.",
+      "source_quote": "Some fats are healthy for the heart, and many carbohydrates clearly are not",
+      "source_id": "src_032"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "The dietary guide introduced a decade ago has led people astray. Some fats are healthy for the heart, and many carbohydrates clearly are not",
+      "context": "Discussing the need to rebuild the USDA Food Pyramid in 2003.",
+      "source_id": "src_032"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Following the original Food Pyramid introduced in the early 1990s.",
+      "why_it_fails": "It leads people astray by failing to differentiate between heart-healthy fats and harmful carbohydrates.",
+      "source_id": "src_032"
+    }
+  ]
+}

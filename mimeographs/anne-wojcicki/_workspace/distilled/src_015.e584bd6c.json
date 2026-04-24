@@ -1,0 +1,91 @@
+{
+  "source_id": "src_015",
+  "summary": "Anne Wojcicki discusses the founding vision of 23andMe, emphasizing the need to empower consumers with their genetic data outside the traditional healthcare system. She highlights how proactive access to genetic information can prevent adverse drug reactions, motivate lifestyle changes, and fuel 'Research 2.0' by combining genotype data with crowdsourced phenotypic surveys.",
+  "themes": [
+    "Consumer Empowerment",
+    "Preventative Medicine",
+    "Genetics",
+    "Research 2.0",
+    "Healthcare Disruption"
+  ],
+  "principles": [
+    {
+      "statement": "True healthcare change must happen outside the traditional system.",
+      "rationale": "The current system underutilizes the consumer and prioritizes systemic cost over individual proactive care. Empowering individuals requires building a platform independent of the existing medical establishment.",
+      "source_quote": "we didn't think that we could actually make change happen from within the system we said we need to actually create something that's totally outside of the system that's going to give all of us power to make a difference",
+      "source_id": "src_015"
+    },
+    {
+      "statement": "Individuals must have access to their health information ahead of time to enable preventative care.",
+      "rationale": "Waiting for a disease to manifest or a drug to fail is reactive. Knowing genetic risks early allows for behavioral changes, proper drug dosing, and true preventative medicine.",
+      "source_quote": "we're never going to get to that that era of preventative care if I can't find out ahead of time what do you know what am I actually at risk for",
+      "source_id": "src_015"
+    },
+    {
+      "statement": "Knowing your genetic risks is a powerful motivator for healthy behavior.",
+      "rationale": "Discovering a high risk for a disease like Parkinson's can prompt immediate, tangible lifestyle improvements like diet and exercise.",
+      "source_quote": "this has actually been a huge kick in the butt... now he suddenly quite fit um he works out every day he rides his bike he actually watches what he eats he's really worried about it",
+      "source_id": "src_015"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Research 2.0",
+      "when_to_apply": "When trying to discover new genotype-phenotype correlations at scale and accelerate clinical trials.",
+      "steps": [
+        "Provide individuals with direct access to their genetic information.",
+        "Enable users to fill out self-reported surveys about their traits, habits, and health.",
+        "Aggregate the genotype and phenotype data into a massive, searchable database.",
+        "Analyze the combined data to find novel genetic associations and potential preventative therapies."
+      ],
+      "source_quote": "what we're trying to do is you get access to your genetic information and then you have the ability to fill out a survey and 23 and me has a whole science team that's now trying to say we get all your genetics we get all the results from your survey information now we're going to start trying to understand what does this genetic information mean",
+      "source_id": "src_015"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Predictive vs. Trial-and-Error Dosing",
+      "description": "Contrasting the traditional healthcare system's approach of testing a drug's efficacy by observing patient reactions (trial-and-error) against using genetic markers to predict drug response before administration.",
+      "example": "Using genetic testing to determine Warfarin sensitivity or Plavix efficacy before prescribing, avoiding dangerous bleeding or secondary coronary events.",
+      "source_id": "src_015"
+    }
+  ],
+  "heuristics": [
+    "Test for drug efficacy and risk ahead of time rather than waiting for a treatment to fail.",
+    "Never judge someone's genetic risk or ancestry by their physical appearance."
+  ],
+  "signature_quotes": [
+    {
+      "text": "we didn't think that we could actually make change happen from within the system we said we need to actually create something that's totally outside of the system that's going to give all of us power to make a difference",
+      "context": "Explaining the founding motivation behind 23andMe.",
+      "source_id": "src_015"
+    },
+    {
+      "text": "we're never going to get to that that era of preventative care if I can't find out ahead of time what do you know what am I actually at risk for",
+      "context": "Arguing for the necessity of predictive genetic testing.",
+      "source_id": "src_015"
+    },
+    {
+      "text": "as an individual I want that opportunity now to actually take more control over my health and that's fundamentally what we think is that there should be more and more of these opportunities",
+      "context": "Discussing the desire to bypass the insurance system's trial-and-error approach to drug dosing.",
+      "source_id": "src_015"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on trial-and-error drug dosing because it is cheaper for the insurance system.",
+      "why_it_fails": "It puts the individual at risk of severe adverse events, like bleeding to death from Warfarin or having another acute coronary syndrome on Plavix, which could be avoided with prior genetic testing.",
+      "source_id": "src_015"
+    },
+    {
+      "description": "Withholding genetic risk information because there is no current cure or actionable medical intervention.",
+      "why_it_fails": "It ignores the patient's ability to make proactive lifestyle changes (like diet and exercise) or participate in research to find preventative therapies.",
+      "source_id": "src_015"
+    },
+    {
+      "description": "Assuming someone's ancestry or genetic risk based on their physical appearance.",
+      "why_it_fails": "Visual appearance is a poor indicator of actual genetic makeup, leading to missed screening opportunities for specific populations.",
+      "source_id": "src_015"
+    }
+  ]
+}

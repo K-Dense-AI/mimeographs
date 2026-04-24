@@ -1,0 +1,115 @@
+{
+  "source_id": "src_010",
+  "summary": "Ronald C. Kessler discusses the critical need for an epidemiological perspective in clinical psychiatry to improve treatment outcomes. He argues that while psychiatric treatments are effective, the current trial-and-error approach leads to high patient dropout and tragic outcomes like suicide. To achieve precision medicine, he advocates for massive observational studies, comprehensive predictor sets, and machine learning to match the right patient to the right treatment immediately.",
+  "themes": [
+    "Precision Medicine",
+    "Psychiatric Epidemiology",
+    "Clinical Trial Design",
+    "Treatment Attrition",
+    "Machine Learning in Healthcare",
+    "Comparative Effectiveness Research"
+  ],
+  "principles": [
+    {
+      "statement": "Treatment persistence is the primary driver of high remission rates in mental health.",
+      "rationale": "While only about 30-50% of patients are helped by their first treatment, cumulative success can reach 90% if patients persist through up to five different providers or treatments. The main reason treatments fail at a population level is patient attrition.",
+      "source_quote": "the reason that there's the discrepancy between the 50% who are helped and the 90% who could be helped because people quit people give up",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Precision psychiatry requires massive sample sizes that traditional clinical trials cannot feasibly provide.",
+      "rationale": "Detecting the complex interaction effects needed to match specific patients to specific treatments requires immense statistical power. Small trials merely replicate noise. Therefore, psychiatry must rely on comparative effectiveness research using large-scale observational data.",
+      "source_quote": "precision treatment studies in psychiatry in particular are just hopelessly underpowered... the minimum number of cases we need per arm is 300",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Scalable, inexpensive predictors should be exhausted before relying on expensive biomarkers.",
+      "rationale": "Simple data points like self-reported adherence scales, natural language processing of clinical notes, or local unemployment rates can be highly predictive of treatment success. It is wasteful to use expensive pharmacogenomic tests when inexpensive data already dictates the optimal path.",
+      "source_quote": "we can with a series of relatively inexpensive tests of self-report measures right now say that some very inexpensive EC BT PTSD coach... is going to work well for that patient we shouldn't be doing a 350 dollar pharmacogenomic test",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "The best clinical decisions come from human-computer collaboration, not either in isolation.",
+      "rationale": "Computers can process vast amounts of variables and patients will sometimes disclose things to computers they hide from humans. However, algorithms work best when acting as decision support tools that interact with thoughtful clinicians.",
+      "source_quote": "it's not just a computer by itself it's the computer interacting with the thoughtful humans that makes the best decisions",
+      "source_id": "src_010"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Four Requirements for Precision Treatment Research",
+      "when_to_apply": "When designing studies or systems intended to match mental health patients to their optimal treatments.",
+      "steps": [
+        "Gather comprehensive predictor sets, including long baseline assessments, scalable biomarkers, and non-traditional data like small-area geocodes.",
+        "Make comprehensive comparisons across the full range of available treatments, rather than just comparing two options.",
+        "Utilize much bigger sample sizes, typically through comparative effectiveness research based on observational data with embedded pragmatic trials.",
+        "Apply improved statistical methods, such as ensemble machine learning algorithms, to develop optimal precision stepped care systems."
+      ],
+      "source_quote": "The what we need to do to move forward in this line of work is four things... comprehensive predictor sets... comprehensive comparisons across the full range of available treatments... much much bigger sample sizes... improved statistical methods to develop optimal precision step care systems",
+      "source_id": "src_010"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Centaur Model (Kasparov's Chess)",
+      "description": "A lens for viewing clinical decision support systems. Just as Gary Kasparov was beaten by a combination of a computer and human chess masters working together, the future of psychiatry relies on algorithms augmenting human clinicians rather than replacing them.",
+      "example": "Implementing a precision treatment rule in Taiwan for first-episode schizophrenia, where the algorithm uses 30,000 past cases to suggest an optimal medication, but serves only as an adjunct clinical decision support tool for the prescribing doctor.",
+      "source_id": "src_010"
+    },
+    {
+      "name": "Trial-and-Error vs. Precision Matching",
+      "description": "Contrasting the current standard of care (guessing a treatment, waiting for failure, and hoping the patient doesn't drop out) with precision matching (using baseline data to predict the optimal treatment on day one to prevent fatal attrition).",
+      "example": "Instead of giving a depressed veteran a random SSRI and waiting to see if they adhere to it, administering a two-minute adherence scale beforehand to immediately assign non-adherent profiles to case management.",
+      "source_id": "src_010"
+    }
+  ],
+  "heuristics": [
+    "To get 90% of patients to remission, you must design systems that keep them engaged through up to five different treatment attempts.",
+    "One of the strongest predictors of a psychotropic medication working is simply whether the patient actually takes it.",
+    "If a clinical trial for precision psychiatry has fewer than 300 patients per arm, it is hopelessly underpowered."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The reason that there's the discrepancy between the 50% who are helped and the 90% who could be helped because people quit people give up.",
+      "context": "Explaining why overall remission rates in the population remain stagnant despite the availability of effective treatments.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "If we break an arm there's only one thing we can do you go to the ER you get your arm set but if you have depression you can go to a minister or a social worker or a licensed mental health professional...",
+      "context": "Highlighting the complexity and variety of treatment options in mental health compared to physical injuries.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "It's surprising to me as an outsider coming into the clinical world there's a lot of deep thinking but there's often a absence of common sense.",
+      "context": "Commenting on how simple predictors, like whether a patient will actually take their medication, are often ignored in favor of complex biological theories.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "If you only have 80 people for arms you're not gonna be able to see the signal and there's nothing to replicate you're just going to be replicating a bunch of noise.",
+      "context": "Criticizing the standard practice of running small, underpowered preliminary clinical trials in psychiatry.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "It's not just a computer by itself it's the computer interacting with the thoughtful humans that makes the best decisions.",
+      "context": "Describing the ideal implementation of machine learning in clinical practice.",
+      "source_id": "src_010"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Conducting small, underpowered clinical trials to find precision treatment predictors.",
+      "why_it_fails": "Detecting interaction effects (which treatment works for which specific patient profile) requires massive statistical power. Small trials just capture and replicate statistical noise.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Relying exclusively on expensive biomarkers (like neuroimaging or pharmacogenomics) for precision medicine.",
+      "why_it_fails": "It ignores highly predictive, scalable, and inexpensive data sources like self-report scales, clinical notes, and geocoded community data (e.g., local unemployment rates).",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Treating mental disorders as acute conditions rather than chronic, recurrent ones.",
+      "why_it_fails": "It leads to a lack of measurement-based care and long-term follow-up, meaning clinicians have no idea if the patient actually remitted or relapsed six months after discharge.",
+      "source_id": "src_010"
+    }
+  ]
+}

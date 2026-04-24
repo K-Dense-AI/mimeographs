@@ -1,0 +1,34 @@
+{
+  "source_id": "src_000",
+  "summary": "The source is a corporate 'About Us' page for SHI International. It outlines the company's IT solutions, history, and scale, featuring a single guiding philosophy from CEO Thai Lee on customer engagement.",
+  "themes": [
+    "Customer Service",
+    "IT Solutions",
+    "Business Growth"
+  ],
+  "principles": [
+    {
+      "statement": "Engage in conversations with customers rather than treating them as targets.",
+      "rationale": "By talking to customers, you can truly understand their current state and future goals, which is necessary to help them select, deploy, and manage the right technology.",
+      "source_quote": "We don't 'target' customers, we talk to them. We understand where they are and where they need to go.",
+      "source_id": "src_000"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "We don't 'target' customers, we talk to them. We understand where they are and where they need to go. Then we help them select, deploy, and manage the technology that will get them there.",
+      "context": "Describing SHI's core approach to customer service and technology consulting.",
+      "source_id": "src_000"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "\"Targeting\" customers.",
+      "why_it_fails": "It treats customers as objects to acquire rather than partners to understand, missing the crucial step of learning where they are and where they need to go.",
+      "source_id": "src_000"
+    }
+  ]
+}

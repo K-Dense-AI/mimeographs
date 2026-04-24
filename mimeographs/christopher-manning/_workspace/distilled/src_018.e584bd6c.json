@@ -1,0 +1,57 @@
+{
+  "source_id": "src_018",
+  "summary": "A collection of X (Twitter) posts by Christopher Manning where he expresses skepticism about near-term AGI timelines, criticizes Effective Altruism-driven AI doomerism, and comments on the intersection of machine learning and traditional algorithms.",
+  "themes": [
+    "Artificial General Intelligence (AGI)",
+    "AI Doomerism",
+    "Effective Altruism",
+    "Machine Learning",
+    "AI Industry"
+  ],
+  "principles": [
+    {
+      "statement": "Human-level AI is not close at hand.",
+      "rationale": "Historical predictions of imminent AGI have been consistently wrong, and current rhetoric mirrors the overly optimistic claims of the 1970s.",
+      "source_quote": "I do not believe human-level AI (artificial superintelligence, or the commonest sense of \\ ) is close at hand. AI has made breakthroughs, but the claim of AGI by 2030 is as laughable as claims of AGI by 1980 are in retrospect.",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "America should not overestimate its exclusivity in AI breakthroughs.",
+      "rationale": "While the US is the center of the AI industry, claiming every major breakthrough is American is an overstatement.",
+      "source_quote": "America does itself no favors when it overestimates its specialness.",
+      "source_id": "src_018"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "I do not believe human-level AI (artificial superintelligence, or the commonest sense of \\ ) is close at hand.",
+      "context": "Discussing AGI timelines and pushing back against claims of AGI by 2030.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "Machine Learning just ate Algorithms in one large bite...",
+      "context": "Commenting on a 2017 Google paper about learned index structures replacing traditional algorithms.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "America does itself no favors when it overestimates its specialness.",
+      "context": "Responding to claims that every major AI breakthrough is American.",
+      "source_id": "src_018"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Believing in near-term AGI timelines (e.g., AGI by 2030).",
+      "why_it_fails": "It ignores the historical reality that similar rhetoric in the past (like in the 1970s) proved completely wrong.",
+      "source_id": "src_018"
+    },
+    {
+      "description": "Making governance or leadership decisions based on 'EA-infused fantasy lands' or AI doomerism.",
+      "why_it_fails": "It leads to irrational fears, such as believing there is a 50/50 chance everyone gets 'paperclipped & dies', which undermines sound leadership.",
+      "source_id": "src_018"
+    }
+  ]
+}

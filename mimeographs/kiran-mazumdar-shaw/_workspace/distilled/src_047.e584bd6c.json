@@ -1,0 +1,83 @@
+{
+  "source_id": "src_047",
+  "summary": "In her Giving Pledge letter, Kiran Mazumdar-Shaw outlines her commitment to dedicating the majority of her wealth to philanthropy. She emphasizes the role of innovation and commerce in driving social progress, specifically focusing on creating affordable healthcare and cancer care models for the developing world.",
+  "themes": [
+    "Philanthropy",
+    "Affordable Healthcare",
+    "Social Progress",
+    "Compassionate Capitalism",
+    "Technological Leapfrogging"
+  ],
+  "principles": [
+    {
+      "statement": "Wealth creation is fundamentally about making a difference to society.",
+      "rationale": "Raised with this belief, she used it as the guiding principle for building Biocon, ensuring that entrepreneurial success translates into a commitment to social inclusiveness.",
+      "source_quote": "Having grown up in a middle class family in India, I was brought up by my parents to believe that wealth creation is about making a difference to society.",
+      "source_id": "src_047"
+    },
+    {
+      "statement": "Innovation and commerce are powerful drivers of social progress.",
+      "rationale": "Business and technological advancement should not exist solely for profit; they have equal power to drive societal advancement and solve global challenges.",
+      "source_quote": "I believe innovation and commerce are as powerful for driving technological advancement as they are for creating social progress.",
+      "source_id": "src_047"
+    },
+    {
+      "statement": "Healthcare innovation must focus on affordability to truly make a global impact.",
+      "rationale": "Debilitating diseases impose unbearable financial burdens in poor countries, often pushing patients into poverty. Solutions must lower treatment costs while improving outcomes.",
+      "source_quote": "I would like to be remembered as someone who made a difference to global healthcare through affordable innovation.",
+      "source_id": "src_047"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Affordable Cancer Care Model",
+      "when_to_apply": "When designing healthcare solutions for debilitating diseases in developing countries to prevent financial ruin for patients.",
+      "steps": [
+        "Leverage economies of scale to reduce the per-patient cost of treatment.",
+        "Focus heavily on early-stage diagnosis to make treatments more effective and less resource-intensive.",
+        "Combine therapeutic and diagnostic innovations to enable personalized and precision medicine."
+      ],
+      "source_quote": "The affordable cancer care model relies on economics of scale and early stage diagnosis.",
+      "source_id": "src_047"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Compassionate Capitalism",
+      "description": "Using the tools of capitalism, such as economies of scale and commercial innovation, to solve social problems and provide affordable services rather than solely maximizing profit.",
+      "example": "Partnering with Dr. Devi Shetty to create a 1,400-bed cancer center that relies on economies of scale to provide affordable care to patients in India.",
+      "source_id": "src_047"
+    },
+    {
+      "name": "Technological Leapfrogging",
+      "description": "Using technology to bypass broken or inadequate legacy systems rather than trying to incrementally fix them.",
+      "example": "Transforming rural Primary Health Centres into telemedicine-enabled centers to bridge the medical resource deficit, bypassing the failed present system.",
+      "source_id": "src_047"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "I believe innovation and commerce are as powerful for driving technological advancement as they are for creating social progress.",
+      "context": "Explaining her philosophy as a first-generation entrepreneur and founder of a biopharmaceutical company.",
+      "source_id": "src_047"
+    },
+    {
+      "text": "I would like to be remembered as someone who made a difference to global healthcare through affordable innovation.",
+      "context": "Concluding her Giving Pledge letter with her ultimate legacy goal.",
+      "source_id": "src_047"
+    },
+    {
+      "text": "Having grown up in a middle class family in India, I was brought up by my parents to believe that wealth creation is about making a difference to society.",
+      "context": "Describing the foundational values that guided her in building Biocon.",
+      "source_id": "src_047"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on the existing healthcare infrastructure to provide basic medical rights in developing nations.",
+      "why_it_fails": "The present system has \"failed miserably\" to provide basic healthcare, requiring new, scalable, technology-enabled models to leapfrog the deficit of medical resources.",
+      "source_id": "src_047"
+    }
+  ]
+}

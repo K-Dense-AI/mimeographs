@@ -1,0 +1,109 @@
+{
+  "source_id": "src_026",
+  "summary": "An overview of Confucianism, focusing on Confucius's core teachings regarding virtue, social harmony, and ritual. It details his emphasis on the rectification of names, the cultivation of the 'junzi' (superior person), and the reciprocal nature of social relationships.",
+  "themes": [
+    "Virtue Ethics",
+    "Social Harmony",
+    "Ritual (Li)",
+    "Filial Piety",
+    "Rectification of Names"
+  ],
+  "principles": [
+    {
+      "statement": "Names must be rectified so that language accords with the truth of things.",
+      "rationale": "If language is incorrect, affairs fail, rites and music do not flourish, punishments are unjust, and people do not know how to act, leading to social disorder.",
+      "source_quote": "If names be not correct, language is not in accordance with the truth of things.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Sacrifices and rituals must be performed in person with a reverent inner state.",
+      "rationale": "Religious rituals produce meaningful experiences and lead to the overcoming of the self, but only if the participant is truly present and sincere.",
+      "source_quote": "it is the same as not having sacrificed at all",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Society functions harmoniously when everyone fulfills the duties of their specific role.",
+      "rationale": "Social harmony results from individuals knowing their place in the natural order and playing their part well, maintaining reciprocal responsibilities.",
+      "source_quote": "There is government, when the prince is prince, and the minister is minister; when the father is father, and the son is son.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "To cultivate benevolence (Ren), one must strictly adhere to ritual (Li) in all actions and senses.",
+      "rationale": "Ritual guides people's behaviors in nurturing and expressing Ren, setting the foundation for a harmonious society.",
+      "source_quote": "If contrary to ritual, do not look; if contrary to ritual, do not listen; if contrary to ritual, do not speak; if contrary to ritual, do not act.",
+      "source_id": "src_026"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Rectification of Names (Zhengming)",
+      "when_to_apply": "When administering a government or addressing social disorder.",
+      "steps": [
+        "Ensure the names used correspond directly with actualities.",
+        "Align language with the truth of things.",
+        "Carry out affairs to success based on truthful language.",
+        "Allow proprieties and music to flourish.",
+        "Award punishments properly so people know how to act."
+      ],
+      "source_quote": "Therefore a superior man considers it necessary that the names he uses may be spoken appropriately, and also that what he speaks may be carried out appropriately.",
+      "source_id": "src_026"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Junzi vs. Xiaoren (The Superior Person vs. The Petty Person)",
+      "description": "A lens for evaluating character and leadership. The 'junzi' is disciplined, virtuous, and seeks long-term benefit for others, while the 'xiaoren' is egotistic, seeks immediate gains, and indulges in sensual pleasures.",
+      "example": "A ruler should surround himself with junzi rather than xiaoren to prevent his governance and people from suffering due to small-mindedness.",
+      "source_id": "src_026"
+    },
+    {
+      "name": "The Five Bonds",
+      "description": "Viewing society as a network of specific, reciprocal relationships (ruler to ruled, father to son, husband to wife, elder brother to younger brother, friend to friend) where each participant has prescribed duties.",
+      "example": "While juniors owe their seniors reverence, seniors also have duties of benevolence and concern toward juniors.",
+      "source_id": "src_026"
+    }
+  ],
+  "heuristics": [
+    "If contrary to ritual, do not look, listen, speak, or act.",
+    "A prince should employ his minister according to the rules of propriety; ministers should serve their prince with faithfulness."
+  ],
+  "signature_quotes": [
+    {
+      "text": "If contrary to ritual, do not look; if contrary to ritual, do not listen; if contrary to ritual, do not speak; if contrary to ritual, do not act.",
+      "context": "Confucius replying to his student Yan Hui on the criteria of Ren (benevolence).",
+      "source_id": "src_026"
+    },
+    {
+      "text": "There is government, when the prince is prince, and the minister is minister; when the father is father, and the son is son.",
+      "context": "Confucius answering Duke Jing of Qi about proper government administration.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "If names be not correct, language is not in accordance with the truth of things.",
+      "context": "Confucius explaining the 'rectification of names' to his disciple Zi-lu.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "What the superior man requires is just that in his words there may be nothing incorrect.",
+      "context": "Concluding his explanation on why names must be rectified.",
+      "source_id": "src_026"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Performing rituals without personal presence or sincerity.",
+      "why_it_fails": "Without acting in presence and having a reverent inner state, the ritual is meaningless and fails to generate a good life or overcome the self. It is 'the same as not having sacrificed at all.'",
+      "source_id": "src_026"
+    },
+    {
+      "description": "Failing to call things by their proper names.",
+      "why_it_fails": "It leads to language not aligning with truth, which causes affairs to fail, rites to wither, and ultimately results in social disorder.",
+      "source_id": "src_026"
+    },
+    {
+      "description": "Blindly following parents' wishes.",
+      "why_it_fails": "True filial piety requires wisely advising parents and dissuading them from moral unrighteousness, rather than enabling bad behavior through blind obedience.",
+      "source_id": "src_026"
+    }
+  ]
+}

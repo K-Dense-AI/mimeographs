@@ -1,0 +1,49 @@
+{
+  "source_id": "src_077",
+  "summary": "A Kaggle dataset containing a sample of Elon Musk's tweets. The extracted tweets highlight his critical stance on modern journalism and his personal, humorous variation of Occam's Razor.",
+  "themes": [
+    "Media Critique",
+    "Journalism",
+    "Humor",
+    "Predictive Models"
+  ],
+  "principles": [
+    {
+      "statement": "Most modern journalism is unoriginal and lacks integrity.",
+      "rationale": "He observes that reporters often just repackage existing internet content rather than conducting genuine investigative work.",
+      "source_quote": "99% of journalism is reading someone else's internet and printing it on paper",
+      "source_id": "src_077"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Musk's Occam's Razor",
+      "description": "An ironic twist on the philosophical principle of Occam's Razor, positing that the most entertaining or ironic outcome is the one that will most likely happen.",
+      "example": null,
+      "source_id": "src_077"
+    }
+  ],
+  "heuristics": [
+    "Assume the most entertaining outcome is the most likely."
+  ],
+  "signature_quotes": [
+    {
+      "text": "My version of Occam’s Razor: most entertaining outcome is most likely …",
+      "context": null,
+      "source_id": "src_077"
+    },
+    {
+      "text": "99% of journalism is reading someone else's internet and printing it on paper",
+      "context": "Critiquing Wall Street Journal reporters.",
+      "source_id": "src_077"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on mainstream journalism for original truth.",
+      "why_it_fails": "Because the vast majority of it is just reading what is already on the internet and printing it on paper, often lacking true journalistic integrity.",
+      "source_id": "src_077"
+    }
+  ]
+}

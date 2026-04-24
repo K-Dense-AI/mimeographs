@@ -1,0 +1,289 @@
+{
+  "source_id": "src_011",
+  "summary": "Yann LeCun outlines the limitations of current LLMs and generative AI, arguing that they lack common sense and the ability to understand the physical world. He proposes that the next AI revolution will be driven by 'world models' trained via self-supervised learning on high-dimensional sensory data. He advocates for Joint Embedding Predictive Architectures (JEPA) to learn abstract representations of the world, enabling AI to perform System 2 planning and reasoning without getting bogged down by unpredictable details. Yann LeCun discusses the limitations of Large Language Models (LLMs) and generative architectures, arguing they are a dead end for human-level intelligence. Instead, he advocates for Joint Embedding Predictive Architectures (JEPAs) and Energy-Based Models to learn abstract world models, while strongly criticizing the AI existential risk movement as a regulatory capture strategy. In this Q&A session, Yann LeCun strongly criticizes AI doomerism and regulatory capture by proprietary AI companies, advocating instead for open-source AI to ensure global sovereignty. He also details his views on world models, explaining that 'state' is a hierarchical abstraction defined by predictive utility, and dismisses both Chomskian linguistics and the near-term utility of quantum computing for AI.",
+  "themes": [
+    "World Models",
+    "Self-Supervised Learning",
+    "Joint Embedding Predictive Architecture (JEPA)",
+    "Limitations of LLMs",
+    "System 1 vs System 2 Thinking",
+    "Hierarchical Planning",
+    "Abstract Representations",
+    "Joint Embedding Predictive Architectures (JEPA)",
+    "Energy-Based Models",
+    "AI Regulation and Open Source",
+    "Open Source AI vs. Proprietary AI",
+    "AI Regulation and Doomerism",
+    "World Models and State Abstraction",
+    "Causality and Phenomenological Models",
+    "Neural Networks vs. Traditional Linguistics",
+    "Skepticism of Quantum Computing in AI"
+  ],
+  "principles": [
+    {
+      "statement": "Intelligence is the ability to acquire new skills quickly, not a static collection of skills.",
+      "rationale": "Current AI benchmarks test specific skills (like passing exams), but true intelligence—as seen in animals and humans—is the ability to face a new situation and figure out how to accomplish a task zero-shot or with minimal training.",
+      "source_quote": "Intelligence is not a collection of skills. It's an ability to acquire new skills extremely quickly.",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Scaling text-based LLMs will never lead to human-level intelligence.",
+      "rationale": "The physical world contains vastly more information than text. A four-year-old child processes the same amount of raw sensory data (about 10^14 bytes) in their first few years as the largest LLMs process from the entire public internet text corpus.",
+      "source_quote": "We're never going to get to human level intelligence by just training on text and other human produced data. This is just not not going to happen.",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "World models must predict in an abstract representation space, not pixel space.",
+      "rationale": "Most details in the real world (like the exact pixels in a future video frame) are completely unpredictable. Generative models fail because they try to predict everything; a world model should only extract and predict the information that is actually predictable.",
+      "source_quote": "A world model which allows you to make prediction should not be a simulator of the world. It should be something that you know simulates only the part of the world that you think is predictable and relevant.",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Human intelligence is highly specialized, making 'Artificial General Intelligence' a flawed concept.",
+      "rationale": "We perceive our own intelligence as general because we can quickly acquire skills for problems we can apprehend, but in reality, human intelligence is specialized and nothing like a true 'general' intelligence.",
+      "source_quote": "The notion that human level intelligence should be called artificial general intelligence makes no sense because human intelligence is nothing like a general intelligence.",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Abandon generative architectures in favor of joint embedding predictive architectures.",
+      "rationale": "Attempting to train a system to reconstruct high-dimensional, noisy, continuous data forces the model to focus on irrelevant details, which destroys the quality of the abstract representation.",
+      "source_quote": "abandon generative architectures in favor of those joint embedding predictive architectures... when you attempt to train a system to reconstruct uh noisy highdimensional noisy continuous data, you kill it essentially.",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Large Language Models are a dead end on the path to human-level intelligence.",
+      "rationale": "LLMs lack physical intuition and rely primarily on retrieval and symbol manipulation. Most human and animal reasoning is grounded in physical reality, not language.",
+      "source_quote": "as a path towards human level intelligence lms are dead end",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Minimize or abandon the use of reinforcement learning for achieving advanced AI.",
+      "rationale": "Reinforcement learning is highly inefficient in terms of sample complexity, making it unsuitable for pushing AI toward human or animal-level intelligence.",
+      "source_quote": "abandon reinforcement learning or at least minimize its use because it's so inefficient in terms of samples",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Use Energy-Based Models instead of probabilistic modeling for high-dimensional data.",
+      "rationale": "Estimating exact probability distributions in high dimensions is intractable due to the normalization constant. Energy-based models bypass this by simply learning a contrast function that distinguishes data on the manifold from data off it.",
+      "source_quote": "Estimating distributions in high dimension is basically impossible and intractable. Uh you have to represent it by an energy function.",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Open-source AI is essential for global AI sovereignty.",
+      "rationale": "Proprietary AI companies lobby for regulation under the guise of safety, but this is a marketing strategy to maintain a monopoly. Open source is the only way for different regions and nations to control their own AI capabilities.",
+      "source_quote": "The only way to have any level of sovereignty in AI is is is to have access to open source you know powerful open source AI systems.",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "A 'state' is defined entirely by its predictive utility.",
+      "rationale": "There is no single proper definition for the state of a physical system. Modeling every low-level detail is computationally expensive and only yields short-term predictions. A good state representation abstracts away unnecessary details to allow for the specific predictions you need.",
+      "source_quote": "A particular a good state is whatever allows you to make the prediction you want to make.",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Language understanding does not require explicit symbol manipulation or traditional linguistics.",
+      "rationale": "The human brain is just a network of neurons with a relatively uniform cortex, lacking a hardwired 'organ' for grammar. Large Language Models have empirically proven that neural networks can master language without built-in linguistic rules.",
+      "source_quote": "you can do extremely good language understanding and manipulation without appealing to any concept of traditional linguistics or any concept that um you know Chumsky has argued for for decades.",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Quantum computing will not have a significant impact on AI in the foreseeable future.",
+      "rationale": "Quantum computing is extremely complicated, faces massive scaling and error-correction hurdles, and lacks provably more efficient algorithms for AI tasks. Its only medium-term application is simulating quantum systems.",
+      "source_quote": "I certainly do not believe there's going to be any significant impact of quantum computing on AI within the next let's say two decades.",
+      "source_id": "src_011"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Objective-Driven AI Architecture (Inference by Optimization)",
+      "when_to_apply": "When building agentic systems that need to plan complex action sequences (System 2 thinking) to accomplish new tasks in the physical world.",
+      "steps": [
+        "Observe the world through a perception system to extract an abstract representation of the initial state.",
+        "Combine this state with memory of unperceived parts of the world.",
+        "Propose a hypothesized or imagined action sequence.",
+        "Feed the state and imagined actions into a World Model to predict the resulting future state.",
+        "Pass the predicted state into a task objective function and safety guardrails (cost functions) to calculate a penalty.",
+        "Use optimization to search for and select the action sequence that minimizes the task objective subject to the guardrail constraints."
+      ],
+      "source_quote": "The inference procedure is by optimization the system finds an action sequence that minimizes this uh objective function.",
+      "source_id": "src_011"
+    },
+    {
+      "name": "Joint Embedding Predictive Architecture (JEPA) Training",
+      "when_to_apply": "When training a system to learn abstract representations of high-dimensional data (like images or video) without relying on manual labels or pixel-level reconstruction.",
+      "steps": [
+        "Take two different views or corrupted versions of the same scene (e.g., mask a chunk of a video).",
+        "Pass the inputs through an encoder to get abstract representations.",
+        "Train a predictor to predict the representation of the good/complete image from the corrupted one.",
+        "Apply a mechanism to prevent representation collapse (e.g., variance maximization like 'sigreg' or an exponential moving average of weights).",
+        "Freeze the encoder and train a simple classifier or action-conditioned predictor on top of the representations."
+      ],
+      "source_quote": "you train a system uh to learn representations of images. you show it two uh images that are really uh different views of the same scene... and you train the system to produce um to basically predict the representation of the good image from the bad one",
+      "source_id": "src_011"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "System 1 vs. System 2 Thinking",
+      "description": "A psychological framework applied to AI. System 1 is reactive, subconscious policy execution where an action is predicted directly from the current state (like an experienced driver). System 2 is deliberate planning, using a world model to anticipate the consequences of actions before taking them.",
+      "example": "When driving a familiar route, you use System 1 and can talk at the same time. When facing a new task, you use System 2 to imagine actions and predict outcomes to plan a sequence.",
+      "source_id": "src_011"
+    },
+    {
+      "name": "Hierarchical Abstraction",
+      "description": "Planning cannot happen at the lowest level of detail because it is too complex and lacks sufficient information. Instead, planning must occur across a hierarchy of abstractions, where high-level plans ignore low-level details and set sub-goals for the layers below.",
+      "example": "Planning a trip from New York to Paris. At the highest level, the plan is 'go to the airport and catch a plane.' This sets a sub-goal (get to the airport), which requires hailing a taxi, which requires standing up and walking to the elevator. You do not plan the trip millisecond by millisecond using muscle control.",
+      "source_id": "src_011"
+    },
+    {
+      "name": "Scientific Abstraction",
+      "description": "Just as scientists use abstract models (like fluid dynamics or chemistry) instead of simulating every underlying quantum interaction, AI must use abstract representations of the world rather than simulating every pixel or raw sensor input.",
+      "example": "Simulating the flow of air around an airplane using Navier-Stokes equations (velocity, pressure, density) rather than tracking individual air molecules bumping into each other.",
+      "source_id": "src_011"
+    },
+    {
+      "name": "Energy-Based Models as Contrast Functions",
+      "description": "Instead of trying to calculate an exact probability distribution (which requires an intractable normalization constant in high dimensions), think of modeling dependencies as learning a scalar 'energy' function. It outputs a low value (e.g., zero) when data points are on the valid data manifold, and higher values as they move away from it.",
+      "example": "Capturing the dependency between variables X and Y where multiple valid Ys exist for a given X. The energy function simply acts as a contrast function to tell you if a given (X, Y) pair is realistic, without needing to integrate over all possible Ys.",
+      "source_id": "src_011"
+    },
+    {
+      "name": "Language as a Substrate for Reasoning",
+      "description": "The concept that in very specific domains (like mathematics and coding), the manipulation of symbols itself supports and clarifies the reasoning process. This explains why LLMs appear highly intelligent in these narrow domains despite lacking general physical understanding.",
+      "example": "When writing code, the act of writing crystallizes the concepts. LLMs can generate many sequences of code symbols, test them, and self-adjust, using the language itself to reason.",
+      "source_id": "src_011"
+    },
+    {
+      "name": "Hierarchical State Abstraction (Phenomenological Models)",
+      "description": "A way of reasoning about complex systems by ignoring low-level, high-dimensional details (which are expensive and only allow short-term predictions) in favor of higher-level conceptual abstractions that capture the necessary dynamics for a specific goal.",
+      "example": "When sailing a boat, you don't solve Navier-Stokes equations for individual air molecules. Instead, you use a higher-level mental simulator to identify turbulence and angle of attack to maximize forward force. Similarly, in physics, we use PV=nRT to model gas pressure and temperature without tracking individual molecules.",
+      "source_id": "src_011"
+    }
+  ],
+  "heuristics": [
+    "A world model is not a digital twin. It should not be a video generation system.",
+    "The output of the human mind always turns into muscle control.",
+    "Intelligence is not a collection of skills.",
+    "To maximize information content in an encoder's representation, push the empirical distribution of the data points toward an isotropic multivariate Gaussian.",
+    "If you want to build a world model, do not make predictions in a generative fashion; attempt to find abstract representations."
+  ],
+  "signature_quotes": [
+    {
+      "text": "AI really sucks compared to animals and humans.",
+      "context": "Comparing the physical capabilities of current AI to the basic real-world skills of house cats and teenagers.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "Intelligence is not a collection of skills. It's an ability to acquire new skills extremely quickly.",
+      "context": "Criticizing the use of static benchmarks (like passing the bar exam) to measure AI intelligence.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "We're never going to get to human level intelligence by just training on text and other human produced data. This is just not not going to happen.",
+      "context": "Explaining the data bandwidth limitations of LLMs compared to the sensory input of a human child.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "A world model which allows you to make prediction should not be a simulator of the world. It should be something that you know simulates only the part of the world that you think is predictable and relevant.",
+      "context": "Arguing against generative models for video and in favor of abstract representations.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "The notion that human level intelligence should be called artificial general intelligence makes no sense because human intelligence is nothing like a general intelligence.",
+      "context": "Discussing the specialized nature of human intelligence.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "as a path towards human level intelligence lms are dead end",
+      "context": "Discussing the limitations of Large Language Models and the need for new architectures.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "when you attempt to train a system to reconstruct uh noisy highdimensional noisy continuous data, you kill it essentially.",
+      "context": "Explaining why generative architectures like autoencoders fail at learning good representations.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "Most of human reasoning and intelligence has nothing to do with language.",
+      "context": "Explaining why LLMs, which only manipulate language, lack true understanding of the physical world.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "the idea somehow that AI is qualitatively different from other technology and and is intrinsically dangerous at the research level that's just completely false.",
+      "context": "Addressing fears of AI existential risk and regulatory capture.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "The only way to have any level of sovereignty in AI is is is to have access to open source you know powerful open source AI systems.",
+      "context": "Arguing against proprietary AI companies lobbying to ban open-source AI.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "A particular a good state is whatever allows you to make the prediction you want to make.",
+      "context": "Defining what constitutes a 'state' in world models.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "State is really not a single definition. It's it's a hierarchy and you choose the hierarchical level as a function of which type of prediction you want to make.",
+      "context": "Explaining how world models abstract physical reality.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "If humans were so good at causal inference religion would not exist.",
+      "context": "Joking about the human tendency to invent hidden causes for phenomena they don't understand.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "That battle is over and the Chomskians have lost.",
+      "context": "Dismissing the need for Universal Grammar and explicit symbol manipulation in AI language models.",
+      "source_id": "src_011"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Using generative architectures (like diffusion models or VAEs) to build world models for video or physical environments.",
+      "why_it_fails": "Generative models try to predict every detail of the input signal (like pixels). Because most details in a video are completely unpredictable, the models either produce blurry averages or require intractable latent variables.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Equating benchmark performance (like passing the bar exam or math olympiads) with true intelligence.",
+      "why_it_fails": "Benchmarks test a static collection of skills, usually tailored to LLMs. They do not test the core of intelligence, which is the ability to adapt and acquire new skills quickly in novel situations.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Building agentic systems purely through imitation learning and LLMs.",
+      "why_it_fails": "It requires an enormous number of examples, and the resulting systems end up being brittle and specialized. They lack the ability to predict the consequences of their actions before taking them.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Using generative architectures (like autoencoders or diffusion models) for representation learning.",
+      "why_it_fails": "Reconstructing high-dimensional, noisy, continuous data forces the model to waste capacity on irrelevant pixel-level details, killing the abstract representation.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Relying on Reinforcement Learning to reach human-level AI.",
+      "why_it_fails": "It is far too inefficient in terms of sample complexity compared to observation-based world models.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Believing LLMs possess general intelligence or physical intuition.",
+      "why_it_fails": "They are essentially doing advanced retrieval and symbol manipulation. They can be fine-tuned to answer specific physical questions correctly, but they do not actually understand the underlying physical reality.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Banning open-source AI research due to existential risk fears.",
+      "why_it_fails": "It is a regulatory capture strategy driven by a superiority complex ('slam the door behind them'), designed to maintain corporate monopolies rather than address actual scientific risks.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Lobbying to regulate or ban open-source AI based on hypothetical existential risks.",
+      "why_it_fails": "It is a false narrative and a marketing strategy used by proprietary companies with a 'superiority complex' to establish a feudal system, lock out competition, and prevent the public from accessing powerful tools.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Building AI systems with explicit symbol manipulation mechanisms for language.",
+      "why_it_fails": "The brain does not have a special hardwired architecture for symbol manipulation; it is just neurons. LLMs have already demonstrated that deep learning can achieve excellent language understanding without traditional linguistic rules.",
+      "source_id": "src_011"
+    }
+  ]
+}

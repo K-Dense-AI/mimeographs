@@ -1,0 +1,96 @@
+{
+  "source_id": "src_057",
+  "summary": "An excerpt from Steven Levy's book detailing Mark Zuckerberg's early 2006 notebook, 'Book of Change'. The source reveals Zuckerberg's foundational product philosophies, his drive for growth and information sharing, and his later evolution into a 'wartime CEO' who prioritizes rapid decision-making over consensus.",
+  "themes": [
+    "Product Design",
+    "Leadership",
+    "Growth vs. Privacy",
+    "Wartime CEO",
+    "Social Networking"
+  ],
+  "principles": [
+    {
+      "statement": "Take chances and accept mistakes to reach your potential.",
+      "rationale": "Avoiding mistakes means you are being too timid. Growth requires taking risks, which inevitably leads to getting things wrong.",
+      "source_quote": "If you're not making mistakes, you're probably not living up to your potential, right? That's how you grow.",
+      "source_id": "src_057"
+    },
+    {
+      "statement": "The long-term positive impact of connecting the world outweighs the short-term negative disruptions.",
+      "rationale": "Like previous industrial revolutions, major societal changes are painful and disruptive, but the overarching arc of history bends toward a net positive.",
+      "source_quote": "...the positive over the long term can still dramatically outweigh the negative. You handle the negative as well as you can.",
+      "source_id": "src_057"
+    },
+    {
+      "statement": "Stories require context to be compelling.",
+      "rationale": "Raw information isn't enough to engage users; they need to know the surrounding context and the specific reason why that information matters.",
+      "source_quote": "A story isn't just an interesting piece of information. It's an interesting piece of information plus other interesting things about it AND why it's interesting.",
+      "source_id": "src_057"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Hierarchy of Interesting-ness",
+      "when_to_apply": "When designing a feed or ranking algorithm to determine what content to surface to users.",
+      "steps": [
+        "Prioritize 'stories about you' at the very top.",
+        "Surface stories 'centered around your social circle', such as life events, relationship changes, and friendship trends.",
+        "Include 'stories about things you care about and other interesting things', such as external content, events, and paid content at the bottom tier."
+      ],
+      "source_quote": "A story isn't just an interesting piece of information. It's an interesting piece of information plus other interesting things about it AND why it's interesting.",
+      "source_id": "src_057"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Wartime CEO",
+      "description": "A leadership mode adopted during existential threats or intense criticism, where the leader makes rapid, unilateral decisions rather than indulging in consensus-building.",
+      "example": "In July 2018, facing intense public and regulatory scrutiny, Zuckerberg declared himself a wartime CEO to his management team, signaling he would dictate decisions quickly without the usual process of bringing everyone along.",
+      "source_id": "src_057"
+    },
+    {
+      "name": "The Information Engine",
+      "description": "A metaphor for a social network's ideal user experience, envisioning it as a deeply linked, comprehensive database where every search and link provides 'full' information at any depth.",
+      "example": "Zuckerberg used this model to design Facebook's early architecture, aiming for an interface that felt like a 'futuristic government-style interface' where every profile click was worth doing.",
+      "source_id": "src_057"
+    }
+  ],
+  "heuristics": [
+    "I don't optimize for fun.",
+    "Focus on what makes a feature seem secure to the user, whether or not it actually is."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I don't optimize for fun.",
+      "context": "When asked if being a wartime CEO was more stressful or more fun.",
+      "source_id": "src_057"
+    },
+    {
+      "text": "If you're not making mistakes, you're probably not living up to your potential, right? That's how you grow.",
+      "context": "Reflecting on the strategic and execution mistakes Facebook has made over the years.",
+      "source_id": "src_057"
+    },
+    {
+      "text": "Using Facebook needs to feel like you're using a futuristic government-style interface to access a database full of information linked to every person.",
+      "context": "Written in his 2006 'Book of Change' notebook regarding his grand vision for the platform.",
+      "source_id": "src_057"
+    },
+    {
+      "text": "I couldn't run this company and not do things that I thought were going to help push the world forward.",
+      "context": "Defending his continued belief in Facebook's mission despite intense public criticism.",
+      "source_id": "src_057"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Timidity and avoiding mistakes.",
+      "why_it_fails": "If you aren't making mistakes, you aren't taking enough chances, which prevents you from growing and living up to your potential.",
+      "source_id": "src_057"
+    },
+    {
+      "description": "Consensus-building during a crisis.",
+      "why_it_fails": "It prevents the company from moving quickly enough to make the rapid decisions needed to survive existential threats.",
+      "source_id": "src_057"
+    }
+  ]
+}

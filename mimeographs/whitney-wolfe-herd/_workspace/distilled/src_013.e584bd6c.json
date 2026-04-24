@@ -1,0 +1,89 @@
+{
+  "source_id": "src_013",
+  "summary": "In this talk, Whitney Wolfe Herd discusses the founding of Bumble as a response to the toxic intersection of historical dating norms and the unregulated internet. She advocates for engineering technology to promote kindness, establishing strict behavioral guardrails, and the responsibility of successful women to actively mentor and fund the next generation of female founders.",
+  "themes": [
+    "Online Safety and Toxicity",
+    "Engineering Kindness",
+    "Women in Leadership and VC",
+    "The Evolution of Dating",
+    "AI for Positive Reinforcement"
+  ],
+  "principles": [
+    {
+      "statement": "Technology can and must be engineered to be a force for positivity and kindness.",
+      "rationale": "The internet was built without guardrails, allowing toxic offline behaviors to thrive. By intentionally rewriting the rules of engagement, platforms can foster healthier interactions.",
+      "source_quote": "what if we could actually use technology to be a force for positivity it doesn't have to be toxic it doesn't have to be the way it always was",
+      "source_id": "src_013"
+    },
+    {
+      "statement": "Tech leaders must take an aggressive stance on user behavior and establish strict guardrails.",
+      "rationale": "The internet is the 'wild wild west' and bullying has moved from the physical playground to 24/7 access on phones. Leaders must ban abuse and even pursue legislation to protect users.",
+      "source_quote": "this is where technology leaders have to step in and have guard rails and ground rules we do not tolerate hate we will ban someone if they're on the app",
+      "source_id": "src_013"
+    },
+    {
+      "statement": "Successful women must actively open doors and advocate for other women.",
+      "rationale": "The statistics for women-founded startups are stark, and even well-resourced women face impossible battles. It is the responsibility of those with a voice and impact to pay it forward.",
+      "source_quote": "we have to actively open doors and we have to actively advocate so anyone that is in a role that has a voice that has impact you know when you get that DM from the young woman you've got to you know really take it to heart and consider opening a door",
+      "source_id": "src_013"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The 24/7 Digital Playground",
+      "description": "A lens for understanding the modern youth mental health crisis. Unlike physical playgrounds of the past where children could go home and be safe from bullies, the internet is an inescapable environment where harassment happens constantly.",
+      "example": "Explaining the devastating impact of online abuse by noting that 'the playground is now 11 p.m on your cell phone while you're laying in bed.'",
+      "source_id": "src_013"
+    },
+    {
+      "name": "The Viral Coin",
+      "description": "The concept that virality is a neutral mechanism. If toxic and abusive behavior can spread virally across the internet, then positive behavior and kindness can be engineered to do the same.",
+      "example": "Founding Bumble on the mission that 'if toxicity can be viral so can positivity so can kindness right there's always the other side of that coin.'",
+      "source_id": "src_013"
+    }
+  ],
+  "heuristics": [
+    "If you abuse, you're gone. Zero tolerance for harassment or hate speech.",
+    "When you get a DM from a young woman, take it to heart and consider opening a door."
+  ],
+  "signature_quotes": [
+    {
+      "text": "if toxicity can be viral so can positivity so can kindness",
+      "context": "Explaining the founding mission of Bumble to counteract internet toxicity.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "the playground is now 11 p.m on your cell phone while you're laying in bed",
+      "context": "Describing how the internet has made bullying an inescapable, 24/7 experience.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "Bumble was really about rewriting the rules not just of love and not just of how women are treated but of how we actually behave on the internet",
+      "context": "Discussing the broader goal of Bumble beyond just being a dating app.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "we're in the quest of actually getting you to a real relationship through healthier engagement on the internet",
+      "context": "Differentiating Bumble from platforms that encourage isolated, disconnected scrolling.",
+      "source_id": "src_013"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Building social platforms without behavioral guardrails.",
+      "why_it_fails": "It creates a 'wild wild west' where offline toxic mechanics intersect with the dangers of the internet, leading to abuse and a crisis of loneliness.",
+      "source_id": "src_013"
+    },
+    {
+      "description": "Equating digital engagement with true connection.",
+      "why_it_fails": "Sitting on a phone in isolation and having disconnected conversations is not true connection; it is counter-intuitive and leads to loneliness.",
+      "source_id": "src_013"
+    },
+    {
+      "description": "Keeping resources and connections to yourself once successful.",
+      "why_it_fails": "It perpetuates the stark lack of funding and representation for women founders. Leaders must actively mentor and offer introductions instead of keeping it all for themselves.",
+      "source_id": "src_013"
+    }
+  ]
+}

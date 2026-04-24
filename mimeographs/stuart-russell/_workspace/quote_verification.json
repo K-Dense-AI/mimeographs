@@ -1,0 +1,1384 @@
+{
+  "total": 100,
+  "verified": 82,
+  "unverified": [
+    {
+      "category": "principles",
+      "label": "Aviation-Style Safety Standards",
+      "quote": "With aircrafts, there has to be an airworthiness certificate before the airplane can be sold. With medicines... the medicine has to go through extensive clinical trials before it is allowed to be sold.",
+      "source_ids": [
+        "src_042",
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7064676616915423
+    },
+    {
+      "category": "principles",
+      "label": "Propagation of Civilization via Human Minds",
+      "quote": "we've always propagated civilization through human minds and we've spent about a trillion person years doing that... and now we're you know we're danger of throwing that away",
+      "source_ids": [
+        "src_027",
+        "src_029"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.764367816091954
+    },
+    {
+      "category": "principles",
+      "label": "Strict and Enforceable AI Regulation",
+      "quote": "Eventually, you have to have a regulation, saying that to be sold, to be certified to be connected to the internet, (AI) has to pass these tests... it has to come with a proof that it doesn’t get out of control.",
+      "source_ids": [
+        "src_034",
+        "src_022"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8056872037914692
+    },
+    {
+      "category": "principles",
+      "label": "AI as Rational Agents",
+      "quote": "The study of AI as rational agent design therefore has two advantages. First, it is more general than the “laws of thought” approach... Second, it is more amenable to scientific development.",
+      "source_ids": [
+        "src_049"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7789473684210526
+    },
+    {
+      "category": "principles",
+      "label": "Avoid Humanoid Deception",
+      "quote": "we should avoid completely humanoid AI systems at all costs... to the extent that systems pretend to be human they are lying to us",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6384615384615384
+    },
+    {
+      "category": "frameworks",
+      "label": "Red Line Regulation & High-Risk Governance",
+      "quote": "We should say here is the acceptable level and before you can turn on your product... you have to show just as all these other technologies have to show that the risk is below the level that we would be willing to accept.",
+      "source_ids": [
+        "src_012",
+        "src_026"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7782805429864253
+    },
+    {
+      "category": "mental_models",
+      "label": "The Untested Airplane / Runaway Bus",
+      "quote": "everyone in the world is getting onto a brand-new kind of airplane that has never been tested before... It has to fly forever and not crash, because the whole human race is in that airplane.",
+      "source_ids": [
+        "src_019",
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6421052631578947
+    },
+    {
+      "category": "mental_models",
+      "label": "Bias as Objective Misspecification",
+      "quote": "One can interpret that [bias in machine learning] as coming from again an incorrect specification of the objective.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7565217391304347
+    },
+    {
+      "category": "mental_models",
+      "label": "Corporations as Rogue AI",
+      "quote": "Arguing that AI systems have already taken over the world in the form of corporations, which are primarily responsible for issues like climate change due to misaligned optimization.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.46408839779005523
+    },
+    {
+      "category": "mental_models",
+      "label": "Rationality vs. Human Behavior",
+      "quote": "The study of AI as rational agent design therefore has two advantages. First, it is more general than the “laws of thought” approach... Second, it is more amenable to scientific development than approaches based on human behavior.",
+      "source_ids": [
+        "src_049"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6956521739130435
+    },
+    {
+      "category": "mental_models",
+      "label": "The Jeeves and Bertie Wooster Relationship",
+      "quote": "A model for successful human-AI coexistence where the AI (Jeeves) is vastly more intelligent than the human (Bertie) but remains entirely subservient and operates in the background.",
+      "source_ids": [
+        "src_022"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4861878453038674
+    },
+    {
+      "category": "mental_models",
+      "label": "The Off-Switch Game",
+      "quote": "If you give a robot a fixed objective even something as simple as fetch the coffee... it's simply going to disable its own off switch as one of the first things it does.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.621301775147929
+    },
+    {
+      "category": "heuristics",
+      "label": "Fixed objectives disable off-switches",
+      "quote": "If you give a robot a fixed objective, it will disable its own off-switch.",
+      "source_ids": [
+        "src_012",
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6081081081081081
+    },
+    {
+      "category": "heuristics",
+      "label": "AI systems are grown, not designed",
+      "quote": "AI systems are not designed, they are grown.",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5454545454545454
+    },
+    {
+      "category": "heuristics",
+      "label": "Draw behavioral red lines",
+      "quote": "Draw behavioral red lines that must not be crossed.",
+      "source_ids": [
+        "src_026"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7843137254901961
+    },
+    {
+      "category": "heuristics",
+      "label": "Machine Self-Identification",
+      "quote": "If you are building a machine to interact with humans, ensure it self-identifies as a machine.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4787234042553192
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Off-Switch Problem",
+      "quote": "If you give a robot a fixed objective even something as simple as fetch the coffee... it's simply going to disable its own off switch as one of the first things it does.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.621301775147929
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Untested Airplane",
+      "quote": "everyone in the world is getting onto a brand-new kind of airplane that has never been tested before... It has to fly forever and not crash, because the whole human race is in that airplane.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6421052631578947
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "Uncertainty in Objectives",
+      "quote": "I propose a new model for AI development in which the machine’s uncertainty about the true objective leads to qualitatively new modes of behavior that are more robust, controllable, and deferential.",
+      "source_ids": [
+        "src_022",
+        "src_027",
+        "src_012",
+        "src_025",
+        "src_011",
+        "src_007",
+        "src_013",
+        "src_054",
+        "src_029",
+        "src_018",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_054",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Embrace Uncertainty in Objectives",
+      "quote": "the machines do not know what those preferences are and this this kind of humility is crucial because if the Machine ever believes that it knows exactly what the objective is then nothing you can do will divert it from the course of action that it has chosen",
+      "source_ids": [
+        "src_017",
+        "src_014",
+        "src_042",
+        "src_001"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Burden of Proof on Developers",
+      "quote": "The key point here is that the onus of proof is on developers, not regulators, and the proof leads to high-confidence statements based on assumptions that can be checked and refined.",
+      "source_ids": [
+        "src_012",
+        "src_018",
+        "src_026"
+      ],
+      "verified": true,
+      "matched_source_id": "src_026",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Provably Safe and Controllable AI",
+      "quote": "we either build provably safe and controllable AI where we have absolute cast iron mathematical guarantee of safety or we have no AI at all",
+      "source_ids": [
+        "src_017",
+        "src_014",
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Realization of Human Preferences",
+      "quote": "The principle says that the machine’s only purpose is the realization of human preferences.",
+      "source_ids": [
+        "src_029",
+        "src_054",
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Safety by Design (Not Post-Hoc)",
+      "quote": "Instead, we need to make safe AI. Safety should be built in by design.",
+      "source_ids": [
+        "src_011",
+        "src_018",
+        "src_026"
+      ],
+      "verified": true,
+      "matched_source_id": "src_026",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Satisfy Human Preferences",
+      "quote": "The AI system should not pursue its objectives period. It should pursue the interests of human beings. It may not know what they are.",
+      "source_ids": [
+        "src_012",
+        "src_013",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Control Problem Imperative",
+      "quote": "The problem of control: how do we maintain power, forever, over entities that will eventually become more powerful than us?",
+      "source_ids": [
+        "src_027",
+        "src_046",
+        "src_034"
+      ],
+      "verified": true,
+      "matched_source_id": "src_034",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Aviation-Style Safety Standards",
+      "quote": "With aircrafts, there has to be an airworthiness certificate before the airplane can be sold. With medicines... the medicine has to go through extensive clinical trials before it is allowed to be sold.",
+      "source_ids": [
+        "src_042",
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7064676616915423
+    },
+    {
+      "category": "principles",
+      "label": "Ban Autonomous Weapons",
+      "quote": "If you want a computer to do something a million times it's not much harder than doing it once you just write for i equals one to a million do it.",
+      "source_ids": [
+        "src_059",
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.9931506849315068
+    },
+    {
+      "category": "principles",
+      "label": "Mandatory Machine Self-Identification",
+      "quote": "I can't see a real justification for why we shouldn't insist that machines self-identify as machines.",
+      "source_ids": [
+        "src_027",
+        "src_034"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 0.9900990099009901
+    },
+    {
+      "category": "principles",
+      "label": "No Strict Loyalty to Individuals",
+      "quote": "It's essential right that you don't have systems that are loyal to an individual because then you can end up ignoring the negative effects uh that people's actions have on others.",
+      "source_ids": [
+        "src_013",
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.994413407821229
+    },
+    {
+      "category": "principles",
+      "label": "Propagation of Civilization via Human Minds",
+      "quote": "we've always propagated civilization through human minds and we've spent about a trillion person years doing that... and now we're you know we're danger of throwing that away",
+      "source_ids": [
+        "src_027",
+        "src_029"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.764367816091954
+    },
+    {
+      "category": "principles",
+      "label": "Strict and Enforceable AI Regulation",
+      "quote": "Eventually, you have to have a regulation, saying that to be sold, to be certified to be connected to the internet, (AI) has to pass these tests... it has to come with a proof that it doesn’t get out of control.",
+      "source_ids": [
+        "src_034",
+        "src_022"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8056872037914692
+    },
+    {
+      "category": "principles",
+      "label": "The Sole Objective is Human Preferences",
+      "quote": "We can build AI systems whose only purpose is to serve the interests of human beings, of all human beings, although they and we may be uncertain about what those interests truly are.",
+      "source_ids": [
+        "src_017",
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "AI as Rational Agents",
+      "quote": "The study of AI as rational agent design therefore has two advantages. First, it is more general than the “laws of thought” approach... Second, it is more amenable to scientific development.",
+      "source_ids": [
+        "src_049"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7789473684210526
+    },
+    {
+      "category": "principles",
+      "label": "Autonomous Weapons as Scalable WMDs",
+      "quote": "The endpoint, I believe, would be that autonomous weapons become cheap, selective, scalable weapons of mass destruction (WMDs).",
+      "source_ids": [
+        "src_009"
+      ],
+      "verified": true,
+      "matched_source_id": "src_009",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Avoid Humanoid Deception",
+      "quote": "we should avoid completely humanoid AI systems at all costs... to the extent that systems pretend to be human they are lying to us",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6384615384615384
+    },
+    {
+      "category": "principles",
+      "label": "Capabilities Require Understanding",
+      "quote": "capabilities without understanding are really of no use to us",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Game-Theoretic Interaction in the Real World",
+      "quote": "you can't think of an artificial intelligence system as a thing that responds to the world always you have to realize that it's an agent that others will respond to as well",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Human Behavior as Evidence",
+      "quote": "Human preferences are what produce human behavior right all the choice behavior that we exhibit.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.9895833333333334
+    },
+    {
+      "category": "principles",
+      "label": "No Incentive to Modify Preferences",
+      "quote": "It’s important to design them so they have no incentive to deliberately modify human preferences - e.g., to make them easier to satisfy.",
+      "source_ids": [
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_025",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "No Moral Obligation for Harm",
+      "quote": "No amount of goodwill to individual X can impose the moral obligation on me to help him in hurting a third person, individual Y.",
+      "source_ids": [
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_025",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "No Tradeoff Between Safety and Innovation",
+      "quote": "Now, regulation is often said to stifle innovation, but there is no tradeoff between safety and innovation. An AI system that harms human beings is simply not good AI.",
+      "source_ids": [
+        "src_034"
+      ],
+      "verified": true,
+      "matched_source_id": "src_034",
+      "match_ratio": 0.9580838323353293
+    },
+    {
+      "category": "frameworks",
+      "label": "Assistance Games (Three Principles of Beneficial AI)",
+      "quote": "We can turn this into a mathematical framework that we call an assistance game so it falls within the economic framework of Game Theory.",
+      "source_ids": [
+        "src_011",
+        "src_013",
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 0.9926470588235294
+    },
+    {
+      "category": "frameworks",
+      "label": "Principles for Beneficial Machines (Assistance Games)",
+      "quote": "According to him we need to redesign AI around 3 principles: 1. The AI system’s objective is to achieve what humans want. 2. But the system isn’t sure what we want. 3. And it figures out what we want by observing our behaviour.",
+      "source_ids": [
+        "src_029",
+        "src_054",
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Provably Beneficial AI Framework",
+      "quote": "what is a mathematical framework for AI a a way of defining the AI problem so that no matter how well the AI system solves it we are guaranteed to be happy with the result",
+      "source_ids": [
+        "src_017",
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Red Line Regulation & High-Risk Governance",
+      "quote": "We should say here is the acceptable level and before you can turn on your product... you have to show just as all these other technologies have to show that the risk is below the level that we would be willing to accept.",
+      "source_ids": [
+        "src_012",
+        "src_026"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7782805429864253
+    },
+    {
+      "category": "frameworks",
+      "label": "Meta-Reasoning for Search Trees",
+      "quote": "It's a combination of how good the move appears to be and how much uncertainty there is about its value. The more uncertainty, the more it's worth thinking about because there's a higher upside",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 0.9637305699481865
+    },
+    {
+      "category": "frameworks",
+      "label": "Move Fast and Fix Things (AI Regulation)",
+      "quote": "Here are some more ways to “move fast and fix things”: First, an absolute right to know if one is interacting with a person or a machine...",
+      "source_ids": [
+        "src_034"
+      ],
+      "verified": true,
+      "matched_source_id": "src_034",
+      "match_ratio": 0.9712230215827338
+    },
+    {
+      "category": "frameworks",
+      "label": "Proof-Carrying Code for Hardware Regulation",
+      "quote": "Proof carrying code means that the software object comes with a proof of whatever property you need it to have and that proof can be checked immediately and quickly by the hardware.",
+      "source_ids": [
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 0.9834254143646409
+    },
+    {
+      "category": "frameworks",
+      "label": "The Four Approaches to AI",
+      "quote": "These definitions vary along two main dimensions. The ones on top are concerned with thought processes and reasoning, whereas the ones on the bottom address behavior.",
+      "source_ids": [
+        "src_049"
+      ],
+      "verified": true,
+      "matched_source_id": "src_049",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "The St. Petersburg Compromise",
+      "quote": "A similar ban on small antipersonnel AWS could eliminate swarms as weapons of mass destruction. But it would allow the major powers to keep developing their autonomous submarines, tanks, and fighter aircraft...",
+      "source_ids": [
+        "src_009"
+      ],
+      "verified": true,
+      "matched_source_id": "src_009",
+      "match_ratio": 0.9857142857142858
+    },
+    {
+      "category": "frameworks",
+      "label": "Value of Information in AI Assistance",
+      "quote": "There is a trade-off between the cost of asking and the value of knowing the answer.",
+      "source_ids": [
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_025",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The King Midas Problem (The Genie's Three Wishes)",
+      "quote": "Whenever you think about giving a goal to a super-intelligent system, it’s very easy (as all the stories show) to find a loophole whereby achieving that goal to the greatest possible extent ends up having very undesirable side effects.",
+      "source_ids": [
+        "src_012",
+        "src_013",
+        "src_018",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 0.9872340425531915
+    },
+    {
+      "category": "mental_models",
+      "label": "The King Midas Problem / The Genie's Third Wish",
+      "quote": "This is why, when a genie has granted us three wishes, our third wish is always to undo the first two wishes.",
+      "source_ids": [
+        "src_027",
+        "src_029",
+        "src_034",
+        "src_054"
+      ],
+      "verified": true,
+      "matched_source_id": "src_054",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Breeding Horses (The Black Box Analogy)",
+      "quote": "We are basically breeding AI systems, giant black boxes with up to 10 trillion parameters.",
+      "source_ids": [
+        "src_012",
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Chernobyl Analogy",
+      "quote": "Despite all that effort, we had Chernobyl, and Chernobyl ended up wiping out the global nuclear industry.",
+      "source_ids": [
+        "src_014",
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Gorilla Problem",
+      "quote": "The problem of whether humans can maintain their supremacy and autonomy in a world that includes machines with substantially greater intelligence.",
+      "source_ids": [
+        "src_027",
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 0.9931506849315068
+    },
+    {
+      "category": "mental_models",
+      "label": "The Loophole Principle",
+      "quote": "whenever we do hand wavy stuff there are loopholes and the thing about super intelligent machines is they find the loopholes",
+      "source_ids": [
+        "src_027",
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Nuclear/Fusion Safety Analogy",
+      "quote": "Ever since then, fusion research has had the goal of generating energy and benefiting the human race by controlling the generation of energy so that you don’t have a huge explosion.",
+      "source_ids": [
+        "src_023",
+        "src_026"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 0.850828729281768
+    },
+    {
+      "category": "mental_models",
+      "label": "The Untested Airplane / Runaway Bus",
+      "quote": "everyone in the world is getting onto a brand-new kind of airplane that has never been tested before... It has to fly forever and not crash, because the whole human race is in that airplane.",
+      "source_ids": [
+        "src_019",
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6421052631578947
+    },
+    {
+      "category": "mental_models",
+      "label": "The Wall-E Problem (Enfeeblement)",
+      "quote": "we sort of gradually switch from sort of being the Masters of Technology to just being the guests right so so we become guests on a cruise ship",
+      "source_ids": [
+        "src_027",
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Algorithms as Scalable Pharmaceuticals",
+      "quote": "you can sit there and type for I equals 1 to 5 billion do right and all of a sudden you're having an impact on a global scale and yet we have no FDA",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Bias as Objective Misspecification",
+      "quote": "One can interpret that [bias in machine learning] as coming from again an incorrect specification of the objective.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7565217391304347
+    },
+    {
+      "category": "mental_models",
+      "label": "Corporations as Rogue AI",
+      "quote": "Arguing that AI systems have already taken over the world in the form of corporations, which are primarily responsible for issues like climate change due to misaligned optimization.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.46408839779005523
+    },
+    {
+      "category": "mental_models",
+      "label": "Rationality vs. Human Behavior",
+      "quote": "The study of AI as rational agent design therefore has two advantages. First, it is more general than the “laws of thought” approach... Second, it is more amenable to scientific development than approaches based on human behavior.",
+      "source_ids": [
+        "src_049"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6956521739130435
+    },
+    {
+      "category": "mental_models",
+      "label": "The Jeeves and Bertie Wooster Relationship",
+      "quote": "A model for successful human-AI coexistence where the AI (Jeeves) is vastly more intelligent than the human (Bertie) but remains entirely subservient and operates in the background.",
+      "source_ids": [
+        "src_022"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4861878453038674
+    },
+    {
+      "category": "mental_models",
+      "label": "The Kalashnikovs of Tomorrow",
+      "quote": "autonomous weapons will become the Kalashnikovs of tomorrow.",
+      "source_ids": [
+        "src_059"
+      ],
+      "verified": true,
+      "matched_source_id": "src_059",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Off-Switch Game",
+      "quote": "If you give a robot a fixed objective even something as simple as fetch the coffee... it's simply going to disable its own off switch as one of the first things it does.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.621301775147929
+    },
+    {
+      "category": "mental_models",
+      "label": "The Social Media Alignment Failure",
+      "quote": "The solution to maximizing click through is to modify people to be more predictable.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.9880952380952381
+    },
+    {
+      "category": "mental_models",
+      "label": "The Wright Brothers vs. Bird Breeding",
+      "quote": "It's more as if the Wright brothers instead of designing and building an airplane had actually decided to go into the bird breeding business.",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 0.9929078014184397
+    },
+    {
+      "category": "heuristics",
+      "label": "Make safe AI, don't make AI safe",
+      "quote": "Instead, we need to make safe AI. Safety should be built in by design.",
+      "source_ids": [
+        "src_011",
+        "src_018",
+        "src_026"
+      ],
+      "verified": true,
+      "matched_source_id": "src_026",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Fixed objectives disable off-switches",
+      "quote": "If you give a robot a fixed objective, it will disable its own off-switch.",
+      "source_ids": [
+        "src_012",
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6081081081081081
+    },
+    {
+      "category": "heuristics",
+      "label": "AI systems are grown, not designed",
+      "quote": "AI systems are not designed, they are grown.",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5454545454545454
+    },
+    {
+      "category": "heuristics",
+      "label": "Doing nothing is better than doing something random",
+      "quote": "Doing nothing is basically saying that humans have made the world kind of the way they like it right and therefore doing nothing is a special action that in the absence of any knowledge about human preferences is still a good thing to do.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.9789915966386554
+    },
+    {
+      "category": "heuristics",
+      "label": "Draw behavioral red lines",
+      "quote": "Draw behavioral red lines that must not be crossed.",
+      "source_ids": [
+        "src_026"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7843137254901961
+    },
+    {
+      "category": "heuristics",
+      "label": "Hardware is the ultimate regulator",
+      "quote": "What we actually need is the hardware to be the regulator here.",
+      "source_ids": [
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 0.9841269841269841
+    },
+    {
+      "category": "heuristics",
+      "label": "Harmful AI is Defective AI",
+      "quote": "An AI system that harms human beings is simply not good AI.",
+      "source_ids": [
+        "src_034"
+      ],
+      "verified": true,
+      "matched_source_id": "src_034",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Incentive to be Switched Off",
+      "quote": "A robot that is uncertain about the human’s preferences has a nonnegative incentive to allow itself to be switched off.",
+      "source_ids": [
+        "src_054"
+      ],
+      "verified": true,
+      "matched_source_id": "src_054",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Machine Self-Identification",
+      "quote": "If you are building a machine to interact with humans, ensure it self-identifies as a machine.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4787234042553192
+    },
+    {
+      "category": "heuristics",
+      "label": "Never run someone else's code",
+      "quote": "Rule 1 for such AI systems (and for all systems IMHO) is “never run someone else’s code.”",
+      "source_ids": [
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_025",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Rationality Definition",
+      "quote": "A system is rational if it does the right thing.",
+      "source_ids": [
+        "src_049"
+      ],
+      "verified": true,
+      "matched_source_id": "src_049",
+      "match_ratio": 0.9791666666666666
+    },
+    {
+      "category": "heuristics",
+      "label": "Scaling up gives wrong answers faster",
+      "quote": "Putting our systems that we have on to bigger faster machines is just going to give us wrong answers more quickly.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.9912280701754386
+    },
+    {
+      "category": "heuristics",
+      "label": "The Dead Butler Heuristic",
+      "quote": "You can't fetch the coffee if you're dead.",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "The WMD Threshold",
+      "quote": "If someone can type a command, press 'return,' and wipe out a million people, that’s a weapon of mass destruction.",
+      "source_ids": [
+        "src_009"
+      ],
+      "verified": true,
+      "matched_source_id": "src_009",
+      "match_ratio": 0.9824561403508771
+    },
+    {
+      "category": "heuristics",
+      "label": "Uncertainty Drives Computation",
+      "quote": "The more uncertainty, the more it's worth thinking about because there's a higher upside",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 0.9886363636363636
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Safe by Design",
+      "quote": "Instead, we need to make safe AI. Safety should be built in by design.",
+      "source_ids": [
+        "src_011",
+        "src_026"
+      ],
+      "verified": true,
+      "matched_source_id": "src_026",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Standard Model's Flaw",
+      "quote": "The standard model just says they should optimize the objective and if the objective isn’t good for human beings, the standard model doesn’t care.",
+      "source_ids": [
+        "src_029",
+        "src_054"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Bird Breeding vs Engineering",
+      "quote": "It's more as if the Wright brothers instead of designing and building an airplane had actually decided to go into the bird breeding business.",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 0.9929078014184397
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Breeding Black Boxes",
+      "quote": "We are basically breeding AI systems, giant black boxes with up to 10 trillion parameters.",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Burden of Proof",
+      "quote": "The key point here is that the onus of proof is on developers, not regulators...",
+      "source_ids": [
+        "src_026"
+      ],
+      "verified": true,
+      "matched_source_id": "src_026",
+      "match_ratio": 0.9625
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Chess Match with the Future",
+      "quote": "We're basically playing a chess match with the future of the human race as the stakes.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.9883720930232558
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Data as Snake Oil",
+      "quote": "rather than data being the new oil data is the new snake oil",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Decisions vs Outcomes",
+      "quote": "But being better at making decisions is not the same as making better decisions.",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Defining WMDs",
+      "quote": "If someone can type a command, press 'return,' and wipe out a million people, that’s a weapon of mass destruction.",
+      "source_ids": [
+        "src_009"
+      ],
+      "verified": true,
+      "matched_source_id": "src_009",
+      "match_ratio": 0.9824561403508771
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Guests on a Cruise Ship",
+      "quote": "we sort of gradually switch from sort of being the Masters of Technology to just being the guests right so so we become guests on a cruise ship",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Limits of Perfect Rationality",
+      "quote": "achieving perfect rationality—always doing the right thing—is not possible in complicated environments. The computational demands are just too high.",
+      "source_ids": [
+        "src_049"
+      ],
+      "verified": true,
+      "matched_source_id": "src_049",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Pursuing Human Interests",
+      "quote": "The AI system should not pursue its objectives period. It should pursue the interests of human beings. It may not know what they are.",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Rejecting Gospel Objectives",
+      "quote": "the machine should never take an objective that's given as gospel truth",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Safety vs. Innovation",
+      "quote": "Now, regulation is often said to stifle innovation, but there is no tradeoff between safety and innovation. An AI system that harms human beings is simply not good AI.",
+      "source_ids": [
+        "src_034"
+      ],
+      "verified": true,
+      "matched_source_id": "src_034",
+      "match_ratio": 0.9580838323353293
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Alien Email",
+      "quote": "It’s as if an alien civilization warned us by email of its impending arrival, and we replied, “Humanity is currently out of the office.”",
+      "source_ids": [
+        "src_034"
+      ],
+      "verified": true,
+      "matched_source_id": "src_034",
+      "match_ratio": 0.9705882352941176
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Danger of Certainty",
+      "quote": "If the Machine ever believes that it knows exactly what the objective is then nothing you can do will divert it from the course of action that it has chosen.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 0.9936305732484076
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Guarantee of Safety",
+      "quote": "We either build provably safe and controllable AI where we have absolute cast iron mathematical guarantee of safety or we have no AI at all.",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 0.9928571428571429
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Kalashnikovs of Tomorrow",
+      "quote": "If any major military power pushes ahead with AI weapon development, a global arms race is virtually inevitable, and the endpoint of this technological trajectory is obvious: autonomous weapons will become the Kalashnikovs of tomorrow.",
+      "source_ids": [
+        "src_059"
+      ],
+      "verified": true,
+      "matched_source_id": "src_059",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The New Model of AI",
+      "quote": "Where the standard model requires a fixed, known objective, the new model allows for uncertainty about the objective.",
+      "source_ids": [
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_025",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Off-Switch Problem",
+      "quote": "If you give a robot a fixed objective even something as simple as fetch the coffee... it's simply going to disable its own off switch as one of the first things it does.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.621301775147929
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Untested Airplane",
+      "quote": "everyone in the world is getting onto a brand-new kind of airplane that has never been tested before... It has to fly forever and not crash, because the whole human race is in that airplane.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6421052631578947
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Uncertainty as Control",
+      "quote": "Control over arbitrarily intelligent machines comes from designing those machines so that they are uncertain about human preferences.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.9924812030075187
+    },
+    {
+      "category": "anti_patterns",
+      "label": "The Standard Model of AI (Fixed Objectives)",
+      "quote": "The standard model, then, despite all its achievements, is a mistake. The mistake comes from transferring a perfectly reasonable definition of intelligence from humans to machines.",
+      "source_ids": [
+        "src_022",
+        "src_027",
+        "src_012",
+        "src_025",
+        "src_013",
+        "src_054",
+        "src_029",
+        "src_018",
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_054",
+      "match_ratio": 0.9944444444444445
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Optimizing for User Engagement",
+      "quote": "the way to maximize click-through is actually to modify the people to make them more predictable",
+      "source_ids": [
+        "src_027",
+        "src_034",
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Post-Hoc Safety",
+      "quote": "The approach aims to make AI safe through after-the-fact attempts to reduce unacceptable behaviour once an AI system has been built. There is ample evidence that this approach does not work...",
+      "source_ids": [
+        "src_011",
+        "src_018",
+        "src_026"
+      ],
+      "verified": true,
+      "matched_source_id": "src_026",
+      "match_ratio": 0.9635416666666666
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Scaling Black Boxes",
+      "quote": "Imagine if the airplane manufacturers had decided instead of doing all the engineering and the calculations of lift and drag... had decided just to build or breed bigger and bigger birds.",
+      "source_ids": [
+        "src_012",
+        "src_018",
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 0.893048128342246
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Loyal AI",
+      "quote": "The proposal is to create AI systems that are provably beneficial for the larger audience (everyone). It’s possible to make AI beneficial for one individual (“loyal AI”), but not recommended.",
+      "source_ids": [
+        "src_013",
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_025",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Motivated Cognition on Existential Risk",
+      "quote": "…if no one’s allowed to talk about the problems, then no one is going to fix them.",
+      "source_ids": [
+        "src_027",
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Assuming a Tradeoff Between Safety and Innovation",
+      "quote": "Now, regulation is often said to stifle innovation, but there is no tradeoff between safety and innovation.",
+      "source_ids": [
+        "src_034"
+      ],
+      "verified": true,
+      "matched_source_id": "src_034",
+      "match_ratio": 0.9439252336448598
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Equating Rationality with Logical Inference",
+      "quote": "The study of AI as rational agent design therefore has two advantages. First, it is more general than the “laws of thought” approach...",
+      "source_ids": [
+        "src_049"
+      ],
+      "verified": true,
+      "matched_source_id": "src_049",
+      "match_ratio": 0.9777777777777777
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Focusing on Accidental Targeting in AWS",
+      "quote": "The endpoint, I believe, would be that autonomous weapons become cheap, selective, scalable weapons of mass destruction (WMDs).",
+      "source_ids": [
+        "src_009"
+      ],
+      "verified": true,
+      "matched_source_id": "src_009",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Optimizing for Engagement",
+      "quote": "The solution to maximizing click through is to modify people to be more predictable.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.9880952380952381
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Relying on Voluntary Safety Commitments",
+      "quote": "go beyond the voluntary steps announced last Friday: systems that break the rules must be removed from the market",
+      "source_ids": [
+        "src_034"
+      ],
+      "verified": true,
+      "matched_source_id": "src_034",
+      "match_ratio": 1.0
+    }
+  ]
+}

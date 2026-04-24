@@ -1,0 +1,55 @@
+{
+  "source_id": "src_020",
+  "summary": "Walter C. Willett outlines practical dietary advice, emphasizing whole plant foods, the Mediterranean diet, and mindful eating. He warns against using 'ultra-processed' as a catch-all label for unhealthy food and stresses that a healthy diet must be enjoyable rather than a punishment.",
+  "themes": [
+    "Nutrition",
+    "Healthy Eating",
+    "Dietary Guidelines",
+    "Public Health"
+  ],
+  "principles": [
+    {
+      "statement": "Healthy eating must be enjoyable, not a punishment.",
+      "rationale": "For a diet to be sustainable and effective, it cannot feel overly complicated or punitive to the person following it.",
+      "source_quote": "It must be something that they enjoy. It can’t be punishment.",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Prioritize whole plant foods and healthy fats over refined grains and salty meats.",
+      "rationale": "Eating refined grains and salty meats several times a week raises the risk of high blood pressure, strokes, and heart disease.",
+      "source_quote": null,
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Occasional consumption of unhealthy foods has minimal effect on overall health.",
+      "rationale": "The danger lies in the frequent, weekly consumption of unhealthy items like refined grains and salty meats, rather than the occasional fast food meal.",
+      "source_quote": null,
+      "source_id": "src_020"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [
+    "When dining out, consider Asian restaurants because they tend to use healthy fats in their stir-fry dishes.",
+    "Avoid refined grains and sugar for breakfast; opt for steel-cut oats, nuts, yogurt, and fruits to keep blood sugar from spiking."
+  ],
+  "signature_quotes": [
+    {
+      "text": "It must be something that they enjoy. It can’t be punishment.",
+      "context": "Speaking on the necessity of making healthy dietary changes appealing and sustainable.",
+      "source_id": "src_020"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on the label 'ultra-processed foods' to determine if a food is healthy or unhealthy.",
+      "why_it_fails": "It is a distraction that does not capture all unhealthy foods, and it incorrectly flags some healthy foods (like whole grain bread and unsweetened yogurt) that have been ultra-processed.",
+      "source_id": "src_020"
+    },
+    {
+      "description": "Eating refined grains and sugar for breakfast.",
+      "why_it_fails": "It causes blood sugar to spike early in the day.",
+      "source_id": "src_020"
+    }
+  ]
+}

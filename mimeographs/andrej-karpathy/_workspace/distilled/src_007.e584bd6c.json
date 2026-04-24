@@ -1,0 +1,33 @@
+{
+  "source_id": "src_007",
+  "summary": "A Medium profile page for Andrej Karpathy containing a list of his article titles and brief snippets. The source is thin, primarily serving as an index, but highlights his focus on training deep neural networks on large datasets and hints at core arguments like the necessity of understanding backpropagation.",
+  "themes": [
+    "Deep Learning",
+    "Machine Learning Education"
+  ],
+  "principles": [
+    {
+      "statement": "Practitioners should understand backpropagation.",
+      "rationale": "When teaching the CS231n Deep Learning class at Stanford, assignments were intentionally designed to include explicit work on it, indicating its foundational importance.",
+      "source_quote": "Yes you should understand backprop",
+      "source_id": "src_007"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "I like to train deep neural nets on large datasets.",
+      "context": "Medium profile bio.",
+      "source_id": "src_007"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Viewing neural networks as just \"another tool in your machine learning toolbox.\"",
+      "why_it_fails": "While the snippet cuts off, introducing this view under the title \"Software 2.0\" implies that neural networks represent a fundamental paradigm shift in software development, rather than just being a standard tool with simple pros and cons.",
+      "source_id": "src_007"
+    }
+  ]
+}

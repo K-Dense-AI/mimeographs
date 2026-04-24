@@ -1,0 +1,68 @@
+{
+  "source_id": "src_011",
+  "summary": "In this talk, Shizuo Akira reflects on his career-defining decision to abandon his previous research to establish his own territory in innate immunity. He then presents a detailed overview of his lab's work on Regnase-1, an endoribonuclease that regulates immune responses, inflammation, and metabolism by controlling mRNA stability.",
+  "themes": [
+    "Innate Immunity",
+    "Regnase-1",
+    "mRNA Stability",
+    "Scientific Career Strategy",
+    "Knockout Mice"
+  ],
+  "principles": [
+    {
+      "statement": "Establish your own unique scientific territory rather than continuing your mentor's work.",
+      "rationale": "By abandoning his previous research and searching for a new theme, he was able to pioneer the entirely new field of innate immunity.",
+      "source_quote": "I felt that desire to abandon all the research I had been doing in the previous laboratory and to develop a new field of my own.",
+      "source_id": "src_011"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Knockout-Driven Discovery",
+      "when_to_apply": "When searching for a new research theme or trying to uncover the function of novel gene families.",
+      "steps": [
+        "Generate knockout mice for a specific gene or family of genes.",
+        "Observe the resulting in vivo phenotype (e.g., survival rates, spontaneous inflammation, tumor resistance).",
+        "Trace the molecular signaling pathways and targets responsible for the observed phenotype to define the gene's function."
+      ],
+      "source_quote": "so I used knockout M as a uh tool of searching for a seam and eventually I was able to enter the field of innate immunity",
+      "source_id": "src_011"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Brake and Negative Feedback",
+      "description": "Conceptualizing immune regulators as dual-phase controllers: acting as a constant 'brake' during steady states to prevent spontaneous inflammation, and as a 'negative feedback' loop post-stimulation to resolve the immune response.",
+      "example": "Regnase-1 constantly degrades IL-6 mRNA in unstimulated cells (the brake). Upon TLR stimulation, Regnase-1 is degraded to allow cytokine production, but is then re-induced to degrade the mRNA and shut off the response (negative feedback).",
+      "source_id": "src_011"
+    }
+  ],
+  "heuristics": [
+    "Always think about having your own territory in research.",
+    "Use knockout mice as a tool to search for new biological themes."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I felt that desire to abandon all the research I had been doing in the previous laboratory and to develop a new field of my own.",
+      "context": "Explaining his most impactful career decision when he became a professor at a private medical college.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "I have always been thinking about having my own territory in the research.",
+      "context": "Reflecting on why he chose not to continue his former research from the Kishimoto laboratory.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "I used knockout M as a uh tool of searching for a seam and eventually I was able to enter the field of innate immunity.",
+      "context": "Describing how he found his new research direction (note: 'M' refers to mice, 'seam' is an auto-caption error for theme).",
+      "source_id": "src_011"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Continuing your former mentor's research from the beginning when starting your own independent laboratory.",
+      "why_it_fails": "It prevents you from establishing your own scientific territory and discovering entirely new fields of study.",
+      "source_id": "src_011"
+    }
+  ]
+}

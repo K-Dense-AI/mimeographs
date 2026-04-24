@@ -1,0 +1,89 @@
+{
+  "source_id": "src_019",
+  "summary": "This source outlines Ludwig Wittgenstein's early philosophy as presented in the Tractatus Logico-Philosophicus. It details his views on the relationship between language and reality, the limits of what can be meaningfully said, the picture theory of language, and his belief that philosophy is an activity of logical clarification rather than a body of doctrine.",
+  "themes": [
+    "Philosophy of Language",
+    "Logical Atomism",
+    "Metaphysics",
+    "Limits of Language",
+    "Saying vs. Showing"
+  ],
+  "principles": [
+    {
+      "statement": "The world is the totality of facts, not of things.",
+      "rationale": "The sensible, changing world we perceive does not consist of isolated substances or objects, but of interconnected atomic facts and states of affairs in logical space.",
+      "source_quote": "The world is the totality of facts, not of things.",
+      "source_id": "src_019"
+    },
+    {
+      "statement": "Philosophy is an activity of logical clarification, not a body of doctrine.",
+      "rationale": "Philosophy should not attempt to construct true theories like the natural sciences do. Its purpose is to make cloudy and indistinct thoughts clear and give them sharp boundaries.",
+      "source_quote": "Philosophy aims at the logical clarification of thoughts. Philosophy is not a body of doctrine but an activity.",
+      "source_id": "src_019"
+    },
+    {
+      "statement": "Logical inferences require no external laws or rules to justify them.",
+      "rationale": "If an argument is valid, the relationship between the premises and the conclusion is internal and displayed by their structure. External 'laws of inference' are superfluous.",
+      "source_quote": "\"Laws of inference\", which are supposed to justify inferences, as in the works of Frege and Russell, have no sense, and would be superfluous.",
+      "source_id": "src_019"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Picture Theory of Language",
+      "description": "The idea that propositions act as logical 'pictures' of the world. A proposition can accurately represent reality because it shares the same logical form or structure as the fact it depicts.",
+      "example": "Using toy cars in a Parisian traffic court to reenact an automobile accident. The spatial relation of the toy cars pictures the spatial relation of the real cars, just as the logical structure of a proposition pictures a state of affairs in the world.",
+      "source_id": "src_019"
+    },
+    {
+      "name": "The Ladder",
+      "description": "A metaphor for a philosophical work or set of propositions that must be used to reach a higher level of understanding, but which are ultimately recognized as nonsensical and must be discarded once the realization is achieved.",
+      "example": "Wittgenstein compares the Tractatus itself to a ladder that the reader must throw away after they have climbed it.",
+      "source_id": "src_019"
+    },
+    {
+      "name": "Logical Atomism (Chess Analogy)",
+      "description": "The world is composed of simple, indivisible objects that combine to form states of affairs, much like pieces in a game.",
+      "example": "Chess pieces alone do not constitute the game; it is their specific arrangements on the board, together with the pieces themselves, that determine the state of affairs and the totality of the game.",
+      "source_id": "src_019"
+    }
+  ],
+  "heuristics": [
+    "Whereof one cannot speak, thereof one must be silent."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The world is all that is the case.",
+      "context": "The opening proposition of the Tractatus, establishing his metaphysical view.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "Whereof one cannot speak, thereof one must be silent.",
+      "context": "The final proposition (Proposition 7) of the Tractatus, delineating the limits of language.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "Philosophy is not a body of doctrine but an activity.",
+      "context": "Explaining the true nature and purpose of philosophy as the logical clarification of thoughts.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "Most of the propositions and questions to be found in philosophical works are not false but nonsensical.",
+      "context": "Critiquing traditional philosophy for failing to understand the logic of language.",
+      "source_id": "src_019"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating philosophy as a natural science.",
+      "why_it_fails": "Philosophy does not result in 'philosophical propositions' or true theories. Its place is above or below the natural sciences, and its role is to set limits to what can be thought by clarifying propositions.",
+      "source_id": "src_019"
+    },
+    {
+      "description": "Attempting to say what can only be shown.",
+      "why_it_fails": "Language cannot step outside of itself to describe its own logical structure or its correspondence with reality. These features can only be shown or displayed through the use of fact-stating propositions.",
+      "source_id": "src_019"
+    }
+  ]
+}

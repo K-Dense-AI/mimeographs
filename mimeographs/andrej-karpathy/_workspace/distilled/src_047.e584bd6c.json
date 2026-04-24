@@ -1,0 +1,88 @@
+{
+  "source_id": "src_047",
+  "summary": "Andrej Karpathy outlines his preferences in science fiction literature, emphasizing a strong preference for hard sci-fi, plausible artificial intelligence, and imaginative alien concepts. He explicitly rejects literary bloat, anthropomorphic aliens, and futuristic worlds that fail to account for AI.",
+  "themes": [
+    "Science Fiction",
+    "Artificial Intelligence",
+    "World-building",
+    "Extraterrestrial Life"
+  ],
+  "principles": [
+    {
+      "statement": "Sci-fi should focus on intriguing technical ideas and world-building rather than literary bloat.",
+      "rationale": "Flowery descriptions of scenery or characters distract from the core appeal of hard sci-fi, which is exploring future forecasting and technical concepts.",
+      "source_quote": "I like hard sci-fi and read for intriguing technical ideas, world-building, and future forecasting. I do not like flowery descriptions of the scenary, the details of someone's brow, or other related literary bloat.",
+      "source_id": "src_047"
+    },
+    {
+      "statement": "Artificial Intelligence is a mandatory component of plausible future world-building.",
+      "rationale": "Omitting AI from futuristic settings makes the world incomplete or unrealistic, as AI is a critical technological trajectory.",
+      "source_quote": "I especially enjoy sci-fi that features Artificial Intelligence. I believe AI is the greatest omission from most sci-fi worlds.",
+      "source_id": "src_047"
+    },
+    {
+      "statement": "Alien life should be portrayed imaginatively, not as anthropomorphic humans.",
+      "rationale": "It is unimaginative and implausible for extraterrestrial life to be humanoid, have faces, or speak by sound, unless a concept like panspermia is explicitly invoked.",
+      "source_quote": "I cannot stand unimaginative aliens who are humanoid, have faces, speak by sound, etc., unless panspermia is invoked.",
+      "source_id": "src_047"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Recommendation Sorting Formula",
+      "when_to_apply": "When curating and presenting lists of recommendations to share with an audience.",
+      "steps": [
+        "Evaluate how highly you recommend the item.",
+        "Evaluate how obscure the item is.",
+        "Multiply the recommendation score by the obscurity score.",
+        "Sort the final list in descending order based on this product to highlight hidden gems."
+      ],
+      "source_quote": "sorted by the product of (recommended * obscure), descending.",
+      "source_id": "src_047"
+    }
+  ],
+  "mental_models": [],
+  "heuristics": [
+    "Avoid sci-fi that is just tales of human relationships that happen to take place in the future.",
+    "Rank recommendations by the product of their quality and their obscurity."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I believe AI is the greatest omission from most sci-fi worlds.",
+      "context": "Explaining his preference for sci-fi that features Artificial Intelligence.",
+      "source_id": "src_047"
+    },
+    {
+      "text": "I cannot stand unimaginative aliens who are humanoid, have faces, speak by sound, etc., unless panspermia is invoked.",
+      "context": "Listing his core criteria for good science fiction.",
+      "source_id": "src_047"
+    },
+    {
+      "text": "I simply cannot tolerate or accept antropomorphic aliens, it makes me angry.",
+      "context": "Reviewing 'The Player of Games' by Iain M. Banks and explaining why his taste departs from popular consensus.",
+      "source_id": "src_047"
+    },
+    {
+      "text": "The moon exploded, humanity is on the brink of extinction and I just might die of boredom.",
+      "context": "His succinct review of why he didn't finish 'Seveneves' by Neal Stephenson.",
+      "source_id": "src_047"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Anthropomorphic aliens in science fiction.",
+      "why_it_fails": "It is unimaginative and biologically implausible for alien species to look like humans, have faces, or speak using sound.",
+      "source_id": "src_047"
+    },
+    {
+      "description": "Literary bloat in hard sci-fi.",
+      "why_it_fails": "Flowery descriptions of scenery or character details detract from the technical ideas, world-building, and future forecasting that make the genre compelling.",
+      "source_id": "src_047"
+    },
+    {
+      "description": "Omitting Artificial Intelligence from futuristic worlds.",
+      "why_it_fails": "It ignores a fundamental technological trajectory, making the future forecasting implausible or incomplete.",
+      "source_id": "src_047"
+    }
+  ]
+}

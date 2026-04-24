@@ -1,0 +1,63 @@
+{
+  "source_id": "src_022",
+  "summary": "This Britannica article outlines the life, works, and foundational philosophies of Aristotle. It covers his early years at Plato's Academy, his eventual divergence from Platonic thought, and his pioneering empirical research in zoology and biology. The text highlights his insistence on prioritizing observation over theory and his critique of Plato's theory of Forms.",
+  "themes": [
+    "Ancient Greek Philosophy",
+    "Empiricism",
+    "Metaphysics",
+    "Zoology",
+    "Logic"
+  ],
+  "principles": [
+    {
+      "statement": "Observation must always supersede theory.",
+      "rationale": "Theories are only valid if their results conform to observed phenomena. If a theory and an observation conflict, the observation is the reliable source of truth.",
+      "source_quote": "Whenever there is a conflict between theory and observation, one must trust observation, he insisted, and theories are to be trusted only if their results conform with the observed phenomena.",
+      "source_id": "src_022"
+    },
+    {
+      "statement": "Everyone must engage in philosophy.",
+      "rationale": "The very act of arguing against the practice or value of philosophy requires one to philosophize.",
+      "source_quote": "Everyone must do philosophy, Aristotle claims, because even arguing against the practice of philosophy is itself a form of philosophizing.",
+      "source_id": "src_022"
+    },
+    {
+      "statement": "The highest purpose of human life is the contemplation of the natural universe.",
+      "rationale": "God gave human beings a godlike intellect specifically for this purpose, making all other pursuits like strength, beauty, power, and honor worthless by comparison.",
+      "source_quote": "The best form of philosophy is the contemplation of the universe of nature; it is for this purpose that God made human beings and gave them a godlike intellect. All else—strength, beauty, power, and honour—is worthless.",
+      "source_id": "src_022"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Body as a Prison",
+      "description": "An early, Platonically influenced lens through which Aristotle viewed human existence, where the physical body traps the soul, and true liberation is only achieved after death.",
+      "example": "Viewing death not as a tragedy, but as a return to one's real home, making the dead more blessed and happier than the living.",
+      "source_id": "src_022"
+    }
+  ],
+  "heuristics": [
+    "Trust observation over theory when the two conflict.",
+    "Confess ignorance when evidence is insufficient."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Whenever there is a conflict between theory and observation, one must trust observation... and theories are to be trusted only if their results conform with the observed phenomena.",
+      "context": "On his approach to scientific and biological research.",
+      "source_id": "src_022"
+    },
+    {
+      "text": "Everyone must do philosophy... because even arguing against the practice of philosophy is itself a form of philosophizing.",
+      "context": "From his youthful work, the Protrepticus.",
+      "source_id": "src_022"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Plato's Theory of Forms (explaining the nature of particular things by positing a separate realm of immutable, everlasting Forms).",
+      "why_it_fails": "Immutable and everlasting Forms cannot explain how particulars come into existence and undergo change. It merely introduces new entities equal in number to the entities to be explained, \"as if one could solve a problem by doubling it.\"",
+      "source_id": "src_022"
+    }
+  ]
+}

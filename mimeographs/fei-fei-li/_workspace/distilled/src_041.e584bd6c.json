@@ -1,0 +1,54 @@
+{
+  "source_id": "src_041",
+  "summary": "A biographical overview of Fei-Fei Li, detailing her journey from a Chinese immigrant to a pioneering computer scientist known as the 'Godmother of AI.' The text highlights her foundational work creating the ImageNet database, her advocacy for diversity in tech through the nonprofit AI4ALL, and her focus on human-centered AI applications in healthcare.",
+  "themes": [
+    "Computer Vision",
+    "Diversity and Inclusion in AI",
+    "Human-Centered AI",
+    "Large-Scale Datasets"
+  ],
+  "principles": [
+    {
+      "statement": "The field of AI must include diverse and female voices.",
+      "rationale": "Because AI is a transformative technology, its development cannot lack representation from women and minorities. She pushes past her own personal shyness to ensure these voices are heard and actively works to educate underrepresented groups.",
+      "source_quote": "I am a shy person, not good at expressing myself, but I insisted on publishing a book because the field of AI cannot lack female voices.",
+      "source_id": "src_041"
+    },
+    {
+      "statement": "Massive, annotated datasets are the key to unlocking advanced AI capabilities.",
+      "rationale": "She recognized early on that the rapid growth of online image data could be harnessed to train more reliable algorithms, which led to the creation of the 15-million-image ImageNet database to advance AI applications.",
+      "source_quote": null,
+      "source_id": "src_041"
+    },
+    {
+      "statement": "AI should be human-centered and designed to benefit humanity.",
+      "rationale": "Technology should be applied to improve human systems rather than just advancing for its own sake. For example, ambient intelligence and responsive sensors can be used to significantly improve healthcare systems and patient care.",
+      "source_quote": null,
+      "source_id": "src_041"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Eyes of AI",
+      "description": "A metaphor for computer vision systems trained on massive, hierarchically organized datasets. By providing a comprehensive database of annotated images, AI is given the foundational visual perception layer required to 'see' and interact with the world.",
+      "example": "Creating ImageNet, a database of nearly 15 million images, to allow researchers to train their algorithms to accurately classify visual concepts.",
+      "source_id": "src_041"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "I am a shy person, not good at expressing myself, but I insisted on publishing a book because the field of AI cannot lack female voices.",
+      "context": "Speaking about her memoir, 'The Worlds I See', to the South China Morning Post.",
+      "source_id": "src_041"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Allowing the AI industry to remain homogenous and exclusive.",
+      "why_it_fails": "It deprives the field of essential female and minority perspectives. Li actively combats this by co-founding AI4ALL to promote inclusivity in AI education for high school students.",
+      "source_id": "src_041"
+    }
+  ]
+}

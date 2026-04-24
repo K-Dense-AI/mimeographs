@@ -1,0 +1,45 @@
+{
+  "source_id": "src_035",
+  "summary": "A brief author index page from Scientific American listing two articles co-authored by Walter C. Willett. The article blurbs highlight his views that early dietary guidelines misled the public about fats and carbohydrates, and that simple preventive measures can significantly reduce cancer risk.",
+  "themes": [
+    "Dietary Guidelines",
+    "Nutrition",
+    "Cancer Prevention"
+  ],
+  "principles": [
+    {
+      "statement": "Some fats are healthy for the heart, and many carbohydrates clearly are not.",
+      "rationale": "To correct the misconceptions propagated by the 1992 and 2005 dietary guides, which led people astray regarding macronutrient health.",
+      "source_quote": "Some fats are healthy for the heart, and many carbohydrates clearly are not",
+      "source_id": "src_035"
+    },
+    {
+      "statement": "Simple, realistic preventive measures can drastically reduce cancer risk.",
+      "rationale": "Implementing these measures could save hundreds of thousands of lives annually in developed countries.",
+      "source_quote": "Simple, realistic preventive measures could save hundreds of thousands of lives every year in developed countries alone",
+      "source_id": "src_035"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Dietary guides introduced in 1992 and 2005 have led people astray. Some fats are healthy for the heart, and many carbohydrates clearly are not",
+      "context": "From the summary of his 2006 article 'Rebuilding the Food Pyramid'",
+      "source_id": "src_035"
+    },
+    {
+      "text": "Simple, realistic preventive measures could save hundreds of thousands of lives every year in developed countries alone",
+      "context": "From the summary of his 1996 article 'Strategies for Minimizing Cancer Risk'",
+      "source_id": "src_035"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on the dietary guides introduced in 1992 and 2005.",
+      "why_it_fails": "They have led people astray by failing to accurately distinguish between healthy and unhealthy fats, as well as healthy and unhealthy carbohydrates.",
+      "source_id": "src_035"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "source_id": "src_017",
+  "summary": "Jürgen Schmidhuber reflects on the evolution of AI, noting how algorithms developed by his team in the early 1990s now power modern technologies like smartphones and ChatGPT. He highlights AI's practical benefits in healthcare, translation, and sustainable development, while predicting that exponential growth will make today's AI seem primitive in 30 years. He frames the AI revolution as an evolutionary milestone comparable to the emergence of life itself.",
+  "themes": [
+    "History of Deep Learning",
+    "AI in Healthcare",
+    "Sustainable Development Goals",
+    "Exponential Technological Growth",
+    "Evolutionary Impact of AI"
+  ],
+  "principles": [
+    {
+      "statement": "AI's primary impact is making human lives longer, healthier, and easier.",
+      "rationale": "AI is already being deployed successfully in critical areas like cancer detection, breaking down linguistic barriers, and addressing global sustainability challenges.",
+      "source_quote": "let's just talk about how AI is really making human lives longer and healthier and easier",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Deep learning models trained on massive data can outperform domain-specific expert systems.",
+      "rationale": "In 2012, his team's neural network won a cancer detection competition against industry and academia despite having zero programmed knowledge of histology, relying entirely on training data.",
+      "source_quote": "it was just a deep learning neur work which knew nothing about histology but we trained it on lots of data and then it was just better than all these competing systems",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "The AI revolution is a biological-scale event, not just an industrial one.",
+      "rationale": "The magnitude of change brought by AI will transcend human civilization, making it comparable to the origin of life on Earth.",
+      "source_quote": "what we currently witnessing is not just another Industrial Revolution it's something that's going to transcend civilization and humankind as we know it it's something comparable to what happened 3.5 billion years ago when life emerged",
+      "source_id": "src_017"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Factor of a Million Lens",
+      "description": "Viewing the future of technology through the lens of exponential computational growth, where the next 30 years will yield a million-fold improvement, rendering current state-of-the-art technology primitive.",
+      "example": "Looking back from 30 years in the future, people will smile at how naive we were to be impressed by current large language models and ChatGPT.",
+      "source_id": "src_017"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "the same old algorithms that we published back then today they are on your smartphones and suddenly you have things such as chat GPT",
+      "context": "Reflecting on how his early 1990s research laid the groundwork for modern AI.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "in the next 30 years if the trend doesn't break we will gain another factor of a million and everything that we find impressive today will seem ridiculous 30 years from now",
+      "context": "Discussing the exponential growth of computing power and AI capabilities.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "what we currently witnessing is not just another Industrial Revolution it's something that's going to transcend civilization and humankind as we know it it's something comparable to what happened 3.5 billion years ago when life emerged",
+      "context": "Describing the ultimate historical significance of artificial intelligence.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "it's a privilege to witness the beginnings of that and to contribute something to that",
+      "context": "Concluding his thoughts on being part of the AI revolution.",
+      "source_id": "src_017"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Being overly impressed by current AI achievements like Large Language Models and ChatGPT.",
+      "why_it_fails": "Because computational power will increase by a factor of a million over the next 30 years, making today's breakthroughs look naive and ridiculous in hindsight.",
+      "source_id": "src_017"
+    }
+  ]
+}

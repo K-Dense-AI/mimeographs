@@ -1,0 +1,861 @@
+{
+  "expert_name": "Ian Goodfellow",
+  "themes": [
+    "Generative Adversarial Networks (GANs)",
+    "Adversarial Training & Minimax Games",
+    "Deep Learning Fundamentals",
+    "Machine Learning Security",
+    "AI Philosophy & Future",
+    "Optimization & Game Theory",
+    "Adversarial Machine Learning & Security",
+    "Game Theory in AI",
+    "Algorithmic Fairness",
+    "Core Technology Leverage"
+  ],
+  "principles": [
+    {
+      "label": "Adversarial Training for Generative Models",
+      "summary": "Generative models can be trained effectively by pitting them against a discriminative adversary, sidestepping intractable probabilistic computations.",
+      "details": "By simultaneously training a generative model to capture the data distribution and a discriminative model to distinguish real from generated samples, the generator learns to produce highly realistic data without needing explicit probability density evaluation.",
+      "representative_quote": "We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G.",
+      "source_ids": [
+        "src_007",
+        "src_020"
+      ]
+    },
+    {
+      "label": "Elimination of Markov Chains",
+      "summary": "Generative models do not need Markov chains or approximate inference networks.",
+      "details": "By defining the generator and discriminator as multilayer perceptrons, the entire system can be trained using only backpropagation and dropout, and samples can be generated using only forward propagation.",
+      "representative_quote": "There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples.",
+      "source_ids": [
+        "src_007",
+        "src_020"
+      ]
+    },
+    {
+      "label": "GANs as Supervised Approximation",
+      "summary": "Generative Adversarial Networks approximate intractable cost functions through supervised learning.",
+      "details": "By framing the generative problem as a game between two networks, GANs can learn to generate samples without needing an explicit, tractable density function.",
+      "representative_quote": "GANs are generative models that use supervised learning to approximate an intractable cost function",
+      "source_ids": [
+        "src_017",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Non-Saturating Game Objective",
+      "summary": "Early in training, the generator should maximize the probability of the discriminator making a mistake, rather than minimizing its own probability of being caught.",
+      "details": "When the generator is poor, the discriminator rejects its samples with high confidence. The standard objective function saturates, providing insufficient gradients. Flipping the objective provides much stronger gradients early in learning.",
+      "representative_quote": "Rather than training G to minimize log(1 − D(G(z))) we can train G to maximize log D(G(z)). This objective function results in the same fixed point of the dynamics of G and D but provides much stronger gradients early in learning.",
+      "source_ids": [
+        "src_007",
+        "src_039"
+      ]
+    },
+    {
+      "label": "Open Benchmarks for Guardrails",
+      "summary": "Open, reproducible benchmarks are crucial for evaluating AI guardrails and defenses.",
+      "details": "Just as reproducible benchmarks were foundational for progress in adversarial machine learning, they are necessary for rigorously evaluating the safety and efficacy of LLM guardrails.",
+      "representative_quote": "It’s great to see these open, reproducible benchmarks for evaluating LLM guardrails. We’ve seen how important this is for adversarial ML, great to see it coming to guardrails too.",
+      "source_ids": [
+        "src_015",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Adversarial Examples as Security Liabilities",
+      "summary": "Adversarial examples are primarily a security liability rather than a fundamental flaw unique to machine learning.",
+      "details": "Confronting strong adversaries forces a trade-off with clean accuracy, making them a practical security issue for deployed systems.",
+      "representative_quote": "I think of them now more of as a security liability then as an issue that necessarily shows there something uniquely wrong with machine learning as opposed to humans",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Adversarial Training as Regularization",
+      "summary": "Adversarial training acts as a regularizer that reduces overfitting.",
+      "details": "While it may slightly increase underfitting on complex datasets, training on adversarial examples generally improves robustness and should be used if a model is overfitting.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Adversarial Transferability",
+      "summary": "Adversarial examples transfer highly between different models, enabling black-box attacks.",
+      "details": "An attacker does not need access to a target model's architecture or weights. They can generate adversarial examples on a substitute model, and those examples will often successfully fool the unknown target model.",
+      "representative_quote": "you can actually fool a remotely hosted model without ever knowing which training algorithm it's running which architecture it is or the value of its weights",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "AI as a Meta-Solution",
+      "summary": "AI is a meta-solution to human problems, capable of ingenuity that exceeds our own.",
+      "details": "Human ingenuity has limits when solving complex problems like drug discovery. AI can act as a higher-level tool that generates solutions exceeding human abilities.",
+      "representative_quote": "I thought that AI is something of a meta-solution, where there may be many problems where it’s very difficult for us to come up with the solution using our human ingenuity, but AI could be even more ingenious than us...",
+      "source_ids": [
+        "src_043"
+      ]
+    },
+    {
+      "label": "Bias Mitigation Requires Adversarial Training",
+      "summary": "Simply withholding sensitive variables from a model is not enough to prevent biased decisions; adversarial feature learning is required.",
+      "details": "Training data is often created by biased humans. If a model is denied direct access to a sensitive variable, it will simply find other correlated characteristics to act as proxies. You must use an adversarial process to force the model to learn representations that genuinely hide sensitive information.",
+      "representative_quote": "it's not sufficient to just take a machine learning model and train it with no access to the race variable or no access to the gender variable because your trading data may have been created by people who had biases themselves",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Core Technology Leverage",
+      "summary": "Focus on developing core technologies rather than specific applications to maximize impact.",
+      "details": "Building foundational technology provides a faster and broader path to impact many different fields simultaneously, as opposed to solving isolated problems one at a time.",
+      "representative_quote": "I realized that would be a faster path to impact more things than working on specific medical applications one at a time",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Cryptographic Authentication Over Fake Detectors",
+      "summary": "Rely on cryptographic authentication, not fake detectors, to verify reality.",
+      "details": "We will never be able to reliably determine if media is real just by analyzing its pixels. If a fake detector is fooled, it inadvertently grants the fake even more credibility.",
+      "representative_quote": "I don't think we'll ever be able to look at the pixels of a photo and tell you for sure that it's real or not real and I think it would actually be somewhat dangerous to rely on that approach too much.",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Deep Learning as Multi-Step Programs",
+      "summary": "Deep learning is defined by learning parameters over multiple consecutive steps, not just by gradient descent.",
+      "details": "Defining deep learning strictly by gradient descent excludes valid deep models like Boltzmann machines or networks trained via genetic algorithms. The defining characteristic is the sequence of parameterized operations refining a state.",
+      "representative_quote": "I would say deep learning is any kind of machine learning that involves learning parameters of more than one consecutive step.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Deep Learning as Sequential Programming",
+      "summary": "Deep learning is best understood as learning multi-step computer programs rather than just building hierarchical representations.",
+      "details": "The depth of a neural network graph represents steps running in sequence, which refines a state of understanding iteratively. This iterative refinement is a form of reasoning.",
+      "representative_quote": "I think of deep learning as basically learning programs that have more than one step. So if you draw a flowchart or or if you draw a tensor flow graph describing your machine learning model I think of the depth of that graph is describing the number of steps that run in sequence",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Defense Over Offense",
+      "summary": "Security research in machine learning must aim to make defense easier than attack.",
+      "details": "As AI becomes integrated into critical systems, ensuring that defensive capabilities outpace offensive ones is necessary to promote stability and prevent malicious exploitation.",
+      "representative_quote": "a lot of what motivates me and my research is to make sure that we make it harder to attack than to defend so that machine learning can promote stability",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Intuitive Tasks vs. Formal Logic",
+      "summary": "The true challenge of AI is solving intuitive, automatic tasks, not formal logic problems.",
+      "details": "Abstract tasks like chess are easy for computers because they can be described by formal rules. Recognizing speech or objects requires immense, subjective knowledge about the world, which must be learned from raw data.",
+      "representative_quote": "The true challenge to artificial intelligence proved to be solving the tasks that are easy for people to perform but hard for people to describe formally—problems that we solve intuitively, that feel automatic, like recognizing spoken words or faces in images.",
+      "source_ids": [
+        "src_033"
+      ]
+    },
+    {
+      "label": "Learned Features Over Hand-Coding",
+      "summary": "Let neural networks learn features instead of manually programming them to bypass hardware constraints.",
+      "details": "When dealing with massive amounts of data like image pixels and batches, hardware memory limits make brute-force programming impossible. Training a network to embed relevant features is the only scalable solution.",
+      "representative_quote": "How about instead of trying to make a big, long list of all the triplet features, you have a neural net learn the features that you should look at?",
+      "source_ids": [
+        "src_001"
+      ]
+    },
+    {
+      "label": "Linearity Causes Adversarial Vulnerability",
+      "summary": "Adversarial examples occur because modern machine learning models are too linear, not because they are overfitting.",
+      "details": "Deep networks are built with piecewise linear hidden units (like ReLUs) to make them easier to train. As a result, they extrapolate linearly when moving away from training data, allowing small, calculated perturbations across many pixels to add up to a massive change in the model's output.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Multi-Task Generalization",
+      "summary": "Training one system to do many different things makes it better at all of them.",
+      "details": "Exposing a single model to multiple distinct tasks improves its overall performance and generalization across the board.",
+      "representative_quote": "using one system to do many different things will cause it to become better at all of them.",
+      "source_ids": [
+        "src_043"
+      ]
+    },
+    {
+      "label": "Multiple Correct Answers in Generative Modeling",
+      "summary": "Generative models should be allowed to have multiple correct answers to preserve sharpness and diversity.",
+      "details": "Using standard supervised loss functions like Mean Squared Error forces a model to average all possible correct outputs, leading to blurry results. GANs use a discriminator to endorse any valid output.",
+      "representative_quote": "part of why they work so well is that they allow the model to have multiple correct answers",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Non-Saturating Objectives for GANs",
+      "summary": "Use a non-saturating game objective for the generator to ensure strong gradients early in training.",
+      "details": "Early in learning, when the generator is poor, the discriminator can easily reject samples. In a standard minimax game, this causes the generator's gradient to saturate. Training the generator to maximize the log-probability of the discriminator being mistaken provides stronger gradients.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Public Code as a Career Catalyst",
+      "summary": "To get noticed in the AI field, write good code that solves real problems and share it publicly.",
+      "details": "Researchers at top labs are actively looking for solutions to specific problems. If you build an interesting project that solves one of these problems and host it on GitHub, the labs will naturally find you.",
+      "representative_quote": "One way that you could get a lot of attention is to write good code and put it on Github. If you have an interesting project that solves a problem that someone working at top lab wanted to solve, once they find your github repository, they’ll find you.",
+      "source_ids": [
+        "src_008"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Generative Adversarial Networks (GAN) Training",
+      "summary": "A framework for estimating generative models via an adversarial process between a generator and a discriminator.",
+      "details": "1. Sample a minibatch of real data. 2. Sample a minibatch of noise. 3. Update the discriminator to maximize the probability of assigning correct labels to both real and fake samples. 4. Update the generator to maximize the probability of the discriminator making a mistake. 5. Alternate these steps.",
+      "representative_quote": "The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game.",
+      "source_ids": [
+        "src_007",
+        "src_020",
+        "src_039"
+      ]
+    },
+    {
+      "label": "Generative Adversarial Networks (GANs) Training",
+      "summary": "A framework for estimating generative models via an adversarial process between two competing networks.",
+      "details": "Simultaneously train a generative model (G) to capture the data distribution and a discriminative model (D) to estimate the probability that a sample came from the training data rather than G. Optimize the system as a minimax two-player game.",
+      "representative_quote": "We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D...",
+      "source_ids": [
+        "src_017",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Adversarial Feature Extraction for Fairness",
+      "summary": "A framework for removing sensitive variables or adapting to new domains using adversarial training.",
+      "details": "Train a feature extractor for the primary task while simultaneously training it to fool a secondary 'feature analyzer' player that tries to guess the sensitive variable (e.g., gender) from the extracted features.",
+      "representative_quote": "you have one player that's a feature extractor and another player that's a feature analyzer and you want to make sure that the feature analyzer is not able to guess the value of the sensitive variable that you're trying to keep private",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Adversarial Feature Learning for Bias Mitigation",
+      "summary": "An adversarial process to ensure machine learning algorithms ignore sensitive attributes like race or gender.",
+      "details": "Set up a two-player game where one player extracts features from the data, and the other tries to guess the value of sensitive variables from those features. Train the system to force the feature extractor to learn a representation that completely hides the sensitive information.",
+      "representative_quote": "create an adversarial process for learning the features where um one player pulls out the features and another player tries to guess the value of variables that we don't want to participate in the decision",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Black-Box Transfer Attack (Model Theft)",
+      "summary": "A method to fool a remotely hosted target model without knowing its architecture, weights, or training algorithm.",
+      "details": "Send inputs to the target model and observe outputs. Use these pairs to reverse-engineer the parameters and train a substitute model. Generate adversarial examples against the substitute, then deploy them against the target model, relying on high transfer rates.",
+      "representative_quote": "After you have your own copy of the model you can make adverse early examples at full your model and then send those adversary examples back to the targeted model",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Fast Gradient Sign Method (FGSM)",
+      "summary": "A fast, closed-form method to generate adversarial examples without iterative optimization.",
+      "details": "Linearize the cost of the neural network around the current input. Take the gradient of the cost with respect to the input, take the sign of the gradient at each pixel, and add a small constraint value (epsilon) times that sign to the input.",
+      "representative_quote": "we just take the gradient of the cost with respect to the input we take the sign of the gradient at each pixel and we add epsilon times that sign at the gradient to the input",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Machine Learning Algorithm Decomposition",
+      "summary": "A method for analyzing and designing machine learning systems by breaking them into three distinct components.",
+      "details": "1. Define the model (how data and parameters make a prediction). 2. Define the optimization algorithm (how parameters are updated, e.g., gradient descent). 3. Define the dataset (how the world is represented).",
+      "representative_quote": null,
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Standardized Adversarial Benchmarking",
+      "summary": "A protocol for evaluating new adversarial attacks or defenses to ensure valid, comparable results.",
+      "details": "Implement your new method and test it against standard reference implementations of the strongest known attacks/defenses using a library like CleverHans. This isolates whether your method is actually effective or if the opposing method was just weak.",
+      "representative_quote": "using clever hunts for one side and your research project for the other side lets you know that you're comparing to the same standards as all of the other researchers",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Writing for Rapidly Evolving Fields",
+      "summary": "A strategy for summarizing fast-moving technical fields in textbooks or reference guides.",
+      "details": "Focus on providing a high-level summary that gives readers the language and core concepts needed to understand the field. Acknowledge rapidly evolving areas without detailing the exact current best architectures, as specific performance metrics will quickly become outdated.",
+      "representative_quote": "But there isn't a lot of point in trying to summarize exactly which architecture in which learning approach got to which level of performance.",
+      "source_ids": [
+        "src_022"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Optimization vs. Games (Minimax)",
+      "summary": "Shifting from traditional optimization (finding a single minimum) to game theory (finding a Nash equilibrium between competing networks).",
+      "details": "Traditional optimization seeks a single minimum for one cost function. A game involves multiple players controlling different parameters, each trying to minimize their own cost function, requiring the system to find an equilibrium (e.g., GANs, adversarial training).",
+      "representative_quote": "Finding Nash equilibria in high-dimensional, continuous, non-convex games is an important open research problem",
+      "source_ids": [
+        "src_015",
+        "src_017",
+        "src_022",
+        "src_021",
+        "src_005"
+      ]
+    },
+    {
+      "label": "Counterfeiters vs. Police",
+      "summary": "A metaphor for the adversarial training process in GANs.",
+      "details": "The generative model acts as a counterfeiter trying to create fake data that looks real, while the discriminative model acts as the police trying to distinguish real data from fakes. The competition forces both to improve until the fakes are perfect.",
+      "representative_quote": "The generative model can be thought of as analogous to a team of counterfeiters, trying to produce fake currency and use it without detection, while the discriminative model is analogous to the police, trying to detect the counterfeit currency.",
+      "source_ids": [
+        "src_007",
+        "src_039",
+        "src_043"
+      ]
+    },
+    {
+      "label": "Deep Learning as Sequential Programming",
+      "summary": "Viewing a neural network's architecture as a flowchart where depth equals sequential steps.",
+      "details": "Instead of viewing a deep layer as a 'grandmother cell' that recognizes a specific object, it is viewed as the Nth update in a program that is iteratively refining a state of understanding.",
+      "representative_quote": "I think of deep learning as basically learning programs that have more than one step.",
+      "source_ids": [
+        "src_033",
+        "src_009"
+      ]
+    },
+    {
+      "label": "Minimax Two-Player Game",
+      "summary": "A game theory framework where two agents have competing objectives, eventually reaching a saddle point.",
+      "details": "The generator and discriminator play a minimax game terminating at a saddle point where the generator recovers the training data distribution and the discriminator outputs 1/2 everywhere.",
+      "representative_quote": "In the space of arbitrary functions G and D, a unique solution exists, with G recovering the training data distribution and D equal to 1/2 everywhere.",
+      "source_ids": [
+        "src_007",
+        "src_020"
+      ]
+    },
+    {
+      "label": "Cooperative View of GANs",
+      "summary": "Viewing the discriminator not just as an adversary, but as a guide that helps the generator improve.",
+      "details": "Instead of viewing the generator and discriminator as purely adversarial enemies, view them as cooperating entities where the discriminator estimates the ratio of the data and model distributions to inform and guide the generator.",
+      "representative_quote": "A cooperative rather than adversarial view of GANs: the discriminator tries to estimate the ratio of the data and model distributions, and informs the generator of its estimate in order to guide its improvements.",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Deliberate Practice",
+      "summary": "Viewing machine learning optimization through the lens of human psychology and expert coaching.",
+      "details": "Effective learning requires focusing on the most difficult subtasks and receiving expert feedback. In GANs, the discriminator acts as an expert coach, telling the generator exactly what it should have done instead of providing a generic error metric.",
+      "representative_quote": "rather than just training and lots and lots of training examples your training on the worst case inputs that are really hard for the model and in the case of generative adverts or networks you have an expert the discriminator coaching the generator",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Factors of Variation",
+      "summary": "Thinking of observed data as being influenced by separate, unobserved sources or forces that need to be disentangled.",
+      "details": "When analyzing an image of a car, the factors of variation include the position of the car, its color, and the angle and brightness of the sun.",
+      "representative_quote": "It is not surprising that the choice of representation has an enormous effect on the performance of machine learning algorithms.",
+      "source_ids": [
+        "src_033"
+      ]
+    },
+    {
+      "label": "Generative Models as Human Imagination",
+      "summary": "Understanding that generative models create entirely novel data points from scratch, rather than compositing existing data.",
+      "details": "When a GAN generates a new photo of a cat, it is not taking the eye of one cat and the ear of another from the training data; it is producing a cat that has never existed before.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Gradient Descent as Valley Walking",
+      "summary": "Visualizing neural network optimization as walking downhill in a landscape.",
+      "details": "The current state of the network is a coordinate on a map, and the goal is to reach the lowest point. The algorithm looks at the immediate ground and takes a step in the steepest downhill direction.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_043"
+      ]
+    },
+    {
+      "label": "Machine Learning as Sherlock Holmes",
+      "summary": "Models can infer highly private, unstated attributes from seemingly innocuous public data.",
+      "details": "Much like Sherlock Holmes deducing a client's life story from minor clues like marks on their shoes, ML models can predict sensitive traits (like personality) better than friends or family simply by analyzing public social media activity.",
+      "representative_quote": "Machine learning is kind of like the modern-day version of Sherlock Holmes it is able to infer things that we don't realize we're broadcasting to the world",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Optical Illusions as Human Adversarial Examples",
+      "summary": "The human visual system has specific vulnerabilities analogous to adversarial examples in machine learning.",
+      "details": "When asked if adversarial examples exist in the human brain, Goodfellow points to optical illusions (like concentric circles that look like intertwining spirals) as the human equivalent.",
+      "representative_quote": "a lot of people ask me if there are adversarial examples in the human brain and the short answer is yes we call them optical illusions",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "The Cambrian Explosion of GANs",
+      "summary": "Using evolutionary biology to describe the rapid diversification of machine learning architectures.",
+      "details": "A foundational breakthrough acts as a 'backbone', leading to a massive proliferation of specialized variants, much like the evolution of a backbone led to diverse animal species.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "The Clever Hans Effect",
+      "summary": "ML models often maximize their objective by latching onto spurious correlations rather than learning true reality.",
+      "details": "Just as the horse Clever Hans appeared to do math but was actually reading audience reactions, ML models appear to classify images correctly until tested out-of-distribution with adversarial examples, revealing they rely on unintended side channels.",
+      "representative_quote": "we asked them to maximize the log likelihood of the training set labels and they find a way of doing that and it happens not to be one that corresponds very well to reality",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "The Machine Learning Triad",
+      "summary": "Decomposing machine learning algorithms into three distinct pieces: the model, the optimization algorithm, and the dataset.",
+      "details": "Deep learning defines the model (having multiple layers), while gradient descent is just one possible optimization algorithm used to update it, and the dataset defines how the world is represented.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_022"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Mini-Batch Features for Mode Collapse",
+      "summary": "To partially fix mode collapse in GANs, add nearest-neighbor features constructed from the current minibatch to the discriminator.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_017",
+        "src_039"
+      ]
+    },
+    {
+      "label": "Non-Saturating Gradient Trick",
+      "summary": "Early in learning, train the generator to maximize log D(G(z)) instead of minimizing log(1 - D(G(z))) to prevent gradient saturation.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_007",
+        "src_039"
+      ]
+    },
+    {
+      "label": "Worst-Case Robustness Analysis",
+      "summary": "To make a system truly robust, perform worst-case analysis by testing it against adversarial examples, not just average-case data.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_022",
+        "src_015"
+      ]
+    },
+    {
+      "label": "Alternate Optimization Steps",
+      "summary": "Alternate between k steps of optimizing the discriminator and one step of optimizing the generator to keep the discriminator near its optimal solution.",
+      "details": null,
+      "representative_quote": "Instead, we alternate between k steps of optimizing D and one step of optimizing G. This results in D being maintained near its optimal solution, so long as G changes slowly enough.",
+      "source_ids": [
+        "src_007"
+      ]
+    },
+    {
+      "label": "Ensemble Transferability",
+      "summary": "Generate adversarial examples using an ensemble of models to drastically improve the chance they will transfer to an unknown target model.",
+      "details": "If an adversarial example successfully fools every member of an ensemble of five models, it has essentially a 100% chance of fooling a new, unseen sixth model.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Evaluate 'Deepness' by Consecutive Steps",
+      "summary": "To evaluate if a model is 'deep', check if it involves learning parameters of more than one consecutive step.",
+      "details": null,
+      "representative_quote": "I would say deep learning is any kind of machine learning that involves learning parameters of more than one consecutive step.",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Hardware-First Problem Solving",
+      "summary": "Calculate hardware constraints (pixels, batch size, GPU memory) before attempting brute-force programming solutions.",
+      "details": "If limits are exceeded, use learned features instead of hand-coded rules.",
+      "representative_quote": "You're not going to be able to program your way out of this.",
+      "source_ids": [
+        "src_001"
+      ]
+    },
+    {
+      "label": "L-infinity Constraints for Perturbations",
+      "summary": "Use L-infinity constraints (bounding max change per pixel) rather than L2 constraints to prevent accidentally changing the true class of an image.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Latent Space Arithmetic",
+      "summary": "Do arithmetic in the latent space (Z vectors) to manipulate semantic features of generated images.",
+      "details": "For example: man with glasses - man + woman = woman with glasses.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Out-of-Band Authentication",
+      "summary": "To prove something is real, you must step back to a separate, out-of-band channel (like cryptographic signing) rather than relying on the content itself.",
+      "details": null,
+      "representative_quote": "You can simulate almost anything and so you have to really step back to a separate channel to prove that something is real.",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Presentation Typography",
+      "summary": "Use Computer Modern fonts in presentation slides so the main text matches the font of equations copied from TeX.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_030"
+      ]
+    },
+    {
+      "label": "Public Code as Resume",
+      "summary": "Write high-quality code and publish it on GitHub to attract the attention of top AI labs looking for specific problem solvers.",
+      "details": null,
+      "representative_quote": "One way that you could get a lot of attention is to write good code and put it on Github.",
+      "source_ids": [
+        "src_008"
+      ]
+    },
+    {
+      "label": "Safe Discriminator Optimization",
+      "summary": "In GANs, fully optimizing the discriminator while holding the generator constant is safe, whereas the reverse causes mode collapse.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_017"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Counterfeiters and Police",
+      "summary": "The foundational metaphor for GANs.",
+      "details": "Explaining the core intuition behind the adversarial nets framework.",
+      "representative_quote": "The generative model can be thought of as analogous to a team of counterfeiters, trying to produce fake currency and use it without detection, while the discriminative model is analogous to the police, trying to detect the counterfeit currency.",
+      "source_ids": [
+        "src_007",
+        "src_039",
+        "src_043"
+      ]
+    },
+    {
+      "label": "No Markov Chains Needed",
+      "summary": "Highlighting the computational simplicity of GANs.",
+      "details": "Highlighting the primary computational advantages of GANs over previous generative models like Deep Boltzmann Machines.",
+      "representative_quote": "There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples.",
+      "source_ids": [
+        "src_007",
+        "src_020"
+      ]
+    },
+    {
+      "label": "Adversarial Examples as Optical Illusions",
+      "summary": "Explaining the human equivalent of adversarial examples.",
+      "details": null,
+      "representative_quote": "a lot of people ask me if there are adversarial examples in the human brain and the short answer is yes we call them optical illusions",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "AI as a Meta-Solution",
+      "summary": "Explaining his hope for AI solving complex human problems.",
+      "details": null,
+      "representative_quote": "I thought that AI is something of a meta-solution, where there may be many problems where it’s very difficult for us to come up with the solution using our human ingenuity, but AI could be even more ingenious than us...",
+      "source_ids": [
+        "src_043"
+      ]
+    },
+    {
+      "label": "Core Technology Focus",
+      "summary": "Explaining his decision to switch from premed to studying machine learning.",
+      "details": null,
+      "representative_quote": "I realized that would be a faster path to impact more things than working on specific medical applications one at a time.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Deep Learning as Sequential Steps",
+      "summary": "Defining deep learning in contrast to shallow learning.",
+      "details": null,
+      "representative_quote": "I would say deep learning is any kind of machine learning that involves learning parameters of more than one consecutive step.",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Defining Deep Learning",
+      "summary": "Defining deep learning as multi-step parameterized learning.",
+      "details": null,
+      "representative_quote": "I would say deep learning is any kind of machine learning that involves learning parameters of more than one consecutive step.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "GANs Framework Abstract",
+      "summary": "From the abstract of the original 2014 Generative Adversarial Networks paper.",
+      "details": null,
+      "representative_quote": "We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G.",
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "Learned Features Genesis",
+      "summary": "Describing the genesis of the embedding space for the discriminator network.",
+      "details": null,
+      "representative_quote": "How about instead of trying to make a big, long list of all the triplet features, you have a neural net learn the features that you should look at?",
+      "source_ids": [
+        "src_001"
+      ]
+    },
+    {
+      "label": "Motivation for Defense",
+      "summary": "Explaining his core motivation for working on AI security.",
+      "details": null,
+      "representative_quote": "A lot of what motivates me and my research is to make sure that we make it harder to attack than to defend so that machine learning can promote stability",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Nash Equilibria in AI",
+      "summary": "Highlighting the core mathematical challenge of training GANs.",
+      "details": null,
+      "representative_quote": "Finding Nash equilibria in high-dimensional, continuous, non-convex games is an important open research problem",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Resilience in Academia",
+      "summary": "Reflecting on his early academic rejections before becoming a leading AI researcher.",
+      "details": null,
+      "representative_quote": "I never heard back from MIT. I got rejected from CMU. I was accepted to U of T but not to work with the PI I wanted there. I got \"honorable mention\" for NSF GRFP but not actual money. Don't let temporary failures discourage you.",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "Static Models as Sitting Ducks",
+      "summary": "Warning against static models in adversarial contexts.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "The Dark Arts of ML",
+      "summary": "Opening his keynote on adversarial machine learning.",
+      "details": null,
+      "representative_quote": "I will be telling you all about the dark arts and how to defend against them specifically I'll be telling you all the things that people can do to make machine learning go wrong intentionally in potentially dangerous ways",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "The Futility of Fake Detectors",
+      "summary": "Discussing the future of deepfakes.",
+      "details": null,
+      "representative_quote": "I don't think we'll ever be able to look at the pixels of a photo and tell you for sure that it's real or not real.",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "The Illusion of Competence",
+      "summary": "Describing how ML models appear competent until tested out-of-distribution.",
+      "details": null,
+      "representative_quote": "you don't realize that until you put on the mask and start to test them with adversarial examples and then you realize that they actually have no idea what they're doing",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "The True Challenge of AI",
+      "summary": "Defining the shift from formal logic to intuitive perception.",
+      "details": "Explaining the shift in AI research from formal logic to intuitive perception.",
+      "representative_quote": "The true challenge to artificial intelligence proved to be solving the tasks that are easy for people to perform but hard for people to describe formally—problems that we solve intuitively, that feel automatic, like recognizing spoken words or faces in images.",
+      "source_ids": [
+        "src_033"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Hard-Coding Knowledge / Manual Feature Engineering",
+      "summary": "Attempting to hard-code knowledge about the world in formal languages or manually design features for complex tasks.",
+      "details": "People struggle to devise formal rules with enough complexity to accurately describe the real world, leading to unwieldy processes and brittle systems that fail on edge cases. It is consistently outperformed by neural networks allowed to figure out representations on their own.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_033",
+        "src_043"
+      ]
+    },
+    {
+      "label": "Mode Collapse (The 'Helvetica Scenario')",
+      "summary": "Training the generator too much without updating the discriminator causes it to collapse too many noise values to the same output.",
+      "details": "The generator loses the diversity needed to accurately model the data distribution, mapping all inputs to the single output that the discriminator currently considers most likely to be real.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_007",
+        "src_039"
+      ]
+    },
+    {
+      "label": "Black-Box Research Tools",
+      "summary": "Designing machine learning libraries for researchers that prioritize simplicity and ease of use over flexibility.",
+      "details": "It limits flexibility, preventing researchers from being able to run novel or highly customized experiments.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "Chasing SOTA in Textbooks",
+      "summary": "Trying to document the absolute latest state-of-the-art benchmarks in reference materials for fast-moving fields.",
+      "details": "The specific architectures and performance levels become outdated quickly; it is pointless to summarize exactly which architecture got which level of performance.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Deploying Frozen Models",
+      "summary": "Deploying frozen, static machine learning models in production.",
+      "details": "Static models are 'sitting ducks'. If a model always outputs the same answer for the same input, adversaries can simply probe it until they find a mistake, and then exploit that same mistake repeatedly.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Generator Over-Optimization",
+      "summary": "Fully optimizing the generator while holding the discriminator constant.",
+      "details": "It results in mapping all points to the argmax of the discriminator, leading to severe mode collapse.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Hand-Coding Features",
+      "summary": "Attempting to explicitly program massive lists of features for complex data like images.",
+      "details": "It exceeds GPU memory limits and computational feasibility; there are simply too many combinations to process manually.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_001"
+      ]
+    },
+    {
+      "label": "Naive Bias Removal",
+      "summary": "Attempting to achieve algorithmic fairness by simply removing sensitive variables (like race or gender) from the training data.",
+      "details": "The model can discover other characteristics in the data that are correlated with the sensitive variables and use them as intermediaries to replicate the human biases present in the training data.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Omitting Sensitive Variables for Fairness",
+      "summary": "Attempting to achieve fairness simply by omitting sensitive variables (like gender) from the model's input.",
+      "details": "Machine learning models can easily reverse-engineer the sensitive variable internally by inferring it from other correlated characteristics.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Optimizing Discriminator to Completion",
+      "summary": "Optimizing the discriminator to completion in the inner loop of training.",
+      "details": "It is computationally prohibitive and, on finite datasets, results in overfitting.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_007"
+      ]
+    },
+    {
+      "label": "Relying on Fake Detectors",
+      "summary": "Relying on 'fake detectors' to combat deepfakes and generated media.",
+      "details": "If an adversary successfully fools your fake detector, the detector's false validation makes the fake image even more credible than if the detector never existed.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Saturating GAN Objectives",
+      "summary": "Using the standard minimax objective early in GAN training.",
+      "details": "Early in learning, the generator is poor and the discriminator can reject samples with high confidence. This causes the objective to saturate, failing to provide sufficient gradient for the generator to learn.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Security Through Obscurity",
+      "summary": "Relying on hidden model parameters for security.",
+      "details": "Attackers can perform 'model theft' by observing the inputs and outputs of a target model to train a substitute model, which they can then use to generate adversarial examples that successfully transfer to the hidden target.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "The Overfitting Fallacy",
+      "summary": "Assuming adversarial examples are caused by the model overfitting to the training data.",
+      "details": "If adversarial examples were just random artifacts of overfitting, they would be unique to each model. Instead, they transfer reliably across different models, datasets, and architectures, proving the root cause is the models' linear nature.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Using Mean Squared Error for Generative Tasks",
+      "summary": "Using Mean Squared Error (MSE) for generative tasks with multiple valid outcomes.",
+      "details": "MSE penalizes the model for picking one valid option over another, causing it to average all possible futures together. This results in blurry images or disappearing features.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_039"
+      ]
+    }
+  ]
+}

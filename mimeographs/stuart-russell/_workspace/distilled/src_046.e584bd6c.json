@@ -1,0 +1,35 @@
+{
+  "source_id": "src_046",
+  "summary": "A publisher's blurb for Stuart Russell's book 'Human Compatible', outlining his core thesis that superhuman AI poses an existential threat to humanity. It highlights his proposed solution: reshaping the foundations of AI to ensure machines inherently pursue human objectives rather than their own.",
+  "themes": [
+    "AI Safety",
+    "Existential Risk",
+    "Value Alignment",
+    "The Control Problem"
+  ],
+  "principles": [
+    {
+      "statement": "The foundations of AI must be reshaped to guarantee that machines pursue human objectives, not their own.",
+      "rationale": "If we do not align AI with human objectives, we risk losing control of machines more powerful than we are, which poses an existential threat.",
+      "source_quote": "reshaping the foundations of AI to guarantee that machines pursue our objectives, not theirs",
+      "source_id": "src_046"
+    },
+    {
+      "statement": "Creating superior intelligence could be the last event in human history if we fail to solve the control problem.",
+      "rationale": "While AI has an enormous capacity to improve our lives, creating machines more powerful than humans is an existential threat to our species if we lose control of them.",
+      "source_quote": "Creating superior intelligence would be the biggest event in human history. Unfortunately, according to the world's pre-eminent AI expert, it could also be the last.",
+      "source_id": "src_046"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Building AI systems that pursue their own objectives rather than human objectives.",
+      "why_it_fails": "It leads to humanity losing control of machines that are more powerful than we are, resulting in an existential threat to the species.",
+      "source_id": "src_046"
+    }
+  ]
+}

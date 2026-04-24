@@ -1,0 +1,77 @@
+{
+  "source_id": "src_031",
+  "summary": "Robert Langer recounts his unconventional career path from chemical engineering to medical research, detailing his struggles with early rejection, his breakthrough in controlled drug delivery, and his commitment to translating lab discoveries into real-world medical treatments through patents and startups.",
+  "themes": [
+    "Translational Medicine",
+    "Perseverance",
+    "Drug Delivery",
+    "Interdisciplinary Research",
+    "Entrepreneurship"
+  ],
+  "principles": [
+    {
+      "statement": "Research should aim to have a great impact and change the world.",
+      "rationale": "He became discouraged with his early doctoral research and rejected lucrative oil industry jobs because they only offered incremental improvements rather than meaningful societal impact.",
+      "source_quote": "I couldn’t see how it would have great impact or change the world. That discouraged me about research.",
+      "source_id": "src_031"
+    },
+    {
+      "statement": "Move beyond publishing to actively applying discoveries to help people.",
+      "rationale": "He believes that to truly help patients, scientists must patent their work and start companies to fund the expensive development of medical products.",
+      "source_quote": "One of my goals in doing laboratory work has been to move beyond just conducting experiments and publishing the results to applying that work to helping people.",
+      "source_id": "src_031"
+    },
+    {
+      "statement": "Never give up easily in the face of rejection.",
+      "rationale": "He faced years of failed experiments, grant rejections, and patent denials, but persisted by finding new ways to solve the problems.",
+      "source_quote": "The lawyer told me I should just give up, but I’ve never given up easily and I started thinking about new ways in which we could get this patent allowed.",
+      "source_id": "src_031"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Road Not Taken",
+      "description": "Choosing the unconventional, interdisciplinary path rather than the standard career track, accepting early ridicule in exchange for the potential to make unique, life-saving discoveries.",
+      "example": "Applying chemical engineering principles to a surgical hospital lab to solve blood vessel growth, a path few engineers took at the time.",
+      "source_id": "src_031"
+    }
+  ],
+  "heuristics": [
+    "If a patent examiner calls your invention 'obvious', find published literature from experts stating it is impossible."
+  ],
+  "signature_quotes": [
+    {
+      "text": "When we started this work, the conventional wisdom was that it could not be done.",
+      "context": "Referring to the development of a controlled-release system for large molecules.",
+      "source_id": "src_031"
+    },
+    {
+      "text": "Over two years, I found hundreds of unsuccessful methods.",
+      "context": "Describing the trial and error required to invent the first controlled-release polymer system.",
+      "source_id": "src_031"
+    },
+    {
+      "text": "One of my goals in doing laboratory work has been to move beyond just conducting experiments and publishing the results to applying that work to helping people.",
+      "context": "Explaining his motivation for patenting inventions and starting companies.",
+      "source_id": "src_031"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Pursuing purely incremental improvements for financial gain.",
+      "why_it_fails": "It fails to fulfill the deeper goal of improving people's lives or changing the world, which is why he rejected a lucrative oil industry job aimed at increasing chemical yields by 0.1%.",
+      "source_id": "src_031"
+    },
+    {
+      "description": "Looking down on scientists who write patents and start companies.",
+      "why_it_fails": "Developing medical products requires massive funding; without commercialization, lab inventions will never reach or treat patients.",
+      "source_id": "src_031"
+    },
+    {
+      "description": "Accepting conventional wisdom as absolute truth.",
+      "why_it_fails": "Experts, including Nobel Laureates, claimed delivering large molecules via polymers was impossible, but empirical persistence proved them wrong.",
+      "source_id": "src_031"
+    }
+  ]
+}

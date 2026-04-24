@@ -1,0 +1,90 @@
+{
+  "source_id": "src_044",
+  "summary": "Andrej Karpathy outlines his 'Zero to Hero' course on neural networks, emphasizing a bottom-up, from-scratch approach to learning deep learning. He advocates for starting with language models due to their transferability, stresses the importance of manually implementing backpropagation to build intuition, and critiques tokenization as a problematic component of modern LLMs.",
+  "themes": [
+    "Deep Learning Education",
+    "Language Models",
+    "Backpropagation",
+    "Tokenization",
+    "Neural Network Architecture"
+  ],
+  "principles": [
+    {
+      "statement": "Language models are the best starting point for learning deep learning.",
+      "rationale": "The concepts and techniques learned in language modeling are highly foundational and immediately transferable to other domains, such as computer vision.",
+      "source_quote": "In my opinion language models are an excellent place to learn deep learning, even if your intention is to eventually go to other areas like computer vision because most of what you learn will be immediately transferable.",
+      "source_id": "src_044"
+    },
+    {
+      "statement": "Build neural networks from scratch to develop true competence.",
+      "rationale": "Manually implementing components like backpropagation without relying on automated tools (like PyTorch's autograd) builds a strong intuitive understanding of how neural nets are optimized, enabling better debugging and innovation.",
+      "source_quote": "Along the way, we get a strong intuitive understanding about how gradients flow backwards through the compute graph... This helps build competence and intuition around how neural nets are optimized and sets you up to more confidently innovate on and debug modern neural networks.",
+      "source_id": "src_044"
+    },
+    {
+      "statement": "Tokenization is a flawed stage of the LLM pipeline that should ideally be eliminated.",
+      "rationale": "Because it is a completely separate stage with its own training and algorithms, it introduces a host of weird behaviors and fundamental problems into Large Language Models.",
+      "source_quote": "In the process, we will see that a lot of weird behaviors and problems of LLMs actually trace back to tokenization. We'll go through a number of these issues, discuss why tokenization is at fault, and why someone out there ideally finds a way to delete this stage entirely.",
+      "source_id": "src_044"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Typical Deep Learning Development Process",
+      "when_to_apply": "When actively writing, debugging, and architecting deep neural networks.",
+      "steps": [
+        "Read documentation extensively.",
+        "Keep strict track of multidimensional tensor shapes.",
+        "Move iteratively between Jupyter notebooks (for exploration) and repository code (for structure)."
+      ],
+      "source_quote": "...what a typical deep learning development process looks like (a lot of reading of documentation, keeping track of multidimensional tensor shapes, moving between jupyter notebooks and repository code, ...).",
+      "source_id": "src_044"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Gradients Flowing Backwards",
+      "description": "Visualizing backpropagation not just as static calculus equations, but as a dynamic flow of gradients moving backwards through a computational graph of efficient Tensors.",
+      "example": "Manually backpropagating through cross entropy loss, linear layers, tanh, and batchnorm to see exactly how the gradient routes through each operation.",
+      "source_id": "src_044"
+    }
+  ],
+  "heuristics": [
+    "Learning is easier with others.",
+    "Always keep track of your multidimensional tensor shapes."
+  ],
+  "signature_quotes": [
+    {
+      "text": "In my opinion language models are an excellent place to learn deep learning, even if your intention is to eventually go to other areas like computer vision because most of what you learn will be immediately transferable.",
+      "context": "Explaining why his introductory deep learning course focuses heavily on language models.",
+      "source_id": "src_044"
+    },
+    {
+      "text": "...we will see that a lot of weird behaviors and problems of LLMs actually trace back to tokenization.",
+      "context": "Discussing the pitfalls of the Tokenizer component in Large Language Models.",
+      "source_id": "src_044"
+    },
+    {
+      "text": "...why someone out there ideally finds a way to delete this stage entirely.",
+      "context": "Expressing his ultimate hope for the future of tokenization in LLMs.",
+      "source_id": "src_044"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on automated tools like PyTorch autograd without understanding the underlying math.",
+      "why_it_fails": "It prevents the developer from building the strong intuitive understanding of gradient flow necessary to confidently debug and innovate on modern neural networks.",
+      "source_id": "src_044"
+    },
+    {
+      "description": "Improperly scaling forward pass activations and backward pass gradients.",
+      "why_it_fails": "It makes training deep neural networks fragile and introduces significant pitfalls during optimization.",
+      "source_id": "src_044"
+    },
+    {
+      "description": "Accepting tokenization as a permanent, flawless component of LLMs.",
+      "why_it_fails": "It is a completely separate pipeline stage that is fundamentally at fault for many of the weird behaviors and problems exhibited by modern LLMs.",
+      "source_id": "src_044"
+    }
+  ]
+}

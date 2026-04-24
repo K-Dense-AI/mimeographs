@@ -1,0 +1,81 @@
+{
+  "source_id": "src_016",
+  "summary": "Aviv Regev outlines her vision for single-cell genomics and the Human Cell Atlas. She uses metaphors like the 'fruit smoothie vs. fruit salad' and 'Google Maps' to explain the shift from bulk to single-cell analysis, emphasizing the need for mathematical rigor in biology and global collaboration to map human disease.",
+  "themes": [
+    "Single-cell genomics",
+    "Human Cell Atlas",
+    "Mathematical biology",
+    "Collaborative science",
+    "Disease mapping"
+  ],
+  "principles": [
+    {
+      "statement": "Cell and molecular biology require clean, theoretical, and mathematical descriptions.",
+      "rationale": "Unlike genetics and evolution, which already had mathematical frameworks, cell biology historically lacked them, creating a gap in how scientists reason about biological intricacies.",
+      "source_quote": "unlike genetics and evolution where we had these clean and theoretical and mathematical descriptions with which to reason about biology in cell and molecular biology, we didn't.",
+      "source_id": "src_016"
+    },
+    {
+      "statement": "Ambitious scientific mapping projects must be global and collaborative.",
+      "rationale": "The diversity of humans and their cells requires a correspondingly diverse scientific community; no single entity can accomplish it alone.",
+      "source_quote": "no one person, one lab, one institute or one country should do it alone, but we should really do it together, because humans are diverse, their cells are diverse and scientists are diverse.",
+      "source_id": "src_016"
+    },
+    {
+      "statement": "To understand disease, we must understand cells individually.",
+      "rationale": "Knowing the roles of genes in disease requires knowing exactly where those genes are used, which necessitates identifying and understanding specific cells.",
+      "source_quote": "If we want to understand the roles of genes in disease, we need to know where these genes are used and for this we need to know which cells we have.",
+      "source_id": "src_016"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Fruit Smoothie vs. Fruit Salad",
+      "description": "A metaphor contrasting traditional bulk genomics with single-cell genomics. Bulk analysis blends all cells together (smoothie), losing individual cell identities, while single-cell genomics analyzes each cell individually (fruit salad).",
+      "example": "Explaining the breakthrough of single-cell genomics: 'What we can do today in single-cell genomics can be thought of as the era of the fruit salad with many different kinds of fruits and each of them analyzed separately and individually'.",
+      "source_id": "src_016"
+    },
+    {
+      "name": "Google Maps for the Human Body",
+      "description": "A lens for understanding the Human Cell Atlas. It provides a coherent map where researchers can zoom out to see the whole system or zoom in to see extremely fine cellular details and their relationships.",
+      "example": "Describing the utility of the Human Cell Atlas: 'Just like in Google Maps, where you can zoom out and you see everything and you can zoom in and you can look at extremely fine detail, so would be the Human Cell Atlas.'",
+      "source_id": "src_016"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "What we used to be able to do in the lab is take all of these different pieces of fruit and essentially put them through the lab equivalent of a fruit blender and get the lab equivalent of a fruit smoothie.",
+      "context": "Describing the limitations of traditional bulk cell analysis.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "What we can do today in single-cell genomics can be thought of as the era of the fruit salad with many different kinds of fruits and each of them analyzed separately and individually and very. very rapidly.",
+      "context": "Explaining the paradigm shift of single-cell genomics.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "Just like in Google Maps, where you can zoom out and you see everything and you can zoom in and you can look at extremely fine detail, so would be the Human Cell Atlas.",
+      "context": "Describing the utility and scale of the Human Cell Atlas.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "no one person, one lab, one institute or one country should do it alone, but we should really do it together, because humans are diverse, their cells are diverse and scientists are diverse.",
+      "context": "Advocating for global collaboration on the Human Cell Atlas.",
+      "source_id": "src_016"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming all cells are the same because they share the same DNA.",
+      "why_it_fails": "Cells look different and perform entirely different functions in the body, so treating them as identical or blending them together obscures their individual properties and roles in disease.",
+      "source_id": "src_016"
+    },
+    {
+      "description": "Attempting massive biological mapping projects (like the Human Cell Atlas) in isolated labs or single countries.",
+      "why_it_fails": "Human biology is too diverse; capturing this diversity requires a globally diverse scientific community working together.",
+      "source_id": "src_016"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "source_id": "src_034",
+  "summary": "Anne Wojcicki discusses the founding of 23andMe, driven by a desire to shift healthcare incentives from monetizing illness to preventing it. She highlights the importance of direct-to-consumer empowerment, speaking with data in scientific and regulated fields, hiring for humility, and the necessity of decade-long persistence to achieve systemic change.",
+  "themes": [
+    "Healthcare Incentives",
+    "Consumer Empowerment",
+    "Genetics and Environment",
+    "Persistence and Long-term Vision",
+    "Scientific Communication",
+    "Navigating Regulation",
+    "Hiring and Culture"
+  ],
+  "principles": [
+    {
+      "statement": "Empower the consumer to align healthcare incentives.",
+      "rationale": "In the traditional healthcare system, the individual isn't the payer, so they have no voice. Putting the consumer in the power seat aligns decisions with their best interest because people make better retail decisions when they pay the bill.",
+      "source_quote": "what we did to change the incentives is to put you in the power seat because I feel like like you make retail decisions that are your best interest because like you're actually the one paying the bill",
+      "source_id": "src_034"
+    },
+    {
+      "statement": "Speak with data, not claims.",
+      "rationale": "In science and regulated industries, people won't believe you just because you say your science is great. You have to publish and show the data to prove your legitimacy.",
+      "source_quote": "you can't speak like I can't just tell you like oh we're great we have great science like no one like no one believes that... you speak with your data",
+      "source_id": "src_034"
+    },
+    {
+      "statement": "Hire for humility over pure intellect.",
+      "rationale": "Smart people who just want to prove they are smart can be detrimental. You need people who are open to feedback, constructive criticism, and continuous learning.",
+      "source_quote": "there's a lot of smart people who like want to tell you how smart they are and we have opted for the humility and I think it's really important to have people who are constantly open to feedback",
+      "source_id": "src_034"
+    },
+    {
+      "statement": "Real impact requires a decade of persistence.",
+      "rationale": "Overnight successes are a myth. It takes a long time to see the consequences of your actions and to drive true systemic change.",
+      "source_quote": "if you really care about something like if you're really passionate it takes a decade to really see the impact",
+      "source_id": "src_034"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Navigating the Trough of Sorrow",
+      "when_to_apply": "When initial launch momentum fades and sales or engagement slow down.",
+      "steps": [
+        "Acknowledge the trough without letting the team become overly distracted by it.",
+        "Shift focus away from wallowing on today's metrics.",
+        "Focus on the long-term vision (e.g., what the company will look like in two years).",
+        "Outline the specific steps and plan needed to reach that future state.",
+        "Gather real-time feedback from the market to understand why adoption is slow, and adjust messaging to educate consumers."
+      ],
+      "source_quote": "one of the most important things is not to wallow on today but to wallow on like okay in two years this is what its gonna look like and these are the steps I need to do to get there",
+      "source_id": "src_034"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Historical Absurdity (50-100 Year Rule)",
+      "description": "Evaluating current societal or medical norms by imagining how ridiculous they will look to people 50 or 100 years in the future. Wojcicki uses this to contextualize medical paternalism, comparing modern resistance to consumer genetics to past resistance against at-home pregnancy tests or doctors hiding cancer diagnoses from patients in 1969.",
+      "example": "Looking at a 1969 JAMA paper where 90% of doctors wouldn't tell patients they had cancer, to understand that current medical resistance to consumer genetics is just a cultural norm that will eventually look crazy.",
+      "source_id": "src_034"
+    },
+    {
+      "name": "Gene-by-Environment Interaction",
+      "description": "The understanding that genetics are rarely 100% deterministic. They represent a baseline risk that is modified by environmental choices, which empowers individuals to take preventative action rather than feeling doomed by their DNA.",
+      "example": "Knowing you are genetically high-risk for diabetes, but realizing there is an environmental component, so you figure out what lifestyle changes you can make to prevent it.",
+      "source_id": "src_034"
+    },
+    {
+      "name": "The Outside Rebellion",
+      "description": "The belief that deeply entrenched, misaligned systems cannot be fixed from within. You must build something radical from the outside to force change.",
+      "example": "Starting 23andMe as a direct-to-consumer company outside the traditional healthcare system because the existing system was perfectly designed to monetize illness rather than prevent it.",
+      "source_id": "src_034"
+    }
+  ],
+  "heuristics": [
+    "Never argue as a scientist; just hand over your publications.",
+    "Don't wallow on today, wallow on what it's going to look like in two years.",
+    "Take every opportunity, you never know what's going to come your way."
+  ],
+  "signature_quotes": [
+    {
+      "text": "health care is an amazing business that really effectively monetizes illness",
+      "context": "Describing her realization after 10 years of investing in healthcare on Wall Street.",
+      "source_id": "src_034"
+    },
+    {
+      "text": "you can't change the system from within... we got to do something more radical from outside",
+      "context": "Explaining why she founded 23andMe as a rebellious, direct-to-consumer company.",
+      "source_id": "src_034"
+    },
+    {
+      "text": "I never even argue a scientist I just hand over my publications like here you go because that's the reality you speak with your data",
+      "context": "On how to communicate legitimacy in a science-based company.",
+      "source_id": "src_034"
+    },
+    {
+      "text": "if you really care about something like if you're really passionate it takes a decade to really see the impact",
+      "context": "Discussing the importance of persistence for entrepreneurs.",
+      "source_id": "src_034"
+    },
+    {
+      "text": "the overnight success is that ten years of persistence",
+      "context": "Reflecting on how the media perceives 23andMe's success after years of hard work.",
+      "source_id": "src_034"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Trying to change a broken system from within.",
+      "why_it_fails": "The incentives of the existing system are too entrenched; for example, healthcare monetizes illness, so insiders aren't financially incentivized to keep people healthy.",
+      "source_id": "src_034"
+    },
+    {
+      "description": "Hiring smart people who lack humility.",
+      "why_it_fails": "They just want to tell you how smart they are and aren't open to feedback or constructive criticism, which limits the company's ability to learn and grow.",
+      "source_id": "src_034"
+    },
+    {
+      "description": "Communicating with regulators using a Silicon Valley startup style.",
+      "why_it_fails": "Startups naturally question everything and argue, but regulated environments require obedience to rules, formal communication styles, and strict data-backed proof.",
+      "source_id": "src_034"
+    }
+  ]
+}

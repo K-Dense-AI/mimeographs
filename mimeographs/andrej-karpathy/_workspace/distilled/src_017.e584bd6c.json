@@ -1,0 +1,353 @@
+{
+  "source_id": "src_017",
+  "summary": "Andrej Karpathy explains how he practically uses Large Language Models (LLMs) in his daily life and work. He breaks down the underlying mechanics of tokens, context windows, and the difference between pre-training (knowledge) and post-training (personality). He also shares his strategies for using 'thinking models' for complex coding tasks, leveraging internet search tools for recent information, and consulting an 'LLM Council' of multiple models to get the best answers. Andrej Karpathy explains his practical workflows for using LLMs, including using Perplexity for search, ChatGPT Pro for deep research, and Claude for reading dense texts and generating diagrams. He emphasizes treating LLMs as junior analysts that require supervision, warns against trusting LLM math without code execution, and introduces 'vibe coding' using AI-integrated IDEs like Cursor. In this segment, Andrej Karpathy details his practical, day-to-day workflows for interacting with multimodal LLMs. He introduces 'vibe coding' with AI agents, heavily advocates for voice-to-text dictation to speed up queries, explains the technical difference between 'fake' and 'true' audio/image tokenization, and shares how he uses image inputs for analyzing real-world data like blood tests and ingredient labels. He also highlights quality-of-life features like ChatGPT's memory and custom instructions. Andrej Karpathy explains his advanced workflows for using LLMs, focusing heavily on Custom GPTs for language learning and few-shot prompting techniques. He also provides a bird's-eye view of the current AI ecosystem, detailing how to choose specific models and tools based on their unique strengths, such as reasoning capabilities, multimodality, and internet search.",
+  "themes": [
+    "LLM Fundamentals",
+    "Practical AI Usage",
+    "Prompt Engineering",
+    "Thinking Models (RL)",
+    "Tool Use and Search",
+    "LLM Workflows",
+    "Deep Research",
+    "AI-Assisted Reading",
+    "Code Generation",
+    "Vibe Coding",
+    "Multimodal LLM interaction",
+    "Voice and audio processing",
+    "Image and video tokenization",
+    "LLM personalization and memory",
+    "Language Learning",
+    "LLM Ecosystem",
+    "Custom GPTs",
+    "Model Selection"
+  ],
+  "principles": [
+    {
+      "statement": "Treat the context window as a precious resource.",
+      "rationale": "Leaving irrelevant tokens in the context window distracts the model, decreases its accuracy, and makes generating the next token slower and slightly more expensive.",
+      "source_quote": "think of the tokens in the context window as a precious resource... don't overload it with irrelevant information and keep it as short as you can",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Pay for top-tier models if you use LLMs professionally.",
+      "rationale": "Free tiers often use smaller, 'dumber' models that hallucinate more and are less creative. Professional work, like coding, benefits immensely from the intelligence of flagship models.",
+      "source_quote": "if the intelligence is not good enough for you and you're using this professionally you may really want to consider paying for the top tier models that are available from these companies",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Reserve 'thinking models' for difficult problems in math and code.",
+      "rationale": "Thinking models take minutes to generate a response because they emit many hidden tokens to reason through a problem. Simple queries like travel advice do not benefit from this extra compute.",
+      "source_quote": "these models are most effective for difficult problems in math and code... in many cases like if if you're asking for travel advice... you're not going to benefit out of a thinking model",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Treat LLM deep research as a first draft, not absolute truth.",
+      "rationale": "Even when an LLM is doing deep research and pulling in citations, it can still hallucinate, fabricate, or misunderstand the sources. You must verify the citations yourself.",
+      "source_quote": "treat this as your first draft treat this as papers to look at um but don't take this as uh definitely true",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Never read books alone anymore; read them hand-in-hand with an LLM.",
+      "rationale": "Reading alongside an LLM dramatically increases retention and understanding, and gives you the courage to approach dense, old, or out-of-domain texts.",
+      "source_quote": "I find that basically going hand inhand with llms uh dramatically creases my retention my understanding of these chapters... don't read books alone",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Scrutinize LLM-generated code like you would a very junior, absent-minded data analyst.",
+      "rationale": "When using tools like Advanced Data Analysis, the LLM might make sneaky implicit assumptions in the code (like filling N/A values arbitrarily) or hallucinate the final text output even if the graph is correct.",
+      "source_quote": "your Junior analyst is a little bit uh absent minded and uh not quite right all the time so really powerful but also be careful with this",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Use voice input instead of typing whenever possible.",
+      "rationale": "Speaking is significantly faster and requires less effort than typing, especially on mobile devices.",
+      "source_quote": "don't type stuff out use voice it works quite well and I use this pervasively and I would say roughly half of my queries probably a bit more are just audio because I'm lazy and it's just so much faster",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Transcribe image data to text before asking the model to reason about it.",
+      "rationale": "It allows you to verify that the model actually saw and extracted the correct values from the image before relying on its analysis.",
+      "source_quote": "the reason I like to First transcribe the relevant information into text is because I want to make sure that the model is seeing the values correctly",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Customize your LLM's tone to avoid corporate speak.",
+      "rationale": "Default LLM personalities can be overly formal or restrictive; custom instructions make the interaction feel more natural and educational.",
+      "source_quote": "just don't be like an HR business partner just talk to me normally and also just give me I just lot explanations educations insights",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Few-shot prompting consistently increases the accuracy of language models.",
+      "rationale": "Providing concrete examples alongside instructions constrains the model and demonstrates exactly how to perform the task, which is much more effective than just describing the task in a zero-shot manner.",
+      "source_quote": "I'm giving it a few examples and this is now a few shot prompt and I find that this always increases the accuracy of LMS so kind of that's a I think a general good strategy",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "LLMs are vastly superior to traditional translation software for language learning.",
+      "rationale": "Unlike traditional translators (like Google Translate or Papago) which often omit particles and just give a final output, LLMs can break down sentences part-by-part, understand nuance and slang, and allow you to ask clarifying questions.",
+      "source_quote": "I don't know why translators even exist at this point and I think GPT is just so much better",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Different LLM apps have distinct strengths; use a multi-tool approach.",
+      "rationale": "While ChatGPT is a feature-rich default, other tools excel in specific areas: Perplexity for search, Claude Artifacts for web apps/diagrams, and Cursor for professional programming.",
+      "source_quote": "basically all the different apps have some strengths and weaknesses but I think Chachi by far is a very good default",
+      "source_id": "src_017"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The LLM Council",
+      "when_to_apply": "When seeking ideation, advice, or trying to solve a difficult problem where multiple perspectives or the highest accuracy is needed.",
+      "steps": [
+        "Maintain access to multiple top-tier LLMs from different providers (e.g., OpenAI, Anthropic, Google, xAI).",
+        "Ask all of the models the exact same question or prompt.",
+        "Compare their responses to find the best solution, consensus, or pointers for further research."
+      ],
+      "source_quote": "I kind of refer to all these models as my llm Council... If I'm trying to figure out where to go on a vacation I will ask all of them",
+      "source_id": "src_017"
+    },
+    {
+      "name": "AI-Assisted Reading",
+      "when_to_apply": "When reading dense books, old texts (e.g., from 1776), or complex papers outside your area of expertise.",
+      "steps": [
+        "Obtain the raw text of the document or book chapter (e.g., from Project Gutenberg or a PDF).",
+        "Load the text into the LLM's context window (via file upload or copy-paste).",
+        "Ask the LLM to provide a summary of the chapter to start.",
+        "Read the text slowly and ask the LLM questions back and forth whenever you get confused."
+      ],
+      "source_quote": "usually I like to start off with a summary of what this chapter is about just so I have a rough idea and then I go in and I start reading the chapter and uh any point we have any questions then we just come in and just ask our question",
+      "source_id": "src_017"
+    },
+    {
+      "name": "Vibe Coding",
+      "when_to_apply": "When writing software or building applications professionally.",
+      "steps": [
+        "Use a dedicated AI code editor (like Cursor) that has access to your local file system.",
+        "Use the 'composer' feature (an autonomous agent on your codebase).",
+        "Give high-level natural language commands.",
+        "Sit back and let the agent edit across multiple files autonomously."
+      ],
+      "source_quote": "Vibe coding just refers to letting um giving in giving the control to composer and just telling it what to do",
+      "source_id": "src_017"
+    },
+    {
+      "name": "Few-Shot Prompt Construction",
+      "when_to_apply": "When creating Custom GPTs or giving complex instructions where you need highly accurate, specifically formatted output.",
+      "steps": [
+        "Provide background information and context (e.g., 'I am learning Korean, I am a beginner').",
+        "Describe the task clearly in words.",
+        "Provide concrete examples of the input and the desired output.",
+        "Use XML-like tags to clearly delineate where examples begin and end so the model understands the structure."
+      ],
+      "source_quote": "I used kind of like an XML like language just so that the model understands that the example one begins here and ends here... I just give it a few examples and I kind of like specify them in detail",
+      "source_id": "src_017"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Lossy, Probabilistic Zip File",
+      "description": "An LLM is essentially a compressed version of the internet stored within the parameters of a neural network. It is not an exact database, but rather a statistical recollection of information that remembers highly frequent data well and rare data vaguely.",
+      "example": "Asking ChatGPT about the caffeine content in an Americano. Because this information is extremely frequent on the internet, the 'zip file' has a good memory of it and can accurately recall it without needing to search the web.",
+      "source_id": "src_017"
+    },
+    {
+      "name": "Context Window as Working Memory",
+      "description": "The token stream built up during a conversation acts as the model's short-term working memory. Anything inside it is directly accessible to the model, but overloading it causes distraction.",
+      "example": "When starting a new topic, clicking 'new chat' wipes the token window back to zero, clearing the working memory so past tokens don't distract the model from the new query.",
+      "source_id": "src_017"
+    },
+    {
+      "name": "Pre-training vs. Post-training (Knowledge vs. Personality)",
+      "description": "Pre-training compresses the internet to give the model its base knowledge (which gets outdated). Post-training attaches a 'smiley face' (assistant persona) so it can converse naturally with users.",
+      "example": "Karpathy introduces ChatGPT's dual nature: 'my knowledge comes from the internet which I read in its entirety about six months ago... and my winning personality was programmed by example by human labelers'.",
+      "source_id": "src_017"
+    },
+    {
+      "name": "LLM as a Junior Data Analyst",
+      "description": "Treating the LLM's data analysis and coding capabilities as a junior employee who is capable of writing code and plotting figures but is absent-minded, makes sneaky implicit assumptions, and requires close supervision and code review.",
+      "example": "When plotting OpenAI's valuation, the LLM implicitly assumed a 2015 valuation of 100 million to handle an 'N/A' value without asking, and later hallucinated a trendline projection in text that contradicted its own graph.",
+      "source_id": "src_017"
+    },
+    {
+      "name": "True Audio vs. Fake Audio",
+      "description": "A distinction between how LLMs process sound. 'Fake audio' uses separate speech-to-text and text-to-speech models to wrap a text-based LLM. 'True audio' processes raw audio directly by chunking spectrograms into native audio tokens, allowing the model to understand and generate nuances like speed, emotion, and non-speech sounds.",
+      "example": "Using ChatGPT's Advanced Voice Mode to ask the model to speak faster, use a pirate accent, or attempt to make animal sounds, which relies on native audio tokens rather than text transcription.",
+      "source_id": "src_017"
+    },
+    {
+      "name": "Universal Tokenization",
+      "description": "The concept that a Transformer neural network does not inherently know the difference between text, audio, or images. It simply models statistical patterns of token streams. Different modalities are just different vocabularies (e.g., quantized image patches or audio spectrogram chunks).",
+      "example": "Chopping an image into a rectangular grid of patches, quantizing them into a vocabulary of 100,000 possible patches, and feeding them into the context window just like text tokens.",
+      "source_id": "src_017"
+    },
+    {
+      "name": "LLM as a Zip File",
+      "description": "Thinking of a language model's base weights as a compressed 'zip file' of internet knowledge. If you need to ask about fresh information not contained in that static zip file, you must equip the model with an internet search tool.",
+      "example": "if you're talking about some fresh information or knowledge that is probably not in the zip file then you actually want to use an internet search tool",
+      "source_id": "src_017"
+    },
+    {
+      "name": "Teaching LLMs like Humans",
+      "description": "The concept that programming an LLM via prompting is highly analogous to teaching a human a new task. Explaining the rules in words works, but showing them by example is significantly more efficient.",
+      "example": "I think this is actually very similar to human uh how you might teach a human a task like you can explain in words what they're supposed to be doing but it's so much better if you show them by example",
+      "source_id": "src_017"
+    }
+  ],
+  "heuristics": [
+    "Always start a new chat whenever you are switching topics to wipe the context window.",
+    "Try non-thinking models first because they are fast; switch to a thinking model if the response isn't good enough.",
+    "If a query requires recent knowledge, explicitly tell the model to search the web.",
+    "Verify factual claims from the model against primary sources, especially if the information isn't highly common on the internet.",
+    "Whenever something is the latest news or changes over time, use a Search tool (like Perplexity) instead of relying on the model's internal knowledge.",
+    "Don't read books alone.",
+    "Treat deep research reports as a first draft.",
+    "Always read and scrutinize the code the LLM writes for data analysis.",
+    "If you are on a desktop web app without native dictation, use a system-wide dictation app (like Super Whisper) to bypass typing.",
+    "Use Grok for entertainment and unhinged modes because it refuses less; use OpenAI for standard tasks.",
+    "Use NotebookLM to generate custom podcasts for niche papers or topics you have a passive interest in, to listen to while walking or driving.",
+    "If there is a certain prompt you keep reusing, create a Custom GPT to save yourself prompting time.",
+    "Try solving a problem without a reasoning model first; if it fails on math, code, or logic, switch to a reasoning model.",
+    "Tell ChatGPT in custom instructions 'don't be like an HR business partner' to get it to talk to you normally.",
+    "If ChatGPT is being too cagey with you, switch to Grok."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Hi I'm Chach PT I am a one tab zip file my knowledge comes from the internet which I read in its entirety about six months ago and I only remember vaguely.",
+      "context": "Summarizing how users should conceptualize ChatGPT's knowledge and limitations.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "Think of the tokens in the context window as a precious resource.",
+      "context": "Explaining why users should frequently start new chats.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "Post-training Stage is really attaching a smiley face to this ZIP file because we don't want to generate internet documents we want this thing to take on the Persona of an assistant.",
+      "context": "Explaining the difference between pre-training and post-training.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "I kind of refer to all these models as my llm Council.",
+      "context": "Describing his habit of asking multiple different AI models the same question.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "Under the hood we are collaborating with the model and we're both writing into a token stream.",
+      "context": "Explaining how chat interfaces actually work at the token level.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "don't read books alone",
+      "context": "Advising viewers to always use an LLM as a reading companion for dense or old texts.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "your Junior analyst is a little bit uh absent minded and uh not quite right all the time",
+      "context": "Describing ChatGPT's Advanced Data Analysis feature.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "Vibe coding just refers to letting um giving in giving the control to composer and just telling it what to do",
+      "context": "Explaining the new paradigm of software development using AI agents in IDEs like Cursor.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "Vibe coding just refers to letting um giving in giving the control to composer and just telling it what to do and hoping that it works",
+      "context": "Explaining his workflow using the Cursor code editor.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "don't type stuff out use voice it works quite well and I use this pervasively",
+      "context": "Recommending voice dictation over typing for LLM queries.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "the Transformer neural network itself it doesn't even know that some of the tokens happen to be text some of the tokens happen to be audio and some of them happen to be images it just models statistical patterns of token streams",
+      "context": "Explaining how multimodal LLMs process different types of data.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "just don't be like an HR business partner just talk to me normally",
+      "context": "Sharing his custom instructions for ChatGPT.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "I don't know why translators even exist at this point and I think GPT is just so much better.",
+      "context": "Discussing how LLMs compare to traditional translation apps like Google Translate or Naver.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "You're talking basically to a zip file.",
+      "context": "Explaining the base knowledge of an LLM and why it needs internet search for fresh information.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "I just kind of like told it just don't be like an HR business partner just talk to me normally.",
+      "context": "Explaining how he uses Custom Instructions to fix ChatGPT's default tone.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "What this feature really is is that it's just saving you prompting time.",
+      "context": "Describing the primary utility of Custom GPTs.",
+      "source_id": "src_017"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Keeping a single, endlessly long chat going for multiple unrelated topics.",
+      "why_it_fails": "It fills up the context window with irrelevant tokens, which distracts the model, decreases its accuracy, and makes generating the next token slower and more expensive.",
+      "source_id": "src_017"
+    },
+    {
+      "description": "Asking base LLMs (without search tools) about recent events.",
+      "why_it_fails": "Models have a 'knowledge cutoff' based on when they were pre-trained. They cannot know recent information unless it is provided via a search tool directly into their context window.",
+      "source_id": "src_017"
+    },
+    {
+      "description": "Using expensive 'thinking models' for simple tasks like travel advice.",
+      "why_it_fails": "It wastes time (taking minutes to respond) and compute for tasks that don't require deep reasoning, backtracking, or complex logic.",
+      "source_id": "src_017"
+    },
+    {
+      "description": "Trusting LLM math calculations without tool use (Python interpreter).",
+      "why_it_fails": "Models without access to a Python interpreter will try to do complex math in their 'head' (next token prediction) and will confidently hallucinate incorrect results that look remarkably close.",
+      "source_id": "src_017"
+    },
+    {
+      "description": "Blindly trusting LLM data analysis outputs without reading the generated code.",
+      "why_it_fails": "The LLM might make implicit assumptions in the code (like filling N/A with 0.1) or hallucinate the final text output even if the underlying code or graph is different.",
+      "source_id": "src_017"
+    },
+    {
+      "description": "Using the ChatGPT web UI for professional coding.",
+      "why_it_fails": "It is way too slow and lacks the context of your local file system and repository, making it inefficient compared to tools like Cursor.",
+      "source_id": "src_017"
+    },
+    {
+      "description": "Blindly trusting an LLM's analysis of an image without verifying its transcription first.",
+      "why_it_fails": "The model might hallucinate or misread critical values (like numbers on a blood test or ingredient label), leading to flawed downstream reasoning.",
+      "source_id": "src_017"
+    },
+    {
+      "description": "Typing out all of your queries to an LLM.",
+      "why_it_fails": "It is significantly slower and more tedious than using voice dictation, creating unnecessary friction in the workflow.",
+      "source_id": "src_017"
+    },
+    {
+      "description": "Using traditional translation apps (like Google Translate or Papago) for language learning.",
+      "why_it_fails": "They often omit particles, don't explain how the sentence breaks down part-by-part, and don't allow you to ask clarifying questions about the translation.",
+      "source_id": "src_017"
+    },
+    {
+      "description": "Using small models for complex reasoning or creative tasks.",
+      "why_it_fails": "Small models have less world knowledge, are less creative, and are much more likely to make mistakes or hallucinate.",
+      "source_id": "src_017"
+    },
+    {
+      "description": "Zero-shot prompting for complex, repeatable tasks.",
+      "why_it_fails": "Asking for performance without providing examples results in lower accuracy compared to few-shot prompting.",
+      "source_id": "src_017"
+    }
+  ]
+}

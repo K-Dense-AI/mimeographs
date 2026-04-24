@@ -1,0 +1,63 @@
+{
+  "source_id": "src_021",
+  "summary": "David Silver, a pioneering researcher behind DeepMind's AlphaGo and AlphaZero, advocates for a shift from LLMs trained on human data to an 'era of experience' driven by reinforcement learning. He argues that to achieve superintelligence, AI must discard human knowledge and learn from scratch to discover novel solutions that human evaluators might mistakenly reject.",
+  "themes": [
+    "Reinforcement Learning",
+    "Superintelligence",
+    "Limitations of LLMs",
+    "AI Self-Discovery",
+    "First Principles Thinking"
+  ],
+  "principles": [
+    {
+      "statement": "To go beyond human knowledge, AI must figure things out for itself.",
+      "rationale": "Large language models are constrained by what humans already know. Discovering truly new insights requires methods where AI learns through its own experience rather than historical human data.",
+      "source_quote": "We want to go beyond what humans know, and to do that we’re going to need a different type of method, and that type of method will require our AIs to actually figure things out for themselves and to discover new things that humans don’t know",
+      "source_id": "src_021"
+    },
+    {
+      "statement": "Superintelligence requires discarding human knowledge and learning from scratch.",
+      "rationale": "Human knowledge can act as a ceiling or bias. If AI relies on human evaluation, it will be penalized for brilliant but counterintuitive ideas that look like mistakes to human experts.",
+      "source_quote": null,
+      "source_id": "src_021"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Reinforcement Learning via Experience",
+      "when_to_apply": "When training an AI model to discover novel strategies and surpass human knowledge, rather than just mimicking historical data.",
+      "steps": [
+        "Allow the model to take an action within a constrained environment, such as a game or simulator.",
+        "Provide the model with feedback on whether those actions were productive in helping it achieve a specific goal.",
+        "Iterate through trial and error over the course of many actions so the AI learns the best ways to accomplish the goal from scratch."
+      ],
+      "source_quote": null,
+      "source_id": "src_021"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Era of Experience",
+      "description": "A paradigm shift in AI development moving away from models constrained by historical human data (like LLMs) toward systems that learn through their own direct experience and trial-and-error.",
+      "example": "AlphaGo and AlphaZero discovering 'alien' or counterintuitive moves (like Move 37) that human experts initially thought were mistakes but proved to be brilliant.",
+      "source_id": "src_021"
+    }
+  ],
+  "heuristics": [
+    "Train AI from experience rather than historical data to surpass human knowledge."
+  ],
+  "signature_quotes": [
+    {
+      "text": "We want to go beyond what humans know, and to do that we’re going to need a different type of method, and that type of method will require our AIs to actually figure things out for themselves and to discover new things that humans don’t know",
+      "context": "Discussing the limitations of large language models and the need for reinforcement learning.",
+      "source_id": "src_021"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on human evaluators to pass judgment on AI actions during post-training.",
+      "why_it_fails": "Human evaluators are constrained by human knowledge. They might give a thumbs-down to brilliant, unconventional, or 'alien' moves because they look like mistakes to human experts.",
+      "source_id": "src_021"
+    }
+  ]
+}

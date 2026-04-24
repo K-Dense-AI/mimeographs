@@ -1,0 +1,52 @@
+{
+  "source_id": "src_009",
+  "summary": "A brief biographical overview of Andrej Karpathy's academic and professional background, including his roles at Tesla, OpenAI, Stanford, and Google. It highlights his passion for education, specifically his creation of the 'Hacker's Guide to Neural Networks' to make deep learning accessible to software engineers through code rather than heavy math.",
+  "themes": [
+    "Deep Learning Education",
+    "Neural Networks",
+    "Academic Blogging"
+  ],
+  "principles": [
+    {
+      "statement": "Researchers should maintain an academic blog.",
+      "rationale": "To share knowledge and insights openly with the broader community.",
+      "source_quote": "My (mostly) Academic Blog . I wish all researchers had one.",
+      "source_id": "src_009"
+    },
+    {
+      "statement": "Teach neural networks using code and physical intuitions, not just math.",
+      "rationale": "Many software engineers are interested in deep learning but lack the traditional mathematical background to learn through usual channels.",
+      "source_quote": "I wrote this because I felt there were many people (e.g. some software engineers) who were interested in Deep Nets but who lacked the mathematical background to learn the basics through the usual channels.",
+      "source_id": "src_009"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Hacker's Perspective",
+      "description": "Understanding complex mathematical or algorithmic concepts (like neural networks) through the lens of code and physical intuitions rather than formal mathematics.",
+      "example": "Writing the 'Hacker's Guide to Neural Networks' to help software engineers learn deep learning basics without needing advanced math.",
+      "source_id": "src_009"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "I wish all researchers had one.",
+      "context": "Referring to maintaining an academic blog.",
+      "source_id": "src_009"
+    },
+    {
+      "text": "...explaining Neural Nets from \"Hacker's perspective\", relying more on code and physical intuitions than mathematics.",
+      "context": "Explaining his motivation for writing the Hacker's Guide to Neural Networks.",
+      "source_id": "src_009"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Teaching deep learning exclusively through heavy mathematics.",
+      "why_it_fails": "It creates a barrier to entry for capable software engineers who are interested in the field but lack formal mathematical backgrounds.",
+      "source_id": "src_009"
+    }
+  ]
+}

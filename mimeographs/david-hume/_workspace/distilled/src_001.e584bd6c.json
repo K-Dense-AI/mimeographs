@@ -1,0 +1,54 @@
+{
+  "source_id": "src_001",
+  "summary": "David Hume was an 18th-century Scottish philosopher and empiricist who sought to build a naturalistic science of human nature. He famously rejected innate ideas, arguing that all knowledge comes from experience, and demonstrated that inductive reasoning and our belief in causality stem from mental habit rather than rational justification.",
+  "themes": [
+    "Empiricism",
+    "Philosophical Scepticism",
+    "Metaphysical Naturalism",
+    "Problem of Induction",
+    "Causality"
+  ],
+  "principles": [
+    {
+      "statement": "All human knowledge derives solely from experience.",
+      "rationale": "There are no innate ideas; the psychological basis of human nature dictates that everything we know must be grounded in what we have experienced.",
+      "source_quote": "all human knowledge derives solely from experience.",
+      "source_id": "src_001"
+    },
+    {
+      "statement": "Inductive reasoning and belief in causality cannot be justified rationally.",
+      "rationale": "Drawing causal inferences requires the ungroundable presupposition that the future will resemble the past. Therefore, our belief in cause and effect is merely the result of custom and mental habit.",
+      "source_quote": "inductive reasoning and belief in causality cannot be justified rationally; instead, they result from custom and mental habit.",
+      "source_id": "src_001"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Constant Conjunction",
+      "description": "A lens for understanding causality. Instead of perceiving a hidden, rational force that connects a cause to an effect, we only observe that one event consistently follows another, which builds a mental habit.",
+      "example": "We never actually perceive the causal link between two events, only the repeated experience of them occurring together.",
+      "source_id": "src_001"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "We never actually perceive that one event causes another but only experience the \" constant conjunction \" of events.",
+      "context": "Explaining why causality is a product of mental habit rather than observable rational truth.",
+      "source_id": "src_001"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Believing in the existence of innate ideas.",
+      "why_it_fails": "Because all human knowledge derives solely from experience.",
+      "source_id": "src_001"
+    },
+    {
+      "description": "Attempting to rationally justify causal inferences from past experience.",
+      "why_it_fails": "It requires presupposing that the future will resemble the past, a metaphysical presupposition that cannot itself be grounded in prior experience.",
+      "source_id": "src_001"
+    }
+  ]
+}

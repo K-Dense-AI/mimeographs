@@ -1,0 +1,123 @@
+{
+  "source_id": "src_002",
+  "summary": "In this interview, Jeff Dean discusses Google's strategy for AI model development, emphasizing the need to own the 'Pareto frontier' by balancing highly capable frontier models with low-latency, efficient models via distillation. He shares insights on system design, the energy costs of machine learning (picojoules per bit), hardware-ML co-design for TPUs, and the future of long-context models that create the illusion of attending to trillions of tokens.",
+  "themes": [
+    "AI Model Distillation",
+    "System Design & Scaling",
+    "Hardware-ML Co-design",
+    "Energy-based Computing",
+    "Multimodal AI",
+    "Long Context & Retrieval"
+  ],
+  "principles": [
+    {
+      "statement": "You must push the frontier of capabilities while simultaneously distilling those capabilities into affordable, low-latency models.",
+      "rationale": "Frontier models reveal new capabilities and solve complex reasoning tasks, but smaller models are necessary for widespread, low-latency, and agentic use cases. The frontier model is a prerequisite for distilling a highly capable smaller model.",
+      "source_quote": "It’s not that one or the other is useful. They’re both useful. So I think we’d like to do both. And also, you know, through distillation... you have to have the frontier model in order to then distill it into your smaller model.",
+      "source_id": "src_002"
+    },
+    {
+      "statement": "Latency is a first-class objective for the future of AI.",
+      "rationale": "As users ask models to perform increasingly complex, multi-step tasks (like writing an entire software package rather than just a function), the model will need to generate vastly more tokens. Low latency is required to make these agentic workflows practical.",
+      "source_quote": "I think latency is actually a pretty important characteristic for these models because we’re going to want models to do much more complicated things that are going to involve, you know, generating many more tokens from when you ask the model to do so.",
+      "source_id": "src_002"
+    },
+    {
+      "statement": "Multimodal models should be exposed to non-human modalities.",
+      "rationale": "Including data like LIDAR, MRI, or genomics in the pre-training mix, even in small amounts, teaches the model that these modalities exist and have meaning in the world, broadening its overall understanding.",
+      "source_quote": "I think it’s also really useful to have Gemini know about non-human modalities. Like LIDAR sensor data from say, Waymo vehicles or like robots or, you know, various kinds of health modalities...",
+      "source_id": "src_002"
+    },
+    {
+      "statement": "Design systems to scale by factors of 5 or 10, but not 100.",
+      "rationale": "If a system's load increases by 100x, it usually justifies a completely different architectural design that wouldn't make sense at the current scale. Over-designing for 100x prematurely leads to suboptimal solutions.",
+      "source_quote": "I think a good design principle is you’re going to want to design a system so that the most important characteristics could scale by like factors of five or 10, but probably not beyond that because often what happens is if you design a system for X and something suddenly becomes a hundred X, that would enable a very different point in the design space that would not make sense at X.",
+      "source_id": "src_002"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Hardware-ML Co-design (Predicting the Puck)",
+      "when_to_apply": "When designing new AI accelerators (like TPUs) that have multi-year development and deployment cycles.",
+      "steps": [
+        "Predict what ML computations researchers will want to run 2 to 6 years in the future.",
+        "Facilitate deep interaction between hardware chip architects and high-level ML modeling experts.",
+        "Introduce speculative hardware features that cost little chip area but offer massive potential speedups if the ML research pans out.",
+        "Adapt current and future model architectures to run efficiently on the specific constraints of the resulting chips."
+      ],
+      "source_quote": "you’re trying to predict two to six years out where, what ML computations will people want to run two to six years out in a very fast changing field. And so having people with interesting ML research ideas of things we think will start to work in that timeframe... really enables us to then get, you know, interesting hardware features put into, you know, TPU N plus two",
+      "source_id": "src_002"
+    },
+    {
+      "name": "Back-of-the-Envelope System Design",
+      "when_to_apply": "Before writing code for a new large-scale distributed system.",
+      "steps": [
+        "Identify the most important design parameters (e.g., queries per second, index size, data per document).",
+        "Use fundamental latency and energy numbers (e.g., SRAM vs. DRAM access times, disk seek times) to evaluate bottlenecks.",
+        "Perform mental thought experiments to test how the design holds up if traffic doubles or triples.",
+        "Iterate on the design space mentally before committing to code."
+      ],
+      "source_quote": "I’m a big fan of thinking through designs in your head, just kind of playing with the design space a little before you actually do a lot of writing of code.",
+      "source_id": "src_002"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Energy-Based Cost of Computation",
+      "description": "Viewing ML operations through the lens of energy (picojoules) rather than just time or FLOPs. The actual math (multiplying numbers) is incredibly cheap, but moving the data from memory to the compute unit is orders of magnitude more expensive.",
+      "example": "Explaining why batching is necessary: moving a model parameter from SRAM to the multiplier might cost 1000 picojoules, while the multiply itself costs 1 picojoule. You must reuse that parameter across a batch of inputs to amortize the massive energy cost of moving it.",
+      "source_id": "src_002"
+    },
+    {
+      "name": "The Illusion of Infinite Context",
+      "description": "Instead of trying to scale quadratic attention mechanisms to trillions of tokens (which is computationally infeasible), build a funnel system analogous to search ranking. Use lightweight, highly parallel models to filter millions of tokens down to a small, highly relevant context window for the most capable model to process.",
+      "example": "Attending to a user's entire personal state (emails, photos, docs) by using lightweight retrieval to find the 117 most relevant documents, and then feeding only those into the heavy LLM to answer the user's query.",
+      "source_id": "src_002"
+    }
+  ],
+  "heuristics": [
+    "Design systems to scale by 5x or 10x, but not 100x.",
+    "Moving data costs 1000x more energy than computing it.",
+    "Benchmarks are most useful when initial scores are 10-30%; once they hit 95%, you get diminishing returns.",
+    "Do back-of-the-envelope calculations before writing code."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I think if you could give the illusion that you can attend to trillions of tokens, that would be amazing.",
+      "context": "Discussing the future of long-context models and how to move beyond the limitations of quadratic attention.",
+      "source_id": "src_002"
+    },
+    {
+      "text": "I think a good design principle is you’re going to want to design a system so that the most important characteristics could scale by like factors of five or 10, but probably not beyond that...",
+      "context": "Explaining how to design large-scale distributed systems.",
+      "source_id": "src_002"
+    },
+    {
+      "text": "There’s a reason evolution has evolved eyes like 23 independent ways, because it’s such a useful capability for sensing the world around you, which is really what we want these models to be.",
+      "context": "Explaining why vision and motion are critical modalities for AI models.",
+      "source_id": "src_002"
+    },
+    {
+      "text": "I’m a big fan of thinking through designs in your head, just kind of playing with the design space a little before you actually do a lot of writing of code.",
+      "context": "Discussing his approach to software engineering and system architecture.",
+      "source_id": "src_002"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Designing a system to scale 100x from day one.",
+      "why_it_fails": "A 100x increase in scale usually enables or requires a completely different architectural design (e.g., moving from disk-based to in-memory). Designing for it prematurely leads to suboptimal systems for your current scale.",
+      "source_id": "src_002"
+    },
+    {
+      "description": "Optimizing for benchmarks that are already at 95% accuracy.",
+      "why_it_fails": "You get diminishing returns and risk overfitting to public data leakage rather than actually improving the model's underlying capabilities.",
+      "source_id": "src_002"
+    },
+    {
+      "description": "Running inference at batch size 1 without considering energy costs.",
+      "why_it_fails": "While latency is great at batch size 1, the energy cost of moving weights from memory to the compute unit is massive compared to the compute itself. Without batching, you waste massive amounts of energy and compute efficiency.",
+      "source_id": "src_002"
+    }
+  ]
+}

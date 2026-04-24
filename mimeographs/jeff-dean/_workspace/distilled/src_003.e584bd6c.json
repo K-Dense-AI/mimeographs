@@ -1,0 +1,32 @@
+{
+  "source_id": "src_003",
+  "summary": "This text provides a brief historical overview of Jeff Dean's contributions to Google's infrastructure and AI capabilities. It highlights his pattern of identifying bottlenecks before they become crises, most notably through the creation of MapReduce to abstract away the complexities of distributed computing.",
+  "themes": [
+    "Distributed Computing",
+    "Infrastructure Scaling",
+    "Software Engineering"
+  ],
+  "principles": [],
+  "frameworks": [
+    {
+      "name": "MapReduce",
+      "when_to_apply": "When requiring massive parallel computation across thousands of machines (e.g., crawling, indexing, or processing terabytes of data).",
+      "steps": [
+        "Map: Process each input record and emit key-value pairs.",
+        "Reduce: Aggregate all values for each key."
+      ],
+      "source_quote": null,
+      "source_id": "src_003"
+    }
+  ],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Having engineers write custom distributed computing code for their specific tasks.",
+      "why_it_fails": "Coordinating thousands of machines is extremely difficult because machines fail constantly, data needs to be replicated, and tasks must be re-assigned when workers crash. This leads to a messy codebase.",
+      "source_id": "src_003"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "source_id": "src_025",
+  "summary": "A brief abstract reviewing the descriptive epidemiology of DSM-IV mental disorders in the US, highlighting their high prevalence, typical onset in childhood or adolescence, and the critical need for early detection and treatment to prevent severe, comorbid adult disorders.",
+  "themes": [
+    "Psychiatric Epidemiology",
+    "Mental Health Prevalence",
+    "Early Detection",
+    "Comorbidity",
+    "Child and Adolescent Psychiatry"
+  ],
+  "principles": [
+    {
+      "statement": "Mental disorders are highly prevalent in the general population.",
+      "rationale": "Epidemiological data shows that about half of the US population will experience a mental disorder in their lifetime, and a quarter in any given year.",
+      "source_quote": "These disorders are highly prevalent: Roughly half the population meets criteria for one or more such disorders in their lifetimes, and roughly one fourth of the population meets criteria in any given year.",
+      "source_id": "src_025"
+    },
+    {
+      "statement": "Public health efforts must focus on the early detection and treatment of child and adolescent mental disorders.",
+      "rationale": "Most severe, persistent, and highly comorbid adult mental disorders begin as mild, untreated conditions in youth.",
+      "source_quote": "Given that most seriously impairing and persistent adult mental disorders are associated with child-adolescent onsets and high comorbidity, increased efforts are needed to study the public health implications of early detection and treatment of initially mild and currently largely untreated child-adolescent disorders.",
+      "source_id": "src_025"
+    },
+    {
+      "statement": "Adult-onset mental disorders are typically comorbid conditions.",
+      "rationale": "Because primary disorders usually begin in childhood or adolescence, disorders that appear later in life are often secondary or comorbid.",
+      "source_quote": "Most people with a history of mental disorder had first onsets in childhood or adolescence. Later onsets typically involve comorbid disorders.",
+      "source_id": "src_025"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Roughly half the population meets criteria for one or more such disorders in their lifetimes, and roughly one fourth of the population meets criteria in any given year.",
+      "context": "Describing the high prevalence of DSM-IV mental disorders in the United States.",
+      "source_id": "src_025"
+    },
+    {
+      "text": "Most people with a history of mental disorder had first onsets in childhood or adolescence.",
+      "context": "Highlighting the early age of onset for most psychiatric conditions.",
+      "source_id": "src_025"
+    },
+    {
+      "text": "...increased efforts are needed to study the public health implications of early detection and treatment of initially mild and currently largely untreated child-adolescent disorders.",
+      "context": "Concluding recommendation based on the epidemiological data linking severe adult disorders to untreated childhood onsets.",
+      "source_id": "src_025"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Leaving mild child and adolescent mental disorders untreated.",
+      "why_it_fails": "These initially mild conditions often develop into seriously impairing, persistent, and highly comorbid adult mental disorders.",
+      "source_id": "src_025"
+    }
+  ]
+}

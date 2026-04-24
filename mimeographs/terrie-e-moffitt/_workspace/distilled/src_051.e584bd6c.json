@@ -1,0 +1,59 @@
+{
+  "source_id": "src_051",
+  "summary": "This source outlines the connection between early-life psychopathology and accelerated biological aging. Using data from the Dunedin Longitudinal Study, Moffitt and Caspi demonstrate that a higher general liability to mental disorders (the p factor) correlates with a faster pace of biological aging across multiple bodily systems, suggesting psychiatry has a crucial role in preventing age-related diseases.",
+  "themes": [
+    "Geroscience",
+    "Developmental Psychopathology",
+    "The p factor",
+    "Biological Aging",
+    "Preventive Psychiatry"
+  ],
+  "principles": [
+    {
+      "statement": "Early-life mental disorders are a precursor to later-life physical and neurodegenerative diseases.",
+      "rationale": "Epidemiological and longitudinal data show an overlap where early-onset psychiatric conditions predict the development of non-infectious physical diseases later in life.",
+      "source_quote": "Young people who experience mental disorder tend to develop non-infectious and neurodegenerative diseases as they age.",
+      "source_id": "src_051"
+    },
+    {
+      "statement": "Experiencing a higher burden of psychopathology accelerates the biological aging process.",
+      "rationale": "Longitudinal tracking of biomarkers across multiple bodily systems reveals that individuals with higher general psychopathology scores experience a faster rate of physiological decline per chronological year.",
+      "source_quote": "individuals in the Dunedin Longitudinal Study who experience more psychopathology tend to age faster.",
+      "source_id": "src_051"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The p factor",
+      "description": "A latent variable that operationalizes an individual's general liability to experience any and all mental disorders over their life-course. It summarizes the common variance among multiple psychiatric symptoms.",
+      "example": "Measuring the p factor by summarizing all psychiatric symptoms ever experienced by Dunedin cohort members between ages 18 and 38 to predict their later pace of aging.",
+      "source_id": "src_051"
+    },
+    {
+      "name": "Pace of Aging",
+      "description": "A geroscience concept that operationalizes aging not just as chronological time, but as the coordinated, progressive loss of integrity across multiple bodily systems (e.g., cardiovascular, metabolic, immune).",
+      "example": "Quantifying the rate of biological aging in year-units of physiological decline per chronological year using 18 biomarkers measured at ages 26, 32, and 38.",
+      "source_id": "src_051"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Young people who experience mental disorder tend to develop non-infectious and neurodegenerative diseases as they age.",
+      "context": "Explaining the trajectory from early psychiatric vulnerability to later-life physical disease.",
+      "source_id": "src_051"
+    },
+    {
+      "text": "The p factor operationalizes the theory of liability to experience any and all mental disorders over the life-course.",
+      "context": "Defining the p factor in the context of the Dunedin Longitudinal Study.",
+      "source_id": "src_051"
+    },
+    {
+      "text": "The Pace of Aging operationalizes the coordinated progressive loss of integrity across bodily systems that is the aging process according to geroscience theory.",
+      "context": "Defining how biological aging is measured across multiple physiological systems.",
+      "source_id": "src_051"
+    }
+  ],
+  "anti_patterns": []
+}

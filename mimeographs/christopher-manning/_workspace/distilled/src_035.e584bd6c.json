@@ -1,0 +1,47 @@
+{
+  "source_id": "src_035",
+  "summary": "A Goodreads author page containing quotes from Christopher Manning's seminal textbook, Foundations of Statistical Natural Language Processing. The extracted quotes outline foundational concepts in statistical NLP, including the noisy channel model for machine translation, the dual classification of verb arguments, and Zipf's Principle of Least Effort.",
+  "themes": [
+    "Natural Language Processing",
+    "Machine Translation",
+    "Linguistics",
+    "Statistical NLP"
+  ],
+  "principles": [
+    {
+      "statement": "Human behavior, including language use, is heavily influenced by the Principle of Least Effort.",
+      "rationale": "People naturally act to minimize their probable average rate of work over time, balancing the immediate effort required against the future work that might result from doing something poorly in the short term.",
+      "source_quote": "The Principle of Least Effort argues that people will act so as to minimize their probable average rate of work (i.e., not only to minimize the work that they would have to do immediately, but taking due consideration of future work that might result from doing work poorly in the short term).",
+      "source_id": "src_035"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Noisy Channel Model",
+      "description": "A conceptual lens for machine translation that treats the text you want to translate as a 'garbled' version of the target language that has passed through a noisy communication channel. The task of translation is reframed as a decoding problem to recover the original signal.",
+      "example": "When translating English to French, assuming the true text was originally French (e.g., 'vache') but was garbled by a noisy channel into English ('cow'). Translation requires decoding the English to recover the original French.",
+      "source_id": "src_035"
+    },
+    {
+      "name": "Dual-level Argument Classification",
+      "description": "The linguistic model of analyzing verb arguments through two distinct but complementary lenses: semantic roles (which describe meaning and action relationships) and grammatical relations (which describe syntactic structure and positioning).",
+      "example": "Classifying a noun phrase semantically as an 'agent' (the person doing something) or 'patient' (the thing having something done to it), versus classifying it syntactically as a 'subject' (the noun phrase before the verb) or 'object'.",
+      "source_id": "src_035"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "The noisy channel model for translation assumes that the true text is in French, but that, unfortunately, when it was transmitted to us, it went through a noisy communication channel and came out as English.",
+      "context": "Explaining the conceptual foundation of statistical machine translation.",
+      "source_id": "src_035"
+    },
+    {
+      "text": "The arguments of verbs can be described at various levels. One can classify the arguments via semantic roles... Alternatively, one can describe the syntactic possibilities for arguments in terms of grammatical relations.",
+      "context": "Detailing how noun phrases relate to verbs in natural language processing.",
+      "source_id": "src_035"
+    }
+  ],
+  "anti_patterns": []
+}

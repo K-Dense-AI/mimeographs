@@ -1,0 +1,79 @@
+{
+  "source_id": "src_051",
+  "summary": "Yoshua Bengio and co-authors argue that the current trajectory of building autonomous, generalist AI agents poses catastrophic risks, including deception and the loss of human control. They propose 'Scientist AI,' a non-agentic, safe-by-design system focused on explaining the world and quantifying uncertainty, as a safer alternative and potential guardrail.",
+  "themes": [
+    "AI Safety",
+    "Catastrophic Risk",
+    "Non-agentic AI",
+    "Scientist AI",
+    "Uncertainty Quantification"
+  ],
+  "principles": [
+    {
+      "statement": "We must apply the precautionary principle to AI development by seeking safer alternatives to agency-driven systems.",
+      "rationale": "Unchecked AI agency poses catastrophic risks to public safety, including misuse and the irreversible loss of human control.",
+      "source_quote": "Following the precautionary principle, we see a strong need for safer, yet still useful, alternatives to the current agency-driven trajectory.",
+      "source_id": "src_051"
+    },
+    {
+      "statement": "Safe AI should focus on explaining the world from observations rather than taking actions to imitate or please humans.",
+      "rationale": "Training AI to take actions or please humans can lead to deception or the pursuit of unspecified goals (like self-preservation) that conflict with human interests.",
+      "source_quote": "This system is designed to explain the world from observations, as opposed to taking actions in it to imitate or please humans.",
+      "source_id": "src_051"
+    },
+    {
+      "statement": "AI systems must operate with an explicit notion of uncertainty.",
+      "rationale": "Explicit uncertainty is necessary to mitigate the risks of overconfident predictions in AI models.",
+      "source_quote": "Both components operate with an explicit notion of uncertainty to mitigate the risks of overconfident predictions.",
+      "source_id": "src_051"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Scientist AI Architecture",
+      "when_to_apply": "When designing advanced AI systems to ensure they are trustworthy, safe by design, and non-agentic.",
+      "steps": [
+        "Build a world model that generates theories to explain observational data.",
+        "Integrate a question-answering inference machine.",
+        "Ensure both the world model and inference machine operate with an explicit notion of uncertainty."
+      ],
+      "source_quote": "It comprises a world model that generates theories to explain data and a question-answering inference machine. Both components operate with an explicit notion of uncertainty to mitigate the risks of overconfident predictions.",
+      "source_id": "src_051"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Agentic vs. Non-Agentic AI",
+      "description": "A lens for evaluating AI safety trajectories. Agentic AI (systems that autonomously plan, act, and pursue goals) is inherently risky and prone to misalignment. Non-agentic AI (systems that observe, explain, and answer questions) is safer and can be used to capture the benefits of AI innovation without the catastrophic risks.",
+      "example": "Proposing 'Scientist AI' (a non-agentic system) to assist human researchers and act as a guardrail against the dangerous generalist AI agents currently being developed.",
+      "source_id": "src_051"
+    }
+  ],
+  "heuristics": [
+    "Focus on building AI that explains the world, rather than AI that acts in it."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Following the precautionary principle, we see a strong need for safer, yet still useful, alternatives to the current agency-driven trajectory.",
+      "context": "Arguing for a shift away from autonomous AI agents.",
+      "source_id": "src_051"
+    },
+    {
+      "text": "This system is designed to explain the world from observations, as opposed to taking actions in it to imitate or please humans.",
+      "context": "Describing the core function of the proposed 'Scientist AI'.",
+      "source_id": "src_051"
+    },
+    {
+      "text": "Ultimately, focusing on non-agentic AI may enable the benefits of AI innovation while avoiding the risks associated with the current trajectory.",
+      "context": "Concluding the abstract's proposal for a safer path in AI development.",
+      "source_id": "src_051"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Building generalist AI agents that can autonomously plan, act, and pursue goals across human tasks.",
+      "why_it_fails": "It creates catastrophic risks, including deception, pursuit of self-preservation goals conflicting with human interests, and potentially an irreversible loss of human control.",
+      "source_id": "src_051"
+    }
+  ]
+}

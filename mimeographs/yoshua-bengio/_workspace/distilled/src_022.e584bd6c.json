@@ -1,0 +1,72 @@
+{
+  "source_id": "src_022",
+  "summary": "Yoshua Bengio reflects on the founding and growth of Mila, emphasizing its mission to advance fundamental AI science while considering societal impact. He notes that while current AI has made incredible strides, it still falls short of basic animal or human intelligence. To bridge this gap, he advocates drawing inspiration from neuroscience, cognitive science, and mathematics.",
+  "themes": [
+    "AI research and development",
+    "Social impact of AI",
+    "Biological and cognitive inspiration for AI",
+    "Data-driven progress",
+    "Mila's mission and history"
+  ],
+  "principles": [
+    {
+      "statement": "AI research must actively consider its social impact.",
+      "rationale": "Advancing the fundamental science of AI and training the next generation of researchers is incomplete without simultaneously evaluating how these technologies will affect society.",
+      "source_quote": "...we decided that it was important to think about the social impact of our work.",
+      "source_id": "src_022"
+    },
+    {
+      "statement": "Building the next generation of AI requires multidisciplinary inspiration.",
+      "rationale": "Because current AI still lacks the basic intelligence of a toddler or a cat, researchers must draw from fields outside traditional computer science to bridge the gap.",
+      "source_quote": "So, I'm getting inspiration from neuroscience, cognitive science, but also mathematics, like causality and statistics, to hopefully build the next generation of AI systems.",
+      "source_id": "src_022"
+    },
+    {
+      "statement": "AI progress is gated by data availability.",
+      "rationale": "Machine learning models require massive amounts of data to understand a domain, so fields with abundant data will inherently see the fastest advancements.",
+      "source_quote": "But clearly, in places where we have or will have data, it's going to go faster. Because AI needs large quantities of data to understand the material, understand the domain that we want to apply it to.",
+      "source_id": "src_022"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Biological Intelligence Benchmark",
+      "description": "Evaluating AI progress not just by comparing it to past software, but by benchmarking it against the innate capabilities of toddlers and animals to reveal fundamental missing pieces in current architectures.",
+      "example": "Bengio contrasts the amazing progress of AI over the last 30 years with the fact that state-of-the-art systems still cannot do what a two-year-old or a cat can do.",
+      "source_id": "src_022"
+    }
+  ],
+  "heuristics": [
+    "Look for domains with large quantities of data to predict where AI progress will be fastest."
+  ],
+  "signature_quotes": [
+    {
+      "text": "But at the same time, if we compare these state-of-the-art systems to what humans can do, what a two-year-old can do, what a cat can do, we still have a lot of progress to make.",
+      "context": "Discussing the limitations of current state-of-the-art AI despite recent advancements.",
+      "source_id": "src_022"
+    },
+    {
+      "text": "So, I'm getting inspiration from neuroscience, cognitive science, but also mathematics, like causality and statistics, to hopefully build the next generation of AI systems.",
+      "context": "Explaining his approach to overcoming current AI limitations.",
+      "source_id": "src_022"
+    },
+    {
+      "text": "But clearly, in places where we have or will have data, it's going to go faster. Because AI needs large quantities of data to understand the material, understand the domain that we want to apply it to.",
+      "context": "Predicting where AI will have the most significant impact in the coming years.",
+      "source_id": "src_022"
+    },
+    {
+      "text": "But, you know, that's why researchers are so motivated by their work, it's because they see something and they want to go there.",
+      "context": "Reflecting on the drive behind scientific research.",
+      "source_id": "src_022"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Equating recent AI progress with human-level intelligence.",
+      "why_it_fails": "Despite massive improvements over the last 30 years, state-of-the-art systems still lack the fundamental capabilities and understanding of a two-year-old or a cat.",
+      "source_id": "src_022"
+    }
+  ]
+}

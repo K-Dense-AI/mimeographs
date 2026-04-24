@@ -1,0 +1,30 @@
+{
+  "source_id": "src_025",
+  "summary": "A brief podcast description and timestamp list for an interview with Jeff Dean and Noam Shazeer. The text outlines their 25-year tenure at Google and highlights Jeff Dean's vision for 'Pathways,' focusing on hardware-algorithm co-design and massive-scale Mixture of Experts models.",
+  "themes": [
+    "AI architecture",
+    "Hardware-algorithm co-design",
+    "Pathways",
+    "Mixture of Experts (MoE)"
+  ],
+  "principles": [
+    {
+      "statement": "Hardware and algorithmic design should form a mutually-reinforcing loop.",
+      "rationale": "This co-design is central to the 'Pathways' vision for advancing AI capabilities and moving beyond simple autoregression.",
+      "source_quote": null,
+      "source_id": "src_025"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Universal MoE",
+      "description": "Envisioning the entirety of a massive organization's systems and compute being routed through a single, gigantic Mixture of Experts (MoE) model.",
+      "example": "Imagining all of Google-the-company going through one huge MoE model.",
+      "source_id": "src_025"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": []
+}

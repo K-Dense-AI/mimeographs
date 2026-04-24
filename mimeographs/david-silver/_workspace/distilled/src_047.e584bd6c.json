@@ -1,0 +1,36 @@
+{
+  "source_id": "src_047",
+  "summary": "David Silver is reportedly raising $1 billion for a new startup, Ineffable Intelligence. The venture focuses on reinforcement learning and experience-led learning, moving away from training models on human-generated internet text toward agents that learn through interaction and environment-driven feedback.",
+  "themes": [
+    "Reinforcement Learning",
+    "Experience-led learning",
+    "Agentic AI",
+    "AI Startups"
+  ],
+  "principles": [
+    {
+      "statement": "The next major leap forward in AI will come from systems learning predominantly from experience rather than human-generated data.",
+      "rationale": "Training systems through interaction and environment-driven feedback allows agents to refine themselves and complete complex tasks, moving beyond the limitations of scraped internet text.",
+      "source_quote": null,
+      "source_id": "src_047"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Experience-led learning",
+      "description": "A paradigm where AI systems are trained through interaction, action, and environment-driven feedback, rather than relying on static, human-generated datasets like internet text.",
+      "example": "Agents that independently complete complex tasks from simple human instructions by refining themselves through action and feedback.",
+      "source_id": "src_047"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Relying primarily on vast troves of human-generated internet text to train AI models.",
+      "why_it_fails": "It only offers incremental upgrades to today's large language models, whereas the next major leap requires systems that learn dynamically from experience and interaction.",
+      "source_id": "src_047"
+    }
+  ]
+}

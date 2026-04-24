@@ -1,0 +1,48 @@
+{
+  "source_id": "src_031",
+  "summary": "In this abstract, Walter C. Willett reviews the epidemiological and metabolic evidence supporting the Mediterranean diet. He emphasizes that replacing carbohydrates and trans fats with unsaturated fats, combined with a diet rich in whole foods and a healthy lifestyle, can prevent the vast majority of coronary heart disease, stroke, and type 2 diabetes.",
+  "themes": [
+    "Mediterranean diet",
+    "Cardiovascular disease prevention",
+    "Dietary fats",
+    "Nutritional epidemiology"
+  ],
+  "principles": [
+    {
+      "statement": "The vast majority of cardiovascular and metabolic diseases are preventable through diet and lifestyle.",
+      "rationale": "Analyses show that combining regular physical activity, not smoking, and healthy food choices consistent with the Mediterranean diet can prevent the majority of heart disease, stroke, and diabetes.",
+      "source_quote": "...over 80% of coronary heart disease, 70% of stroke, and 90% of type 2 diabetes can be avoided by healthy food choices that are consistent with the traditional Mediterranean diet.",
+      "source_id": "src_031"
+    },
+    {
+      "statement": "Unsaturated fats are metabolically superior to carbohydrates for heart health.",
+      "rationale": "Controlled feeding studies demonstrate that monounsaturated and polyunsaturated fats improve lipid profiles (reducing LDL and triglycerides, increasing HDL) when compared to carbohydrates, especially in the presence of insulin resistance.",
+      "source_quote": "...compared to carbohydrate, both monounsaturated and polyunsaturated fats reduce LDL and triglycerides and increase HDL cholesterol.",
+      "source_id": "src_031"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [
+    "Adopt elements of the traditional Mediterranean diet—such as higher intakes of fruits, vegetables, whole grains, fish, unsaturated fats, and moderate daily alcohol—to greatly benefit health."
+  ],
+  "signature_quotes": [
+    {
+      "text": "...over 80% of coronary heart disease, 70% of stroke, and 90% of type 2 diabetes can be avoided by healthy food choices that are consistent with the traditional Mediterranean diet.",
+      "context": "Summarizing the massive preventative potential of diet and lifestyle choices.",
+      "source_id": "src_031"
+    },
+    {
+      "text": "...compared to carbohydrate, both monounsaturated and polyunsaturated fats reduce LDL and triglycerides and increase HDL cholesterol.",
+      "context": "Explaining the metabolic benefits of unsaturated fats over carbohydrates.",
+      "source_id": "src_031"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Consuming trans fats from partially hydrogenated vegetable oils.",
+      "why_it_fails": "It is strongly related to an increased risk of heart disease and is entirely absent from traditional, heart-healthy Mediterranean diets.",
+      "source_id": "src_031"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "source_id": "src_022",
+  "summary": "In this review article, Graham A. Colditz argues that the medical community already possesses enough knowledge to prevent over half of all breast cancer cases. He emphasizes the need to act on established modifiable risk factors (weight, physical activity, alcohol), increase the use of chemoprevention in high-risk women, and shift prevention efforts to earlier in life (childhood and adolescence) when breast cancer risk accumulates most rapidly.",
+  "themes": [
+    "Primary prevention",
+    "Breast cancer epidemiology",
+    "Life-course approach to risk accumulation",
+    "Chemoprevention underutilization",
+    "Behavior change in clinical practice"
+  ],
+  "principles": [
+    {
+      "statement": "Act on the prevention knowledge we already have rather than waiting for new discoveries.",
+      "rationale": "We already know that modifying lifestyle factors and utilizing chemoprevention can prevent over half of all breast cancer cases. Waiting for new risk factors to be discovered costs thousands of preventable cases each year.",
+      "source_quote": "Despite recent calls to intensify the search for new risk factors for breast cancer, acting on information that we already have could prevent thousands of cases each year.",
+      "source_id": "src_022"
+    },
+    {
+      "statement": "Breast cancer prevention must start in childhood and adolescence.",
+      "rationale": "Breast cancer risk accumulates rapidly from menarche to first birth, a period when the breast has not yet passed through terminal differentiation of cells. Intervening early shifts the long-term trajectory of risk.",
+      "source_quote": "The incidence of breast cancer increases sharply during the third decade of life, and prevention of early cases must begin before this period—during or before adolescence.",
+      "source_id": "src_022"
+    },
+    {
+      "statement": "It is never too late for midlife women to reduce their breast cancer risk through behavior change.",
+      "rationale": "Sustained postmenopausal weight loss and regular physical activity produce favorable changes in breast tissue and significantly reduce the risk of postmenopausal breast cancer.",
+      "source_quote": "An important message for midlife women, therefore, is that it is not too late to reduce their risk of breast cancer through behavior change.",
+      "source_id": "src_022"
+    },
+    {
+      "statement": "Treatment should be Plan B; prevention must be Plan A.",
+      "rationale": "Curing advanced breast cancer remains an elusive and expensive goal. True progress should be measured by cancer-free lifetimes, not just months of survival.",
+      "source_quote": "Plan A must involve prevention and early detection, with Plan B (treatment of advanced cancer) being necessary only when Plan A fails.",
+      "source_id": "src_022"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The '5 As' of Behavior Change Intervention",
+      "when_to_apply": "When clinicians are discussing lifestyle and behavior changes (like weight loss, exercise, or alcohol reduction) with patients to reduce cancer risk.",
+      "steps": [
+        "Ask about the behaviors of interest.",
+        "Advise, using a clear, strong, and personalized message.",
+        "Assess the patient's willingness to change their behavior.",
+        "Assist the behavior change via counseling or other approaches.",
+        "Arrange follow-up."
+      ],
+      "source_quote": "The principles of clinical practice guidelines outline five major steps to intervention (the “5 As”): Ask, Advise, Assess, Assist, Arrange.",
+      "source_id": "src_022"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Risk Accumulation Trajectory",
+      "description": "Viewing breast cancer risk not as a static point, but as a cumulative curve that accelerates during specific life windows (such as between menarche and first birth). Intervening early in life shifts the entire long-term trajectory downward, providing compounding benefits later in life.",
+      "example": "Recognizing that among women who engage in similar healthy behaviors at midlife, the ones who also engaged in healthy behaviors during adolescence will have a lower overall trajectory of risk.",
+      "source_id": "src_022"
+    },
+    {
+      "name": "Plan A vs. Plan B",
+      "description": "A prioritization model for disease management where prevention and early detection are the primary strategy (Plan A), and treating advanced disease is strictly the fallback (Plan B) for when the primary strategy fails.",
+      "example": "Applying the model used for cardiovascular or infectious diseases—where we first consider ways to prevent them—to breast cancer, rather than defaulting to finding drugs to cure advanced forms.",
+      "source_id": "src_022"
+    }
+  ],
+  "heuristics": [
+    "Avoiding weight gain through adult years is a top prevention priority.",
+    "Consume alcoholic beverages in moderation (at most).",
+    "Start prevention at a young age."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Despite recent calls to intensify the search for new risk factors for breast cancer, acting on information that we already have could prevent thousands of cases each year.",
+      "context": "Opening argument on the necessity of applying existing epidemiological knowledge.",
+      "source_id": "src_022"
+    },
+    {
+      "text": "True progress against breast cancer—progress that is measured not only by months of survival but also by the frequency of cancer-free lifetimes—requires that prevention become a much greater priority.",
+      "context": "Concluding thoughts on redefining what 'progress' in oncology looks like.",
+      "source_id": "src_022"
+    },
+    {
+      "text": "Prevention is possible. It is true that we do not yet have all the answers, but that should not stop us from acting on what we do know.",
+      "context": "Final call to action regarding the implementation of known prevention strategies.",
+      "source_id": "src_022"
+    },
+    {
+      "text": "An important message for midlife women, therefore, is that it is not too late to reduce their risk of breast cancer through behavior change.",
+      "context": "Discussing the benefits of postmenopausal weight loss.",
+      "source_id": "src_022"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Waiting for perfect knowledge or new risk factors before implementing prevention strategies.",
+      "why_it_fails": "It ignores the fact that over half of breast cancer cases could be prevented right now using established behavioral and pharmacological interventions.",
+      "source_id": "src_022"
+    },
+    {
+      "description": "Focusing breast cancer prevention efforts exclusively on adult or midlife women.",
+      "why_it_fails": "It misses the critical developmental window (childhood and adolescence) when the breast tissue is undifferentiated and risk accumulates most rapidly.",
+      "source_id": "src_022"
+    },
+    {
+      "description": "Allowing side-effect aversion to prevent the use of chemoprevention in high-risk women.",
+      "why_it_fails": "It leads to vast underutilization of drugs like tamoxifen and raloxifene, leaving millions of women unprotected even when the statistical benefits heavily outweigh the risks.",
+      "source_id": "src_022"
+    }
+  ]
+}

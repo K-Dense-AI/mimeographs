@@ -1,0 +1,362 @@
+{
+  "expert_name": "Henry Ford",
+  "themes": [
+    "Mass Production & Assembly Line Efficiency",
+    "Service Over Profit",
+    "Labor, Wages, & Consumerism",
+    "Vertical Integration & Absolute Control",
+    "Populism & The Economy of Abundance",
+    "Practical Simplicity & Utilitarianism",
+    "Antisemitism & Conspiracy Theories"
+  ],
+  "principles": [
+    {
+      "label": "Build for the Great Multitude",
+      "summary": "Products should be built for popular use and priced for the common man, transforming luxury items into everyday utilities.",
+      "details": "By designing a simple, affordable product without unnecessary frills, a business can tap into a massive market of everyday people rather than just the wealthy elite. Because there are far more average people than wealthy people, true scale and societal impact come from creating durable goods for the masses.",
+      "representative_quote": "I will build a motor car for the great multitude. It will be so low in price that no man will be unable to own one.",
+      "source_ids": [
+        "src_000",
+        "src_006",
+        "src_011",
+        "src_014",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Maintain Absolute Operational Control",
+      "summary": "Founders must maintain absolute control over their company's vision and supply chain, rejecting interference from outside investors and financiers.",
+      "details": "Stockholders and bankers often act as parasites who prioritize short-term dividends and financial hedging over long-term expansion, reinvestment, and operational excellence. Infusing more money into a poorly run business removes the urgency to make fundamental operational changes.",
+      "representative_quote": "More money will not prevent bad management; rather, it will perpetuate it.",
+      "source_ids": [
+        "src_000",
+        "src_005",
+        "src_022",
+        "src_028",
+        "src_044"
+      ]
+    },
+    {
+      "label": "High Wages Create Consumers",
+      "summary": "Mass production depends on mass consumption, which requires paying workers enough to buy the products they manufacture.",
+      "details": "Raising wages above subsistence levels isn't about humanitarianism; it structurally changes the economy by turning factory workers into a consumer base. Additionally, paying a premium wage solves the massive turnover rates caused by the repetitive boredom of assembly line work.",
+      "representative_quote": "I want to make sure that the men who make the modal T can afford to buy one",
+      "source_ids": [
+        "src_000",
+        "src_006",
+        "src_011",
+        "src_044"
+      ]
+    },
+    {
+      "label": "Service Over Profit",
+      "summary": "Business exists primarily to serve mankind; profitability is a byproduct of providing accessible, reliable service.",
+      "details": "By focusing on service and making products accessible to everyone, a business will ultimately achieve greater financial success than if it focused exclusively on maximizing per-unit profitability.",
+      "representative_quote": "a theory that looks toward making this world a better place in which to live.",
+      "source_ids": [
+        "src_005",
+        "src_044",
+        "src_047"
+      ]
+    },
+    {
+      "label": "Pass Manufacturing Savings to the Customer",
+      "summary": "Continually lower prices by passing the savings from manufacturing efficiency directly to the consumer.",
+      "details": "Continuously dropping the price of the product makes it accessible to an entirely new tier of buyers each year, exponentially increasing sales volume and overall market dominance.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_005",
+        "src_028",
+        "src_071"
+      ]
+    },
+    {
+      "label": "Continuous Manufacturing Improvement",
+      "summary": "Constantly seek engineering improvements to eliminate waste in the manufacturing process rather than making superficial changes to the product.",
+      "details": "Continually redesigning products every model year is a wasteful exercise; true progress comes from streamlining production to lower costs, reduce human effort, and improve affordability.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_005",
+        "src_047"
+      ]
+    },
+    {
+      "label": "Execution Over Ideas",
+      "summary": "Ideas are easy; practical execution is what matters.",
+      "details": "Anyone can think of an idea, but developing it into a practical, manufactured product is the true measure of success.",
+      "representative_quote": "Anyone can think up an idea. The thing that counts is developing it into a practical product.",
+      "source_ids": [
+        "src_044"
+      ]
+    },
+    {
+      "label": "Invention as Evolution",
+      "summary": "Invention is a process of continuous evolution, not sudden genesis.",
+      "details": "Technological breakthroughs are the result of gradual improvements on existing ideas. Ford used this principle to successfully fight restrictive patents, arguing no single person could claim the genesis of the automobile.",
+      "representative_quote": "All invention was a matter of evolution, he said, yet Selden claimed genesis.",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Spending Drives Improvement",
+      "summary": "Successful people do not save money; they spend it to improve themselves and fuel the economy.",
+      "details": "Ford believed the traditional Victorian virtue of thrift was nonsense, arguing that spending drives personal improvement and economic abundance.",
+      "representative_quote": "they spent it as fast as they could for things to improve themselves",
+      "source_ids": [
+        "src_011"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Mass-Market Economics",
+      "summary": "A strategy for transforming a luxury good into a basic necessity for the general public.",
+      "details": "Steps: 1) Set the product price low to capture the widest possible market. 2) Achieve the necessary cost reductions through extreme volume and production efficiency. 3) Pay workers a living wage so they have the purchasing power to buy the product.",
+      "representative_quote": "...stressed low pricing... in order to capture the widest possible market and then met the price by volume and efficiency.",
+      "source_ids": [
+        "src_003",
+        "src_006"
+      ]
+    },
+    {
+      "label": "Moving Assembly Line Production",
+      "summary": "A manufacturing process designed to drastically cut production time when demand outpaces traditional capacity.",
+      "details": "Steps: 1) Break down the manufacturing process into single, specific tasks. 2) Assign each worker to one fixed location. 3) Move the product past the stationary workers to minimize wasted time and motion.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_000",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Just-In-Time Production System",
+      "summary": "A method to increase cash flow and reduce inventory costs during financial pressure.",
+      "details": "Steps: 1) Pressure suppliers to ensure on-time delivery of essential components. 2) Reduce inventory levels significantly to free up capital. 3) Pressure dealers to accelerate sales. 4) Use the freed-up capital to pay off outstanding loans.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_047"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Fordism (Economy of Abundance)",
+      "summary": "An economic model based on the mass production of inexpensive, standardized goods coupled with high wages for workers.",
+      "details": "Viewing the economy not as a zero-sum system of scarcity, but as an engine where higher wages, lower prices, and increased leisure time generate endless consumer demand and a richer life.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_011",
+        "src_044"
+      ]
+    },
+    {
+      "label": "Vertical Integration",
+      "summary": "Consolidating all necessary components and raw materials of production into a single, massive operation to control the entire manufacturing process.",
+      "details": "Example: Building the River Rouge plant, which included its own glass factory, steel mill, and assembly line to handle all components of automotive production.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_003",
+        "src_022"
+      ]
+    },
+    {
+      "label": "The Factory as a Machine",
+      "summary": "Viewing the entire manufacturing plant not as a collection of individual workshops, but as one massive, integrated machine.",
+      "details": "This perspective allows for the optimization of the entire production flow rather than just isolated tasks.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_000"
+      ]
+    },
+    {
+      "label": "Cross-Industry Inspiration",
+      "summary": "Looking outside of one's own field to observe how other industries solve similar operational problems, then adapting those processes.",
+      "details": "Ford observed the continuous flow processes used in bakeries, breweries, and meat packing plants, and adapted them to design the moving assembly line for automobiles.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_071"
+      ]
+    },
+    {
+      "label": "The Everyman's Utility",
+      "summary": "Viewing a complex machine not as a luxury item, but as a versatile, utilitarian tool for the masses.",
+      "details": "Ford designed the Model T so simply that farmers could use it as a stationary motor to power sawmills, snowplows, and home generators.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_028"
+      ]
+    },
+    {
+      "label": "Efficiency as Service",
+      "summary": "Viewing manufacturing efficiency not merely as a cost-saving measure to maximize profit, but as a method to reduce human effort and provide better affordability to the customer.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_047"
+      ]
+    },
+    {
+      "label": "Capturing the Castle from Within",
+      "summary": "A conspiratorial worldview viewing modern political movements and liberal ideas as covert tools introduced by a hidden group to weaken and conquer a society from the inside.",
+      "details": "Ford used this model to propagate antisemitic theories, arguing that foreign ideas were exploiting the general population's ignorance to subvert traditional civilization.",
+      "representative_quote": "They have captured the castle from within. They have been able to do so only because of our ignorance of the lineage and dignity of the stock of ideas upon which our civilization has been founded.",
+      "source_ids": [
+        "src_048"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Standardize to Cut Costs",
+      "summary": "Standardize options to streamline production and reduce manufacturing expenses.",
+      "details": "Example: Painting all cars black because it dried fastest and simplified the assembly line.",
+      "representative_quote": "you could have any color as long as it's black",
+      "source_ids": [
+        "src_028"
+      ]
+    },
+    {
+      "label": "Eliminate Dead Weight",
+      "summary": "If a component isn't strictly necessary for its environment, it's just dead weight and should be removed.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "Don't Rush Prototypes",
+      "summary": "Do not release a product to customers until you have thoroughly improved the model, regardless of backer pressure.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Pay Well for Hard Work",
+      "summary": "If you treat employees well and pay them what they're worth, they will work harder for you.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_022"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "A Motor Car for the Great Multitude",
+      "summary": "Ford's vision for the Model T and its role in expanding the lives of common people.",
+      "details": "Announcing the birth of the Model T in October 1908.",
+      "representative_quote": "I will build a motor car for the great multitude it will be so low in price that no man making a decent salary will be unable to own one and able to enjoy with his family the blessings of hours of pleasure in God's Great Open Spaces",
+      "source_ids": [
+        "src_000",
+        "src_006",
+        "src_011",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Any Color as Long as It's Black",
+      "summary": "A famous cost-saving measure implemented around 1914 to streamline Model T production.",
+      "details": null,
+      "representative_quote": "you could have any color as long as it's black",
+      "source_ids": [
+        "src_028"
+      ]
+    },
+    {
+      "label": "History is Bunk",
+      "summary": "Expressing his disdain for looking to the past and his belief in constant forward-looking innovation.",
+      "details": "From a 1916 interview in the Chicago Tribune.",
+      "representative_quote": "history is bunk",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Execution Over Ideas",
+      "summary": "Summarizing his approach to innovation and practical engineering.",
+      "details": null,
+      "representative_quote": "Anyone can think up an idea. The thing that counts is developing it into a practical product.",
+      "source_ids": [
+        "src_044"
+      ]
+    },
+    {
+      "label": "Agriculture and Industry",
+      "summary": "Crystallizing his belief in balancing agriculture and manufacturing for national security.",
+      "details": "A motto displayed on the wall of the Ford rotunda.",
+      "representative_quote": "With one foot on land and one on industry America is safe.",
+      "source_ids": [
+        "src_025"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Ceding Control to Financiers",
+      "summary": "Allowing bankers, financiers, or outside stockholders to control the business.",
+      "details": "It leads to a loss of operational control and shifts the company's focus away from production efficiency and service toward financial manipulation and short-term dividends.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_000",
+        "src_005",
+        "src_022",
+        "src_028",
+        "src_044"
+      ]
+    },
+    {
+      "label": "Focusing Solely on Profitability",
+      "summary": "Maximizing profit by paying the lowest possible wages and charging the highest possible prices.",
+      "details": "It restricts the size of the market to only the wealthy and keeps workers at subsistence levels, preventing them from becoming consumers of the goods they produce. A business focused only on profit makes less in the long run.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_006",
+        "src_044",
+        "src_047"
+      ]
+    },
+    {
+      "label": "Cosmetic Redesigns Over Efficiency",
+      "summary": "Continually redesigning products with slight cosmetic changes every model year just for the sake of change.",
+      "details": "Ford viewed unsolicited cosmetic redesigns of a successful product as a wasteful exercise that distracts from the more beneficial goal of making the manufacturing process more efficient.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_028",
+        "src_047"
+      ]
+    },
+    {
+      "label": "Rushing to Market",
+      "summary": "Rushing a product to market to satisfy impatient investors or financial backers.",
+      "details": "It prevents the creator from fully improving the model to ensure it is truly ready for customers.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_003",
+        "src_006"
+      ]
+    },
+    {
+      "label": "Patent Monopolies",
+      "summary": "Patenting the broad idea of a product to create a monopoly.",
+      "details": "It restricts the product to a single owner, stifling competition and preventing the product from reaching the general public. Ford believed inventions were evolutionary, not genesis.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_006",
+        "src_014"
+      ]
+    },
+    {
+      "label": "Victorian Thrift",
+      "summary": "Saving money and practicing traditional Victorian thrift instead of spending.",
+      "details": "Ford believed saving was 'nonsense' because it prevents people from spending on things that improve their lives and stifles the consumer economy.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_011"
+      ]
+    }
+  ]
+}

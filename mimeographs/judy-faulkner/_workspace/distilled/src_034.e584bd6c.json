@@ -1,0 +1,86 @@
+{
+  "source_id": "src_034",
+  "summary": "Judy Faulkner, founder and CEO of Epic Systems, emphasizes long-term thinking, ethical decision-making, and deep empathy for healthcare providers. She strongly advocates for remaining privately held to avoid the short-term pressures of public markets, ensuring her company can focus on improving patient care and predicting the future of healthcare.",
+  "themes": [
+    "Long-term thinking",
+    "Corporate ethics",
+    "Customer empathy",
+    "Private ownership",
+    "Healthcare technology"
+  ],
+  "principles": [
+    {
+      "statement": "Prioritize long-term growth and ethical decisions over short-term profits.",
+      "rationale": "Publicly traded or private-equity-backed companies are forced to maximize short-term revenue, which often conflicts with doing what is right for the customer.",
+      "source_quote": "We have to do what is right and ethical. That’s harder if you're publicly traded. That’s harder if you’re private-equity backed. Because what is right for them financially isn’t necessarily what is right.",
+      "source_id": "src_034"
+    },
+    {
+      "statement": "Cultivate deep empathy for the customer's daily reality.",
+      "rationale": "Seeing the immense pressure healthcare providers are under and the high stakes involved creates an enormous sense of responsibility to build reliable systems for them.",
+      "source_quote": "And you feel this enormous sense of responsibility to do right by them.",
+      "source_id": "src_034"
+    },
+    {
+      "statement": "Predict the future to prepare for it and change it.",
+      "rationale": "Anticipating future needs allows a company to proactively solve massive problems, such as using AI to reduce clinician burnout and improve patient care.",
+      "source_quote": "You predict the future for two reasons. One is to prepare for it. And two is to change it.",
+      "source_id": "src_034"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Immersive Empathy Visits",
+      "when_to_apply": "When developing software or tools for high-stakes, specialized environments like healthcare.",
+      "steps": [
+        "Send programmers on annual visits to customer sites.",
+        "Have them spend time in the specific department they are building for (e.g., the Emergency Department).",
+        "Observe exactly what the end-users are experiencing to build empathy and understanding."
+      ],
+      "source_quote": null,
+      "source_id": "src_034"
+    },
+    {
+      "name": "Best Friend Forever (BFF) Client Alignment",
+      "when_to_apply": "To ensure continuous understanding of a specific client's needs.",
+      "steps": [
+        "Assign a specific staff member to a customer as their 'best friend forever'.",
+        "Make this staff member responsible for deeply learning the client's needs.",
+        "Bring that information back to the company to inform product development."
+      ],
+      "source_quote": null,
+      "source_id": "src_034"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Tyranny of the Fiscal Quarter",
+      "description": "Viewing public market pressures as a restrictive force that forces executives to prioritize short-term financial gains and career protection over long-term, ethical, and customer-centric growth.",
+      "example": "Faulkner refuses to take Epic public or accept private equity, ensuring her staff thinks about the future 25 to 30 years from now rather than quarter-to-quarter.",
+      "source_id": "src_034"
+    }
+  ],
+  "heuristics": [
+    "Think 25 to 30 years from now, not in terms of quarters.",
+    "Lead with humor to inspire employees to have fun and learn."
+  ],
+  "signature_quotes": [
+    {
+      "text": "We have to do what is right and ethical. That’s harder if you're publicly traded. That’s harder if you’re private-equity backed. Because what is right for them financially isn’t necessarily what is right.",
+      "context": "Explaining why she has never had any interest in taking Epic public.",
+      "source_id": "src_034"
+    },
+    {
+      "text": "You predict the future for two reasons. One is to prepare for it. And two is to change it.",
+      "context": "Discussing Epic's development of AI projects to analyze patient records and improve healthcare.",
+      "source_id": "src_034"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Taking a company public or accepting private equity backing.",
+      "why_it_fails": "It subjects the company to the 'tyranny' of the fiscal quarter, forcing executives to prioritize short-term profit and career protection over long-term growth and ethical decisions.",
+      "source_id": "src_034"
+    }
+  ]
+}

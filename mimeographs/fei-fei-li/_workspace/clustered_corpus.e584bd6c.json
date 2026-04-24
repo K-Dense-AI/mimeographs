@@ -1,0 +1,830 @@
+{
+  "expert_name": "Fei-Fei Li",
+  "themes": [
+    "Spatial Intelligence",
+    "Human-Centered AI",
+    "Evolutionary Biology of Intelligence",
+    "Robotics and Embodied AI",
+    "AI Ethics and Governance",
+    "Computer Vision",
+    "Diversity in Tech",
+    "Spatial Intelligence & 3D Worlds",
+    "Computer Vision & Big Data",
+    "Robotics & Embodied AI",
+    "AI Ethics & Responsibility",
+    "Diversity & Inclusion in Tech"
+  ],
+  "principles": [
+    {
+      "label": "AI Must Augment Humanity",
+      "summary": "AI should be designed to enhance and augment human capability, productivity, and wellbeing, rather than replacing humans or undermining human dignity.",
+      "details": "Because AI is developed, used, and governed by people, its true value lies in extending human capabilities. We must stay vigilant about job displacement while focusing on making humans more creative, connected, and safe.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_015",
+        "src_018",
+        "src_020",
+        "src_022",
+        "src_023",
+        "src_036",
+        "src_054"
+      ]
+    },
+    {
+      "label": "Augment, Don't Replace",
+      "summary": "AI must be designed to enhance human capabilities and preserve human dignity, rather than simply replacing human labor.",
+      "details": "The greatest potential of AI lies in assisting people and improving human well-being, such as helping overworked clinicians in healthcare. No technology should take away human dignity or agency.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_029",
+        "src_027",
+        "src_009",
+        "src_041",
+        "src_048"
+      ]
+    },
+    {
+      "label": "Spatial Intelligence is the Next AI Frontier",
+      "summary": "The full potential of AI, including AGI, cannot be realized through language alone; it requires spatial intelligence to understand, navigate, and interact with the 3D physical world.",
+      "details": "Spatial intelligence is the scaffolding of human cognition. Moving beyond 1D text to 3D world models will revolutionize robotics, healthcare, and scientific discovery.",
+      "representative_quote": "To me, AGI will not be complete without spatial intelligence. And I want to solve that problem.",
+      "source_ids": [
+        "src_001",
+        "src_012",
+        "src_015",
+        "src_018",
+        "src_036"
+      ]
+    },
+    {
+      "label": "Spatial Intelligence as the Next Frontier",
+      "summary": "To achieve true understanding and utility, AI must move beyond 2D text and images to perceive, reason, and act within 3D physical environments.",
+      "details": "The real world is 3D and 4D (including dynamics). True spatial intelligence requires the ability to create, interact with, and make sense of deeply spatial worlds, which is the critical missing piece for robotics and physical simulation.",
+      "representative_quote": "We firmly believe that spatial intelligence is the next frontier of artificial intelligence.",
+      "source_ids": [
+        "src_016",
+        "src_027",
+        "src_006",
+        "src_013"
+      ]
+    },
+    {
+      "label": "AI is a Civilizational Tool Reflecting Human Values",
+      "summary": "AI is a foundational technology that will reshape society, but as a tool, it possesses no independent values—it only reflects the values of its human creators.",
+      "details": "Because AI will redefine economic, social, and cultural downstream effects, developers and governors must take active responsibility to ensure the technology improves the human condition.",
+      "representative_quote": "It means recognizing AI is a tool. And tools don’t have independent values—their values are human values.",
+      "source_ids": [
+        "src_020",
+        "src_023",
+        "src_026"
+      ]
+    },
+    {
+      "label": "Big Data as the Foundation of Learning",
+      "summary": "Just as human and animal evolution relies on massive, continuous exposure to the world, AI requires massive, annotated datasets to learn patterns effectively.",
+      "details": "Before ImageNet, AI models lacked the data needed to learn patterns. Recognizing that humans learn visually through massive experience inspired the push for internet-scale training data.",
+      "representative_quote": "human learning as well as evolution is actually a big data learning process. Humans learn with so much experience you know constantly and evolution if you look at time animals evolve with just experiencing the world.",
+      "source_ids": [
+        "src_027",
+        "src_041",
+        "src_048"
+      ]
+    },
+    {
+      "label": "Perception is for Action",
+      "summary": "The evolutionary purpose of perception is not passive observation, but active interaction and movement within an environment.",
+      "details": "Nature created a virtuous cycle where acting upon the world in 3D space allows beings to learn, and consequently, to see and do better. AI must evolve from merely seeing to actively doing.",
+      "representative_quote": "Simply seeing is not enough. Seeing is for doing and learning.",
+      "source_ids": [
+        "src_012",
+        "src_015",
+        "src_018"
+      ]
+    },
+    {
+      "label": "AI Reflects Human Values",
+      "summary": "There is nothing 'artificial' about AI; it is created by humans, impacts humans, and carries the values of its creators throughout its lifecycle.",
+      "details": "Technology carries the values of its creators and society from design and development to deployment. Therefore, AI development must be anchored in human benevolence and dignity.",
+      "representative_quote": "I don't think technology has independent values. I think from the design development to deployment, the technology carry our values.",
+      "source_ids": [
+        "src_029",
+        "src_027"
+      ]
+    },
+    {
+      "label": "Democratize AI Resources and Public Sector Evaluation",
+      "summary": "To maintain a healthy ecosystem and build public trust, AI resources must not be concentrated solely in industry, and the public sector must be resourced to evaluate AI objectively.",
+      "details": "Initiatives like a National Research Cloud are necessary to educate talent and maintain global competitiveness, while public sector evaluation ensures AI models are safe and standardized.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_020",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Diverse Voices in AI",
+      "summary": "As a transformative, civilizational technology, AI development must include diverse and female voices to ensure it serves all of humanity.",
+      "details": "The field of AI cannot lack representation from women and minorities. Active work is required to educate underrepresented groups and bring them into the fold.",
+      "representative_quote": "I am a shy person, not good at expressing myself, but I insisted on publishing a book because the field of AI cannot lack female voices.",
+      "source_ids": [
+        "src_041",
+        "src_048"
+      ]
+    },
+    {
+      "label": "Intellectual Fearlessness is Essential",
+      "summary": "True creativity and scientific breakthroughs require the courage to embrace extreme difficulty and uncertainty.",
+      "details": "Fearlessness removes the constraints on creativity, allowing innovators to tackle hard, contrarian hypotheses where the real magic happens.",
+      "representative_quote": "fearless is to be free. is to be to get rid of the shackles that constrain your creativity, your courage, and your ability to just get done.",
+      "source_ids": [
+        "src_012",
+        "src_036"
+      ]
+    },
+    {
+      "label": "Pursue Audacious North Star Problems",
+      "summary": "Scientists and academics should focus on massive, guiding questions that industry cannot simply brute-force with scale.",
+      "details": "Academia should target interdisciplinary AI, theory, and fundamentally hard problems (like spatial intelligence) rather than competing with industry's compute and data advantages.",
+      "representative_quote": "I would recommend you to look for those north stars that are not on a collision course of problems that industry can solve better using better compute, better data, and team science.",
+      "source_ids": [
+        "src_023",
+        "src_036"
+      ]
+    },
+    {
+      "label": "AI is Interdisciplinary",
+      "summary": "AI is no longer just a computer science discipline; its vast impact requires integration with humanities, social sciences, and cognitive sciences.",
+      "details": "Because AI touches every aspect of human life, understanding and shaping it requires cross-pollination with economics, history, law, ethics, and political science.",
+      "representative_quote": "I fundamentally believe AI is no longer a Computer Science discipline, it's a interdisciplinary field.",
+      "source_ids": [
+        "src_029"
+      ]
+    },
+    {
+      "label": "Guardrails Catalyze Innovation",
+      "summary": "Ethical constraints and regulations are not roadblocks; they are forcing functions that drive researchers to invent better, safer technologies.",
+      "details": "For example, privacy requirements in healthcare AI forced the development of new differential privacy machine learning algorithms.",
+      "representative_quote": "If it's done right, actually good guardrails can encourage good innovation.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Open Science and Debate",
+      "summary": "Progress in AI relies on democratic, transparent, and inclusive testing and experimentation.",
+      "details": "Science requires openness and the free flow of ideas, as demonstrated by the success of the ImageNet challenge.",
+      "representative_quote": "Science is about openness, it’s about debate, it's about letting the ideas flow. We test and experiment and debate each other's ideas.",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Responsibility to Establish Norms",
+      "summary": "Technologists have a duty to stay and establish ethical guardrails and industry norms, even during controversies, rather than walking away.",
+      "details": "Organizations need active guidance to build responsible cultures. Walking away from difficult challenges leaves the technology without the necessary 'lighthouses' to guide its trajectory.",
+      "representative_quote": "I stayed because of my responsibility. Every university, every company was grappling with how do we establish an industry norm? How do we establish a culture in each of our organizations to deal with what's to come?",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Science is a Lineage, Not a Lone Genius",
+      "summary": "Scientific breakthroughs build upon generations of unsung heroes and cross-disciplinary ideas, rather than the isolated work of a single individual.",
+      "details": "The creation of massive datasets like ImageNet relied on the foundational work of cognitive scientists, computer scientists, and countless human labelers.",
+      "representative_quote": "One thing I actually don't like about the telling of scientific history is there's too much focus on single genius... science is a lineage.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Trust is Fundamentally Human",
+      "summary": "Even as AI systems become more capable and autonomous, trust operates at the human level and cannot be outsourced to machines.",
+      "details": "Whether in backend infrastructure or consumer applications, human agency must remain the ultimate source of trust in any product or service.",
+      "representative_quote": "One thing I feel very strongly is in the AI age, trust cannot be outsourced to machines. Trust is fundamentally human.",
+      "source_ids": [
+        "src_012"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Human-Centered AI Development Lifecycle",
+      "summary": "A framework for infusing ethical considerations and human values into every stage of AI development, from conception to deployment.",
+      "details": "Steps: 1) Define the problem with human values in mind (augmenting, not replacing). 2) Ensure data integrity, fairness, and privacy during collection. 3) Design safe, secure, and unbiased algorithms. 4) Evaluate the inference and societal impact to ensure it properly assists humans.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_020",
+        "src_022",
+        "src_054"
+      ]
+    },
+    {
+      "label": "Dataset Hypothesis Formulation",
+      "summary": "A structured approach to building large-scale datasets to solve complex AI problems.",
+      "details": "Steps: 1) Define the right scientific hypothesis (e.g., visual object categorization). 2) Determine dimensions of quality. 3) Source massive amounts of data. 4) Implement rigorous human-filtering and quality control.",
+      "representative_quote": "Every scientific quest, you have to have the right hypothesis and asking the right question.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Finding North Star AI Problems",
+      "summary": "A method for identifying the next fundamental research direction or paradigm shift in AI.",
+      "details": "Steps: 1) Look to evolution and brain science for inspiration. 2) Identify capabilities that took evolution the longest to develop (e.g., vision taking 540M years). 3) Target problems that are 'bordering delusional' and haven't been solved because they are fundamentally hard.",
+      "representative_quote": "I ask myself, what is what evolution has done or what brain development has done.",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Human-Centered AI Framework",
+      "summary": "A three-pillar approach to designing, developing, and deploying next-generation AI technologies.",
+      "details": "1. Make AI technology more human-inspired by cross-pollinating with brain science, neuroscience, and cognitive science. 2. Rethink AI as a Humanities and Social Science field to anticipate its impact. 3. Change the verb associated with AI from 'replace' to 'augment and enhance' humans.",
+      "representative_quote": "Let me lay out the three founding principles of human-centered AI framework that, at Stanford, our institute is built on...",
+      "source_ids": [
+        "src_029"
+      ]
+    },
+    {
+      "label": "The Golden Recipe of Modern AI",
+      "summary": "The foundational trio of technologies that unlocked modern machine learning and pattern recognition.",
+      "details": "1. Curate massive, internet-scale datasets (Big Data). 2. Design complex neural network architectures to learn patterns from the data. 3. Utilize massive parallel computing power (GPUs) to train the models.",
+      "representative_quote": "that combination of the trio technology uh big data neuronet network and GPU was kind of the golden recipe for modern AI",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "The Virtuous Cycle of Spatial Intelligence",
+      "summary": "A four-step loop for developing embodied AI or robotic systems that interact with the physical 3D world.",
+      "details": "Steps: 1) See: Take in visual data. 2) Understand: Translate 2D data into 3D spatial information. 3) Do: Act upon the 3D space. 4) Learn: Use the outcome to improve future perception and action.",
+      "representative_quote": "teaching computers to see, learn, do and learn to see and do better.",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Three Essential Capabilities of World Models",
+      "summary": "Criteria for defining, building, or evaluating spatially intelligent AI systems.",
+      "details": "1) Generative: Simulate worlds following semantic instructions with physical consistency. 2) Multimodal: Process diverse inputs (images, video, text, actions). 3) Interactive: Output next states based on input actions, respecting physical laws.",
+      "representative_quote": "For spatial intelligence, I define world models through three essential capabilities:",
+      "source_ids": [
+        "src_015"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "The Digital Cambrian Explosion",
+      "summary": "A historical metaphor comparing the current rapid evolution of AI to the biological Cambrian explosion 540 million years ago.",
+      "details": "Just as the emergence of sight in ancient organisms led to a massive diversification of life, action, and intelligence, giving computers spatial intelligence will kick off a rapid expansion of AI capabilities and embodied robotics.",
+      "representative_quote": "I believe the full potential of this digital Cambrian explosion won't be fully realized until we power our computers and robots with spatial intelligence, just like what nature did to all of us.",
+      "source_ids": [
+        "src_012",
+        "src_018",
+        "src_036",
+        "src_054"
+      ]
+    },
+    {
+      "label": "World Models (From Words to Worlds)",
+      "summary": "Transitioning AI from processing language ('words') to generating and understanding physics-based 3D environments ('worlds') to unlock embodied intelligence.",
+      "details": "An AI paradigm that moves beyond language processing to develop a physics-based understanding of three-dimensional environments, allowing AI to perceive and interact with spatial data. This is essential for robotics, which requires interactable, dynamic training grounds.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_027",
+        "src_006",
+        "src_013"
+      ]
+    },
+    {
+      "label": "Ambient Intelligence (The Guardian Angel)",
+      "summary": "Viewing AI as a continuous, background assistive technology that monitors environments to support human well-being without replacing workers.",
+      "details": "For example, putting cheap smart sensors around a hospital ward to monitor clinicians' hand-hygiene practices or track patients' mobility in the ICU, thereby assisting overworked nurses and doctors.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_029",
+        "src_041"
+      ]
+    },
+    {
+      "label": "Civilizational Technology",
+      "summary": "Viewing AI not just as software, but as a fundamental technology that redefines the economic, social, cultural, and political downstream effects of society.",
+      "details": "Because it impacts civilization at scale, it requires human-built safeguards and active participation from diverse disciplines to ensure it benefits humanity.",
+      "representative_quote": "AI is absolutely a civilizational technology.",
+      "source_ids": [
+        "src_023",
+        "src_026"
+      ]
+    },
+    {
+      "label": "AGI as a Door with Multiple Keyholes",
+      "summary": "A metaphor for achieving Artificial General Intelligence, where different modalities of intelligence are required to unlock the final goal.",
+      "details": "Language is one major keyhole, but world modeling and spatial intelligence are equally necessary keyholes needed to fully open the door to AGI.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "AI as a Toddler",
+      "summary": "Contextualizing the current state of computer vision by comparing advanced machines to the developmental stage of a young child.",
+      "details": "While a 3-year-old can effortlessly identify a cat, house, or plane by sight, our most advanced machines are still like toddlers when it comes to visual understanding.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Eyes of AI",
+      "summary": "Using massive, hierarchically organized datasets to provide the foundational visual perception layer required for AI to 'see' the world.",
+      "details": "Creating ImageNet, a database of nearly 15 million images, allowed researchers to train their algorithms to accurately classify visual concepts, effectively giving AI its 'eyes'.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_041"
+      ]
+    },
+    {
+      "label": "Guardrails as Innovation Catalysts",
+      "summary": "Viewing regulatory or ethical constraints not as roadblocks, but as forcing functions that drive technological breakthroughs.",
+      "details": "Instead of slowing down progress, constraints force researchers to invent entirely new paradigms to solve problems safely.",
+      "representative_quote": "If it's done right, actually good guardrails can encourage good innovation.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "LLMs as Wordsmiths in the Dark",
+      "summary": "Viewing current Large Language Models as highly articulate but fundamentally disconnected from physical reality.",
+      "details": "Despite generating coherent text, they lack spatial and physical grounding, making them unable to truly understand distance, orientation, or physical interaction.",
+      "representative_quote": "Yet they remain wordsmiths in the dark; eloquent but inexperienced, knowledgeable but ungrounded.",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Plato's Cave of Computer Vision",
+      "summary": "A metaphor explaining the challenge of spatial intelligence: inferring a complex 3D/4D reality from flat 2D projections.",
+      "details": "Comparing a vision system to a prisoner watching 2D shadows on a cave wall, whose task is to figure out the actual 3D live theater happening behind them.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Pragmatic Optimism",
+      "summary": "A worldview that avoids utopian extremes and doomerism, actively believing in the upside of technology while taking pragmatic steps to build safeguards.",
+      "details": "It focuses on the practical work of aligning AI with human needs and dignity rather than getting lost in extreme narratives.",
+      "representative_quote": "I call myself a pragmatic optimist. I'm not a utopian, so I'm actually the boring kind.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Safety as Health",
+      "summary": "Treating AI safety not as a simple binary checklist, but as a broad, complex, and universally desired state requiring holistic and continuous practices.",
+      "details": "Just as human health requires ongoing, multi-faceted care, AI safety requires infusing ethics at every single stage of development.",
+      "representative_quote": "Safety is one of those words like health: everybody wants it, but it’s really hard to define it.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Scientists in a Crib",
+      "summary": "Using human infants as the ultimate model for machine learning agents.",
+      "details": "Babies learn without massive labeled datasets or language; they use curiosity, trial and error, and multi-modal exploration to understand physics, objects, and social intelligence.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_054"
+      ]
+    },
+    {
+      "label": "Technology as a Double-Edged Sword",
+      "summary": "Recognizing that every major technological advancement is intended for good but carries an inherent risk of harm, necessitating active guardrails.",
+      "details": "Comparing the invention of AI to the discovery of fire, the wheel, electricity, and biotech—all of which brought innovation but required humanity to grapple with their potential for harm.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_048"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Demand AI That Can Do",
+      "summary": "We want more than AI that can see and talk; we want AI that can actively do and interact.",
+      "details": null,
+      "representative_quote": "We want more than AI that can see and talk. We want AI that can do.",
+      "source_ids": [
+        "src_015",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Hire for Intellectual Fearlessness",
+      "summary": "Seek out individuals who have the courage to embrace extremely hard problems and go all in.",
+      "details": null,
+      "representative_quote": "I look for intellectual fearlessness.",
+      "source_ids": [
+        "src_012",
+        "src_036"
+      ]
+    },
+    {
+      "label": "Compute Equals AI",
+      "summary": "Wherever there is compute, there will eventually be AI.",
+      "details": null,
+      "representative_quote": "wherever there is chip there's compute wherever there's compute there will be AI.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Defy Labels",
+      "summary": "Do not be boxed in by labels, gender, role, or societal expectations.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Embrace the Hard Problems",
+      "summary": "If a problem is easy, somebody else has already solved it.",
+      "details": null,
+      "representative_quote": "If it's easy, somebody else has solved it.",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Horizon Goal Resilience",
+      "summary": "Keep the eventual goal on the horizon to maintain the resilience needed to push through years of institutional or mainstream friction.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_029"
+      ]
+    },
+    {
+      "label": "Prioritize Mission Over Details",
+      "summary": "When making big career leaps, focus on passion, mission alignment, and faith in the team rather than over-analyzing every minute detail or potential failure.",
+      "details": null,
+      "representative_quote": "when maybe the most important thing is where's your passion? Do you align with the mission? Do you believe and have faith in this team?",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Seeing is Not Understanding",
+      "summary": "Taking a picture is not the same as seeing and understanding a 3D environment.",
+      "details": null,
+      "representative_quote": "Taking a picture is not the same as seeing and understanding.",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "The Best Technology is Invisible",
+      "summary": "Design technology so that it quietly assists and improves life without being noticed.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_054"
+      ]
+    },
+    {
+      "label": "The Visual Lens of AI",
+      "summary": "Look at artificial intelligence through the lens of visual intelligence, because humans are deeply visual animals.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Think About Values Before Coding",
+      "summary": "Before writing a single line of code, you must already be thinking about human values.",
+      "details": null,
+      "representative_quote": "Before you write a single line of code, you already are thinking about human values.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Tools Reflect Human Values",
+      "summary": "Remember that tools don’t have independent values—their values are human values.",
+      "details": null,
+      "representative_quote": "Tools don’t have independent values—their values are human values.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Turn Audacious Questions into a North Star",
+      "summary": "Use massive, guiding questions to drive meaningful scientific pursuit.",
+      "details": null,
+      "representative_quote": "physics taught me to ask audacious questions and turn them into a north star.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Who Will Change AI?",
+      "summary": "AI will change the world, so we must actively focus on who is changing and building AI.",
+      "details": null,
+      "representative_quote": "AI would change the world, who will change AI?",
+      "source_ids": [
+        "src_054"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "AGI Requires Spatial Intelligence",
+      "summary": "Discussing her motivation for founding World Labs and moving beyond LLMs.",
+      "details": null,
+      "representative_quote": "To me, AGI will not be complete without spatial intelligence. And I want to solve that problem.",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "AI as an Interdisciplinary Field",
+      "summary": "The necessity of integrating humanities into AI.",
+      "details": "Explaining why Stanford created the Human-Centered AI Institute.",
+      "representative_quote": "I fundamentally believe AI is no longer a Computer Science discipline, it's a interdisciplinary field.",
+      "source_ids": [
+        "src_029"
+      ]
+    },
+    {
+      "label": "AI Carries Our Values",
+      "summary": "Technology is not neutral; it inherits the values of its creators.",
+      "details": "When asked if an AI system has to have values.",
+      "representative_quote": "I don't think technology has independent values. I think from the design development to deployment, the technology carry our values.",
+      "source_ids": [
+        "src_029"
+      ]
+    },
+    {
+      "label": "Augment, Don't Replace",
+      "summary": "The true opportunity of AI is human enhancement.",
+      "details": "Detailing the third founding principle of the Human-Centered AI framework.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_029"
+      ]
+    },
+    {
+      "label": "Augment, Not Replace",
+      "summary": "Stating her core motivation and guiding principle for AI development.",
+      "details": null,
+      "representative_quote": "AI must augment human capability, not replace it.",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Defining Spatial Intelligence",
+      "summary": "Explaining the thesis behind World Labs.",
+      "details": "Explaining how spatial intelligence differs from standard video generation models.",
+      "representative_quote": "Spatial intelligence to me is the ability to create, reason, interact, make sense of deeply spatial world, whether it's 2D or 3D or 4D, including dynamics and all that.",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Guardrails Encourage Innovation",
+      "summary": "Addressing the perceived tension between regulation and the pace of innovation.",
+      "details": null,
+      "representative_quote": "If it's done right, actually good guardrails can encourage good innovation.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Innovation is Never Done",
+      "summary": "Arguing against the idea that scaling current models is all that is needed.",
+      "details": "Addressing the belief that scaling laws alone will solve AI.",
+      "representative_quote": "There is not a single deeply scientific discipline in human history that has arrived at a place that says we're done. We're done innovating.",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Lighthouses for AI",
+      "summary": "The need for ethical guidance in AI development.",
+      "details": "Explaining her mission to establish ground rules for AI's civilizational impact.",
+      "representative_quote": "We need lighthouses to guide where this technology is going. It cannot be for one company making money. It has to be centered around human dignity, human well-being.",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Moral Obligation of AI",
+      "summary": "Discussing the moral imperative behind Human-Centered AI.",
+      "details": null,
+      "representative_quote": "Whenever humanity creates a technology as powerful and potentially useful as AI, we owe it to ourselves and our future generation to make it right.",
+      "source_ids": [
+        "src_054"
+      ]
+    },
+    {
+      "label": "Nothing Artificial About AI",
+      "summary": "A reminder that AI is fundamentally a human endeavor.",
+      "details": "Advice she gives to almost every student who graduates from her lab.",
+      "representative_quote": "your field is called artificial intelligence but there's nothing artificial about it.",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "People Should Have a Say",
+      "summary": "Explaining what Silicon Valley is missing in the current AI hype.",
+      "details": null,
+      "representative_quote": "People made AI, people will be using AI, people will be impacted by AI, and people should have a say in AI.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Seeing is for Doing",
+      "summary": "Explaining why computer vision must evolve into spatial intelligence.",
+      "details": null,
+      "representative_quote": "Simply seeing is not enough. Seeing is for doing and learning.",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Spatial Intelligence is the Next Frontier",
+      "summary": "The necessity of moving beyond LLMs to 3D understanding.",
+      "details": "Discussing the need for AI to move beyond large language models.",
+      "representative_quote": "We firmly believe that spatial intelligence is the next frontier of artificial intelligence.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Tools Reflect Human Values",
+      "summary": "Explaining what it means to develop AI in a human-centered way.",
+      "details": null,
+      "representative_quote": "It means recognizing AI is a tool. And tools don’t have independent values—their values are human values.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Trust is Human",
+      "summary": "Discussing how leaders and entrepreneurs should build trust as AI becomes a civilizational technology.",
+      "details": null,
+      "representative_quote": "One thing I feel very strongly is in the AI age, trust cannot be outsourced to machines. Trust is fundamentally human.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Wordsmiths in the Dark",
+      "summary": "Describing the limitations of current Large Language Models (LLMs).",
+      "details": null,
+      "representative_quote": "Yet they remain wordsmiths in the dark; eloquent but inexperienced, knowledgeable but ungrounded.",
+      "source_ids": [
+        "src_015"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Subscribing to Extreme Narratives",
+      "summary": "Falling into extreme narratives of techno-utopia or apocalypse.",
+      "details": "It ignores the pragmatic reality that AI is developed, used, and governed by people, and distracts from the practical work of aligning AI with human needs and dignity.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_015",
+        "src_023",
+        "src_026"
+      ]
+    },
+    {
+      "label": "Believing Language is Sufficient for AGI",
+      "summary": "Assuming AI can achieve true understanding of the world through text and language alone.",
+      "details": "Language defines the boundary of the world in symbolic forms, but the physical world is limitless, 3D, and requires spatial intelligence, geometry, and physics to fully comprehend and interact with.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012",
+        "src_015"
+      ]
+    },
+    {
+      "label": "Stopping at Passive Perception",
+      "summary": "Stopping AI development at passive visual perception, like just labeling images or generating videos.",
+      "details": "It ignores the evolutionary purpose of vision, which is to interact with the environment. Without linking perception to action, AI cannot fully operate in the real world.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012",
+        "src_018"
+      ]
+    },
+    {
+      "label": "The 'Bitter Lesson' Fallacy for Robotics",
+      "summary": "Assuming that scaling data and compute for language models will easily solve robotics and AGI.",
+      "details": "Unlike language models where training data perfectly aligns with output tokens, robotics lacks massive training data for actions in 3D worlds. LLMs only develop a model of words; they lack the ability to perceive the real world or understand spatial, physics-based 3D environments.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_013",
+        "src_027"
+      ]
+    },
+    {
+      "label": "Viewing AI Solely as a Replacement Tool",
+      "summary": "Focusing on AI for 'infinite productivity' or replacing human labor, which ignores its massive potential to assist and enhance human capabilities.",
+      "details": "This mindset ignores the human element. At the end of the day, AI is about people, and failing to speak heart-to-heart with the broader public alienates them from the technology.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_029",
+        "src_027"
+      ]
+    },
+    {
+      "label": "Abandoning the Table",
+      "summary": "Resigning or walking away from controversial tech deployments instead of staying to establish industry norms and ethical guardrails.",
+      "details": "It abandons the responsibility to establish industry norms and culture for responsible development during critical transitional periods.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Academia Competing on Scale",
+      "summary": "Academia trying to compete with industry on scale-driven AI problems.",
+      "details": "Industry has vastly superior compute, data, and team science resources. Academia will lose if it tries to brute-force problems that industry is already scaling.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Equating Productivity with Prosperity",
+      "summary": "Assuming technological productivity automatically equals societal prosperity.",
+      "details": "It ignores the complex socioeconomic impacts of technology, such as painful labor market changes, and fails to address how wealth and benefits are actually distributed across society.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Fixating on AGI",
+      "summary": "Treating AGI as a rigorous scientific goal rather than a marketing buzzword.",
+      "details": "It distracts from the scientific north star of AI, which is simply asking if machines can think and do things the way humans do.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Homogenous AI Development",
+      "summary": "Allowing the AI industry to remain exclusive, which deprives the field of essential female and minority perspectives.",
+      "details": "Because AI is a transformative technology, its development cannot lack representation from diverse voices.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_041"
+      ]
+    },
+    {
+      "label": "Ignoring the Data Foundation",
+      "summary": "Fiddling with parameters of small models instead of rethinking the problem from a data-driven perspective.",
+      "details": "In the mid-2000s, machine learning was stuck in a local minimum because researchers were focused on small Bayesian networks rather than rebooting algorithms with massive, real-world datasets (which led to ImageNet).",
+      "representative_quote": null,
+      "source_ids": [
+        "src_029"
+      ]
+    },
+    {
+      "label": "Innovation vs. Regulation False Dichotomy",
+      "summary": "Treating innovation and regulation as mutually exclusive forces.",
+      "details": "Going to the extreme of zero guardrails can lead to innovations that fail society, while extreme regulation stifles progress. Striking a balance actually incentivizes better, safer technology.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Replacing Human Companionship",
+      "summary": "Building robots to replace human companionship in areas like eldercare.",
+      "details": "It ignores the fundamental human needs of aging populations, which are dignity and social connection. Technology should quietly assist and ensure safety, not replace family or nurses.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_054"
+      ]
+    },
+    {
+      "label": "The Single Genius Narrative",
+      "summary": "Focusing on the 'Single Genius' narrative in science.",
+      "details": "It ignores the generations of computer scientists, cognitive scientists, and engineers who actually make fields like AI happen, obscuring the true collaborative nature of innovation.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_023"
+      ]
+    }
+  ]
+}

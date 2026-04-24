@@ -1,0 +1,71 @@
+{
+  "source_id": "src_039",
+  "summary": "A brief biographical overview of David Hume's philosophy from a Goodreads book page. It outlines his core empiricist beliefs, including his skepticism of rational causality, his view that desire governs reason, and his conception of the self as a bundle of sensations.",
+  "themes": [
+    "Empiricism",
+    "Skepticism",
+    "Human Nature",
+    "Ethics",
+    "Causality"
+  ],
+  "principles": [
+    {
+      "statement": "Desire rather than reason governs human behavior.",
+      "rationale": "Human nature is driven by psychological desires and feelings, in direct opposition to rationalist views that prioritize reason.",
+      "source_quote": null,
+      "source_id": "src_039"
+    },
+    {
+      "statement": "Humans have knowledge only of things they directly experience.",
+      "rationale": "There are no innate ideas; all human knowledge must stem from direct empirical observation.",
+      "source_quote": null,
+      "source_id": "src_039"
+    },
+    {
+      "statement": "Inductive reasoning and causality cannot be justified rationally.",
+      "rationale": "Our belief in cause and effect comes from custom and constant conjunction, rather than inherent logic.",
+      "source_quote": null,
+      "source_id": "src_039"
+    },
+    {
+      "statement": "Ethics are based on feelings rather than abstract moral principles.",
+      "rationale": "Morality is a matter of sentiment and human feeling rather than rational deduction.",
+      "source_quote": null,
+      "source_id": "src_039"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Bundle Theory of the Self",
+      "description": "The concept that humans have no actual conception of a unified, persistent self, but rather only experience a bundle of sensations associated with the self.",
+      "example": null,
+      "source_id": "src_039"
+    },
+    {
+      "name": "Constant Conjunction",
+      "description": "The lens through which we perceive causality: we assume cause and effect not because of inherent logic, but because we are accustomed to seeing two events frequently happening together.",
+      "example": null,
+      "source_id": "src_039"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Believing that reason governs human behavior.",
+      "why_it_fails": "Human behavior is actually governed by desire and psychological factors, not rational deduction.",
+      "source_id": "src_039"
+    },
+    {
+      "description": "Assuming the existence of innate ideas.",
+      "why_it_fails": "Humans only possess knowledge of things they have directly experienced.",
+      "source_id": "src_039"
+    },
+    {
+      "description": "Attempting to justify causality and inductive reasoning rationally.",
+      "why_it_fails": "Causality is merely an assumption resulting from custom and constant conjunction, not logic.",
+      "source_id": "src_039"
+    }
+  ]
+}

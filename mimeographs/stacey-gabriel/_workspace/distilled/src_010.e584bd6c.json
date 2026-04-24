@@ -1,0 +1,102 @@
+{
+  "source_id": "src_010",
+  "summary": "Stacey Gabriel outlines three future revolutions in biomedical research: routine clinical whole-genome sequencing, longitudinal multiomics at scale, and high-throughput cellular perturbations. She emphasizes the need to combine academic creativity with industrial-scale execution to generate the massive, systematic datasets required to fuel AI-driven biological insights.",
+  "themes": [
+    "Genomics",
+    "Biomedical Research",
+    "Multiomics",
+    "Cellular Perturbation",
+    "Scale and Automation",
+    "Academic-Industry Hybrid Model"
+  ],
+  "principles": [
+    {
+      "statement": "Meld academic creativity with industrial scale.",
+      "rationale": "Traditional academia focuses on exploratory science, while industry focuses on financial return. To tackle massive, collaborative projects for the public good, research institutions must combine the best of both worlds.",
+      "source_quote": "how can we take the best of both worlds and meld sort of that academic creativity with industrial scale and sort of a focus on sort of that goal oriented sort of pro pro project driven driven science",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Flagship efforts drive capabilities and scale.",
+      "rationale": "Ambitious, boundary-pushing projects force the development of new methods and foundational datasets that eventually benefit the entire scientific community.",
+      "source_quote": "flagship efforts that create communities, push boundaries and drive us to scale or create some sort of capability or access that wasn't possible in the past.",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Systematic, high-scale data generation is the necessary fuel for AI in biology.",
+      "rationale": "To move beyond studying genes one at a time, we must routinely produce massive, well-controlled perturbational datasets that can power new analytic approaches and models.",
+      "source_quote": "ultimately this this kind of activity is going to produce massive data sets that are going to really be the fuel for those sort of those AI enabled tools that are going to be able to turn that all that data you know we hope into into great insights",
+      "source_id": "src_010"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Achieving Scientific Revolutions",
+      "when_to_apply": "When tackling large collaborative biomedical projects that cannot be readily done in a traditional research setting.",
+      "steps": [
+        "Define the vision: determine what you want to accomplish, why, and what you intend to change.",
+        "Launch flagship efforts: create communities, push boundaries, and drive the creation of new capabilities or foundational datasets.",
+        "Apply a hybrid execution model: bring together academic creativity with industrial scale and goal-oriented project management."
+      ],
+      "source_quote": "first is vision. So what do you want to accomplish and why?... second thing. So flagship efforts that create communities, push boundaries and drive us to scale... finally a big part is the model sort of the way we do approach things here",
+      "source_id": "src_010"
+    },
+    {
+      "name": "High-Scale Cellular Perturbation Platform",
+      "when_to_apply": "When systematically turning lists of disease-associated genetic variants into functional insights.",
+      "steps": [
+        "Collect various types of cellular inputs (single cells, tumor samples, tissue samples, or inducible stem cells).",
+        "Perturb the cells systematically (e.g., via CRISPR knock-in/out, or treatment with compounds/drugs).",
+        "Perform a variety of molecular or imaging readouts.",
+        "Conduct downstream data analysis to fuel AI-enabled tools."
+      ],
+      "source_quote": "The four parts of that platform for for cell um perturbation will include various types of inputs... a next step of perturbing that cell in different ways... then performing a variety of readouts next is the is the next stage and then there's there's downstream data analysis",
+      "source_id": "src_010"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Hand-to-hand combat vs. Systematic scale",
+      "description": "A lens for evaluating research efficiency. Traditional genetic research is viewed as slow, one-by-one battles ('hand-to-hand combat') to understand a gene's function. The modern alternative is systematic, high-throughput, genome-wide perturbation to generate massive datasets all at once.",
+      "example": "Instead of studying one disease-associated variant at a time, using CRISPR and single-cell transcriptomics to systematically install sequence changes across many cell types and read out the consequences at scale.",
+      "source_id": "src_010"
+    }
+  ],
+  "heuristics": [
+    "Things change quickly because we take time to grow, learn how to automate, lower costs, be systematic, and then push into production."
+  ],
+  "signature_quotes": [
+    {
+      "text": "how can we take the best of both worlds and meld sort of that academic creativity with industrial scale",
+      "context": "Describing the operational model of the Broad Institute.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "we've known about many many genes and many many variants that that are associated with disease for a long time and so far it's I would say an exercise of kind of like hand-tohand combat to go after that gene or that variant",
+      "context": "Explaining the need for high-scale cellular perturbations.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "ultimately this this kind of activity is going to produce massive data sets that are going to really be the fuel for those sort of those AI enabled tools",
+      "context": "Discussing the output of systematic cellular perturbation platforms.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "when we started the Broad Institute, some of the things we're doing today now quite routinely seemed impossible at the time too",
+      "context": "Encouraging the audience not to be deterred by the apparent impossibility of future scientific revolutions.",
+      "source_id": "src_010"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on traditional academic or purely industrial models for foundational biomedical research.",
+      "why_it_fails": "Traditional academia focuses on exploratory basic science by trainees, while industry focuses on product development for financial return. Neither is optimized for massive, collaborative, goal-oriented projects for the public good.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Studying genetic variants and their functional insights one at a time.",
+      "why_it_fails": "It is an exercise in 'hand-to-hand combat' that is too slow and fails to produce the massive, harmonized datasets needed to power modern AI and analytic approaches.",
+      "source_id": "src_010"
+    }
+  ]
+}

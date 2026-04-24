@@ -1,0 +1,93 @@
+{
+  "source_id": "src_018",
+  "summary": "Fei-Fei Li discusses the evolution of AI from basic computer vision to 'spatial intelligence.' Drawing a parallel to the Cambrian explosion, she argues that just as the emergence of sight in ancient organisms led to action and intelligence, modern AI must evolve beyond merely seeing and talking to actively doing and interacting within 3D environments.",
+  "themes": [
+    "Spatial Intelligence",
+    "Computer Vision",
+    "Robotics and Embodied AI",
+    "Human-Centered AI",
+    "Healthcare AI",
+    "Evolution of Intelligence"
+  ],
+  "principles": [
+    {
+      "statement": "Simply seeing is not enough; seeing is for doing and learning.",
+      "rationale": "Nature created a virtuous cycle where acting upon the world in 3D space and time allows beings to learn, and consequently, to see and do better.",
+      "source_quote": "Simply seeing is not enough. Seeing is for doing and learning.",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "The full potential of AI requires spatial intelligence.",
+      "rationale": "Just as the emergence of vision triggered the Cambrian explosion in the animal world, powering computers and robots with the ability to perceive and interact with 3D space is necessary to realize the next massive leap in AI.",
+      "source_quote": "I believe the full potential of this digital Cambrian explosion won't be fully realized until we power our computers and robots with spatial intelligence, just like what nature did to all of us.",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "AI development must always put humans in the center.",
+      "rationale": "To ensure AI acts as a trusted partner that enhances productivity and humanity, respects individual dignity, and lifts collective prosperity, its development must be thoughtfully human-centric.",
+      "source_quote": "It requires all of us to take thoughtful steps and develop technologies that always put humans in the center.",
+      "source_id": "src_018"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Virtuous Cycle of Spatial Intelligence",
+      "when_to_apply": "When developing embodied AI or robotic systems that need to interact with the physical 3D world.",
+      "steps": [
+        "See: Take in visual data from the environment.",
+        "Understand: Translate 2D data into 3D spatial information and predict relationships.",
+        "Do: Act upon the 3D space based on that understanding.",
+        "Learn: Use the outcome of the action to improve future perception and action."
+      ],
+      "source_quote": "teaching computers to see, learn, do and learn to see and do better.",
+      "source_id": "src_018"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Digital Cambrian Explosion",
+      "description": "A historical metaphor comparing the current rapid evolution of AI to the Cambrian explosion 540 million years ago, where the emergence of sight in organisms led to a massive diversification of life, action, and intelligence.",
+      "example": "Using spatial intelligence to allow machines to interact with humans and 3D worlds, kicking off a rapid expansion of AI capabilities and embodied robotics.",
+      "source_id": "src_018"
+    },
+    {
+      "name": "Ambient Intelligence",
+      "description": "Viewing AI sensors in physical spaces as an 'extra pair of eyes' that passively monitor and assist humans without being intrusive.",
+      "example": "Smart sensors in hospital rooms that detect if clinicians washed their hands or alert care teams if a patient is at physical risk of falling.",
+      "source_id": "src_018"
+    }
+  ],
+  "heuristics": [
+    "We want more than AI that can see and talk. We want AI that can do.",
+    "Taking a picture is not the same as seeing and understanding."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Simply seeing is not enough. Seeing is for doing and learning.",
+      "context": "Explaining why computer vision must evolve into spatial intelligence.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "What began as a passive experience, the simple act of letting light in, soon became far more active. The nervous system began to evolve. Sight turning to insight. Seeing became understanding. Understanding led to actions. And all these gave rise to intelligence.",
+      "context": "Describing the evolutionary link between vision and intelligence.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "What nature did to us implicitly in our individual minds, spatial intelligence technology can hope to do for our collective consciousness.",
+      "context": "Discussing the potential of translating the entire world into digital forms.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "I believe the full potential of this digital Cambrian explosion won't be fully realized until we power our computers and robots with spatial intelligence, just like what nature did to all of us.",
+      "context": "Concluding her vision for the future of AI and robotics.",
+      "source_id": "src_018"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Stopping AI development at passive visual perception (e.g., just labeling images or generating videos).",
+      "why_it_fails": "It ignores the evolutionary purpose of vision, which is to interact with the environment. Without linking perception to action (spatial intelligence), AI cannot fully understand or operate in the real world.",
+      "source_id": "src_018"
+    }
+  ]
+}

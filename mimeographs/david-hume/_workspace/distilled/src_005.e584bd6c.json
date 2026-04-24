@@ -1,0 +1,92 @@
+{
+  "source_id": "src_005",
+  "summary": "A biographical and philosophical overview of David Hume, detailing his empiricist approach to human nature, his skeptical critique of causality, and his sentiment-based theory of morality.",
+  "themes": [
+    "Empiricism",
+    "Skepticism",
+    "Causation",
+    "Moral Philosophy",
+    "Epistemology"
+  ],
+  "principles": [
+    {
+      "statement": "All ideas are derived from impressions.",
+      "rationale": "The mind does not create ideas out of nothing; it only compounds, transposes, augments, or diminishes the original data of sensation or internal consciousness.",
+      "source_quote": "the mind does not create any ideas but derives them from impressions.",
+      "source_id": "src_005"
+    },
+    {
+      "statement": "Causality is a habitual association, not an observable necessary connection.",
+      "rationale": "We cannot observe a physical or logical causal link between events, only that they frequently and uniformly go together, which creates a psychological habit or feeling of compulsion.",
+      "source_quote": "when people regard any events as causally connected, all that they do and can observe is that they frequently and uniformly go together.",
+      "source_id": "src_005"
+    },
+    {
+      "statement": "Morality is grounded in sentiment and sympathy, not reason.",
+      "rationale": "Moral goodness is determined by feelings of approval or disapproval regarding the utility or agreeableness of behaviors to oneself or others.",
+      "source_quote": "Moral decisions are grounded in moral sentiment.",
+      "source_id": "src_005"
+    },
+    {
+      "statement": "Reason is subordinate to the passions.",
+      "rationale": "Human behavior and moral choices are driven by affective, emotional orders, with reason playing only a secondary, instrumental role.",
+      "source_quote": "reason is...the slave of the passions",
+      "source_id": "src_005"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Twofold Classification of Meaning (Hume's Fork)",
+      "when_to_apply": "When evaluating whether a statement or concept contains demonstrative knowledge or merely describes matters of fact.",
+      "steps": [
+        "Determine if the concept is a 'relation of ideas' (e.g., math, geometry) which can be known by rational inspection.",
+        "Determine if the concept is a 'matter of fact' (e.g., empirical observations) which reveals no logical relations and could conceivably be otherwise.",
+        "Accept that only relations of ideas offer demonstrative knowledge, while matters of fact must be accepted exactly as they are given."
+      ],
+      "source_quote": null,
+      "source_id": "src_005"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Impressions vs. Ideas",
+      "description": "A lens for understanding human awareness. Impressions are vivid, original data of sensation or consciousness. Ideas are less vivid copies derived from compounding or diminishing those impressions.",
+      "example": "A word only has linguistic meaning if it brings to mind an object that can be traced back to an original impression.",
+      "source_id": "src_005"
+    },
+    {
+      "name": "Belief as Vividness",
+      "description": "Belief is not a separate logical category but a psychological state—a 'liveliness or vividness' that accompanies an idea, usually transferred from an associated impression.",
+      "example": "When people see a glass fall (an impression), the liveliness of that impression infects the associated idea of it breaking, creating the belief that it will break.",
+      "source_id": "src_005"
+    }
+  ],
+  "heuristics": [
+    "Trace every idea back to its original impression to determine if it has valid meaning.",
+    "Judge moral qualities by their utility or agreeableness to their owners or to others."
+  ],
+  "signature_quotes": [
+    {
+      "text": "reason is...the slave of the passions",
+      "context": "Describing the subordinate role of reason in human behavior and motivation.",
+      "source_id": "src_005"
+    },
+    {
+      "text": "it fell dead-born from the press, without reaching such distinction, as even to excite a murmur among the zealots.",
+      "context": "Hume describing the poor initial reception of his highly ambitious first work, 'A Treatise of Human Nature'.",
+      "source_id": "src_005"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming causality is a logically demonstrable property of objects themselves.",
+      "why_it_fails": "We can only observe that events frequently and uniformly go together, not a 'necessary connexion' between them. The contradictory of every matter of fact is always conceivable.",
+      "source_id": "src_005"
+    },
+    {
+      "description": "Believing that miracles can be proven by evidence.",
+      "why_it_fails": "Hume notoriously denied that a miracle can be proved by any amount or kind of evidence, as it contradicts the uniform experience of natural laws.",
+      "source_id": "src_005"
+    }
+  ]
+}

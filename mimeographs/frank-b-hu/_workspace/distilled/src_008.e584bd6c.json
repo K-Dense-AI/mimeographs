@@ -1,0 +1,35 @@
+{
+  "source_id": "src_008",
+  "summary": "An article examining the health impacts of low-carbohydrate diets. Dr. Frank B. Hu cautions against traditional low-carb diets that rely heavily on red meat, advocating instead for a balance of whole grains, healthy fats, and plant-based proteins.",
+  "themes": [
+    "Nutrition",
+    "Low-carb diets",
+    "Cardiovascular health",
+    "Plant-based proteins"
+  ],
+  "principles": [
+    {
+      "statement": "A healthy low-carbohydrate diet should emphasize whole grains, healthy sources of fat, and plant-based proteins.",
+      "rationale": "This macronutrient composition helps achieve weight loss and slows long-term weight gain without the cardiovascular and diabetes risks associated with high saturated fat intake.",
+      "source_quote": null,
+      "source_id": "src_008"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Traditional low-carb diets are loaded with red meat,",
+      "context": "Discussing how restricting carbohydrates often causes people to replace them with less healthy foods high in saturated fats.",
+      "source_id": "src_008"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Following traditional low-carb diets that replace carbohydrates with red meat.",
+      "why_it_fails": "Consuming too much saturated fat from red meat can increase the risk of developing Type 2 diabetes and cardiovascular disease.",
+      "source_id": "src_008"
+    }
+  ]
+}

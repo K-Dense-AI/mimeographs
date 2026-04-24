@@ -1,0 +1,92 @@
+{
+  "source_id": "src_025",
+  "summary": "Virginia M.-Y. Lee discusses the critical importance of brain banking in neurodegenerative research. She outlines the meticulous process of preserving brain tissue and highlights a major challenge in the field: the severe shortage of healthy 'control' brains, which are essential for understanding how and why brains succumb to disease versus aging well.",
+  "themes": [
+    "Neurodegeneration",
+    "Brain Banking",
+    "Aging",
+    "Scientific Research",
+    "Tissue Donation"
+  ],
+  "principles": [
+    {
+      "statement": "To understand brain disease, you must study the human brain directly.",
+      "rationale": "Studying the actual patient's brain is necessary to see the physical changes of aging and disease.",
+      "source_quote": "when youever you study disease you have to study the patient right I mean so you have to get brains so that you can study them",
+      "source_id": "src_025"
+    },
+    {
+      "statement": "Healthy 'control' brains are just as crucial as diseased brains.",
+      "rationale": "Without a baseline of healthy aging, researchers cannot compare or identify what specifically changes in a diseased brain.",
+      "source_quote": "you need brains with no disease that's what I call a control brain without the control we would not able to compare",
+      "source_id": "src_025"
+    },
+    {
+      "statement": "A brain is only as useful as the clinical data attached to it.",
+      "rationale": "Knowing the patient's life, death, and postmortem diagnosis is required to properly select cases for specific experiments.",
+      "source_quote": "the brain is just not a brain because all the information on the patient even from life to death and from you know uh uh neuropathological postmodem diagnosis are all there",
+      "source_id": "src_025"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Brain Banking and Tissue Preservation",
+      "when_to_apply": "When receiving and processing a donated brain for neurodegenerative research.",
+      "steps": [
+        "Take samples from one side of the brain across different regions (e.g., frontal or temporal cortex).",
+        "Bisect the brain in half.",
+        "Slice the brain into pieces about 1 cm thick.",
+        "Place the pieces into sealing bags and label them.",
+        "Freeze the samples in boxes at minus 80 degrees Celsius.",
+        "Catalog all patient clinical and postmortem data alongside the samples to allow for proper experimental selection."
+      ],
+      "source_quote": "we actually take samples on one side of the brain take samples of different brain region... bisect the brain in half and then we slap the brain this way you have now different pieces of brain they're about maybe 1 cm thick we put these pieces of brain into sealing bags and then we label them and put them into two boxes okay they're frozen in minus 80",
+      "source_id": "src_025"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The 'Control' Baseline",
+      "description": "Viewing healthy, aged individuals not just as lucky survivors of aging, but as vital scientific baselines ('controls') necessary to decode the mechanics of disease.",
+      "example": "She views her own potentially healthy brain as an 'extremely valuable control' for future researchers if she lives another 10 years without contracting Alzheimer's.",
+      "source_id": "src_025"
+    }
+  ],
+  "heuristics": [
+    "If you study a disease, you have to study the patient."
+  ],
+  "signature_quotes": [
+    {
+      "text": "If you don't get any diseases your brain and your body will be very valuable you know for research because we need to understand why you age so well.",
+      "context": "Explaining the importance of healthy tissue donation.",
+      "source_id": "src_025"
+    },
+    {
+      "text": "Without the control we would not able to compare.",
+      "context": "Discussing why researchers need brains with no disease.",
+      "source_id": "src_025"
+    },
+    {
+      "text": "The brain is just not a brain because all the information on the patient even from life to death and from you know uh uh neuropathological postmodem diagnosis are all there.",
+      "context": "Explaining the value of the clinical data attached to the physical brain samples.",
+      "source_id": "src_025"
+    },
+    {
+      "text": "If I don't get Alzheimer disease and I live for another 10 years or more and I would be an extremely valuable control you know they want to see my brain they can see my brain.",
+      "context": "Offering her own brain as a future control sample.",
+      "source_id": "src_025"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Dumping the whole brain in a bucket of formalin.",
+      "why_it_fails": "It 'fixes everything' in a way that makes the tissue useless for modern, detailed molecular or regional sampling experiments.",
+      "source_id": "src_025"
+    },
+    {
+      "description": "Believing it is disrespectful to donate a healthy elderly relative's brain to science.",
+      "why_it_fails": "It deprives the scientific field of the crucial 'control' brains needed to understand healthy aging and develop treatments for future generations.",
+      "source_id": "src_025"
+    }
+  ]
+}

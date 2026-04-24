@@ -1,0 +1,43 @@
+{
+  "source_id": "src_026",
+  "summary": "A podcast episode summary discussing G.E.M. Anscombe's critique of modern moral philosophy. Anscombe argues that secular moral 'oughts' are nonsensical without a divine lawgiver, advocating instead for specific evaluative language grounded in human flourishing and a rigorous philosophy of psychology and intention.",
+  "themes": [
+    "Meta-ethics",
+    "Moral Language",
+    "Intention",
+    "Virtue Ethics",
+    "Action Description"
+  ],
+  "principles": [
+    {
+      "statement": "The concepts of 'moral law' or 'moral obligation' are nonsensical without a divine law-giver.",
+      "rationale": "Our moral language developed within a theistic context. When modern philosophy removes God (the law-giver) from the equation, retaining the strict, binding language of moral obligation loses its conceptual foundation.",
+      "source_quote": "Anscombe thinks that our moral language was developed in a theistic context, and without a law-giver, the idea of a moral law or obligation doesn’t make sense.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "We should evaluate actions using specific, descriptive terms rather than blanket moral judgments.",
+      "rationale": "Specific evaluative words have established social contexts and can be used unproblematically to describe human flourishing, whereas abstract declarations of 'good' or 'ought' lack grounding.",
+      "source_quote": "There are lots of evaluative words that have established social contexts and can be used unproblematically, but they can’t be added up into some overall judgement that “This is good! You must do it!”",
+      "source_id": "src_026"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Action Description and Intention",
+      "description": "The concept that a single action in a specific situation can be described in innumerable ways. To properly assess the morality of an action, one must first analyze how these descriptions relate to each other and identify the specific intentions involved.",
+      "example": "Before deciding if an action in war is justified, one must figure out how to accurately describe the intentions involved in the action under its various descriptions.",
+      "source_id": "src_026"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Using modern moral language (like 'ought' or 'moral obligation') in a secular context.",
+      "why_it_fails": "It attempts to enforce a moral law without a law-giver, relying on a leftover conceptual framework from a theistic worldview that modern secular philosophy has otherwise abandoned.",
+      "source_id": "src_026"
+    }
+  ]
+}

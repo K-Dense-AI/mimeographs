@@ -1,0 +1,90 @@
+{
+  "source_id": "src_014",
+  "summary": "This academic article applies Aristotle's classical rhetorical framework to analyze modern social media persuasion. It details Aristotle's foundational concepts of rhetoric, including the three means of persuasion (logos, ethos, pathos) and the canons of rhetoric (invention, arrangement, style, memory), demonstrating how his ancient theories of communication and influence remain highly relevant.",
+  "themes": [
+    "Rhetoric",
+    "Persuasion",
+    "Logos, Ethos, Pathos",
+    "Communication Theory",
+    "Memory and Imagination"
+  ],
+  "principles": [
+    {
+      "statement": "Persuasion requires presenting oneself as a credible and trustworthy person, not just delivering a logical argument.",
+      "rationale": "Because audiences are not convinced by logic alone; the speaker's perceived practical wisdom, good character, or goodwill (ethos) is essential to being believed.",
+      "source_quote": "not only look at the argument, that it may be conclusive and convincing, but should also present himself as a certain kind of person",
+      "source_id": "src_014"
+    },
+    {
+      "statement": "Language must be clear and appropriately matched to the audience to be believable.",
+      "rationale": "The style of delivery affects the logical coherence of the argument and helps the audience identify with the speaker and the appropriate emotions.",
+      "source_quote": "aptness of language... [is] one thing that makes people believe in the truth of your story",
+      "source_id": "src_014"
+    },
+    {
+      "statement": "Memory is deeply tied to imagination and emotion, rather than just rote recall.",
+      "rationale": "Memories are recollected through a dynamic process of deliberation that relies on sensations, imagery, and emotions (especially pain and pleasure).",
+      "source_quote": "memory cannot exist apart from imagery",
+      "source_id": "src_014"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Three Means of Persuasion (Rhetorical Proofs)",
+      "when_to_apply": "When inventing the content of a persuasive argument to influence an audience's judgment.",
+      "steps": [
+        "Logos: Prove or demonstrate a point by connecting it to premises the audience already accepts (enthymeme).",
+        "Ethos: Establish the speaker's credibility through practical wisdom, good character, or goodwill.",
+        "Pathos: Arouse specific emotions in the audience by understanding their state of mind, the target of their emotion, and the reason for it."
+      ],
+      "source_quote": null,
+      "source_id": "src_014"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Enthymeme",
+      "description": "A logical deduction based on what an audience already believes or accepts (endoxa). Instead of proving an objective truth from scratch, the rhetor connects the audience to a premise they already agree with to reach a desired conclusion.",
+      "example": null,
+      "source_id": "src_014"
+    },
+    {
+      "name": "Kairos",
+      "description": "The qualitative notion of time where a confluence of factors—such as context, audience, and rhetorical purpose—provides an opportune moment that must be seized for maximum persuasive effect.",
+      "example": null,
+      "source_id": "src_014"
+    }
+  ],
+  "heuristics": [
+    "To arouse emotions effectively, analyze three factors: the audience's state of mind, the type of persons the emotion is directed at, and the reason for that emotion."
+  ],
+  "signature_quotes": [
+    {
+      "text": "...the faculty of analysing in any given case the available means of persuasion",
+      "context": "Defining the analytical aspect of rhetoric.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "not only look at the argument, that it may be conclusive and convincing, but should also present himself as a certain kind of person",
+      "context": "Explaining the necessity of Ethos alongside Logos.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "memory cannot exist apart from imagery",
+      "context": "Discussing the nature of memory and recollection.",
+      "source_id": "src_014"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming persuasion is merely educating an audience with indisputable facts.",
+      "why_it_fails": "It relies on the flawed assumption that truth is unitary and agreed upon. Rhetoric deals with open-ended contrary truths that can be reasonably justified based on the audience's existing beliefs.",
+      "source_id": "src_014"
+    },
+    {
+      "description": "Relying solely on logical arguments to persuade an audience.",
+      "why_it_fails": "Because not everyone shares the same underlying premises, and audiences require a connection to the speaker's character (ethos) and emotional state (pathos) to be fully convinced.",
+      "source_id": "src_014"
+    }
+  ]
+}

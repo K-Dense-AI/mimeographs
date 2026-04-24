@@ -1,0 +1,47 @@
+{
+  "source_id": "src_011",
+  "summary": "In this brief exchange, Judea Pearl clarifies the distinction between the causal 'do' operator and standard probability calculus. He explains that simply marginalizing over latent variables in a graphical model is a mathematical operation that does not equate to the physical randomization required to determine causal effects.",
+  "themes": [
+    "Causal Inference",
+    "The 'do' Operator",
+    "Randomization vs. Marginalization",
+    "Graphical Models"
+  ],
+  "principles": [
+    {
+      "statement": "Mathematical marginalization cannot substitute for causal randomization.",
+      "rationale": "Simply performing probability calculus over latent variables does not simulate the physical intervention required to isolate an effect from its confounders.",
+      "source_quote": "You can perform the mathematical operation, but it will not return that.",
+      "source_id": "src_011"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Graph Surgery",
+      "description": "Modeling a causal intervention by removing the arrows pointing into the manipulated variable, effectively severing it from its natural causes to simulate a controlled experiment.",
+      "example": "Removing the arrow from genotype into smoking and setting the values of smoking, to represent an intervention where smoking is controlled regardless of genotype.",
+      "source_id": "src_011"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "You are not randomizing the problem that you are suggesting, you are not randomizing.",
+      "context": "Responding to the suggestion that marginalizing over latent variables in machine learning is equivalent to the 'do' function.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "You can perform the mathematical operation, but it will not return that.",
+      "context": "Explaining that standard probability calculus cannot yield causal truths without proper randomization.",
+      "source_id": "src_011"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Equating standard probability calculus (like marginalizing over latent variables) with causal interventions.",
+      "why_it_fails": "It fails to account for the physical reality of randomization. Marginalizing over a confounder like genotype does not replicate the act of finding a population that engages in a behavior (like smoking) completely independent of that confounder.",
+      "source_id": "src_011"
+    }
+  ]
+}

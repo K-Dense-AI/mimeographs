@@ -1,0 +1,136 @@
+{
+  "source_id": "src_034",
+  "summary": "Elizabeth Anscombe was a fiercely independent 20th-century philosopher who made foundational contributions to action theory, moral philosophy, and metaphysics. She argued that modern moral philosophy should be abandoned until we develop an adequate philosophy of psychology, famously distinguished between intended and merely foreseen consequences, and redefined the philosophical understanding of intention, causality, and the first-person pronoun.",
+  "themes": [
+    "Action Theory",
+    "Moral Philosophy",
+    "Metaphysics",
+    "Philosophy of Perception",
+    "Testimony",
+    "Intention"
+  ],
+  "principles": [
+    {
+      "statement": "Choosing to kill the innocent as a means to an end is always murder.",
+      "rationale": "The structure of an action matters. Intentionally killing innocent people cannot be justified by its ends, nor can it be excused by claiming one was merely 'signing a piece of paper' or directing one's intentions elsewhere.",
+      "source_quote": "choosing to kill the innocent as a means to your ends is always murder",
+      "source_id": "src_034"
+    },
+    {
+      "statement": "We must stop doing moral philosophy until we have an adequate philosophy of psychology.",
+      "rationale": "Concepts like 'moral obligation' are nonsensical outside a law-based ethics framework, and we lack the psychological understanding of concepts like 'intention', 'action', and 'flourishing' needed to proceed properly.",
+      "source_quote": "it is not profitable for us at present to do moral philosophy until we have an adequate philosophy of psychology.",
+      "source_id": "src_034"
+    },
+    {
+      "statement": "Causality does not entail necessity or determination.",
+      "rationale": "An event can derive from a cause without being necessitated by it. For example, a Geiger counter might cause a bomb to explode, but the radioactive decay that triggered it was probabilistic, not strictly determining.",
+      "source_quote": "Causality consists in the derivativeness of an effect from its causes",
+      "source_id": "src_034"
+    },
+    {
+      "statement": "The word 'I' is not a referring expression.",
+      "rationale": "If 'I' referred to a body, it could be doubted (as Descartes showed). If it referred to an immaterial Cartesian ego, we would have no way to identify the same referent across different thoughts over time. Therefore, its function must be non-referential.",
+      "source_quote": null,
+      "source_id": "src_034"
+    },
+    {
+      "statement": "Believing testimony is basic and cannot be reduced to other sources of justification.",
+      "rationale": "Our historical knowledge relies on trusting what we are taught. We cannot test every piece of historical information against 'other evidence' because that other evidence is itself just more testimony.",
+      "source_quote": "For there are things that are on a level. A general epistemological reason for doubting one will be a reason for doubting all, and then none of them would have anything to test it",
+      "source_id": "src_034"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Identifying Intentional Action",
+      "when_to_apply": "When determining if an action, under a specific description, is intentional.",
+      "steps": [
+        "Ask the agent: 'Why are you doing that?'",
+        "If the agent answers 'I didn't know I was doing that', 'I merely observed I was doing that', or 'I inferred how my physical movement was caused', the action is NOT intentional under that description.",
+        "If the agent answers by mentioning a future end, interpreting the action, giving a past ground for something good/bad, or simply says 'No reason', the action IS intentional under that description."
+      ],
+      "source_quote": null,
+      "source_id": "src_034"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Shopping List",
+      "description": "A lens for understanding the difference between theoretical knowledge (records) and practical knowledge (intentions) based on where the error lies when reality and the document diverge.",
+      "example": "If a detective's record doesn't match what a shopper buys, the mistake is in the record. If the shopper's own list doesn't match what he buys, the mistake is in his performance, not the list.",
+      "source_id": "src_034"
+    },
+    {
+      "name": "The Project Director",
+      "description": "A metaphor for 'practical knowledge'—the non-observational knowledge an agent has of their own intentional actions.",
+      "example": "A man directing a building project by giving orders knows what is being done without needing to observe it or get reports, just as an agent knows their own intentional actions without needing to observe their own body.",
+      "source_id": "src_034"
+    },
+    {
+      "name": "Material vs. Intentional Objects",
+      "description": "A distinction between what physically exists in the world and what is perceived or described, drawn from grammatical direct objects.",
+      "example": "In the sentence 'Luke gave Leia his lightsaber', the direct object is 'his lightsaber', even though lightsabers don't materially exist. Similarly, one can 'see stars' after a head injury (intentional object) even if no material stars exist.",
+      "source_id": "src_034"
+    }
+  ],
+  "heuristics": [
+    "Use 'thick' moral concepts (like 'unjust' or 'truthful') rather than 'thin' ones (like 'morally right' or 'wrong').",
+    "An action can be intentional under one description but not under another.",
+    "You don't need to observe yourself to know what you are intentionally doing."
+  ],
+  "signature_quotes": [
+    {
+      "text": "choosing to kill the innocent as a means to your ends is always murder",
+      "context": "Protesting Oxford's decision to award Harry Truman an honorary degree.",
+      "source_id": "src_034"
+    },
+    {
+      "text": "Causality consists in the derivativeness of an effect from its causes",
+      "context": "Arguing against the Humean view that causation requires determination or constant conjunction.",
+      "source_id": "src_034"
+    },
+    {
+      "text": "the term 'intentional' has reference to a form of description of events",
+      "context": "Explaining that intention is not a mental state added to behavior, but a way of describing actions.",
+      "source_id": "src_034"
+    },
+    {
+      "text": "if the list and the things that the man actually buys do not agree, and if this and this alone constitutes a mistake, then the mistake is not in the list but in the man’s performance",
+      "context": "Illustrating the difference between an intention (the shopper's list) and a record (the detective's list).",
+      "source_id": "src_034"
+    },
+    {
+      "text": "The devout Catholic bomber secures by a 'direction of intention' that any shedding of innocent blood that occurs is 'accidental.'",
+      "context": "Mocking the absurd use of 'direction of intention' to justify forbidden acts.",
+      "source_id": "src_034"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Consequentialism (equating responsibility for intended vs. merely foreseen consequences).",
+      "why_it_fails": "It collapses the moral distinction between intentionally killing an innocent person and foreseeing their death as a side effect, leading philosophers to justify murder for the greater good.",
+      "source_id": "src_034"
+    },
+    {
+      "description": "Using 'direction of intention' to excuse forbidden acts.",
+      "why_it_fails": "It relies on a false, Cartesian psychology. The objective structure of the action itself constitutes murder, regardless of the private mental gymnastics or 'further intentions' running through the killer's mind.",
+      "source_id": "src_034"
+    },
+    {
+      "description": "Using concepts of 'moral obligation' or 'moral duty' in secular ethics.",
+      "why_it_fails": "It is nonsensical. These concepts only have a point in a law-based ethics (e.g., divine command). Using them without a moral legislator is akin to arguing about what is criminal in a society that lacks criminal law.",
+      "source_id": "src_034"
+    },
+    {
+      "description": "Epistemological coherentism regarding testimony (Neurath's boat analogy).",
+      "why_it_fails": "You cannot verify historical testimony by checking it against 'other evidence' because that other evidence is usually just more testimony. Doubting one foundational piece of testimony gives reason to doubt it all.",
+      "source_id": "src_034"
+    },
+    {
+      "description": "Idealism and Direct Realism in the philosophy of perception.",
+      "why_it_fails": "Both fail to recognize the distinction between the material object of perception and the intentional object of perception, either reducing everything to sense-data or ignoring the reality of intentional sensation (like 'seeing stars').",
+      "source_id": "src_034"
+    }
+  ]
+}

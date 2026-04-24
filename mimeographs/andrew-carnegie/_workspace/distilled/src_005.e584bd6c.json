@@ -1,0 +1,47 @@
+{
+  "source_id": "src_005",
+  "summary": "A biographical overview of Andrew Carnegie's rise from a poor Scottish immigrant to an American steel magnate and eventually a leading philanthropist. The article highlights his business strategies in the steel industry, his controversial role in the Homestead Strike, and his ultimate dedication to giving away his vast fortune based on his 'Gospel of Wealth' philosophy.",
+  "themes": [
+    "Philanthropy",
+    "Industrialization",
+    "Wealth distribution",
+    "Steel industry"
+  ],
+  "principles": [
+    {
+      "statement": "The wealthy have a moral obligation to use their fortunes for the public good.",
+      "rationale": "Accumulated wealth should be distributed during one's lifetime to promote the welfare and happiness of the common man, rather than hoarded.",
+      "source_quote": "...a moral obligation to distribute [their money] in ways that promote the welfare and happiness of the common man.",
+      "source_id": "src_005"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Gospel of Wealth",
+      "description": "Viewing immense personal wealth not as a permanent possession, but as a surplus trust fund that must be actively distributed during one's lifetime to benefit society.",
+      "example": "Carnegie retired from business and gave away $350 million to fund public libraries, church organs, and institutions for science, education, and world peace.",
+      "source_id": "src_005"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "The man who dies thus rich dies disgraced.",
+      "context": "Stated in his 1889 essay 'The Gospel of Wealth' regarding the hoarding of massive fortunes.",
+      "source_id": "src_005"
+    },
+    {
+      "text": "...a moral obligation to distribute [their money] in ways that promote the welfare and happiness of the common man.",
+      "context": "Describing the duty of the wealthy in his 1889 essay 'The Gospel of Wealth'.",
+      "source_id": "src_005"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Hoarding wealth until death.",
+      "why_it_fails": "Carnegie believed that dying with a massive, unspent fortune is a disgrace, as it represents a failure to fulfill the moral obligation of philanthropy.",
+      "source_id": "src_005"
+    }
+  ]
+}

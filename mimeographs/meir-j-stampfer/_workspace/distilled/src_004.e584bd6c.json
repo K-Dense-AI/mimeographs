@@ -1,0 +1,84 @@
+{
+  "source_id": "src_004",
+  "summary": "In this essay, Meir J. Stampfer and his co-authors outline the optimal diet for long-term human health and its intersection with environmental sustainability. They advocate for a diet emphasizing unsaturated fats, whole grains, and protein from nuts, legumes, fish, and poultry, while explicitly warning against red meat, processed meats, refined carbohydrates, and high dairy consumption.",
+  "themes": [
+    "Nutritional Epidemiology",
+    "Macronutrient Substitution",
+    "Environmental Sustainability",
+    "Chronic Disease Prevention",
+    "Dietary Guidelines"
+  ],
+  "principles": [
+    {
+      "statement": "Think of macronutrient intake in terms of substitution, not just absolute increases or decreases.",
+      "rationale": "Because individuals in caloric balance must offset any change in one macronutrient with a change in another, the health effects of a diet depend entirely on what is being replaced.",
+      "source_quote": "For individuals who are in caloric balance, any change in a macronutrient intake must be balanced by an offsetting change in intake of another macronutrient. Hence, for macronutrients, it is most useful to think in terms of substitution, rather than simply increases or decreases.",
+      "source_id": "src_004"
+    },
+    {
+      "statement": "The specific sources of dietary protein matter far more than total protein intake.",
+      "rationale": "Average protein consumption in affluent countries already exceeds bodily requirements. Health outcomes are dictated by the source—red and processed meats increase mortality and disease risk, while nuts, legumes, fish, and poultry reduce it.",
+      "source_quote": "The specific sources of dietary protein are more important for health than the total protein intake.",
+      "source_id": "src_004"
+    },
+    {
+      "statement": "Diets that promote human health and environmental sustainability broadly intersect.",
+      "rationale": "High consumption of red meat has adverse health effects and simultaneously drives climate change, water depletion, and biodiversity loss. Reducing red meat intake benefits both human longevity and the planet.",
+      "source_quote": "Fortunately, the diets that promote human health and environmental sustainability broadly intersect.",
+      "source_id": "src_004"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Macronutrient Substitution",
+      "description": "A lens for evaluating dietary changes as a zero-sum game for individuals in caloric balance. Rather than evaluating a nutrient in isolation (e.g., 'fat is bad'), this model evaluates the health impact of replacing one specific nutrient with another.",
+      "example": "Replacing one serving per day of total red meat with fish, poultry, nuts, or legumes is associated with a lower risk of diabetes and total mortality.",
+      "source_id": "src_004"
+    }
+  ],
+  "heuristics": [
+    "Processed meats simply have no place in a healthy diet.",
+    "Replace red meat with a combination of nuts, fish, poultry, and legumes.",
+    "Substitute unsaturated fats for saturated fats to improve the total-to-HDL cholesterol ratio."
+  ],
+  "signature_quotes": [
+    {
+      "text": "For individuals who are in caloric balance, any change in a macronutrient intake must be balanced by an offsetting change in intake of another macronutrient.",
+      "context": "Explaining why nutritional epidemiology must look at substitution effects rather than isolated nutrient increases or decreases.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "The specific sources of dietary protein are more important for health than the total protein intake.",
+      "context": "Discussing how affluent countries already exceed protein requirements, making the type of protein the critical health factor.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "Processed meats simply have no place in a healthy diet.",
+      "context": "Warning against the high sodium and preservative content in cold cuts, sausages, and bacon.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "Fortunately, the diets that promote human health and environmental sustainability broadly intersect.",
+      "context": "Concluding that reducing red meat and dairy intake solves both chronic disease risks and environmental degradation.",
+      "source_id": "src_004"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Categorizing carbohydrates as 'simple' versus 'complex'.",
+      "why_it_fails": "This chemical distinction has no basis in physiology. Some complex carbohydrates, like potato starch, are rapidly metabolized to glucose and cause rapid swings in insulin. The glycemic index is a much better basis for characterization.",
+      "source_id": "src_004"
+    },
+    {
+      "description": "Recommending reductions in total fat intake to decrease coronary disease.",
+      "why_it_fails": "It ignores the protective effects of HDL cholesterol. Substituting carbohydrates for saturated fat reduces beneficial HDL, whereas substituting unsaturated fat for saturated fat reduces atherosclerotic LDL without harming HDL.",
+      "source_id": "src_004"
+    },
+    {
+      "description": "Recommending high dairy intake (e.g., 1,200 mg of calcium daily) for bone health and fracture prevention.",
+      "why_it_fails": "Large prospective studies show high calcium or milk consumption is not associated with lower overall fracture incidence, and high calcium intake may actually increase the risk of advanced prostate cancer.",
+      "source_id": "src_004"
+    }
+  ]
+}

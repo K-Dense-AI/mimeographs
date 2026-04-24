@@ -1,0 +1,84 @@
+{
+  "source_id": "src_036",
+  "summary": "Frank B. Hu and colleagues validate the use of factor analysis on food-frequency questionnaires to identify major dietary patterns (Prudent and Western). They argue that studying overall dietary patterns is crucial because people eat complex meals rather than isolated nutrients, though they acknowledge pattern analysis should complement rather than replace single-nutrient studies.",
+  "themes": [
+    "Nutritional Epidemiology",
+    "Dietary Patterns",
+    "Factor Analysis",
+    "Food-Frequency Questionnaires",
+    "Prudent vs. Western Diet"
+  ],
+  "principles": [
+    {
+      "statement": "People eat complex meals, not isolated nutrients.",
+      "rationale": "Single-nutrient approaches fail to account for complicated interactions among nutrients and high intercorrelation, which makes isolating effects difficult and prone to confounding.",
+      "source_quote": "However, people do not eat isolated nutrients. Instead, they eat meals consisting of a variety of foods with complex combinations of nutrients.",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Dietary pattern analysis more closely reflects real-world eating habits.",
+      "rationale": "By considering how foods and nutrients are consumed in combination, researchers can leverage the collinearity of nutrients rather than being confounded by it.",
+      "source_quote": "Examination of dietary patterns would more closely parallel real-world conditions, under which dietary intakes consist of nutrients that occur together in common foods.",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Dietary pattern analysis and single-nutrient analysis are complementary tools.",
+      "rationale": "Pattern analysis is weak for finding specific biological mechanisms but excellent for assessing overall diet effects or serving as a covariate to test a specific nutrient's independent effect.",
+      "source_quote": "In addition, a dietary pattern can be used as a covariate when examining a specific nutrient to know whether the effect of the nutrient is independent of the overall dietary pattern.",
+      "source_id": "src_036"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Dietary Pattern Factor Analysis",
+      "when_to_apply": "When studying overall diet-disease relations, especially when single-nutrient analyses are confounded by broader eating habits or yield few associations.",
+      "steps": [
+        "Collect dietary data using a comprehensive, semiquantitative food-frequency questionnaire (FFQ).",
+        "Collapse individual food items into predefined food groups based on similarity of nutrient profiles or culinary usage.",
+        "Use factor analysis (principal component) to derive food patterns based on the food groups.",
+        "Rotate the factors by an orthogonal transformation (e.g., Varimax) to achieve a simpler structure with greater interpretability.",
+        "Label the derived factors based on substantive meanings, empirical criteria, and prior literature (e.g., 'Prudent' vs. 'Western')."
+      ],
+      "source_quote": "Factor analysis (principal component) was used to derive food patterns based on the 40 food groups for each of the FFQs and the diet records. The factors were rotated by an orthogonal transformation... to achieve simpler structure with greater interpretability.",
+      "source_id": "src_036"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Prudent vs. Western Dietary Dichotomy",
+      "description": "A lens for categorizing overall eating habits into two major, reproducible patterns to evaluate disease risk. The 'Prudent' pattern is characterized by high intakes of vegetables, fruits, legumes, whole grains, and fish. The 'Western' pattern is characterized by high intakes of processed/red meats, high-fat dairy, eggs, and refined grains.",
+      "example": "Using these two patterns to score individuals' diets and correlate them with plasma biomarkers (like carotenes or cholesterol) rather than tracking 40 individual food groups separately.",
+      "source_id": "src_036"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "However, people do not eat isolated nutrients. Instead, they eat meals consisting of a variety of foods with complex combinations of nutrients.",
+      "context": "Explaining the limitation of traditional single-nutrient analyses in nutritional epidemiology.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "Examination of dietary patterns would more closely parallel real-world conditions, under which dietary intakes consist of nutrients that occur together in common foods.",
+      "context": "Advocating for the dietary pattern approach to studying diet-disease relations.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "Because there are many potential differences in nutrient contents between dietary patterns, dietary pattern analysis cannot be specific about the particular nutrients responsible for the observed differences in disease risk...",
+      "context": "Acknowledging the limitations of dietary pattern analysis in identifying specific biological mechanisms.",
+      "source_id": "src_036"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying exclusively on single-nutrient analysis in nutritional epidemiology.",
+      "why_it_fails": "It ignores complicated interactions among nutrients (e.g., vitamin C enhancing iron absorption), struggles with highly correlated nutrients, and is often confounded by overall dietary patterns.",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Using dietary pattern analysis to find specific biological mechanisms of a disease.",
+      "why_it_fails": "Because patterns encompass many nutrient differences, the effect of a single specific nutrient (like folic acid preventing neural tube defects) gets diluted and cannot be isolated.",
+      "source_id": "src_036"
+    }
+  ]
+}

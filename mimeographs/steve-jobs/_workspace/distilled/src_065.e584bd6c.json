@@ -1,0 +1,53 @@
+{
+  "source_id": "src_065",
+  "summary": "A biographical overview of Steve Jobs detailing his co-founding of Apple, his uncompromising approach to product design, his recruitment of John Sculley, and his subsequent ventures with NeXT and Pixar.",
+  "themes": [
+    "Personal Computing",
+    "Product Design",
+    "Entrepreneurship",
+    "Innovation"
+  ],
+  "principles": [
+    {
+      "statement": "Products must be 'insanely great,' not merely functional.",
+      "rationale": "Design should be uncompromising, extending even to unseen elements like internal circuit boards, to create truly revolutionary products.",
+      "source_quote": "...his insistence that the Macintosh be not merely great but 'insanely great.'",
+      "source_id": "src_065"
+    },
+    {
+      "statement": "Personal computers must be designed to appeal to a broad audience.",
+      "rationale": "To achieve mass adoption, technology must be enclosed in sleek, consumer-friendly packaging rather than looking like a hobbyist's project.",
+      "source_quote": "Jobs was one of the first entrepreneurs to understand that the personal computer would appeal to a broad audience, at least if it did not appear to belong in a junior high school science fair.",
+      "source_id": "src_065"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Engineers as Artists",
+      "description": "Viewing technical engineering not just as a mechanical or mathematical task, but as a creative, aesthetic endeavor.",
+      "example": "Jobs coddled his engineers, referred to them as artists, and demanded a redesign of an internal circuit board simply because he considered it unattractive.",
+      "source_id": "src_065"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Do you want to sell sugar water for the rest of your life?",
+      "context": "Challenging PepsiCo president John Sculley to leave his job and become Apple's CEO, revealing Jobs's near-messianic belief in the computer revolution.",
+      "source_id": "src_065"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Releasing products that look like hobbyist kits or 'junior high school science fair' projects.",
+      "why_it_fails": "It alienates the mainstream consumer and prevents the technology from reaching a broad audience.",
+      "source_id": "src_065"
+    },
+    {
+      "description": "Accepting unattractive internal designs just because they are hidden from the user.",
+      "why_it_fails": "It violates the uncompromising standard of making a product 'insanely great' from the inside out.",
+      "source_id": "src_065"
+    }
+  ]
+}

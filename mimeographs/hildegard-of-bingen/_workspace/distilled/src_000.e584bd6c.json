@@ -1,0 +1,42 @@
+{
+  "source_id": "src_000",
+  "summary": "This source provides a brief biographical overview of Hildegard of Bingen, highlighting her roles as a polymath, composer, and medical writer. It details her unique interpretation of humoral theory, which relies heavily on the microcosm-macrocosm analogy and the hierarchical balance of the four elements and humors.",
+  "themes": [
+    "Humoral theory",
+    "Microcosm-macrocosm analogy",
+    "Medieval medicine",
+    "Sacred monophony"
+  ],
+  "principles": [
+    {
+      "statement": "Disease arises when subordinate humors improperly dominate the body.",
+      "rationale": "Health requires a hierarchical inter-balance of the four humors, which correspond to celestial and terrestrial elements. When terrestrial humors overpower celestial ones, illness occurs.",
+      "source_quote": "disease-causing imbalance of these humors resulted from the improper dominance of the subordinate humors.",
+      "source_id": "src_000"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Microcosm-Macrocosm Analogy",
+      "description": "Understanding the human body (microcosm) by mapping it to the universe (macrocosm) through interrelated patterns of four, such as elements, seasons, and humors.",
+      "example": "Associating blood and phlegm with the 'celestial' elements of fire and air, and the two biles with the 'terrestrial' elements of water and earth.",
+      "source_id": "src_000"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "the four elements (fire, air, water, and earth), the four seasons, the four humors, the four zones of the earth, and the four major winds.",
+      "context": "Describing the interrelated patterns of four in her medical and scientific writings.",
+      "source_id": "src_000"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Allowing subordinate humors to improperly dominate.",
+      "why_it_fails": "It disrupts the hierarchical inter-balance of the body's humors, leading to disease.",
+      "source_id": "src_000"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "source_id": "src_004",
+  "summary": "In this 2011 Q&A, Eric S. Lander discusses the dramatic drop in genome sequencing costs, the primary goals of studying disease genetics, and the timeline for translating genomic discoveries into medical treatments. He emphasizes that understanding biological pathways is far more important than individual risk prediction, and warns that true medical revolutions take decades to unfold.",
+  "themes": [
+    "Genomic Medicine",
+    "Economics of Scientific Innovation",
+    "Synthetic Biology",
+    "Scientific Timelines and Public Expectations"
+  ],
+  "principles": [
+    {
+      "statement": "The primary goal of studying disease genetics is understanding biological pathways, not individual risk prediction.",
+      "rationale": "Understanding cellular pathways is fundamental to developing treatments and drugs that can help broad populations, even those who do not carry the specific genetic variant that led to the pathway's discovery.",
+      "source_quote": "The primary goal is to understand the biological pathways underlying disease, because that’s what’s fundamental to treating disease... A secondary goal is to be able to provide individual risk prediction for disease; this goal is maybe only partially feasible and is, in my opinion, less important.",
+      "source_id": "src_004"
+    },
+    {
+      "statement": "Transforming medicine through a scientific revolution takes decades, not years.",
+      "rationale": "There is a long, necessary chain of events between a basic discovery (like a draft genome sequence) and an approved medical treatment. Historically, it takes at least 30 to 50 years for a scientific revolution to have a major clinical impact.",
+      "source_quote": "It takes at least 30 y for a scientific revolution to have a major impact in medicine... we should be clear with the public that truly transforming medicine is not an overnight affair.",
+      "source_id": "src_004"
+    },
+    {
+      "statement": "Government signaling acts as 'economic pump priming' to drive down technology costs.",
+      "rationale": "When the federal government signals to industry and academia that a specific technology (like DNA sequencing or semiconductors) is critical, it attracts private investment and creative ideas that drastically reduce costs.",
+      "source_quote": "the federal government signaled to industry and academia alike that DNA sequencing would be really important. New creative ideas for genome sequencing were called forth, and the cost dropped substantially.",
+      "source_id": "src_004"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Genomic Medicine Translation Pipeline",
+      "when_to_apply": "When setting expectations or planning the translation of basic genomic discoveries into clinical treatments.",
+      "steps": [
+        "Finish the genome sequence",
+        "Understand the contents of the genome",
+        "Identify genes involved in disease",
+        "Understand the underlying biological pathways in which they function",
+        "Develop drugs against targets",
+        "Test the drugs",
+        "Get drugs approved"
+      ],
+      "source_quote": "There’s a lot of work to do along the way: finishing the genome sequence, understanding the contents of the genome, identifying genes involved in disease, understanding the underlying biological pathways in which they function, developing drugs against targets, testing the drugs, and then getting drugs approved.",
+      "source_id": "src_004"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Economic Pump Priming",
+      "description": "Using government signaling and initial investment to jumpstart a market, drawing in private capital and innovation to drive down technology costs.",
+      "example": "The Human Genome Project signaling the importance of DNA sequencing in the 1990s, similar to the Department of Defense signaling the need for semiconductors in the 1950s.",
+      "source_id": "src_004"
+    },
+    {
+      "name": "Biology as Programmable Circuitry",
+      "description": "Viewing cells as systems that can be programmed with 'genetic circuits' to perform novel, custom-designed functions.",
+      "example": "Using synthetic biology to write circuits that instruct cells to carry out surveillance for cancer and autoimmunity.",
+      "source_id": "src_004"
+    }
+  ],
+  "heuristics": [
+    "It takes at least 30 years for a scientific revolution to have a major impact in medicine.",
+    "To identify genes where rare variants double disease risk, you need to sequence at least 5,000 cases and 5,000 controls."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The primary goal is to understand the biological pathways underlying disease, because that’s what’s fundamental to treating disease.",
+      "context": "Explaining the purpose of studying genes involved in common diseases.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "It takes at least 30 y for a scientific revolution to have a major impact in medicine.",
+      "context": "Discussing the slow pace of translating genomic analysis into clinical treatments.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "I think we can do better, but we should be clear with the public that truly transforming medicine is not an overnight affair.",
+      "context": "Managing public expectations regarding the timeline for cures derived from the Human Genome Project.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "Ultimately—and we’re talking decades from now—synthetic biology will prove to be a powerful way to program biology.",
+      "context": "Discussing the future potential of synthetic biology.",
+      "source_id": "src_004"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Over-promising the speed of medical breakthroughs to the public.",
+      "why_it_fails": "It ignores the massive amount of downstream work required—such as pathway understanding, drug development, testing, and approval—after a basic discovery like a draft genome sequence is made.",
+      "source_id": "src_004"
+    },
+    {
+      "description": "Focusing primarily on individual risk prediction when studying the genetics of common diseases.",
+      "why_it_fails": "Risk prediction is only partially feasible and less important than understanding the underlying biological pathways, which is the fundamental basis for developing new treatments.",
+      "source_id": "src_004"
+    }
+  ]
+}

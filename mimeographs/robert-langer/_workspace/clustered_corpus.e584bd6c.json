@@ -1,0 +1,394 @@
+{
+  "expert_name": "Robert Langer",
+  "themes": [
+    "Drug Delivery Systems",
+    "Tissue Engineering & Biomaterials",
+    "Perseverance & Overcoming Skepticism",
+    "Interdisciplinary Convergence",
+    "Translational Medicine & Entrepreneurship",
+    "First-Principles Engineering",
+    "Impact over Incrementalism"
+  ],
+  "principles": [
+    {
+      "label": "Perseverance Against Consensus",
+      "summary": "Breakthrough inventions often contradict conventional wisdom. You must persist through intense scientific skepticism, institutional rejection, and repeated failures to prove the consensus wrong.",
+      "details": "Langer faced years of grant rejections, job denials, and direct criticism from senior scientists who believed his ideas (like delivering large molecules through polymers) were impossible. Success required refusing to quit when the establishment said 'no'.",
+      "representative_quote": "I think if you really believe in what you’re trying to do, 'no' is not going to stop you. It might be discouraging, but still, it’s just somebody saying it. They don’t necessarily have to be right.",
+      "source_ids": [
+        "src_031",
+        "src_018",
+        "src_030",
+        "src_011",
+        "src_012",
+        "src_013",
+        "src_014",
+        "src_015",
+        "src_017",
+        "src_032"
+      ]
+    },
+    {
+      "label": "Commercialization for Impact",
+      "summary": "To truly help patients, scientists must move beyond publishing papers to actively patenting their work and starting companies.",
+      "details": "Developing medical products requires massive funding and dedicated persistence. Large corporations often lack the patience for early-stage science, making small, risk-tolerant startups the true bearers of radical innovation.",
+      "representative_quote": "One of my goals in doing laboratory work has been to move beyond just conducting experiments and publishing the results to applying that work to helping people.",
+      "source_ids": [
+        "src_031",
+        "src_010",
+        "src_011",
+        "src_012",
+        "src_032"
+      ]
+    },
+    {
+      "label": "Impact Over Incrementalism",
+      "summary": "Pursue high-impact innovation that can change the world, rather than settling for safe, incremental research.",
+      "details": "Incremental research is a reliable path to securing grants and publishing papers, but taking risks on massive, paradigm-shifting ideas is what brings true satisfaction and societal transformation.",
+      "representative_quote": "A lot of people will do what I’ll call incremental research. It’s a sure thing. You can get research papers, you can get grants. But I’d rather do something that will hopefully have a giant impact on the world. I’d rather take a risk.",
+      "source_ids": [
+        "src_031",
+        "src_010",
+        "src_019",
+        "src_013"
+      ]
+    },
+    {
+      "label": "First-Principles Material Design",
+      "summary": "Engineer biomaterials from first principles based on biological and chemical requirements, rather than repurposing off-the-shelf objects.",
+      "details": "Historically, clinicians repurposed household items (like mattress stuffing or ladies' girdles) for implants, leading to severe complications. Materials must be designed and synthesized specifically for their intended biological interactions.",
+      "representative_quote": "Rather than take things from your house, maybe you could ask the question what do you really want in a biomaterial from an engineering standpoint, chemistry standpoint, biology standpoint, and then synthesize it from first principles.",
+      "source_ids": [
+        "src_010",
+        "src_022",
+        "src_013",
+        "src_014"
+      ]
+    },
+    {
+      "label": "Interdisciplinary Convergence",
+      "summary": "Bring different disciplines together to solve complex problems in entirely new ways.",
+      "details": "Combining distinct fields, such as chemical engineering and medicine, generates unique ideas and solutions that specialists siloed in a single discipline would never conceive.",
+      "representative_quote": "I think that there is incredible value in what I might call convergence... where you can bring disciplines together and try to solve problems in new ways.",
+      "source_ids": [
+        "src_030",
+        "src_010",
+        "src_032",
+        "src_005"
+      ]
+    },
+    {
+      "label": "Follow Passion Over Money",
+      "summary": "Choose a career path based on what you truly care about and where you can make a positive impact, rather than optimizing for lucrative starting salaries.",
+      "details": "Langer rejected 20 high-paying oil industry jobs to take a low-paying hospital research position, a decision that ultimately allowed him to pioneer biomedical engineering.",
+      "representative_quote": "Follow your passion choose something that you think you'll really love don't do something just for the money do it for what you really care about.",
+      "source_ids": [
+        "src_019",
+        "src_013",
+        "src_017"
+      ]
+    },
+    {
+      "label": "Evaluate on Benefits, Not Just Risks",
+      "summary": "Research should be evaluated based on the potential benefits of success, not just the risks of failure.",
+      "details": "Focusing exclusively on potential pitfalls creates a risk-averse funding environment that stifles high-risk, high-reward breakthroughs.",
+      "representative_quote": "Peer reviewers and program officers should think about the benefits if a researcher succeeds, rather than trying to come up with all the reasons that the researcher might fail.",
+      "source_ids": [
+        "src_030"
+      ]
+    },
+    {
+      "label": "Local vs. Systemic Therapy",
+      "summary": "Local therapy is superior to systemic therapy for localized diseases because it maximizes efficacy while minimizing toxicity.",
+      "details": "Systemic delivery sends toxic drugs throughout the whole body, causing serious side effects. Local delivery provides high concentrations exactly where needed while sparing healthy organs.",
+      "representative_quote": "Most importantly is this concept of local therapy-- high concentrations in the brain where you want it and lower almost nonexistent concentrations in the rest of the body where it could cause harm.",
+      "source_ids": [
+        "src_022"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "The Skepticism Affidavit Method",
+      "summary": "A strategy for overcoming patent rejections by using the scientific community's own skepticism to prove an invention's novelty.",
+      "details": "Steps: 1) Perform a science citation search on your foundational paper. 2) Find published articles where experts explicitly state your proposed mechanism is impossible or highly unexpected. 3) Obtain written affidavits from those scientists confirming their statements. 4) Present these to the patent examiner to definitively prove the invention is 'surprising' and non-obvious.",
+      "representative_quote": "I scoured the literature to see what anybody had written on me... they referred to our work and they wrote... 'Folkman and Langer... have reported some surprising results... that clearly demonstrate the opposite of what scientists had thought before.'",
+      "source_ids": [
+        "src_011",
+        "src_012",
+        "src_032",
+        "src_014"
+      ]
+    },
+    {
+      "label": "First Principles Biomaterial Design",
+      "summary": "A framework for creating new medical implants or drug delivery systems from scratch rather than repurposing existing materials.",
+      "details": "Steps: 1) Identify the clinical problem. 2) Ask what properties are required from an engineering, chemistry, and biology standpoint. 3) Select safe monomers based on toxicology. 4) Synthesize the material entirely from scratch to meet those exact specifications.",
+      "representative_quote": "Ask the question what do you really want in a biomaterial from an engineering standpoint, chemistry standpoint, biology standpoint, and then synthesize it from first principles.",
+      "source_ids": [
+        "src_010",
+        "src_022",
+        "src_013",
+        "src_014"
+      ]
+    },
+    {
+      "label": "Convergence",
+      "summary": "A structural approach to innovation that intentionally intersects deeply specialized, distinct disciplines.",
+      "details": "Steps: 1) Expose yourself to very different disciplines. 2) Bring together students and professors who have vastly different backgrounds from your own. 3) Combine their distinct knowledge bases to create novel solutions that siloed experts would miss.",
+      "representative_quote": "The idea of being exposed to very different disciplines... people get put together and they learn things from students and professors who have very different backgrounds from their own.",
+      "source_ids": [
+        "src_010",
+        "src_032"
+      ]
+    },
+    {
+      "label": "The Langer Lab Spin-out Model",
+      "summary": "A systematic approach to commercializing academic discoveries through student-led startups.",
+      "details": "Steps: 1) Ensure the discovery is a genuine breakthrough with multiple applications. 2) Obtain an exclusive patent. 3) Ensure the students or postdocs have worked with the technology for years. 4) Encourage and collaborate with those students to start a new company, as they possess the necessary persistence.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_032"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Walking Through a Brick Wall",
+      "summary": "A metaphor representing the prevailing scientific dogma that assumes an unprecedented approach is physically impossible.",
+      "details": "In the 1970s, experts believed putting a large molecule in a tiny solid polymer particle meant it could never get out, comparing it to walking through a brick wall. Breaking this mental model was required to invent advanced drug delivery.",
+      "representative_quote": "If you tried to put a large molecule in a tiny particle like it was encased in that tiny particle it just couldn't get out it was just too big like walking through brick wall that was the conventional wisdom at the time.",
+      "source_ids": [
+        "src_011",
+        "src_012",
+        "src_014",
+        "src_017"
+      ]
+    },
+    {
+      "label": "Tortuosity (Driving Through Boston)",
+      "summary": "An analogy to explain how large molecules can slowly diffuse through solid polymers via incredibly winding and constricted pores.",
+      "details": "Just as driving through the winding, complex streets of Boston takes a very long time, molecules navigating the tortuous pores of a polymer matrix are released slowly and steadily over months or years.",
+      "representative_quote": "One way I explain this to people around the country is it's kind of like driving a car through Boston.",
+      "source_ids": [
+        "src_022",
+        "src_014"
+      ]
+    },
+    {
+      "label": "Wiffle Balls vs. Golf Balls",
+      "summary": "A geometric analogy for redesigning aerosol particles for efficient lung delivery.",
+      "details": "Small, dense particles (golf balls/wet sand) have high surface area contact and aggregate, making them stick in the throat. Large, light, porous particles (Wiffle balls/wet basketballs) have less surface contact, bounce off each other, and fly efficiently into the deep lung.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010",
+        "src_022"
+      ]
+    },
+    {
+      "label": "The Body as a Factory",
+      "summary": "A conceptual shift from manufacturing therapeutics externally to instructing the patient's own cells to manufacture them.",
+      "details": "Instead of using massive external manufacturing plants to produce therapeutic proteins, you can use mRNA (or encapsulated transplanted cells) to instruct the patient's own body to produce the necessary proteins or vaccines.",
+      "representative_quote": "By using the RNA, you’re able to have the body be the factory that makes the vaccine.",
+      "source_ids": [
+        "src_018",
+        "src_037"
+      ]
+    },
+    {
+      "label": "Surface Erosion (The Bar of Soap)",
+      "summary": "A model for designing biodegradable polymers that dissolve predictably from the outside in.",
+      "details": "Instead of bulk erosion (like a sponge falling apart all at once), which causes dangerous bursts of toxic drug release, surface erosion degrades steadily like a bar of soap or a peeling onion, allowing for safe, controlled release.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "The Engineer's Lens in Medicine",
+      "summary": "Approaching clinical and biological problems by applying engineering design principles rather than traditional medical approaches.",
+      "details": "Viewing traditional medical or surgical challenges as problems that can be solved through chemical or engineering methods, such as novel drug delivery systems or new materials.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_018",
+        "src_013"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Use Critics' Words for Patents",
+      "summary": "If everyone says your idea is impossible, look for where they wrote it down—it can prove novelty to a patent examiner.",
+      "details": null,
+      "representative_quote": "If you want to get patents and your grants are rejected, save the quotes from the critics to prove your idea is 'surprising' to the patent examiner.",
+      "source_ids": [
+        "src_031",
+        "src_030",
+        "src_010",
+        "src_011"
+      ]
+    },
+    {
+      "label": "Never Give Up, Almost",
+      "summary": "Persist through failure and rejection relentlessly, but recognize when a specific technical path is truly exhausted.",
+      "details": null,
+      "representative_quote": "I used to say never give up, but now I say never give up almost.",
+      "source_ids": [
+        "src_030",
+        "src_010",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Aim for World-Changing Impact",
+      "summary": "Do something that can change the world rather than do something incremental.",
+      "details": null,
+      "representative_quote": "Do something that can change the world rather than do something incremental.",
+      "source_ids": [
+        "src_013",
+        "src_019"
+      ]
+    },
+    {
+      "label": "View Failure as Data",
+      "summary": "If an experiment fails, view it as finding a way it doesn't work, not a dead end.",
+      "details": null,
+      "representative_quote": "I actually found over 200 different ways to get this to not work.",
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Double Thickness for Double Lifetime",
+      "summary": "If you want to double the lifetime of a surface-eroding device, you just double the thickness.",
+      "details": null,
+      "representative_quote": "If you want to double the lifetime of a surface-eroding device, you just double the thickness.",
+      "source_ids": [
+        "src_022"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "200 Ways to Not Work",
+      "summary": "On the trial and error required for breakthrough invention.",
+      "details": null,
+      "representative_quote": "I actually found over 200 different ways to get this to not work, but finally I discovered some ways where I could modify certain materials make them into tiny particles and get it to work.",
+      "source_ids": [
+        "src_011",
+        "src_012",
+        "src_014",
+        "src_017"
+      ]
+    },
+    {
+      "label": "Synthesize from First Principles",
+      "summary": "On changing the paradigm of how medical materials are chosen and designed.",
+      "details": null,
+      "representative_quote": "Rather than take things from your house, maybe you could ask the question what do you really want in a biomaterial from an engineering standpoint, chemistry standpoint, biology standpoint, and then synthesize it from first principles.",
+      "source_ids": [
+        "src_022",
+        "src_013",
+        "src_014"
+      ]
+    },
+    {
+      "label": "Giant Impact Over Incrementalism",
+      "summary": "Advice on choosing research focus and career path.",
+      "details": null,
+      "representative_quote": "I’d rather do something that will hopefully have a giant impact on the world. I’d rather take a risk.",
+      "source_ids": [
+        "src_010",
+        "src_019",
+        "src_013"
+      ]
+    },
+    {
+      "label": "Challenging Conventional Wisdom",
+      "summary": "On the fallibility of established scientific consensus.",
+      "details": null,
+      "representative_quote": "Conventional wisdom. What you hear and sometimes read in the textbooks, it's not always correct and challenging that can be important.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Ignoring 'No'",
+      "summary": "On facing constant rejection early in his career.",
+      "details": null,
+      "representative_quote": "I think if you really believe in what you’re trying to do, 'no' is not going to stop you. It might be discouraging, but still, it’s just somebody saying it. They don’t necessarily have to be right.",
+      "source_ids": [
+        "src_032"
+      ]
+    },
+    {
+      "label": "Moving Beyond Publishing",
+      "summary": "Explaining his motivation for patenting inventions and starting companies.",
+      "details": null,
+      "representative_quote": "One of my goals in doing laboratory work has been to move beyond just conducting experiments and publishing the results to applying that work to helping people.",
+      "source_ids": [
+        "src_031"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Accepting Conventional Wisdom as Absolute Truth",
+      "summary": "Assuming that because experts or textbooks say something is impossible, it shouldn't be attempted.",
+      "details": "Conventional wisdom often assumes unprecedented approaches are physically impossible. If Langer had listened to the Nobel laureates who said delivering large molecules via polymers was like 'walking through a brick wall,' advanced drug delivery wouldn't exist.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_031",
+        "src_011",
+        "src_022",
+        "src_012",
+        "src_014",
+        "src_017"
+      ]
+    },
+    {
+      "label": "Pursuing Purely Incremental Research",
+      "summary": "Choosing safe, incremental improvements just because they guarantee papers, grants, and career safety.",
+      "details": "While incremental research provides a secure life, it prevents scientists from taking the necessary risks required to create entirely new classes of medicines that can truly change the world.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_031",
+        "src_010",
+        "src_019",
+        "src_013"
+      ]
+    },
+    {
+      "label": "Repurposing Household Objects for Medical Implants",
+      "summary": "Using off-the-shelf consumer materials for biological applications based on visual or mechanical resemblance.",
+      "details": "Historically, doctors used items like a ladies' girdle for an artificial heart or mattress stuffing for breast implants. These materials are not optimized for biological interactions and cause fatal complications like blood clots.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010",
+        "src_022",
+        "src_014"
+      ]
+    },
+    {
+      "label": "Relying on Large Companies for Radical Innovation",
+      "summary": "Expecting large, established corporations to fund and develop radical early-stage scientific breakthroughs.",
+      "details": "Large companies are generally unwilling to take on the extreme risk of unproven technologies. They typically run one or two experiments and abandon the project if it doesn't work immediately, whereas science requires iterating through failures.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_011",
+        "src_012",
+        "src_032"
+      ]
+    },
+    {
+      "label": "Strictly Enforcing Academic Silos",
+      "summary": "Rejecting ideas, grants, or job applicants simply because their formal educational background doesn't match the traditional discipline.",
+      "details": "Early in his career, Langer's grants and job applications were rejected because reviewers felt a chemical engineer had no business doing biological or oncology research, blinding them to cross-disciplinary innovation.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_030",
+        "src_015"
+      ]
+    }
+  ]
+}

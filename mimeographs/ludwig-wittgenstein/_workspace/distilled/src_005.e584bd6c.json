@@ -1,0 +1,79 @@
+{
+  "source_id": "src_005",
+  "summary": "This excerpt from the Stanford Encyclopedia of Philosophy outlines Ludwig Wittgenstein's early and later philosophical thought. It highlights his early 'Picture Theory of Meaning' from the Tractatus, where language models reality and philosophy's role is to use logical analysis to separate sense from nonsense. It also briefly touches upon his later transition in the Philosophical Investigations, where he reframes philosophy as a form of therapy.",
+  "themes": [
+    "Philosophy of Language",
+    "Logical Analysis",
+    "Sense and Nonsense",
+    "Picture Theory of Meaning",
+    "Philosophy as Therapy"
+  ],
+  "principles": [
+    {
+      "statement": "The limits of thought can only be drawn in language, and anything beyond those limits is nonsense.",
+      "rationale": "To distinguish between sense and nonsense, one must understand that meaningful expression is strictly bound by the logical form of language.",
+      "source_quote": "The limit can … only be drawn in language and what lies on the other side of the limit will be simply nonsense",
+      "source_id": "src_005"
+    },
+    {
+      "statement": "Meaningful propositions must picture factual states of affairs.",
+      "rationale": "Names only have reference or meaning within the context of a proposition held together by logical form, which must map isomorphically to a state of affairs in reality.",
+      "source_quote": "It follows that only factual states of affairs which can be pictured can be represented by meaningful propositions.",
+      "source_id": "src_005"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Logical Analysis of Philosophy",
+      "when_to_apply": "When evaluating traditional philosophical musings, statements, or propositions.",
+      "steps": [
+        "Examine the traditional philosopher's musings.",
+        "Apply the tools of logical analysis to their propositions.",
+        "Demonstrate where the propositions fail to picture factual states of affairs, thereby revealing them as nonsense."
+      ],
+      "source_quote": "to react or respond to the traditional philosophers’ musings by showing them where they go wrong, using the tools provided by logical analysis. In other words, by showing them that (some of) their propositions are nonsense.",
+      "source_id": "src_005"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Picture Theory of Meaning",
+      "description": "The idea that thoughts and propositions act as isomorphic pictures or models of reality. The logical structure of the proposition mirrors the logical structure of the state of affairs it represents.",
+      "example": "Each element in a picture represents an object, and the combination of those elements represents how those objects are combined in a real-world state of affairs.",
+      "source_id": "src_005"
+    },
+    {
+      "name": "Philosophy as Therapy",
+      "description": "A later view (introduced in Philosophical Investigations) where philosophy is not about building rigid logical systems, but rather adopting a new way of looking at language to cure philosophical confusion.",
+      "example": null,
+      "source_id": "src_005"
+    }
+  ],
+  "heuristics": [
+    "If a proposition does not picture a factual state of affairs, it is nonsense."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The book will … draw a limit to thinking, or rather—not to thinking, but to the expression of thoughts …. The limit can … only be drawn in language and what lies on the other side of the limit will be simply nonsense",
+      "context": "From the Preface of the Tractatus Logico-Philosophicus, explaining the purpose of his philosophical system.",
+      "source_id": "src_005"
+    },
+    {
+      "text": "the picture is a model of reality",
+      "context": "TLP 2.12, introducing the picture theory of meaning.",
+      "source_id": "src_005"
+    },
+    {
+      "text": "That is how a picture is attached to reality; it reaches right out to it",
+      "context": "TLP 2.1511, explaining how pictorial form and logical structure connect language to the world.",
+      "source_id": "src_005"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Engaging in traditional philosophical musings without applying logical analysis.",
+      "why_it_fails": "It leads philosophers to generate propositions that are actually nonsense because they attempt to express thoughts outside the strict limits of language and factual states of affairs.",
+      "source_id": "src_005"
+    }
+  ]
+}

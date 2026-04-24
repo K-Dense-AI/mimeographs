@@ -1,0 +1,57 @@
+{
+  "source_id": "src_000",
+  "summary": "Yoshua Bengio's homepage highlights his strong focus on AI safety, emphasizing the need for mathematically rigorous guardrails and safe-by-design frontier AI. He warns against the current agency-driven AI trajectory and advocates for prioritizing safety over commercial imperatives, as evidenced by his founding of the non-profit research organization LawZero.",
+  "themes": [
+    "AI Safety",
+    "Safe-by-design AI",
+    "AI Risk Mitigation",
+    "Mathematical Guardrails"
+  ],
+  "principles": [
+    {
+      "statement": "We must prioritize safety over commercial imperatives in AI development.",
+      "rationale": "Commercial pressures can compromise the safety of advanced AI, necessitating non-profit structures to ensure safe outcomes.",
+      "source_quote": "prioritize safety over commercial imperatives.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "AI risks must be understood and mitigated using mathematically rigorous methods.",
+      "rationale": "As AI systems become more powerful, we need quantifiable guardrails to bound the probability of harm.",
+      "source_quote": "As we move towards more powerful AI, it becomes urgent to better understand the risks, ideally in a mathematically rigorous and quantifiable way, and use that knowledge to mitigate them.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "Frontier AI should be built to be safe-by-design.",
+      "rationale": "We need to rethink the building blocks of AI to ensure systems are both highly capable and inherently safe.",
+      "source_quote": "rethinking the building blocks of frontier AI to create an intelligent machine that is both highly capable and safe-by-design.",
+      "source_id": "src_000"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "When I realized how dangerous the current agency-driven AI trajectory could be for future generations, I knew I had to do all I could to make AI safer.",
+      "context": "Describing his motivation for focusing on AI safety in a TED Talk.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "As we move towards more powerful AI, it becomes urgent to better understand the risks, ideally in a mathematically rigorous and quantifiable way, and use that knowledge to mitigate them.",
+      "context": "Discussing how to create guardrails for AI.",
+      "source_id": "src_000"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Pursuing an agency-driven AI trajectory.",
+      "why_it_fails": "It poses significant dangers to future generations.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Prioritizing commercial imperatives over safety in AI research.",
+      "why_it_fails": "It hinders the ability to build safe-by-design systems, prompting the need for non-profit research organizations.",
+      "source_id": "src_000"
+    }
+  ]
+}

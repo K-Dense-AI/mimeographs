@@ -1,0 +1,107 @@
+{
+  "source_id": "src_021",
+  "summary": "A historical overview of Aristotle's contributions to biology, medicine, and philosophy. It highlights his empirical approach to science, his foundational work in comparative anatomy and embryology, and his ethical views on courage, truth, and nature.",
+  "themes": [
+    "Biology",
+    "Empiricism",
+    "Ethics",
+    "Comparative Anatomy",
+    "Philosophy of Science"
+  ],
+  "principles": [
+    {
+      "statement": "Truth must be valued above friendship and authority.",
+      "rationale": "While personal loyalty and respect for teachers are important, the pursuit of objective truth is the ultimate goal of philosophy and science.",
+      "source_quote": "Plato is my friend but truth is much more.",
+      "source_id": "src_021"
+    },
+    {
+      "statement": "Nature operates with purpose and efficiency.",
+      "rationale": "Biological systems are inherently optimized; observing nature reveals the most effective way to accomplish a function.",
+      "source_quote": "Nature does nothing uselessly.",
+      "source_id": "src_021"
+    },
+    {
+      "statement": "True courage requires conquering oneself, not just external enemies.",
+      "rationale": "Internal discipline and overcoming one's own desires is the most difficult and important victory a person can achieve.",
+      "source_quote": "I count him braver who overcomes his desires than him who conquers his enemies; for the hardest victory is over self.",
+      "source_id": "src_021"
+    },
+    {
+      "statement": "Expertise is a prerequisite for sound judgment.",
+      "rationale": "A person can only accurately evaluate and make decisions about topics in which they have been properly educated.",
+      "source_quote": "Each man judges well the things he knows and of these he is a good judge. And so the man who has been educated in a subject is a good judge of that subject.",
+      "source_id": "src_021"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Comparative Anatomy",
+      "when_to_apply": "When direct observation of a subject (like human internal anatomy) is impossible, restricted, or unknown.",
+      "steps": [
+        "Identify the system or structure you cannot directly observe.",
+        "Find a comparable subject (e.g., an animal) that shares similarities and is available for study.",
+        "Examine the proxy subject to draw inferences about the primary subject."
+      ],
+      "source_quote": "The inner parts of man are uncertain and unknown, wherefore we must consider those parts of other animals which bear any similarity to those of man.",
+      "source_id": "src_021"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Empirical Reality",
+      "description": "The belief that ultimate reality exists in physical objects and is knowable through the experience of the five senses, contrasting with the idea that reality exists only in abstract forms or reflections.",
+      "example": "Dissecting over 50 different species of animals and studying chick embryos to understand anatomy and physiology, rather than relying purely on philosophical reflection.",
+      "source_id": "src_021"
+    },
+    {
+      "name": "Taxonomic Perfection (Scala Naturae)",
+      "description": "Arranging entities (such as zoological forms) on a basis of increasing perfection, from lower to higher forms, to systematically understand their similarities and differences.",
+      "example": "Noticing similarities and differences between various zoological forms and arranging them from lower to higher animals.",
+      "source_id": "src_021"
+    }
+  ],
+  "heuristics": [
+    "If one way be better than another, that you may be sure is nature's way.",
+    "The ideal man bears the accidents of life with dignity and grace, making the best of circumstances."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Plato is my friend but truth is much more.",
+      "context": "Written regarding his disagreements with his teacher, Plato.",
+      "source_id": "src_021"
+    },
+    {
+      "text": "In all things of nature there is something of the marvellous.",
+      "context": "Reflecting his great faith in nature and biology.",
+      "source_id": "src_021"
+    },
+    {
+      "text": "Courage is the first of human qualities because it is the quality which guarantees the others.",
+      "context": "From his aphorisms on courage and ethics.",
+      "source_id": "src_021"
+    },
+    {
+      "text": "Dignity consists not in possessing honours, but in the consciousness that we deserve them.",
+      "context": "From his aphorisms on ethics and personal character.",
+      "source_id": "src_021"
+    },
+    {
+      "text": "Each man judges well the things he knows and of these he is a good judge.",
+      "context": "On the importance of education and expertise in making judgments.",
+      "source_id": "src_021"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Blind obedience to authority.",
+      "why_it_fails": "It prevents the discovery of objective solutions and truth, which must be found through direct experience of the five senses rather than simply accepting the teachings of predecessors.",
+      "source_id": "src_021"
+    },
+    {
+      "description": "Allowing uneducated individuals to judge or manage specialized subjects.",
+      "why_it_fails": "People can only judge well the things they actually know; lacking specific education in a subject leads to poor judgment.",
+      "source_id": "src_021"
+    }
+  ]
+}

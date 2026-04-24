@@ -1,0 +1,64 @@
+{
+  "source_id": "src_010",
+  "summary": "This source summarizes notes from Wittgenstein's lectures on aesthetics, psychology, and religious belief. It highlights his views on how aesthetic language functions as gestures rather than descriptions, his rejection of psychological explanations for aesthetics, and his argument that religious and factual beliefs are fundamentally different despite grammatical similarities.",
+  "themes": [
+    "Aesthetics",
+    "Philosophy of Religion",
+    "Philosophy of Psychology",
+    "Language and Grammar"
+  ],
+  "principles": [
+    {
+      "statement": "Aesthetic words are initially learned and used like interjections or gestures.",
+      "rationale": "Words like 'beautiful' or 'nice' function primarily as expressive reactions rather than strict descriptive labels.",
+      "source_quote": null,
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Everyday aesthetic judgments rely on concepts of correctness rather than beauty.",
+      "rationale": "In everyday language, we seldom use words like 'beautiful' to make aesthetic judgments, instead preferring terms like 'right' or 'correct'.",
+      "source_quote": null,
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Religious and factual statements represent drastically different processes.",
+      "rationale": "Superficial grammatical similarities in how we express religious and factual statements mislead us into thinking they are identical states of belief.",
+      "source_quote": null,
+      "source_id": "src_010"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Superficial Grammatical Similarity",
+      "description": "The concept that sentences sharing the same grammatical form can mask drastically different underlying processes or states, leading to philosophical confusion.",
+      "example": "Confusing religious belief with factual belief simply because the statements used to express them share the same grammatical structure.",
+      "source_id": "src_010"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "One uses the same term in both cases [...]",
+      "context": "When discussing whether distinctly aesthetic pleasures are different from more ordinary pleasures.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "The expression of belief may play an absolutely minor role.",
+      "context": "When arguing that the grammatical expression of religious belief does not mean it is the same process as factual belief.",
+      "source_id": "src_010"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Using psychology to explain aesthetic experiences or judgments.",
+      "why_it_fails": "Psychological and behaviorist experiments only generate results based on mere descriptions of behavior and generalizations across large numbers of observers, missing the nature of aesthetic judgment.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Believing that religious and factual statements are fundamentally identical states of 'belief'.",
+      "why_it_fails": "This assumption is driven by superficial grammatical similarities, which are merely parallel expressions of drastically different processes.",
+      "source_id": "src_010"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "source_id": "src_026",
+  "summary": "A biographical profile of Judea Pearl for his 2011 ACM Turing Award, detailing his transition from physical engineering to artificial intelligence. The text outlines his foundational work in Bayesian networks for probabilistic reasoning under uncertainty, and his subsequent development of the do-calculus to formalize causal inference.",
+  "themes": [
+    "Artificial Intelligence",
+    "Probabilistic Reasoning",
+    "Bayesian Networks",
+    "Causal Inference",
+    "Cognitive Systems"
+  ],
+  "principles": [
+    {
+      "statement": "Sound probabilistic analysis yields intuitively correct results where rule-based systems fail.",
+      "rationale": "Rule-based systems struggle with bidirectional reasoning (diagnostic and predictive) and explaining-away phenomena, often leading to positive-feedback instabilities.",
+      "source_quote": "If you used diagnostic rules, you could not do prediction, and if you used predictive rules you could not reason diagnostically, and if you used both, you ran into positive-feedback instabilities, something we never encountered in probability theory.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Human cognition and comprehension rely on distributed, dual-mode inference.",
+      "rationale": "Tasks like text comprehension require combining top-down and bottom-up inferences, a process characteristic of Bayesian analysis but missing in early certainty-factor calculi.",
+      "source_quote": "...text comprehension must be a distributed process that combines both top-down and bottom-up inferences. Strangely, this dual mode of inference, so characteristic of Bayesian analysis, did not match the capabilities of either the “certainty factors” calculus or the inference networks...",
+      "source_id": "src_026"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Do-calculus (Causal Intervention)",
+      "when_to_apply": "When modeling cause-and-effect relationships and analyzing the potential effect of exogenous interventions on a system.",
+      "steps": [
+        "Represent the system's beliefs and mechanisms as a directed causal network (e.g., X --> Y).",
+        "To model an intervention on a variable (setting the value of Y), break the incoming links to that variable (from X to Y).",
+        "Set the value of the intervened variable while leaving the prior belief in the cause (X) unchanged."
+      ],
+      "source_quote": "In a causal network X --> Y, intervening to set the value of Y should leave one’s prior belief in X unchanged and simply breaks the link from X to Y...",
+      "source_id": "src_026"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Causal vs. Bayesian Networks",
+      "description": "A Bayesian network captures probabilistic associations (which are mathematically symmetric), whereas a causal network captures the asymmetric mechanics of the world and responds to exogenous interventions.",
+      "example": "In a Bayesian network, 'Smoking --> Cancer' is mathematically equivalent to 'Cancer --> Smoking'. However, as a causal network, inducing cancer in a subject does not change one's belief in whether they smoke, whereas inducing a subject to smoke does change the belief that they will develop cancer.",
+      "source_id": "src_026"
+    }
+  ],
+  "heuristics": [
+    "Look to human intuition—despite being simplistic and unreliable—as a powerful inspiration for heuristic search and problem-solving."
+  ],
+  "signature_quotes": [
+    {
+      "text": "...the ever-amazing observation of how much people can accomplish with that simplistic, unreliable information source known as intuition.",
+      "context": "Discussing the inspiration behind his highly formal 1984 book on heuristic search strategies.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "If you used diagnostic rules, you could not do prediction, and if you used predictive rules you could not reason diagnostically, and if you used both, you ran into positive-feedback instabilities, something we never encountered in probability theory.",
+      "context": "Explaining the limitations of 1970s rule-based expert systems compared to probabilistic analysis.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "Neither logic, nor any branch of mathematics had developed adequate tools for managing problems... involving cause-effect relationships.",
+      "context": "Reflecting on his realization that traditional logic could not protect against cause-effect fallacies.",
+      "source_id": "src_026"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on traditional logic or standard probability to resolve cause-effect fallacies.",
+      "why_it_fails": "Standard logic and mathematics (including standard Bayesian networks) capture associations but lack the syntax and tools to model exogenous interventions and asymmetric causal relationships.",
+      "source_id": "src_026"
+    },
+    {
+      "description": "Using rule-based systems for bidirectional reasoning (both diagnostic and predictive).",
+      "why_it_fails": "It leads to positive-feedback instabilities and fails to capture the 'explaining-away' phenomenon, where the belief in one cause should decrease when another cause is found.",
+      "source_id": "src_026"
+    },
+    {
+      "description": "Believing causality can only be determined from controlled random trials.",
+      "why_it_fails": "Controlled random trials are often impossible in biological and social sciences; observational data combined with a formal causal model can successfully determine causal relationships.",
+      "source_id": "src_026"
+    }
+  ]
+}

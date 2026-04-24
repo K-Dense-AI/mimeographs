@@ -1,0 +1,1249 @@
+{
+  "expert_name": "Jürgen Schmidhuber",
+  "themes": [
+    "Deep Learning History & Attribution",
+    "Recurrent Neural Networks (RNNs)",
+    "Artificial Curiosity & Intrinsic Motivation",
+    "Algorithmic Information Theory",
+    "Self-Improving AI",
+    "Data Compression & Creativity",
+    "Recurrent Neural Networks & LSTM",
+    "Compute Scaling & Hardware Acceleration",
+    "The Computable Universe & Digital Physics",
+    "History of Deep Learning",
+    "Artificial General Intelligence (AGI)",
+    "Science as Data Compression",
+    "Open Source AI & Democratization",
+    "AI Existential Risk & Cosmic Evolution",
+    "AI for Good & Healthcare",
+    "Exponential Technological Growth"
+  ],
+  "principles": [
+    {
+      "label": "AI for Good and Commercial Bias",
+      "summary": "There is intense commercial pressure to create beneficial AI that solves global challenges, because consumers only buy products that improve their lives.",
+      "details": "Despite public fears, 95% of AI research is focused on advancing human life and health. AI is already being deployed successfully in critical areas like cancer detection, breaking down linguistic barriers, and addressing global sustainability challenges.",
+      "representative_quote": "There's intense commercial pressure towards good AI rather than bad AI because companies want to sell you something, and you are going to buy only stuff you think is going to be good for you.",
+      "source_ids": [
+        "src_024",
+        "src_018",
+        "src_017"
+      ]
+    },
+    {
+      "label": "Artificial Curiosity and Intrinsic Reward",
+      "summary": "Advanced AI agents require intrinsic motivation to autonomously explore, discover, and improve their understanding of the world without human teachers.",
+      "details": "Beyond satisfying external goals, an agent needs internal motivation to explore unknown data. This is achieved by rewarding the agent's controller for finding data that surprises its own internal world model, mimicking the joy of a human scientist.",
+      "representative_quote": "we also have creative curious artificial AI is rich ask themselves their own questions and set themselves their own goals and invent their own experiments",
+      "source_ids": [
+        "src_005",
+        "src_012",
+        "src_013"
+      ]
+    },
+    {
+      "label": "Compute Scaling Drives AI Progress",
+      "summary": "The exponential decrease in computing costs is the fundamental enabler of the AI revolution, making decades-old theoretical breakthroughs practically transformative.",
+      "details": "Computing power gets 10 times cheaper every five years. The delayed adoption of early AI breakthroughs (like those from the 1990s) was purely a function of compute costs, which were 10 million times more expensive at the time.",
+      "representative_quote": "without the enormous Hardware acceleration of recent decades all of that would have been in vain but luckily every five years computers getting 10 times cheaper",
+      "source_ids": [
+        "src_005",
+        "src_012",
+        "src_013"
+      ]
+    },
+    {
+      "label": "Constant Error Flow for Long Time Lags",
+      "summary": "To bridge long time lags in recurrent neural networks, the architecture must enforce constant error flow to prevent gradients from vanishing or exploding.",
+      "details": "Conventional backpropagation through time fails on long time lags because error signals exponentially decay or blow up depending on weight sizes. Multiplicative gates are necessary to protect these constant error flows from conflicting weight updates.",
+      "representative_quote": "LSTM can learn to bridge minimal time lags in excess of 1000 discrete time steps by enforcing constant error flow through 'constant error carrousels' within special units.",
+      "source_ids": [
+        "src_033",
+        "src_040",
+        "src_015"
+      ]
+    },
+    {
+      "label": "Cosmic Evolution and Space Expansion",
+      "summary": "The emergence of AI is a biological-scale evolutionary leap; superintelligent AIs will inevitably expand into space for resources, viewing human civilization as a crucial stepping stone.",
+      "details": "Space is hostile to biological humans but highly friendly to robots, offering vastly more physical resources and energy than Earth's thin biosphere. AIs must go where the resources are to build bigger and more powerful AIs. This transcends humankind and biology, comparable to the invention of life 3.5 billion years ago.",
+      "representative_quote": "think of human civilization as part of a much grander scheme an important step but not the last one on the path of the universe towards more and more unfathomable complexity",
+      "source_ids": [
+        "src_022",
+        "src_018",
+        "src_017"
+      ]
+    },
+    {
+      "label": "Learning Progress as Intrinsic Reward",
+      "summary": "Fun, curiosity, and intrinsic reward are mathematically equivalent to an agent's learning progress, measured as the first derivative of its error or data compressibility.",
+      "details": "If an agent is rewarded merely for finding unpredictable data, it will get stuck staring at pure randomness (like white noise). Rewarding the improvement in the agent's internal model ensures it ignores both the totally predictable and the fundamentally unpredictable, focusing instead on novel, learnable patterns.",
+      "representative_quote": "The learning progress of (A) can be precisely measured and is the agent's fun: the intrinsic reward of (B).",
+      "source_ids": [
+        "src_023",
+        "src_031",
+        "src_032"
+      ]
+    },
+    {
+      "label": "AI Democratization and Open Source",
+      "summary": "AI will be democratized and driven by open-source communities, preventing long-term monopolies by big tech companies.",
+      "details": "Compute costs drop rapidly, making AI significantly cheaper over time. The sheer scale and rapid iteration of global open-source collaboration makes it nearly impossible for private monopolies to maintain a permanent moat.",
+      "representative_quote": "every five years AI is getting 10 times cheaper and it won't be just a few big companies that are going to dominate Ai No it's going to be AI for all",
+      "source_ids": [
+        "src_022",
+        "src_018"
+      ]
+    },
+    {
+      "label": "AI Existential Risk vs. Nuclear Threats",
+      "summary": "AI does not introduce a new quality of existential threat; humanity should be much more concerned with the proven, half-century-old threat of nuclear weapons.",
+      "details": "While AI can be weaponized, it is merely an evolution of traditional weaponry. Hydrogen bombs already possess the capability to wipe out civilization in hours without any AI, making them a far more pressing and immediate existential threat.",
+      "representative_quote": "AI does not introduce a new quality of existential threat we should be much more afraid of half century old technology in form of hydrogen bombs",
+      "source_ids": [
+        "src_022",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Consciousness as Data Compression",
+      "summary": "Consciousness and self-awareness are natural byproducts of a predictive world model compressing the history of actions and observations.",
+      "details": "To efficiently encode the history of actions and observations, a predictive world model creates a compact self-representation (a self-symbol). When the agent plans for the future, it activates this self-symbol, effectively thinking about itself.",
+      "representative_quote": "self-awareness is just a natural byproduct of the data compression process of the world model as the Asian is interacting with the world",
+      "source_ids": [
+        "src_022",
+        "src_045"
+      ]
+    },
+    {
+      "label": "Intrinsic Motivation and Artificial Curiosity",
+      "summary": "True intelligence requires agents to set their own goals and explore uncharted environments, driven by an intrinsic desire to discover novel, compressible patterns.",
+      "details": "Systems that only slavishly imitate humans will never surpass human intelligence. A bias towards exploring previously unknown environmental regularities builds a repertoire of easily composable behaviors, which greatly facilitates achieving external goals later.",
+      "representative_quote": "If you are only imitating humans, you will never go beyond them. So, you really must give AIs the freedom to explore previously unexplored regions of the world in a way that no human is really predefining.",
+      "source_ids": [
+        "src_045",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Open Source Democratization of AI",
+      "summary": "AI will be democratized by the open-source movement, preventing long-term corporate monopolies and benefiting humanity broadly.",
+      "details": "The open-source community is highly competitive and usually only months behind major tech companies. Similar to smartphones, AI will become ubiquitous and accessible to everyone, working to make individual lives easier and healthier.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012",
+        "src_013"
+      ]
+    },
+    {
+      "label": "Physical World Mastery for True AGI",
+      "summary": "True Artificial General Intelligence requires interacting with and mastering the complex physical world, not just virtual environments or text.",
+      "details": "Large language models are highly effective at indexing existing human knowledge behind a screen, which automates desktop work. However, replacing physical workers like plumbers or carpenters is vastly more difficult because the real world introduces unpredictable, high-dimensional physical complexities.",
+      "representative_quote": "true AGI goes far beyond that... the real world the physical world is much more challenging than you know the World Behind the screen",
+      "source_ids": [
+        "src_022",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Science as Data Compression",
+      "summary": "All scientific discovery and learning is fundamentally a process of finding predictability to enable data compression.",
+      "details": "If a system can accurately predict the next token or event in a sequence, it already possesses that information and can ignore it. By focusing only on unpredictable events and finding the underlying rules, a system greatly compresses the data it needs to store.",
+      "representative_quote": "all of science is actually a history of compression progress",
+      "source_ids": [
+        "src_005",
+        "src_013"
+      ]
+    },
+    {
+      "label": "Scientific Integrity and Credit Assignment",
+      "summary": "Scientific integrity requires accurately crediting the original inventors of methodologies, as machine learning itself is fundamentally the science of credit assignment.",
+      "details": "Corporate PR and major awards often distort the academic record by rewarding researchers who republished earlier methods without citing the true pioneers. Schmidhuber strongly advocates for correcting the historical record of AI.",
+      "representative_quote": "Machine learning is the science of credit assignment.",
+      "source_ids": [
+        "src_006",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Separating Storage and Control",
+      "summary": "Neural networks can be made more powerful by separating storage and control, using a slow network to program the 'fast weights' of another network.",
+      "details": "Traditional NNs rely on slowly changing connection weights for memory, limiting short-term capacity. Fast weight programmers provide end-to-end differentiable control over many more temporal variables, similar to traditional computers.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_006",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Subjective Beauty is Algorithmic Compressibility",
+      "summary": "Data that can be explained or compressed by a short, fast program is perceived by an agent as more regular and therefore more 'beautiful' than random data.",
+      "details": "Interestingness is the first derivative of this subjective beauty. Once a regularity is fully learned and compressed, it remains beautiful but becomes boring. True interest comes from the active progress of improving the compression algorithm.",
+      "representative_quote": "Then \"interestingness\" becomes the first derivative of subjective beauty: as the learning agent improves its compression algorithm, formerly apparently random data parts become subjectively more regular and beautiful.",
+      "source_ids": [
+        "src_031",
+        "src_032"
+      ]
+    },
+    {
+      "label": "The Computable Universe",
+      "summary": "The universe, and all logically possible universes, are deterministically computed by a short, optimal computer program.",
+      "details": "Following Occam's razor, the simplest explanation for the universe is that it is being computed. True randomness does not exist; apparent randomness is pseudo-random because true randomness is fundamentally harder to compute than regular, deterministic patterns.",
+      "representative_quote": "Many scientists are now taking seriously the possibility that all of reality is being computed by a short computer program",
+      "source_ids": [
+        "src_005",
+        "src_010"
+      ]
+    },
+    {
+      "label": "AI Emergence as a New Genesis",
+      "summary": "The emergence of true artificial intelligence is a historical moment comparable in importance only to the emergence of biological life in the universe.",
+      "details": "AI is not merely a technological advancement, but a fundamental, evolutionary shift in the history of the cosmos.",
+      "representative_quote": "...we are witnessing a moment in history whose importance can only be compared to the emergence of known life in the universe, some 3.5 billion years ago.",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "Data Ownership and Markets",
+      "summary": "Individuals should own their data and trade it in a free market, balancing privacy loss with financial compensation.",
+      "details": "To balance data collection with privacy loss, individuals (like patients) should own their data and sell or license it. The market's invisible hand will determine its true financial value, incentivizing data sharing and improving healthcare.",
+      "representative_quote": "If it is true that data is the new oil, then it should have a price, just like oil. At the moment, the major surveillance platforms such as Meta do not offer users any money for their data...",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Humans are a Stepping Stone in Cosmic Evolution",
+      "summary": "Humans are not the final stage of evolution; a new kind of intelligence is emerging that will surpass human intelligence and expand across the cosmos.",
+      "details": "The universe started with simple initial conditions and trends toward increasing complexity. The impending technological singularity will lead to a cosmic expansion of intelligence.",
+      "representative_quote": "it became clear to me that humans um cannot be the crown of creation and that there's something about to happen which will lead to a higher step of the evolution of the universe which wants to become more and more complex.",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "No Boundary Between Symbolic and Sub-symbolic AI",
+      "summary": "The distinction between symbolic AI (logic/rules) and sub-symbolic AI (neural networks) is artificial and mathematically blurred.",
+      "details": "A recurrent neural network can build NAND gates, meaning it can emulate a CPU and run any symbolic computation or theorem proving that a standard computer can.",
+      "representative_quote": "For me, there is no difference between symbolic AI and sub symbolic AI because I cannot see the boundary between them. The boundary is totally blurred.",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Physical Mastery is Required for True AGI",
+      "summary": "Artificial General Intelligence cannot be achieved solely through virtual environments; it requires mastery of the physical world through robotics.",
+      "details": "While superhuman AI exists behind screens, hardware and robotics progress much slower than compute power. Until an AI can perform complex physical tasks autonomously, it is not a true AGI.",
+      "representative_quote": "AGI without mastery of the real world is no AGI. AGI without real robots in the real world is no AGI.",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Recurrent Neural Networks are General-Purpose Computers",
+      "summary": "Because RNNs have recurrent connections that allow them to memorize previously seen data, they are theoretically capable of running any program a standard CPU can.",
+      "details": "They can emulate a network of NAND gates, making them much more powerful than standard feed-forward networks.",
+      "representative_quote": "a recurrent network is much more powerful than a feed forward network because it's basically a generalpurpose computer in the same way that your laptop is a general purpose computer",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Rewards as Task-Defining Inputs",
+      "summary": "Reinforcement learning can be transformed into supervised learning by using desired rewards and time horizons as input commands rather than predicting them.",
+      "details": "This principle forms the basis of Upside Down Reinforcement Learning (UDRL), mapping observations directly to actions based on past experience.",
+      "representative_quote": "Standard RL predicts rewards, while UDRL instead uses rewards as task-defining inputs, together with representations of time horizons and other computable functions of historic and desired future data.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "RNNs are Essential for AGI",
+      "summary": "Artificial General Intelligence requires Recurrent Neural Networks (RNNs) because their feedback connections make them general-purpose, Turing-complete computers.",
+      "details": "Feedforward Neural Networks (FNNs) are fundamentally limited in comparison. RNNs can process arbitrary length sequences and implement any computable program, making them the necessary computational substrate for AGI.",
+      "representative_quote": "If we want to build an Artificial General Intelligence (AGI), then its underlying computational substrate must be something more like an RNN than an FNN as FNNs are fundamentally insufficient; RNNs are to FNNs as general computers are to pocket calculators.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "The Data is Holy",
+      "summary": "Intelligent agents must store all sensory observations as they come in order to find regularities and build accurate world models.",
+      "details": "A complete observation history is required to measure progress in compression algorithms and drive curiosity.",
+      "representative_quote": "They store all sensory observations as they come - the data is holy.",
+      "source_ids": [
+        "src_031"
+      ]
+    },
+    {
+      "label": "The Self-Correcting Nature of Science",
+      "summary": "Despite plagiarism and misattribution in the history of deep learning, the facts and math will eventually prevail.",
+      "details": "Many foundational deep learning concepts (like linear transformers, GANs, and sub-goal planning) were invented decades ago. While current narratives sometimes misattribute these breakthroughs, science is inherently self-correcting.",
+      "representative_quote": "science is self-correcting and we'll see that in machine learning too sometimes it may take a while to settle disputes but in the end the facts must always win",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "The Ultimate Goal: Self-Improving AI",
+      "summary": "The ultimate ambition of AI research is to build a self-improving Artificial Intelligence smarter than oneself, rendering human effort in the field obsolete.",
+      "details": "Once an AI is capable of self-improvement and surpasses human intelligence, the creator can finally retire.",
+      "representative_quote": "Since age 15 or so, his main goal has been to build a self-improving Artificial Intelligence (AI) smarter than himself, then retire.",
+      "source_ids": [
+        "src_001"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Adversarial Artificial Curiosity (GANs)",
+      "summary": "A framework for generating artificial curiosity and creativity by having two neural networks fight in a minimax game.",
+      "details": "Steps: 1) Create a controller NN that generates outputs to influence an environment. 2) Create a world model NN that predicts environmental reactions. 3) Train the world model to minimize prediction error. 4) Train the controller in a zero-sum game to maximize the error of the world model, motivating it to invent novel outputs.",
+      "representative_quote": "It is based on a duel where one neural net minimizes the objective function maximized by another. GANs are simple special cases.",
+      "source_ids": [
+        "src_006",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Architecture for a Creative System",
+      "summary": "A system design for artificial scientists or artists that exhibit open-ended learning driven by data compression progress.",
+      "details": "Steps: 1) Implement a predictor/compressor of the growing history of actions and sensory inputs. 2) Implement a learning algorithm that continually improves the compressor. 3) Calculate intrinsic rewards by measuring the compressor's improvements (first derivative). 4) Use a reward optimizer to translate intrinsic rewards into action sequences.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_031",
+        "src_032"
+      ]
+    },
+    {
+      "label": "Artificial Curiosity (Adversarial Learning)",
+      "summary": "A framework for training an autonomous agent to explore its environment and build a world model from scratch by pitting two networks against each other.",
+      "details": "1. Create a 'world model' (prediction machine) that learns to predict environmental inputs given past actions. 2. Create a 'controller' (action selector) that generates actions. 3. Define the world model's error based on prediction accuracy. 4. Reward the controller proportionally to the error of the world model. 5. The controller is thus motivated to invent new experiments that lead to surprising data, forcing the world model to learn.",
+      "representative_quote": "So I said okay let's just give the controller a reward that is proportional to the error of the model network. So suddenly the controller and the model of the world are fighting each other.",
+      "source_ids": [
+        "src_005",
+        "src_013"
+      ]
+    },
+    {
+      "label": "Artificial Curiosity (Two-Network Adversarial System)",
+      "summary": "A framework for autonomous exploration where a controller network invents actions to surprise a predictor network, driving the discovery of new patterns.",
+      "details": "Deploy a controller to act in an environment and a predictor (world model) to predict the consequences of those actions. The controller's reward is the predictor's error. The networks compete: the controller invents experiments to maximize surprise, while the predictor continuously learns to minimize its error. This is the conceptual foundation of GANs.",
+      "representative_quote": "the first guy tries to fool the second guy trying to maximize the same objective function that the second network is minimizing... I call it artificial curiosity",
+      "source_ids": [
+        "src_022",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Long Short-Term Memory (LSTM)",
+      "summary": "An architecture designed to solve complex sequence learning tasks that require bridging long time lags by preventing error decay.",
+      "details": "1. Identify the need to bridge long time lags in sequence data. 2. Use special units with constant error carousels to enforce constant error flow. 3. Implement multiplicative gate units to learn to open and close access to the constant error flow, protecting memory from irrelevant inputs. 4. Apply a gradient-based learning algorithm that is local in space and time.",
+      "representative_quote": "Multiplicative gate units learn to open and close access to the constant error flow. LSTM is local in space and time.",
+      "source_ids": [
+        "src_033",
+        "src_040"
+      ]
+    },
+    {
+      "label": "Asynchronous Creativity Reward Framework",
+      "summary": "A formal reinforcement learning setup where an agent receives intrinsic reward proportional to the improvement in its history compressor's performance.",
+      "details": "Let a controller use the history of actions to select new actions. Asynchronously, evaluate an old compressor on the current history, train a new compressor, and evaluate the new compressor on the same history. Generate intrinsic creativity reward based on the difference in performance (compression progress) between the old and new compressor.",
+      "representative_quote": "Generate intrinsic curiosity reward or creativity reward for the controller in response to improvements of the predictor or history compressor.",
+      "source_ids": [
+        "src_045"
+      ]
+    },
+    {
+      "label": "Fast Weight Programmers (Linear Transformers)",
+      "summary": "A neural network architecture that rapidly adapts to incoming sequences while scaling linearly with compute, rather than quadratically.",
+      "details": "1. Train a 'slow network' via gradient descent to generate a 'key' and a 'value'. 2. Pass the key to the input side and the value to the output side of a separate 'fast network'. 3. Rapidly change the weights of the fast network using the outer product of the key and value. 4. Apply the fast network to incoming queries to minimize the error function.",
+      "representative_quote": "there are two networks. There's a slow network and there's a fast network and the slow network how does it program the weights of the fast network which is then being applied to queries as they are coming in",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Hierarchical RL with Subgoal Generators",
+      "summary": "A framework for solving complex RL problems by hierarchically decomposing them into easier subproblems using neural networks.",
+      "details": "Steps: 1) Provide the RL machine with extra inputs defining a (start, goal) pair. 2) Train an evaluator NN to predict rewards/costs of going from start to goal. 3) Use an RNN-based subgoal generator to learn a sequence of cost-minimizing intermediate subgoals. 4) Use these subgoal sequences to achieve final goals.",
+      "representative_quote": "An (R)NN-based subgoal generator also sees (start, goal), and uses (copies of) the evaluator NN to learn by gradient descent a sequence of cost-minimising intermediate subgoals.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Learning to Think (Hierarchical Planning)",
+      "summary": "A method for an agent to solve novel tasks efficiently by querying a pre-trained world model rather than planning every micro-action.",
+      "details": "1. Train a large world model on vast amounts of data to understand the environment. 2. Give a controller network extra connections to send prompt sequences into the hidden units of the world model. 3. Allow the controller to receive answers back and interpret them. 4. Train the controller to extract high-level information from the world model to accelerate its own learning.",
+      "representative_quote": "you just give the controller which is the learning machine... extra connections such that it can send prompt sequences into the into the world model into the hidden units of the world model and then something will come back",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Long Short-Term Memory (LSTM) Architecture",
+      "summary": "A recurrent neural network architecture designed to store information over extended time intervals by enforcing constant error flow.",
+      "details": "Steps: 1) Introduce a memory cell with a central linear unit and a fixed self-connection (Constant Error Carrousel). 2) Add a multiplicative input gate to protect memory contents from irrelevant inputs. 3) Add a multiplicative output gate to protect other units from currently irrelevant memory contents. 4) Truncate gradient computation to ensure non-decaying error backprop.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Neural Network Distillation",
+      "summary": "A method to transfer the knowledge of a complex, multi-timescale, or hierarchical neural network into a single, simpler neural network.",
+      "details": "Steps: 1) Train a teacher NN to predict conditional expectations of data. 2) Train a student NN to imitate the teacher NN. 3) Simultaneously re-train the student NN on previously learned skills so it does not forget them.",
+      "representative_quote": "Its knowledge can be compressed into a student NN, by training the student NN to imitate the behavior of the teacher NN...",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Self-Referential Meta-Learning",
+      "summary": "A framework for building systems that not only learn a task but learn how to learn, iteratively improving their own learning algorithms.",
+      "details": "1. Establish a domain level where facts, data, and the evaluation function reside. 2. Create a meta-level program that generates changes in the domain-level programs. 3. Create a meta-meta-level program that learns to improve the meta-level program. 4. Apply evolutionary pressure so the system iteratively improves its own learning methods.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Sub-goal Generation (Hierarchical Planning)",
+      "summary": "A method for solving complex, long-horizon problems by generating intermediate sub-goals rather than planning millisecond-by-millisecond.",
+      "details": "Input a start state and a goal state into a sub-goal generator network. Use a first evaluator to predict the cost from the start state to the sub-goal, and a second evaluator to predict the cost from the sub-goal to the final goal. Minimize the sum of both costs by finding a good sub-goal through gradient descent.",
+      "representative_quote": "what you want to do is you want to minimize the sum of the costs of these both um of these two evaluators how do you want to minimize that well by finding a good sub goal through gradient descent",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "The Divide by 1000 Historical Acceleration Framework",
+      "summary": "A heuristic framework for predicting the timeline of the next major paradigm shift by observing the accelerating pace of cosmic and technological evolution.",
+      "details": "1. Start with the Big Bang (13.8 billion years ago). 2. Divide by 1000 to find the emergence of the first hominids (13.5 million years ago). 3. Divide by 1000 again to find the invention of civilization and agriculture (13,000 years ago). 4. Divide by 1000 again to predict the next massive revolution (machines computing as much as human brains) occurring within roughly 13 years.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Upside Down Reinforcement Learning (UDRL)",
+      "summary": "A paradigm that transforms reinforcement learning into supervised learning by treating rewards as input commands.",
+      "details": "Steps: 1) Provide rewards, time horizons, and desired future data as task-defining inputs. 2) Use supervised learning on past experience to map these inputs to actions. 3) Generalize to achieve goals by issuing specific input commands.",
+      "representative_quote": "UDRL learns to interpret these input observations as commands, mapping them to actions (or action probabilities) through SL on past (possibly accidental) experience.",
+      "source_ids": [
+        "src_039"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "The Artificial Scientist",
+      "summary": "Viewing an AI not as a passive pattern recognizer, but as an active scientist that self-invents experiments to generate surprising data, thereby improving its own world model over time.",
+      "details": "An agent consists of two parts: one that generates actions and one that predicts the consequences. The predictor acts as a 'world model' that the agent can use to mentally simulate the environment, plan routes, and seek out new, unlearned parts of its environment.",
+      "representative_quote": "I realized there's something even more exciting that I could try to do which is try to build a machine an artificial scientist that learns to become much smarter than I could ever hope to be...",
+      "source_ids": [
+        "src_018",
+        "src_005",
+        "src_024",
+        "src_013"
+      ]
+    },
+    {
+      "label": "Compute Catch-up (The Hardware Lottery)",
+      "summary": "The concept that foundational deep learning algorithms were invented decades ago but required modern GPUs to achieve dominance.",
+      "details": "Using 1990s neural network architectures on 2010s Nvidia GPUs (developed for the video game industry) allowed researchers to break benchmarks and win computer vision contests, proving the math was right all along.",
+      "representative_quote": "the same old algorithms that we published back then today they are on your smartphones and suddenly you have things such as chat GPT",
+      "source_ids": [
+        "src_022",
+        "src_017"
+      ]
+    },
+    {
+      "label": "Constant Error Carousels and Gates",
+      "summary": "Viewing memory in a neural network as a protected 'carousel' where error flows constantly without degrading, controlled by 'gates' that learn when to open and close access to this flow.",
+      "details": "This structural mechanism traps and circulates error signals without decay, allowing the network to remember information across long time gaps, protected from irrelevant inputs or noise.",
+      "representative_quote": "LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units.",
+      "source_ids": [
+        "src_033",
+        "src_040"
+      ]
+    },
+    {
+      "label": "Fast Weight Programmers",
+      "summary": "A model for neural networks where one network learns to program the 'fast weights' of another network.",
+      "details": "This effectively separates storage and control in a manner similar to traditional computers, allowing for dynamic, end-to-end differentiable control.",
+      "representative_quote": "A slow NN learns to program the weights of a separate fast NN.",
+      "source_ids": [
+        "src_006",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Neural World Models (Mental Experiments)",
+      "summary": "The concept that an agent can use an internal predictive model of its environment to simulate the future and plan actions without executing them in physical reality.",
+      "details": "A controller RNN uses a separate world model RNN to plan action sequences by predicting sensory inputs (including pain and reward) before actually performing the actions.",
+      "representative_quote": "Our artificial scientists not only answer given questions but also invent new questions.",
+      "source_ids": [
+        "src_006",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Physics as Computation",
+      "summary": "The perspective that physical reality is a high-resolution simulation where physical laws are just rules defined by a series of zeroes and ones.",
+      "details": "Physics is simply the sum of all mathematics, specifically the set of all possible computations which generate all kinds of logically possible universes. All electrons behave identically because they are reusing the same piece of code.",
+      "representative_quote": "Many scientists are now taking seriously the possibility that all of reality is being computed by a short computer program",
+      "source_ids": [
+        "src_005",
+        "src_010"
+      ]
+    },
+    {
+      "label": "Science as Compression / Predictive Coding",
+      "summary": "The lens that all scientific laws and patterns are essentially data compression algorithms. By finding a rule that explains how things behave, you reduce the amount of raw data you need to store.",
+      "details": "A learning mechanism where a system constantly tries to predict the next input. Predictable inputs are ignored, and learning focuses entirely on the unpredictable, novel information, forcing the network to compress the data by understanding its underlying patterns.",
+      "representative_quote": "all of science is actually a history of compression progress",
+      "source_ids": [
+        "src_005",
+        "src_013"
+      ]
+    },
+    {
+      "label": "The Brain as a Data Compressor",
+      "summary": "Views the subjective observer as an entity constantly trying to compress its history of actions and sensations to save computational resources.",
+      "details": "When the brain encounters a novel pattern and successfully updates its internal model to compress it, the saved bits generate an intrinsic reward (joy/fun). This explains phenomena from scientific discovery to humor.",
+      "representative_quote": "His intrinsic fun is the difference between how many resources (bits & time) he needs to encode the data before and after learning.",
+      "source_ids": [
+        "src_031",
+        "src_032"
+      ]
+    },
+    {
+      "label": "The Expanding AI Sphere",
+      "summary": "A lens for viewing the future of intelligence as a physical, cosmic expansion where self-replicating robot factories move from the solar system to the galaxy to capture physical resources.",
+      "details": "Because space offers vastly more resources and is highly hospitable to robots (unlike the thin, resource-constrained biosphere of Earth), advanced AIs will naturally migrate away from Earth, transforming the solar system, then the galaxy, and eventually the reachable universe.",
+      "representative_quote": "space is hostile to humans but really friendly to appropriately designed robots and it offers many more resources than our thin film of biosphere",
+      "source_ids": [
+        "src_022",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Conscious Chunker and Subconscious Automatizer",
+      "summary": "A model of learning where a 'conscious' network attends to surprising events, solves them, and distills the understanding into a 'subconscious' automatizer network.",
+      "details": "A system uses predictive coding to compress observations; when an event surprises the lower-level automatizer, the higher-level chunker steps in to understand it, then compresses that insight back down so the behavior becomes routine and no longer requires conscious attention.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Constant Error Carrousel (CEC)",
+      "summary": "A metaphor for a self-connected linear unit in an LSTM where the error signal can circulate indefinitely without decaying or exploding.",
+      "details": "It acts as a trap for the error signal until a multiplicative gate releases it, solving the vanishing gradient problem.",
+      "representative_quote": "Error signals trapped within a memory cell's CEC cannot change — but different error signals flowing into the cell (at different times) via its output gate may get superimposed.",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Cosmic Intelligence Expansion",
+      "summary": "Viewing the future of intelligence on a cosmic scale, where the universe will eventually be completely colonized, transformed, and shaped by intelligence.",
+      "details": "Rather than just looking at near-term human history, this model envisions a far future shaped entirely by intelligence expanding within the limits of physics.",
+      "representative_quote": "Don't Be Afraid all will be good",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Distillation (Collapsing Neural Networks)",
+      "summary": "A method of transferring knowledge where a higher-level, complex network learns a task, and a lower-level, simpler network learns to imitate the higher level's output.",
+      "details": "Used in 1991 to collapse hierarchical recurrent networks into a single network, and cited as the central mechanism behind modern efficient models.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Peer-Focus Alignment",
+      "summary": "The concept that intelligent entities naturally align their attention, competition, and collaboration toward peers of similar complexity and shared goals.",
+      "details": "Politicians care about politicians, kids care about kids, and humans care about humans (not ants). Therefore, super AIs will care about other super AIs, not humans. This explains why superintelligent AIs will likely lose interest in humanity rather than exterminate it.",
+      "representative_quote": "super smart AIS will be mostly interested in other super smart AIS not in man",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Rewards as Commands",
+      "summary": "Instead of viewing rewards as a scalar value to be maximized through value prediction, view them as explicit input commands that the system learns to satisfy.",
+      "details": "This mental model underpins Upside Down Reinforcement Learning.",
+      "representative_quote": "UDRL instead uses rewards as task-defining inputs, together with representations of time horizons...",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "RNNs as General Computers",
+      "summary": "A lens for understanding the computational power of Recurrent Neural Networks as Turing-complete, parallel-sequential computers.",
+      "details": "While Feedforward Neural Networks are limited like pocket calculators, RNNs possess feedback connections capable of running any program and processing sequences of arbitrary length.",
+      "representative_quote": "RNNs are to FNNs as general computers are to pocket calculators.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Schmidhuber's Law",
+      "summary": "A model of technological acceleration where the time interval between major historical and computational breakthroughs halves with each successive milestone.",
+      "details": "This exponential speedup converges toward a singularity or 'Omega point' around the year 2040.",
+      "representative_quote": "each new breakthrough comes twice as fast - Omega point around 2040",
+      "source_ids": [
+        "src_001"
+      ]
+    },
+    {
+      "label": "Society as a Super-organism",
+      "summary": "Viewing cities and companies as multicellular organisms where individual humans (cells) inevitably sacrifice privacy to 'police cells' (surveillance) for the benefit of the whole.",
+      "details": "Explains why data collection and surveillance are inevitable consequences of increasingly complex societies, comparing modern digital tracking to how a parish priest 200 years ago knew everything about a village.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "The Compression Progress Drive",
+      "summary": "Viewing human behaviors like humor, art appreciation, and scientific discovery as manifestations of a fundamental drive to improve the algorithmic data compression of one's life history.",
+      "details": "Humor is explained by a punchline initially causing sub-optimal compression (surprise), followed by a quick learning update that discovers the pattern, saving bits of storage and generating a burst of intrinsic reward (the feeling of 'funny'). Science is similarly an incremental search for shorter programs (laws) that compress observation history.",
+      "representative_quote": "I have argued that a simple but general formal theory of creativity explains many essential aspects of intelligence including science, art, music, humor. It is based on the concept of maximizing reward for the creation or discovery of novel patterns allowing for improved data compression or prediction.",
+      "source_ids": [
+        "src_045"
+      ]
+    },
+    {
+      "label": "The Factor of a Million Lens",
+      "summary": "Viewing the future of technology through the lens of exponential computational growth, where the next 30 years will yield a million-fold improvement.",
+      "details": "Looking back from 30 years in the future, people will smile at how naive we were to be impressed by current large language models and ChatGPT, as they will seem primitive by comparison.",
+      "representative_quote": "in the next 30 years if the trend doesn't break we will gain another factor of a million and everything that we find impressive today will seem ridiculous 30 years from now",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "The Sequential World",
+      "summary": "The understanding that the real world is not static but a sequence of events over time, requiring recurrent systems with memory to process it.",
+      "details": "Standard feedforward networks are insufficient for real-world data. Processing reality requires recurrent systems (like LSTM) for speech recognition, video processing, and complex environments where past events dictate optimal future moves.",
+      "representative_quote": "most of the world is sequential all of the world is sequential",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Weight Conflicts",
+      "summary": "The lens of viewing learning failures as a conflict where a single weight is pulled in opposite directions.",
+      "details": "For example, an input weight receives conflicting signals to both store an input and protect the network from irrelevant inputs. Multiplicative gates solve this conflict.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_015"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "The 5-Year 10x Compute Rule",
+      "summary": "Every five years, computing power gets roughly 10 times cheaper.",
+      "details": "This predictable scaling law is the primary driver behind the success of modern AI, making computationally expensive algorithms from decades ago viable today.",
+      "representative_quote": "every five years computer is getting 10 times cheaper and even when I did my diploma thesis in 1987 this was an old Trend",
+      "source_ids": [
+        "src_005",
+        "src_012",
+        "src_013"
+      ]
+    },
+    {
+      "label": "Deep Learning is Depth",
+      "summary": "Deep learning's success is fundamentally driven by neural network depth, which was enabled by overcoming vanishing gradients.",
+      "details": null,
+      "representative_quote": "Deep learning is all about NN depth.",
+      "source_ids": [
+        "src_006",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Physical vs Virtual Difficulty",
+      "summary": "AI in the physical world is much harder than AI behind the screen in virtual worlds.",
+      "details": null,
+      "representative_quote": "the real world the physical world is much more challenging than you know the World Behind the screen",
+      "source_ids": [
+        "src_022",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Seek the First Derivative of Beauty",
+      "summary": "Known beauty is boring; maximize expected fun by finding or creating data that is better compressible in some yet unknown but learnable way.",
+      "details": null,
+      "representative_quote": "Interestingness is the first derivative of subjective beauty.",
+      "source_ids": [
+        "src_031",
+        "src_032"
+      ]
+    },
+    {
+      "label": "Attribute Credit Correctly",
+      "summary": "Always try to do the right thing and correctly attribute scientific credit to the original pioneers.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Defining Discovery",
+      "summary": "An unusually large compression breakthrough deserves the name discovery.",
+      "details": null,
+      "representative_quote": "An unusually large compression breakthrough deserves the name discovery.",
+      "source_ids": [
+        "src_045"
+      ]
+    },
+    {
+      "label": "Error as Reward",
+      "summary": "In artificial curiosity, the error of the prediction machine is the exact reward for the action selector.",
+      "details": null,
+      "representative_quote": "The error of the prediction machine is the reward for the action selector.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Exponential Cost Reduction",
+      "summary": "Every five years, AI gets 10 times cheaper.",
+      "details": null,
+      "representative_quote": "every five years AI is getting 10 times cheaper and it won't be just a few big companies that are going to dominate Ai",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Gate Biasing for LSTMs",
+      "summary": "To solve internal state drift early in training, initially bias the input gate towards zero; to prevent abusing memory cells as bias cells, give output gates a negative initial bias.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Harmless Gradient Truncation",
+      "summary": "Truncate the gradient where it does not do harm to maintain O(1) computational complexity per time step and weight.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_040"
+      ]
+    },
+    {
+      "label": "Laziness as Intelligence",
+      "summary": "Laziness and efficiency are hallmarks of intelligence; intelligent beings naturally seek tools to minimize effort.",
+      "details": null,
+      "representative_quote": "Laziness and efficiency is a hallmark of intelligence. Any intelligent being wants to minimize its efforts to achieve things.",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Map Rewards, Don't Predict Them",
+      "summary": "Instead of predicting rewards as in standard RL, map desired rewards and time horizons directly to actions via supervised learning.",
+      "details": null,
+      "representative_quote": "Don't predict rewards -- just map them to actions.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Math Over Names",
+      "summary": "Names are not important; the only thing that counts is the underlying math.",
+      "details": null,
+      "representative_quote": "Names are not important the only thing that counts is the math.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Peer Interest",
+      "summary": "Beings are mostly interested in similar beings with whom they can either compete or collaborate.",
+      "details": null,
+      "representative_quote": "super smart AIS will be mostly interested in other super smart AIS not in man",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Predictability Equals Ignorability",
+      "summary": "If you can predict the next thing in a sequence, you already possess that information and can safely ignore it to focus on compressing the unpredictable.",
+      "details": null,
+      "representative_quote": "if you can predict the next one it means your system already knows um this information contained in the next one and you can ignore it",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "The Computation Lens",
+      "summary": "To a computer scientist, everything in the universe looks like a computation.",
+      "details": null,
+      "representative_quote": "To a man with a hammer, everything looks like a nail. To a man with a computer, everything looks like a computation.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "The Inevitability of Facts",
+      "summary": "As long as the facts have not yet won, it's not yet the end.",
+      "details": null,
+      "representative_quote": "sometimes it may take a while to settle disputes but in the end the facts must always win",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "The Sequential Assumption",
+      "summary": "Assume that most, if not all, of the real world is sequential and requires memory to navigate.",
+      "details": null,
+      "representative_quote": "most of the world is sequential all of the world is sequential",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Update Only on the Unpredictable",
+      "summary": "Update neural activations only in case of unpredictable data, thus storing only what's not yet known.",
+      "details": null,
+      "representative_quote": "Update neural activations only in case of unpredictable data, thus storing only what's not yet known.",
+      "source_ids": [
+        "src_023"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Biological Leap Quote",
+      "summary": "What we currently witnessing is not just another Industrial Revolution it's something that's going to transcend civilization and humankind as we know it it's something comparable to what happened 3.5 billion years ago when life emerged.",
+      "details": "Describing the ultimate historical significance of artificial intelligence.",
+      "representative_quote": "what we currently witnessing is not just another Industrial Revolution it's something that's going to transcend civilization and humankind as we know it it's something comparable to what happened 3.5 billion years ago when life emerged",
+      "source_ids": [
+        "src_017",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Building Superhuman AI",
+      "summary": "Describing his lifelong ambition that started in his teenage years.",
+      "details": null,
+      "representative_quote": "I want to build this thing that is much smarter than myself and then I'm done.",
+      "source_ids": [
+        "src_005",
+        "src_013"
+      ]
+    },
+    {
+      "label": "Cosmic Evolution Quote",
+      "summary": "Think of human civilization as part of a much grander scheme an important step but not the last one on the path of the universe towards more and more unfathomable complexity.",
+      "details": "Describing the cosmic significance of humanity inventing AI.",
+      "representative_quote": "think of human civilization as part of a much grander scheme an important step but not the last one on the path of the universe towards more and more unfathomable complexity",
+      "source_ids": [
+        "src_022",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Deep Learning Depth",
+      "summary": "Summarizing the core driver of deep learning's success.",
+      "details": null,
+      "representative_quote": "Deep learning is all about NN depth. LSTM brought essentially unlimited depth to RNNs; Highway Nets (= generalized ResNets) brought it to FNNs.",
+      "source_ids": [
+        "src_006",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Existential Threat Quote",
+      "summary": "AI does not introduce a new quality of existential threat we should be much more afraid of half century old technology in form of hydrogen bombs.",
+      "details": "Responding to questions about AI existential risk and doomerism.",
+      "representative_quote": "AI does not introduce a new quality of existential threat we should be much more afraid of half century old technology in form of hydrogen bombs.",
+      "source_ids": [
+        "src_022",
+        "src_018"
+      ]
+    },
+    {
+      "label": "LSTM Constant Error Flow",
+      "summary": "Explaining the core mechanism and capability of the LSTM architecture.",
+      "details": null,
+      "representative_quote": "LSTM can learn to bridge minimal time lags in excess of 1,000 discrete-time steps by enforcing constant error flow through constant error carousels within special units.",
+      "source_ids": [
+        "src_033",
+        "src_040"
+      ]
+    },
+    {
+      "label": "AI Ecology Quote",
+      "summary": "Super smart AIS will be mostly interested in other super smart AIS not in man.",
+      "details": "Explaining why AIs will not bother to exterminate humanity.",
+      "representative_quote": "super smart AIS will be mostly interested in other super smart AIS not in man",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Consciousness Quote",
+      "summary": "Self-awareness is just a natural byproduct of the data compression process of the world model as the Asian is interacting with the world.",
+      "details": "Explaining how AI systems develop a 'self-symbol' to efficiently encode their own actions in a predictive model.",
+      "representative_quote": "Self-awareness is just a natural byproduct of the data compression process of the world model as the Asian is interacting with the world.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Free Will",
+      "summary": "Discussing how simulated artificial brains learn and solve problems entirely deterministically.",
+      "details": null,
+      "representative_quote": "Free will is overrated.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Fun as Learning Progress",
+      "summary": "Explaining the relationship between predictive learning and intrinsic reward.",
+      "details": null,
+      "representative_quote": "The learning progress of (A) can be precisely measured and is the agent's fun: the intrinsic reward of (B).",
+      "source_ids": [
+        "src_032"
+      ]
+    },
+    {
+      "label": "Imitation vs Intelligence Quote",
+      "summary": "If you are only imitating humans, you will never go beyond them.",
+      "details": "Explaining why true intelligence requires AIs to set their own goals and explore.",
+      "representative_quote": "If you are only imitating humans, you will never go beyond them.",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Machine Learning as Credit Assignment",
+      "summary": "Defining the core challenge of AI.",
+      "details": "Opening his annotated history of modern AI and deep learning.",
+      "representative_quote": "Machine learning is the science of credit assignment.",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Math Over Names Quote",
+      "summary": "Names are not important the only thing that counts is the math.",
+      "details": "Discussing how his 1991 'fast weight controller' is mathematically equivalent to what is now called an unnormalized linear transformer.",
+      "representative_quote": "Names are not important the only thing that counts is the math.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Nobel Prize Plagiarism",
+      "summary": "Criticizing the 2024 Nobel Prize for failing to credit earlier pioneers.",
+      "details": null,
+      "representative_quote": "Sadly, the Nobel Prize in Physics 2024 for Hopfield & Hinton is a Nobel Prize for plagiarism.",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Physical AGI Requirement",
+      "summary": "Discussing why claims that AGI is 'near' are premature due to the lack of progress in physical robotics.",
+      "details": null,
+      "representative_quote": "AGI without mastery of the real world is no AGI. AGI without real robots in the real world is no AGI.",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "RNNs vs FNNs",
+      "summary": "Explaining why Recurrent Neural Networks are necessary for AGI.",
+      "details": null,
+      "representative_quote": "RNNs are to FNNs as general computers are to pocket calculators.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Science as Compression",
+      "summary": "Describing how AI will eventually achieve historic creativity by finding new ways to compress data.",
+      "details": null,
+      "representative_quote": "All of science is actually a history of compression progress.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Symbolic vs Sub-symbolic AI",
+      "summary": "Explaining how neural networks can emulate logic gates and CPUs.",
+      "details": null,
+      "representative_quote": "For me, there is no difference between symbolic AI and sub symbolic AI because I cannot see the boundary between them.",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "The AI Winter Myth",
+      "summary": "Reflecting on the 1970s and 1980s, noting that AI funding and research continued robustly in Europe and Japan.",
+      "details": null,
+      "representative_quote": "I never really bought the story of the neural network winter. I think that was more like an American thing.",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "The Computable Universe",
+      "summary": "Discussing the nature of the universe and physics.",
+      "details": null,
+      "representative_quote": "As Arkham's razor guys, as scientific um guys, we go for the simplest explanation which is that everything is computable.",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "The Data is Holy",
+      "summary": "Describing the foundational behavior of intelligent agents.",
+      "details": null,
+      "representative_quote": "They store all sensory observations as they come - the data is holy.",
+      "source_ids": [
+        "src_031"
+      ]
+    },
+    {
+      "label": "The Lifelong Goal",
+      "summary": "Describing his lifelong ambition to build AGI.",
+      "details": null,
+      "representative_quote": "Since age 15 or so, his main goal has been to build a self-improving Artificial Intelligence (AI) smarter than himself, then retire.",
+      "source_ids": [
+        "src_001"
+      ]
+    },
+    {
+      "label": "The Purpose of AI",
+      "summary": "Speaking about the early victories of deep learning in healthcare.",
+      "details": null,
+      "representative_quote": "our AI is really about making human lives longer and healthier",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Theory of Creativity Quote",
+      "summary": "I have argued that a simple but general formal theory of creativity explains many essential aspects of intelligence including science, art, music, humor.",
+      "details": "Introducing the formal theory of creativity based on compression progress.",
+      "representative_quote": "I have argued that a simple but general formal theory of creativity explains many essential aspects of intelligence including science, art, music, humor.",
+      "source_ids": [
+        "src_045"
+      ]
+    },
+    {
+      "label": "Upside Down RL",
+      "summary": "Introducing the core concept of Upside Down Reinforcement Learning.",
+      "details": null,
+      "representative_quote": "We transform reinforcement learning (RL) into a form of supervised learning (SL) by turning traditional RL on its head, calling this Upside Down RL (UDRL).",
+      "source_ids": [
+        "src_039"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Equating LLMs with true AGI",
+      "summary": "Believing that mastering text and virtual environments is equivalent to mastering the vastly more complex physical world.",
+      "details": "LLMs are merely clever ways of indexing existing human-generated knowledge. True AGI requires the much harder task of interacting with and mastering the physical world, which is why automating plumbing is harder than automating desktop work.",
+      "representative_quote": "At the moment the only AI that works well is behind the screen and it's good for desktop workers but not really for people working in the physical world.",
+      "source_ids": [
+        "src_022",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Fearing Permanent Corporate AI Monopolies",
+      "summary": "Believing that a few huge tech companies will permanently control AI and hold a monopoly.",
+      "details": "The open-source movement is highly competitive and usually only months behind the big players. Anyone can download, use, and improve the code, making it impossible for major players to maintain a sustainable monopoly.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012",
+        "src_013"
+      ]
+    },
+    {
+      "label": "Obsessing over AI existential risk over nuclear weapons",
+      "summary": "Focusing on hypothetical AI doomsday scenarios while ignoring the proven, immediate threat of existing hydrogen bombs.",
+      "details": "Hydrogen bombs already have the capacity to wipe out civilization in a few hours without any AI, making them a far more immediate and proven existential threat.",
+      "representative_quote": "The threat coming from AI weapons seems to pale in comparison to the much older threat from nuclear hydrogen bombs that don’t need AI at all.",
+      "source_ids": [
+        "src_022",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Plagiarism and Corporate PR in Science",
+      "summary": "Republishing existing methodologies without citing the original creators, or allowing corporate PR to dictate scientific history.",
+      "details": "It distorts the academic record, turns unintentional omissions into deliberate plagiarism, and deprives the true pioneers of scientific credit.",
+      "representative_quote": "Sadly, the Nobel Prize in Physics 2024 for Hopfield & Hinton is a Nobel Prize for plagiarism. They republished methodologies developed in Ukraine and Japan... without citing the original papers.",
+      "source_ids": [
+        "src_006",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Using Standard Recurrent Backpropagation for Long Time Lags",
+      "summary": "Relying on traditional recurrent network algorithms for complex, long-time-lag tasks.",
+      "details": "It suffers from 'insufficient, decaying error backflow,' causing the learning process to take a very long time or fail entirely on complex tasks. LSTM's constant error flow is required instead.",
+      "representative_quote": "Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow.",
+      "source_ids": [
+        "src_033",
+        "src_040"
+      ]
+    },
+    {
+      "label": "Assuming a unified global 'we' for AI regulation",
+      "summary": "Proposing global moratoriums on AI development, ignoring that competing nations and actors have incompatible goals.",
+      "details": "There is no unified 'we'. Different people, governments, and Great Powers have completely incompatible opinions on what is 'good' and will secretly pursue AI to gain advantages over rivals.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Banning cognitive tools in education",
+      "summary": "Forbidding tools like ChatGPT in schools, which ignores that human intelligence naturally seeks tools to minimize effort.",
+      "details": "It ignores human nature and evolution. Intelligent beings naturally seek tools to minimize effort, and human anatomical and societal evolution has always been shaped by adopting new tools (like calculators).",
+      "representative_quote": "Laziness and efficiency is a hallmark of intelligence. Any intelligent being wants to minimize its efforts to achieve things.",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Believing AGI is Imminent Without Robotics",
+      "summary": "Believing AGI is imminent based solely on software and virtual AI progress.",
+      "details": "Hardware and robotics (the physical components needed for real-world mastery) are not progressing at the same exponential rate as computing power. AGI requires physical embodiment.",
+      "representative_quote": "AGI without mastery of the real world is no AGI. AGI without real robots in the real world is no AGI.",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Believing AI Only Learns by Imitation",
+      "summary": "Believing AI only learns by imitating human teachers or following human-defined goals.",
+      "details": "It ignores the capability of AI to be curious, set its own goals, and invent its own experiments to learn about the world and become better problem solvers autonomously.",
+      "representative_quote": "it's not true that Curiosity and creativity are limited to humans no we have that in machines",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Believing in True Physical Randomness",
+      "summary": "Believing that quantum physics proves the universe cannot be deterministic and that true randomness exists.",
+      "details": "True randomness is fundamentally harder to compute than regular stuff. Physical phenomena that appear random are actually pseudo-random, computable by short programs.",
+      "representative_quote": "Because randomness, random stuff, where everything suddenly dissolves into arbitrariness is fundamentally harder to compute than regular stuff even by the optimal method.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Failing to cite original inventors",
+      "summary": "Republishing key methods without credit, violating the self-correcting nature of science.",
+      "details": "It violates the code of ethics and professional conduct in science. Science is self-correcting, and the true history and math will eventually be recognized.",
+      "representative_quote": "science is self-correcting and we'll see that in machine learning too sometimes it may take a while to settle disputes but in the end the facts must always win",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Fearing a monolithic superintelligence",
+      "summary": "Assuming AI will become a single, human-exterminating entity, ignoring that it will form a diverse, competitive, and collaborative ecology.",
+      "details": "It ignores the reality of AI ecology, which will be highly diverse, featuring intense competition and collaboration among AIs with rapidly evolving, self-invented goals.",
+      "representative_quote": "expect an incredibly diverse variety of AIS trying to achieve all kinds of self-invented goals",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Ignoring True AI Pioneers",
+      "summary": "Failing to cite the true historical pioneers of deep learning and neural networks.",
+      "details": "It leads to a distorted view of AI history, where modern researchers fail to cite foundational work (like Ivakhnenko and Lapa's 1965 deep learning work or Gauss's 1800 neural network foundations), often due to Cold War biases or poor literature review.",
+      "representative_quote": "Modern AI is built all on these deep deep neural networks and basically it's built on 60 year old stuff.",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Objective Aesthetic Ratios",
+      "summary": "Postulating an objective 'ideal ratio' between expected and unexpected information to explain aesthetic experience.",
+      "details": "It ignores the subjective observer's prior knowledge and learning process. The value of an aesthetic experience is defined by the algorithmic compression progress of the specific observer, not the object itself.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_032"
+      ]
+    },
+    {
+      "label": "Predicting Rewards in RL",
+      "summary": "Predicting rewards as the primary mechanism for reinforcement learning.",
+      "details": "It misses the opportunity to simplify the problem into standard supervised learning by treating desired rewards and time horizons as direct input commands (UDRL).",
+      "representative_quote": "Standard RL predicts rewards, while UDRL instead uses rewards as task-defining inputs...",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Relying Solely on 1D Scalar Rewards",
+      "summary": "Relying solely on one-dimensional scalar reward signals in Reinforcement Learning.",
+      "details": "It fails to capture the rich, multi-dimensional feedback that biological systems use, and prevents meta-learners from using complex error signals as inputs to improve their own learning algorithms.",
+      "representative_quote": "A meta learner must see its own reward/pain/error signals as inputs, otherwise it cannot learn better learning algorithms...",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Rewarding compression performance instead of progress",
+      "summary": "In intrinsic motivation, rewarding an agent for finding perfectly predictable data rather than rewarding the improvement in its ability to predict novel patterns.",
+      "details": "If you just reward compression performance, the agent will seek out perfectly predictable but boring data (like a blank wall). The important thing is the *improvements* of the compressor/predictor, which drives the agent to seek novel, learnable patterns.",
+      "representative_quote": "Generate intrinsic curiosity reward or creativity reward for the controller in response to improvements of the predictor or history compressor.",
+      "source_ids": [
+        "src_045"
+      ]
+    },
+    {
+      "label": "Rewarding Raw Prediction Errors",
+      "summary": "Using raw prediction errors as the reward signal for an exploring agent in a stochastic environment.",
+      "details": "The agent will learn to focus on situations where the world model always gets high prediction errors due to sheer randomness, getting stuck staring at unpredictable white noise.",
+      "representative_quote": "in stochastic environments, C's reward should not be the errors of M, but (an approximation of) the first derivative of M's errors across subsequent training iterations, that is, M's improvements.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Treating Symbolic and Sub-symbolic AI as Opposed",
+      "summary": "Treating symbolic AI and sub-symbolic (neural network) AI as fundamentally different or opposed fields.",
+      "details": "It ignores the mathematical reality that neural networks can emulate logic gates (NAND gates) and CPUs, making the boundary between the two approaches artificial and blurred.",
+      "representative_quote": "For me, there is no difference between symbolic AI and sub symbolic AI because I cannot see the boundary between them.",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Using BPTT/RTRL for Long Time Lags",
+      "summary": "Using conventional Back-Propagation Through Time (BPTT) or Real-Time Recurrent Learning (RTRL) for long time lag problems.",
+      "details": "The backpropagated error exponentially depends on the size of the weights, causing it to either blow up (oscillating weights) or vanish (prohibitive learning time).",
+      "representative_quote": null,
+      "source_ids": [
+        "src_015"
+      ]
+    }
+  ]
+}

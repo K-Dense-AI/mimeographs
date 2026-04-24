@@ -1,0 +1,65 @@
+{
+  "source_id": "src_053",
+  "summary": "An abstract of a twin study examining the genetic and environmental influences on childhood IQ at ages 5 and 7. The research demonstrates that the heritability of intelligence increases significantly during this period, driven by the amplification of existing genetic factors and a sharp decline in the influence of the shared family environment.",
+  "themes": [
+    "Behavioral Genetics",
+    "Cognitive Development",
+    "Twin Studies",
+    "Heritability of IQ",
+    "Environmental Influences"
+  ],
+  "principles": [
+    {
+      "statement": "The heritability of intelligence increases significantly as children transition from early to middle childhood.",
+      "rationale": "Data from Dutch twins shows that genetic factors explain only 27% of IQ variance at age 5, but jump to 62% by age 7, driven by both increased genetic variance and decreased shared environmental variance.",
+      "source_quote": "At age 7, genetic factors explain 62% of the variance in IQ scores. This increase in heritability is due both to an increase in the total genetic variance and to a decrease in the amount of variance explained by shared environmental factors.",
+      "source_id": "src_053"
+    },
+    {
+      "statement": "The increase in genetic influence on childhood IQ is due to the amplification of existing genetic factors, not the emergence of new ones.",
+      "rationale": "Applying a developmental model to twin data from ages 5 and 7 showed continuity in genetic influences without new genetic expressions at the later age.",
+      "source_quote": "There is no evidence of new genetic influences being expressed at age 7.",
+      "source_id": "src_053"
+    },
+    {
+      "statement": "The impact of shared family environment on a child's intelligence diminishes rapidly after early childhood.",
+      "rationale": "While shared family background accounts for half the variance in IQ at age 5, its relative importance drops to just 10% by age 7.",
+      "source_quote": "At age 5, the shared family environment accounts for half of the variance in IQ. At age 7, the influence of the family environment decreases to 10%.",
+      "source_id": "src_053"
+    },
+    {
+      "statement": "Unique environmental influences on intelligence act age-specifically and remain relatively stable in their proportional impact during early childhood.",
+      "rationale": "Unlike genetic and shared environmental factors which shift dramatically between ages 5 and 7, unique environmental factors consistently account for about a quarter of the variance.",
+      "source_quote": "Unique environment acts age specifically and accounts for roughly a quarter of the total variance in IQ both at ages 5 and 7.",
+      "source_id": "src_053"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Developmental Genetic Architecture",
+      "description": "A lens for analyzing cognitive development by tracking how the relative proportions of genetic variance, shared environmental variance, and unique environmental variance change continuously over a lifespan.",
+      "example": "Applying a developmental model to twin data to reveal that the genetic architecture of IQ shifts from being predominantly influenced by shared family environment at age 5 to being predominantly influenced by genetics at age 7.",
+      "source_id": "src_053"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Results show that genetic influences persist from age 5 to age 7 and greatly gain in relative importance during this period.",
+      "context": "Summarizing the core finding regarding the changing genetic architecture of childhood IQ.",
+      "source_id": "src_053"
+    },
+    {
+      "text": "There is no evidence of new genetic influences being expressed at age 7.",
+      "context": "Explaining that the increase in heritability is due to existing genes gaining importance rather than new genes activating.",
+      "source_id": "src_053"
+    },
+    {
+      "text": "At age 5, the shared family environment accounts for half of the variance in IQ. At age 7, the influence of the family environment decreases to 10%.",
+      "context": "Highlighting the rapid decline of shared environmental influence on cognitive functioning as children grow.",
+      "source_id": "src_053"
+    }
+  ],
+  "anti_patterns": []
+}

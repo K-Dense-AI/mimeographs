@@ -1,0 +1,92 @@
+{
+  "source_id": "src_032",
+  "summary": "In this Fall 2019 lecture, Pieter Abbeel outlines the promises and pitfalls of Model-Based Reinforcement Learning. He highlights how model-based methods offer superior sample efficiency but often suffer from 'model-bias' and training instability. To address these issues, he advocates for ensemble methods (like ME-TRPO) and meta-policy optimization (MB-MPO) to create adaptive policies that are robust to imperfect models.",
+  "themes": [
+    "Model-Based Reinforcement Learning",
+    "Sample Efficiency",
+    "Overfitting / Model-Bias",
+    "Ensemble Methods",
+    "Meta-Learning",
+    "Latent Space Dynamics"
+  ],
+  "principles": [
+    {
+      "statement": "Model-based RL offers much better sample efficiency but traditionally suffers from training instability and lower asymptotic performance.",
+      "rationale": "Learning a model gets more out of the data, allowing for more significant policy updates, but imperfect models lead to suboptimal real-world policies.",
+      "source_quote": "Anticipated benefit? – much better sample efficiency\nSo why not used all the time?\n-- training instability\n-- not achieving same asymptotic performance as model-free methods",
+      "source_id": "src_032"
+    },
+    {
+      "statement": "Instead of trying to learn a single perfect dynamics model, learn an adaptive policy over an ensemble of models.",
+      "rationale": "Because learned models are imperfect, policies optimized on them perform well in simulation but fail in the real world. An adaptive policy trained across an ensemble can quickly adapt to how the real world actually works.",
+      "source_quote": "Learn an ***adaptive policy*** that can quickly adapt to any of the learned models\nSuch adaptive policy can quickly adapt to how the real world works",
+      "source_id": "src_032"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Standard Model-Based RL",
+      "when_to_apply": "When you want to improve data efficiency by learning a dynamics model from past data.",
+      "steps": [
+        "Collect data under current policy",
+        "Learn dynamics model from past data",
+        "Improve policy by using dynamics model"
+      ],
+      "source_quote": "for iter = 1, 2, …\nn Collect data under current policy\nn Learn dynamics model from past data\nn Improve policy by using dynamics model",
+      "source_id": "src_032"
+    },
+    {
+      "name": "Model-Based RL via Meta Policy Optimization (MB-MPO)",
+      "when_to_apply": "When learned models are imperfect and you need a policy that can adapt to the real world.",
+      "steps": [
+        "Collect data under current adaptive policies",
+        "Learn ENSEMBLE of K simulators from all past data",
+        "Meta-policy optimization over ENSEMBLE",
+        "Generate new meta-policy and new adaptive policies"
+      ],
+      "source_quote": "for iter = 1, 2, …\nn collect data under current adaptive policies\nn learn ENSEMBLE of K simulators from all past data\nn meta-policy optimization over ENSEMBLE",
+      "source_id": "src_032"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Model-Bias (Overfitting in Model-based RL)",
+      "description": "Unlike standard supervised learning overfitting, model-based RL overfitting occurs when policy optimization exploits regions of the state space where there is insufficient data to train the model accurately, leading to catastrophic failures.",
+      "example": "Using Model-Ensemble Trust Region Policy Optimization (ME-TRPO) to prevent the policy from exploiting a single inaccurate model.",
+      "source_id": "src_032"
+    }
+  ],
+  "heuristics": [
+    "Get model out of data, which might allow for more significant policy updates than just a policy gradient.",
+    "When learning a forward model in latent space, require features from t and t+1 to be sufficient to predict a_t to prevent latent features from collapsing to zero."
+  ],
+  "signature_quotes": [
+    {
+      "text": "policy optimization tends to exploit regions where insufficient data is available to train the model, leading to catastrophic failures",
+      "context": "Explaining the new overfitting challenge specific to Model-based RL.",
+      "source_id": "src_032"
+    },
+    {
+      "text": "Learn an ***adaptive policy*** that can quickly adapt to any of the learned models",
+      "context": "Describing the key idea behind MB-MPO.",
+      "source_id": "src_032"
+    },
+    {
+      "text": "Get model out of data, which might allow for more significant policy updates than just a policy gradient",
+      "context": "Explaining the anticipated benefits of Model-Based RL.",
+      "source_id": "src_032"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Attempting to fix simulation-to-real transfer simply by trying to learn a better single dynamics model.",
+      "why_it_fails": "Because the learned model is imperfect, the resulting policy might be good in simulation but not optimal in the real world. Such efforts have so far proven insufficient.",
+      "source_id": "src_032"
+    },
+    {
+      "description": "Learning a forward model in latent space without action-prediction constraints.",
+      "why_it_fails": "Without constraints, the latent features could always be zero. You must require the features from t and t+1 to be sufficient to predict the action at t.",
+      "source_id": "src_032"
+    }
+  ]
+}

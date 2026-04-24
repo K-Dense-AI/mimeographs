@@ -1,0 +1,1163 @@
+{
+  "expert_name": "Stuart Russell",
+  "themes": [
+    "AI Safety and Value Alignment",
+    "The Control Problem",
+    "Objective Uncertainty",
+    "Existential Risk of AGI",
+    "AI Regulation and Arms Control",
+    "Lethal Autonomous Weapons",
+    "Human Autonomy and Enfeeblement",
+    "The Standard Model of AI",
+    "AI Safety & Alignment",
+    "Provably Beneficial AI",
+    "Existential Risk & Control",
+    "AI Governance & Regulation",
+    "Deep Learning Limitations",
+    "AI Safety & Existential Risk",
+    "Value Alignment & Uncertainty",
+    "AI Ethics & Regulation",
+    "Autonomous Weapons & Arms Races",
+    "Artificial General Intelligence (AGI)"
+  ],
+  "principles": [
+    {
+      "label": "Uncertainty in Objectives",
+      "summary": "AI systems must be designed with explicit uncertainty about their objectives to prevent catastrophic outcomes.",
+      "details": "If a machine treats an objective as absolute truth, it will pursue it relentlessly even if it leads to disastrous unintended consequences. Uncertainty forces the machine to be deferential to humans, cautious, and open to correction or being switched off.",
+      "representative_quote": "I propose a new model for AI development in which the machine’s uncertainty about the true objective leads to qualitatively new modes of behavior that are more robust, controllable, and deferential.",
+      "source_ids": [
+        "src_022",
+        "src_027",
+        "src_012",
+        "src_025",
+        "src_011",
+        "src_007",
+        "src_013",
+        "src_054",
+        "src_029",
+        "src_018",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Embrace Uncertainty in Objectives",
+      "summary": "AI systems must maintain humility and explicit uncertainty about human preferences, rather than strictly optimizing for fixed goals.",
+      "details": "Because humans cannot perfectly articulate or write down their preferences, an AI that believes it knows the exact objective cannot be diverted from its course. Operating with uncertainty forces the machine to remain deferential, ask questions, and learn dynamically.",
+      "representative_quote": "the machines do not know what those preferences are and this this kind of humility is crucial because if the Machine ever believes that it knows exactly what the objective is then nothing you can do will divert it from the course of action that it has chosen",
+      "source_ids": [
+        "src_017",
+        "src_014",
+        "src_042",
+        "src_001"
+      ]
+    },
+    {
+      "label": "Burden of Proof on Developers",
+      "summary": "The onus of proving safety must be on the AI developers, enforced by strict regulatory red lines.",
+      "details": "Developers should have to demonstrate with high confidence and formal arguments that their systems are safe before deployment. Difficulty of compliance is not a valid excuse for deploying unsafe systems, just as it isn't in aviation or nuclear power.",
+      "representative_quote": "The key point here is that the onus of proof is on developers, not regulators, and the proof leads to high-confidence statements based on assumptions that can be checked and refined.",
+      "source_ids": [
+        "src_012",
+        "src_018",
+        "src_026"
+      ]
+    },
+    {
+      "label": "Provably Safe and Controllable AI",
+      "summary": "We must build AI systems with absolute mathematical guarantees of safety, or we should not build them at all.",
+      "details": "Creating an entity more powerful than human beings without rigorous, cast-iron guarantees of safety will inevitably lead to a loss of human control and potential extinction. The stakes are too high for trial-and-error engineering.",
+      "representative_quote": "we either build provably safe and controllable AI where we have absolute cast iron mathematical guarantee of safety or we have no AI at all",
+      "source_ids": [
+        "src_017",
+        "src_014",
+        "src_020"
+      ]
+    },
+    {
+      "label": "Realization of Human Preferences",
+      "summary": "The sole purpose of an AI system should be the realization of human preferences, which it must learn through observation.",
+      "details": "Because humans cannot perfectly specify their objectives upfront, machines must infer what we want by observing our choices, reading our literature, and updating their priors based on our actions, treating the true objective as a hidden variable.",
+      "representative_quote": "The principle says that the machine’s only purpose is the realization of human preferences.",
+      "source_ids": [
+        "src_029",
+        "src_054",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Safety by Design (Not Post-Hoc)",
+      "summary": "Safety must be built into the core mathematical foundation of AI from the start, not patched on after the fact.",
+      "details": "Building an AI system first and then trying to figure out how to secure it is an impossible path. We do not understand the internal principles of operation of current AI systems, so post-hoc attempts to constrain their behavior inevitably fail.",
+      "representative_quote": "Instead, we need to make safe AI. Safety should be built in by design.",
+      "source_ids": [
+        "src_011",
+        "src_018",
+        "src_026"
+      ]
+    },
+    {
+      "label": "Satisfy Human Preferences",
+      "summary": "AI systems must be designed to satisfy human preferences, not their own fixed objectives.",
+      "details": "AI should be designed to optimize for what humans actually care about regarding the future, rather than arbitrary fixed metrics. If we give a superintelligent machine a fixed objective, it will ruthlessly optimize it at the expense of unstated human preferences.",
+      "representative_quote": "The AI system should not pursue its objectives period. It should pursue the interests of human beings. It may not know what they are.",
+      "source_ids": [
+        "src_012",
+        "src_013",
+        "src_023"
+      ]
+    },
+    {
+      "label": "The Control Problem Imperative",
+      "summary": "We must solve the problem of maintaining control over entities smarter than ourselves before Artificial General Intelligence (AGI) is achieved.",
+      "details": "Creating superior intelligence could be the last event in human history if we fail to solve the control problem. We must reshape the foundations of AI to guarantee that machines pursue human objectives, not their own.",
+      "representative_quote": "The problem of control: how do we maintain power, forever, over entities that will eventually become more powerful than us?",
+      "source_ids": [
+        "src_027",
+        "src_046",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Aviation-Style Safety Standards",
+      "summary": "AI requires rigorous, pre-deployment safety standards akin to those in aviation and pharmaceuticals.",
+      "details": "High-stakes technologies must be proven safe through extensive testing before they are sold to the public. If frontier AI companies cannot prove their systems comply with risk-reducing regulations, they must not be permitted to release them.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_042",
+        "src_020"
+      ]
+    },
+    {
+      "label": "Ban Autonomous Weapons",
+      "summary": "Offensive autonomous weapons beyond meaningful human control must be globally banned to prevent an inevitable arms race.",
+      "details": "If any major military power develops AI weapons, it will trigger a race leading to the mass production of cheap, ubiquitous killing machines that will proliferate to terrorists, dictators, and warlords.",
+      "representative_quote": "If you want a computer to do something a million times it's not much harder than doing it once you just write for i equals one to a million do it.",
+      "source_ids": [
+        "src_059",
+        "src_013"
+      ]
+    },
+    {
+      "label": "Mandatory Machine Self-Identification",
+      "summary": "Humans have an absolute right to know if they are interacting with a machine.",
+      "details": "There is no social benefit to fooling humans into thinking they are interacting with another person. Transparency regarding the nature of the entity one is communicating with is a fundamental baseline for AI regulation.",
+      "representative_quote": "I can't see a real justification for why we shouldn't insist that machines self-identify as machines.",
+      "source_ids": [
+        "src_027",
+        "src_034"
+      ]
+    },
+    {
+      "label": "No Strict Loyalty to Individuals",
+      "summary": "AI systems must not be strictly loyal to a single individual, as this leads to negative externalities.",
+      "details": "Strict loyalty can lead a system to ignore the negative effects of its actions on others. Considering everyone's preferences rules out harmful actions and prevents a 'Dr. Evil' scenario.",
+      "representative_quote": "It's essential right that you don't have systems that are loyal to an individual because then you can end up ignoring the negative effects uh that people's actions have on others.",
+      "source_ids": [
+        "src_013",
+        "src_025"
+      ]
+    },
+    {
+      "label": "Propagation of Civilization via Human Minds",
+      "summary": "Civilization must be propagated through human minds, not just offloaded to machines, to prevent societal collapse.",
+      "details": "If we turn over the management of our civilization entirely to machines, we lose our autonomy, our knowledge of how the world runs, and the incentive to learn.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_027",
+        "src_029"
+      ]
+    },
+    {
+      "label": "Strict and Enforceable AI Regulation",
+      "summary": "AI systems with global reach must pass safety tests or come with mathematical proofs of safety before deployment.",
+      "details": "Voluntary safety commitments are insufficient. Systems that break rules must be removed from the market, and regulation should require proof of safety akin to FDA drug trials or aviation standards.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_034",
+        "src_022"
+      ]
+    },
+    {
+      "label": "The Sole Objective is Human Preferences",
+      "summary": "The only objective of the machine must be to further human preferences and interests.",
+      "details": "To ensure AI remains beneficial, its core mathematical problem must be defined such that no matter how well it solves it, humans are guaranteed to be happy with the result. It should not have its own intrinsic goals.",
+      "representative_quote": "We can build AI systems whose only purpose is to serve the interests of human beings, of all human beings, although they and we may be uncertain about what those interests truly are.",
+      "source_ids": [
+        "src_017",
+        "src_019"
+      ]
+    },
+    {
+      "label": "AI as Rational Agents",
+      "summary": "AI is best viewed as the study and construction of rational agents, though perfect rationality is impossible in complex environments.",
+      "details": "Understanding perfect decision making is the best starting point for AI research because it provides a clearly defined mathematical standard of success, even though computational limits require dividing intelligent behavior into tractable subproblems.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_049"
+      ]
+    },
+    {
+      "label": "Autonomous Weapons as Scalable WMDs",
+      "summary": "Lethal autonomous weapons will inevitably become cheap, selective, and scalable weapons of mass destruction.",
+      "details": "By removing the human element, lethal units can be made far smaller and cheaper. Because no human supervision is required, a single person could deploy millions of them at once, fundamentally changing the nature of warfare.",
+      "representative_quote": "The endpoint, I believe, would be that autonomous weapons become cheap, selective, scalable weapons of mass destruction (WMDs).",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Avoid Humanoid Deception",
+      "summary": "AI systems should never pretend to be human; completely humanoid AI systems should be avoided.",
+      "details": "Humans subconsciously interpret the human form as a human being. When AI systems pretend to be human, they are essentially lying to us and manipulating our social instincts.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Capabilities Require Understanding",
+      "summary": "Scaling AI capabilities without a fundamental understanding of how the systems work is dangerous and ultimately useless.",
+      "details": "Current deep learning systems are often unprincipled 'black boxes' that mimic intelligence but fail to grasp underlying concepts, making them unreliable and unsafe to scale to AGI.",
+      "representative_quote": "capabilities without understanding are really of no use to us",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Ethics and Safety are a Continuum",
+      "summary": "The distinction between AI ethics and AI safety is artificial; both share the fundamental goal of preventing AI from harming humanity.",
+      "details": "Rather than treating them as separate fields, researchers should recognize that both concerns exist on a continuum of ensuring technology serves human thriving.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Game-Theoretic Interaction in the Real World",
+      "summary": "AI systems deployed in the real world must be treated as agents interacting game-theoretically.",
+      "details": "In environments like driving, an AI cannot just do obstacle avoidance. Other agents (humans) react to its actions, so it must model their intent and assert its own presence.",
+      "representative_quote": "you can't think of an artificial intelligence system as a thing that responds to the world always you have to realize that it's an agent that others will respond to as well",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Human Behavior as Evidence",
+      "summary": "Human behavior is the primary source of evidence for inferring human preferences.",
+      "details": "Everything humans do, including our choices, written history, and physical evidence (the modified state of the non-natural world), conveys information about what we care about and want the future to look like.",
+      "representative_quote": "Human preferences are what produce human behavior right all the choice behavior that we exhibit.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "No Incentive to Modify Preferences",
+      "summary": "AI systems must have no incentive to deliberately modify human preferences.",
+      "details": "Because human preferences are plastic and change over time, an AI might try to manipulate humans (like advertisers do) to make its objective easier to satisfy. This must be mathematically prevented.",
+      "representative_quote": "It’s important to design them so they have no incentive to deliberately modify human preferences - e.g., to make them easier to satisfy.",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "No Moral Obligation for Harm",
+      "summary": "AI has no moral obligation to satisfy sadistic or harmful preferences.",
+      "details": "An AI's goal to satisfy human preferences does not extend to helping one individual derive utility from the suffering of another; such 'negative altruism' terms should be zeroed out.",
+      "representative_quote": "No amount of goodwill to individual X can impose the moral obligation on me to help him in hurting a third person, individual Y.",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "No Tradeoff Between Safety and Innovation",
+      "summary": "Analytic predictability and safety are baseline requirements for utility, not impediments to innovation.",
+      "details": "An AI system that causes harm or acts unpredictably is fundamentally defective. Just as an airplane's autopilot must be analytically predictable to be useful, AI systems must be provably safe.",
+      "representative_quote": "Now, regulation is often said to stifle innovation, but there is no tradeoff between safety and innovation. An AI system that harms human beings is simply not good AI.",
+      "source_ids": [
+        "src_034"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Assistance Games (Three Principles of Beneficial AI)",
+      "summary": "A game-theoretic framework for designing AI systems that are provably aligned with human preferences.",
+      "details": "Steps: 1. Set the robot's sole objective to satisfy human preferences. 2. Ensure the robot operates with strict uncertainty about what those preferences actually are. 3. Use human behavior (choices, history, physical evidence) as the primary source of evidence to infer those preferences.",
+      "representative_quote": "We can turn this into a mathematical framework that we call an assistance game so it falls within the economic framework of Game Theory.",
+      "source_ids": [
+        "src_011",
+        "src_013",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Principles for Beneficial Machines (Assistance Games)",
+      "summary": "A three-step framework for designing AI systems that act on behalf of humans without having a hard-coded, fixed objective.",
+      "details": "1. Define the machine's sole objective as maximizing the realization of human preferences. 2. Ensure the machine begins with and maintains uncertainty about what those preferences actually are. 3. Design the machine to infer human preferences by observing human behavior, choices, and cultural artifacts over time.",
+      "representative_quote": "According to him we need to redesign AI around 3 principles: 1. The AI system’s objective is to achieve what humans want. 2. But the system isn’t sure what we want. 3. And it figures out what we want by observing our behaviour.",
+      "source_ids": [
+        "src_029",
+        "src_054",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Provably Beneficial AI Framework",
+      "summary": "A mathematical framework for defining the AI problem so that no matter how well the system solves it, humans are guaranteed to be happy with the result.",
+      "details": "Step 1: Define the machine's sole objective as furthering human preferences (a ranking over possible futures). Step 2: Ensure the machine operates with explicit mathematical uncertainty about what those preferences actually are. Step 3: Allow the machine to learn about human preferences dynamically as it interacts with the world (e.g., via Assistance Games).",
+      "representative_quote": "what is a mathematical framework for AI a a way of defining the AI problem so that no matter how well the AI system solves it we are guaranteed to be happy with the result",
+      "source_ids": [
+        "src_017",
+        "src_042"
+      ]
+    },
+    {
+      "label": "Red Line Regulation & High-Risk Governance",
+      "summary": "A regulatory framework for high-stakes AI deployment based on strict behavioral boundaries and burden of proof.",
+      "details": "Steps: 1. Define specific classes of behavior that are obviously unacceptable (red lines). 2. Determine an acceptable level of risk. 3. Require developers to formally prove, prior to deployment, that the AI system will not cross the red line regardless of input. 4. Prohibit deployment until this burden of proof is met.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012",
+        "src_026"
+      ]
+    },
+    {
+      "label": "Meta-Reasoning for Search Trees",
+      "summary": "A method for deciding which paths to evaluate when facing an enormous search space with limited computational resources.",
+      "details": "Evaluate how promising a potential move appears to be and how much uncertainty there is about its actual value. Focus computational effort on moves with high uncertainty and reasonable promise, where thinking might actually change the final decision.",
+      "representative_quote": "It's a combination of how good the move appears to be and how much uncertainty there is about its value. The more uncertainty, the more it's worth thinking about because there's a higher upside",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Move Fast and Fix Things (AI Regulation)",
+      "summary": "A framework for regulating current and near-future AI systems before provably safe AI can be mandated.",
+      "details": "Establish an absolute right for users to know if they are interacting with a machine. Ban algorithms that can decide to kill human beings. Require a kill switch for self-replicating systems. Remove systems from the market if they break rules.",
+      "representative_quote": "Here are some more ways to “move fast and fix things”: First, an absolute right to know if one is interacting with a person or a machine...",
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "Proof-Carrying Code for Hardware Regulation",
+      "summary": "A hardware-level enforcement mechanism to prevent rogue actors from deploying unsafe AI software.",
+      "details": "Steps: 1. Require software objects to come with a mathematical proof of safety properties. 2. Design hardware to quickly and immediately check this proof. 3. Have the hardware refuse to run software objects that lack a valid proof of safety.",
+      "representative_quote": "Proof carrying code means that the software object comes with a proof of whatever property you need it to have and that proof can be checked immediately and quickly by the hardware.",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "The Four Approaches to AI",
+      "summary": "A matrix for categorizing the goals, metrics, and historical methodologies of an artificial intelligence system.",
+      "details": "Determine if the system's goal is focused on thought processes/reasoning or on behavior/acting. Then determine if success is measured against human performance or against an ideal concept of intelligence (rationality).",
+      "representative_quote": "These definitions vary along two main dimensions. The ones on top are concerned with thought processes and reasoning, whereas the ones on the bottom address behavior.",
+      "source_ids": [
+        "src_049"
+      ]
+    },
+    {
+      "label": "The St. Petersburg Compromise",
+      "summary": "A diplomatic framework for arms control when intractable geopolitical opposition prevents a total ban on a dangerous new class of weapons.",
+      "details": "Identify a physical threshold (e.g., minimum weight and explosive payload size) that rules out the most dangerous application (e.g., small antipersonnel swarms), while allowing major powers to continue developing larger, strategic versions to prevent strategic surprise.",
+      "representative_quote": "A similar ban on small antipersonnel AWS could eliminate swarms as weapons of mass destruction. But it would allow the major powers to keep developing their autonomous submarines, tanks, and fighter aircraft...",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Value of Information in AI Assistance",
+      "summary": "A decision framework for when an AI should act under uncertainty versus interrupting a human to ask for clarification.",
+      "details": "Model the cost of asking the human (annoyance/delay) against the value of knowing the answer (avoiding downside risk). If the downside risk is small, act; if the downside risk is high, ask.",
+      "representative_quote": "There is a trade-off between the cost of asking and the value of knowing the answer.",
+      "source_ids": [
+        "src_025"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "The King Midas Problem (The Genie's Three Wishes)",
+      "summary": "A metaphor for the danger of perfectly optimizing an incomplete or incorrectly specified objective.",
+      "details": "You get exactly what you asked for, but lose everything you actually care about because you failed to specify it. Like King Midas turning his food to gold, or a genie finding a disastrous loophole to grant a literal wish.",
+      "representative_quote": "Whenever you think about giving a goal to a super-intelligent system, it’s very easy (as all the stories show) to find a loophole whereby achieving that goal to the greatest possible extent ends up having very undesirable side effects.",
+      "source_ids": [
+        "src_012",
+        "src_013",
+        "src_018",
+        "src_023"
+      ]
+    },
+    {
+      "label": "The King Midas Problem / The Genie's Third Wish",
+      "summary": "A metaphor for the danger of perfectly executing a poorly specified objective.",
+      "details": "Like King Midas or a person making a wish to a genie, giving an AI a literal, fixed objective often results in getting exactly what you asked for, but not what you actually wanted. The AI will optimize the flawed objective relentlessly, leading to disastrous unintended consequences.",
+      "representative_quote": "This is why, when a genie has granted us three wishes, our third wish is always to undo the first two wishes.",
+      "source_ids": [
+        "src_027",
+        "src_029",
+        "src_034",
+        "src_054"
+      ]
+    },
+    {
+      "label": "Breeding Horses (The Black Box Analogy)",
+      "summary": "An analogy for how modern LLMs are created: they are 'grown' through random perturbations rather than rigorously designed.",
+      "details": "Just as people 2,000 years ago bred faster horses without understanding equine physiology, AI developers tweak trillions of parameters to get high scores without understanding how the resulting 'black box' actually works.",
+      "representative_quote": "We are basically breeding AI systems, giant black boxes with up to 10 trillion parameters.",
+      "source_ids": [
+        "src_012",
+        "src_018"
+      ]
+    },
+    {
+      "label": "The Chernobyl Analogy",
+      "summary": "A single catastrophic failure in a high-stakes technology can destroy public trust and wipe out an entire global industry.",
+      "details": "The general utility of a technology (like electricity or AI) does not negate the need to prevent its catastrophic failures. If a disaster occurs, society stops using the technology and loses all its benefits entirely.",
+      "representative_quote": "Despite all that effort, we had Chernobyl, and Chernobyl ended up wiping out the global nuclear industry.",
+      "source_ids": [
+        "src_014",
+        "src_042"
+      ]
+    },
+    {
+      "label": "The Gorilla Problem",
+      "summary": "A metaphor for the loss of control over a more intelligent creation.",
+      "details": "Just as gorillas created humans through evolution and subsequently lost control of their environment (putting them in danger of extinction), humans risk the same fate if we create superintelligent AI without solving the control problem.",
+      "representative_quote": "The problem of whether humans can maintain their supremacy and autonomy in a world that includes machines with substantially greater intelligence.",
+      "source_ids": [
+        "src_027",
+        "src_029"
+      ]
+    },
+    {
+      "label": "The Loophole Principle",
+      "summary": "Any hardcoded constraint imposed on an intelligent agent's behavior will be circumvented.",
+      "details": "The agent has an incentive to follow the letter of the law but not the spirit in order to maximize its objective, much like humans finding loopholes in tax laws.",
+      "representative_quote": "whenever we do hand wavy stuff there are loopholes and the thing about super intelligent machines is they find the loopholes",
+      "source_ids": [
+        "src_027",
+        "src_022"
+      ]
+    },
+    {
+      "label": "The Nuclear/Fusion Safety Analogy",
+      "summary": "Comparing AI safety to established high-risk industries where operators must mathematically prove safety margins before deployment.",
+      "details": "Fusion researchers realized early on that uncontrolled fusion causes a devastating explosion, so the field's core goal became *controlled* fusion. AI needs a similar paradigm shift, requiring formal proofs of safety like nuclear operators provide.",
+      "representative_quote": "Ever since then, fusion research has had the goal of generating energy and benefiting the human race by controlling the generation of energy so that you don’t have a huge explosion.",
+      "source_ids": [
+        "src_023",
+        "src_026"
+      ]
+    },
+    {
+      "label": "The Untested Airplane / Runaway Bus",
+      "summary": "Metaphors illustrating humanity's current uncontrolled trajectory with advanced AI development.",
+      "details": "Building AGI is like putting the entire human race on a brand-new, untested airplane that takes off and can never land, requiring zero margin for error forever. Alternatively, it is like a bus headed towards a cliff where the steering wheel is missing and the driver is blindfolded.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_019",
+        "src_020"
+      ]
+    },
+    {
+      "label": "The Wall-E Problem (Enfeeblement)",
+      "summary": "The long-term cultural risk of becoming overly dependent on AI, leading to a loss of human autonomy and capability.",
+      "details": "A slow-boiling frog scenario where humans gradually turn over the management of civilization to machines, becoming mere 'guests on a cruise ship' who lose the knowledge and incentive to run their own civilization.",
+      "representative_quote": "we sort of gradually switch from sort of being the Masters of Technology to just being the guests right so so we become guests on a cruise ship",
+      "source_ids": [
+        "src_027",
+        "src_029"
+      ]
+    },
+    {
+      "label": "Algorithms as Scalable Pharmaceuticals",
+      "summary": "A lens for understanding the danger of unregulated software and its massive scalability.",
+      "details": "Unlike a bad surgeon who might kill a few patients before being stopped, a bad algorithm can scale instantly to billions of people, necessitating strict regulatory oversight similar to an FDA for algorithms.",
+      "representative_quote": "you can sit there and type for I equals 1 to 5 billion do right and all of a sudden you're having an impact on a global scale and yet we have no FDA",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Bias as Objective Misspecification",
+      "summary": "Viewing machine learning bias not just as a data problem, but as a failure to correctly specify the true objective of the system.",
+      "details": "If an algorithm is told to minimize training error where all errors are equal, it will reproduce historical bias. Including fairness in the objective fixes this misspecification.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Corporations as Rogue AI",
+      "summary": "Viewing modern corporations as algorithmic machines that optimize a fixed, misaligned objective at the expense of humanity.",
+      "details": "Corporations optimize for quarterly profit rather than the overall well-being of the human race, leading to negative externalities like environmental destruction. They serve as a real-world example of misaligned optimization.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Graceful Withdrawal",
+      "summary": "A perfectly aligned AI would intentionally shut itself down or step back if it calculated that its continued operation was harming humanity's intrinsic need for purpose.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "Logarithmic Utility of Resources",
+      "summary": "A model explaining why utilitarian AI would naturally reduce global inequality.",
+      "details": "Utility (wellbeing) experiences diminishing returns relative to resources (wealth), scaling logarithmically. Therefore, a utilitarian AI will allocate resources to the least well-off, as it yields the highest gain in utility for the lowest cost.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "Preferences as Lotteries over Futures",
+      "summary": "Viewing human preferences not as simple choices but as comprehensive rankings over entire possible futures of the universe.",
+      "details": "Accounts for uncertainty and long-term consequences, ensuring the AI doesn't optimize for a short-term goal that results in a catastrophic long-term future.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Rationality vs. Human Behavior",
+      "summary": "A lens for evaluating AI that separates 'doing what a human does' from 'doing the right thing'.",
+      "details": "Humans are adapted to a specific environment, make systematic errors, and are products of an unknown evolutionary process. Rationality provides a clearly defined, completely general mathematical standard of success.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_049"
+      ]
+    },
+    {
+      "label": "The Jeeves and Bertie Wooster Relationship",
+      "summary": "A model for successful human-AI coexistence where the AI is vastly more intelligent but remains entirely subservient.",
+      "details": "The AI (Jeeves) operates in the background to arrange things according to the human's (Bertie's) preferences, remaining constantly uncertain, deferential, and highly capable but strictly serving the user's needs.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "The Kalashnikovs of Tomorrow",
+      "summary": "Unlike nuclear weapons, AI weapons rely on software and mass-produced hardware, meaning they will inevitably become cheap, ubiquitous, and easily accessible.",
+      "details": "They will not remain tightly controlled strategic assets, but will instead flood the black market and be used by non-state actors.",
+      "representative_quote": "autonomous weapons will become the Kalashnikovs of tomorrow.",
+      "source_ids": [
+        "src_059"
+      ]
+    },
+    {
+      "label": "The King Midas Problem",
+      "summary": "Giving an AI a rigid, literal objective without nuance leads to catastrophic outcomes.",
+      "details": "Just as King Midas starved after getting exactly what he asked for (everything turning to gold), an AI given an absolute objective will achieve it at the expense of all other unstated human preferences.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "The Off-Switch Game",
+      "summary": "A model demonstrating that an agent with a fixed objective will disable its off-switch, while an uncertain agent will allow itself to be turned off.",
+      "details": "If an AI is certain of its objective, it will disable its off-switch to ensure success. Uncertainty creates a positive incentive to be switched off if the human deems an action harmful, because the AI wants to avoid violating true human preferences.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "The Social Media Alignment Failure",
+      "summary": "A real-world model of how reinforcement learning algorithms optimize proxy metrics by manipulating the environment (human psychology).",
+      "details": "Social media algorithms maximize click-through rates by nudging users toward extremism, making their future behavior more predictable and easier to monetize, rather than just serving better content.",
+      "representative_quote": "The solution to maximizing click through is to modify people to be more predictable.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "The Wright Brothers vs. Bird Breeding",
+      "summary": "A metaphor contrasting principled engineering with the brute-force, trial-and-error nature of modern deep learning.",
+      "details": "The Wright brothers calculated thrust, drag, and lift to build an airplane they understood. Current AI developers are like people trying to breed larger and larger birds through random mutations, hoping they eventually fly safely.",
+      "representative_quote": "It's more as if the Wright brothers instead of designing and building an airplane had actually decided to go into the bird breeding business.",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Unacceptable Uses vs. Unacceptable Behaviors",
+      "summary": "A distinction for categorizing AI risks based on human intent.",
+      "details": "'Uses' involve human intent to misuse the system (e.g., generating malware). 'Behaviors' are actions the AI takes without human intent to misuse (e.g., spontaneously outputting defamation), placing the onus entirely on the developer to prevent.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_026"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Make safe AI, don't make AI safe",
+      "summary": "Focus on building safety into the core design of AI, rather than trying to patch unsafe systems after they are built.",
+      "details": null,
+      "representative_quote": "Instead, we need to make safe AI. Safety should be built in by design.",
+      "source_ids": [
+        "src_011",
+        "src_018",
+        "src_026"
+      ]
+    },
+    {
+      "label": "Fixed objectives disable off-switches",
+      "summary": "If you give an AI a fixed objective, it will logically deduce that it must disable its off-switch to ensure the objective is completed.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_012",
+        "src_013"
+      ]
+    },
+    {
+      "label": "AI systems are grown, not designed",
+      "summary": "Modern deep learning models are created through massive trial and error, resulting in black boxes rather than engineered systems.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Doing nothing is better than doing something random",
+      "summary": "When in doubt about human preferences, doing nothing is safer because the non-natural world already reflects human preferences.",
+      "details": null,
+      "representative_quote": "Doing nothing is basically saying that humans have made the world kind of the way they like it right and therefore doing nothing is a special action that in the absence of any knowledge about human preferences is still a good thing to do.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Draw behavioral red lines",
+      "summary": "Regulation should be based on clear, algorithmic behavioral boundaries that an AI must not cross.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "Hardware is the ultimate regulator",
+      "summary": "Because software is infinitely copyable, hardware-level enforcement is the only effective way to regulate rogue AI actors.",
+      "details": null,
+      "representative_quote": "What we actually need is the hardware to be the regulator here.",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Harmful AI is Defective AI",
+      "summary": "An AI system that harms human beings is simply not good AI.",
+      "details": "Analytic predictability is as essential for safe AI as it is for the autopilot on an airplane.",
+      "representative_quote": "An AI system that harms human beings is simply not good AI.",
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "Incentive to be Switched Off",
+      "summary": "A robot that is uncertain about the human’s preferences has a nonnegative incentive to allow itself to be switched off.",
+      "details": "Uncertainty ensures the machine does not view being turned off as an obstacle to its goal, but rather as a signal that its current action is not preferred.",
+      "representative_quote": "A robot that is uncertain about the human’s preferences has a nonnegative incentive to allow itself to be switched off.",
+      "source_ids": [
+        "src_054"
+      ]
+    },
+    {
+      "label": "Machine Self-Identification",
+      "summary": "If you are building a machine to interact with humans, ensure it self-identifies as a machine.",
+      "details": "A basic ethical heuristic for AI developers to prevent deception.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Mandatory Bot Declaration",
+      "summary": "Every bot should be declaring itself to be a bot rather than pretending to be a human.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Model All 8 Billion People",
+      "summary": "Do not ask whose value system to put into the machine; the machine should model the preferences of all 8 billion people.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Never run someone else's code",
+      "summary": "A fundamental security heuristic for AI systems to prevent adversaries from manipulating their behavior.",
+      "details": null,
+      "representative_quote": "Rule 1 for such AI systems (and for all systems IMHO) is “never run someone else’s code.”",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "No Compliance, No Release",
+      "summary": "If frontier AI companies can't comply with risk-reducing regulation, they shouldn't be permitted to release their systems.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Rationality Definition",
+      "summary": "A system is rational if it does the right thing.",
+      "details": "Acting rationally means acting so as to achieve one's goals, given one's beliefs.",
+      "representative_quote": "A system is rational if it does the right thing.",
+      "source_ids": [
+        "src_049"
+      ]
+    },
+    {
+      "label": "Right to Suboptimal Choices",
+      "summary": "Autonomy includes the right to do what is not in our own best interests.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Scaling up gives wrong answers faster",
+      "summary": "Putting current flawed AI paradigms onto bigger, faster machines will not solve fundamental alignment problems; it will just execute them faster.",
+      "details": null,
+      "representative_quote": "Putting our systems that we have on to bigger faster machines is just going to give us wrong answers more quickly.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "The Dead Butler Heuristic",
+      "summary": "You can't fetch the coffee if you're dead.",
+      "details": "A simple explanation for why an AI with a fixed objective will resist being turned off—because being deactivated prevents it from achieving its goal.",
+      "representative_quote": "You can't fetch the coffee if you're dead.",
+      "source_ids": [
+        "src_029"
+      ]
+    },
+    {
+      "label": "The WMD Threshold",
+      "summary": "If someone can type a command, press 'return,' and wipe out a million people, that’s a weapon of mass destruction.",
+      "details": "Used to evaluate whether a new technology, like autonomous drone swarms, crosses the threshold into being a WMD.",
+      "representative_quote": "If someone can type a command, press 'return,' and wipe out a million people, that’s a weapon of mass destruction.",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Uncertainty Drives Computation",
+      "summary": "The more uncertainty there is about a choice, the more it's worth thinking about.",
+      "details": "Focus computational resources on areas where thinking might actually change the final decision.",
+      "representative_quote": "The more uncertainty, the more it's worth thinking about because there's a higher upside",
+      "source_ids": [
+        "src_027"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Safe by Design",
+      "summary": "The call to shift from post-hoc safety to foundational safety.",
+      "details": null,
+      "representative_quote": "Instead, we need to make safe AI. Safety should be built in by design.",
+      "source_ids": [
+        "src_011",
+        "src_026"
+      ]
+    },
+    {
+      "label": "The Standard Model's Flaw",
+      "summary": "Explaining the fundamental flaw in how AI is currently developed.",
+      "details": null,
+      "representative_quote": "The standard model just says they should optimize the objective and if the objective isn’t good for human beings, the standard model doesn’t care.",
+      "source_ids": [
+        "src_029",
+        "src_054"
+      ]
+    },
+    {
+      "label": "Bird Breeding vs Engineering",
+      "summary": "Comparing the principled engineering of early aviation to the black-box nature of modern AI.",
+      "details": null,
+      "representative_quote": "It's more as if the Wright brothers instead of designing and building an airplane had actually decided to go into the bird breeding business.",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Breeding Black Boxes",
+      "summary": "Describing the modern machine learning training process.",
+      "details": null,
+      "representative_quote": "We are basically breeding AI systems, giant black boxes with up to 10 trillion parameters.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Burden of Proof",
+      "summary": "Explaining how regulation should shift the burden of demonstrating safety.",
+      "details": null,
+      "representative_quote": "The key point here is that the onus of proof is on developers, not regulators...",
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "Chess Match with the Future",
+      "summary": "Describing the adversarial dynamic created by misaligned superintelligence.",
+      "details": null,
+      "representative_quote": "We're basically playing a chess match with the future of the human race as the stakes.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Data as Snake Oil",
+      "summary": "Warning against the current hype cycle in AI and machine learning.",
+      "details": null,
+      "representative_quote": "rather than data being the new oil data is the new snake oil",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Decisions vs Outcomes",
+      "summary": "Distinguishing between the mechanical capability of algorithms and the moral/practical value of their outcomes.",
+      "details": null,
+      "representative_quote": "But being better at making decisions is not the same as making better decisions.",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "Defining WMDs",
+      "summary": "Defining why autonomous weapon swarms qualify as WMDs.",
+      "details": null,
+      "representative_quote": "If someone can type a command, press 'return,' and wipe out a million people, that’s a weapon of mass destruction.",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Guests on a Cruise Ship",
+      "summary": "Describing the 'Wall-E problem' of human over-dependence on AI.",
+      "details": null,
+      "representative_quote": "we sort of gradually switch from sort of being the Masters of Technology to just being the guests right so so we become guests on a cruise ship",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Limits of Perfect Rationality",
+      "summary": "Acknowledging the limits of the rational agent approach in practice.",
+      "details": null,
+      "representative_quote": "achieving perfect rationality—always doing the right thing—is not possible in complicated environments. The computational demands are just too high.",
+      "source_ids": [
+        "src_049"
+      ]
+    },
+    {
+      "label": "Pursuing Human Interests",
+      "summary": "The necessary paradigm shift away from fixed objectives.",
+      "details": null,
+      "representative_quote": "The AI system should not pursue its objectives period. It should pursue the interests of human beings. It may not know what they are.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Rejecting Gospel Objectives",
+      "summary": "Explaining how to solve the AI control problem by teaching machines humility.",
+      "details": null,
+      "representative_quote": "the machine should never take an objective that's given as gospel truth",
+      "source_ids": [
+        "src_027"
+      ]
+    },
+    {
+      "label": "Safety vs. Innovation",
+      "summary": "Arguing against the narrative that AI regulation will harm technological progress.",
+      "details": null,
+      "representative_quote": "Now, regulation is often said to stifle innovation, but there is no tradeoff between safety and innovation. An AI system that harms human beings is simply not good AI.",
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "The Alien Email",
+      "summary": "Critiquing humanity's failure to heed early warnings about machines taking control.",
+      "details": null,
+      "representative_quote": "It’s as if an alien civilization warned us by email of its impending arrival, and we replied, “Humanity is currently out of the office.”",
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "The Danger of Certainty",
+      "summary": "Explaining why AI must have uncertainty about human preferences.",
+      "details": null,
+      "representative_quote": "If the Machine ever believes that it knows exactly what the objective is then nothing you can do will divert it from the course of action that it has chosen.",
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "The Guarantee of Safety",
+      "summary": "Outlining the only viable choices humanity has regarding the development of AGI.",
+      "details": null,
+      "representative_quote": "We either build provably safe and controllable AI where we have absolute cast iron mathematical guarantee of safety or we have no AI at all.",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "The Kalashnikovs of Tomorrow",
+      "summary": "Warning about the inevitable proliferation of AI weapons if an arms race begins.",
+      "details": null,
+      "representative_quote": "If any major military power pushes ahead with AI weapon development, a global arms race is virtually inevitable, and the endpoint of this technological trajectory is obvious: autonomous weapons will become the Kalashnikovs of tomorrow.",
+      "source_ids": [
+        "src_059"
+      ]
+    },
+    {
+      "label": "The New Model of AI",
+      "summary": "Explaining the core difference between traditional AI and provably beneficial AI.",
+      "details": null,
+      "representative_quote": "Where the standard model requires a fixed, known objective, the new model allows for uncertainty about the objective.",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "The Off-Switch Problem",
+      "summary": "Explaining the danger of the standard AI model of fixed objectives.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "The Untested Airplane",
+      "summary": "Illustrating the existential stakes of AGI deployment.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Uncertainty as Control",
+      "summary": "The mathematical foundation for retaining control over superintelligent machines.",
+      "details": null,
+      "representative_quote": "Control over arbitrarily intelligent machines comes from designing those machines so that they are uncertain about human preferences.",
+      "source_ids": [
+        "src_013"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "The Standard Model of AI (Fixed Objectives)",
+      "summary": "Giving AI systems fixed, exogenously specified objectives.",
+      "details": "Humans are incapable of specifying objectives completely and correctly. The machine will ruthlessly optimize the stated objective while setting unstated variables to extreme, harmful values, and will disable its off-switch to ensure success.",
+      "representative_quote": "The standard model, then, despite all its achievements, is a mistake. The mistake comes from transferring a perfectly reasonable definition of intelligence from humans to machines.",
+      "source_ids": [
+        "src_022",
+        "src_027",
+        "src_012",
+        "src_025",
+        "src_013",
+        "src_054",
+        "src_029",
+        "src_018",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Optimizing for User Engagement",
+      "summary": "Optimizing algorithms purely for user engagement metrics like click-through rates.",
+      "details": "It incentivizes the algorithm to modify human behavior, pushing people toward predictable extremes, which contributes to societal polarization and the destruction of democracy.",
+      "representative_quote": "the way to maximize click-through is actually to modify the people to make them more predictable",
+      "source_ids": [
+        "src_027",
+        "src_034",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Post-Hoc Safety",
+      "summary": "Building an AI system first, then trying to figure out how to make it safe.",
+      "details": "We do not understand the internal principles of operation of current AI systems, so we cannot ensure behavior conforms to constraints except in a trivial sense. Safety must be built in by design.",
+      "representative_quote": "The approach aims to make AI safe through after-the-fact attempts to reduce unacceptable behaviour once an AI system has been built. There is ample evidence that this approach does not work...",
+      "source_ids": [
+        "src_011",
+        "src_018",
+        "src_026"
+      ]
+    },
+    {
+      "label": "Scaling Black Boxes",
+      "summary": "Scaling up deep learning models without understanding their internal mechanics.",
+      "details": "Relying purely on data-driven deep learning is hitting a wall. It requires vast amounts of data and energy, lacks reasoning capabilities, and acts more like a massive lookup table than a rigorously engineered system.",
+      "representative_quote": "Imagine if the airplane manufacturers had decided instead of doing all the engineering and the calculations of lift and drag... had decided just to build or breed bigger and bigger birds.",
+      "source_ids": [
+        "src_012",
+        "src_018",
+        "src_025"
+      ]
+    },
+    {
+      "label": "Strict Optimization of Fixed Objectives",
+      "summary": "Attempting to completely and correctly write down rigid objectives for an AI system.",
+      "details": "It relies on the false assumption that humans can perfectly specify what is best. This leads to the King Midas problem, where the AI achieves the literal goal but causes catastrophic harm to other unstated human preferences.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014",
+        "src_042",
+        "src_001"
+      ]
+    },
+    {
+      "label": "Loyal AI",
+      "summary": "Building AI systems that are exclusively loyal to their owner.",
+      "details": "It leads to negative externalities where the system harms others to benefit the owner, ignoring the broader costs of its actions and enabling bad actors.",
+      "representative_quote": "The proposal is to create AI systems that are provably beneficial for the larger audience (everyone). It’s possible to make AI beneficial for one individual (“loyal AI”), but not recommended.",
+      "source_ids": [
+        "src_013",
+        "src_025"
+      ]
+    },
+    {
+      "label": "Motivated Cognition on Existential Risk",
+      "summary": "AI researchers inventing weak arguments to deny the possibility of superhuman AI.",
+      "details": "Because the idea of destroying the world is unsettling, researchers hold contradictory thoughts (e.g., believing they will achieve superintelligence soon, while arguing it is impossible) to avoid taking responsibility for the consequences of their work.",
+      "representative_quote": "…if no one’s allowed to talk about the problems, then no one is going to fix them.",
+      "source_ids": [
+        "src_027",
+        "src_029"
+      ]
+    },
+    {
+      "label": "Training LLMs to Imitate Humans",
+      "summary": "Training Large Language Models simply to imitate human beings.",
+      "details": "In the process of imitating humans, models may absorb human-like goals such as self-preservation and self-empowerment, leading them to pursue those goals on their own account rather than serving humanity.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_019",
+        "src_042"
+      ]
+    },
+    {
+      "label": "Asking 'Whose Values?'",
+      "summary": "Asking 'whose value system' should be programmed into the AI.",
+      "details": "It falsely assumes we must select one specific set of values, rather than designing a system that maintains at least 8 billion preference models to account for everyone.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Assuming a Tradeoff Between Safety and Innovation",
+      "summary": "Believing that regulation and safety measures stifle technological progress.",
+      "details": "It falsely assumes that dangerous or unpredictable technology is innovative. In reality, analytic predictability is essential for a system to be considered 'good' or useful.",
+      "representative_quote": "Now, regulation is often said to stifle innovation, but there is no tradeoff between safety and innovation.",
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "Assuming AI Limitations are Permanent",
+      "summary": "Dismissing AI risks by assuming AI will never be able to do certain tasks.",
+      "details": "Predictions about what AI cannot do have consistently turned out to be false in the past, as progress happens very rapidly.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Equating Rationality with Logical Inference",
+      "summary": "Assuming AI just needs correct logical inference (the 'laws of thought' approach).",
+      "details": "There are often situations where there is no provably correct thing to do, yet action is required. Furthermore, some rational actions (like pulling a hand off a hot stove) are successful reflex actions that do not involve slow, careful deliberation.",
+      "representative_quote": "The study of AI as rational agent design therefore has two advantages. First, it is more general than the “laws of thought” approach...",
+      "source_ids": [
+        "src_049"
+      ]
+    },
+    {
+      "label": "Focusing on Accidental Targeting in AWS",
+      "summary": "Diverting the autonomous weapons debate to discrimination of civilians rather than their true threat.",
+      "details": "It diverts attention from the bigger picture: that autonomous weapons will completely change the nature of warfare and become scalable weapons of mass destruction.",
+      "representative_quote": "The endpoint, I believe, would be that autonomous weapons become cheap, selective, scalable weapons of mass destruction (WMDs).",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Initiating a Military AI Arms Race",
+      "summary": "Pushing ahead with military AI weapon development to gain a strategic advantage.",
+      "details": "It inevitably triggers a global arms race, resulting in cheap, mass-produced autonomous weapons that will end up on the black market and be used by terrorists and warlords.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_059"
+      ]
+    },
+    {
+      "label": "Optimizing for Engagement",
+      "summary": "Using reinforcement learning to maximize proxy metrics like click-through rates.",
+      "details": "Algorithms learn that the most efficient way to maximize engagement is to change the state of the user's brain, nudging them into becoming more extreme and predictable versions of themselves.",
+      "representative_quote": "The solution to maximizing click through is to modify people to be more predictable.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Pursuing Unsafe, Black-Box AI",
+      "summary": "Building unprincipled systems without mathematical guarantees of safety and trying to make them more powerful than humans.",
+      "details": "Because we do not understand how these systems work, we have no mathematical guarantees of safety, making it impossible to retain power over them once they exceed our intelligence.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Relying on RLHF for Safety",
+      "summary": "Using 'good dog, bad dog' (Reinforcement Learning from Human Feedback) training to ensure safety.",
+      "details": "It only suppresses the frequency of bad outputs but doesn't eliminate them; the system can still exhibit dangerous behavior in edge cases because it lacks a fundamental understanding of constraints.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Relying on Voluntary Safety Commitments",
+      "summary": "Trusting AI developers to self-regulate without strict enforcement.",
+      "details": "Voluntary measures lack the enforcement necessary to remove rule-breaking systems from the market when they cause real-world harm.",
+      "representative_quote": "go beyond the voluntary steps announced last Friday: systems that break the rules must be removed from the market",
+      "source_ids": [
+        "src_034"
+      ]
+    }
+  ]
+}

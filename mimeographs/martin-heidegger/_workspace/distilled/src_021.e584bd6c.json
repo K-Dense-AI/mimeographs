@@ -1,0 +1,122 @@
+{
+  "source_id": "src_021",
+  "summary": "This text provides an overview of Martin Heidegger's philosophy, primarily focusing on his magnum opus 'Being and Time'. It details his critique of traditional 'substance ontology', his introduction of 'Dasein' to analyze human existence through temporality, and his effort to recover the original Greek experience of Being and truth as unconcealment (aletheia) rather than mere correctness.",
+  "themes": [
+    "Fundamental Ontology",
+    "Temporality and Time",
+    "Dasein and Human Existence",
+    "Truth as Unconcealment (Aletheia)",
+    "Critique of Substance Ontology",
+    "Authenticity and Death"
+  ],
+  "principles": [
+    {
+      "statement": "Ontology must first inquire into the meaning of being before analyzing beings.",
+      "rationale": "Without clarifying the meaning of being itself, any ontological inquiry remains superficial and fails to understand the conditions that make beings accessible to us.",
+      "source_quote": "ontology as such, the question of being, \"remains itself naïve and opaque\" if it fails to inquire first into the meaning of being",
+      "source_id": "src_021"
+    },
+    {
+      "statement": "Truth is fundamentally unconcealment (aletheia), not merely the correctness of a statement.",
+      "rationale": "Before a statement can be judged as correct or incorrect, the being it refers to must first emerge from concealment and manifest itself in the light.",
+      "source_quote": "Truth as un-concealment is not an appendage to being. Truth is inherent in the essence of being.",
+      "source_id": "src_021"
+    },
+    {
+      "statement": "The concept of time is only relevant to beings that exist in the world (Dasein), not to inanimate objects.",
+      "rationale": "Humans are the only entities that truly 'exist' and have access to the surrounding world; time is the horizon that gives meaning to this human existence.",
+      "source_quote": "According to Heidegger, concept of time is only relevant to beings and not to any inanimate objects.",
+      "source_id": "src_021"
+    },
+    {
+      "statement": "An authentic life requires consciously facing the fear of death.",
+      "rationale": "Everyday life is often a flight from the anxiety of our own mortality. By anticipating death, we can consciously design our own lives and realize our true possibilities.",
+      "source_quote": "It is his claim that an authentic life, a life designed by oneself, is a life which faces up to this fear of death",
+      "source_id": "src_021"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Fundamental Ontology via Phenomenological Analysis",
+      "when_to_apply": "When seeking to understand the foundation of all existence and the meaning of Being, rather than just studying specific entities (sciences).",
+      "steps": [
+        "Break down and interpret the everyday world to reveal the fundamental structures of human existence (Dasein).",
+        "Discover 'care' as the basic mode of human existence.",
+        "Re-interpret all existential structures in light of this discovery.",
+        "Identify temporality as the meaning of human existence.",
+        "Re-interpret all fundamental structures again in the light of temporality to approach the ultimate question of Being."
+      ],
+      "source_quote": "first the everyday world has to be broken down and interpreted to reveal the fundamental structures of human existence. Then the discovery of 'care' as basic mode of human existence forces us to re[interpret all these existential structures. When we then stumble unto temporality... the whole re-interpretation process starts over again",
+      "source_id": "src_021"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Dasein (Being-there)",
+      "description": "A lens for viewing human existence not as a biological organism, rational animal, or immortal soul, but as an entity whose very 'state of being' is an issue for it, characterized fundamentally by temporality and being-in-the-world.",
+      "example": "Instead of analyzing a human as a 'rational animal' with properties, Dasein is analyzed through its everyday engagement with the world, its moods, its use of tools, and its anticipation of death.",
+      "source_id": "src_021"
+    },
+    {
+      "name": "Ontological vs. Ontical",
+      "description": "A distinction between studying the fundamental nature and meaning of Being itself (ontological) versus studying the specific properties, facts, or 'thing-hood' of individual entities (ontical).",
+      "example": "Sciences like physics or biology operate ontically by studying specific beings, whereas fundamental ontology operates ontologically by asking what makes those beings 'be' in the first place.",
+      "source_id": "src_021"
+    },
+    {
+      "name": "Hierarchy of Beings (Dasein, Tool-like, Present-at-hand)",
+      "description": "A model categorizing how we encounter entities: as Dasein (human existence), ready-to-hand (tools engaged in practice), and present-at-hand (isolated substances/objects). Moving toward the present-at-hand strips away the rich context of Being.",
+      "example": "When we try to understand a hammer merely as an object with physical properties (present-at-hand), we lose sight of what is essential to it as a tool used for a specific purpose in a shared world.",
+      "source_id": "src_021"
+    }
+  ],
+  "heuristics": [
+    "To understand Being, look to Dasein, the being whose own Being is an issue for it.",
+    "Do not reduce reality to mere presence or substance.",
+    "Look past the correctness of a statement to the unconcealment that makes the statement possible."
+  ],
+  "signature_quotes": [
+    {
+      "text": "ontology as such, the question of being, \"remains itself naïve and opaque\" if it fails to inquire first into the meaning of being",
+      "context": "Critiquing traditional ontology for skipping the foundational question of what Being actually means.",
+      "source_id": "src_021"
+    },
+    {
+      "text": "Truth as un-concealment is not an appendage to being. Truth is inherent in the essence of being.",
+      "context": "Explaining the original Greek concept of truth (aletheia) before it was reduced to mere correctness.",
+      "source_id": "src_021"
+    },
+    {
+      "text": "Appearing is not something subsequent that sometimes happens to being. Appearing is the very essence of being.",
+      "context": "Discussing the relationship between Being and appearance in early Greek thought.",
+      "source_id": "src_021"
+    },
+    {
+      "text": "The true as such is being. This means: The power that manifests itself stands in unconcealment.",
+      "context": "Defining the essence of truth and its inseparable connection to Being.",
+      "source_id": "src_021"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Substance Ontology",
+      "why_it_fails": "It assumes the real world must be thought of in terms of substances that underlie properties and remain continuously present, which reduces beings merely to their presence and ignores the deeper horizon of temporality and Being-in-the-world.",
+      "source_id": "src_021"
+    },
+    {
+      "description": "Defining truth solely as correctness (correspondence theory)",
+      "why_it_fails": "It detaches truth from its original essence as unconcealment (aletheia). By making truth merely an attribute of a statement (logos), it forgets the prior event of the being manifesting itself.",
+      "source_id": "src_021"
+    },
+    {
+      "description": "Average Everydayness (The flight from death)",
+      "why_it_fails": "Living occupied with idle talk, curiosity, and ambiguity is an escape route from the fear of death. It prevents individuals from truly being aware of their own existence and consciously designing their own lives.",
+      "source_id": "src_021"
+    },
+    {
+      "description": "Treating Dasein as 'present-at-hand'",
+      "why_it_fails": "Attempting to understand human existence (or God, time, truth) using the same objective, restrictive categories used for physical objects (like an input-output machine or a rational animal) completely misses the essential, temporal character of human existence.",
+      "source_id": "src_021"
+    }
+  ]
+}

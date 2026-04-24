@@ -1,0 +1,124 @@
+{
+  "source_id": "src_025",
+  "summary": "In the Tractatus Logico-Philosophicus, Wittgenstein argues that the world is composed of facts rather than things, and that language relates to reality by acting as a logical picture of these facts. He asserts that the limits of language define the limits of thought, concluding that philosophy should be an activity of clarifying propositions rather than a theory, and that we must remain silent about what cannot be said clearly.",
+  "themes": [
+    "Philosophy of Language",
+    "Logic",
+    "Picture Theory of Meaning",
+    "Nature of Reality",
+    "Limits of Philosophy"
+  ],
+  "principles": [
+    {
+      "statement": "The world is the totality of facts, not of things.",
+      "rationale": "The world is determined by facts and their combinations in logical space. Things (objects) only have meaning in the context of their possible connections within atomic facts.",
+      "source_quote": "The world is the totality of facts, not of things.",
+      "source_id": "src_025"
+    },
+    {
+      "statement": "What can be said at all can be said clearly; and whereof one cannot speak thereof one must be silent.",
+      "rationale": "Language has strict logical limits. Attempting to express thoughts that lie beyond the logical structure of language results in nonsense.",
+      "source_quote": "What can be said at all can be said clearly; and whereof one cannot speak thereof one must be silent.",
+      "source_id": "src_025"
+    },
+    {
+      "statement": "Philosophy is an activity of clarification, not a body of doctrine.",
+      "rationale": "The goal of philosophy is not to produce 'philosophical propositions' but to logically clarify thoughts that are otherwise opaque and blurred.",
+      "source_quote": "Philosophy is not a theory but an activity. A philosophical work consists essentially of elucidations.",
+      "source_id": "src_025"
+    },
+    {
+      "statement": "A proposition is a picture of reality.",
+      "rationale": "Propositions represent states of affairs by sharing a logical form with reality, much like a model or a physical picture.",
+      "source_quote": "The proposition is a picture of reality. The proposition is a model of the reality as we think it is.",
+      "source_id": "src_025"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Logical Clarification of Thoughts",
+      "when_to_apply": "When encountering philosophical problems, deep confusions, or opaque statements.",
+      "steps": [
+        "Recognize that most philosophical questions arise from misunderstanding the logic of language.",
+        "Translate the expressions into a logical symbolism that obeys logical grammar to avoid confusing different symbols.",
+        "Identify what can be clearly said (propositions of natural science) versus what can only be shown.",
+        "State the senselessness of questions that attempt to speak about the unspeakable."
+      ],
+      "source_quote": "The object of philosophy is the logical clarification of thoughts.",
+      "source_id": "src_025"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Picture Theory of Language",
+      "description": "Language maps to reality the way a picture maps to the scene it depicts. A picture models reality because its elements are arranged in a specific structure that corresponds to the arrangement of objects in reality. They share a 'logical form'.",
+      "example": "A musical score, a gramophone record, and sound waves all share a logical structure, allowing a musician to read the symphony from the score or reconstruct it from the record.",
+      "source_id": "src_025"
+    },
+    {
+      "name": "Logical Space",
+      "description": "A conceptual framework where all possible states of affairs (atomic facts) exist. Objects and propositions exist within this space, and a proposition determines a specific 'logical place' within it.",
+      "example": "A speck in a visual field must have a color; it has a 'color space' around it. A tone must have a pitch.",
+      "source_id": "src_025"
+    }
+  ],
+  "heuristics": [
+    "If a sign is not necessary then it is meaningless (Occam's razor).",
+    "What can be shown cannot be said.",
+    "Everything that can be thought at all can be thought clearly."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The world is everything that is the case.",
+      "context": "The opening proposition of the Tractatus.",
+      "source_id": "src_025"
+    },
+    {
+      "text": "The world is the totality of facts, not of things.",
+      "context": "Explaining the fundamental composition of reality.",
+      "source_id": "src_025"
+    },
+    {
+      "text": "What can be said at all can be said clearly; and whereof one cannot speak thereof one must be silent.",
+      "context": "Summarizing the whole meaning of the book in the preface.",
+      "source_id": "src_025"
+    },
+    {
+      "text": "Philosophy is not a theory but an activity.",
+      "context": "Defining the proper role and nature of philosophical work.",
+      "source_id": "src_025"
+    },
+    {
+      "text": "What can be shown cannot be said.",
+      "context": "Distinguishing between what language can state and what it merely exhibits.",
+      "source_id": "src_025"
+    },
+    {
+      "text": "Most propositions and questions, that have been written about philosophical matters, are not false, but senseless.",
+      "context": "Critiquing the history of philosophical discourse.",
+      "source_id": "src_025"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Attempting to say what can only be shown (e.g., trying to represent logical form in a proposition).",
+      "why_it_fails": "Propositions cannot represent logical form because logical form mirrors itself in the propositions. To represent it, we would have to step outside of logic and the world, which is impossible.",
+      "source_id": "src_025"
+    },
+    {
+      "description": "Treating philosophy as a natural science or a body of doctrine.",
+      "why_it_fails": "Philosophy stands above or below the natural sciences. Its purpose is not to produce true propositions about the world, but to clarify the logical structure of thoughts.",
+      "source_id": "src_025"
+    },
+    {
+      "description": "Using the same word to signify in different ways in everyday language.",
+      "why_it_fails": "It creates fundamental confusions. For example, using 'is' as a copula, a sign of equality, and an expression of existence leads to senseless pseudo-propositions.",
+      "source_id": "src_025"
+    },
+    {
+      "description": "Asking questions about the existence of a formal concept (e.g., 'Are there objects?').",
+      "why_it_fails": "Formal concepts are shown by the symbol itself, not expressed by propositions. No proposition can answer such a question, making it senseless.",
+      "source_id": "src_025"
+    }
+  ]
+}

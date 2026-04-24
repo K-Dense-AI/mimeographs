@@ -1,0 +1,65 @@
+{
+  "source_id": "src_020",
+  "summary": "This source is the original arXiv abstract for Generative Adversarial Networks (GANs). In it, Ian Goodfellow and his co-authors introduce the foundational concept of training a generative model and a discriminative model simultaneously through an adversarial, minimax two-player game.",
+  "themes": [
+    "Generative Adversarial Networks (GANs)",
+    "Machine Learning",
+    "Adversarial Training",
+    "Minimax Games"
+  ],
+  "principles": [
+    {
+      "statement": "Generative models can be effectively estimated via an adversarial process.",
+      "rationale": "By simultaneously training a generative model to capture the data distribution and a discriminative model to distinguish real from generated samples, the generator learns to produce highly realistic data.",
+      "source_quote": "We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G.",
+      "source_id": "src_020"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Generative Adversarial Networks (GANs)",
+      "when_to_apply": "When estimating generative models to capture a data distribution and generate new, realistic samples without relying on Markov chains.",
+      "steps": [
+        "Define a generative model G to capture the underlying data distribution.",
+        "Define a discriminative model D to estimate the probability that a sample came from the real training data rather than G.",
+        "Train G with the objective of maximizing the probability of D making a mistake.",
+        "Train the entire system simultaneously using backpropagation (when G and D are multilayer perceptrons)."
+      ],
+      "source_quote": "The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game.",
+      "source_id": "src_020"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Minimax two-player game",
+      "description": "A game theory lens used to reason about the adversarial training process. The generator and discriminator act as two competing players, leading to a unique equilibrium where the generator perfectly mimics the data and the discriminator is left guessing at random.",
+      "example": "In the space of arbitrary functions G and D, the game reaches a unique solution where G recovers the training data distribution and D's output is equal to 1/2 everywhere.",
+      "source_id": "src_020"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G.",
+      "context": "Introducing the core concept of Generative Adversarial Networks.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game.",
+      "context": "Explaining the adversarial training mechanism.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples.",
+      "context": "Highlighting the architectural simplicity and efficiency of GANs compared to prior generative models.",
+      "source_id": "src_020"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on Markov chains or unrolled approximate inference networks for training generative models or generating samples.",
+      "why_it_fails": "While the abstract does not detail the specific failures of these older methods, it explicitly highlights that the GAN framework eliminates the 'need' for them, implying they are unnecessary computational burdens compared to simple backpropagation.",
+      "source_id": "src_020"
+    }
+  ]
+}

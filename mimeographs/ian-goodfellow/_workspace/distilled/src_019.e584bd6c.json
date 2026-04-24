@@ -1,0 +1,40 @@
+{
+  "source_id": "src_019",
+  "summary": "A collection of posts from Ian Goodfellow's X (Twitter) profile. He shares personal anecdotes about overcoming early academic rejections, highlights interesting emergent behaviors in GANs (such as generating pseudo-text for memes), and announces career updates including his work at DeepMind applying AI to nuclear fusion.",
+  "themes": [
+    "Resilience",
+    "Generative Adversarial Networks (GANs)",
+    "AI Research",
+    "Career Progression"
+  ],
+  "principles": [
+    {
+      "statement": "Don't let temporary failures discourage you.",
+      "rationale": "Early academic and professional rejections are common and do not dictate your ultimate potential or success in your field.",
+      "source_quote": "Don't let temporary failures discourage you.",
+      "source_id": "src_019"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "I never heard back from MIT. I got rejected from CMU. I was accepted to U of T but not to work with the PI I wanted there. I got \"honorable mention\" for NSF GRFP but not actual money. Don't let temporary failures discourage you.",
+      "context": "Reflecting on his early academic rejections before becoming a leading AI researcher.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "The GAN doesn't know what text is so it has made up new text-like imagery in the right place for a meme caption.",
+      "context": "Observing how Progressive GANs attempt to replicate meme text in generated cat photos.",
+      "source_id": "src_019"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Allowing temporary failures, such as university rejections or missed grants, to discourage you from pursuing your goals.",
+      "why_it_fails": "Because early setbacks are temporary and do not prevent you from eventually making major contributions to your field.",
+      "source_id": "src_019"
+    }
+  ]
+}

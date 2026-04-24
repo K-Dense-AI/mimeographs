@@ -1,0 +1,109 @@
+{
+  "source_id": "src_007",
+  "summary": "In this interview, David Silver discusses his early fascination with finding the 'best move' in games like Scrabble and Go, which naturally led to his pioneering work in reinforcement learning at DeepMind. He advocates for transitioning AI from the 'era of human data' to the 'era of experience,' where systems learn novel solutions through trial and error rather than just mimicking human knowledge. He also shares his philosophy on selecting research problems and the importance of enjoying the scientific journey.",
+  "themes": [
+    "Reinforcement Learning",
+    "The Era of Experience vs. Human Data",
+    "Game playing as a microcosm for AI research",
+    "Joy of discovery over competition",
+    "AI diversity and non-human intelligence"
+  ],
+  "principles": [
+    {
+      "statement": "Focus on the beauty of finding the right move rather than winning or losing.",
+      "rationale": "Approaching problems with a focus on optimal strategy and the joy of discovery is more fulfilling and often leads to better, more profound work than simply trying to be competitive.",
+      "source_quote": "winning or losing just seemed immaterial compared to you know, the beauty of of doing the finding the right move.",
+      "source_id": "src_007"
+    },
+    {
+      "statement": "To discover new knowledge, AI must learn from its own experience rather than just human data.",
+      "rationale": "Training systems on massive amounts of human interaction (like current LLMs) is great, but it limits the AI to what we already know. Systems that learn through trial and error can go beyond human knowledge.",
+      "source_quote": "I want to build things which can learn new things that go beyond the things we already know. And to do that, you need systems that can learn for themselves which I think will take us to the era of experience.",
+      "source_id": "src_007"
+    },
+    {
+      "statement": "Use microcosms to rapidly iterate on AI research.",
+      "rationale": "Testing AI in the real physical world (like robotics) is slow. Finding a contained environment with simple rules but vast emergent complexity allows researchers to rapidly iterate on ideas.",
+      "source_quote": "I think it's really important you know we're always trying to find like microcosms of the world that allow you to kind of um do research on important aspects of the world without having to do you know really build a robot",
+      "source_id": "src_007"
+    },
+    {
+      "statement": "We should build AI systems that occupy different niches of intelligence rather than just mimicking humans.",
+      "rationale": "Building systems that do things humans cannot do (like a bat echolocating) is not only a massive scientific frontier, but it is also better for the world in terms of AI safety and preserving human jobs.",
+      "source_quote": "why not build systems which are doing things which humans can't do, which are, you know, actually occupying a different niche in the space of intelligence and have their own strengths and and and weaknesses.",
+      "source_id": "src_007"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Rising Tide Problem Selection",
+      "when_to_apply": "When deciding which AI challenge or domain to tackle next.",
+      "steps": [
+        "Assess the current 'water level' of AI progress (what has already been mastered).",
+        "Identify problems that are 'just the right height above the tide'—feasible to crack within the next couple of years.",
+        "Avoid problems that are like 'Mount Everest' where there is currently no hope of reaching them.",
+        "Calibrate your research to ensure you are making progress on the frontier without overreaching."
+      ],
+      "source_quote": "picking a good problem is about picking something which is just the right height above the tide that you know it's it's feasible like it's going to be cracked within the next you know a couple of years.",
+      "source_id": "src_007"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Rising Tide of AI",
+      "description": "An analogy (originally from Hans Moravec) where AI progress is a rising water level. Mastered tasks are submerged underwater, while unsolved tasks are islands or continents rising above the tide. It helps researchers visualize and target the immediate next frontiers of AI.",
+      "example": "Moving from board games to Atari, and eventually to formal mathematics (AlphaProof), by constantly picking the next 'island' that is about to be submerged by the rising capabilities of AI.",
+      "source_id": "src_007"
+    },
+    {
+      "name": "Microcosms of the World",
+      "description": "Viewing games not as mere entertainment, but as crystallized, simplified versions of reality. They possess simple rules but emergent complexity, serving as perfect laboratories for testing general intelligence.",
+      "example": "Using the game of Go to test intuitive AI learning, or treating formal mathematics (Lean) as a game where the system learns to build perfect proofs through trial and error.",
+      "source_id": "src_007"
+    }
+  ],
+  "heuristics": [
+    "Pick problems that are just the right height above the tide—feasible to crack in a couple of years.",
+    "Find a microcosm with simple rules but vast emergent complexity to rapidly iterate on ideas.",
+    "Don't take AI so seriously that you burn out; build a team that enjoys the voyage of exploration."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I want to build things which can learn new things that go beyond the things we already know. And to do that, you need systems that can learn for themselves which I think will take us to the era of experience.",
+      "context": "Discussing the limitation of training AI purely on human data (LLMs) versus reinforcement learning.",
+      "source_id": "src_007"
+    },
+    {
+      "text": "Winning or losing just seemed immaterial compared to you know, the beauty of of doing the finding the right move.",
+      "context": "Recalling his childhood approach to playing Scrabble, where he helped his opponent win because it was the optimal move.",
+      "source_id": "src_007"
+    },
+    {
+      "text": "Why not build systems which are doing things which humans can't do, which are, you know, actually occupying a different niche in the space of intelligence...",
+      "context": "Arguing against the default goal of making AI exactly like humans.",
+      "source_id": "src_007"
+    },
+    {
+      "text": "I think it's really important you know we're always trying to find like microcosms of the world that allow you to kind of um do research on important aspects of the world without having to do you know really build a robot...",
+      "context": "Explaining why DeepMind focused so heavily on games like Go, Chess, and Atari.",
+      "source_id": "src_007"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying exclusively on human data to train AI (The Era of Human Data).",
+      "why_it_fails": "It restricts the AI to only what humans already know. It prevents the system from discovering radically new solutions, breaking into new frontiers of science, or doing things outside the realm of human experience.",
+      "source_id": "src_007"
+    },
+    {
+      "description": "Taking AI development too seriously and sacrificing the joy of the work.",
+      "why_it_fails": "People kill themselves for startups or money, which stifles the collaborative, exploratory mindset needed for truly exciting scientific breakthroughs.",
+      "source_id": "src_007"
+    },
+    {
+      "description": "Trying to build AI that perfectly mimics human intelligence.",
+      "why_it_fails": "It ignores the vast potential of AI to occupy different niches of intelligence and solve problems humans are naturally unequipped for, while also creating unnecessary competition with human jobs.",
+      "source_id": "src_007"
+    }
+  ]
+}

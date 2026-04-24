@@ -1,0 +1,42 @@
+{
+  "source_id": "src_039",
+  "summary": "A scrape of Andrej Karpathy's GitHub profile, highlighting his focus on building minimal, atomic, and dependency-free implementations of deep neural networks (like nanoGPT, llama2.c, and micrograd) to separate core algorithms from efficiency engineering.",
+  "themes": [
+    "Deep Learning",
+    "Minimalism",
+    "Educational AI tools",
+    "C/CUDA",
+    "Python"
+  ],
+  "principles": [
+    {
+      "statement": "Separate the core algorithm from efficiency engineering.",
+      "rationale": "By stripping away dependencies and optimizations, you can isolate the fundamental algorithm of a neural network, making it easier to understand and build upon.",
+      "source_quote": "This file is the complete algorithm. Everything else is just efficiency.",
+      "source_id": "src_039"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Algorithm vs. Efficiency",
+      "description": "Viewing deep learning implementations as having two distinct layers: the fundamental mathematical algorithm (which can often be expressed in a single, simple file) and the surrounding engineering optimizations required for scale and speed.",
+      "example": "His `microgpt` repository, which contains the complete algorithm for training and inference in pure Python, noting that 'Everything else is just efficiency.'",
+      "source_id": "src_039"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "I like to train Deep Neural Nets on large datasets.",
+      "context": "GitHub profile bio.",
+      "source_id": "src_039"
+    },
+    {
+      "text": "The most atomic way to train and run inference for a GPT in pure, dependency-free Python. This file is the complete algorithm. Everything else is just efficiency.",
+      "context": "Describing microgpt, a minimal GPT implementation.",
+      "source_id": "src_039"
+    }
+  ],
+  "anti_patterns": []
+}

@@ -1,0 +1,484 @@
+{
+  "expert_name": "Steve Jobs",
+  "themes": [
+    "Product Design & Customer Experience",
+    "Innovation & Vision",
+    "Talent & Leadership",
+    "Passion & Intuition",
+    "Technology & Liberal Arts",
+    "Corporate Culture & Agility"
+  ],
+  "principles": [
+    {
+      "label": "Start with the Customer Experience",
+      "summary": "Always begin with the customer experience and work backwards to the technology, rather than starting with a piece of technology and trying to find a market for it.",
+      "details": "To build a cohesive vision that delivers incredible benefits, you must focus on where you want to take the customer first. Technology should serve the user's needs, not the other way around.",
+      "representative_quote": "You've got to start with the customer experience and work backwards to the technology.",
+      "source_ids": [
+        "src_014",
+        "src_061"
+      ]
+    },
+    {
+      "label": "Trust the Dots Will Connect",
+      "summary": "You cannot predict how your current interests and experiences will pay off in the future; you must trust your intuition and believe they will connect looking backward.",
+      "details": "Creativity equals connecting previously unrelated experiences. By following your curiosity off the well-worn path, you gather diverse 'dots' that will eventually form a coherent and unique path.",
+      "representative_quote": "You can't connect the dots looking forward. You can only connect them looking backwards. So, you have to trust that the dots will somehow connect in your future.",
+      "source_ids": [
+        "src_002",
+        "src_016",
+        "src_017",
+        "src_061"
+      ]
+    },
+    {
+      "label": "Hire Smart People to Tell You What to Do",
+      "summary": "Run the company by ideas, not hierarchy. Hire top-tier talent and give them the autonomy to dictate the direction of the company.",
+      "details": "If you are paying top talent a lot of money, their job is to figure out the best ideas. If decisions are dictated by management hierarchy rather than the best idea winning, the most talented people will leave.",
+      "representative_quote": "I don’t view that we pay people to do things. That’s easy, to find people to do things. What’s harder is to find people to tell you what should be done.",
+      "source_ids": [
+        "src_011",
+        "src_026",
+        "src_033"
+      ]
+    },
+    {
+      "label": "Do What You Love",
+      "summary": "True satisfaction and resilience only come from doing work you genuinely love and believe is great.",
+      "details": "Work fills a massive part of your life. When life hits you with severe setbacks, passion for your work is the only thing that provides the resilience needed to persevere. Make your avocation your vocation.",
+      "representative_quote": "And the only way to do great work is to love what you do. If you haven't found it yet, keep looking and don't settle.",
+      "source_ids": [
+        "src_002",
+        "src_017",
+        "src_061"
+      ]
+    },
+    {
+      "label": "Make Something Wonderful for Humanity",
+      "summary": "Express your appreciation for the rest of the human species by creating something wonderful and putting it into the shared pool of human experience.",
+      "details": "We constantly take from society by using clothes, food, language, and math developed by others. We have an obligation to use our time and technology to contribute back.",
+      "representative_quote": "But one of the ways that I believe people express their appreciation to the rest of humanity is to make something wonderful and put it out there.",
+      "source_ids": [
+        "src_016",
+        "src_028",
+        "src_070"
+      ]
+    },
+    {
+      "label": "Uncompromising Craftsmanship",
+      "summary": "Products must be 'insanely great' from the inside out, requiring deep care even for the parts the customer will never see.",
+      "details": "True craftsmanship requires doing things right completely. This means paying attention to the hidden elements, like internal circuit boards, just as much as the visible exterior.",
+      "representative_quote": "There's a just a tremendous amount of craftsmanship in in between a great idea and a great product.",
+      "source_ids": [
+        "src_021",
+        "src_053",
+        "src_065"
+      ]
+    },
+    {
+      "label": "Computer Science is a Liberal Art",
+      "summary": "Technology should not be relegated to geeks; it is a liberal art that teaches rigorous thinking and should be accessible and beautiful for everyone.",
+      "details": "Learning to program acts as a mirror to your thought process. Bringing a liberal arts point of view to computers ensures they are intuitive tools that amplify human communication.",
+      "representative_quote": "I think everybody in this country should learn how to program a computer should learn a computer language because it teaches you how to think.",
+      "source_ids": [
+        "src_021",
+        "src_026"
+      ]
+    },
+    {
+      "label": "The Doers are the Major Thinkers",
+      "summary": "True innovators combine art and science, working through hard intellectual problems by actually building the product themselves.",
+      "details": "Consulting or merely having ideas only provides a two-dimensional understanding. To get a three-dimensional understanding, you must own the implementation, make mistakes, and accumulate scar tissue.",
+      "representative_quote": "The people that really create the things that change this industry are both the thinker and doer in one person.",
+      "source_ids": [
+        "src_025",
+        "src_033"
+      ]
+    },
+    {
+      "label": "Tightly Integrate Hardware and Software",
+      "summary": "Hardware and software should be engineered to work together instantly as a single, seamless system.",
+      "details": "Technology should function seamlessly out of the box, hardwired to work as a single integrated system rather than requiring the user to piece it together, much like a newborn calf walking minutes after birth.",
+      "representative_quote": "It was as if something in the animal’s body and in its brain had been engineered to work together instantly rather than being learned.",
+      "source_ids": [
+        "src_027",
+        "src_053"
+      ]
+    },
+    {
+      "label": "Marketing is About Values",
+      "summary": "In a noisy world, a brand must be crystal clear about what it stands for, honoring its customers rather than just listing product features.",
+      "details": "Even the greatest brands require investment and care. Marketing shouldn't focus on 'speeds and feeds' but on the core belief that people with passion can change the world.",
+      "representative_quote": "To me marketing is about values this is a very complicated world it's a very noisy world and we're not going to get a chance to get people to remember much about us.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Invert the Hierarchy for Top Talent",
+      "summary": "When leading highly talented creatives and engineers, the traditional power structure must invert so management serves the talent.",
+      "details": "The best creative and technical people are rare and highly in-demand. Management's job is to work for them, removing obstacles and creating a rich environment where they want to stay.",
+      "representative_quote": "This strange thing happens, which is that the hierarchy of power inverts. And the CEO is actually at the bottom.",
+      "source_ids": [
+        "src_016",
+        "src_024"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "The \"Last Day\" Test",
+      "summary": "A daily reflection tool to evaluate if your current life path aligns with your true desires.",
+      "details": "Steps: 1. Look in the mirror every morning. 2. Ask yourself: 'If today were the last day of my life, would I want to do what I am about to do today?' 3. If the answer is 'no' for too many days in a row, recognize that you need to change something.",
+      "representative_quote": "And whenever the answer has been no for too many days in a row, I know I need to change something.",
+      "source_ids": [
+        "src_017",
+        "src_061"
+      ]
+    },
+    {
+      "label": "Customer-Centric Product Vision",
+      "summary": "A strategy for developing new products by starting with the user rather than the engineering capabilities.",
+      "details": "Steps: 1. Identify the incredible benefits you can give to the customer. 2. Determine where you want to take the customer. 3. Work backwards to figure out the technology required to deliver that experience.",
+      "representative_quote": "It started with what incredible benefits can we give to the customer where can we take the customer not not starting with let's sit down with the engineers and and figure out what awesome technology we have.",
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Collaborative Product Development",
+      "summary": "A method for building complex products at scale while maintaining startup-like agility.",
+      "details": "Steps: 1. Divide the project up into great, specialized teams. 2. Have all teams work concurrently on the same overarching goal. 3. Touch base frequently (e.g., weekly 3-hour leadership meetings) to ensure alignment. 4. Bring all the separate parts together into a cohesive final product.",
+      "representative_quote": "We're great at figuring out how to divide things up into these great teams that we have and all work on the same thing touch bases frequently and bring it all together into a product.",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Technology Windows",
+      "summary": "A timeline for evaluating the lifecycle and investment required for a new technological paradigm.",
+      "details": "Steps: 1. Sense when diverse technologies are coming together to make a quantum leap possible. 2. Spend ~5 years pushing the window open by creating a commercial product. 3. Spend the next ~5 years exploiting the technology in the marketplace. 4. Begin working on the next paradigm as the current one peaks.",
+      "representative_quote": "It takes around five years, or some number of years like that, to realize that window opening. And then it seems to take about another five years to really exploit it in the marketplace.",
+      "source_ids": [
+        "src_033"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Bicycle of the Mind",
+      "summary": "A computer is a tool that amplifies inherent human abilities to spectacular magnitudes, much like a bicycle amplifies human locomotion.",
+      "details": "Just as a human on a bicycle can out-efficiency a condor in flight, a computer takes us far beyond our inherent intellectual abilities.",
+      "representative_quote": "And so for me, a computer has always been a bicycle of the mind. Something that takes us far beyond our inherent abilities.",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "Death as Life's Change Agent",
+      "summary": "Viewing mortality not as a tragedy, but as a functional mechanism that clears out the old and strips away superficial fears.",
+      "details": "Using the awareness of impending death to realize that external expectations, pride, and fear of failure fall away, leaving no reason not to follow your heart.",
+      "representative_quote": "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked.",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Monopoly Rot",
+      "summary": "When a tech company achieves a monopoly, product improvements stop driving revenue, causing sales and marketing to take over and kill product craftsmanship.",
+      "details": "Companies like IBM and Xerox fell victim to this. When 'toner heads' (sales/marketing) take over decision-making, the company forgets how to make great products because the product people are marginalized.",
+      "representative_quote": "People get very confused that the process is the content... it's not process it's content.",
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "The Biggest Startup on the Planet",
+      "summary": "Viewing a massive, global corporation through the lens of a lean startup by eliminating committees and maintaining a flat, collaborative structure.",
+      "details": "Assign single individuals to be directly responsible for major functions, and have them meet frequently to discuss the entire business, trusting each other to execute without micromanagement.",
+      "representative_quote": "We have no committees no committees we are a ver we are organized like a startup.",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "The Rock Tumbler",
+      "summary": "A metaphor for how a passionate team develops a great product through friction, argument, and collaboration.",
+      "details": "Just as rough stones in a tumbler create noise but eventually emerge as beautiful polished rocks, a talented team bumps up against each other to polish each other and their ideas.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "The Sedimentary Layer of Technology",
+      "summary": "Technology products have a short lifespan (1-5 years) before becoming obsolete, acting merely as the foundation for new innovation, whereas great storytelling lasts generations.",
+      "details": "This model highlights the difference between building hardware (which churns rapidly) and creating enduring cultural myths or content (like Disney or Pixar films).",
+      "representative_quote": "Sooner or later, they all become part of the sedimentary layer, which is the foundation for new innovation.",
+      "source_ids": [
+        "src_024"
+      ]
+    },
+    {
+      "label": "The Lightness of a Beginner",
+      "summary": "Reframing a devastating failure or loss of status as a liberation from the pressures of success.",
+      "details": "Losing everything replaces the heaviness of success with the lightness of being a beginner again, enabling a return to high creativity and exploration.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "The 'Black Box' Customer Experience",
+      "summary": "Customers shouldn't need to understand the complex technology inside a product; they only need to see the value and output it provides.",
+      "details": "Like the original LaserWriter, you don't sell the internal engine or code; you sell the startlingly high-quality output and ask, 'do you want this?'",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Stay Hungry, Stay Foolish",
+      "summary": "Never lose your ambition or your willingness to take risks and look foolish in the pursuit of something new.",
+      "details": null,
+      "representative_quote": "Stay hungry. Stay foolish.",
+      "source_ids": [
+        "src_003",
+        "src_017"
+      ]
+    },
+    {
+      "label": "Ignore the Noise",
+      "summary": "Don't let the noise of others' opinions drown out your own inner voice and intuition.",
+      "details": null,
+      "representative_quote": "Don’t let the noise of other’s opinions drown out your own inner voice.",
+      "source_ids": [
+        "src_017",
+        "src_061"
+      ]
+    },
+    {
+      "label": "Have Zero Committees",
+      "summary": "Eliminate committees entirely to maintain agility, speed, and clear individual responsibility.",
+      "details": null,
+      "representative_quote": "We have no committees no committees we are a ver we are organized like a startup",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "The Best Code is Unwritten",
+      "summary": "The code that is fastest to write, easiest to maintain, and never breaks is the code you don't write.",
+      "details": "Leverage object-oriented programming and reusable components to minimize custom code.",
+      "representative_quote": "The code that’s the fastest to write, the code that’s the easiest to maintain, and the code that never breaks, is the code you don’t write.",
+      "source_ids": [
+        "src_033"
+      ]
+    },
+    {
+      "label": "Make Mistakes and Keep Moving",
+      "summary": "Making mistakes is a positive indicator that decisions are actually being made; find them, fix them, and move on.",
+      "details": null,
+      "representative_quote": "Some mistakes will be made along the way that's good because at least some decisions are being made along the way and we'll find the mistakes we'll fix them",
+      "source_ids": [
+        "src_014",
+        "src_016",
+        "src_028"
+      ]
+    },
+    {
+      "label": "Shoot for the Moon from Zero",
+      "summary": "Whenever you start with nothing, you have nothing to lose, so you can always shoot for the moon.",
+      "details": null,
+      "representative_quote": "Whenever you start with nothing, you can always shoot for the moon. You have nothing to lose.",
+      "source_ids": [
+        "src_028"
+      ]
+    },
+    {
+      "label": "Aesthetics Improve Through Mistakes",
+      "summary": "Your sense of design and aesthetics gets better as you make mistakes and iterate.",
+      "details": null,
+      "representative_quote": "Your aesthetics get better as you make mistakes.",
+      "source_ids": [
+        "src_028"
+      ]
+    },
+    {
+      "label": "The Problem-Solving Litmus Test",
+      "summary": "If you don't have to convince someone they have a problem your product solves, you have a great product.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_027"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Start with the Customer",
+      "summary": "On product development strategy.",
+      "details": null,
+      "representative_quote": "You've got to start with the customer experience and work backwards to the technology.",
+      "source_ids": [
+        "src_014",
+        "src_061"
+      ]
+    },
+    {
+      "label": "Connecting the Dots",
+      "summary": "On trusting the journey and intuition.",
+      "details": null,
+      "representative_quote": "You can't connect the dots looking forward. You can only connect them looking backwards.",
+      "source_ids": [
+        "src_017",
+        "src_061"
+      ]
+    },
+    {
+      "label": "Love What You Do",
+      "summary": "On finding your life's work.",
+      "details": null,
+      "representative_quote": "The only way to do great work is to love what you do. If you haven't found it yet, keep looking and don't settle.",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Hire Smart People",
+      "summary": "On management and talent.",
+      "details": null,
+      "representative_quote": "I don’t view that we pay people to do things. That’s easy, to find people to do things. What’s harder is to find people to tell you what should be done.",
+      "source_ids": [
+        "src_026",
+        "src_033"
+      ]
+    },
+    {
+      "label": "Bicycle of the Mind",
+      "summary": "On the purpose of the personal computer.",
+      "details": null,
+      "representative_quote": "And so for me, a computer has always been a bicycle of the mind. Something that takes us far beyond our inherent abilities.",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "Remembering Death",
+      "summary": "On avoiding the fear of failure.",
+      "details": null,
+      "representative_quote": "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked.",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Marketing is Values",
+      "summary": "On brand identity.",
+      "details": null,
+      "representative_quote": "To me marketing is about values.",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "The Journey is the Reward",
+      "summary": "On success and goals.",
+      "details": null,
+      "representative_quote": "The journey is the reward.",
+      "source_ids": [
+        "src_002"
+      ]
+    },
+    {
+      "label": "Make Something Wonderful",
+      "summary": "On contributing to humanity.",
+      "details": null,
+      "representative_quote": "But one of the ways that I believe people express their appreciation to the rest of humanity is to make something wonderful and put it out there.",
+      "source_ids": [
+        "src_016",
+        "src_028"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Technology-First Product Development",
+      "summary": "Starting with an awesome piece of technology and then trying to figure out how to market it or where to sell it.",
+      "details": "It fails to fit into a cohesive larger vision that actually delivers clear benefits to the customer, making it difficult to sell at scale.",
+      "representative_quote": "You can't start with the technology and try to figure out where you're going to try to sell it and I've made this mistake probably more than anybody else.",
+      "source_ids": [
+        "src_014",
+        "src_061"
+      ]
+    },
+    {
+      "label": "Relying on Market Research for Breakthroughs",
+      "summary": "Expecting customers to tell you what revolutionary product to build next.",
+      "details": "Customers don't know they want something that doesn't exist yet; market research is only good for incremental improvements or verifying instincts after a non-incremental jump is made.",
+      "representative_quote": "Very rarely can your customers predict something that they don’t even quite know they want yet.",
+      "source_ids": [
+        "src_025",
+        "src_061"
+      ]
+    },
+    {
+      "label": "Sales and Marketing Running the Company",
+      "summary": "Allowing sales and marketing executives to take over decision-making from product people.",
+      "details": "Sales and marketing executives often have no conception of a good product versus a bad product, lack the craftsmanship required to build one, and have no real feeling in their hearts about wanting to help the customer.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "Using Committees for Decisions",
+      "summary": "Relying on committees to make product or business decisions.",
+      "details": "It dilutes responsibility and slows down collaboration. Operating with zero committees maintains a startup-like agility.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Living Someone Else's Life",
+      "summary": "Being trapped by dogma and letting the noise of others' opinions dictate your choices.",
+      "details": "It means living with the results of other people's thinking, wasting your limited time, and ignoring your own intuition.",
+      "representative_quote": "Your time is limited, so don't waste it living someone else's life.",
+      "source_ids": [
+        "src_017",
+        "src_061"
+      ]
+    },
+    {
+      "label": "The Disease of the 'Great Idea'",
+      "summary": "Thinking that having a really great idea is 90% of the work.",
+      "details": "It ignores the tremendous amount of craftsmanship, daily problem-solving, and trade-offs required to turn an idea into a tangible product.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "Settling for B and C Players",
+      "summary": "Compromising on hiring and allowing average performers onto the team.",
+      "details": "In software, the difference between average and best is massive. B and C players drag down the quality of the work, and true A-players will refuse to work with them.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_021",
+        "src_033"
+      ]
+    },
+    {
+      "label": "Speeds and Feeds Marketing",
+      "summary": "Marketing based on technical specifications or comparing features to competitors.",
+      "details": "It fails to communicate the brand's core identity in a noisy world. Customers don't connect with technical specs like megahertz; they connect with values.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_013"
+      ]
+    }
+  ]
+}

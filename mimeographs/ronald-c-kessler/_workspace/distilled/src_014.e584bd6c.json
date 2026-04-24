@@ -1,0 +1,91 @@
+{
+  "source_id": "src_014",
+  "summary": "Dr. Ronald C. Kessler discusses the transition of psychiatry into the era of precision medicine. He highlights the failures of underpowered biomarker studies and advocates for large-scale trials with rich baseline psychosocial assessments. He also explores the use of machine learning to create risk and comparative risk models for suicide prevention and treatment selection, emphasizing the importance of measurement-based care and cost-benefit analysis.",
+  "themes": [
+    "Precision Psychiatry",
+    "Machine Learning",
+    "Clinical Epidemiology",
+    "Measurement-Based Care",
+    "Suicide Prevention",
+    "Cost-Benefit Analysis"
+  ],
+  "principles": [
+    {
+      "statement": "Precision psychiatry requires big samples with rich baseline assessments.",
+      "rationale": "Small studies with limited variables lead to overfitting and fail to replicate. To find true signals for differential treatment response, we need large trials that measure dozens of psychosocial and clinical predictors.",
+      "source_quote": "big samples with Rich Baseline assessments is what we need",
+      "source_id": "src_014"
+    },
+    {
+      "statement": "Measurement-based care is essential for knowing when to cut your losses on a failing treatment.",
+      "rationale": "By objectively charting symptoms over time and comparing a patient's trajectory to norms, clinicians can identify doomed treatments at three weeks instead of torturing the patient for eight weeks.",
+      "source_quote": "knowing how quickly to cut your losses when that first treatment is not working is an important thing... that's where the measurement based care comes in",
+      "source_id": "src_014"
+    },
+    {
+      "statement": "Psychological distance increases patient disclosure of embarrassing symptoms.",
+      "rationale": "Patients are often more willing to share sensitive information with a computer, over the internet, or via anonymous forms than they are face-to-face with a clinician.",
+      "source_quote": "there's sort of a way in which psychological distance allows you to say things",
+      "source_id": "src_014"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Precision Treatment Modeling",
+      "when_to_apply": "When allocating limited healthcare resources or choosing between multiple treatment options for a patient.",
+      "steps": [
+        "Develop risk models to identify individuals at the highest risk of a negative outcome (e.g., suicide) to target intensive, expensive interventions.",
+        "Develop comparative risk models to predict which specific treatment (e.g., CBT vs. medication) a patient is most likely to respond to.",
+        "Splice the models together to optimize treatment allocation based on individual efficacy probabilities and intervention costs."
+      ],
+      "source_quote": "trying to first of all when we don't have comparative treatments we just have doing something versus doing nothing who are the people at risk and then in case is where we have multiple treatments trying to uh figure out models to say how do you get the right treatment to the right person",
+      "source_id": "src_014"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Stethoscope Resistance",
+      "description": "A historical analogy used to understand clinician resistance to new technologies like AI and machine learning. Just as 19th-century doctors initially rejected the stethoscope because it threatened their traditional diagnostic methods, modern clinicians often resist AI as a threatening 'black box'.",
+      "example": "Comparing AI models to an X-ray: a clinician doesn't need to understand the complex physics of an X-ray machine to effectively read the results and treat the patient.",
+      "source_id": "src_014"
+    }
+  ],
+  "heuristics": [
+    "If a patient won't sit through a long baseline assessment, they are likely to drop out of the trial anyway.",
+    "Cut your losses early on the first treatment if the interim symptom trajectory doesn't match the norm for remission."
+  ],
+  "signature_quotes": [
+    {
+      "text": "spending incredible amounts of money on underpowered expensive studies is not really getting us any place",
+      "context": "Discussing the failure of small-sample biomarker studies in psychiatry.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "knowing how quickly to cut your losses when that first treatment is not working is an important thing",
+      "context": "Explaining the value of measurement-based care.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "big samples with Rich Baseline assessments is what we need",
+      "context": "Summarizing the necessary conditions for advancing precision psychiatry.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "if I'm in the business of fixing people's broken arms there's not really much value in Precision medicine... but if you have depression... there's this dizzying array of things that we can look at",
+      "context": "Explaining why precision medicine has greater long-term potential in psychiatry than in fields with fewer treatment options.",
+      "source_id": "src_014"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Conducting underpowered biomarker studies to find 'natural cleavages' or subtypes of psychiatric disorders.",
+      "why_it_fails": "With only a few hundred people, the noise in the data overwhelms the signal. Researchers overfit the data, finding 'significant' results that totally disappear when tested on a separate dataset.",
+      "source_id": "src_014"
+    },
+    {
+      "description": "Relying on a single 'pet measure' to predict treatment response in clinical trials.",
+      "why_it_fails": "In the absence of a magic biological marker, it is extremely unlikely that any single measure will be sufficient to tell clinicians which treatment to use.",
+      "source_id": "src_014"
+    }
+  ]
+}

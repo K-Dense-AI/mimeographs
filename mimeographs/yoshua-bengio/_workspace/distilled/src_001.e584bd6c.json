@@ -1,0 +1,52 @@
+{
+  "source_id": "src_001",
+  "summary": "A brief excerpt summarizing Yoshua Bengio's stance on AI futurology. He argues that precise predictions about when AI will surpass human intelligence lack scientific basis due to the inherently unpredictable, non-linear nature of scientific progress.",
+  "themes": [
+    "AI Futurology",
+    "Scientific Progress",
+    "Superintelligence",
+    "AI Timelines"
+  ],
+  "principles": [
+    {
+      "statement": "There is no scientific basis for predicting exactly when AI will surpass human intelligence.",
+      "rationale": "Scientific progress is unpredictable; it can stagnate for long periods or make rapid leaps following breakthroughs, making precise timelines impossible to calculate.",
+      "source_quote": "Not only is there no consensus among AI researchers about the future pace of AI advances, but there is also no scientific basis for making such predictions.",
+      "source_id": "src_001"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Non-linear Scientific Progress",
+      "description": "The understanding that scientific research does not move at a constant, predictable rate. It is characterized by periods of long stagnation on hard problems, punctuated by rapid advancements following major breakthroughs.",
+      "example": "Stagnation in the unification of all forces in physics versus the rapid progress following the breakthrough of deep learning.",
+      "source_id": "src_001"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "The reality is that the best AI researchers cannot seriously make such predictions unless they see them as part of a science fiction movie.",
+      "context": "Discussing sensationalist headlines predicting exact dates for when AI will surpass the human brain.",
+      "source_id": "src_001"
+    },
+    {
+      "text": "Not only is there no consensus among AI researchers about the future pace of AI advances, but there is also no scientific basis for making such predictions.",
+      "context": "Explaining the lack of scientific grounding for AI futurology timelines.",
+      "source_id": "src_001"
+    },
+    {
+      "text": "Scientific research can stagnate for a long time over particular problems (e.g., the unification of all forces in physics) or make rapid progress following a breakthrough (e.g., that of deep learning).",
+      "context": "Illustrating why predicting the pace of AI advancement is scientifically impossible.",
+      "source_id": "src_001"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Making precise, sensational predictions about when artificial intelligence will surpass human intelligence (e.g., 'by 2029').",
+      "why_it_fails": "There is no scientific basis for these timelines because the pace of scientific research is inherently unpredictable and non-linear.",
+      "source_id": "src_001"
+    }
+  ]
+}

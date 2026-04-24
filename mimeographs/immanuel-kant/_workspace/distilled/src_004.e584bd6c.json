@@ -1,0 +1,99 @@
+{
+  "source_id": "src_004",
+  "summary": "In the Critique of Pure Reason, Immanuel Kant seeks to secure the foundations of modern science and human autonomy by establishing the possibility of synthetic a priori knowledge. He argues that space and time are pure forms of human sensibility and that the categories of understanding only yield valid cognition when applied to sensible experience, thereby refuting the overreaches of dogmatic metaphysics, the doubts of skepticism, and the limitations of empiricism.",
+  "themes": [
+    "Transcendental Idealism",
+    "Synthetic a priori knowledge",
+    "Limits of pure reason",
+    "Critique of traditional metaphysics",
+    "Space and time as forms of sensibility",
+    "Categories of the understanding"
+  ],
+  "principles": [
+    {
+      "statement": "Space and time are pure forms of human sensibility, not self-subsisting entities or mere relations abstracted from objects.",
+      "rationale": "This is the only way to account for their necessary manifestation throughout all experience as single infinite magnitudes, and to explain the a priori yet synthetic character of mathematical propositions regarding quantities and shapes.",
+      "source_quote": "space and time are neither subsistent beings nor inherent in things as they are in themselves, but are rather only forms of our sensibility, hence conditions under which objects of experience can be given at all",
+      "source_id": "src_004"
+    },
+    {
+      "statement": "We can only have knowledge of things as they appear to us (phenomena), never as they are in themselves (noumena).",
+      "rationale": "The categories of the understanding only have a determinate cognitive use when applied to data provided by sensibility, which is inherently structured by our transcendentally ideal forms of intuition.",
+      "source_quote": "we cognize these things not as they are in themselves but only as they appear under the conditions of our sensibility",
+      "source_id": "src_004"
+    },
+    {
+      "statement": "Mathematical, physical, and quotidian knowledge of nature requires synthetic a priori judgments.",
+      "rationale": "Universal and necessary knowledge cannot be derived from particular experiences (a posteriori), nor can it be known solely through the logical analysis of concepts (analytic). It requires a priori cognition of the contributions made by our own cognitive faculties.",
+      "source_quote": null,
+      "source_id": "src_004"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Transcendental Deduction of the Categories",
+      "when_to_apply": "When demonstrating that the pure concepts of the understanding apply universally and necessarily to all objects given in experience.",
+      "steps": [
+        "Acknowledge that all experience must be ascribed to a single identical subject (the transcendental unity of apperception).",
+        "Recognize that the elements of experience given in intuition must be synthetically combined to present us with objects.",
+        "Conclude that this combination requires objects to be thought through the categories, making the categories necessary conditions for the representation of all possible objects of experience."
+      ],
+      "source_quote": null,
+      "source_id": "src_004"
+    },
+    {
+      "name": "Transcendental Schematism",
+      "when_to_apply": "When transforming the purely logical content of the categories into a content applicable to the data of our senses.",
+      "steps": [
+        "Take a pure category of the understanding derived from logical forms of judgment.",
+        "Associate the category with a 'transcendental schema', which is a form or relation in intuition.",
+        "Specifically, associate it with a temporal schema, since time is the universal form of all sensible intuition."
+      ],
+      "source_quote": null,
+      "source_id": "src_004"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Political Metaphors for Philosophical Schools",
+      "description": "Kant uses political analogies to categorize and critique competing philosophical schools. Dogmatists are likened to despots of an absolute monarchy (capricious and unstable); skeptics are nomads who abhor permanent civil society and disrupt the monarchy; Lockeans (empiricists) are calumniators foisting a false genealogy on the monarch; and indifferentists are closet dogmatists feigning ironic detachment from a corrupt regime.",
+      "example": "Kant uses this lens in the Preface to the Critique to justify why a completely new 'critical' tribunal of reason is necessary to establish legitimate philosophical order and end the faction-ridden instability of traditional metaphysics.",
+      "source_id": "src_004"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Two things fill the mind with ever new and increasing admiration and awe the more often and more enduringly reflection is occupied with them: the starry heavens above me and the moral law within me.",
+      "context": "From the conclusion to the Critique of Practical Reason, summarizing Kant's dual goals of explaining the certainty of science and the possibility of human freedom.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "the real upon which, whenever it is posited, something else always follows",
+      "context": "Kant's definition of the concept of a cause as a rule-governed temporal succession.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "the succession of the manifold insofar as it is subject to a rule",
+      "context": "Kant's temporal schema for the concept of causality.",
+      "source_id": "src_004"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Dogmatic Metaphysics: Attempting to acquire knowledge of things as they are in themselves (such as the soul, the world as a whole, and God) by using pure reason alone.",
+      "why_it_fails": "The categories of understanding only yield valid cognition when applied to spatiotemporal data (appearances). Inferences of pure reason performed without respect to the limits of sensibility give rise only to metaphysical illusion and pseudo-sciences.",
+      "source_id": "src_004"
+    },
+    {
+      "description": "Empiricism (The 'way of ideas'): Grounding knowledge solely on ideas acquired in the course of individual experience.",
+      "why_it_fails": "It cannot account for the universal and necessary validity (a priori knowledge) required for the fundamental principles of natural science and mathematics.",
+      "source_id": "src_004"
+    },
+    {
+      "description": "Amphiboly of Concepts of Reflection: Taking mere features of concepts used for comparison or reflection (like 'same' and 'different' or 'inner' and 'outer') as if they were direct features of the objects themselves.",
+      "why_it_fails": "It confuses the logical features of concepts with the actual properties of things, leading to erroneous metaphysical systems like Leibniz's monadology.",
+      "source_id": "src_004"
+    }
+  ]
+}

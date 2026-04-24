@@ -1,0 +1,81 @@
+{
+  "source_id": "src_000",
+  "summary": "A biographical essay detailing Henry Ford's creation of the affordable automobile and the moving assembly line. It highlights his early innovations in mass production and labor wages, as well as his later struggles with competition, corporate control, and unionization.",
+  "themes": [
+    "Mass Production",
+    "Efficiency",
+    "Labor Relations",
+    "Business Strategy",
+    "Innovation"
+  ],
+  "principles": [
+    {
+      "statement": "Build products for the great multitude.",
+      "rationale": "By making a product simple, reliable, and extremely low in price, you can bring its benefits to the masses while scaling production.",
+      "source_quote": "I will build a motor car for the great multitude.it will be so low in price that no man will be unable to own one.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "Efficiency requires extreme specialization.",
+      "rationale": "If each worker remains in one assigned place and performs one specific task, products can be built much more quickly and efficiently.",
+      "source_quote": null,
+      "source_id": "src_000"
+    },
+    {
+      "statement": "Pay above-market wages to solve turnover.",
+      "rationale": "Highly repetitive tasks burn workers out quickly. Paying nearly twice the going rate ensures workers flock to the factory and stay, solving turnover issues.",
+      "source_quote": null,
+      "source_id": "src_000"
+    },
+    {
+      "statement": "Maintain absolute control over your company.",
+      "rationale": "Stockholders act as parasites who continually interfere with a founder's plans and vision.",
+      "source_quote": null,
+      "source_id": "src_000"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Moving Assembly Line Production",
+      "when_to_apply": "When product demand vastly outpaces traditional manufacturing capacity.",
+      "steps": [
+        "Break down the manufacturing process into single, specific tasks.",
+        "Assign each worker to one fixed location.",
+        "Move the product past the stationary workers to minimize wasted time and motion."
+      ],
+      "source_quote": null,
+      "source_id": "src_000"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Factory as a Machine",
+      "description": "Viewing the entire manufacturing plant not as a collection of individual workshops, but as one massive, integrated machine.",
+      "example": "Building The Rouge, a 1,096-acre plant that operated as a single giant machine to pump out hundreds of thousands of cars.",
+      "source_id": "src_000"
+    }
+  ],
+  "heuristics": [
+    "Use high-profile stunts (like racing) to generate notoriety and attract financial backers.",
+    "Cut prices to increase volume and provide high-paying jobs."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I will build a motor car for the great multitude.it will be so low in price that no man will be unable to own one.",
+      "context": "Describing his vision for the Model T and mass-market automobiles.",
+      "source_id": "src_000"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Allowing outside stockholders to dictate company direction.",
+      "why_it_fails": "They act as parasites who interfere with the founder's long-term plans and operational freedom.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Relying solely on utility while ignoring style and continuous improvement.",
+      "why_it_fails": "Competitors will capture the market by releasing new, improved, and stylish models every year, rendering a purely utilitarian product outdated.",
+      "source_id": "src_000"
+    }
+  ]
+}

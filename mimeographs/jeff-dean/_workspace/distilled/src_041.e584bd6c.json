@@ -1,0 +1,39 @@
+{
+  "source_id": "src_041",
+  "summary": "A brief profile of Jeff Dean highlighting his role in developing Google's TPUs and the Transformer architecture. It covers his reflection on Google's initial hesitation to release AI products due to model inaccuracies, and his prediction of continued rapid advancement in AI capabilities over the next five years.",
+  "themes": [
+    "Hardware optimization for AI",
+    "AI productization and risk tolerance",
+    "Pace of AI advancement"
+  ],
+  "principles": [
+    {
+      "statement": "AI capabilities will continue to advance at a rapid, transformative pace over the next five years.",
+      "rationale": "The difference in model capabilities over the past five years has been massive, and that same trajectory of major difference will apply to the next five years.",
+      "source_quote": "If you think back five years ago to what these models could do, it's a major difference between the models of today. I think you'll see pretty similar levels of difference in the models five years from now.",
+      "source_id": "src_041"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "I think we were a little caught up on the fact that these models make mistakes sometimes.",
+      "context": "Reflecting on why Google hesitated and allowed OpenAI to launch the first viral AI product.",
+      "source_id": "src_041"
+    },
+    {
+      "text": "If you think back five years ago to what these models could do, it's a major difference between the models of today. I think you'll see pretty similar levels of difference in the models five years from now.",
+      "context": "Predicting the future pace of AI development.",
+      "source_id": "src_041"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Letting the fear of AI models making mistakes prevent or delay the release of AI products.",
+      "why_it_fails": "It allows competitors to capture the market and launch viral products first, causing the cautious company to lose its advantage and be perceived as a laggard.",
+      "source_id": "src_041"
+    }
+  ]
+}

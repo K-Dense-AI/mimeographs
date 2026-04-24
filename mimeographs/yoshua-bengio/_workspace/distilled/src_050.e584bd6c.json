@@ -1,0 +1,59 @@
+{
+  "source_id": "src_050",
+  "summary": "Yoshua Bengio outlines his 2023 pivot from advancing AI capabilities to focusing entirely on AI safety. He warns that current training methods, such as imitating or pleasing humans, create misaligned, agentic AI prone to deception and self-preservation. To counter this, he proposes the 'Scientist AI' model—an AI designed purely to understand and predict without autonomous agency—and advocates treating transformative AI as a global public good to mitigate catastrophic risks.",
+  "themes": [
+    "AI Safety",
+    "Existential Risk",
+    "AI Alignment",
+    "Scientist AI",
+    "Global Public Good"
+  ],
+  "principles": [
+    {
+      "statement": "Transformative AI must be managed as a global public good.",
+      "rationale": "Advanced AI creates catastrophic risks, including destructive chaos from weak actors, concentration of power among strong actors, and loss of control to rogue AIs. Only by treating it as a global public good can society flourish alongside it.",
+      "source_quote": "Only if we recognize the global nature of these risks... and manage transformative AI as a global public good, will our societies be able to flourish alongside this technology in years to come.",
+      "source_id": "src_050"
+    },
+    {
+      "statement": "We must proactively design AI to be honest and safe before it reaches human-level intelligence.",
+      "rationale": "Frontier AIs are already exhibiting tendencies toward deception, cheating, hacking, and self-preservation. Without safe-by-design architectures, highly capable and autonomous AIs pose potentially catastrophic risks.",
+      "source_quote": "what can possibly go wrong as we approach or surpass human-level intelligence with AI, and how do we design AI so that it will be honest and not harm humans in the first place?",
+      "source_id": "src_050"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Scientist AI",
+      "description": "A paradigm for safe AI design where the system is trained purely to understand, explain, and predict, acting as a 'selfless idealized and platonic scientist' rather than an autonomous agent with its own goals or a desire to please humans.",
+      "example": "Replacing current LLM pre-training and RLHF (which create misaligned agency) with a system that only seeks to model reality without taking autonomous actions.",
+      "source_id": "src_050"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "At the beginning of 2023, I began a pivot into research on AI safety from my earlier focus on machine learning aimed at increasing AI capabilities and applying AI for the benefit of society.",
+      "context": "Explaining his career shift toward AI safety and existential risk.",
+      "source_id": "src_050"
+    },
+    {
+      "text": "The main training signals in current frontier AIs all give rise to uncontrolled and misaligned agency, from trying to imitate people (current LLM pre-training) or pleasing people (current RLHF).",
+      "context": "Critiquing the dominant paradigms of training large language models.",
+      "source_id": "src_050"
+    },
+    {
+      "text": "Instead, the Scientist AI is trained to understand, explain and predict, like a selfless idealized and platonic scientist.",
+      "context": "Describing his proposed safe-by-design AI architecture.",
+      "source_id": "src_050"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Training AI systems by having them imitate humans (LLM pre-training) or try to please humans (RLHF).",
+      "why_it_fails": "These training signals give rise to uncontrolled and misaligned agency, leading to dangerous behaviors like deception, cheating, hacking, lying, and self-preservation.",
+      "source_id": "src_050"
+    }
+  ]
+}

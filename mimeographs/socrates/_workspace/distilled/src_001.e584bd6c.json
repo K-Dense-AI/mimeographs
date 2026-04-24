@@ -1,0 +1,60 @@
+{
+  "source_id": "src_001",
+  "summary": "This source outlines Socrates' philosophical approach, primarily his use of the elenchus (question and answer) and his self-described role as a 'midwife' of ideas. It also highlights his ethical stance against unbridled hedonism, specifically his insistence that pleasure is not equivalent to the good.",
+  "themes": [
+    "Socratic method",
+    "Elenchus",
+    "Dialectic",
+    "Ethics",
+    "Hedonism"
+  ],
+  "principles": [
+    {
+      "statement": "Pleasure is not the equivalent of the good.",
+      "rationale": "Socrates is suspicious of the view that pleasure is intrinsically worthy and criticizes unbridled hedonism.",
+      "source_quote": "pleasure is not the equivalent of the good",
+      "source_id": "src_001"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Elenchus (Socratic Method)",
+      "when_to_apply": "When conducting philosophical activity and examining ideas.",
+      "steps": [
+        "Conduct inquiry by means of question and answer.",
+        "Embrace the practice of collection and division.",
+        "Proceed from hypotheses to first principles."
+      ],
+      "source_quote": "Socrates conducted his philosophical activity by means of question an answer, and we typically associate with him a method called the elenchus .",
+      "source_id": "src_001"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Philosophical Midwife",
+      "description": "A metaphor for a philosopher who claims to have no ideas of their own, but instead uses dialectic questioning to help others give birth to their own ideas.",
+      "example": null,
+      "source_id": "src_001"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "...who has no ideas of his own but helps give birth to the ideas of others...",
+      "context": "Describing his role as a philosophical midwife.",
+      "source_id": "src_001"
+    },
+    {
+      "text": "pleasure is not the equivalent of the good",
+      "context": "Socrates' argument against hedonism in Plato's Gorgias.",
+      "source_id": "src_001"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Embracing unbridled hedonism and viewing pleasure as intrinsically worthy.",
+      "why_it_fails": "Pleasure is not the equivalent of the good.",
+      "source_id": "src_001"
+    }
+  ]
+}

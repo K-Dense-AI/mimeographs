@@ -1,0 +1,112 @@
+{
+  "source_id": "src_041",
+  "summary": "Aristotle argues that moral virtue is developed through habit and practice rather than arising by nature. He defines virtue as a state of character that aims at the mean between the extremes of excess and deficiency, relative to the individual. He emphasizes that becoming good requires practical action and proper management of pleasures and pains, rather than mere theoretical philosophy.",
+  "themes": [
+    "Moral Virtue",
+    "Habituation",
+    "The Mean (Golden Mean)",
+    "Pleasure and Pain",
+    "States of Character",
+    "Practical Action vs. Theory"
+  ],
+  "principles": [
+    {
+      "statement": "Moral virtue comes about as a result of habit, not by nature.",
+      "rationale": "Nothing that exists by nature can form a habit contrary to its nature (e.g., a stone cannot be trained to fall upwards). We are adapted by nature to receive virtues, but they are made perfect only by habit.",
+      "source_quote": "Neither by nature, then, nor contrary to nature do the virtues arise in us; rather we are adapted by nature to receive them, and are made perfect by habit.",
+      "source_id": "src_041"
+    },
+    {
+      "statement": "We acquire virtues by first exercising them.",
+      "rationale": "Just as craftsmen learn their trade by practicing it, we develop our moral character through our actions. Doing just things makes us just.",
+      "source_quote": "For the things we have to learn before we can do them, we learn by doing them, e.g. men become builders by building and lyreplayers by playing the lyre; so too we become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts.",
+      "source_id": "src_041"
+    },
+    {
+      "statement": "Virtue is destroyed by excess and defect, and preserved by the mean.",
+      "rationale": "Similar to how too much or too little food or exercise destroys health and strength, moral qualities like courage and temperance are ruined by leaning too far toward extreme behaviors.",
+      "source_quote": "temperance and courage, then, are destroyed by excess and defect, and preserved by the mean.",
+      "source_id": "src_041"
+    },
+    {
+      "statement": "Moral excellence is fundamentally concerned with pleasures and pains.",
+      "rationale": "Pleasure drives us to do bad things, and pain causes us to abstain from noble things. A proper education trains a person to feel delight and pain at the right things.",
+      "source_quote": "For moral excellence is concerned with pleasures and pains; it is on account of the pleasure that we do bad things, and on account of the pain that we abstain from noble ones.",
+      "source_id": "src_041"
+    },
+    {
+      "statement": "Not every action or passion admits of a mean; some are inherently bad.",
+      "rationale": "Certain actions (like murder or adultery) and passions (like spite or envy) imply badness in their very names. There is no moderate or correct way to perform them.",
+      "source_quote": "But not every action nor every passion admits of a mean; for some have names that already imply badness, e.g. spite, shamelessness, envy, and in the case of actions adultery, theft, murder... simply to do any of them is to go wrong.",
+      "source_id": "src_041"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Hitting the Mean",
+      "when_to_apply": "When attempting to act virtuously in a situation where finding the exact intermediate state is difficult.",
+      "steps": [
+        "First, depart from the extreme that is more contrary to the mean (take the least of the evils).",
+        "Identify the things toward which you yourself are easily carried away (by observing your own pleasures and pains).",
+        "Drag yourself away to the contrary extreme, like straightening a bent stick, to eventually settle in the middle.",
+        "Guard especially against pleasure, judging it impartially so as not to be led astray."
+      ],
+      "source_quote": "Hence he who aims at the intermediate must first depart from what is the more contrary to it... We must drag ourselves away to the contrary extreme; for we shall get into the intermediate state by drawing well away from error, as people do in straightening sticks that are bent.",
+      "source_id": "src_041"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Mean Relative to Us",
+      "description": "The virtuous intermediate is not a strict mathematical average (arithmetical proportion) that is the same for everyone, but a proportionate amount that depends on the specific individual and context.",
+      "example": "If ten pounds of food is too much and two is too little, a trainer won't necessarily prescribe six pounds. Six pounds might be too little for Milo the wrestler, but too much for a beginner in athletics.",
+      "source_id": "src_041"
+    },
+    {
+      "name": "Straightening a Bent Stick",
+      "description": "To correct a natural bias or flaw, one must overcompensate by pulling in the exact opposite direction until the middle is reached.",
+      "example": "If we naturally tend toward self-indulgence, we must force ourselves toward the extreme of insensibility to eventually land on the mean of temperance.",
+      "source_id": "src_041"
+    }
+  ],
+  "heuristics": [
+    "To hit the mean, first depart from the extreme that is more contrary to it.",
+    "Guard most against the pleasant or pleasure, for we do not judge it impartially.",
+    "We become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts.",
+    "In all things the intermediate state is to be praised, but we must incline sometimes towards the excess, sometimes towards the deficiency to hit it."
+  ],
+  "signature_quotes": [
+    {
+      "text": "It makes no small difference, then, whether we form habits of one kind or of another from our very youth; it makes a very great difference, or rather all the difference.",
+      "context": "Concluding his argument that states of character arise out of repeated activities.",
+      "source_id": "src_041"
+    },
+    {
+      "text": "Virtue, then, is a state of character concerned with choice, lying in a mean, i.e. the mean relative to us, this being determined by a rational principle...",
+      "context": "Providing the formal definition of moral virtue.",
+      "source_id": "src_041"
+    },
+    {
+      "text": "...to feel them at the right times, with reference to the right objects, towards the right people, with the right motive, and in the right way, is what is both intermediate and best, and this is characteristic of virtue.",
+      "context": "Explaining how the mean applies to passions and actions.",
+      "source_id": "src_041"
+    },
+    {
+      "text": "For men are good in but one way, but bad in many.",
+      "context": "Explaining why it is easy to fail (miss the mark) and hard to succeed (hit the mean).",
+      "source_id": "src_041"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Taking refuge in theory instead of practicing virtuous acts.",
+      "why_it_fails": "People think they are being philosophers and will become good just by listening to ideas. This is like a patient who listens attentively to a doctor but refuses to actually take the prescribed treatment. Virtue requires action.",
+      "source_id": "src_041"
+    },
+    {
+      "description": "Looking for a mean in inherently bad actions.",
+      "why_it_fails": "Actions like adultery, theft, or murder do not have an excess, deficiency, or mean. It is absurd to think there is a 'right time' or 'right way' to commit them; doing them at all is simply wrong.",
+      "source_id": "src_041"
+    }
+  ]
+}

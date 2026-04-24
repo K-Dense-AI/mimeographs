@@ -1,0 +1,791 @@
+{
+  "total": 63,
+  "verified": 57,
+  "unverified": [
+    {
+      "category": "principles",
+      "label": "The Return to the Age of Research",
+      "quote": "But now the scale is so big. Is the belief really, 'Oh, it’s so big, but if you had 100x more, everything would be so different?'... I don’t think that’s true. So it’s back to the age of research again, just with big computers.",
+      "source_ids": [
+        "src_000",
+        "src_032",
+        "src_035"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6872246696035242
+    },
+    {
+      "category": "principles",
+      "label": "Value Functions for RL Efficiency",
+      "quote": "The value function lets you short-circuit the wait until the very end... I think anything you can do with a value function, you can do without, just more slowly.",
+      "source_ids": [
+        "src_000",
+        "src_035"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7142857142857143
+    },
+    {
+      "category": "principles",
+      "label": "Peak Data",
+      "quote": "pre-training as we know it will unquestionably end... because while computers growing through better Hardware better algorithms and logic clusters... the data is not growing because we have but one internet",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5436893203883495
+    },
+    {
+      "category": "principles",
+      "label": "Pre-training Learns the World, Fine-Tuning Specifies Behavior",
+      "quote": "what this does not do is specify the desired behavior that you wish our neural network to exhibit... this is where the fine tuning and the reinforcement learning from Human teachers [comes in]",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5989583333333334
+    },
+    {
+      "category": "mental_models",
+      "label": "Jaggedness in AI Capabilities",
+      "quote": "This is one of the very confusing things about the models right now. How to reconcile the fact that they are doing so well on evals? ... But the economic impact seems to be dramatically behind.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7461139896373057
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Peak Data",
+      "quote": "pre-training as we know it will unquestionably end... because we have but one internet",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6395348837209303
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "Scaling Deep Neural Networks Replicates Cognition",
+      "quote": "if the human brain can do something, then a big artificial neural network could do something similar too.",
+      "source_ids": [
+        "src_015",
+        "src_021",
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Return to the Age of Research",
+      "quote": "But now the scale is so big. Is the belief really, 'Oh, it’s so big, but if you had 100x more, everything would be so different?'... I don’t think that’s true. So it’s back to the age of research again, just with big computers.",
+      "source_ids": [
+        "src_000",
+        "src_032",
+        "src_035"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6872246696035242
+    },
+    {
+      "category": "principles",
+      "label": "AGI as a Continual Learner",
+      "quote": "I produce a superintelligent 15-year-old that’s very eager to go. They don’t know very much at all, a great student, very eager. You go and be a programmer, you go and be a doctor, go and learn.",
+      "source_ids": [
+        "src_000",
+        "src_035"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Next-Word Prediction Learns Reality",
+      "quote": "what the neural network learns is some representation of the process that produced the text. This text is actually a projection of the world",
+      "source_ids": [
+        "src_015",
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 0.9928571428571429
+    },
+    {
+      "category": "principles",
+      "label": "Prediction Drives Understanding",
+      "quote": "if you can make really good guesses as to what's going to come next, you can't make it perfectly, it's impossible. But if you can make a really good guess, you need to have a meaningful degree of understanding.",
+      "source_ids": [
+        "src_019",
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Prediction is Compression",
+      "quote": "To predict the data well, to compress it well, you need to understand more and more about the world that produced the data.",
+      "source_ids": [
+        "src_015",
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Generalization Gap",
+      "quote": "The thing which I think is the most fundamental is that these models somehow just generalize dramatically worse than people. It’s super obvious.",
+      "source_ids": [
+        "src_000",
+        "src_035"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Scaling Hypothesis",
+      "quote": "The thing that the GPTs have shown in particular is that scaling requires that you increase the compute and the data in tandem at the same time.",
+      "source_ids": [
+        "src_012",
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Value Functions for RL Efficiency",
+      "quote": "The value function lets you short-circuit the wait until the very end... I think anything you can do with a value function, you can do without, just more slowly.",
+      "source_ids": [
+        "src_000",
+        "src_035"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7142857142857143
+    },
+    {
+      "category": "principles",
+      "label": "Avoid Hardcoding",
+      "quote": "it just seems unlikely to me that we will be smart enough to be able to hard-code things for the truly difficult problems",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Conviction in Deep Learning",
+      "quote": "Once you have a lot of rights data and a lot of compute, then there is a third thing which is needed as well, and that is conviction, conviction that if you take the right stuff... that it will, in fact work.",
+      "source_ids": [
+        "src_056"
+      ],
+      "verified": true,
+      "matched_source_id": "src_056",
+      "match_ratio": 0.875
+    },
+    {
+      "category": "principles",
+      "label": "Focus Safety on Superintelligence, Not Current Models",
+      "quote": "You can start perhaps worrying about the implications of the tools that we have today, and I think that it is a very valid thing to do, but that's not where I allocate my concern.",
+      "source_ids": [
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 0.8715083798882681
+    },
+    {
+      "category": "principles",
+      "label": "Industry Competitors Must Unite on Safety",
+      "quote": "In the future, there will be much more challenging situations of this nature, and it will be critical for the relevant leaders to rise up to the occasion, for fierce competitors to put their differences aside.",
+      "source_ids": [
+        "src_005"
+      ],
+      "verified": true,
+      "matched_source_id": "src_005",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Leverage Superintelligence for Alignment",
+      "quote": "I do hope that at this point we will have the superintelligence itself try to help us solve the challenge in the world that it creates.",
+      "source_ids": [
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Parent-Child Relationship as Alignment Gold Standard",
+      "quote": "In my opinion, this is the gold standard. It is a generally true statement that people really care about children.",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 0.9035087719298246
+    },
+    {
+      "category": "principles",
+      "label": "Peak Data",
+      "quote": "pre-training as we know it will unquestionably end... because while computers growing through better Hardware better algorithms and logic clusters... the data is not growing because we have but one internet",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5436893203883495
+    },
+    {
+      "category": "principles",
+      "label": "Pre-training Learns the World, Fine-Tuning Specifies Behavior",
+      "quote": "what this does not do is specify the desired behavior that you wish our neural network to exhibit... this is where the fine tuning and the reinforcement learning from Human teachers [comes in]",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5989583333333334
+    },
+    {
+      "category": "principles",
+      "label": "Prioritize Safe Superintelligence Over Revenue",
+      "quote": "first product will be the safe superintelligence, and it will not do anything else up until then",
+      "source_ids": [
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Proper Initialization Unlocks Optimization",
+      "quote": "We show that gradient descent with momentum can train RNNs to solve problems with long-term dependencies, provided the RNNs are initialized properly and an appropriate momentum schedule is used.",
+      "source_ids": [
+        "src_057"
+      ],
+      "verified": true,
+      "matched_source_id": "src_057",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Reasoning Breeds Unpredictability",
+      "quote": "a system that reasons the more it reasons the more unpredictable it becomes",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Scale What Matters",
+      "quote": "I think the true statement is that it matters what you scale. Right now, we just found like a thing to scale that gives us something in return.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Transition from Scaling to Research",
+      "quote": "Is the belief that if you just 100x the scale, everything would be transformed? I don’t think that’s true. So it’s back to the age of research again, just with big computers.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Top-Down Research Taste",
+      "quote": "The top-down belief is the thing that sustains you when the experiments contradict you. Because if you trust the data all the time, well sometimes you can be doing the correct thing but there's a bug.",
+      "source_ids": [
+        "src_035"
+      ],
+      "verified": true,
+      "matched_source_id": "src_035",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Two-Stage AI Training (Pre-training + RLHF)",
+      "quote": "You can say that the pre training process, and you just train a language model, you want to learn everything about the world, then the reinforcement learning from human feedback. Now we care about the outputs.",
+      "source_ids": [
+        "src_015",
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Domain Randomization",
+      "quote": "if there is something in your simulation which you can't measure you randomized it and you require your policy to be able to solve it for any value of the randomization",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Generative Sequence Modeling with RNNs",
+      "quote": "An RNN defines a generative model over sequences if the loss function satisfies L(zt; yt) = − log p(yt; zt) for some parameterized family of distributions p(·; z) and if yt = vt+1.",
+      "source_ids": [
+        "src_057"
+      ],
+      "verified": true,
+      "matched_source_id": "src_057",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "The Three Challenges of Superintelligence",
+      "quote": "I'll mention three I see... I personally see three...",
+      "source_ids": [
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 0.8301886792452831
+    },
+    {
+      "category": "frameworks",
+      "label": "Top-Down Research Taste",
+      "quote": "It's beauty, simplicity, elegance, correct inspiration from the brain. All of those things need to be present at the same time. The more they are present, the more confident you can be in a top-down belief.",
+      "source_ids": [
+        "src_035"
+      ],
+      "verified": true,
+      "matched_source_id": "src_035",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Biological Analogy (Connectionism)",
+      "quote": "artificial neurons are “kind of, sort of like” biological neurons",
+      "source_ids": [
+        "src_021",
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Language Shapes Research",
+      "quote": "This is an example of how language affects thought. 'Scaling' is just one word, but it's such a powerful word because it informs people what to do.",
+      "source_ids": [
+        "src_000",
+        "src_035"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 0.9863945578231292
+    },
+    {
+      "category": "mental_models",
+      "label": "Text as a Projection of the World",
+      "quote": "This text is actually a projection of the world... and so what the neural network is learning is more and more aspects of the world of people of the human conditions",
+      "source_ids": [
+        "src_015",
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 0.8484848484848485
+    },
+    {
+      "category": "mental_models",
+      "label": "The Superintelligent 15-Year-Old",
+      "quote": "I produce a superintelligent 15-year-old that’s very eager to go. They don’t know very much at all, a great student, very eager. You go and be a programmer, you go and be a doctor, go and learn.",
+      "source_ids": [
+        "src_000",
+        "src_035"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Data as Fossil Fuel",
+      "quote": "you can even go as far as to say that data is the fossil fuel of AI it was like created somehow and now we use it and we've achieved Peak data and there'll be no more",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Deep Learning as the Geometric Mean of Biology and Physics",
+      "quote": "I would say it's like the geometric mean of biology and physics.",
+      "source_ids": [
+        "src_056"
+      ],
+      "verified": true,
+      "matched_source_id": "src_056",
+      "match_ratio": 0.984375
+    },
+    {
+      "category": "mental_models",
+      "label": "Emotion as an Evolutionary Value Function",
+      "quote": "These models somehow just generalize dramatically worse than people. It’s super obvious.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 0.9886363636363636
+    },
+    {
+      "category": "mental_models",
+      "label": "Jaggedness in AI Capabilities",
+      "quote": "This is one of the very confusing things about the models right now. How to reconcile the fact that they are doing so well on evals? ... But the economic impact seems to be dramatically behind.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7461139896373057
+    },
+    {
+      "category": "mental_models",
+      "label": "LLMs as Boltzmann Brains",
+      "quote": "You start talking to it, you talk for a bit; then you finish talking, and the brain kind of— [poof]",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 0.9393939393939394
+    },
+    {
+      "category": "mental_models",
+      "label": "Nuclear Safety Analogy for AI Alignment",
+      "quote": "You know you build a nuclear reactor, you want to get the energy, you need to make sure that it won't melt down even if there's an earthquake...",
+      "source_ids": [
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 0.8888888888888888
+    },
+    {
+      "category": "mental_models",
+      "label": "Psychology as a Lens for Advanced AI",
+      "quote": "Maybe you are reaching a point where the language of psychology is starting to be appropriate to understand the behavior of these neural networks.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 0.8493150684931506
+    },
+    {
+      "category": "heuristics",
+      "label": "Bigger is Better",
+      "quote": "I had a very strong belief that bigger is better",
+      "source_ids": [
+        "src_015",
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Forcing Reasoning",
+      "quote": "if you train a neural network on a task which doesn't require reasoning, it's not going to resign.",
+      "source_ids": [
+        "src_056"
+      ],
+      "verified": true,
+      "matched_source_id": "src_056",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Maximize Function Class",
+      "quote": "In practice, it is sensible to choose the largest possible F that can be supported by the size of the training set and the available computation.",
+      "source_ids": [
+        "src_057"
+      ],
+      "verified": true,
+      "matched_source_id": "src_057",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "No Room for Ugliness",
+      "quote": "Ugliness, there's no room for ugliness.",
+      "source_ids": [
+        "src_035"
+      ],
+      "verified": true,
+      "matched_source_id": "src_035",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Research First, Monetization Later",
+      "quote": "Right now, we just focus on the research, and then the answer to that question will reveal itself.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "The 10-Layer Rule",
+      "quote": "anything that a human being can do in a fraction of a second a big 10 10 layer neural network can do too",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 0.9326923076923077
+    },
+    {
+      "category": "heuristics",
+      "label": "Value Function Equivalence",
+      "quote": "I think anything you can do with a value function, you can do without, just more slowly.",
+      "source_ids": [
+        "src_035"
+      ],
+      "verified": true,
+      "matched_source_id": "src_035",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Age of Research",
+      "quote": "We're moving from the age of scaling to the age of research",
+      "source_ids": [
+        "src_000",
+        "src_032",
+        "src_035"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The 15-Year-Old AGI",
+      "quote": "I produce a superintelligent 15-year-old that's very eager to go. They don't know very much at all, a great student, very eager. You go and be a programmer, you go and be a doctor, go and learn.",
+      "source_ids": [
+        "src_000",
+        "src_035"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Generalization Flaw",
+      "quote": "These models somehow just generalize dramatically worse than people. It's a very fundamental thing.",
+      "source_ids": [
+        "src_000",
+        "src_035"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Against Hardcoding",
+      "quote": "it just seems unlikely to me that we will be smart enough to be able to hard-code things for the truly difficult problems",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Allocating Concern to Superintelligence",
+      "quote": "You can start perhaps worrying about the implications of the tools that we have today, and I think that it is a very valid thing to do, but that's not where I allocate my concern.",
+      "source_ids": [
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 0.8715083798882681
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Never Bet Against Deep Learning",
+      "quote": "one doesn’t bet against deep learning. Somehow, every time you run into an obstacle, within six months or a year researchers find a way around it.",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Peak Data",
+      "quote": "pre-training as we know it will unquestionably end... because we have but one internet",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6395348837209303
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Prediction Requires Understanding",
+      "quote": "To predict the data well, to compress it well, you need to understand more and more about the world that produced the data.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Reasoning and Unpredictability",
+      "quote": "a system that reasons the more it reasons the more unpredictable it becomes",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "RL Solves Everything",
+      "quote": "if there is a problem which is sufficiently variable to solve and it's a reinforcement learning problem it can be solved",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Shocking Degree of Understanding",
+      "quote": "As our generative models become extraordinarily good, they will have I claim a shocking degree of understanding, a shocking degree of understanding of the world.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Singular Focus on Safe Superintelligence",
+      "quote": "first product will be the safe superintelligence, and it will not do anything else up until then",
+      "source_ids": [
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Text as a Projection",
+      "quote": "This text is actually a projection of the world... and so what the neural network is learning is more and more aspects of the world of people of the human conditions",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 0.8484848484848485
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The End of Brute-Force Scaling",
+      "quote": "Is the belief that if you just 100x the scale, everything would be transformed? I don’t think that’s true. So it’s back to the age of research again, just with big computers.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Top-Down Belief",
+      "quote": "The top-down belief is the thing that sustains you when the experiments contradict you.",
+      "source_ids": [
+        "src_035"
+      ],
+      "verified": true,
+      "matched_source_id": "src_035",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Underestimating Deep Learning",
+      "quote": "The key fact about deep learning before deep learning started to be successful, is that it was underestimated.",
+      "source_ids": [
+        "src_056"
+      ],
+      "verified": true,
+      "matched_source_id": "src_056",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Unity in Machine Learning",
+      "quote": "Machine learning is a field with a lot of unity, a huge amount of unity.",
+      "source_ids": [
+        "src_056"
+      ],
+      "verified": true,
+      "matched_source_id": "src_056",
+      "match_ratio": 1.0
+    }
+  ]
+}

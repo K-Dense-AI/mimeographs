@@ -1,0 +1,93 @@
+{
+  "source_id": "src_031",
+  "summary": "Dr. Terrie E. Moffitt discusses her decades-long longitudinal research on executive function, self-control, and mental health. She explains how lifelong psychological traits, childhood adversities, and cognitive processing speeds predict vaccine hesitancy and resistance, and reveals that experiencing a mental health disorder by age 50 is the norm for 85% of the population.",
+  "themes": [
+    "Executive function under stress",
+    "Malleability of self-control",
+    "Psychological roots of vaccine resistance",
+    "Prevalence of mental health disorders",
+    "Flaws of retrospective recall",
+    "Public health messaging"
+  ],
+  "principles": [
+    {
+      "statement": "Self-control is highly malleable over a person's lifetime.",
+      "rationale": "Unlike IQ, which remains relatively stable from childhood to adulthood, longitudinal data shows that individuals' self-control scores change significantly in response to their decisions and goals.",
+      "source_quote": "when we look at the association between measures of self-control taken in childhood and measures of self-control taken in adulthood the same people score differently so it's possible to change",
+      "source_id": "src_031"
+    },
+    {
+      "statement": "Laboratory tests of executive function do not accurately reflect real-world performance.",
+      "rationale": "People who score well in quiet, structured, ideal laboratory conditions often struggle to use their executive functions when they are tired, stressed, or multitasking in the real world.",
+      "source_quote": "the same person who scored well on our psychological test doesn't do so well when they're tired when they're multitasking... when under stress that's when executive functions rubber hits the road",
+      "source_id": "src_031"
+    },
+    {
+      "statement": "Vaccine resistance is rooted in lifelong psychological traits, not just contemporary misinformation.",
+      "rationale": "Resistant individuals often have long histories of childhood adversity, mistrust of authority, slow cognitive processing speeds, and emotional reactivity that predate the pandemic by decades.",
+      "source_quote": "these styles of processing information have been with people for decades... this is part of their deep-seated personality their approach to the world",
+      "source_id": "src_031"
+    },
+    {
+      "statement": "Experiencing a mental health disorder is the norm, not the exception.",
+      "rationale": "Longitudinal psychiatric assessments reveal that by age 50, 85% of people have experienced at least one mental disorder. Making it to 50 without one is statistically abnormal.",
+      "source_quote": "if you've made it all the way to age 50 without having any experience of mental disorder whatsoever you're a really rare person that's not normal",
+      "source_id": "src_031"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Technology Adoption Curve",
+      "description": "A lens for understanding how people respond to new medical interventions (like vaccines) by comparing it to how they adopt new technologies. There are first adopters who love novelty, a majority who wait and see, and small groups at the end who remain either permanently hesitant or actively resistant.",
+      "example": "Applying the adoption of new phones or faxes to the rollout of the COVID-19 vaccine to categorize the population into willing, hesitant, and resistant groups.",
+      "source_id": "src_031"
+    },
+    {
+      "name": "The Underground River of Mental Health",
+      "description": "A metaphor for understanding mental health as a continuous, underlying vulnerability that may not always be visible but emerges during periods of high environmental stress.",
+      "example": "Explaining how the intense stress of the pandemic caused underlying mental health struggles to surface for many people.",
+      "source_id": "src_031"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "when under stress that's when executive functions rubber hits the road",
+      "context": "Discussing the difference between testing executive function in a calm laboratory versus observing it in real-world stressful situations.",
+      "source_id": "src_031"
+    },
+    {
+      "text": "if you've made it all the way to age 50 without having any experience of mental disorder whatsoever you're a really rare person that's not normal",
+      "context": "Explaining the findings from her longitudinal study showing that 85% of people experience a mental health disorder by age 50.",
+      "source_id": "src_031"
+    },
+    {
+      "text": "mental health is a kind of a underground river that runs through the life course and at times of intense stress it bubbles up to the surface",
+      "context": "Describing how mental health challenges manifest throughout a person's life.",
+      "source_id": "src_031"
+    },
+    {
+      "text": "we're very poor humans are very poor at retrospective recall",
+      "context": "Discussing how people inaccurately remember their childhoods and past mental health struggles.",
+      "source_id": "src_031"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on point-in-time surveys to understand people's decision-making during crises.",
+      "why_it_fails": "People who are resistant to interventions (like vaccines) often refuse to answer surveys, skewing the data. Furthermore, people invent 'reasonable' present-day rationalizations for decisions that are actually driven by lifelong psychological traits.",
+      "source_id": "src_031"
+    },
+    {
+      "description": "Trusting retrospective recall for psychological or medical histories.",
+      "why_it_fails": "Humans have extremely low agreement between their actual childhood data and their adult memories of it; they tend to remember themselves as having been better readers, taller, and having fewer mental health issues than they actually did.",
+      "source_id": "src_031"
+    },
+    {
+      "description": "Using generic, logic-based public health messaging to reach resistant populations.",
+      "why_it_fails": "It fails to account for the psychological profiles of resistant individuals. Anti-vaccine messaging succeeds because it is tailored to their lifelong mistrust, fear, and desire to be non-conformists, whereas public health messaging ignores these deep-seated personality traits.",
+      "source_id": "src_031"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "expert_name": "Albert Hofman",
+  "themes": [
+    "Clinical Epidemiology",
+    "Population-based Cohort Studies",
+    "Life-course Epidemiology",
+    "Preventive Medicine",
+    "Cardiovascular & Neurodegenerative Diseases",
+    "Developmental Origins of Health and Disease"
+  ],
+  "principles": [
+    {
+      "label": "Life-Course Approach to Healthy Ageing",
+      "summary": "Healthy ageing research and interventions must include younger populations and start in childhood, rather than focusing exclusively on the elderly.",
+      "details": "The ageing process begins much earlier than old age. Childhood provides a critical window to establish a foundation for lifelong health, making it essential to study child health metrics as early indicators of healthy ageing.",
+      "representative_quote": "Childhood offers an important window to lay a base for future healthy ageing. Thus, to address the full ageing process, we should include younger populations in ageing research.",
+      "source_ids": [
+        "src_039",
+        "src_054"
+      ]
+    },
+    {
+      "label": "Population-Level Interventions Over Individual Screening",
+      "summary": "For early-life cardiovascular risk factors, population-wide environmental modifications are more effective than individual screening.",
+      "details": "Individual screening in childhood (like measuring blood pressure) has modest predictive power for long-term adult outcomes because physiological metrics only track moderately over time. Shifting the overall risk distribution through population-level changes, such as sodium reduction, is a more effective preventive strategy.",
+      "representative_quote": "advocated for population-level interventions, such as sodium reduction in infancy, over individual screening due to modest predictive power",
+      "source_ids": [
+        "src_036",
+        "src_054"
+      ]
+    },
+    {
+      "label": "Prevention of Neurological Diseases in the Elderly",
+      "summary": "There is significant potential to prevent or postpone neurological diseases in elderly populations.",
+      "details": "Large-scale epidemiological data from the Rotterdam Study reveals actionable insights into the frequencies and causes of neurological diseases, demonstrating that cognitive decline and related conditions are not strictly inevitable consequences of aging.",
+      "representative_quote": "Perhaps the most important message from the Rotterdam Study is the great potential for prevention or postponement of neurological diseases in elderly people.",
+      "source_ids": [
+        "src_051"
+      ]
+    },
+    {
+      "label": "Age-Adjusted Predictive Power of Risk Factors",
+      "summary": "Traditional cardiovascular risk factors lose their predictive power as populations age, necessitating supplementary diagnostic methods.",
+      "details": "Because standard risk factors weaken in elderly populations, alternative methods like measuring coronary calcification are necessary for accurate risk stratification and primary prevention.",
+      "representative_quote": "The technique is particularly promising in the elderly because the predictive power of cardiovascular risk factors weakens with age.",
+      "source_ids": [
+        "src_055"
+      ]
+    },
+    {
+      "label": "Interplay of Vascular, Genetic, and Aging Factors",
+      "summary": "Multifactorial chronic diseases must be understood through the intersection of vascular health, genetics, and the aging process.",
+      "details": "Seemingly unrelated conditions often share underlying pathways. For example, silent brain infarcts and white matter lesions significantly increase the odds of both stroke and dementia, highlighting the need to study vascular and neurodegenerative pathways holistically.",
+      "representative_quote": "shifting focus toward vascular and neurodegenerative pathways in multifactorial diseases.",
+      "source_ids": [
+        "src_054"
+      ]
+    },
+    {
+      "label": "Coronary Calcification as an Independent Predictor",
+      "summary": "Coronary calcification is a strong, independent predictor of coronary heart disease in the elderly.",
+      "details": "Adding coronary calcification scores to traditional risk factors significantly improves the accuracy of predicting coronary events, with risk increasing substantially as calcium scores rise.",
+      "representative_quote": "Coronary calcification is a strong and independent predictor of coronary heart disease, also in the elderly. Coronary calcification improves prediction of coronary events based on cardiovascular risk factors.",
+      "source_ids": [
+        "src_055"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Five Core Dimensions of Child Health",
+      "summary": "A conceptual framework for measuring child health as a foundation for healthy ageing research.",
+      "details": "The framework consists of five dimensions: 1) Absence of physical disease; 2) Absence of psychiatric disorders; 3) Optimal physical, mental, and social functioning (including adequate development); 4) Good quality of life or well-being; 5) Adequate resilience.",
+      "representative_quote": "We propose five core dimensions of child health: Absence of physical disease; absence of psychiatric disorders; optimal physical, mental, and social functioning, including adequate development; good quality of life or well-being; and adequate resilience.",
+      "source_ids": [
+        "src_039"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Developmental Origins of Health and Disease",
+      "summary": "A lens that views adult chronic diseases and health outcomes as being significantly shaped by preconceptional, prenatal, and early-life environmental and genetic interactions.",
+      "details": "This model shifts the focus of chronic disease prevention from late-adulthood interventions to early-life and even fetal monitoring, integrating maternal diet, lifestyle, and urban exposures to model gene-environment interactions over time.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_039",
+        "src_054"
+      ]
+    },
+    {
+      "label": "Tracking (Distribution Stability)",
+      "summary": "Assessing the stability of an individual's relative position within a population's distribution over time.",
+      "details": "Used to determine if early measurements (like childhood blood pressure) are reliable predictors of adult states. If a metric only 'tracks' moderately, individuals in the highest percentiles early in life will likely regress to the mean or drop to lower percentiles later.",
+      "representative_quote": "These observations indicate that there is a moderate degree of blood pressure ’tracking‘ in childhood.",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Multifactorial Disease Pathways",
+      "summary": "The understanding that chronic diseases rarely have a single cause, but emerge from the compounding effects of vascular, genetic, and environmental factors over a lifetime.",
+      "details": "This model drives the design of massive, long-term population cohorts (like the Rotterdam Study) that collect diverse data points—from MRI scans to genomic data—to uncover hidden correlations between seemingly distinct diseases like stroke and dementia.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_054"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Supplement traditional risk factors in the elderly",
+      "summary": "When assessing cardiovascular risk in older patients, do not rely solely on traditional risk factors; incorporate supplementary measures like coronary calcium scoring.",
+      "details": null,
+      "representative_quote": "Risk stratification by assessment of coronary calcification may have an important role in the primary prevention of coronary heart disease events in the elderly.",
+      "source_ids": [
+        "src_055"
+      ]
+    },
+    {
+      "label": "Target environments over individual childhood screening",
+      "summary": "To prevent adult chronic conditions like hypertension, prioritize broad environmental modifications (e.g., reducing sodium in infant diets) rather than trying to identify and treat high-risk children individually.",
+      "details": null,
+      "representative_quote": "advocated for population-level interventions, such as sodium reduction in infancy, over individual screening due to modest predictive power",
+      "source_ids": [
+        "src_036",
+        "src_054"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "The End of Preventive Nihilism",
+      "summary": "A declaration that neurological diseases in the elderly are not inevitable.",
+      "details": null,
+      "representative_quote": "The time for preventive nihilism is over.",
+      "source_ids": [
+        "src_051"
+      ]
+    },
+    {
+      "label": "Childhood as the Foundation of Ageing",
+      "summary": "An argument for including younger populations in ageing research.",
+      "details": null,
+      "representative_quote": "Childhood offers an important window to lay a base for future healthy ageing. Thus, to address the full ageing process, we should include younger populations in ageing research.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Defining Child Health",
+      "summary": "A comprehensive definition of child health beyond the mere absence of disease.",
+      "details": null,
+      "representative_quote": "[Child health is] a dynamic state, not merely the absence of disease or disability, but also adequate resilience that permits optimal physical, mental, and social functioning, and optimal quality of life in order to achieve full potential and to become an independent, functional, and social individual.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Coronary Calcification in the Elderly",
+      "summary": "Highlighting the importance of coronary calcification as a predictive tool.",
+      "details": null,
+      "representative_quote": "Coronary calcification is a strong and independent predictor of coronary heart disease, also in the elderly.",
+      "source_ids": [
+        "src_055"
+      ]
+    },
+    {
+      "label": "The Limits of Early Blood Pressure Screening",
+      "summary": "Warning against relying on childhood blood pressure to predict adult hypertension.",
+      "details": null,
+      "representative_quote": "They further imply that it is impossible to detect future hypertensives early in life by measurement of blood pressure only.",
+      "source_ids": [
+        "src_036"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Preventive Nihilism in Aging",
+      "summary": "The belief that neurological diseases and cognitive decline in the elderly are inevitable and cannot be prevented or delayed.",
+      "details": "Long-term prospective cohort data demonstrates that there are identifiable causes and significant potential to prevent or postpone these conditions. Accepting them as inevitable prevents the implementation of effective public health interventions.",
+      "representative_quote": "The time for preventive nihilism is over.",
+      "source_ids": [
+        "src_051"
+      ]
+    },
+    {
+      "label": "Over-relying on Early Individual Screening for Adult Disease",
+      "summary": "Attempting to detect future hypertensive patients early in life by relying solely on childhood blood pressure measurements.",
+      "details": "Blood pressure position within a population distribution ('tracking') is only moderately stable during childhood, meaning many children in high percentiles will naturally drop to lower ones over time. This makes individual screening an inefficient tool for long-term prediction compared to population-wide interventions.",
+      "representative_quote": "They further imply that it is impossible to detect future hypertensives early in life by measurement of blood pressure only.",
+      "source_ids": [
+        "src_036",
+        "src_054"
+      ]
+    },
+    {
+      "label": "Exclusive Focus on the Elderly for Ageing Research",
+      "summary": "Focusing healthy ageing research and interventions exclusively on elderly populations.",
+      "details": "This approach ignores the fact that the ageing process starts much earlier, missing the critical childhood window where the foundation for future healthy ageing is laid.",
+      "representative_quote": "Childhood offers an important window to lay a base for future healthy ageing. Thus, to address the full ageing process, we should include younger populations in ageing research.",
+      "source_ids": [
+        "src_039"
+      ]
+    },
+    {
+      "label": "Strict Reliance on Traditional Risk Factors in Old Age",
+      "summary": "Relying exclusively on traditional cardiovascular risk factors to predict heart disease in elderly patients.",
+      "details": "The predictive power of standard cardiovascular risk factors weakens with age, leading to less accurate risk stratification if supplementary measures like coronary calcification are ignored.",
+      "representative_quote": "The technique is particularly promising in the elderly because the predictive power of cardiovascular risk factors weakens with age.",
+      "source_ids": [
+        "src_055"
+      ]
+    }
+  ]
+}

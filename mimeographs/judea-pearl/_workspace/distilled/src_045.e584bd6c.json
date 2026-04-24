@@ -1,0 +1,112 @@
+{
+  "source_id": "src_045",
+  "summary": "Judea Pearl outlines the paradigmatic shift required to move from traditional associational statistics to causal inference. He introduces the Structural Causal Model (SCM), the do-operator for simulating interventions, and graphical tools like the back-door criterion to identify causal effects from non-experimental data.",
+  "themes": [
+    "Causal Inference",
+    "Structural Causal Models (SCM)",
+    "Graphical Models",
+    "Interventions and Counterfactuals",
+    "Epistemology of Statistics"
+  ],
+  "principles": [
+    {
+      "statement": "Causal and associational concepts do not mix.",
+      "rationale": "A joint distribution function only describes data under static conditions; it contains no information about how the distribution would change if external conditions or treatments were modified.",
+      "source_quote": "This distinction implies that causal and associational concepts do not mix; there is nothing in a distribution function to tell us how that distribution would differ if external conditions were to change...",
+      "source_id": "src_045"
+    },
+    {
+      "statement": "Probability calculus is insufficient for causal analysis.",
+      "rationale": "Standard probability syntax is symmetric and cannot express directional causal facts, such as the reality that symptoms do not cause diseases.",
+      "source_quote": "This distinction further implies that causal relations cannot be expressed in the language of probability and, hence, that any mathematical approach to causal analysis must acquire new notation – probability calculus is insufficient.",
+      "source_id": "src_045"
+    },
+    {
+      "statement": "Every causal claim must rely on untested causal assumptions.",
+      "rationale": "Unlike associational assumptions, causal assumptions cannot be verified from observational data alone without experimental control. They must be provided by theoretical or judgmental premises.",
+      "source_quote": "Every claim invoking causal concepts must rely on some premises that invoke such concepts; it cannot be inferred from, or even defined in terms statistical associations alone.",
+      "source_id": "src_045"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "General Methodology for Causal Inference",
+      "when_to_apply": "When systematically tackling problems of causal inference to move from assumptions to estimated effects.",
+      "steps": [
+        "Define the causal problem and target quantities.",
+        "Assume the causal relationships and structural model (e.g., using a causal diagram).",
+        "Identify whether the target causal quantity can be computed from the observed distribution given the assumptions.",
+        "Estimate the identified causal quantity from the data."
+      ],
+      "source_quote": "Section 4 outlines a general methodology to guide problems of causal inference: Define, Assume, Identify and Estimate...",
+      "source_id": "src_045"
+    },
+    {
+      "name": "The Back-door Criterion",
+      "when_to_apply": "When selecting a sufficient or admissible set of covariates to adjust for in order to estimate the causal effect of X on Y from observational data.",
+      "steps": [
+        "Ensure no element of the selected set S is a descendant of the treatment variable X.",
+        "Ensure the elements of S 'block' all 'back-door' paths from X to Y (i.e., all paths that end with an arrow pointing to X)."
+      ],
+      "source_quote": "A set S is admissible (or \"sufficient\") for adjustment if two conditions hold: 1. No element of S is a descendant of X. 2. The elements of S \"block\" all \"back-door\" paths from X to Y...",
+      "source_id": "src_045"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The do(x) Operator (Intervention as Equation Deletion)",
+      "description": "A mathematical operator that simulates physical interventions by deleting the structural equations of the intervened variables and replacing them with constants, while keeping the rest of the model unchanged.",
+      "example": "To emulate an intervention do(x0) that holds X constant in a model, replace the equation for X with X = x0 to obtain a new, post-intervention model.",
+      "source_id": "src_045"
+    },
+    {
+      "name": "Causal Diagrams (Path Diagrams)",
+      "description": "A graphical representation where arrows denote possible causal influences, and missing arrows or missing double-arrows represent empirical claims of zero influence or zero covariance.",
+      "example": "Drawing an arrow from Disease to Symptom, but omitting the arrow from Symptom to Disease, visually and mathematically encodes the assumption that symptoms do not cause diseases.",
+      "source_id": "src_045"
+    }
+  ],
+  "heuristics": [
+    "An associational concept can be defined by a joint distribution; a causal concept cannot.",
+    "In path diagrams, causal assumptions are encoded not in the links but, rather, in the missing links."
+  ],
+  "signature_quotes": [
+    {
+      "text": "This distinction implies that causal and associational concepts do not mix; there is nothing in a distribution function to tell us how that distribution would differ if external conditions were to change...",
+      "context": "Explaining the fundamental demarcation line between standard statistics and causal inference.",
+      "source_id": "src_045"
+    },
+    {
+      "text": "The syntax of probability calculus does not permit us to express the simple fact that “symptoms do not cause diseases,” let alone draw mathematical conclusions from such facts.",
+      "context": "Arguing for the necessity of new mathematical notation for causal analysis.",
+      "source_id": "src_045"
+    },
+    {
+      "text": "In path diagrams, causal assumptions are encoded not in the links but, rather, in the missing links.",
+      "context": "Explaining how to read and interpret structural causal models.",
+      "source_id": "src_045"
+    },
+    {
+      "text": "Every claim invoking causal concepts must rely on some premises that invoke such concepts; it cannot be inferred from, or even defined in terms statistical associations alone.",
+      "context": "Highlighting the necessity of untested causal assumptions.",
+      "source_id": "src_045"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Attempting to answer causal questions from data or distributions alone without causal assumptions.",
+      "why_it_fails": "The laws of probability theory do not dictate how one property of a distribution ought to change when another property is modified by external intervention.",
+      "source_id": "src_045"
+    },
+    {
+      "description": "Interpreting structural coefficients merely as regression coefficients.",
+      "why_it_fails": "Regression coefficients are artifacts of analysis that are by definition uncorrelated with regressors. Structural coefficients represent actual physical/causal effects and retain their meaning regardless of whether error terms are correlated.",
+      "source_id": "src_045"
+    },
+    {
+      "description": "Using standard probability calculus to express causal relations.",
+      "why_it_fails": "Probability calculus is symmetric and cannot distinguish statistical dependence (e.g., P(disease|symptom)) from directional causal dependence.",
+      "source_id": "src_045"
+    }
+  ]
+}

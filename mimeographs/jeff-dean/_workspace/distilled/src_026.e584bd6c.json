@@ -1,0 +1,97 @@
+{
+  "source_id": "src_026",
+  "summary": "In this interview, Jeff Dean discusses his 25-year tenure at Google, the evolution of machine learning hardware and algorithms, and the future of AI. He emphasizes the importance of hardware-software co-design, the potential of automated chip design to accelerate progress, and the distinction between 'squishy' model weights and 'sharp' context windows.",
+  "themes": [
+    "Hardware-software co-design",
+    "Evolution of neural networks",
+    "Automated chip design",
+    "Long context windows vs. model weights",
+    "Scaling ML research"
+  ],
+  "principles": [
+    {
+      "statement": "Hardware and algorithms must be co-designed to maximize performance.",
+      "rationale": "By understanding hardware constraints and opportunities, algorithm designers can make trade-offs (like using lower precision/quantization) that drastically increase throughput and efficiency.",
+      "source_quote": "yes, quantization is irritating, but your model is going to be three times faster, so you're going to have to deal.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Breakthroughs come from combining 'in the air' ideas with novel solutions.",
+      "rationale": "Innovation rarely happens in a vacuum; it involves drawing inspiration from existing, separate research ideas and morphing them to solve the unsolved aspects of a new problem.",
+      "source_quote": "The combination of some morphing of the things that already exist and some new things lead to some new breakthrough or new research result that didn't exist before.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Automating chip design is crucial for the next era of AI scaling.",
+      "rationale": "Shrinking the design phase from 18 months to a few weeks allows hardware to be specialized for near-term ML algorithms rather than guessing years into the future.",
+      "source_quote": "if you could shrink that to a few people with a much more automated search process... you could get perhaps much more exploration and more rapid design of something that you actually want to give to a fab.",
+      "source_id": "src_026"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "1/1000th Scale Vetting",
+      "when_to_apply": "When exploring a massive number of new machine learning architectures or algorithmic ideas.",
+      "steps": [
+        "Create a 1/1000th scale version of the problem.",
+        "Vet hundreds of thousands of ideas or variations on that small scale.",
+        "Identify the approaches that seem promising.",
+        "Scale up only the successful ideas to medium and then large-scale production training."
+      ],
+      "source_quote": "It's very helpful to have a 1/1000th scale problem and then vet 100,000 ideas on that, and then scale up the ones that seem promising.",
+      "source_id": "src_026"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Squishy Weights vs. Sharp Context",
+      "description": "A way to understand how LLMs store information. Training data stirred into model parameters (weights) becomes 'squishy' and prone to hallucination, whereas information placed directly in the input context window remains 'sharp and clear' because the attention mechanism can pinpoint exact text.",
+      "example": "When a model is asked for a specific date, it might hallucinate if relying on its 'squishy' trained parameters, but will answer perfectly if the relevant document is provided in its 'sharp' context window.",
+      "source_id": "src_026"
+    },
+    {
+      "name": "Ideas in the Air",
+      "description": "A lens for viewing research progress. New breakthroughs are rarely entirely novel; they are usually a combination of several existing, floating concepts that a researcher 'squints at' and combines with one missing piece to solve a problem.",
+      "example": null,
+      "source_id": "src_026"
+    }
+  ],
+  "heuristics": [
+    "With one level of indirection, you can usually find the right person in a massive company if you have a good network.",
+    "Don't hype things that aren't done yet."
+  ],
+  "signature_quotes": [
+    {
+      "text": "yes, quantization is irritating, but your model is going to be three times faster, so you're going to have to deal.",
+      "context": "Discussing the trade-offs algorithm designers must make to leverage specialized hardware.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "I like to think of a lot of ideas as being partially in the air, where there are a few different, maybe separate research ideas that one is squinting at when you’re trying to solve a new problem.",
+      "context": "Explaining how major breakthroughs like the Transformer come about.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "I just don't like to hype things that aren't done yet.",
+      "context": "Responding to the host's excitement about the potential of millions of automated AI researchers.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "I think we're an 'organize the world's information' company, and that's broader than information retrieval.",
+      "context": "Defining Google's mission in the era of generative AI.",
+      "source_id": "src_026"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on naive attention algorithms for trillion-token context windows.",
+      "why_it_fails": "The naive attention algorithm scales quadratically, making it computationally impossible to run on trillions of tokens without algorithmic approximations.",
+      "source_id": "src_026"
+    },
+    {
+      "description": "Long, manual hardware design cycles (12-18 months).",
+      "why_it_fails": "It forces chip designers to guess what ML algorithms will look like years in the future, rather than rapidly iterating to support current algorithmic breakthroughs.",
+      "source_id": "src_026"
+    }
+  ]
+}

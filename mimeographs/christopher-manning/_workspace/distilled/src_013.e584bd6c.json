@@ -1,0 +1,108 @@
+{
+  "source_id": "src_013",
+  "summary": "In this keynote, Christopher Manning discusses the evolution of language models, arguing that they do possess a gradient form of 'meaning' based on the pragmatist 'use theory of meaning'. He critiques current definitions of artificial intelligence, emphasizing that true intelligence requires adaptability and continuous learning rather than just encyclopedic knowledge or task performance. Finally, he explores the 'linearization of representation hypothesis' and presents recent work on training web agents using exploration-guided synthetic demonstrations.",
+  "themes": [
+    "History of NLP and Language Models",
+    "Philosophy of Language (Meaning and Inferentialism)",
+    "Definitions of Artificial Intelligence",
+    "System 2 Reasoning and Scaling Limits",
+    "Web Agents and Grounded Instruction Following"
+  ],
+  "principles": [
+    {
+      "statement": "Language models capture meaning because meaning is derived from use.",
+      "rationale": "Rejecting the internalist and referentialist views that meaning requires mapping to a physical world or internal intent, Manning aligns with Wittgenstein's inferentialism. Because LLMs learn the appropriate contexts for using words, they possess a valid, gradient form of meaning.",
+      "source_quote": "inferentialism couches understanding as appreciating the appropriate versus inappropriate ways to use language and context so that's often summed up as a use theory of meaning... I think it fits much better with the models we're building in the llm world",
+      "source_id": "src_013"
+    },
+    {
+      "statement": "True intelligence requires adaptability and continuous learning.",
+      "rationale": "Knowing a lot of facts or performing specific tasks well is not enough to constitute general intelligence. An intelligent system must be able to adapt to novel, uncertain environments and learn as it goes, which current LLMs still struggle to do.",
+      "source_quote": "I think you can only claim to have intelligence if you have the ability to be adaptive to different environments and to learn as you go so you can operate better in different circumstances",
+      "source_id": "src_013"
+    },
+    {
+      "statement": "The linearization of representation hypothesis is driving current AI progress.",
+      "rationale": "Despite skepticism about whether scaling can achieve deep System 2 reasoning, representing complex structures (like images or search trees) as long, unfolded linear sequences fed into large Transformers has proven far more capable than anyone anticipated.",
+      "source_quote": "I think what we're playing out at the moment is effectively the linearization of representation hypothesis so no matter what we want to do we linearize it into a long sequence that we put into a Transformer",
+      "source_id": "src_013"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Bagel (Exploration-Guided Synthetic Demonstrations)",
+      "when_to_apply": "When training language models to act as agents in grounded environments (like websites) without relying on costly human demonstrations.",
+      "steps": [
+        "Use an exploration policy (a prompted LLM) to take actions in an environment, generating trajectories.",
+        "Use a trajectory labeler (a second prompted LLM) to assign a natural language instruction that the trajectory might be following.",
+        "Pass the instruction-trajectory pair through a demonstration filter to score how well they correspond.",
+        "If the pair is bad, use a refinement procedure (similar to back-translation) to take the generated instruction and run it out as a new trajectory, looping until a successful pair is found or a limit is reached."
+      ],
+      "source_quote": "we wanted to play around to produce synthetic demonstrations with an exploration policy that is a prompted llm... we use our large language models we use the second prompted large language Model A trajectory labeler that looks at a trajectory and tries to assign a natural language instruction",
+      "source_id": "src_013"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Gradient Meaning",
+      "description": "The concept that understanding meaning is not binary but partial and contextual. You can understand a word partially through text definitions, more by seeing it, and even more by interacting with it or understanding its cultural context.",
+      "example": "Understanding the word 'shenai' (an Indian musical instrument). A person might know its meaning from holding one, seeing a picture, or reading a definition. An LLM reading a novel gains partial meaning about its cultural context of use, even without visual grounding.",
+      "source_id": "src_013"
+    },
+    {
+      "name": "Deep Learning as a Vein of Ore",
+      "description": "A metaphor for research progress. When a highly productive technological direction is discovered, it is best to keep mining it to see how far it goes, even if its ultimate limits are unknown.",
+      "example": "Despite skepticism in 2011 and today about whether deep learning/LLMs can achieve true reasoning, Manning advocates continuing to scale and push the architecture because it remains the most productive path forward.",
+      "source_id": "src_013"
+    },
+    {
+      "name": "LLMs as a Simulacrum",
+      "description": "Viewing current large language models as massive, static representations of past human knowledge that mimic understanding but lack the ability to truly generalize or adapt to changing real-world conditions.",
+      "example": "An LLM can perfectly answer questions about a known website's layout based on its training data, but fails to adapt on the fly when presented with a completely novel, creatively laid-out website.",
+      "source_id": "src_013"
+    }
+  ],
+  "heuristics": [
+    "The Landmine Test: If a proposed definition of artificial intelligence also accurately describes a landmine, it is a flawed definition.",
+    "Dig in the direction of the vein of ore: pursue the most productive research paradigm until it stops yielding results."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I think you can only claim to have intelligence if you have the ability to be adaptive to different environments and to learn as you go.",
+      "context": "Discussing the flaws in current definitions of artificial intelligence and AGI.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "I think what we're playing out at the moment is effectively the linearization of representation hypothesis.",
+      "context": "Explaining why simply scaling up Transformers with linear sequences is solving problems previously thought to require explicit tree search or complex architectures.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "Deep learning seems to be a really rich vein of awe [ore] that we've found and I don't really know how far this vein of awe extends but it sort of seems like the most productive way to make progress at the moment is to dig in the direction of the vein of awe.",
+      "context": "Reflecting on his stance from 2011 regarding deep learning's potential, which he still holds today regarding LLM scaling.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "We want to say that meaning is gradient. You can partially understand appropriate context for use of a word without understanding everything that anybody knows.",
+      "context": "Arguing against the binary view that LLMs lack meaning because they lack physical grounding.",
+      "source_id": "src_013"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Defining intelligence purely as task performance or encyclopedic knowledge.",
+      "why_it_fails": "It mistakes a static repository of facts (like an encyclopedia or a calculator) for true intelligence, which actually requires the ability to adapt, learn, and operate in uncertain, ever-varying environments.",
+      "source_id": "src_013"
+    },
+    {
+      "description": "Claiming language models cannot possess meaning because they only process form (the 'stochastic parrot' argument).",
+      "why_it_fails": "It relies on an overly strict internalist or referentialist philosophy of language. It ignores the pragmatist 'use theory of meaning', where understanding the appropriate context for a word constitutes a valid, gradient form of meaning.",
+      "source_id": "src_013"
+    },
+    {
+      "description": "Using overly broad, mechanistic definitions for Artificial Intelligence in legislation.",
+      "why_it_fails": "Definitions that merely require a machine to 'infer from input to generate outputs that influence environments' fail the 'landmine test'—they inadvertently classify dumb, static mechanisms like landmines as AI.",
+      "source_id": "src_013"
+    }
+  ]
+}

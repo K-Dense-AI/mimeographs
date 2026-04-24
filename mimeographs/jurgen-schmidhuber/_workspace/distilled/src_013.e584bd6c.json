@@ -1,0 +1,105 @@
+{
+  "source_id": "src_013",
+  "summary": "Jürgen Schmidhuber discusses his lifelong goal of building an artificial scientist, the foundational concepts of neural networks, and the mechanics of artificial curiosity. He argues that the predictable scaling of compute drives AI progress, that open-source competition will prevent long-term corporate monopolies, and that scientific discovery is fundamentally a process of data compression.",
+  "themes": [
+    "Artificial General Intelligence (AGI)",
+    "Neural Networks",
+    "Artificial Curiosity",
+    "Compute Scaling",
+    "Open Source AI",
+    "Job Automation",
+    "Data Compression"
+  ],
+  "principles": [
+    {
+      "statement": "Compute gets ten times cheaper every five years, driving the AI revolution.",
+      "rationale": "The success of modern AI methods developed decades ago is primarily due to the exponential decrease in computing costs, a trend that dates back to 1941 and will eventually allow small devices to compute as much as a human brain.",
+      "source_quote": "every five years computer is getting 10 times cheaper and even when I did my diploma thesis in 1987 this was an old Trend",
+      "source_id": "src_013"
+    },
+    {
+      "statement": "AI will be democratized by the open-source movement, preventing long-term monopolies.",
+      "rationale": "The open-source community is highly competitive and usually only months behind major tech companies. This makes it impossible for a few large corporations to maintain a sustainable, highly profitable monopoly on AI models.",
+      "source_quote": "nobody is going to have a Monopoly for long there in that field... the open source movement is maybe just so some people say it's maybe only eight months behind the big players",
+      "source_id": "src_013"
+    },
+    {
+      "statement": "AI will replace tiresome work, but humans will invent new jobs to maintain employment.",
+      "rationale": "Just as industrial robots replaced factory workers but led to new jobs, AI will automate desktop and physical tasks. Humans ('homo ludens') will continuously invent new, lucrative, competition-based jobs that aren't strictly necessary for survival.",
+      "source_quote": "homoludens the playing man is always inventing new jobs which are often not super important for the survival of the species not as important as farming for example but lucrative",
+      "source_id": "src_013"
+    },
+    {
+      "statement": "All scientific discovery is a history of compression progress.",
+      "rationale": "Discovering physical laws allows us to predict patterns in data. If you can predict the data, you don't have to store it, meaning great scientific insights are essentially finding previously unknown compressibility in the environment.",
+      "source_quote": "all of science is actually a history of compression progress",
+      "source_id": "src_013"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Artificial Curiosity",
+      "when_to_apply": "When building an artificial scientist or autonomous agent that needs to explore and learn about its environment.",
+      "steps": [
+        "Create two neural networks: an action selector and a prediction machine (world model).",
+        "Train the prediction machine to minimize its error by learning to predict the consequences of actions.",
+        "Train the action selector to execute action sequences that lead to data where the prediction machine is still surprised.",
+        "Use the error of the prediction machine as the reward for the action selector, forcing the agent to invent experiments to learn new things."
+      ],
+      "source_quote": "the error of the prediction machine is the reward for the action selector",
+      "source_id": "src_013"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The World Model",
+      "description": "An agent consists of two parts: one that generates actions and one that predicts the consequences of those actions. The predictor acts as a 'world model' that the agent can use to mentally simulate the environment, plan routes, and avoid negative rewards (pain) before taking physical action.",
+      "example": "A robot predicting that moving straight will cause it to bump into an obstacle and trigger pain sensors, so it uses its world model to plan a different route to the charging station.",
+      "source_id": "src_013"
+    },
+    {
+      "name": "Science as Compression",
+      "description": "The lens that all scientific laws and patterns are essentially data compression algorithms. By finding a rule that explains how things behave, you reduce the amount of raw data you need to store.",
+      "example": "Kepler and Einstein finding simple mathematical principles to explain planetary motion and gravity, which allows raw video data of falling apples to be greatly compressed because the frames can be predicted rather than stored.",
+      "source_id": "src_013"
+    }
+  ],
+  "heuristics": [
+    "Every five years compute is getting 10 times cheaper.",
+    "The error of the prediction machine is the reward for the action selector."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I realized there's something even more exciting that I could try to do which is try to build a machine an artificial scientist that learns to become much smarter than I could ever hope to be...",
+      "context": "Explaining his teenage motivation for entering the field of AI.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "The error of the prediction machine is the reward for the action selector.",
+      "context": "Explaining the core principle of artificial curiosity and generative adversarial networks.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "All of science is actually a history of compression progress.",
+      "context": "Describing how AI will eventually achieve historic creativity by finding new ways to compress data.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "Of course AI is going to be smarter than humans in every single way... but it's not frightening at all all will be good.",
+      "context": "Concluding thoughts on the future trajectory of AI capabilities.",
+      "source_id": "src_013"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Believing that a few huge tech companies will permanently control AI and hold a monopoly.",
+      "why_it_fails": "The open-source movement is highly competitive and usually only months behind the big players. Anyone can download, use, and improve the code, making it impossible for major players to maintain a sustainable monopoly.",
+      "source_id": "src_013"
+    },
+    {
+      "description": "Fearing that AI will cause permanent mass unemployment by taking all the jobs.",
+      "why_it_fails": "Historically, automation (like industrial robots) replaces tiresome work but leads humans to invent new, lucrative jobs that couldn't be predicted previously, keeping unemployment rates low.",
+      "source_id": "src_013"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "source_id": "src_023",
+  "summary": "In this Nobel Prize interview, Geoffrey Hinton discusses his early career, the resistance he faced regarding neural networks, and his current views on AI. He outlines both short-term risks (job displacement, cyber-attacks, bias) and long-term existential threats of superintelligence, urging immediate basic research on AI control and advising young researchers to stubbornly pursue contrarian ideas.",
+  "themes": [
+    "AI Safety and Existential Risk",
+    "Scientific Paradigm Shifts",
+    "Neural Networks vs. Traditional Computing",
+    "Contrarian Thinking in Research"
+  ],
+  "principles": [
+    {
+      "statement": "Don't give up on a contrarian idea until you can personally prove why it is wrong.",
+      "rationale": "Most ideas that go against the consensus are wrong, but the rare, correct paradigm-shifting discoveries will never be made if you abandon your beliefs just because others disagree.",
+      "source_quote": "If you have an idea and it seems right to you and it’s different from what everybody else believes, don’t give up on it until you’ve figured out why it’s wrong.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Aim for AI to be significantly less biased than humans, rather than perfectly unbiased.",
+      "rationale": "Human discrimination is hard to measure because people change their behavior when observed (the Volkswagen effect). AI bias can be frozen and measured, making it a solvable problem where we can achieve much better outcomes than the human systems they replace.",
+      "source_quote": "Our aim should be to make things that discriminate a lot less and are a lot less biased than the systems they replace.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "We must conduct basic research now on how to control superintelligent AI.",
+      "rationale": "We are creating entities more intelligent than ourselves—a situation humanity has never faced. Because we do not know what will happen, we need to figure out control mechanisms before the intelligence surpasses ours.",
+      "source_quote": "But because we really don't know, it will make a lot of sense to do a lot of basic research now on whether we can stay in control of things that we create that are more intelligent than us.",
+      "source_id": "src_023"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Raising a Child",
+      "description": "A metaphor for training large neural networks. Because AI systems extract structure from data rather than following explicit computer code, controlling them is less about programming and more about demonstrating good behavior and curating their environment.",
+      "example": "Hinton argues against training chatbots on all available internet data (like serial killer diaries), comparing it to teaching a child to read using terrible examples.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "The Continental Drift Analogy",
+      "description": "A historical lens for understanding scientific paradigm shifts. Just as geologists completely dismissed overwhelming physical evidence of continental drift because it violated their assumptions, computer scientists dismissed neural networks despite the obvious existence of the human brain.",
+      "example": "Hinton used his childhood memory of geologists rejecting continental drift to maintain his confidence in neural networks when the broader AI field considered them 'complete nonsense'.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "Baby Controlling a Mother",
+      "description": "An evolutionary analogy used to illustrate the difficulty of the AI alignment problem. It is the only natural example where a less intelligent entity successfully controls a more intelligent one, and it required massive evolutionary effort to achieve.",
+      "example": "Hinton uses this to show how rare and difficult it is for less intelligent things (humans) to control more intelligent things (superintelligent AI).",
+      "source_id": "src_023"
+    },
+    {
+      "name": "The Volkswagen Effect",
+      "description": "The phenomenon where entities behave differently when they know they are being measured or tested.",
+      "example": "Hinton uses this to explain why measuring discrimination in humans is harder than measuring it in AI systems, as humans will hide their bias when evaluated.",
+      "source_id": "src_023"
+    }
+  ],
+  "heuristics": [
+    "Ignore what other people say if you are confident in your idea.",
+    "Treat AI models like children: reward good behavior, punish bad behavior, and demonstrate what you want them to mimic."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Anybody who says it's all going to be fine, it's crazy. Anybody who says they're inevitably going to take over, they're crazy too. We really don't know.",
+      "context": "Discussing the uncertainty surrounding the creation of superintelligent AI.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "If you have an idea and it seems right to you and it's different from what everybody else believes, don't give up on it until you've figured out why it's wrong.",
+      "context": "Giving advice to young researchers on how to handle contrarian ideas.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "I always thought superintelligence was a long way off and we could worry about it later, and the problem for now is just to make these more intelligent. I wish I'd thought sooner about what was going to happen.",
+      "context": "Reflecting on his career and what he would have done differently regarding AI existential risk.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "I kind of knew from a very early age that I had to be a successful academic or a failure.",
+      "context": "Describing the pressure of growing up in a family of famous researchers.",
+      "source_id": "src_023"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Releasing the weights of large AI models (open-sourcing).",
+      "why_it_fails": "It allows bad actors to easily fine-tune the models for malicious purposes, such as designing bio-weapons or launching sophisticated cyber-attacks, enabling a single crazy person to cause endless chaos.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Treating neural networks as traditional computer programs.",
+      "why_it_fails": "Neural networks extract structure from data rather than executing explicit code. Assuming they can be controlled via traditional programming fails to recognize that their behavior emerges from their training data, much like a human child.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Training chatbots indiscriminately on all available data.",
+      "why_it_fails": "Scraping all data includes toxic content like the diaries of serial killers. Because AI learns by mimicking what it observes, feeding it bad data is akin to raising a child on terrible behavioral examples.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Delaying concern about superintelligence until it is imminent.",
+      "why_it_fails": "It leaves humanity unprepared for an existential threat. Basic research on how to control entities smarter than ourselves takes significant time and must be done well before the technology arrives.",
+      "source_id": "src_023"
+    }
+  ]
+}

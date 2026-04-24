@@ -1,0 +1,120 @@
+{
+  "source_id": "src_054",
+  "summary": "Fei-Fei Li discusses her journey from physics and neuroscience to pioneering computer vision with ImageNet. She outlines her vision for Human-Centered AI, emphasizing the need for interdisciplinary collaboration, augmenting rather than replacing humans, and the critical importance of diversity and empathy in shaping AI's future applications, particularly in healthcare and education.",
+  "themes": [
+    "Human-Centered AI",
+    "Computer Vision",
+    "Cognitive Neuroscience",
+    "Diversity and Inclusion in Tech",
+    "Healthcare AI",
+    "Interdisciplinary Research"
+  ],
+  "principles": [
+    {
+      "statement": "We have a moral obligation to guide AI toward human benevolence.",
+      "rationale": "Because AI is an incredibly powerful and potentially useful technology, we owe it to ourselves and future generations to ensure it is developed and applied responsibly.",
+      "source_quote": "Whenever humanity creates a technology as powerful and potentially useful as AI, we owe it to ourselves and our future generation to make it right.",
+      "source_id": "src_054"
+    },
+    {
+      "statement": "AI is no longer just a computer science field.",
+      "rationale": "To truly understand AI's impact, anticipate its perils, and guide policy, the field must integrate with social sciences, humanities, ethicists, and economists.",
+      "source_quote": "AI is no longer a computer science field. AI is so interdisciplinary today. In fact, some of the most interesting fields that AI should really contribute and also welcome to join force are social sciences and humanities.",
+      "source_id": "src_054"
+    },
+    {
+      "statement": "AI should enhance and augment human capability, not replace it.",
+      "rationale": "While we must stay vigilant about job displacement, the true potential of AI lies in improving human productivity, safety, and overall wellbeing.",
+      "source_quote": "I think we should stay vigilant about job displacement and labor market, but the real potential is using this technology to enhance and augment human capability, to improve productivity, to increase safety, and to really eventually to improve wellbeing",
+      "source_id": "src_054"
+    },
+    {
+      "statement": "The best technology is invisible.",
+      "rationale": "Technology should quietly assist, connect people, and ensure safety without intruding on human dignity or replacing human connectivity.",
+      "source_quote": "The best technology is you don't notice the technology. But your life is better.",
+      "source_id": "src_054"
+    },
+    {
+      "statement": "You must rethink complex modeling through the lens of data.",
+      "rationale": "Hand-designed probabilistic models fail to capture the scale and scope of the real natural visual world; massive datasets are required to train robust neural networks.",
+      "source_quote": "we have to hit the reset button for machine learning... the way to really think about modeling objects through machine learning techniques is to think through data.",
+      "source_id": "src_054"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Stanford HAI's Three Principles of Human-Centered AI",
+      "when_to_apply": "From the get-go, from the design and basic science development of AI technology all the way to its application and societal impact.",
+      "steps": [
+        "Develop AI technology that is human-inspired, combining cognitive science, psychology, behavior science, and neuroscience to push AI forward.",
+        "Understand, anticipate, and guide AI's human and societal impact by collaborating with social sciences and humanities (economists, ethicists, legal scholars).",
+        "Design AI to enhance and augment human capability, focusing on improving productivity, safety, and wellbeing instead of replacing humans."
+      ],
+      "source_quote": "the institute that both of us are involved in is really laying out a framework of thinking about this, and the framework is human centered... this institute works on three principles",
+      "source_id": "src_054"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Cambrian Explosion of AI",
+      "description": "Viewing the development of visual intelligence as the ultimate catalyst for rapid evolution and activity. Just as the onset of vision in simple animals 540 million years ago sparked an evolutionary arms race and the 'Big Bang of evolution', giving computers the ability to see unlocks massive, rapid advancements in artificial intelligence.",
+      "example": "Using the evolutionary history of the eye to justify why visual intelligence is the most complex and foundational sensory system to replicate in machines.",
+      "source_id": "src_054"
+    },
+    {
+      "name": "Scientists in a Crib (Babies as Learning Agents)",
+      "description": "Using human infants as the ultimate model for machine learning. Babies learn without massive labeled datasets or language; they use curiosity, trial and error, and multi-modal exploration to understand physics, objects, and social intelligence.",
+      "example": "Designing machine learning agents in simulated environments that use curiosity-driven reinforcement learning to interact with objects, mimicking how a baby drops or bangs toys to learn their physical properties.",
+      "source_id": "src_054"
+    }
+  ],
+  "heuristics": [
+    "The best technology is you don't notice the technology.",
+    "The best way to predict the future is to create it.",
+    "AI will change the world, who will change AI?"
+  ],
+  "signature_quotes": [
+    {
+      "text": "Whenever humanity creates a technology as powerful and potentially useful as AI, we owe it to ourselves and our future generation to make it right.",
+      "context": "Discussing the moral imperative behind Human-Centered AI.",
+      "source_id": "src_054"
+    },
+    {
+      "text": "AI is no longer a computer science field.",
+      "context": "Explaining the need for interdisciplinary collaboration in AI development.",
+      "source_id": "src_054"
+    },
+    {
+      "text": "The best technology is you don't notice the technology. But your life is better.",
+      "context": "Describing her dream technology for eldercare.",
+      "source_id": "src_054"
+    },
+    {
+      "text": "AI would change the world, who will change AI?",
+      "context": "The founding slogan of AI4ALL, emphasizing the need for diverse creators in AI.",
+      "source_id": "src_054"
+    },
+    {
+      "text": "You do not have to be a coder to join AI and to change AI.",
+      "context": "Encouraging artists, writers, and social scientists to participate in the AI movement.",
+      "source_id": "src_054"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Building robots to replace human companionship in eldercare.",
+      "why_it_fails": "It ignores the fundamental human needs of aging populations, which are dignity and social connection. Technology should quietly assist and ensure safety, not replace family, nurses, or friends.",
+      "source_id": "src_054"
+    },
+    {
+      "description": "Relying solely on hand-designed mathematical models for object recognition.",
+      "why_it_fails": "It cannot scale to the immense scope and variety of the natural visual world. A data-driven approach (like ImageNet) is required to train robust models.",
+      "source_id": "src_054"
+    },
+    {
+      "description": "Believing you must be a lifelong coder to participate in the AI revolution.",
+      "why_it_fails": "It limits the field to a single demographic and mindset. AI needs the empathy, context, and diverse experiences of artists, philosophers, and people from rural communities to solve real human problems effectively.",
+      "source_id": "src_054"
+    }
+  ]
+}

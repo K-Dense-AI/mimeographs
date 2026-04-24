@@ -1,0 +1,35 @@
+{
+  "source_id": "src_005",
+  "summary": "This source is a podcast episode outline and show notes from The Gradient featuring Yoshua Bengio. Because the text consists almost entirely of timestamps and high-level topics rather than a transcript, it provides very little extractable detail regarding his specific thought processes, other than a brief warning about inductive biases.",
+  "themes": [
+    "Deep Learning History",
+    "Inductive Biases",
+    "GFlowNets",
+    "Higher-level Cognition"
+  ],
+  "principles": [
+    {
+      "statement": "You have to be careful with inductive biases.",
+      "rationale": "When adding more structure to language models, one must exercise caution regarding the assumptions and biases being introduced.",
+      "source_quote": "you have to be careful with inductive biases",
+      "source_id": "src_005"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "you have to be careful with inductive biases",
+      "context": "Discussing the rise of deep learning and adding structure to language models.",
+      "source_id": "src_005"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Carelessly adding structure or inductive biases to language models.",
+      "why_it_fails": null,
+      "source_id": "src_005"
+    }
+  ]
+}

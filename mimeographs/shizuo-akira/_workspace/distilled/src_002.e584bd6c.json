@@ -1,0 +1,29 @@
+{
+  "source_id": "src_002",
+  "summary": "A brief overview by the Japan Science and Technology Agency detailing Shizuo Akira's groundbreaking research on Toll-like receptors. The article highlights how his work using knockout mice demonstrated that innate immunity is not merely a primitive defense, but a complex system that recognizes specific pathogens and is essential for activating adaptive immunity.",
+  "themes": [
+    "Innate Immunity",
+    "Toll-like Receptors (TLRs)",
+    "Immunology",
+    "Pathogen Recognition"
+  ],
+  "principles": [
+    {
+      "statement": "Innate immunity is an essential system that links directly to and activates adaptive immunity.",
+      "rationale": "Toll-like receptors in the innate immune system are responsible for recognizing specific bacteria or viruses, which then triggers the recruitment and activation of cells necessary for adaptive immune reactions.",
+      "source_quote": null,
+      "source_id": "src_002"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Dismissing innate immunity as a primitive, non-specific response that merely digests pathogens.",
+      "why_it_fails": "It ignores the fact that innate immunity uses Toll-like receptors to specifically recognize different bacteria and viruses, playing a crucial role in linking to and activating the adaptive immune system.",
+      "source_id": "src_002"
+    }
+  ]
+}

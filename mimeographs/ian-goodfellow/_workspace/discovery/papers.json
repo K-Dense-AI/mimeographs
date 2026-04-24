@@ -1,0 +1,132 @@
+[
+  {
+    "id": "papers_000",
+    "url": "https://x.com/goodfellow_ian/status/1084973596236144640",
+    "title": "Ian Goodfellow on X: \"4.5 years of GAN progress on face generation. https://t.co/kiQkuYULMC https://t.co/S4aBsU536b https://t.co/8di6K6BxVC https://t.co/UEFhewds2M https://t.co/s6hKQz9gLz https://t.co/F9Dkcfrq8l\" / X",
+    "publish_date": null,
+    "kind": "paper",
+    "medium": "web",
+    "bucket": "papers",
+    "excerpts": [
+      "Section Title: Conversation\nContent:\nIan Goodfellow\n@goodfellow_ian\n4.5 years of GAN progress on face generation. [https:// arxiv.org/abs/1406.2661](https://t.co/kiQkuYULMC) [https:// arxiv.org/abs/1511.06434](https://t.co/S4aBsU536b) [https:// arxiv.org/abs/1606.07536](https://t.co/8di6K6BxVC) [https:// arxiv.org/abs/1710.10196](https://t.co/UEFhewds2M) [https:// arxiv.org/abs/1812.04948](https://t.co/s6hKQz9gLz)\n7:40 pm \u00b7 14 Jan 2019\n35\n1.4K\n3.4K\n189\nRead 35 replies\nSign up now to get your own personalized timeline!\nSign up with Google Sign up with Google. Opens in new tab\nSign up with Apple\nBy signing up, you agree to the [Terms of Service](https://x.com/tos) and [Privacy Policy](https://x.com/privacy) , including [Cookie Use.](https://help.x.com/rules-and-policies/twitter-cookies)\n[Terms of Service](https://x.com/tos)\n|\n[Privacy Policy](https://x.com/privacy)\n|\n[Cookie Policy](https://support.x.com/articles/20170514)\n|\n[Accessibility](https://help.x.com/resources/accessibility)\n|"
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "papers_001",
+    "url": "https://www.youtube.com/watch?v=9JpdAg6uMXs",
+    "title": "Introduction to GANs, NIPS 2016 | Ian Goodfellow, OpenAI",
+    "publish_date": null,
+    "kind": "paper",
+    "medium": "youtube",
+    "bucket": "papers",
+    "excerpts": [
+      "https://arxiv.org/abs/... Introduction to Generative Adversarial Networks. Introduction to GANs, NIPS 2016 | Ian Goodfellow, OpenAI. 158K"
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "papers_002",
+    "url": "https://www.lerandom.art/editorial/ian-goodfellow-on-inventing-gans",
+    "title": "Ian Goodfellow on Inventing GANs - Editorial - Le Random",
+    "publish_date": null,
+    "kind": "paper",
+    "medium": "web",
+    "bucket": "papers",
+    "excerpts": [
+      "Section Title: **Ian Goodfellow on Inventing GANs**\nContent:\nThey were asking my advice for how we could write a program that was able to process so many triplets. I was walking them through the math of, \u201cWell, here's how many pixels are in your image. You're going to process not just one image, but a batch. Here's how much memory is on the GPU. You're not going to be able to program your way out of this. There are just too many triplets.\u201d\n\u200d\nIan Goodfellow, Early GAN Outputs from the 2014 [GAN Paper](https://arxiv.org/abs/1406.2661) (CIFAR-10), 2014. Courtesy of the artist\n\u200d\n\u200d\nSo I suggested, \u201cHow about instead of trying to make a big, long list of all the triplet features, you have a neural net *learn* the features that you should look at? And have a list of, like, a thousand features that you think describe what you're looking for in the photo.\u201d\n\u200d\nThat was essentially the embedding space of the discriminator network that I was describing."
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "papers_003",
+    "url": "https://www.deeplearning.ai/the-batch/ian-goodfellow-a-man-a-plan-a-gan",
+    "title": "How Ian Goodfellow Invented GANs - DeepLearning.AI",
+    "publish_date": "2022-10-05",
+    "kind": "paper",
+    "medium": "web",
+    "bucket": "papers",
+    "excerpts": [
+      "Section Title: Ian Goodfellow A Man, A Plan, A GAN\nContent:\n**Goodfellow:** In the first GAN paper, we included a list of things that might happen in future work. A lot of them did. The one big category of things I didn\u2019t anticipate was domain-to-domain translation. GANs like [CycleGAN](https://arxiv.org/abs/1703.10593) from Berkeley. You can take a picture of a horse and have it transformed into a zebra without training on matched pairs of horse and zebra images. That\u2019s very powerful because it can be easy to passively collect data in each domain, but it\u2019s time-consuming and expensive to get data that matches up across domains.\n**The Batch:** What are you most hopeful about in GAN research?"
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "papers_004",
+    "url": "http://papers.nips.cc/paper/5423-generative-adversarial-nets",
+    "title": "",
+    "publish_date": null,
+    "kind": "paper",
+    "medium": "web",
+    "bucket": "papers",
+    "excerpts": [
+      "Advances in Neural Information Processing Systems 27 (NIPS 2014)\nIan J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio"
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "papers_005",
+    "url": "https://research.google.com/pubs/105214.html?source=post_page---------------------------",
+    "title": "Ian Goodfellow - Research at Google",
+    "publish_date": null,
+    "kind": "paper",
+    "medium": "web",
+    "bucket": "papers",
+    "excerpts": [
+      "Section Title: Ian Goodfellow > Previous Publications\nContent:\nDai , Ian GoodfellowarXiv preprint (2016)\n[](https://www.google.com/search?lr&ie=UTF-8&oe=UTF-8&q=Intriguing+properties+of+neural+networks+Szegedy+Zaremba+Sutskever+Bruna+Erhan+Goodfellow+Fergus) [](http://arxiv.org/abs/1312.6199)Intriguing properties of neural networksChristian Szegedy , Wojciech Zaremba,\nIlya Sutskever, Joan Bruna, Dumitru Erhan , Ian Goodfellow , Rob FergusInternational Conference on Learning Representations (2014)\n[](https://www.google.com/search?lr&ie=UTF-8&oe=UTF-8&q=Help+Me+Help+You%3A+Interfaces+for+Personal+Robots+Goodfellow+Koenig+Muja+Pantofaru+Sorokin+Takayama)Help Me Help You: Interfaces for Personal RobotsIan Goodfellow , Nate Koenig, Marius Muja, Caroline Pantofaru , Alex Sorokin,\nLeila TakayamaProc."
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "papers_006",
+    "url": "https://scholar.google.com/citations?hl=en&user=iYN86KEAAAAJ",
+    "title": "Ian Goodfellow",
+    "publish_date": null,
+    "kind": "paper",
+    "medium": "web",
+    "bucket": "papers",
+    "excerpts": [
+      "Section Title: Citations per year > Follow > Co-authors View all\nContent:\narXiv preprint arXiv:1611.01236 , 2016 |[4465](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8221212997031548134) |2016 |\n|Ensemble adversarial training: Attacks and defenses\nF Tram\u00e8r, A Kurakin, N Papernot, I Goodfellow, D Boneh, P McDaniel\narXiv preprint arXiv:1705.07204 , 2017 |[4060](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10511209374384426640) |2017 |\n|Adversarial autoencoders\nA Makhzani, J Shlens, N Jaitly, I Goodfellow, B Frey\narXiv preprint arXiv:1511.05644 , 2015 |[3885](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6952435712217109027) |2015 |\n|Maxout networks\nI Goodfellow, D Warde-Farley, M Mirza, A Courville, Y Bengio\nInternational conference on machine learning, 1319-1327 , 2013 |[3321](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9154719469920231460) |2013 |\n|Sanity checks for saliency maps\nJ Adebayo, J Gilmer, M Muelly, I Goodfellow, M Hardt, B Kim"
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "papers_007",
+    "url": "http://papers.neurips.cc/paper/5423-generativeadversarial-nets.pdf",
+    "title": "Generative Adversarial Nets",
+    "publish_date": null,
+    "kind": "paper",
+    "medium": "web",
+    "bucket": "papers",
+    "excerpts": [
+      "Section Title: Found\nContent:\nThe document has moved [here](https://proceedings.neurips.cc//paper/5423-generativeadversarial-nets.pdf) .\nApache/2.4.66 (Debian) Server at papers.neurips.cc Port 80"
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "papers_008",
+    "url": "https://en.wikipedia.org/wiki/Generative_adversarial_network",
+    "title": "Generative adversarial network - Wikipedia",
+    "publish_date": null,
+    "kind": "paper",
+    "medium": "web",
+    "bucket": "papers",
+    "excerpts": [
+      "\"Towards Principled Methods for Training Generative Adversarial Networks\". arXiv : 1701.04862 [ stat.ML ]. * ^ Goodfellow, Ian J. (December 1, 2014). \"On distinguishability criteria for estimating generative models\". arXiv : 1412.6515 [ stat.ML ]. * ^ Goodfellow, Ian (August 31, 2016). \"Generative Adversarial Networks (GANs), Presentation at Berkeley Artificial Intelligence Lab\" (PDF) . Archived (PDF) from the original on May 8, 2022. * ^ Lim, Jae Hyun; Ye, Jong Chul (May 8, 2017). \"Geometric GAN\". arXiv : 1705.02894 [ stat.ML ]. * ^ Mao, Xudong; Li, Qing; Xie, Haoran; Lau, Raymond Y. K.; Wang, Zhen; Paul Smolley, Stephen (2017). \"Least Squares Generative Adversarial Networks\" . 2017 IEEE International Conference on Computer Vision (ICCV) . pp. 2794\u2013 2802. arXiv : 1611.04076 . doi : 10.1109/ICCV.2017.304 . ISBN \u00a0\n978-1-5386-1032-9 . * ^ Makhzani, Alireza; Shlens, Jonathon; Jaitly, Navdeep; Goodfellow, Ian ; Frey, Brendan (2016). \"Adversarial Autoencoders\". arXiv : 1511.05644 [ cs.LG ]."
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "papers_009",
+    "url": "https://www.youtube.com/watch?v=E-4EcrQbNwA",
+    "title": "Ian Goodfellow GAN inventor - YouTube",
+    "publish_date": null,
+    "kind": "paper",
+    "medium": "youtube",
+    "bucket": "papers",
+    "excerpts": [
+      "Ian Goodfellow GAN inventor - YouTube\nMachine Learning Fairness with Generative Adversarial Networks - Ian Goodfellow GAN inventor."
+    ],
+    "canonicity_score": null
+  }
+]

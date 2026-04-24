@@ -1,0 +1,42 @@
+{
+  "source_id": "src_062",
+  "summary": "In his 1976 'Open Letter to Hobbyists', Bill Gates expresses frustration with the early personal computer community for widespread software piracy. He argues that copying software without paying for it is theft and directly discourages developers from investing the time and capital needed to create high-quality software.",
+  "themes": [
+    "Software Piracy",
+    "Intellectual Property",
+    "Software Economics",
+    "Hobbyist Community"
+  ],
+  "principles": [
+    {
+      "statement": "Software developers must be compensated for their time, effort, and capital.",
+      "rationale": "Widespread unpaid use of software discourages developers from investing the resources necessary to create high-quality programs.",
+      "source_quote": "Hardware must be paid for, but software is something to share. Who cares if the people who worked on it get paid?",
+      "source_id": "src_062"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Software as a Capital Investment",
+      "description": "Viewing software development not as a free community endeavor, but as a commercial product that requires significant upfront investment of time, money, and computer resources, which must be recouped through sales.",
+      "example": "Gates cited the high cost of computer time used to develop Altair BASIC as a rationale for why the software could not simply be given away for free or have its source code published.",
+      "source_id": "src_062"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Why is this? As the majority of hobbyists must be aware, most of you steal your software. Hardware must be paid for, but software is something to share. Who cares if the people who worked on it get paid?",
+      "context": "From his 1976 Open Letter to Hobbyists, criticizing the unauthorized copying of Altair BASIC.",
+      "source_id": "src_062"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating software as something to be freely shared while willingly paying for hardware.",
+      "why_it_fails": "It acts as theft of the developers' time and capital, ultimately discouraging the creation of high-quality software and preventing developers from publishing source code.",
+      "source_id": "src_062"
+    }
+  ]
+}

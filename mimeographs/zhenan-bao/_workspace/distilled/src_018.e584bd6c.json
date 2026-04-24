@@ -1,0 +1,98 @@
+{
+  "source_id": "src_018",
+  "summary": "In this interview, Zhenan Bao discusses her career path from Bell Labs to Stanford, her approach to selecting research topics, and how she balances academic research with entrepreneurship. She emphasizes the importance of aligning new projects with a long-term vision, advises students to prioritize fundamental scientific training over starting companies, and highlights the value of cross-disciplinary collaboration and industrial partnerships.",
+  "themes": [
+    "Translational Research",
+    "Academic Entrepreneurship",
+    "Research Strategy",
+    "Student Mentorship",
+    "Materials Science"
+  ],
+  "principles": [
+    {
+      "statement": "Align new ideas with a long-term vision.",
+      "rationale": "Having a 5-10 year goal provides a better perspective to focus a research group's efforts, ensuring that exciting new ideas actually contribute to the lab's overarching mission.",
+      "source_quote": "We usually start a research project with a new idea that we think will have a significant impact, but at the same time this idea should align well with our overall vision of where we want our laboratory to be in the next five to ten years.",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "Prioritize fundamental scientific training over commercial ambitions.",
+      "rationale": "A solid fundamental understanding is necessary to develop the skills needed for solving complex problems, which is a prerequisite for successfully running a research group or a technology company later.",
+      "source_quote": "As a student, your priority should be to learn, grow and obtain your degree. Regardless of what you choose to do in the future, first you need to be the best scientist or engineer you can.",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "Keep academic research and start-up activities completely separate.",
+      "rationale": "To manage conflicts of interest, the problems addressed in a commercial start-up must be completely different from the fundamental research pursued at the university.",
+      "source_quote": "The way I manage is to have completely different activities in the start-up and in my research group.",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "Industrial collaborations should focus on long-term, promising directions.",
+      "rationale": "Sponsored research works best as a 'win-win' when projects are too far out for immediate productization but allow the lab to do exciting research that the company can eventually commercialize.",
+      "source_quote": "Typically, these are projects that are too far out to have immediate products, but the work is heading in very promising directions. Usually this kind of relationship is a ‘win–win’ situation.",
+      "source_id": "src_018"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Research Project Selection",
+      "when_to_apply": "When deciding whether to pursue a new idea or research direction in the lab.",
+      "steps": [
+        "Identify a new idea that has the potential for significant impact.",
+        "Verify that the idea aligns with the laboratory's 5-10 year overall vision.",
+        "Ensure the project leverages the unique expertise of the research group to make a distinct contribution."
+      ],
+      "source_quote": "We usually start a research project with a new idea that we think will have a significant impact, but at the same time this idea should align well with our overall vision of where we want our laboratory to be in the next five to ten years. The project(s) should also leverage the expertise of the group so that we can make unique contributions to the field.",
+      "source_id": "src_018"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Bottom-Up Innovation",
+      "description": "A model of institutional and laboratory progress where direction is not steered by top-down administration, but rather emerges organically from the passions and discoveries of faculty and students.",
+      "example": "Stanford administration does not steer faculty directions; instead, students' passions often lead Bao into entirely new research directions that eventually become major focuses for her group.",
+      "source_id": "src_018"
+    },
+    {
+      "name": "Material Repurposing (Cross-Pollination)",
+      "description": "Viewing a newly developed material or concept not just as a solution for its original intended application, but as a platform technology that can solve critical problems in entirely different fields through collaboration.",
+      "example": "Discovering that a self-healing material originally invented for electronic skin was also highly effective at solving critical problems in lithium-ion battery electrodes.",
+      "source_id": "src_018"
+    }
+  ],
+  "heuristics": [
+    "Luck strikes people who are prepared for it.",
+    "Only expand into trendy new materials (like graphene) if they naturally intersect with and enhance your core expertise.",
+    "Have 5-to-10-year goals to maintain perspective and focus your group's efforts."
+  ],
+  "signature_quotes": [
+    {
+      "text": "We usually start a research project with a new idea that we are very excited about, but at the same time this idea or direction has to align with our overall vision and match up with where we want to be in the next five or ten years.",
+      "context": "Explaining how she chooses which research topics to explore.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "As a student, your priority should be to learn, grow and obtain your degree. Regardless of what you choose to do in the future, first you need to be the best scientist or engineer you can.",
+      "context": "Giving advice to junior researchers interested in commercial opportunities.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "It is not a good idea to research for the sake of starting a company.",
+      "context": "Warning against prioritizing entrepreneurship over fundamental scientific discovery.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "The way I manage is to have completely different activities in the start-up and in my research group.",
+      "context": "Explaining how she manages the dual roles of professor and entrepreneur without conflict of interest.",
+      "source_id": "src_018"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Conducting research primarily for the sake of starting a company.",
+      "why_it_fails": "It distracts students from their primary priority: building a solid fundamental understanding and becoming the best scientist or engineer possible. True innovation naturally brings tech transfer opportunities without needing to force them.",
+      "source_id": "src_018"
+    }
+  ]
+}

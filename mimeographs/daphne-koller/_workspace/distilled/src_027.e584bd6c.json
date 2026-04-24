@@ -1,0 +1,114 @@
+{
+  "source_id": "src_027",
+  "summary": "Daphne Koller discusses her journey from early computing to founding insitro, highlighting the convergence of machine learning and biology. She emphasizes the importance of accessible datasets for driving ML research, the need to bridge the distinct mindsets of engineers and biologists, and the moral obligation of privileged technologists to solve aspirational, real-world problems.",
+  "themes": [
+    "Digital Biology",
+    "Machine Learning",
+    "Education & Agency",
+    "Interdisciplinary Collaboration",
+    "Data-Driven Research",
+    "Tech for Good"
+  ],
+  "principles": [
+    {
+      "statement": "Give kids agency through computing.",
+      "rationale": "Kids often feel powerless, and programming allows them to dictate outcomes and feel empowered.",
+      "source_quote": "I think giving them an avenue where they can really dictate, if you will, what happens is super exciting for them.",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "Accessible datasets drive the direction of machine learning research.",
+      "rationale": "Providing processed, accessible data with well-defined problems is critical for bringing new researchers into a field and dictating what problems get solved.",
+      "source_quote": "giving people and easily accessible, first entry point into a field is just absolutely critical",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "Support science during the good times.",
+      "rationale": "Scientific breakthroughs rely on decades of basic science; you cannot suddenly fund it only when a crisis hits.",
+      "source_quote": "you should be supporting science and listening to science in the good days, because when the bad days come, it’s going to be too late to sort of suddenly realize that you need science.",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "Privileged individuals have a moral obligation to give back.",
+      "rationale": "Those born into affluent, well-educated families without basic struggles have a higher burden to leave the world better than they found it.",
+      "source_quote": "For those of us who had the privilege of being born to relatively affluent, well-educated families, where we didn’t need to struggle for where our next meal is coming from, that burden is actually even higher and we — we should be thinking about how we can give back.",
+      "source_id": "src_027"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Creating an ML Entry Point",
+      "when_to_apply": "When trying to attract researchers or students to apply machine learning to a new domain.",
+      "steps": [
+        "Identify a problem that is technically tractable and transformative.",
+        "Acquire, clean, and process the relevant data.",
+        "Define an initial set of clear, well-defined problems for researchers to tackle while they explore the data."
+      ],
+      "source_quote": "What are the questions that are both technically tractable and yet can be transformative to what the field is trying to accomplish? ... if this is the problem that we aim to solve, how do we get the data to actually solve it?",
+      "source_id": "src_027"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Digital Biology",
+      "description": "Viewing modern biology as a convergence of high-throughput data production (reading/writing biology via CRISPR, stem cells) and machine learning (data interpretation) to quantitatively measure and engineer biological systems.",
+      "example": "Using induced pluripotent stem cells to create neurons with specific genetics, measuring them at scale, and using ML to predict viable drug targets.",
+      "source_id": "src_027"
+    },
+    {
+      "name": "Biological APIs (Composable Building Blocks)",
+      "description": "Treating biological tools (like CRISPR) as having input/output functionality similar to software APIs, but with the caveat that they possess massive, poorly understood variability requiring stringent QA and tracking.",
+      "example": "Editing a cell with CRISPR involves a set of steps to produce an edited cell, but requires tracking off-target effects and state variability with the same QA rigor as an Intel microchip fab.",
+      "source_id": "src_027"
+    },
+    {
+      "name": "The Biologist vs. Engineer Mindset",
+      "description": "Understanding that biologists focus on exceptions and details (which lead to new discoveries), while engineers focus on broad principles that cover 95% of cases (to build robust systems).",
+      "example": "Building insitro required creating a unified culture that bridges these two fundamentally opposed mindsets so they can communicate constructively.",
+      "source_id": "src_027"
+    }
+  ],
+  "heuristics": [
+    "Look for data sets that are richly structured and aspirational.",
+    "Use computer science as an entry point into multiple other fields."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I think it’s difficult for us to appreciate as adults just how powerless most kids feel... giving them an avenue where they can really dictate, if you will, what happens is super exciting for them.",
+      "context": "Discussing why programming is an empowering tool for children.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "You should be supporting science and listening to science in the good days, because when the bad days come, it’s going to be too late to sort of suddenly realize that you need science.",
+      "context": "Reflecting on the COVID-19 pandemic and the importance of funding basic science.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "Biology still even today is a lot about the details. And the reason for this is that the exceptions... are often the starting point for new discovery. So, people kind of want to look for those, whereas engineers really care about let’s find the principles that cover 95% of what we see.",
+      "context": "Explaining the fundamental difference in mindset between biologists and engineers.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "For those of us who had the privilege of being born to relatively affluent, well-educated families, where we didn’t need to struggle for where our next meal is coming from, that burden is actually even higher and we — we should be thinking about how we can give back.",
+      "context": "Discussing her motivation to work on human health and drug discovery.",
+      "source_id": "src_027"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Telling early-stage ML students to find their own problem, gather their own data, and pick an algorithm.",
+      "why_it_fails": "It presents an insurmountable barrier to entry that drives beginners away, especially those from less privileged backgrounds.",
+      "source_id": "src_027"
+    },
+    {
+      "description": "Undervaluing the intellectual endeavor of applied ML and data creation.",
+      "why_it_fails": "It over-indexes on flashy algorithmic improvements while ignoring the massive intellectual effort required to frame the right problems and acquire clean data.",
+      "source_id": "src_027"
+    },
+    {
+      "description": "Putting kids into highly competitive, adult-dominated coding arenas (like Kaggle).",
+      "why_it_fails": "It is demoralizing because kids cannot compete with top-notch professionals building their resumes; they need a level playing field to build excitement.",
+      "source_id": "src_027"
+    }
+  ]
+}

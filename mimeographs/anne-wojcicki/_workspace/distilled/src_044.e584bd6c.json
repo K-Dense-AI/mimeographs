@@ -1,0 +1,84 @@
+{
+  "source_id": "src_044",
+  "summary": "In this 2013 Fast Company profile, 23andMe CEO Anne Wojcicki discusses her mission to revolutionize healthcare by democratizing access to genetic testing. She advocates for using personal genetic data to make proactive lifestyle choices and believes that aggregating massive amounts of DNA data will unlock new discoveries and shift medicine from a diagnostic model to a preventative one.",
+  "themes": [
+    "Preventative healthcare",
+    "Big data in medicine",
+    "Direct-to-consumer genetics",
+    "Proactive lifestyle choices",
+    "Democratizing health information"
+  ],
+  "principles": [
+    {
+      "statement": "Genetic knowledge empowers proactive health choices.",
+      "rationale": "Knowing your genetic risks allows you to alter your behavior, diet, and lifestyle to mitigate those risks before disease sets in.",
+      "source_quote": "Everyone’s going to die and everyone’s going to get sick at some point. But I do believe that there are choices you can make in life that will make you as healthy as possible.",
+      "source_id": "src_044"
+    },
+    {
+      "statement": "Massive genetic data sets will revolutionize medical discovery.",
+      "rationale": "Aggregating millions of DNA profiles alongside behavioral data allows researchers to identify why certain people get sick and others stay healthy, leading to novel treatments.",
+      "source_quote": "Once you get 25 million people, there’s just a huge power of what types of discoveries you can make. Big data is going to make us all healthier.",
+      "source_id": "src_044"
+    },
+    {
+      "statement": "Healthcare must shift from treating sickness to preventing it.",
+      "rationale": "The traditional medical and pharmaceutical industries often focus on maximizing billing codes and treating symptoms, whereas true health care should focus on keeping people healthy and preventing disease onset.",
+      "source_quote": "She did something to prevent disease, and that’s exactly what we want people thinking about.",
+      "source_id": "src_044"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The \"Half Don't Get It\" Lens",
+      "description": "When faced with a frightening genetic predisposition, reframe the statistic to focus on the percentage of people with the mutation who do not develop the disease. This shifts the mindset from fatalism to actionable inquiry about protective behaviors.",
+      "example": "When discussing a child's high genetic risk for Alzheimer's, Wojcicki advised looking at the 50% of people with the same genes who never get the disease, asking: \"What are they doing with their behavior?\"",
+      "source_id": "src_044"
+    },
+    {
+      "name": "Genetics as a Behavioral Baseline",
+      "description": "Treating genetic risk factors not as a definitive fate, but as a personalized baseline that dictates how strictly one should monitor specific health metrics or dietary inputs.",
+      "example": "Wojcicki noticed her hemoglobin A1C rising while drinking coconut water. Because she knew she had a genetic risk for type 2 diabetes, she took the spike seriously, stopped drinking the coconut water, and her levels dropped.",
+      "source_id": "src_044"
+    }
+  ],
+  "heuristics": [
+    "Healthy at 100.",
+    "Focus on the choices you can make to be as healthy as possible, rather than fearing the inevitable."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Everyone’s going to die and everyone’s going to get sick at some point. But I do believe that there are choices you can make in life that will make you as healthy as possible.",
+      "context": "Discussing her pragmatic approach to her husband's genetic risk for Parkinson's disease.",
+      "source_id": "src_044"
+    },
+    {
+      "text": "We’re not just looking to get a venture-capital return. We set out with this company to revolutionize health care.",
+      "context": "Explaining the long-term, global goals of 23andMe.",
+      "source_id": "src_044"
+    },
+    {
+      "text": "Once you get 25 million people, there’s just a huge power of what types of discoveries you can make. Big data is going to make us all healthier.",
+      "context": "Describing her ultimate goal for 23andMe's user base and the resulting research potential.",
+      "source_id": "src_044"
+    },
+    {
+      "text": "The way to think about it is, half of the people don’t get it. So if half the people aren’t getting it, why? What are they doing with their behavior?",
+      "context": "Advising a mother whose daughter tested positive for a strong genetic risk factor for Alzheimer's.",
+      "source_id": "src_044"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Choosing ignorance over genetic knowledge out of fear.",
+      "why_it_fails": "Avoiding genetic testing prevents you from taking proactive, preventative measures (like lifestyle changes or funding research) while you are still healthy.",
+      "source_id": "src_044"
+    },
+    {
+      "description": "The Wall Street healthcare model of profiting from sickness.",
+      "why_it_fails": "It focuses on maximizing billing codes and treating illness rather than understanding how drugs work or preventing diseases in the first place.",
+      "source_id": "src_044"
+    }
+  ]
+}

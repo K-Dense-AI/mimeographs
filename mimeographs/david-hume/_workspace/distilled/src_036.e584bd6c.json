@@ -1,0 +1,121 @@
+{
+  "source_id": "src_036",
+  "summary": "David Hume systematically critiques the philosophical foundations of traditional theistic belief, employing his empiricist principles to dismantle arguments for God's existence. He argues that causation is merely constant conjunction, rejecting a priori proofs like the cosmological argument. Furthermore, he attacks the argument from design by demonstrating that the analogy between human artifacts and the universe is too weak to justify inferring an intelligent, perfect creator.",
+  "themes": [
+    "Empiricism",
+    "Philosophy of Religion",
+    "Skepticism",
+    "Causation",
+    "Argument from Design",
+    "Cosmological Argument"
+  ],
+  "principles": [
+    {
+      "statement": "All our ideas are derived from our impressions.",
+      "rationale": "Human understanding is limited to what we have experienced through our senses or felt in our minds. If a concept cannot be traced back to a specific impression, the term is meaningless.",
+      "source_quote": "all our ideas, or weak perceptions, are derived from our impressions, or strong perceptions, and that we can never think of any thing which we have not seen without us, or felt in our minds",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Anything may produce anything.",
+      "rationale": "Causation is nothing more than the constant conjunction or regular succession of resembling objects in our experience. There is no a priori logical necessity that a cause must possess the perfections of its effect.",
+      "source_quote": "Creation, annihilation, motion, reason, volition; all these may arise from one another, or from any other object we can imagine.",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "No being's non-existence implies a contradiction.",
+      "rationale": "Matters of fact cannot be demonstrated by a priori arguments. If we can conceive of something existing, we can equally conceive of it not existing, rendering the concept of 'necessary existence' meaningless.",
+      "source_quote": "Whatever we conceive as existent, we can also conceive as non-existent. There is no being, therefore, whose non-existence implies a contradiction.",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "We must proportion the cause to the effect.",
+      "rationale": "In experimental reasoning, we are not justified in ascribing any qualities to a cause beyond what is strictly necessary to produce the observed effect.",
+      "source_quote": "ascribe to the cause any qualities, but what are exactly sufficient to produce them",
+      "source_id": "src_036"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Copy Principle Test",
+      "when_to_apply": "When evaluating whether a philosophical term or idea is ambiguous, meaningless, or lacks a foundation in reality.",
+      "steps": [
+        "Identify the ambiguous or suspicious philosophical term.",
+        "Ask: 'From what impression is that pretended idea derived?'",
+        "Attempt to trace the idea back to a specific sensory or internal impression.",
+        "If an impression is found, use it to render the idea clear and precise.",
+        "If no impression can be produced, conclude that the term is altogether insignificant."
+      ],
+      "source_quote": "If we suspect that any philosophical term has no idea annexed to it, we can always ask from what impression that pretended idea is derived? If no impression can be produced, we must conclude the term is altogether insignificant",
+      "source_id": "src_036"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The House vs. The Universe (Unique Effect)",
+      "description": "A lens for evaluating inductive analogies. We can infer a builder when we see a house because we have observed the constant conjunction of builders and houses many times. However, we cannot make the same inference about the universe because it is a unique effect of which we only observe a small part, and we have zero experience of its cause.",
+      "example": "When critiquing the argument from design, Hume contrasts our reliable inference about the origin of a house (based on repeated experience of two species of objects) with our unreliable conjectures about the origin of the universe (a singular, unique effect).",
+      "source_id": "src_036"
+    },
+    {
+      "name": "The Blind Man's Idea of Fire",
+      "description": "A metaphor (borrowed from Hobbes but endorsed by Hume) illustrating the limits of human comprehension regarding divine attributes. Just as a blind man knows fire only as 'that somewhat' that warms him without having any positive idea of what fire actually is, humans can only conceive of God as a remote cause without understanding His actual nature.",
+      "example": "Hume uses this to show that ascribing human-like intelligence or benevolence to God is anthropomorphic and unfounded, leaving us with a concept of God that is entirely mysterious.",
+      "source_id": "src_036"
+    }
+  ],
+  "heuristics": [
+    "Proportion the cause to the effect.",
+    "Whatever we conceive as existent, we can also conceive as non-existent.",
+    "Anything may produce anything."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Nothing is demonstrable, unless the contrary is a contradiction. Nothing, that is directly conceivable, implies a contradiction.",
+      "context": "Critiquing the notion of necessary existence and a priori proofs for God.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "Whatever we conceive as existent, we can also conceive as non-existent. There is no being, therefore, whose non-existence implies a contradiction.",
+      "context": "Arguing against the cosmological argument and the concept of a necessarily existent being.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "Creation, annihilation, motion, reason, volition; all these may arise from one another, or from any other object we can imagine.",
+      "context": "Explaining his view of causation as mere constant conjunction, refuting the idea that matter cannot produce thought.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "The Deity is known to us only by his productions, and is a single being in the universe, not comprehended under any species or genus, from whose experienced attributes or qualities, we can, by analogy, infer any attribute or quality in him...",
+      "context": "Highlighting the weakness of the argument from design and our inability to comprehend God's nature.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "But wherever you depart, in the least, from the similarity of the cases, you diminish proportionably the evidence: and may at last bring it to a very weak analogy, which is confessedly liable to error and uncertainty.",
+      "context": "Explaining why comparing the universe to human artifacts is a flawed method of reasoning.",
+      "source_id": "src_036"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Attempting to demonstrate matters of fact through a priori reasoning.",
+      "why_it_fails": "Because anything that can be conceived to exist can also be conceived not to exist. There are no logical contradictions in denying a matter of fact, so a priori proofs (like the cosmological argument) are absurd.",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Assuming a perfect cause and then explaining away the flaws in its effects.",
+      "why_it_fails": "It violates the rule of proportioning the cause to the effect. You have no ground to ascribe qualities to a cause (like infinite goodness or perfection) that are not actually displayed in its productions (a world full of ill and disorder).",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Anthropomorphism in theology: assuming the cause of the universe resembles human intelligence or mind.",
+      "why_it_fails": "The analogy between human artifacts and the universe is vastly remote. Assuming God has human-like successive thoughts, passions, or a body degrades the concept of the supreme being and is driven by egocentric delusion.",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Demanding a cause for the 'whole' after the cause of each individual part has been explained.",
+      "why_it_fails": "The uniting of parts into a whole is merely an arbitrary act of the mind and has no influence on the nature of things. Explaining the parts sufficiently explains the whole.",
+      "source_id": "src_036"
+    }
+  ]
+}

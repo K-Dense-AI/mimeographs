@@ -1,0 +1,91 @@
+{
+  "source_id": "src_048",
+  "summary": "A foundational 2003 paper by Yoshua Bengio and colleagues introducing neural probabilistic language models. It proposes using distributed representations (word embeddings) learned simultaneously with a neural network to fight the curse of dimensionality in language modeling, allowing models to generalize to unseen word sequences based on semantic similarity.",
+  "themes": [
+    "Deep Learning",
+    "Natural Language Processing",
+    "Distributed Representations",
+    "Curse of Dimensionality",
+    "Statistical Language Modeling"
+  ],
+  "principles": [
+    {
+      "statement": "Fight the curse of dimensionality with distributed representations.",
+      "rationale": "By mapping discrete words to continuous real-valued vectors, the model can generalize to unseen sequences because similar words will have similar feature vectors, and the probability function is smooth.",
+      "source_quote": "We propose to fight the curse of dimensionality by learning a distributed representation for words which allows each training sentence to inform the model about an exponential number of semantically neighboring sentences.",
+      "source_id": "src_048"
+    },
+    {
+      "statement": "Learn the representation and the model simultaneously.",
+      "rationale": "Jointly learning the word feature vectors and the parameters of the probability function yields better representations for compactly representing the probability distribution of word sequences.",
+      "source_quote": "The model learns simultaneously (1) a distributed representation for each word along with (2) the probability function for word sequences, expressed in terms of these representations.",
+      "source_id": "src_048"
+    },
+    {
+      "statement": "Distribute probability mass where it matters.",
+      "rationale": "In high-dimensional discrete spaces, generalizing by spreading probability mass uniformly around training points is ineffective. Mass must be distributed to semantically similar neighborhoods.",
+      "source_quote": "In high dimensions, it is crucial to distribute probability mass where it matters rather than uniformly in all directions around each training point.",
+      "source_id": "src_048"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Neural Probabilistic Language Modeling",
+      "when_to_apply": "When building statistical models of natural language to predict the joint probability of word sequences and overcome the limitations of traditional n-gram models.",
+      "steps": [
+        "Associate with each word in the vocabulary a distributed word feature vector (a real-valued vector in Rm).",
+        "Express the joint probability function of word sequences in terms of the feature vectors of these words in the sequence.",
+        "Learn simultaneously the word feature vectors and the parameters of that probability function."
+      ],
+      "source_quote": "1. associate with each word in the vocabulary a distributed word feature vector... 2. express the joint probability function of word sequences in terms of the feature vectors... 3. learn simultaneously the word feature vectors and the parameters of that probability function.",
+      "source_id": "src_048"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Distributed Representation",
+      "description": "Mapping discrete, orthogonal symbols (like words) into a lower-dimensional continuous vector space where geometric proximity represents semantic or grammatical similarity.",
+      "example": "Generalizing from \"The cat is walking in the bedroom\" to \"A dog was running in a room\" because \"dog\" and \"cat\" have similar feature vectors, inducing a small change in the probability.",
+      "source_id": "src_048"
+    },
+    {
+      "name": "Probability Mass Distribution",
+      "description": "Visualizing generalization as taking probability mass initially concentrated on training examples and spreading it to a neighborhood of similar points in a high-dimensional space.",
+      "example": "The presence of one sentence in the training data increases the probability not only of that sentence, but also of its combinatorial number of \"neighbors\" in sentence space.",
+      "source_id": "src_048"
+    }
+  ],
+  "heuristics": [
+    "Mix the output probabilities of the neural network with an interpolated trigram model to improve performance, as they make errors in different places.",
+    "When parallelizing neural network training across a cluster, parallelize across the parameters of the output units, because that is where the vast majority of the computation takes place."
+  ],
+  "signature_quotes": [
+    {
+      "text": "We propose to fight the curse of dimensionality by learning a distributed representation for words which allows each training sentence to inform the model about an exponential number of semantically neighboring sentences.",
+      "context": "Abstract of the paper, summarizing the core contribution.",
+      "source_id": "src_048"
+    },
+    {
+      "text": "In high dimensions, it is crucial to distribute probability mass where it matters rather than uniformly in all directions around each training point.",
+      "context": "Explaining how the neural language model generalizes differently from previous state-of-the-art approaches.",
+      "source_id": "src_048"
+    },
+    {
+      "text": "The model learns simultaneously (1) a distributed representation for each word along with (2) the probability function for word sequences, expressed in terms of these representations.",
+      "context": "Describing the joint learning process of the embeddings and the neural network.",
+      "source_id": "src_048"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on n-gram models for language generalization.",
+      "why_it_fails": "They do not take into account contexts farther than 1 or 2 words, and they fail to account for the semantic similarity between words, treating all unseen discrete sequences as equally distant.",
+      "source_id": "src_048"
+    },
+    {
+      "description": "Using fixed word features based purely on principal components of co-occurrence frequencies (like LSI) for language modeling.",
+      "why_it_fails": "Learning the representation jointly with the probability model is much more effective for compactly representing the distribution of word sequences than using fixed, pre-computed features.",
+      "source_id": "src_048"
+    }
+  ]
+}

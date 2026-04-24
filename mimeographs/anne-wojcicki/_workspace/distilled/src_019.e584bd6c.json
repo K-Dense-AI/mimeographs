@@ -1,0 +1,91 @@
+{
+  "source_id": "src_019",
+  "summary": "In this interview, 23andMe CEO Anne Wojcicki discusses the company's growth, its relationship with the FDA, and her vision for a consumer-centric healthcare system. She emphasizes the importance of data privacy, consumer ownership of genetic information, and the role of genetics as a probabilistic tool that, combined with environmental changes, can empower individuals to prevent disease.",
+  "themes": [
+    "Consumer-centric healthcare",
+    "Genetic privacy and data ownership",
+    "FDA regulation",
+    "Genetics vs. Environment",
+    "Participatory research",
+    "Ancestry and race"
+  ],
+  "principles": [
+    {
+      "statement": "Consumers should own and control their own genetic data.",
+      "rationale": "If you pay for your own healthcare out of pocket, you retain ownership and control of the information. If an insurance company pays for it, they own it. Giving consumers control empowers them to make lifestyle changes without fear of insurance repercussions.",
+      "source_quote": "When you spit, you control your DNA. ... We do not share your individual-level data with anyone unless you explicitly consent.",
+      "source_id": "src_019"
+    },
+    {
+      "statement": "Healthcare needs to be direct-to-consumer to be affordable and accessible.",
+      "rationale": "The existing healthcare system is spectacularly fragmented and relies on complex reimbursement rules. Bypassing insurance and allowing consumers to pay directly for routine care creates a more affordable, accessible marketplace.",
+      "source_quote": "We feel it’s really important to make things direct to consumer because it just makes it cheaper and more affordable and accessible.",
+      "source_id": "src_019"
+    },
+    {
+      "statement": "People want to participate in research if they are treated as respected partners.",
+      "rationale": "Historically, people have been treated as blind subjects without consent (e.g., Henrietta Lacks). If given transparency, choice, and a sense of contribution, consumers are eager to help advance scientific research.",
+      "source_quote": "What I have learned after 11 years is that people really want to participate in research, they just want to feel respected. They don’t want to be a human subject. They want to be respected as an equal and as a partner in the process.",
+      "source_id": "src_019"
+    },
+    {
+      "statement": "Genetics dictate probabilities, not absolute destinies.",
+      "rationale": "Environmental factors play a massive role in health outcomes. Knowing genetic predispositions allows individuals to alter their environment to prevent negative outcomes.",
+      "source_quote": "Your genes dictate a certain element, but you have this huge variability in your environment... A lot of these things are potentially preventable if you actually know what you can change.",
+      "source_id": "src_019"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The FDA speaks data",
+      "description": "A lens for understanding regulatory bodies. Instead of viewing them as purely bureaucratic obstacles, view them as entities that require rigorous, data-driven proof of safety and comprehension.",
+      "example": "23andMe had to generate extensive data proving that consumers of any education level could understand Alzheimer's or Parkinson's reports without a physician's or genetic counselor's oversight.",
+      "source_id": "src_019"
+    },
+    {
+      "name": "The Google Maps analogy for Ancestry",
+      "description": "Comparing the evolution of genetic ancestry accuracy to the evolution of digital mapping. Early versions are fuzzy and generalized, but as more data is collected, the resolution becomes highly specific.",
+      "example": "Explaining why ancestry results change and get more specific over time as more diverse, non-European populations are added to the database.",
+      "source_id": "src_019"
+    }
+  ],
+  "heuristics": [
+    "If you pay for it yourself, you own it. If your insurance company pays for it, then they own it.",
+    "Everything's going to be based on probabilities."
+  ],
+  "signature_quotes": [
+    {
+      "text": "When you spit, you control your DNA.",
+      "context": "Explaining 23andMe's stance on data privacy and consumer consent.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "Well, I’ve always said, the FDA speaks data. Sometimes it can take a while to generate data.",
+      "context": "Discussing the process of getting FDA clearance for direct-to-consumer health reports.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "Your genome, in my mind, is the most spectacular human discovery of our lifetime. There’s like a secret code in each person, and we don’t know what that code means and we’re trying to figure that out.",
+      "context": "Describing why the research section of 23andMe is so engaging to consumers.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "What I have learned after 11 years is that people really want to participate in research, they just want to feel respected. They don’t want to be a human subject.",
+      "context": "Explaining why 23andMe emphasizes transparency and consent in its research partnerships.",
+      "source_id": "src_019"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on the traditional insurance reimbursement system for routine healthcare innovation.",
+      "why_it_fails": "It keeps companies trapped in a fragmented, expensive system where the insurance company, not the consumer, owns the data and controls the care.",
+      "source_id": "src_019"
+    },
+    {
+      "description": "Treating research participants as blind subjects.",
+      "why_it_fails": "It breeds distrust and misses the opportunity for engagement. When people are kept in the dark about how their data is used, they feel exploited rather than empowered to help move science forward.",
+      "source_id": "src_019"
+    }
+  ]
+}

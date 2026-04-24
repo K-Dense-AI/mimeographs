@@ -1,0 +1,88 @@
+{
+  "source_id": "src_049",
+  "summary": "David Silver and the DeepMind team introduce AlphaGo Zero, an AI that achieved superhuman performance in the game of Go by learning entirely tabula rasa. Through a novel reinforcement learning algorithm combining a single neural network with Monte-Carlo Tree Search, the system acts as its own teacher, demonstrating that pure reinforcement learning without human data can surpass systems trained on human expertise.",
+  "themes": [
+    "Reinforcement Learning",
+    "Artificial Intelligence",
+    "Self-Play",
+    "Tabula Rasa Learning",
+    "Monte-Carlo Tree Search",
+    "Neural Networks"
+  ],
+  "principles": [
+    {
+      "statement": "Pure reinforcement learning without human knowledge can surpass systems trained on human expert data.",
+      "rationale": "Human expert data is often expensive, unreliable, or unavailable, and it imposes a ceiling on performance. Reinforcement learning from self-play allows systems to exceed human capabilities by learning from their own experience.",
+      "source_quote": "In contrast, reinforcement learning systems are trained from their own experience, in principle allowing them to exceed human capabilities, and to operate in domains where human expertise is lacking.",
+      "source_id": "src_049"
+    },
+    {
+      "statement": "Combining policy and value networks into a single architecture improves overall performance and efficiency.",
+      "rationale": "A dual objective regularizes the neural network to a common representation that supports multiple use cases, while also improving computational efficiency.",
+      "source_quote": "Combining policy and value together into a single network slightly reduced the move prediction accuracy, but reduced the value error and boosted playing performance in AlphaGo by around another 600 Elo. This is partly due to improved computational efficiency, but more importantly the dual objective regularises the network to a common representation that supports multiple use cases.",
+      "source_id": "src_049"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Self-Play Reinforcement Learning with MCTS",
+      "when_to_apply": "When training an AI agent to achieve superhuman proficiency in zero-sum games of perfect information without relying on human data.",
+      "steps": [
+        "Initialize a single neural network with random weights.",
+        "Generate games of self-play by executing a Monte-Carlo Tree Search (MCTS) guided by the current neural network.",
+        "Use the MCTS as a policy improvement operator to generate stronger search probabilities for move selection.",
+        "Use the final game winner as a sample of the value (policy evaluation).",
+        "Update the neural network parameters to minimize the error between the predicted value and the actual game winner, and to maximize the similarity between the network's move probabilities and the MCTS search probabilities."
+      ],
+      "source_quote": "The main idea of our reinforcement learning algorithm is to use these search operators repeatedly in a policy iteration procedure: the neural network’s parameters are updated to make the move probabilities and value (p, v) = fθ(s) more closely match the improved search probabilities and self-play winner (π, z); these new parameters are used in the next iteration of self-play to make the search even stronger.",
+      "source_id": "src_049"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "MCTS as a Policy Improvement Operator",
+      "description": "Viewing Monte-Carlo Tree Search not merely as a lookahead search, but as an operator that takes a raw neural network policy and outputs a much stronger, improved policy.",
+      "example": "In AlphaGo Zero, the raw move probabilities from the neural network are fed into MCTS, which evaluates the tree and outputs improved search probabilities. These improved probabilities are then used as targets to train the network in the next iteration.",
+      "source_id": "src_049"
+    },
+    {
+      "name": "Self-Play with Search as a Policy Evaluation Operator",
+      "description": "Using the outcome of a game played by an improved search-based policy against itself as a high-quality sample to evaluate the true value of a state.",
+      "example": "AlphaGo Zero plays against itself using MCTS to select moves. The final game winner is used as the ground-truth value to train the value head of the neural network.",
+      "source_id": "src_049"
+    }
+  ],
+  "heuristics": [
+    "Human expert data imposes a ceiling on performance; to exceed human capabilities, train systems from their own experience.",
+    "Use a dual objective to regularize a neural network to a common representation."
+  ],
+  "signature_quotes": [
+    {
+      "text": "A long-standing goal of artificial intelligence is an algorithm that learns, tabula rasa, superhuman proficiency in challenging domains.",
+      "context": "Opening sentence of the abstract, defining the core ambition of the AlphaGo Zero project.",
+      "source_id": "src_049"
+    },
+    {
+      "text": "AlphaGo becomes its own teacher: a neural network is trained to predict AlphaGo’s own move selections and also the winner of AlphaGo’s games.",
+      "context": "Explaining the core mechanism of AlphaGo Zero's self-play reinforcement learning.",
+      "source_id": "src_049"
+    },
+    {
+      "text": "Our results comprehensively demonstrate that a pure reinforcement learning approach is fully feasible, even in the most challenging of domains: it is possible to train to superhuman level, without human examples or guidance, given no knowledge of the domain beyond basic rules.",
+      "context": "Concluding the paper's findings on the viability of tabula rasa reinforcement learning.",
+      "source_id": "src_049"
+    },
+    {
+      "text": "Humankind has accumulated Go knowledge from millions of games played over thousands of years, collectively distilled into patterns, proverbs and books. In the space of a few days, starting tabula rasa, AlphaGo Zero was able to rediscover much of this Go knowledge, as well as novel strategies that provide new insights into the oldest of games.",
+      "context": "Final concluding thought on the speed and depth of AlphaGo Zero's learning compared to human history.",
+      "source_id": "src_049"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying exclusively on supervised learning from human expert data to train AI systems for complex domains.",
+      "why_it_fails": "Expert data is often expensive, unreliable, or unavailable. Even when reliable, it imposes a ceiling on the performance of the system, preventing it from discovering novel strategies or exceeding human capabilities.",
+      "source_id": "src_049"
+    }
+  ]
+}

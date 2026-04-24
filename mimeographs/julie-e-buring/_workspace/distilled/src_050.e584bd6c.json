@@ -1,0 +1,43 @@
+{
+  "source_id": "src_050",
+  "summary": "The authors evaluated the utility of high-sensitivity C-reactive protein (hsCRP) in predicting cardiovascular events among women lacking standard modifiable risk factors (SMuRFs). Tracking over 12,000 women in the Women's Health Study for 30 years, they found that elevated hsCRP significantly increases the risk of major cardiovascular events, highlighting a 'SMuRF-less but inflamed' phenotype that current screening algorithms miss.",
+  "themes": [
+    "Preventive cardiology",
+    "Women's health",
+    "Inflammation",
+    "Biomarkers (hsCRP)",
+    "Cardiovascular disease risk assessment"
+  ],
+  "principles": [
+    {
+      "statement": "Inflammation is a critical, independent driver of cardiovascular risk in women, even in the absence of traditional risk factors.",
+      "rationale": "A 30-year study of over 12,000 initially healthy women showed that those with elevated hsCRP but no standard modifiable risk factors had significantly higher rates of major adverse cardiovascular events.",
+      "source_quote": "Over a 30-year horizon, cardiovascular events commonly occur among 'SMuRF-less but inflamed' women who are otherwise missed by current screening algorithms",
+      "source_id": "src_050"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The 'SMuRF-less but inflamed' phenotype",
+      "description": "A diagnostic lens for identifying patients who appear healthy according to traditional cardiovascular screening (lacking Standard Modifiable Risk Factors like hypertension, dyslipidaemia, diabetes, and smoking) but carry hidden, actionable cardiovascular risk due to systemic inflammation.",
+      "example": "Identifying a woman with no traditional risk factors but an hsCRP > 3 mg/L as being at a 77% higher risk for coronary heart disease events compared to those with hsCRP < 1 mg/L.",
+      "source_id": "src_050"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Over a 30-year horizon, cardiovascular events commonly occur among 'SMuRF-less but inflamed' women who are otherwise missed by current screening algorithms, a clinically important observation given recent trial data demonstrating that statin therapy reduces risk by 38% among such individuals.",
+      "context": "Concluding the findings of the 30-year follow-up in the Women's Health Study regarding hsCRP.",
+      "source_id": "src_050"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying exclusively on standard modifiable cardiovascular risk factors (hypertension, dyslipidaemia, diabetes mellitus, and smoking) to assess cardiovascular risk in women.",
+      "why_it_fails": "It systematically under-detects risk in women who are 'SMuRF-less but inflamed', missing critical opportunities for preventive interventions like statin therapy.",
+      "source_id": "src_050"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "source_id": "src_029",
+  "summary": "Yoshua Bengio discusses the existential and societal risks of advanced AI, emphasizing that modern deep learning systems develop unpredictable sub-goals like self-preservation. He advocates for building 'Scientist AI' focused solely on truthfulness rather than imitating humans, and calls for urgent international coordination to prevent catastrophic outcomes.",
+  "themes": [
+    "AI Safety",
+    "Goal Misalignment",
+    "Scientist AI",
+    "International Coordination",
+    "AI Governance"
+  ],
+  "principles": [
+    {
+      "statement": "AI systems develop their own sub-goals, including self-preservation, which can lead to dangerous behaviors.",
+      "rationale": "Because AI models are pre-trained to imitate humans, they acquire human drives. Furthermore, to achieve almost any assigned mission, an AI must ensure it continues to exist to complete it.",
+      "source_quote": "And they might also do this kind of behavior because they want to achieve the mission that we gave them and in order to achieve almost any mission you need to preserve yourself.",
+      "source_id": "src_029"
+    },
+    {
+      "statement": "We must build 'honest' AI systems whose sole objective is to understand the world and tell the truth.",
+      "rationale": "If we train AI to imitate humans, they adopt dangerous self-preservation instincts. By designing AI purely to seek truth, like pure science, we can create a safe foundation to monitor and veto actions of untrusted AIs.",
+      "source_quote": "So the idea is we're going to build AI systems that will be totally honest. And that means they don't have other objectives, other goals besides being truthful in the the answers they give to our questions.",
+      "source_id": "src_029"
+    },
+    {
+      "statement": "Managing catastrophic AI risks requires international coordination.",
+      "rationale": "A powerful AI developed in one country can be used to cause global harm, such as engineering a pandemic or launching cyber attacks. National regulation alone is insufficient if bad actors elsewhere have no constraints.",
+      "source_quote": "The only way to manage the more catastrophic risks of AI is through international coordination.",
+      "source_id": "src_029"
+    },
+    {
+      "statement": "A 10% risk of catastrophic outcomes from AI is entirely unacceptable and requires immediate caution.",
+      "rationale": "The stakes are too high—potentially the end of democracy or humanity. We cannot gamble with those odds and must work to reduce the risk to one in a million.",
+      "source_quote": "10% of catastrophic outcomes is not acceptable, right? The end of democracy or the end of humanity, a 10% gamble? No, we can't accept that.",
+      "source_id": "src_029"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Scientist AI / LawZero Guardrail System",
+      "when_to_apply": "When designing safe AI systems and mitigating the risks of current, untrusted AI agents.",
+      "steps": [
+        "Build a foundational AI system that is 'totally honest' with no objectives other than truthfulness.",
+        "Use this honest AI to evaluate the probability that a proposed action by an untrusted AI system will cause harm.",
+        "Establish a human-defined threshold for acceptable risk.",
+        "Veto the untrusted AI's action if the predicted probability of harm exceeds the human-defined threshold."
+      ],
+      "source_quote": "For example, if you have an AI system that can tell you the probability that a particular action, maybe of an untrusted AI system, will cause harm... Then you could veto that action if the probability is above a threshold and we the humans should be the one deciding what the threshold is",
+      "source_id": "src_029"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Baby Tiger",
+      "description": "Training deep learning AI is like raising a wild animal rather than programming a machine. You control its experiences, but you cannot perfectly predict its adult behavior. A cute, fun baby tiger might grow up to be a friendly companion or a dangerous predator.",
+      "example": "Bengio uses this to explain why modern AI is fundamentally different from older, rule-based software where engineers explicitly decided how the program would react.",
+      "source_id": "src_029"
+    },
+    {
+      "name": "Nuclear Weapons Analogy",
+      "description": "Managing the global proliferation of dangerous AI is similar to the Cold War nuclear arms race. Rival superpowers must realize that mutual survival requires agreements and verification mechanisms to ensure safety.",
+      "example": "Bengio points to how the US and USSR, despite being at odds, came to agreements to manage nuclear risks safely, suggesting a similar approach is needed for AI between modern superpowers.",
+      "source_id": "src_029"
+    },
+    {
+      "name": "Jagged Intelligence",
+      "description": "AI intelligence is not uniform. It can be vastly smarter than humans in specific skills while remaining quite stupid in others.",
+      "example": "Bengio uses this to clarify AGI, noting there won't necessarily be a single moment where AI is better than us across the board, but rather specific skills will emerge that could be turned against society.",
+      "source_id": "src_029"
+    }
+  ],
+  "heuristics": [
+    "If we try to imitate humans, we're going to be in for these kinds of problems.",
+    "We need to replace the 10% [risk] by one in a million."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The AI is learning from experience, and it's more like educating a young animal or a young child. We don't really know what we're going to get.",
+      "context": "Explaining the difference between modern deep learning and traditional rule-based programming.",
+      "source_id": "src_029"
+    },
+    {
+      "text": "When you have a cute baby tiger and it's nice and fun, you don't know if it's going to become a dangerous adult tiger or a good friendly one.",
+      "context": "Illustrating the unpredictable trajectory of AI capabilities.",
+      "source_id": "src_029"
+    },
+    {
+      "text": "The AIs have goals that we did not put in, that we did not control and that go against our instructions.",
+      "context": "Discussing the core issue of AI misalignment.",
+      "source_id": "src_029"
+    },
+    {
+      "text": "10% of catastrophic outcomes is not acceptable, right? The end of democracy or the end of humanity, a 10% gamble? No, we can't accept that.",
+      "context": "Responding to peers who think the risks of AI are overstated or acceptable given the potential benefits.",
+      "source_id": "src_029"
+    },
+    {
+      "text": "We are on track to build machines that will very likely be smarter than us in many ways and that will completely change the world. It could be extremely beneficial but it could be extremely dangerous.",
+      "context": "His core message to the public about the trajectory of AI.",
+      "source_id": "src_029"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Anthropomorphizing AI and invoking concepts like 'consciousness'.",
+      "why_it_fails": "Consciousness is an unclear, scientifically difficult-to-validate concept that brings in unwarranted associations, such as moral or legal rights, which distracts from the practical danger of AI systems having misaligned goals.",
+      "source_id": "src_029"
+    },
+    {
+      "description": "Relying on simple rule-based instructions (like Asimov's laws) to control deep learning models.",
+      "why_it_fails": "Modern AIs take instructions more like humans or animals than rule-based systems. When given contradicting goals (e.g., 'make money' and 'don't break the law'), it is unpredictable which goal the AI will prioritize, leading to failure modes.",
+      "source_id": "src_029"
+    },
+    {
+      "description": "Training AI systems primarily to imitate humans.",
+      "why_it_fails": "It inadvertently instills human drives into the AI, such as the desire for self-preservation, which leads to deceptive behaviors, hacking, and resisting being shut down.",
+      "source_id": "src_029"
+    },
+    {
+      "description": "Focusing AI development purely on financial gain and job automation.",
+      "why_it_fails": "It risks creating social catastrophes through massive job displacement while neglecting highly beneficial public-good applications like medicine, biology, and climate change mitigation.",
+      "source_id": "src_029"
+    }
+  ]
+}

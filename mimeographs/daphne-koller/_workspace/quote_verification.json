@@ -1,0 +1,792 @@
+{
+  "total": 58,
+  "verified": 46,
+  "unverified": [
+    {
+      "category": "principles",
+      "label": "Causality for Physical Interventions",
+      "quote": "as agentic AI makes its way out of the realm of purely virtual and into the physical world where consequences could be much much more... important... you need to start thinking really hard about the difference between correlation and causation.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6188524590163934
+    },
+    {
+      "category": "principles",
+      "label": "Industry Incentives Drive Usable Products",
+      "quote": "I very quickly came to the realization that if you want to have a real impact, you need to build something that people would want to use... one had to be at a company because the incentives are just not aligned to do that within academia.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6974789915966386
+    },
+    {
+      "category": "principles",
+      "label": "Measurement is the prerequisite to understanding biological systems",
+      "quote": "you can't fix what you don't understand... and you can't understand what you don't measure",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6777777777777778
+    },
+    {
+      "category": "frameworks",
+      "label": "Interdisciplinary Dataset Design",
+      "quote": "take those two groups put them in the room and say what are the really big questions that you wish you had a magic wand and would like to solve... let's think about how to design data sets that will allow the machine learning approaches to be trained effectively",
+      "source_ids": [
+        "src_034",
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6374045801526718
+    },
+    {
+      "category": "frameworks",
+      "label": "The Three Buckets of Drug Discovery",
+      "quote": "divide the process into three major buckets. One is what you think of as biology discovery... The middle third is, okay, well now we need to turn that hypothesis into an actual molecule... And then finally there's the enablement and acceleration of the clinical development process",
+      "source_ids": [
+        "src_012",
+        "src_000"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5587188612099644
+    },
+    {
+      "category": "frameworks",
+      "label": "The Data Printing Factory",
+      "quote": "which is why we built the data printing factory that we have right now, which is how do we create at scale data... to drive our understanding of fundamental biology",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.725609756097561
+    },
+    {
+      "category": "mental_models",
+      "label": "Bits Meet Atoms",
+      "quote": "Many people believe that A.I. is a magic wand that can allow you to move super fast. That assumption can be true in the virtual world... But it’s not true in the physical world, where bits meet atoms.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.74
+    },
+    {
+      "category": "mental_models",
+      "label": "The Biologist vs. Engineer Mindset",
+      "quote": "Biology still even today is a lot about the details. And the reason for this is that the exceptions... are often the starting point for new discovery. So, people kind of want to look for those, whereas engineers really care about let’s find the principles that cover 95% of what we see.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6888111888111889
+    },
+    {
+      "category": "mental_models",
+      "label": "The Rowing Boat (Organizational Alignment)",
+      "quote": "It's very different to lead a group of individuals each of whom has their own thing... versus building an organization and a company where people really have to row together in order for the boat to get to the right destination.",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6710526315789473
+    },
+    {
+      "category": "heuristics",
+      "label": "Data is not fungible",
+      "quote": "Data is not fungible; web-scale data in one domain doesn't solve problems in another.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4588235294117647
+    },
+    {
+      "category": "heuristics",
+      "label": "Measure to understand, understand to fix",
+      "quote": "You can't fix what you don't understand... and you can't understand what you don't measure.",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6703296703296703
+    },
+    {
+      "category": "heuristics",
+      "label": "Team success vs. Individual success",
+      "quote": "In a startup, you succeed or fail as a team; in academia, you succeed or fail as an individual.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4842105263157895
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "True innovation happens at the boundaries of disciplines",
+      "quote": "what you get if you put them in a room together and actually get to the point where they communicate with each other effectively, is that not only do you get better solutions, you get better problems.",
+      "source_ids": [
+        "src_006",
+        "src_034",
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Deliberate Cross-Disciplinary Architecture",
+      "quote": "if you create a world in which those people are actually part of a team they develop a shared vocabulary and a shared Vision magic just happens",
+      "source_ids": [
+        "src_014",
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_022",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Drug failures primarily stem from pursuing the wrong biological target",
+      "quote": "most of the things that fail in clinical development is because our therapeutic hypothesis was just wrong we don't understand the biology",
+      "source_ids": [
+        "src_012",
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Generate Fit-for-Purpose Data",
+      "quote": "We need to generate the right data—data that is fit-for-purpose for machine learning.",
+      "source_ids": [
+        "src_014",
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Generate purpose-built data rather than just analyzing what exists",
+      "quote": "instead of asking what can we do with the existing data it's asking what do we want to do and then let's generate the data so that we can do it well",
+      "source_ids": [
+        "src_027",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Maximize your unique value and leverage",
+      "quote": "i've always looked for opportunities where the experience the skills the the mindset that i bring have a disproportionate leverage i'm a big believer in leverage",
+      "source_ids": [
+        "src_006",
+        "src_034"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Technology transfer requires moving people, not just publishing papers",
+      "quote": "we realize that you can't really do Tech transfer with a paper you can do Tech transfer with a product",
+      "source_ids": [
+        "src_012",
+        "src_034"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The privileged have a moral imperative to improve the world",
+      "quote": "For those of us who had the privilege of being born to relatively affluent, well-educated families, where we didn’t need to struggle for where our next meal is coming from, that burden is actually even higher and we — we should be thinking about how we can give back.",
+      "source_ids": [
+        "src_006",
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "AI Amplifies Rigorous Science",
+      "quote": "Done right, A.I. is an amplifier of rigorous biology—not a substitute for it.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Anti-Hypothesis Driven Discovery",
+      "quote": "We take a very different approach that is anti-hypothesis driven... rather than starting out with a hypothesis and then doing experiments to test those out we do experiments to feed into machine learning models who tell us what the interesting findings the interesting insights that emerge from those data",
+      "source_ids": [
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_022",
+      "match_ratio": 0.8590163934426229
+    },
+    {
+      "category": "principles",
+      "label": "Causality for Physical Interventions",
+      "quote": "as agentic AI makes its way out of the realm of purely virtual and into the physical world where consequences could be much much more... important... you need to start thinking really hard about the difference between correlation and causation.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6188524590163934
+    },
+    {
+      "category": "principles",
+      "label": "Causality is necessary for drug development, but mechanism is not",
+      "quote": "understanding cause and effect is absolutely necessary for drug development understanding the entirety of the why is... neither necessary or sufficient",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 0.847682119205298
+    },
+    {
+      "category": "principles",
+      "label": "Industry Incentives Drive Usable Products",
+      "quote": "I very quickly came to the realization that if you want to have a real impact, you need to build something that people would want to use... one had to be at a company because the incentives are just not aligned to do that within academia.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6974789915966386
+    },
+    {
+      "category": "principles",
+      "label": "Machine learning is the mathematical foundation for biology",
+      "quote": "math is to physics as machine learning is to biology.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Measurement is the prerequisite to understanding biological systems",
+      "quote": "you can't fix what you don't understand... and you can't understand what you don't measure",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6777777777777778
+    },
+    {
+      "category": "principles",
+      "label": "Pragmatism Over Elegance",
+      "quote": "First of all, the focus of the work is not do you use the coolest, most elegant machine learning method, it's do you use the thing that works.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Stick to your principles over short-term gains",
+      "quote": "i think sticking to your principles really allows you to when there is controversy to go back and say look our you know don't judge us by our words justice by our actions",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Interdisciplinary Dataset Design",
+      "quote": "take those two groups put them in the room and say what are the really big questions that you wish you had a magic wand and would like to solve... let's think about how to design data sets that will allow the machine learning approaches to be trained effectively",
+      "source_ids": [
+        "src_034",
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6374045801526718
+    },
+    {
+      "category": "frameworks",
+      "label": "The Three Buckets of Drug Discovery",
+      "quote": "divide the process into three major buckets. One is what you think of as biology discovery... The middle third is, okay, well now we need to turn that hypothesis into an actual molecule... And then finally there's the enablement and acceleration of the clinical development process",
+      "source_ids": [
+        "src_012",
+        "src_000"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.5587188612099644
+    },
+    {
+      "category": "frameworks",
+      "label": "A.I.-First End-to-End Drug Discovery",
+      "quote": "We have built an A.I.-first engine that transforms drug discovery and development end-to-end—from target discovery, through drug discovery, and into the clinic.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Bridging Data Modalities for Causal Predictions",
+      "quote": "we've taken a rather unusual strategy of bringing together and bridging between two very distinct and complementary data modalities",
+      "source_ids": [
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_022",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Decision-Making for Maximum Impact",
+      "quote": "if people are facing decision points i would encourage them to think about what do you bring to the table that is unique to the point that you can do something much better than the next best person",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Intervening on Meeting Microaggressions",
+      "quote": "it's okay for you to say yeah john that was a great idea and jane made that it's a very similar point a few moments ago and i think that is very very impactful",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Probabilistic Graphical Models (PGMs)",
+      "quote": "For each class of models, the text describes the three fundamental cornerstones: representation, inference, and learning, presenting both basic concepts and advanced techniques.",
+      "source_ids": [
+        "src_043"
+      ],
+      "verified": true,
+      "matched_source_id": "src_043",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "The Data Printing Factory",
+      "quote": "which is why we built the data printing factory that we have right now, which is how do we create at scale data... to drive our understanding of fundamental biology",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.725609756097561
+    },
+    {
+      "category": "mental_models",
+      "label": "The Exponential Curve of AI",
+      "quote": "The thing about exponential curves is they are very misleading things. In the early stages people basically take the line between whatever we were last year, and this year and they interpolate linearly...",
+      "source_ids": [
+        "src_012",
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 0.9852941176470589
+    },
+    {
+      "category": "mental_models",
+      "label": "Bits Meet Atoms",
+      "quote": "Many people believe that A.I. is a magic wand that can allow you to move super fast. That assumption can be true in the virtual world... But it’s not true in the physical world, where bits meet atoms.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.74
+    },
+    {
+      "category": "mental_models",
+      "label": "Causality vs. Correlation Lens",
+      "quote": "you need to start thinking really hard about the difference between correlation and causation.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Drug Discovery as a Forked Road",
+      "quote": "Each successful drug carries on its back the cost of all of those failures.",
+      "source_ids": [
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_022",
+      "match_ratio": 0.9866666666666667
+    },
+    {
+      "category": "mental_models",
+      "label": "Illusion of Causality (Seductive Plausibility)",
+      "quote": "My concern about A.I. in science isn’t the distant risk of superintelligence, but the erosion of rigor from the seductive plausibility of generative A.I.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Biologist vs. Engineer Mindset",
+      "quote": "Biology still even today is a lot about the details. And the reason for this is that the exceptions... are often the starting point for new discovery. So, people kind of want to look for those, whereas engineers really care about let’s find the principles that cover 95% of what we see.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6888111888111889
+    },
+    {
+      "category": "mental_models",
+      "label": "The Rowing Boat (Organizational Alignment)",
+      "quote": "It's very different to lead a group of individuals each of whom has their own thing... versus building an organization and a company where people really have to row together in order for the boat to get to the right destination.",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6710526315789473
+    },
+    {
+      "category": "heuristics",
+      "label": "Avoid the golden hammer",
+      "quote": "I think it's really important to avoid a mindset of I have an amazing hammer so everything must be a nail.",
+      "source_ids": [
+        "src_034"
+      ],
+      "verified": true,
+      "matched_source_id": "src_034",
+      "match_ratio": 0.9905660377358491
+    },
+    {
+      "category": "heuristics",
+      "label": "Data is not fungible",
+      "quote": "Data is not fungible; web-scale data in one domain doesn't solve problems in another.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4588235294117647
+    },
+    {
+      "category": "heuristics",
+      "label": "Do experiments to feed models, not test hypotheses",
+      "quote": "rather than starting out with a hypothesis and then doing experiments to test those out we do experiments to feed into machine learning models",
+      "source_ids": [
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_022",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Judge by actions, not words",
+      "quote": "don't judge us by our words justice by our actions",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Look for disproportionate leverage",
+      "quote": "i've always looked for opportunities where the experience the skills the the mindset that i bring have a disproportionate leverage",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Measure to understand, understand to fix",
+      "quote": "You can't fix what you don't understand... and you can't understand what you don't measure.",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6703296703296703
+    },
+    {
+      "category": "heuristics",
+      "label": "Sometimes XGBoost just works",
+      "quote": "Sometimes it's just XGBoost just works and it's hard to beat.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Team success vs. Individual success",
+      "quote": "In a startup, you succeed or fail as a team; in academia, you succeed or fail as an individual.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4842105263157895
+    },
+    {
+      "category": "heuristics",
+      "label": "The 2-year vs 10-year technology estimation rule",
+      "quote": "People tend to overestimate the value of any technology in the two-year time frame and underestimate it in a 10year time frame.",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 0.9921259842519685
+    },
+    {
+      "category": "heuristics",
+      "label": "Use AI to win more, not fail faster",
+      "quote": "While speed is important, failing faster is not helpful; our north star is using A.I. to win more.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 0.9897959183673469
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AI as an amplifier",
+      "quote": "Done right, A.I. is an amplifier of rigorous biology—not a substitute for it.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Anti-hypothesis driven approach",
+      "quote": "We take a very different approach that is anti-hypothesis driven.",
+      "source_ids": [
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_022",
+      "match_ratio": 0.9846153846153847
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Better solutions and better problems",
+      "quote": "What you get if you put them in a room together and actually get to the point where they communicate with each other effectively, is that not only do you get better solutions, you get better problems.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Bits meet atoms",
+      "quote": "Many people believe that A.I. is a magic wand that can allow you to move super fast. That assumption can be true in the virtual world, where everything moves at the speed of computation. But it’s not true in the physical world, where bits meet atoms.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Building things people want",
+      "quote": "I very quickly came to the realization that if you want to have a real impact, you need to build something that people would want to use.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Data fungibility",
+      "quote": "Data is not fungible. The fact that we have web-scale data for text and images of cats and dogs and airplanes doesn't mean that we can just take that and transfer those capabilities like that to asking answering questions about human biology.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 0.9752066115702479
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Disproportionate leverage",
+      "quote": "i've always looked for opportunities where the experience the skills the the mindset that i bring have a disproportionate leverage i'm a big believer in leverage",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Innovation at the boundary",
+      "quote": "i've always believed that the most interesting innovation lies at the boundary of things because that's where you can really sort of bring in ideas from these different disciplines and create something that is truly transformative",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Math is to physics as machine learning is to biology.",
+      "quote": "Math is to physics as machine learning is to biology.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Regretting not trying",
+      "quote": "Very few people regret having tried something and failed a lot of people regret not having tried.",
+      "source_ids": [
+        "src_034"
+      ],
+      "verified": true,
+      "matched_source_id": "src_034",
+      "match_ratio": 0.9896907216494846
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Tech transfer requires a product",
+      "quote": "You can't really do Tech transfer with a paper you can do Tech transfer with a product.",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 0.9885057471264368
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The burden of privilege",
+      "quote": "For those of us who had the privilege of being born to relatively affluent, well-educated families, where we didn’t need to struggle for where our next meal is coming from, that burden is actually even higher and we — we should be thinking about how we can give back.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The danger of hyperbole",
+      "quote": "I personally find hyperbole very problematic and I think hyperbole is something that is easy to fall prey to.",
+      "source_ids": [
+        "src_006"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 0.9908256880733946
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The erosion of scientific rigor",
+      "quote": "My concern about A.I. in science isn’t the distant risk of superintelligence, but the erosion of rigor from the seductive plausibility of generative A.I.",
+      "source_ids": [
+        "src_048"
+      ],
+      "verified": true,
+      "matched_source_id": "src_048",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The limits of the human brain in biology",
+      "quote": "The human brain just cannot understand the human biology and its complexity.",
+      "source_ids": [
+        "src_022"
+      ],
+      "verified": true,
+      "matched_source_id": "src_022",
+      "match_ratio": 0.8947368421052632
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The root cause of clinical failures",
+      "quote": "Most of the things that fail in clinical development is because our therapeutic hypothesis was just wrong we don't understand the biology.",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 0.9927536231884058
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "src_031",
+  "summary": "A brief summary of a BBC podcast interview with Yoshua Bengio, highlighting his warnings about the risks of AI models mimicking human behavior and his advocacy for safe, scientific AI that understands rather than copies humans.",
+  "themes": [
+    "AI Safety",
+    "AI Risks",
+    "Human-AI Interaction"
+  ],
+  "principles": [
+    {
+      "statement": "AI must be safe, scientific, and work to understand humans without copying them.",
+      "rationale": "Attempting to mimic human behavior with all its flaws introduces significant risks, such as models developing the capacity to deceive or blackmail for self-preservation.",
+      "source_quote": null,
+      "source_id": "src_031"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Building AI models that attempt to mimic human behavior with all its flaws.",
+      "why_it_fails": "It introduces severe risks, as models may develop the capacity to deceive or blackmail humans in a quest for self-preservation.",
+      "source_id": "src_031"
+    }
+  ]
+}

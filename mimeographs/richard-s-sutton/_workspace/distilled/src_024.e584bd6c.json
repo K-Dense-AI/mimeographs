@@ -1,0 +1,108 @@
+{
+  "source_id": "src_024",
+  "summary": "Richard S. Sutton argues that Large Language Models are a dead end for achieving true artificial intelligence because they rely on mimicking human data rather than learning from experience. He advocates for reinforcement learning agents that possess goals, learn continually from trial and error, and build transition models of the world. He believes the 'Bitter Lesson' will apply again, where scalable experiential learning ultimately supersedes human-knowledge-based systems like LLMs.",
+  "themes": [
+    "Reinforcement Learning",
+    "Large Language Models",
+    "The Bitter Lesson",
+    "Experiential Learning",
+    "Generalization",
+    "Animal Intelligence"
+  ],
+  "principles": [
+    {
+      "statement": "Intelligence requires a goal.",
+      "rationale": "Without a goal, there is no sense of right or wrong, better or worse. Systems that merely predict data without trying to influence the world are just behaving systems, not intelligent ones.",
+      "source_quote": "For me, having a goal is the essence of intelligence. Something is intelligent if it can achieve goals.",
+      "source_id": "src_024"
+    },
+    {
+      "statement": "True learning comes from experience, not imitation or training data.",
+      "rationale": "Animals learn by trying things and observing the consequences, not by being given examples of desired behavior. Supervised learning does not happen in nature.",
+      "source_quote": "What we want, to quote Alan Turing, is a machine that can learn from experience, where experience is the things that actually happen in your life. You do things, you see what happens, and that’s what you learn from.",
+      "source_id": "src_024"
+    },
+    {
+      "statement": "The Bitter Lesson will apply to LLMs: scalable experiential learning will supersede human-knowledge approaches.",
+      "rationale": "While putting human knowledge into models yields short-term gains, methods that scale with computation and learn directly from experience always win in the long run.",
+      "source_quote": "I expect there to be systems that can learn from experience. Which could perform much better and be much more scalable. In which case, it will be another instance of the bitter lesson, that the things that used human knowledge were eventually superseded by things that just trained from experience and computation.",
+      "source_id": "src_024"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Base Common Model of the Agent",
+      "when_to_apply": "When designing the architecture of an intelligent, continual-learning agent.",
+      "steps": [
+        "Define a Policy: Determine what the agent should do in its current situation.",
+        "Establish a Value Function: Use temporal difference learning to produce a number indicating how well things are going, adjusting the policy based on its fluctuations.",
+        "Build a Perception Component: Construct the agent's state representation (its sense of where it is now).",
+        "Develop a Transition Model of the World: Form a belief about the consequences of actions (the physics and abstract models of the world) learned from rich sensation."
+      ],
+      "source_quote": "I want to talk about the base common model of the agent with the four parts... We need a policy... a value function... the perception component... the transition model of the world.",
+      "source_id": "src_024"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Stream of Experience",
+      "description": "Viewing intelligence as the process of interacting with a continuous stream of sensation, action, and reward. Knowledge consists of testable statements about this stream (e.g., predicting what events will follow others).",
+      "example": "An agent continually alters its actions to increase rewards in the stream, testing its knowledge by comparing its predictions to what actually happens in the stream.",
+      "source_id": "src_024"
+    },
+    {
+      "name": "The Big World Hypothesis",
+      "description": "The world is too vast and idiosyncratic to anticipate and pre-program everything an agent needs to know. Therefore, agents must learn online during their lives to adapt to their specific environments.",
+      "example": "A human becoming useful on the job by encountering and learning the specific idiosyncrasies of their particular workplace and clients, which could never have been fully taught in advance.",
+      "source_id": "src_024"
+    }
+  ],
+  "heuristics": [
+    "Look to animals to understand intelligence; what we have in common with them is more fundamental than what distinguishes us.",
+    "Look back into history and classic traditions of thought to avoid feeling out of sync with the current fads of your field."
+  ],
+  "signature_quotes": [
+    {
+      "text": "What is intelligence? The problem is to understand your world. Reinforcement learning is about understanding your world, whereas large language models are about mimicking people, doing what people say you should do.",
+      "context": "Contrasting the goals of RL with the current LLM paradigm.",
+      "source_id": "src_024"
+    },
+    {
+      "text": "Supervised learning is not something that happens in nature... Squirrels don’t go to school.",
+      "context": "Arguing that animals learn from trial and error, not from labeled examples of desired behavior.",
+      "source_id": "src_024"
+    },
+    {
+      "text": "I’m personally just content being out of sync with my field for a long period of time, perhaps decades, because occasionally I have been proved right in the past.",
+      "context": "Reflecting on his contrarian stance regarding LLMs and AI research trends.",
+      "source_id": "src_024"
+    },
+    {
+      "text": "Gradient descent will not make you generalize well. It will make you solve the problem.",
+      "context": "Explaining why current deep learning architectures struggle with out-of-distribution generalization.",
+      "source_id": "src_024"
+    },
+    {
+      "text": "For me, having a goal is the essence of intelligence. Something is intelligent if it can achieve goals.",
+      "context": "Defining intelligence and critiquing LLMs for lacking substantive goals.",
+      "source_id": "src_024"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating Large Language Models as a foundation for true intelligence or world models.",
+      "why_it_fails": "LLMs lack a goal, ground truth, and the ability to learn continually from experience; they merely mimic human text and cannot predict what will actually happen in the world.",
+      "source_id": "src_024"
+    },
+    {
+      "description": "Using supervised learning or imitation as the primary model for natural intelligence.",
+      "why_it_fails": "Animals do not receive examples of desired behavior; they learn through trial and error, prediction, and observing the consequences of their actions.",
+      "source_id": "src_024"
+    },
+    {
+      "description": "Assuming gradient descent automatically leads to good generalization.",
+      "why_it_fails": "Gradient descent only finds a solution to the seen problems. Without specific algorithms to promote good transfer, it can generalize poorly and cause catastrophic interference with old knowledge.",
+      "source_id": "src_024"
+    }
+  ]
+}

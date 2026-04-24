@@ -1,0 +1,95 @@
+{
+  "source_id": "src_022",
+  "summary": "Zhong Lin Wang discusses his journey from rural China to becoming a pioneer in nanotechnology and energy harvesting. He outlines his discoveries in piezotronics and triboelectric nanogenerators, shares his three-stage roadmap for scaling the technology, and offers advice to young scientists on the importance of passion, persistence, and hard work.",
+  "themes": [
+    "Nanotechnology",
+    "Energy Harvesting",
+    "Scientific Innovation",
+    "Career Advice",
+    "Research Management"
+  ],
+  "principles": [
+    {
+      "statement": "Do what you love to do.",
+      "rationale": "Genuine interest and curiosity are the only driving forces that will allow you to work day and night without getting tired.",
+      "source_quote": "Pick out the interest that you think you can work on day and night and never get tired. This is the only driving force for you to advance. It’s not for the money; it’s not a job requirement; it is interest",
+      "source_id": "src_022"
+    },
+    {
+      "statement": "Be persistent and let the data speak.",
+      "rationale": "Success takes time, and people will inevitably question or doubt emergent ideas. If you believe you are right, you must consistently produce data until the scientific community accepts your findings.",
+      "source_quote": "In due course, people may question you, argue with you about what you do, and sometimes not believe what you say, but if you believe in yourself, you will keep doing the right thing. Let the data speak; eventually, they’ll accept you.",
+      "source_id": "src_022"
+    },
+    {
+      "statement": "Talent must be multiplied by hard work.",
+      "rationale": "The world is full of smart and talented people. Without dedicated effort, natural talent is insufficient for achieving significant success.",
+      "source_quote": "Make sure you work for it. If you don’t work for it, your talent won’t go very far.",
+      "source_id": "src_022"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Three-Stage Technology Roadmap",
+      "when_to_apply": "When planning the commercialization and real-world deployment of a novel hardware or energy technology.",
+      "steps": [
+        "Near term: Target low-power, self-powered applications (e.g., security sensors under carpets, door triggers) that can be realized in ~3 years.",
+        "Middle term: Scale to medium-power applications (e.g., powering cell phones, large-grid sensors) within ~5 years.",
+        "Long term: Develop major power generation (e.g., 3D grids on water surfaces to generate megawatts) by solving complex material and durability issues."
+      ],
+      "source_quote": "We separated these into three stages: near, middle, and long term.",
+      "source_id": "src_022"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Energy System Model",
+      "description": "Viewing energy harvesting not merely as a standalone generator, but as an integrated system combining a generator and a storage unit to create a sustainable, infinite-life power source.",
+      "example": "Using a triboelectric generator attached to a lung to continuously charge a battery that drives a pacemaker, extending the device's lifespan from 3-5 years to 10-15+ years.",
+      "source_id": "src_022"
+    }
+  ],
+  "heuristics": [
+    "Once it’s in my hands, I process it right away, no waiting.",
+    "Let the data speak."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Pick out the interest that you think you can work on day and night and never get tired. This is the only driving force for you to advance.",
+      "context": "Advice to young scientists on choosing a research direction.",
+      "source_id": "src_022"
+    },
+    {
+      "text": "If you believe you’re right, just work toward your goal, regardless of whatever other people say about you.",
+      "context": "Discussing how to handle skepticism from the scientific community.",
+      "source_id": "src_022"
+    },
+    {
+      "text": "Make sure you work for it. If you don’t work for it, your talent won’t go very far.",
+      "context": "On the necessity of hard work alongside intelligence.",
+      "source_id": "src_022"
+    },
+    {
+      "text": "Once it’s in my hands, I process it right away, no waiting.",
+      "context": "Explaining how he efficiently manages two large research laboratories across different continents.",
+      "source_id": "src_022"
+    },
+    {
+      "text": "The most pleasure I get from this work is that I feel excited that what we do today can impact the future of human civilization, in a broad sense.",
+      "context": "Reflecting on his ultimate motivation for working day and night.",
+      "source_id": "src_022"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on intelligence or talent without putting in the necessary hard work.",
+      "why_it_fails": "Because there are many talented people in the world, talent alone is not enough to stand out or make significant scientific advances.",
+      "source_id": "src_022"
+    },
+    {
+      "description": "Giving up on an emergent idea because early definitions are vague or others don't believe it.",
+      "why_it_fails": "New phases of research lack substantial data at the beginning. If you stop working because of initial skepticism, you will never publish the 40 or 50 papers needed to form something substantial.",
+      "source_id": "src_022"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "source_id": "src_026",
+  "summary": "In this NPR segment, epidemiologist Meir J. Stampfer discusses the potential targeted benefits of specific vitamin supplements. He highlights that adequate folate may offset cancer risks associated with moderate alcohol consumption, and suggests that taking vitamin E is a 'good gamble' for healthy individuals seeking increased antioxidant capacity.",
+  "themes": [
+    "Nutrition",
+    "Vitamin Supplements",
+    "Cancer Prevention",
+    "Folate",
+    "Antioxidants"
+  ],
+  "principles": [
+    {
+      "statement": "Adequate folate intake may offset the increased cancer risks associated with moderate alcohol consumption.",
+      "rationale": "While not absolutely proven, existing data suggests that the heightened risk of certain cancers from drinking alcohol can be mitigated by maintaining adequate folate levels.",
+      "source_quote": "Even moderate alcohol increases the risk of some cancers. This is not proven, but there's some data to suggest that this increased risk can be taken away if you have adequate folate.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Supplementing with antioxidants like Vitamin E is a reasonable bet for healthy individuals.",
+      "rationale": "Clinical trials suggest potential benefits, such as cutting the risk of prostate cancer, making the increase in antioxidant capacity a worthwhile probabilistic choice even if the evidence isn't universally conclusive.",
+      "source_quote": "For healthy people, having more antioxidant capacity I think could be beneficial, and so it seems like a good gamble.",
+      "source_id": "src_026"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The \"Good Gamble\" Approach to Supplements",
+      "description": "A probabilistic lens for evaluating nutritional interventions where absolute certainty is lacking. If a supplement (like Vitamin E) shows promising data for preventing chronic disease and has a low risk profile for healthy individuals, it is treated as a favorable bet rather than requiring definitive proof before use.",
+      "example": "Recommending Vitamin E to healthy people to increase antioxidant capacity and potentially cut prostate cancer risk, despite mixed evidence in people who already have heart disease.",
+      "source_id": "src_026"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Even moderate alcohol increases the risk of some cancers. This is not proven, but there's some data to suggest that this increased risk can be taken away if you have adequate folate.",
+      "context": "Discussing how specific vitamins can target and offset specific lifestyle risks.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "For healthy people, having more antioxidant capacity I think could be beneficial, and so it seems like a good gamble.",
+      "context": "Explaining why he supports Vitamin E supplementation for healthy individuals despite some trials showing no protection for those who already have heart disease.",
+      "source_id": "src_026"
+    }
+  ],
+  "anti_patterns": []
+}

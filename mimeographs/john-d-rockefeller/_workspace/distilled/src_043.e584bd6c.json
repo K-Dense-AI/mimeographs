@@ -1,0 +1,56 @@
+{
+  "source_id": "src_043",
+  "summary": "An academic analysis of John D. Rockefeller's strategy in the early oil industry, focusing on how he managed uncertainty. While the author applies modern transaction cost theory, the historical details reveal Rockefeller's relentless drive for control, his preference for dictating the rules of engagement, and his strategy of internalizing innovation and supply chain logistics to dominate the market.",
+  "themes": [
+    "Uncertainty management",
+    "Monopoly and control",
+    "Vertical integration",
+    "Innovation internalization"
+  ],
+  "principles": [
+    {
+      "statement": "Submit only to games where you can dictate the rules.",
+      "rationale": "To ensure victory and maintain absolute control over the outcome, you must control the parameters of the competition rather than playing by others' rules.",
+      "source_quote": "to ensure that he won, he submitted to games only where he could dictate the rules",
+      "source_id": "src_043"
+    },
+    {
+      "statement": "Bring order out of chaos.",
+      "rationale": "Unregulated, highly speculative markets are chaotic; success requires consolidating operations to establish control, predictability, and ultimately, monopoly.",
+      "source_quote": "brought 'order out of chaos—Rockefeller euphemism for monopoly",
+      "source_id": "src_043"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Middle-Point Strategy",
+      "description": "Positioning core operations geographically and strategically between supply sources and end markets to maximize flexibility, diversify options, and avoid being locked into a single dependency.",
+      "example": "Locating Standard Oil's early refining operations in Cleveland, which sat strategically between the raw oil production centers (Pennsylvania/West Virginia) and the emerging western city markets (St. Louis/Chicago).",
+      "source_id": "src_043"
+    }
+  ],
+  "heuristics": [
+    "Internalize technological uncertainty by buying the innovator, not just the invention.",
+    "Capitalize on competitors' fear of an uncertain future by buying their operations when they are most afraid."
+  ],
+  "signature_quotes": [
+    {
+      "text": "order out of chaos",
+      "context": "Rockefeller's euphemism for establishing a monopoly to stabilize the volatile early oil industry.",
+      "source_id": "src_043"
+    },
+    {
+      "text": "for convenience of control and management the Standard Oil Trust was formed … an agreement, placing all the stock of these various companies in the hands of trustees",
+      "context": "From the Standard Oil Trust agreement, explaining the rationale for his unprecedented corporate reorganization.",
+      "source_id": "src_043"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on the open market for critical technological innovation.",
+      "why_it_fails": "It leaves the company dependent on external forces and prevents the establishment of an exclusive, proprietary advantage over competitors.",
+      "source_id": "src_043"
+    }
+  ]
+}

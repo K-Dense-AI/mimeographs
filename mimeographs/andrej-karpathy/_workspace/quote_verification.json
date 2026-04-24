@@ -1,0 +1,1489 @@
+{
+  "total": 112,
+  "verified": 92,
+  "unverified": [
+    {
+      "category": "principles",
+      "label": "Continuous Diffusion of AGI",
+      "quote": "This assumption of suddenly having a completely intelligent, fully flexible, fully general human in a box... I don't think that we will have this discrete change. I think we'll arrive at the same kind of gradual diffusion of this across the industry.",
+      "source_ids": [
+        "src_000",
+        "src_024"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.768
+    },
+    {
+      "category": "principles",
+      "label": "Agency Over Intelligence",
+      "quote": "Agency > Intelligence I had this intuitively wrong for decades, I think due to a pervasive cultural veneration of intelligence... Agency is significantly more powerful and significantly more scarce.",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7373737373737373
+    },
+    {
+      "category": "principles",
+      "label": "Build to Understand",
+      "quote": "If I can't build it, I don't understand it... don't write blog posts, don't do slides, don't do any of that. Build the code, arrange it, get it to work.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7631578947368421
+    },
+    {
+      "category": "principles",
+      "label": "LLMs are Statistical Simulators, Not Magical AIs",
+      "quote": "you're not talking to a magical AI you're talking to an average labeler... you're talking to kind of like an instantaneous simulation of that kind of a person that would be hired in the construction of these data sets",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7465437788018433
+    },
+    {
+      "category": "principles",
+      "label": "Separate Algorithm from Efficiency",
+      "quote": "This file is the complete algorithm. Everything else is just efficiency.",
+      "source_ids": [
+        "src_039"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.75
+    },
+    {
+      "category": "principles",
+      "label": "Treat the Context Window as a Precious Resource",
+      "quote": "think of the tokens in the context window as a precious resource... don't overload it with irrelevant information and keep it as short as you can",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6551724137931034
+    },
+    {
+      "category": "frameworks",
+      "label": "The Autonomy Slider",
+      "quote": "There's this what I call 'autonomy slider,' where more and more stuff is automated... and we're doing a bit less and less and raising ourselves in the layer of abstraction over the automation.",
+      "source_ids": [
+        "src_010",
+        "src_029",
+        "src_002",
+        "src_055"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7083333333333334
+    },
+    {
+      "category": "frameworks",
+      "label": "Byte Pair Encoding (BPE) Tokenization",
+      "quote": "we're basically looking for consecutive bytes or symbols that are very common... we're going to group this pair into a new symbol... each time when we mint a new symbol we're decreasing the length and we're increasing the symbol size",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4678111587982833
+    },
+    {
+      "category": "frameworks",
+      "label": "Empirical Factuality Tuning",
+      "quote": "we interrogate the model three times and we compare its answers... to the correct answer and if the model doesn't know... we create a new conversation in the training set... the answer is I'm sorry I don't know",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.48095238095238096
+    },
+    {
+      "category": "frameworks",
+      "label": "Few-Shot Prompt Construction",
+      "quote": "I used kind of like an XML like language just so that the model understands that the example one begins here and ends here... I just give it a few examples and I kind of like specify them in detail",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7614213197969543
+    },
+    {
+      "category": "frameworks",
+      "label": "LLM Pre-training Data Pipeline",
+      "quote": "there's a ton of different types of websites that are just eliminated at this stage... the second part is text extraction... The next stage here is language filtering... finishing with for example the pii removal",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4386792452830189
+    },
+    {
+      "category": "frameworks",
+      "label": "The LLM Council",
+      "quote": "I kind of refer to all these models as my llm Council... If I'm trying to figure out where to go on a vacation I will ask all of them",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7443609022556391
+    },
+    {
+      "category": "frameworks",
+      "label": "The Three Stages of LLM Training",
+      "quote": "first what we do is we do pre-training... the second thing then is we go into the sft stage... and then finally in the last stage we do all the practice problems in the RL stage",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6271186440677966
+    },
+    {
+      "category": "mental_models",
+      "label": "LLM Training as Human Education",
+      "quote": "first what we do is we do pre-training... the second thing then is we go into the sft stage... and then finally in the last stage we do all the practice problems in the RL stage",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6271186440677966
+    },
+    {
+      "category": "mental_models",
+      "label": "Lossy Compression of the Internet (The Zip File)",
+      "quote": "you can think of the 405 billion parameters is kind of like a zip file but it's not a loss less compression it's a loss C compression",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7518796992481203
+    },
+    {
+      "category": "heuristics",
+      "label": "Build to Understand",
+      "quote": "If I can't build it, I don't understand it... I 100% have always believed this very strongly",
+      "source_ids": [
+        "src_000",
+        "src_044",
+        "src_029"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7065217391304348
+    },
+    {
+      "category": "heuristics",
+      "label": "Let Students Guess",
+      "quote": "Don't present the solution before giving the student a shot to guess it.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6944444444444444
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Algorithm vs Efficiency",
+      "quote": "This file is the complete algorithm. Everything else is just efficiency.",
+      "source_ids": [
+        "src_039"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.75
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Average Labeler Simulation",
+      "quote": "you're not talking to a magical AI you're talking to an average labeler... an instantaneous simulation of that kind of a person",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6299212598425197
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Build to Understand",
+      "quote": "If I can't build it, I don't understand it... don't write blog posts, don't do slides, don't do any of that. Build the code, arrange it, get it to work.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7631578947368421
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "Build from Scratch to Understand",
+      "quote": "If I can't build it, I don't understand it... I 100% have always believed this very strongly, because there are all these micro things that are just not properly arranged and you don't really have the knowledge.",
+      "source_ids": [
+        "src_007",
+        "src_029",
+        "src_044"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 0.8720379146919431
+    },
+    {
+      "category": "principles",
+      "label": "Build Digital Infrastructure for Agents",
+      "quote": "there is new category of consumer/manipulator of digital information",
+      "source_ids": [
+        "src_010",
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Continuous Diffusion of AGI",
+      "quote": "This assumption of suddenly having a completely intelligent, fully flexible, fully general human in a box... I don't think that we will have this discrete change. I think we'll arrive at the same kind of gradual diffusion of this across the industry.",
+      "source_ids": [
+        "src_000",
+        "src_024"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.768
+    },
+    {
+      "category": "principles",
+      "label": "English as the Ultimate Interface",
+      "quote": "The hottest new programming language is English",
+      "source_ids": [
+        "src_004",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Keep the AI on a Leash",
+      "quote": "we have to keep the AI on the leash. We I think a lot of people are getting way over excited with AI agents and uh it's not useful to me to get a diff of 10,000 lines of code to my repo.",
+      "source_ids": [
+        "src_010",
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Software 3.0 is Eating 1.0 and 2.0",
+      "quote": "Software 3.0 is eating 1.0/2.0",
+      "source_ids": [
+        "src_010",
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Agency Over Intelligence",
+      "quote": "Agency > Intelligence I had this intuitively wrong for decades, I think due to a pervasive cultural veneration of intelligence... Agency is significantly more powerful and significantly more scarce.",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7373737373737373
+    },
+    {
+      "category": "principles",
+      "label": "AI Exposure vs. Replacement",
+      "quote": "Many high-exposure jobs will be reshaped, not replaced.",
+      "source_ids": [
+        "src_050"
+      ],
+      "verified": true,
+      "matched_source_id": "src_050",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Base Models are Internet Document Simulators",
+      "quote": "the base models are not very often released because they're kind of just only a step one of a few other steps that we still need to take to get in system",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Build to Understand",
+      "quote": "If I can't build it, I don't understand it... don't write blog posts, don't do slides, don't do any of that. Build the code, arrange it, get it to work.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7631578947368421
+    },
+    {
+      "category": "principles",
+      "label": "Code is Ephemeral and Discardable",
+      "quote": "code is suddenly free, ephemeral, malleable, discardable after single use.",
+      "source_ids": [
+        "src_055"
+      ],
+      "verified": true,
+      "matched_source_id": "src_055",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Education as Building Ramps",
+      "quote": "In my mind, education is the very difficult technical process of building ramps to knowledge.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "End-to-End Optimization",
+      "quote": "Instead of designing and staging explicit algorithms to process images and sentences in complex processing pipelines, our contribution lies in the design of hybrid convolutional and recurrent neural network architectures that connect visual data and natural language utterances with a single network.",
+      "source_ids": [
+        "src_004"
+      ],
+      "verified": true,
+      "matched_source_id": "src_004",
+      "match_ratio": 0.9933333333333333
+    },
+    {
+      "category": "principles",
+      "label": "Human Cognition ≠ LLM Cognition",
+      "quote": "what is easy for you or I as or as human labelers what's easy for us or hard for us is different than what's easy or hard for the llm it cognition is different",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Implicit Programming by Example",
+      "quote": "we are going to be implicitly programming the assistant by creating data sets of conversations",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Lidar and HD Maps are Unscalable",
+      "quote": "it's actually quite unscalable to uh to actually collect build and maintain these high definition lidar maps",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "LLM Apps Animate General Models into Professionals",
+      "quote": "Personally I suspect that LLM labs will trend to graduate the generally capable college student, but LLM apps will organize, finetune and actually animate teams of them into deployed professionals in specific verticals",
+      "source_ids": [
+        "src_055"
+      ],
+      "verified": true,
+      "matched_source_id": "src_055",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "LLMs are Statistical Simulators, Not Magical AIs",
+      "quote": "you're not talking to a magical AI you're talking to an average labeler... you're talking to kind of like an instantaneous simulation of that kind of a person that would be hired in the construction of these data sets",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7465437788018433
+    },
+    {
+      "category": "principles",
+      "label": "Never Read Books Alone",
+      "quote": "I find that basically going hand inhand with llms uh dramatically creases my retention my understanding of these chapters... don't read books alone",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 0.8707482993197279
+    },
+    {
+      "category": "principles",
+      "label": "Poor Memorization as a Feature",
+      "quote": "Because we're not that good at memorization, we're forced to find patterns in a more general sense.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Pre-training as Crappy Evolution",
+      "quote": "That's why I call pre-training this crappy evolution. It's the practically possible version with our technology and what we have available to us to get to a starting point.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 0.9941860465116279
+    },
+    {
+      "category": "principles",
+      "label": "Reinforcement Learning Unlocks Emergent Reasoning",
+      "quote": "it's rediscovering what happens in your head not what you put down on the solution and there is no human who can hardcode this stuff in the ideal assistant response",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "RLHF is Gameable and Limited",
+      "quote": "I kind of see rhf as not real RL because the reward function is gameable so it's kind of more like in the realm of like little fine-tuning",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Separate Algorithm from Efficiency",
+      "quote": "This file is the complete algorithm. Everything else is just efficiency.",
+      "source_ids": [
+        "src_039"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.75
+    },
+    {
+      "category": "principles",
+      "label": "Software Engineering as the Foundation",
+      "quote": "Strong software engineering is the primary requirement. Except for the scientist role, deep learning interest or knowledge is only a bonus (we will teach you).",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Human Bottleneck",
+      "quote": "The human operator is now the ultimate binding constraint on maximum system intelligence and token throughput.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Tokenization is a Flawed Paradigm",
+      "quote": "In the process, we will see that a lot of weird behaviors and problems of LLMs actually trace back to tokenization.",
+      "source_ids": [
+        "src_044"
+      ],
+      "verified": true,
+      "matched_source_id": "src_044",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Tokens are Compute",
+      "quote": "we actually have to distribute our reasoning and our computation across many tokens because every single token is only spending a finite amount of computation on it",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Treat the Context Window as a Precious Resource",
+      "quote": "think of the tokens in the context window as a precious resource... don't overload it with irrelevant information and keep it as short as you can",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6551724137931034
+    },
+    {
+      "category": "principles",
+      "label": "Vertical Integration Accelerates AI",
+      "quote": "everything is very vertical integrated in the team and i think that's pretty incredible because um you get to really co-design an engineer at all the layers of that stack",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Vision Alone is Capable of Depth Sensing",
+      "quote": "vision alone is actually in our is our finding that is perfectly capable of depth sensing",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "The Autonomy Slider",
+      "quote": "There's this what I call 'autonomy slider,' where more and more stuff is automated... and we're doing a bit less and less and raising ourselves in the layer of abstraction over the automation.",
+      "source_ids": [
+        "src_010",
+        "src_029",
+        "src_002",
+        "src_055"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7083333333333334
+    },
+    {
+      "category": "frameworks",
+      "label": "Vibe Coding",
+      "quote": "Vibe coding just refers to letting um giving in giving the control to composer and just telling it what to do",
+      "source_ids": [
+        "src_017",
+        "src_021",
+        "src_055"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Auto Research / The Claw",
+      "quote": "It is an environment where an AI proposes an idea, writes the code, tests it, and iterates entirely on its own.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Byte Pair Encoding (BPE) Tokenization",
+      "quote": "we're basically looking for consecutive bytes or symbols that are very common... we're going to group this pair into a new symbol... each time when we mint a new symbol we're decreasing the length and we're increasing the symbol size",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4678111587982833
+    },
+    {
+      "category": "frameworks",
+      "label": "Empirical Factuality Tuning",
+      "quote": "we interrogate the model three times and we compare its answers... to the correct answer and if the model doesn't know... we create a new conversation in the training set... the answer is I'm sorry I don't know",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.48095238095238096
+    },
+    {
+      "category": "frameworks",
+      "label": "Few-Shot Prompt Construction",
+      "quote": "I used kind of like an XML like language just so that the model understands that the example one begins here and ends here... I just give it a few examples and I kind of like specify them in detail",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7614213197969543
+    },
+    {
+      "category": "frameworks",
+      "label": "Learning by Building (Nanochat Approach)",
+      "quote": "You want to build it from scratch, you build it from the start. You're not allowed to copy-paste, you're allowed to reference, you're not allowed to copy-paste.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "LLM Pre-training Data Pipeline",
+      "quote": "there's a ton of different types of websites that are just eliminated at this stage... the second part is text extraction... The next stage here is language filtering... finishing with for example the pii removal",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.4386792452830189
+    },
+    {
+      "category": "frameworks",
+      "label": "Recommendation Sorting Formula",
+      "quote": "sorted by the product of (recommended * obscure), descending.",
+      "source_ids": [
+        "src_047"
+      ],
+      "verified": true,
+      "matched_source_id": "src_047",
+      "match_ratio": 0.9836065573770492
+    },
+    {
+      "category": "frameworks",
+      "label": "Reinforcement Learning from Human Feedback (RLHF)",
+      "quote": "we basically train simulators of humans and RL with respect to those simulators",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "The Data Engine",
+      "quote": "we spin this loop over and over again until the network basically becomes incredibly good",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "The LLM Council",
+      "quote": "I kind of refer to all these models as my llm Council... If I'm trying to figure out where to go on a vacation I will ask all of them",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7443609022556391
+    },
+    {
+      "category": "frameworks",
+      "label": "The March of Nines",
+      "quote": "What takes the long amount of time and the way to think about it is that it's a march of nines. Every single nine is a constant amount of work.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "The Three Stages of LLM Training",
+      "quote": "first what we do is we do pre-training... the second thing then is we go into the sft stage... and then finally in the last stage we do all the practice problems in the RL stage",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6271186440677966
+    },
+    {
+      "category": "frameworks",
+      "label": "Untangling Knowledge",
+      "quote": "I'm trying to find, what is the thing that matters? What is the first-order component? How can I simplify it? How can I have a simplest thing that shows that thing, shows it in action, and then I can tack on the other terms?",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Jagged Intelligence",
+      "quote": "Some things work extremely well (by human standards) while some things fail catastrophically (again by human standards), and it's not always obvious which is which",
+      "source_ids": [
+        "src_010",
+        "src_002",
+        "src_055"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Weights as 'Hazy Recollection' vs. Context Window as 'Working Memory'",
+      "quote": "knowledge in the parameters of the neural network is a vague recollection the knowledge in the tokens that make up the context window is the working memory",
+      "source_ids": [
+        "src_000",
+        "src_029",
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Anterograde Amnesia / People Spirits",
+      "quote": "LLMs are a bit like a coworker with Anterograde amnesia - they don't consolidate or build long-running knowledge or expertise once training is over and all they have is short-term memory (context window).",
+      "source_ids": [
+        "src_010",
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Iron Man Suit",
+      "quote": "It's less Iron Man robots and more Iron Man suits that you want to build.",
+      "source_ids": [
+        "src_010",
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "AI Models as 'Ghosts'",
+      "quote": "We're not building animals. We're building ghosts or spirits or whatever people want to call it, because we're not doing training by evolution. We're doing training by imitation of humans.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 0.9946808510638298
+    },
+    {
+      "category": "mental_models",
+      "label": "Discriminator-Generator Gap",
+      "quote": "we basically train simulators of humans and RL with respect to those simulators",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Education as the Gym",
+      "quote": "I often say that pre-AGI education is useful. Post-AGI education is fun. In a similar way, people go to the gym today.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "First-Order Approximations (The Spherical Cow)",
+      "quote": "I'm trying to find, what is the thing that matters? What is the first-order component? How can I simplify it?",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Human-to-Agent Ratio",
+      "quote": "we are going to be talking about human to agent ratios where humans becomes a lot more supervisors of agent tasks in the digital domain",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 0.9777777777777777
+    },
+    {
+      "category": "mental_models",
+      "label": "LLM Training as Human Education",
+      "quote": "first what we do is we do pre-training... the second thing then is we go into the sft stage... and then finally in the last stage we do all the practice problems in the RL stage",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6271186440677966
+    },
+    {
+      "category": "mental_models",
+      "label": "LLMs as Ghosts vs. Animals",
+      "quote": "We're not building animals. We're building ghosts or spirits or whatever people want to call it, because we're not doing training by evolution. We're doing training by imitation of humans and the data that they've put on the Internet.",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "LLMs as Savant Kids",
+      "quote": "I don't think they can create culture because they're still kids. They're savant kids.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Lossy Compression of the Internet (The Zip File)",
+      "quote": "you can think of the 405 billion parameters is kind of like a zip file but it's not a loss less compression it's a loss C compression",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7518796992481203
+    },
+    {
+      "category": "mental_models",
+      "label": "Meat vs. Silicon Computer",
+      "quote": "we have these metallic objects traveling incredibly quickly and with very high kinetic energy and we are putting meat in the control loop",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Sucking Supervision Through a Straw",
+      "quote": "The way I like to put it is you're sucking supervision through a straw.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Summoning Ghosts vs. Evolving Animals",
+      "quote": "We're not \"evolving/growing animals\", we are \"summoning ghosts\".",
+      "source_ids": [
+        "src_055"
+      ],
+      "verified": true,
+      "matched_source_id": "src_055",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Swiss Cheese Model of LLM Capabilities",
+      "quote": "this is a hole in the Swiss cheese and there are many of them and you don't want to trip over them",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Autonomy Slider",
+      "quote": "I see AI as fundamentally an extension of computing in a pretty fundamental way.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Demo-to-Product Gap",
+      "quote": "Whenever I see demos of anything, I'm extremely unimpressed by that.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Hacker's Perspective",
+      "quote": "...explaining Neural Nets from \"Hacker's perspective\", relying more on code and physical intuitions than mathematics.",
+      "source_ids": [
+        "src_009"
+      ],
+      "verified": true,
+      "matched_source_id": "src_009",
+      "match_ratio": 0.9743589743589743
+    },
+    {
+      "category": "mental_models",
+      "label": "The Lossy, Probabilistic Zip File",
+      "quote": "Hi I'm Chach PT I am a one tab zip file my knowledge comes from the internet which I read in its entirety about six months ago and I only remember vaguely.",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 0.9935483870967742
+    },
+    {
+      "category": "mental_models",
+      "label": "The Verification Constraint",
+      "quote": "Verifiable automated brute force search will consistently defeat legacy human intuition.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Tokens, not Characters",
+      "quote": "I really encourage you to think of these not as numbers but as unique IDs or like unique symbols so maybe it's a bit more maybe it's better to actually think of these to replace every one of these with a unique Emoji",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Universal Tokenization",
+      "quote": "the Transformer neural network itself it doesn't even know that some of the tokens happen to be text some of the tokens happen to be audio and some of them happen to be images it just models statistical patterns of token streams",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 0.9868421052631579
+    },
+    {
+      "category": "heuristics",
+      "label": "Build to Understand",
+      "quote": "If I can't build it, I don't understand it... I 100% have always believed this very strongly",
+      "source_ids": [
+        "src_000",
+        "src_044",
+        "src_029"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7065217391304348
+    },
+    {
+      "category": "heuristics",
+      "label": "Agents for Boilerplate, Autocomplete for Novelty",
+      "quote": "I feel like the industry is making too big of a jump and is trying to pretend like this is amazing, and it's not. It's slop.",
+      "source_ids": [
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Default to SFT Models",
+      "quote": "treat this as a as what it is which is a St stochastic system that is really magical but that you can't also fully trust and you want to use it as a tool",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Demo is works.any(), Product is works.all()",
+      "quote": "Demo is works.any(), product is works.all()",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Dictate, Don't Type",
+      "quote": "don't type stuff out use voice it works quite well and I use this pervasively",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Discount Demos",
+      "quote": "Whenever I see demos of anything, I'm extremely unimpressed by that.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Force Step-by-Step Reasoning",
+      "quote": "models need tokens to think distribute your competition across many tokens ask models to create intermediate results",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Format Prompts as Web Pages for Base Models",
+      "quote": "it's not an assistant yet, it's a token autocomplete and second it is a stochastic system",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 0.9887640449438202
+    },
+    {
+      "category": "heuristics",
+      "label": "Hire for Agency",
+      "quote": "Agency > Intelligence",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Hire for SWE First",
+      "quote": "Strong software engineering is the primary requirement. Except for the scientist role, deep learning interest or knowledge is only a bonus (we will teach you).",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Let Students Guess",
+      "quote": "Don't present the solution before giving the student a shot to guess it.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6944444444444444
+    },
+    {
+      "category": "heuristics",
+      "label": "Paste Reference Text",
+      "quote": "when it's in the context window the model has direct access to it and can exactly it doesn't have to recall it it just has access to it",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Present Pain Before Solution",
+      "quote": "Present the pain before you present a solution.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 0.9148936170212766
+    },
+    {
+      "category": "heuristics",
+      "label": "Rank by Quality x Obscurity",
+      "quote": "sorted by the product of (recommended * obscure), descending.",
+      "source_ids": [
+        "src_047"
+      ],
+      "verified": true,
+      "matched_source_id": "src_047",
+      "match_ratio": 0.9836065573770492
+    },
+    {
+      "category": "heuristics",
+      "label": "Seek Entropy",
+      "quote": "You always have to seek entropy in your life.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Step Outside the Loop",
+      "quote": "If an AI has to wait for a human to review a result or prompt the next step, the systems velocity drops to zero.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Use Code Interpreters for Math and Spelling",
+      "quote": "we're using neural networks to do mental arithmetic kind of like you doing mental arithmetic in your brain it might just like screw up some of the intermediate results",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 0.9640718562874252
+    },
+    {
+      "category": "heuristics",
+      "label": "Verify and Own the Output",
+      "quote": "don't um treat these models as infallible models check their work use them as tools use them for inspiration use them for the first draft but uh work with them as tools and be ultimately respons responsible for the you know product of your work",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Train Deep Neural Nets",
+      "quote": "I like to train deep neural nets on large datasets 🧠🤖💥",
+      "source_ids": [
+        "src_006",
+        "src_007",
+        "src_039"
+      ],
+      "verified": true,
+      "matched_source_id": "src_006",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Building Ghosts, Not Animals",
+      "quote": "We're not building animals. We're building ghosts or spirits or whatever people want to call it, because we're not doing training by evolution. We're doing training by imitation of humans and the data that they've put on the Internet.",
+      "source_ids": [
+        "src_000",
+        "src_029"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Agency > Intelligence",
+      "quote": "Agency > Intelligence I had this intuitively wrong for decades, I think due to a pervasive cultural veneration of intelligence, various entertainment/media, obsession with IQ etc.",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Algorithm vs Efficiency",
+      "quote": "This file is the complete algorithm. Everything else is just efficiency.",
+      "source_ids": [
+        "src_039"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.75
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Anterograde Amnesia",
+      "quote": "LLMs are a bit like a coworker with Anterograde amnesia - they don't consolidate or build long-running knowledge or expertise once training is over and all they have is short-term memory (context window).",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Average Labeler Simulation",
+      "quote": "you're not talking to a magical AI you're talking to an average labeler... an instantaneous simulation of that kind of a person",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6299212598425197
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Build to Understand",
+      "quote": "If I can't build it, I don't understand it... don't write blog posts, don't do slides, don't do any of that. Build the code, arrange it, get it to work.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7631578947368421
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Demo vs. Product",
+      "quote": "Demo is works.any(), product is works.all()",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Education as Building Ramps",
+      "quote": "In my mind, education is the very difficult technical process of building ramps to knowledge.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "English as Programming Language",
+      "quote": "The hottest new programming language is English",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Hiring for SWE",
+      "quote": "Strong software engineering is the primary requirement. Except for the scientist role, deep learning interest or knowledge is only a bonus (we will teach you).",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Iron Man Suits",
+      "quote": "It's less Iron Man robots and more Iron Man suits that you want to build.",
+      "source_ids": [
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Job Reshaping",
+      "quote": "Many high-exposure jobs will be reshaped, not replaced.",
+      "source_ids": [
+        "src_050"
+      ],
+      "verified": true,
+      "matched_source_id": "src_050",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Meat in the Control Loop",
+      "quote": "we have these metallic objects traveling incredibly quickly and with very high kinetic energy and we are putting meat in the control loop",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Parameters vs Context Window",
+      "quote": "knowledge in the parameters of the neural network is a vague recollection the knowledge in the tokens that make up the context window is the working memory",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Post-AGI Education",
+      "quote": "I often say that pre-AGI education is useful. Post-AGI education is fun.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "RLHF is Gameable",
+      "quote": "I kind of see rhf as not real RL because the reward function is gameable",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Software 3.0",
+      "quote": "Software 3.0 is eating 1.0/2.0",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Summoning Ghosts",
+      "quote": "We're not \"evolving/growing animals\", we are \"summoning ghosts\".",
+      "source_ids": [
+        "src_055"
+      ],
+      "verified": true,
+      "matched_source_id": "src_055",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Human as Director",
+      "quote": "The human is no longer the compiler, the optimizer, or the coder. The human is now the director of the token generating swarm.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The March of Nines",
+      "quote": "It's a march of nines. Every single nine is a constant amount of work.",
+      "source_ids": [
+        "src_000"
+      ],
+      "verified": true,
+      "matched_source_id": "src_000",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Zip File",
+      "quote": "Hi I'm Chach PT I am a one tab zip file my knowledge comes from the internet which I read in its entirety about six months ago and I only remember vaguely.",
+      "source_ids": [
+        "src_017"
+      ],
+      "verified": true,
+      "matched_source_id": "src_017",
+      "match_ratio": 0.9935483870967742
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Tokenization is at Fault",
+      "quote": "...we will see that a lot of weird behaviors and problems of LLMs actually trace back to tokenization.",
+      "source_ids": [
+        "src_044"
+      ],
+      "verified": true,
+      "matched_source_id": "src_044",
+      "match_ratio": 0.9705882352941176
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Tokens to Think",
+      "quote": "models need tokens to think",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 1.0
+    }
+  ]
+}

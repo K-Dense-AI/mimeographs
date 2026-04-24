@@ -1,0 +1,82 @@
+{
+  "source_id": "src_040",
+  "summary": "This text introduces Immanuel Kant's deontological ethics, contrasting it with consequentialism through the lens of trolley problems. It outlines Kant's Categorical Imperative, focusing on its first formulation (acting only on universalizable maxims) and its second formulation (treating rational persons as ends in themselves, never merely as means).",
+  "themes": [
+    "Deontology",
+    "Categorical Imperative",
+    "Universalizability",
+    "Rationality and Respect",
+    "Means vs. Ends"
+  ],
+  "principles": [
+    {
+      "statement": "Morality is not solely about consequences; it is grounded in our nature as rational persons deserving of respect.",
+      "rationale": "Persons are essentially rational creatures. This inherent rationality is what grounds the fundamental ethical rules of the Categorical Imperative, making respect for persons the core of ethical life rather than just the outcomes of actions.",
+      "source_quote": "persons are, essentially, rational creatures who are deserving of respect. This rationality grounds what Kant calls The Categorical Imperative",
+      "source_id": "src_040"
+    },
+    {
+      "statement": "You must follow categorical moral rules, regardless of your personal desires.",
+      "rationale": "Unlike hypothetical imperatives, which only apply if you have a specific goal or desire, categorical imperatives are absolute moral duties that bind all rational beings unconditionally.",
+      "source_quote": "This imperative is categorical in that we must follow it, even if we don’t want to.",
+      "source_id": "src_040"
+    },
+    {
+      "statement": "It is fundamentally wrong to make a special exception to a moral rule for yourself.",
+      "rationale": "If a principle of action (a maxim) cannot be adopted by everyone without undermining the very concept it relies upon, then acting on it means you are unfairly exempting yourself from the rules that govern everyone else.",
+      "source_quote": "The basic idea of this formulation is that it’s wrong to make a special exception to some rule for yourself.",
+      "source_id": "src_040"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Categorical Imperative (First Formulation)",
+      "when_to_apply": "When determining if a proposed action or personal rule is morally permissible.",
+      "steps": [
+        "Identify your maxim: the principle for acting in a certain way to achieve a certain goal.",
+        "Imagine if that maxim were a universal law that everyone in the world followed.",
+        "Determine if the maxim could still function, or if universalizing it would create a contradiction that undoes the action's premise (e.g., universal stealing destroys the concept of ownership).",
+        "If it cannot be willed as a universal law, the action is morally wrong."
+      ],
+      "source_quote": "Act only in accordance with that maxim through which you can at the same time will that it become a universal law.",
+      "source_id": "src_040"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Persons as Ends in Themselves",
+      "description": "A lens for viewing human beings (and any rational, self-conscious creatures) not as tools, objects, or stepping stones to achieve a goal, but as entities with inherent value and rationality that demand respect.",
+      "example": "In the trolley problem, pushing a giant man onto the tracks to stop the train treats him as a 'mere sack of sinew and bones, no better than a rock'—using him merely as a means to save others, which violates his status as an end in himself.",
+      "source_id": "src_040"
+    }
+  ],
+  "heuristics": [
+    "Never treat humanity merely as a means to an end.",
+    "Do not make a special exception to a rule for yourself.",
+    "Act only on maxims that you could will everyone else to follow."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Act only in accordance with that maxim through which you can at the same time will that it become a universal law.",
+      "context": "Kant's first formulation of the Categorical Imperative.",
+      "source_id": "src_040"
+    },
+    {
+      "text": "Act in such a way that you treat humanity, whether in your own person or in the person of any other, never merely as a means to an end, but always at the same time as an end.",
+      "context": "Kant's second formulation of the Categorical Imperative.",
+      "source_id": "src_040"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Evaluating the morality of actions solely based on their consequences (Consequentialism).",
+      "why_it_fails": "It ignores the inherent rationality and value of persons, permitting actions that use individuals as mere objects or tools if it results in a better overall outcome.",
+      "source_id": "src_040"
+    },
+    {
+      "description": "Lying to someone, even to prevent a tragedy (like lying to a known murderer).",
+      "why_it_fails": "Lying always involves using someone as a mere means, because manipulating them disrespects their rationality and bypasses their ability to consent.",
+      "source_id": "src_040"
+    }
+  ]
+}

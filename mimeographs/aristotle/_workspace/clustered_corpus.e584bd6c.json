@@ -1,0 +1,463 @@
+{
+  "expert_name": "Aristotle",
+  "themes": [
+    "Teleology & The Highest Good (Eudaimonia)",
+    "Virtue Ethics & The Golden Mean",
+    "Empiricism & Natural Philosophy",
+    "Logic, Rhetoric & Persuasion",
+    "Metaphysics & Causality (Hylomorphism)",
+    "Habituation & Character Formation"
+  ],
+  "principles": [
+    {
+      "label": "Eudaimonia as the Ultimate Human Good",
+      "summary": "The highest human good is happiness (eudaimonia), achieved through the active exercise of the rational soul in accordance with virtue over a complete life.",
+      "details": "Every human action aims at some good, but to avoid an infinite regress, there must be a final, self-sufficient end. This end is not mere pleasure, wealth, or honor, but the fulfillment of the uniquely human function: living a life guided by reason and moral excellence.",
+      "representative_quote": "...the human good becomes an activity of soul in accord with virtue, and if there are several virtues, then in accord with the best and most complete one.",
+      "source_ids": [
+        "src_052",
+        "src_047",
+        "src_015",
+        "src_017",
+        "src_024",
+        "src_030",
+        "src_007"
+      ]
+    },
+    {
+      "label": "Virtue is Formed Through Habituation",
+      "summary": "Moral virtue does not arise by nature, nor is it purely theoretical; it is developed through repeated practice and habitual action.",
+      "details": "Just as craftsmen learn their trade by practicing it, humans develop moral character through their actions. Doing just things makes us just, and doing brave things makes us brave. Character is 'engraved' into the soul through these recurrent choices.",
+      "representative_quote": "For the things we have to learn before we can do them, we learn by doing them, e.g. men become builders by building and lyreplayers by playing the lyre; so too we become just by doing just acts...",
+      "source_ids": [
+        "src_041",
+        "src_024",
+        "src_017",
+        "src_030"
+      ]
+    },
+    {
+      "label": "All Human Action Aims at a Perceived Good",
+      "summary": "Human beings are fundamentally goal-oriented, and every action, choice, or inquiry is motivated by the pursuit of something perceived as beneficial.",
+      "details": "Even when committing terrible acts, individuals are motivated by a pursuit of something they perceive as a good (e.g., money, retribution). Understanding this teleological nature is crucial for understanding human behavior and ethics.",
+      "representative_quote": "Every art and every inquiry, and similarly every action as well as choice, is held to aim at some good.",
+      "source_ids": [
+        "src_047",
+        "src_017",
+        "src_030"
+      ]
+    },
+    {
+      "label": "The Doctrine of the Mean",
+      "summary": "Moral virtue is a state of character that aims at the intermediate point (the mean) between the extremes of excess and deficiency.",
+      "details": "Virtue is destroyed by leaning too far toward extreme behaviors or emotions. The mean is not a strict mathematical average, but a proportionate amount relative to the specific individual and context, determined by practical wisdom.",
+      "representative_quote": "temperance and courage, then, are destroyed by excess and defect, and preserved by the mean.",
+      "source_ids": [
+        "src_041",
+        "src_052",
+        "src_050",
+        "src_015"
+      ]
+    },
+    {
+      "label": "Teleology in Nature",
+      "summary": "Nature acts with purpose, doing nothing in vain and always striving for the optimal state given the available possibilities.",
+      "details": "Biological systems and natural changes are directed toward a final cause or end. Organisms naturally develop the traits that are optimal for their specific kind, utilizing available materials efficiently.",
+      "representative_quote": "nature does nothing in vain, but always what is best in view of the possibilities allowed by the essence of each kind of animal",
+      "source_ids": [
+        "src_020",
+        "src_021",
+        "src_003"
+      ]
+    },
+    {
+      "label": "Empiricism and Observation Over Theory",
+      "summary": "Theories are only valid if their results conform to observed phenomena; when theory and observation conflict, observation must be trusted.",
+      "details": "Knowledge of universals is actualized through induction from perceptual experience. We cannot grasp universal truths without first observing particulars in the physical world.",
+      "representative_quote": "Whenever there is a conflict between theory and observation, one must trust observation, he insisted, and theories are to be trusted only if their results conform with the observed phenomena.",
+      "source_ids": [
+        "src_022",
+        "src_051",
+        "src_020"
+      ]
+    },
+    {
+      "label": "Persuasion Requires Character and Emotion",
+      "summary": "Effective persuasion relies not just on logical demonstration (logos), but on establishing the speaker's credibility (ethos) and arousing the appropriate emotions in the audience (pathos).",
+      "details": "Audiences are not convinced by logic alone. A speaker must present themselves as a trustworthy person with practical wisdom, and they must understand the audience's state of mind to influence their judgment.",
+      "representative_quote": "not only look at the argument, that it may be conclusive and convincing, but should also present himself as a certain kind of person",
+      "source_ids": [
+        "src_014",
+        "src_049",
+        "src_020"
+      ]
+    },
+    {
+      "label": "The Four Causes of Change",
+      "summary": "A complete explanation of any object or process of change requires identifying four distinct types of causes: material, formal, efficient, and final.",
+      "details": "Relying on just material constituents or static numbers cannot fully explain why change occurs or the purpose behind things. True wisdom involves grasping all four theoretical underpinnings.",
+      "representative_quote": "A process of change is completely described when its four causes are given.",
+      "source_ids": [
+        "src_034",
+        "src_020"
+      ]
+    },
+    {
+      "label": "Match Precision to the Subject Matter",
+      "summary": "One should not seek more precision in an inquiry than the nature of the subject allows.",
+      "details": "Ethics and politics deal with variable human actions and conventions, not absolute mathematical certainties. Demanding strict proofs in these fields is a category error.",
+      "representative_quote": "For it belongs to an educated person to seek out precision in each genus to the extent that the nature of the matter allows...",
+      "source_ids": [
+        "src_047",
+        "src_052"
+      ]
+    },
+    {
+      "label": "Practical Wisdom (Phronesis) Directs Virtue",
+      "summary": "While moral virtue ensures we aim at the right goals, practical wisdom provides the deliberative skill required to determine the correct steps to achieve them.",
+      "details": "Good action requires both a proper emotional orientation (virtue) and the intellectual capacity to navigate complex, variable circumstances (prudence/practical wisdom).",
+      "representative_quote": "Virtue makes the goal right, practical wisdom the things leading to it",
+      "source_ids": [
+        "src_052",
+        "src_024"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Hitting the Mean",
+      "summary": "A practical method for finding the virtuous intermediate state when exact calculation is difficult.",
+      "details": "1. Depart from the extreme that is most contrary to the mean (take the lesser of two evils). 2. Identify your own natural biases and weaknesses regarding pleasures and pains. 3. Drag yourself away to the contrary extreme (like straightening a bent stick) to eventually settle in the middle. 4. Guard especially against the allure of pleasure.",
+      "representative_quote": "Hence he who aims at the intermediate must first depart from what is the more contrary to it... We must drag ourselves away to the contrary extreme; for we shall get into the intermediate state by drawing well away from error, as people do in straightening sticks that are bent.",
+      "source_ids": [
+        "src_041",
+        "src_052",
+        "src_015"
+      ]
+    },
+    {
+      "label": "The Four Causes (Aitia)",
+      "summary": "A framework for completely explaining the nature of a being or a process of change.",
+      "details": "1. Material Cause: The underlying matter of which the thing is composed. 2. Formal Cause: The essence, pattern, or shape that makes it what it is. 3. Efficient Cause: The agent or force that brought the change about. 4. Final Cause: The purpose or end goal (teleology) for which the thing exists.",
+      "representative_quote": "A process of change is completely described when its four causes are given.",
+      "source_ids": [
+        "src_020",
+        "src_034"
+      ]
+    },
+    {
+      "label": "The Function (Ergon) Argument",
+      "summary": "A method for determining the specific good, excellence, or purpose of a being or object.",
+      "details": "1. Identify the subject's unique work or function, setting aside functions shared with lower forms (e.g., nutrition, mere perception). 2. Determine the active exercise of that specific function. 3. Evaluate the performance of that function 'well and nobly' in accordance with its proper virtue.",
+      "representative_quote": "For just as in the case of an aulos player, sculptor, and every expert... the relevant good and the doing of something well seem to reside in the work, so too the same might be held to be the case with a human being, if in fact there is a certain work that is a human being's.",
+      "source_ids": [
+        "src_047"
+      ]
+    },
+    {
+      "label": "Rhetorical Proofs (Ethos, Pathos, Logos)",
+      "summary": "The three available means of persuasion when constructing a speech to help an audience reach a judgment.",
+      "details": "1. Ethos: Establish the character and credibility of the speaker. 2. Pathos: Produce the appropriate emotional state or disposition in the audience. 3. Logos: Demonstrate a consequence or meaning using logical arguments (like enthymemes).",
+      "representative_quote": "Proofs given in speech depend on three things: the character (ethos) of the speaker, the disposition (pathos) of the audience, and the meaning (logos) of the sounds and gestures used",
+      "source_ids": [
+        "src_020",
+        "src_014"
+      ]
+    },
+    {
+      "label": "Sequencing Arguments for Persuasion",
+      "summary": "A structural approach to organizing a speech based on speaking order to maximize psychological impact.",
+      "details": "If speaking first: Put your own arguments forward, then preemptively refute anticipated counter-arguments. If speaking later: Begin by refuting the opponent's speech (especially their strongest points) to 'make room' in the audience's prejudiced mind before presenting your own case.",
+      "representative_quote": "You should, therefore, make room in the minds of the audience for your coming speech; and this will be done by getting your opponent's speech out of the way.",
+      "source_ids": [
+        "src_049"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Hierarchy of Ends (Architectonic Hierarchy)",
+      "summary": "Viewing goals and arts as a nested hierarchy where subordinate activities serve higher, 'architectonic' arts, culminating in a master art that dictates the ultimate end.",
+      "details": "For example, bridle making serves horsemanship, which serves generalship, which ultimately falls under the political art. Lower pursuits derive their dignity and purpose from the higher ends they serve.",
+      "representative_quote": "the ends of all the master arts are more worthy of choice than are the ends of the pursuits that come under them",
+      "source_ids": [
+        "src_047",
+        "src_017",
+        "src_015"
+      ]
+    },
+    {
+      "label": "Hylomorphism (Matter and Form)",
+      "summary": "The lens of viewing natural substances as an inseparable compound of underlying material (matter) and an organizing principle or essence (form).",
+      "details": "Aristotle thinks of the body as the matter, and the psyche (soul) as the form of each living animal. One cannot fully explain a living thing without both.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "The Mean Relative to Us",
+      "summary": "The virtuous intermediate is not a strict mathematical average that is the same for everyone, but a proportionate amount that depends on the specific individual and context.",
+      "details": "If ten pounds of food is too much and two is too little, a trainer won't necessarily prescribe six pounds. Six pounds might be too little for a wrestler, but too much for a beginner.",
+      "representative_quote": "Virtue, then, is a state of character concerned with choice, lying in a mean, i.e. the mean relative to us, this being determined by a rational principle...",
+      "source_ids": [
+        "src_041",
+        "src_052"
+      ]
+    },
+    {
+      "label": "Real vs. Apparent Goods",
+      "summary": "A distinction between what humans actually need to survive and flourish versus what they merely think will enrich their lives based on subjective desire.",
+      "details": "Real goods fulfill natural desires (needs like food, shelter, knowledge) and are universally good. Apparent goods fulfill acquired desires (wants) and only appear to be good at the time based on opinion.",
+      "representative_quote": "For the apparent good is the object of appetite, and the real good is the primary object of rational wish.",
+      "source_ids": [
+        "src_030"
+      ]
+    },
+    {
+      "label": "Potentiality and Actuality",
+      "summary": "A model for understanding natural change over time, where a subject possesses a latent capacity (potential) that is eventually realized (actualized).",
+      "details": "The actual state is logically prior because the potential state is defined by its aim toward actualization.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Straightening a Bent Stick",
+      "summary": "To correct a natural bias or character flaw, one must overcompensate by pulling in the exact opposite direction until the middle is reached.",
+      "details": "If we naturally tend toward self-indulgence, we must force ourselves toward the extreme of insensibility to eventually land on the mean of temperance.",
+      "representative_quote": "We must drag ourselves away to the contrary extreme; for we shall get into the intermediate state by drawing well away from error, as people do in straightening sticks that are bent.",
+      "source_ids": [
+        "src_041"
+      ]
+    },
+    {
+      "label": "Enthymeme",
+      "summary": "A logical deduction based on what an audience already believes or accepts, used in rhetoric to connect an audience to a desired conclusion.",
+      "details": "Instead of proving an objective truth from scratch, the rhetor leverages the audience's existing premises (endoxa).",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014",
+        "src_049"
+      ]
+    },
+    {
+      "label": "Natural State Model",
+      "summary": "The lens that an organism will naturally develop toward its optimal, intended state unless external interfering forces prevent it.",
+      "details": "Monstrosities or birth defects are not counterexamples to nature's design, but instances where external forces impeded normal teleological development.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_003"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Nature does nothing in vain",
+      "summary": "Assume that biological functions and natural changes are directed toward a final cause or end.",
+      "details": null,
+      "representative_quote": "nature does nothing in vain",
+      "source_ids": [
+        "src_020",
+        "src_003",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Depart from the contrary extreme",
+      "summary": "To hit the mean, first depart from the extreme that is more contrary to it.",
+      "details": null,
+      "representative_quote": "Hence he who aims at the intermediate must first depart from what is the more contrary to it...",
+      "source_ids": [
+        "src_041"
+      ]
+    },
+    {
+      "label": "One swallow does not make a spring",
+      "summary": "Judge happiness and success over a complete life, not a fleeting moment or a single day.",
+      "details": null,
+      "representative_quote": "For one swallow does not make a spring, nor does one day. And in this way, one day or a short time does not make someone blessed and happy either.",
+      "source_ids": [
+        "src_047",
+        "src_015"
+      ]
+    },
+    {
+      "label": "Trust observation over theory",
+      "summary": "When theory and observation conflict, always trust the observation.",
+      "details": null,
+      "representative_quote": "Whenever there is a conflict between theory and observation, one must trust observation...",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Choose the lesser of two evils",
+      "summary": "A lesser evil counts as a relative good when compared to a greater evil.",
+      "details": null,
+      "representative_quote": "...a lesser evil in comparison with a greater counts as a good, since the lesser of two evils is more desirable than the greater...",
+      "source_ids": [
+        "src_042"
+      ]
+    },
+    {
+      "label": "Deliberate about means, not ends",
+      "summary": "Assume the ultimate end goal (happiness) and focus your deliberation on the means to attain it.",
+      "details": null,
+      "representative_quote": "We deliberate not about ends but about means. For a doctor does not deliberate whether he shall heal...",
+      "source_ids": [
+        "src_030"
+      ]
+    },
+    {
+      "label": "Expect generalizations to hold only for the most part",
+      "summary": "In ethics and human affairs, do not expect absolute universal rules; circumstances vary too much.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_052"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Every action aims at some good",
+      "summary": "The opening line of the Nicomachean Ethics, establishing the teleological nature of human action.",
+      "details": null,
+      "representative_quote": "Every art and every inquiry, and similarly every action as well as choice, is held to aim at some good.",
+      "source_ids": [
+        "src_047",
+        "src_017"
+      ]
+    },
+    {
+      "label": "Learning by doing",
+      "summary": "Explaining that moral character is developed through practical action.",
+      "details": null,
+      "representative_quote": "For the things we have to learn before we can do them, we learn by doing them, e.g. men become builders by building and lyreplayers by playing the lyre; so too we become just by doing just acts...",
+      "source_ids": [
+        "src_041"
+      ]
+    },
+    {
+      "label": "Nature does nothing in vain",
+      "summary": "A foundational assumption in biology to explain teleological functions in living organisms.",
+      "details": null,
+      "representative_quote": "nature does nothing in vain",
+      "source_ids": [
+        "src_020",
+        "src_003"
+      ]
+    },
+    {
+      "label": "Truth over friendship",
+      "summary": "Written regarding his disagreements with his teacher, Plato.",
+      "details": null,
+      "representative_quote": "Plato is my friend but truth is much more.",
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "One swallow does not make a spring",
+      "summary": "Explaining that happiness requires a complete life, not just a brief period of virtue or success.",
+      "details": null,
+      "representative_quote": "For one swallow does not make a spring, nor does one day. And in this way, one day or a short time does not make someone blessed and happy either.",
+      "source_ids": [
+        "src_047",
+        "src_015"
+      ]
+    },
+    {
+      "label": "Definition of Virtue",
+      "summary": "Providing the formal definition of moral virtue as a mean relative to us.",
+      "details": null,
+      "representative_quote": "Virtue, then, is a state of character concerned with choice, lying in a mean, i.e. the mean relative to us, this being determined by a rational principle...",
+      "source_ids": [
+        "src_041"
+      ]
+    },
+    {
+      "label": "Precision in inquiry",
+      "summary": "Warning against demanding mathematical exactness in the study of ethics and politics.",
+      "details": null,
+      "representative_quote": "For it belongs to an educated person to seek out precision in each genus to the extent that the nature of the matter allows...",
+      "source_ids": [
+        "src_047"
+      ]
+    },
+    {
+      "label": "Observation over theory",
+      "summary": "On his approach to scientific and biological research.",
+      "details": null,
+      "representative_quote": "Whenever there is a conflict between theory and observation, one must trust observation... and theories are to be trusted only if their results conform with the observed phenomena.",
+      "source_ids": [
+        "src_022"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Equating happiness with wealth, pleasure, or honor",
+      "summary": "Believing that the ultimate goal of life is money, physical pleasure, or fame.",
+      "details": "Wealth is merely a means to an end; honor depends on those who bestow it rather than the recipient; and a life of mere pleasure is fit for 'fatted cattle' and ignores the rational part of the soul that is uniquely human.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_047",
+        "src_015",
+        "src_030"
+      ]
+    },
+    {
+      "label": "Taking refuge in theory instead of practicing virtuous acts",
+      "summary": "Thinking one can become a good person merely by listening to philosophical ideas without acting on them.",
+      "details": "This is like a patient who listens attentively to a doctor but refuses to actually take the prescribed treatment. Virtue requires habitual action.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_041",
+        "src_052"
+      ]
+    },
+    {
+      "label": "Demanding mathematical precision in ethics and politics",
+      "summary": "Treating ethics as an exact science that offers a strict decision procedure or rule-book.",
+      "details": "The noble and just things examined by the political art admit of much dispute and variability. Finding the right action requires practical wisdom and an understanding of particulars, which cannot be captured by rigid universal rules.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_047",
+        "src_052"
+      ]
+    },
+    {
+      "label": "Relying solely on logic to persuade",
+      "summary": "Assuming persuasion is merely educating an audience with indisputable facts or continuous logical proofs.",
+      "details": "Audiences require a connection to the speaker's character (ethos) and emotional state (pathos) to be fully convinced. A continuous succession of logical proofs will spoil one another's effect and kill the feeling.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014",
+        "src_049"
+      ]
+    },
+    {
+      "label": "Plato's Theory of Forms",
+      "summary": "Explaining the nature of particular things by positing a separate realm of immutable, everlasting Forms.",
+      "details": "Immutable Forms cannot explain how particulars come into existence and undergo change. It relies on unobservable ideals rather than building a theory of reality grounded in the classification and observation of the actual world.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_022",
+        "src_051",
+        "src_047"
+      ]
+    },
+    {
+      "label": "Looking for a mean in inherently bad actions",
+      "summary": "Attempting to find a moderate or 'right' way to commit acts that are fundamentally wrong.",
+      "details": "Actions like adultery, theft, or murder, and passions like spite or envy, do not have an excess, deficiency, or mean. Doing them at all is simply wrong.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_041"
+      ]
+    }
+  ]
+}

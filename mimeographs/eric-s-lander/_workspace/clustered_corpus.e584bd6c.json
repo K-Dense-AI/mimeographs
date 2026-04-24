@@ -1,0 +1,578 @@
+{
+  "expert_name": "Eric S. Lander",
+  "themes": [
+    "The Human Genome Project & Big Science",
+    "Hypothesis-Free Discovery & Unbiased Genetics",
+    "Collaborative & Open Science",
+    "Genomic Medicine & Realistic Timelines",
+    "CRISPR, Gene Editing & Bioethics",
+    "Biology as an Information Science",
+    "Public Trust & Science Policy"
+  ],
+  "principles": [
+    {
+      "label": "The Power of Hypothesis-Free Discovery",
+      "summary": "Systematic, unbiased discovery is a necessary and powerful complement to hypothesis-driven science, allowing researchers to find answers without knowing what they are looking for in advance.",
+      "details": "Traditional biology relies on testing hypotheses, which assumes scientists are smart enough to guess the causes of complex diseases. Genetics allows you to simply look for mutations and let the organism reveal what is responsible for a process, often uncovering unexpected pathways.",
+      "representative_quote": "Genetics is the one thing in all of biology that lets you ask in a hypothesis-free way, what's responsible for a process? ... a geneticist says, hey, you know, I'm not so smart. Ask the organism.",
+      "source_ids": [
+        "src_010",
+        "src_015",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Open Science and Public Infrastructure",
+      "summary": "Foundational scientific data must be built as freely available public infrastructure to maximize its utility and accelerate global research.",
+      "details": "Large-scale projects like the Human Genome Project act as highly leveraged investments when their data is made completely, freely, and immediately available. Big science should exist in the service of small science, building tools so individual researchers are limited only by their imagination.",
+      "representative_quote": "I feel very strongly that the underlying data and the ability to annotate it and add value, either in the academic or commercial sector, must be available in a free and unfettered way.",
+      "source_ids": [
+        "src_015",
+        "src_017",
+        "src_054"
+      ]
+    },
+    {
+      "label": "The Decades-Long Arc of Medical Translation",
+      "summary": "Transforming medicine through a scientific revolution takes decades, requiring scientists to practice realistic optimism and avoid overpromising short-term results.",
+      "details": "The path from biological insights to medical impact is inherently long and winding. It involves finishing sequences, understanding pathways, developing drugs, testing safety, and securing approval. Historically, it takes at least 30 to 50 years for a scientific revolution to have a major clinical impact.",
+      "representative_quote": "It takes at least 30 y for a scientific revolution to have a major impact in medicine... we should be clear with the public that truly transforming medicine is not an overnight affair.",
+      "source_ids": [
+        "src_003",
+        "src_004",
+        "src_010"
+      ]
+    },
+    {
+      "label": "The Collaborative Ecosystem of Science",
+      "summary": "Scientific progress relies on a diverse, interconnected ecosystem of approaches and requires collective effort over personal gain.",
+      "details": "Breakthroughs do not come from a single method or a 'lone genius', but from a combination of basic curiosity, practical industrial application, and massive collaboration across different fields and geographies.",
+      "representative_quote": "And the way we did it was incompatible with people seeking personal gain out of particular genes. It wouldn't have worked unless everybody rode together.",
+      "source_ids": [
+        "src_003",
+        "src_006",
+        "src_025",
+        "src_029"
+      ]
+    },
+    {
+      "label": "Genetics as a Tool for Uncovering Biological Pathways",
+      "summary": "The primary value of genetic mapping is uncovering biological processes and pathways for future therapies, not just individual risk prediction or finding targets for gene editing.",
+      "details": "Discovering that a specific gene variant is linked to a disease often reveals the underlying biological mechanism, which can eventually be targeted by conventional therapeutics. Genetics should also be used to validate therapeutic hypotheses before launching billion-dollar clinical trials.",
+      "representative_quote": "The primary goal is to understand the biological pathways underlying disease, because that’s what’s fundamental to treating disease.",
+      "source_ids": [
+        "src_004",
+        "src_010",
+        "src_052"
+      ]
+    },
+    {
+      "label": "Biology as an Information Science",
+      "summary": "Biology has fundamentally transitioned into an information science where the genome serves as a foundational text or wiring diagram.",
+      "details": "Acquiring raw data (like sequencing the genome) is only the first step. The real work of the next century is extracting meaning from that text, understanding how the parts connect, and analyzing comprehensive, genome-scale datasets.",
+      "representative_quote": "The Human Genome Project is about sitting there and getting the letters out. The next century is about extracting all of the meaning out of the text, but it's a pretty good text.",
+      "source_ids": [
+        "src_005",
+        "src_017",
+        "src_025"
+      ]
+    },
+    {
+      "label": "Structuring Big Science for Success",
+      "summary": "Big science projects must be structured with accountable, staged deliverables that pay independent dividends.",
+      "details": "Scientific problems have a natural scale that must be respected. If a project only provides value when it is 100% complete, it risks dying of its own weight. Each intermediate stage must pay immediate, practical returns to justify continuing.",
+      "representative_quote": "what was brilliant was to get a series of things each one of which paid dividends and Justified continuing to the next step",
+      "source_ids": [
+        "src_017",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Listen to the Whispering Data",
+      "summary": "Even if a study yields zero statistically significant results, the distribution of the data can indicate that a real signal exists and simply requires a larger sample size.",
+      "details": "In complex, polygenic systems, initial data might not cross the threshold of strict statistical significance. By looking at the overall distribution (like p-values skewing toward zero), researchers can determine if scaling up the power will reveal the truth.",
+      "representative_quote": "The data are whispering, I'm trying to be significant. Give me a larger sample size.",
+      "source_ids": [
+        "src_010",
+        "src_015"
+      ]
+    },
+    {
+      "label": "Caution and Alternatives in Germline Editing",
+      "summary": "Germline editing is rarely the best solution for preventing genetic diseases; genetic diagnostics and Preimplantation Genetic Diagnosis (PGD) should be the priority.",
+      "details": "Most genetic diseases arise from heterozygous carriers who can use IVF and PGD to select healthy embryos. Germline editing makes permanent genetic changes passed to the whole population without consent and should be approached with extreme caution.",
+      "representative_quote": "If we really care about helping parents avoid cases of genetic disease, germline editing is not the first, second, third, or fourth thing that we should be thinking about.",
+      "source_ids": [
+        "src_008",
+        "src_052"
+      ]
+    },
+    {
+      "label": "Evolutionary Wisdom and Pleiotropy",
+      "summary": "There is rarely a 'free lunch' in genetics; we must trust evolution's vote on what matters in the genome.",
+      "details": "Genetic variants often affect multiple different traits (pleiotropy). If a sequence is highly conserved across species, it has an important biological function. Conversely, if a seemingly beneficial variant remains rare, evolution likely suppressed it due to a hidden biological cost.",
+      "representative_quote": "If evolution tells you it's not willing to change that base, I go with evolution, it knows what it's doing.",
+      "source_ids": [
+        "src_017",
+        "src_052"
+      ]
+    },
+    {
+      "label": "Humility and Public Trust in Science",
+      "summary": "Public trust in science must be earned through humility, transparency about risks, and acknowledging the limits of our knowledge.",
+      "details": "Scientists cannot demand trust through authority. They must acknowledge that technologies can have downsides, actively include marginalized groups, and approach permanent changes to human biology with extreme caution.",
+      "representative_quote": "if somebody comes and tells you oh just trust me i'm a scientist um i i haven't i want to run the other way",
+      "source_ids": [
+        "src_018",
+        "src_029",
+        "src_052"
+      ]
+    },
+    {
+      "label": "Technologists as Equal Partners",
+      "summary": "Technologists must be treated as equal scientific partners, not transactional service providers.",
+      "details": "Relegating technology teams to 'core facilities' creates a transactional relationship. True innovation requires hiring world-class technologists and respecting them as peers in the scientific process.",
+      "representative_quote": "we never have ever used the word core facility at the broad because... a core facility is like your dry cleaner... it's meant to be a truly equal partnership",
+      "source_ids": [
+        "src_022"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Unbiased Genetic Mapping (GWAS)",
+      "summary": "A framework for finding the genetic basis of a disease without an obvious candidate gene or clear biological mechanism.",
+      "details": "Steps: 1) Catalog millions of common genetic variants across the population. 2) Treat the entire population as one large natural family. 3) Collect massive cohorts of people with and without the disease. 4) Look for ancestral segments of the genome statistically shared among people with the disease. 5) Use the discovered regions to identify underlying biological processes.",
+      "representative_quote": "find lots of genetic variation and Trace inheritance with it",
+      "source_ids": [
+        "src_010",
+        "src_015"
+      ]
+    },
+    {
+      "label": "Genomic Information Project Playbook",
+      "summary": "A playbook for building foundational, large-scale biological datasets that require community-wide effort.",
+      "details": "Steps: 1) Lay out clear, concrete goals and timelines, even amidst uncertainty. 2) Establish international collaboration. 3) Build necessary technological infrastructure. 4) Make the resulting information completely, freely, and immediately available. 5) Release the vast majority of the data (e.g., 95-98%) rather than waiting for absolute perfection.",
+      "representative_quote": "We learned the importance of laying out concrete plans, timelines... And we learned the importance of collaboration. The importance of international collaboration.",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Staged Deliverables for Big Science",
+      "summary": "A strategy for organizing massive, expensive, and long-term scientific projects to ensure continuous momentum and funding.",
+      "details": "Break the monolithic goal into a series of intermediate stages. Ensure each intermediate stage pays immediate, practical returns to the community. Use the success and utility of the current stage to justify funding and momentum for the next step.",
+      "representative_quote": "build something that pays returns and you'll get to do the next stage that's the art here is have a scientific impact show that it's worth something and you'll eventually be able to go all the way",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "The Genomic Medicine Translation Pipeline",
+      "summary": "A realistic timeline and pipeline for translating basic genomic discoveries into clinical treatments.",
+      "details": "Steps: Finish the genome sequence -> Understand the contents of the genome -> Identify genes involved in disease -> Understand the underlying biological pathways -> Develop drugs against targets -> Test the drugs -> Get drugs approved. This process typically takes decades.",
+      "representative_quote": "There’s a lot of work to do along the way: finishing the genome sequence, understanding the contents of the genome, identifying genes involved in disease, understanding the underlying biological pathways in which they function, developing drugs against targets, testing the drugs, and then getting drugs approved.",
+      "source_ids": [
+        "src_004"
+      ]
+    },
+    {
+      "label": "Evaluating the Necessity of Germline Editing",
+      "summary": "A decision tree for determining if CRISPR germline editing is medically justified for a prospective parent with a genetic disease.",
+      "details": "Identify if the disease is dominant or recessive. Determine if parents are heterozygous or homozygous. If heterozygous, recommend Preimplantation Genetic Diagnosis (PGD) to select healthy embryos. Only consider germline editing in exceedingly rare cases where parents are homozygous and 100% of embryos would inherit the disease.",
+      "representative_quote": "The challenging case is when an individual is homozygous for a dominant disorder, having two copies of the gene. In that case, every one of the offspring will inherit the genetic disease. This is a serious case in which genome editing would be useful. It's also an extremely rare case.",
+      "source_ids": [
+        "src_052"
+      ]
+    },
+    {
+      "label": "Deconstructing Massive Scientific Problems",
+      "summary": "A method for tackling monumental, seemingly impossible scientific goals where the exact methodology is initially unknown.",
+      "details": "Pool resources and establish scientific cooperation. Break the massive problem down into distinct disciplines (biological, technological, computer science). Deconstruct the problem into solvable steps, solve the individual pieces, and put the solved pieces back together.",
+      "representative_quote": "No one had a clue how this was going to happen, back in the mid-1980’s, but through the real power of science, scientific cooperation, scientific organization, it was broken down into steps, biological, technological, computer science, and the problem was deconstructed, solved, put back together...",
+      "source_ids": [
+        "src_054"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "The Genome as Foundational Infrastructure",
+      "summary": "Viewing the human genome not just as a blueprint, but as a foundational map, book, or hard drive that requires layering on functional, dynamic, and contextual data to be useful.",
+      "details": "Just as reading the ones and zeroes of a digital file doesn't mean you can sing the symphony it encodes, sequencing the genome is merely getting the letters out. It is the 'periodic table' or 'Google Map' base layer of biology.",
+      "representative_quote": "Basically, it’s the hard drive of information and the instructions for when to read it out.",
+      "source_ids": [
+        "src_008",
+        "src_010",
+        "src_015",
+        "src_025",
+        "src_054"
+      ]
+    },
+    {
+      "label": "The Whispering Signal",
+      "summary": "In complex systems, initial data might not cross the threshold of statistical significance, but the non-random distribution of the data 'whispers' that a signal exists if statistical power is increased.",
+      "details": "Instead of viewing a lack of strict significance as a true negative, one looks at the overall distribution of the data (like p-values skewing toward zero) to see if it is leaning toward a signal.",
+      "representative_quote": "The data are whispering, I'm trying to be significant. Give me a larger sample size.",
+      "source_ids": [
+        "src_010",
+        "src_015"
+      ]
+    },
+    {
+      "label": "Programmable Biology and Wiring Diagrams",
+      "summary": "Treating the genome as a collection of 'parts' connected via a 'wiring diagram' to form functional 'circuits' that can eventually be programmed.",
+      "details": "Viewing biology as a digital science where genetic information is code that can be read, understood, and eventually 'patched' or written to solve medical problems.",
+      "representative_quote": "the transition of biology to being a digital science with digital information is now leading to the the idea of programmable biology programmable medicine",
+      "source_ids": [
+        "src_004",
+        "src_005",
+        "src_018"
+      ]
+    },
+    {
+      "label": "The Evolutionary Sanity Check",
+      "summary": "A lens for evaluating the safety of a seemingly beneficial genetic edit or the importance of a genomic sequence by looking at evolutionary history.",
+      "details": "If a genetic variant is truly advantageous and lacks downsides, evolution would likely have already increased its frequency. If a sequence is highly conserved across multiple mammalian species, it has an important biological function.",
+      "representative_quote": "If it is such a good idea, I want to scratch my head and ask why didn't evolution think of doing increasing its frequency in the population.",
+      "source_ids": [
+        "src_017",
+        "src_052"
+      ]
+    },
+    {
+      "label": "Genomes as Evolution's Lab Notebooks",
+      "summary": "Viewing whole genomes and 'junk DNA' as historical records that document billions of years of evolutionary history, experiments, and adaptations.",
+      "details": "Repeat elements and non-coding DNA trace the evolutionary history of our species, track population migrations, and serve as a vital fossil record.",
+      "representative_quote": "We really begin to understand the tree of evolution in much greater detail by reading whole genomes, which are in effect evolution’s lab notebooks where it’s been taking notes for billions of years.",
+      "source_ids": [
+        "src_005",
+        "src_054"
+      ]
+    },
+    {
+      "label": "The Aerial View vs. The Rock Outcropping",
+      "summary": "A geological metaphor for understanding biological systems: studying individual genes is like looking at a single rock outcropping, while mapping the whole genome is like getting an aerial view.",
+      "details": "Both perspectives are complementary and necessary. The aerial view teaches biologists things they could never learn by focusing on individual genes in isolation.",
+      "representative_quote": "What the genome taught us was that there were complementary ways that you could get aerial views and learn things that you would never learn by focusing individual on individual things.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Amara's Law",
+      "summary": "The tendency for people to overestimate the impact of science and technology in the short run, while underestimating its transformative power over the long run.",
+      "details": "The Human Genome Project had massive short-term hype but is now yielding profound long-term economic and medical impacts that unfold over decades.",
+      "representative_quote": "Yet if the public overestimates the impact of science and technology in the short run, it underestimates the transformative power over the long run.",
+      "source_ids": [
+        "src_003"
+      ]
+    },
+    {
+      "label": "Day Job / Night Job (Pleiotropy)",
+      "summary": "A metaphor to explain how a single gene can have multiple, seemingly unrelated functions in different systems of the body at different times.",
+      "details": "For example, the C4 gene has a 'day job' in the immune system marking microbes for destruction, but it also has a 'night job' in the brain marking synapses for pruning.",
+      "representative_quote": "There tends not to be free lunches, and in any case we have a pretty poor idea for most things about what their overall effects are.",
+      "source_ids": [
+        "src_052"
+      ]
+    },
+    {
+      "label": "The Dry Cleaner Model",
+      "summary": "A negative mental model describing how traditional academic institutions treat technology platforms as transactional service providers rather than intellectual collaborators.",
+      "details": "Comparing a core facility to dropping off clothes at a dry cleaner at 9 AM and picking them up at 5 PM, which lacks deep respect and collaboration.",
+      "representative_quote": "A core facility is like your dry cleaner you drop stuff off at nine you pick it up at five but you wouldn't say you collaborate with your dry cleaner.",
+      "source_ids": [
+        "src_022"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Ask the Organism",
+      "summary": "When you don't know the underlying mechanism of a biological process, use genetics to let the organism tell you the answer.",
+      "details": null,
+      "representative_quote": "I'm not so smart. Ask the organism.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Increase Sample Size for Whispering Data",
+      "summary": "If the statistical signal is whispering (e.g., p-values skewing toward zero but not crossing significance), increase the sample size.",
+      "details": null,
+      "representative_quote": "The data are whispering, I'm trying to be significant. Give me a larger sample size.",
+      "source_ids": [
+        "src_010",
+        "src_015"
+      ]
+    },
+    {
+      "label": "Trust Evolution's Vote",
+      "summary": "If a genetic variant is universally beneficial, ask why evolution didn't already make it common; if a base is highly conserved, assume it's important.",
+      "details": null,
+      "representative_quote": "If evolution tells you it's not willing to change that base, I go with evolution, it knows what it's doing.",
+      "source_ids": [
+        "src_017",
+        "src_052"
+      ]
+    },
+    {
+      "label": "Release Data Before Absolute Completion",
+      "summary": "Don't obsess over 100% complete; comprehensive (95-99%) is often enough to release data and move to the next problem.",
+      "details": null,
+      "representative_quote": "Absolute completion shouldn't be the enemy of getting the vast majority of the information out.",
+      "source_ids": [
+        "src_017",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Target the Pathway, Not Just the Gene",
+      "summary": "Don't just target the gene discovered in a study; target the biological process or pathway the gene reveals.",
+      "details": null,
+      "representative_quote": "The primary goal is to understand the biological pathways underlying disease, because that’s what’s fundamental to treating disease.",
+      "source_ids": [
+        "src_004",
+        "src_015"
+      ]
+    },
+    {
+      "label": "Prioritize PGD Over Germline Editing",
+      "summary": "For preventing genetic disease, prioritize genetic diagnostics and Preimplantation Genetic Diagnosis (PGD) over germline editing.",
+      "details": null,
+      "representative_quote": "If we really care about helping parents avoid cases of genetic disease, germline editing is not the first, second, third, or fourth thing that we should be thinking about.",
+      "source_ids": [
+        "src_052"
+      ]
+    },
+    {
+      "label": "Expect a 30-Year Timeline",
+      "summary": "Assume it takes at least 30 years for a scientific revolution to have a major impact in medicine.",
+      "details": null,
+      "representative_quote": "It takes at least 30 y for a scientific revolution to have a major impact in medicine.",
+      "source_ids": [
+        "src_004"
+      ]
+    },
+    {
+      "label": "Build for the Next Stage",
+      "summary": "Build something that pays returns immediately, and you'll get the funding and momentum to do the next stage.",
+      "details": null,
+      "representative_quote": "build something that pays returns and you'll get to do the next stage",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Turn the Lights On First",
+      "summary": "The only way not to shoot in the dark in medicine is to have the lights turned on really well by building comprehensive infrastructure first.",
+      "details": null,
+      "representative_quote": "Our goal in medicine is not to be shooting in the dark anymore. The only way not to shoot in the dark is to have the lights turned on really, really well.",
+      "source_ids": [
+        "src_054"
+      ]
+    },
+    {
+      "label": "Borrow from Bacteria",
+      "summary": "Humans don't invent stuff in molecular biology; we discover what bacteria have been doing all along and borrow it.",
+      "details": null,
+      "representative_quote": "As usual, humans don’t invent stuff in molecular biology, we discover that bacteria had been doing it all along, and then we borrow it from the bacteria.",
+      "source_ids": [
+        "src_008"
+      ]
+    },
+    {
+      "label": "Embrace Technology Failure",
+      "summary": "Every technology fails initially; that's what they're supposed to do so you can find the failure modes.",
+      "details": null,
+      "representative_quote": "Every technology fails... that's what they're supposed to do because there's a hundred problems with any new technology and you don't meet them until you take them out on a drive.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Luck is Not a Plan",
+      "summary": "While scientific work can occasionally be telescoped to less than a decade, it is rare and cannot be relied upon.",
+      "details": null,
+      "representative_quote": "But luck is not a plan.",
+      "source_ids": [
+        "src_003"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Hypothesis-Free Genetics",
+      "summary": "Explaining why genetics is uniquely powerful compared to other biological disciplines.",
+      "details": null,
+      "representative_quote": "Genetics is the one thing in all of biology that lets you ask in a hypothesis-free way, what's responsible for a process?",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Extracting Meaning from the Genome",
+      "summary": "Explaining the difference between sequencing the genome and understanding it.",
+      "details": null,
+      "representative_quote": "The Human Genome Project is about sitting there and getting the letters out. The next century is about extracting all of the meaning out of the text, but it's a pretty good text.",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "The Long and Winding Path",
+      "summary": "Explaining why curing complex diseases takes decades.",
+      "details": null,
+      "representative_quote": "The scientific path from biological insights to medical impact is often long and winding.",
+      "source_ids": [
+        "src_003"
+      ]
+    },
+    {
+      "label": "Amara's Law in Science",
+      "summary": "Referencing Amara's Law to explain the cycle of hype and hope in medical research.",
+      "details": null,
+      "representative_quote": "Yet if the public overestimates the impact of science and technology in the short run, it underestimates the transformative power over the long run.",
+      "source_ids": [
+        "src_003"
+      ]
+    },
+    {
+      "label": "Big Science in Service of Small Science",
+      "summary": "Addressing fears that the Human Genome Project would siphon resources away from individual researchers.",
+      "details": null,
+      "representative_quote": "To the extent that this is big science, this is big science in the service of small science. This is building tools so that everyone who has a smart idea is not limited by anything other than their imagination.",
+      "source_ids": [
+        "src_054"
+      ]
+    },
+    {
+      "label": "The Origin of Hypotheses",
+      "summary": "Discussing the historical resistance to hypothesis-free discovery in biology.",
+      "details": null,
+      "representative_quote": "Nobody ever asked the children where do hypotheses come from.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Absolute Completion vs. Progress",
+      "summary": "Discussing the release of the 'finished' human genome sequence despite having remaining gaps.",
+      "details": null,
+      "representative_quote": "Absolute completion shouldn't be the enemy of getting the vast majority of the information out.",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "The Dry Cleaner Metaphor",
+      "summary": "Explaining why the Broad Institute uses 'platforms' instead of 'core facilities' to ensure technologists are treated as equal partners.",
+      "details": null,
+      "representative_quote": "A core facility is like your dry cleaner you drop stuff off at nine you pick it up at five but you wouldn't say you collaborate with your dry cleaner.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Earning Public Trust",
+      "summary": "Explaining how scientists must earn public trust rather than demanding it.",
+      "details": null,
+      "representative_quote": "if somebody comes and tells you oh just trust me i'm a scientist um i i haven't i want to run the other way",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "A Prescription of Humility",
+      "summary": "Concluding his talk on the limits of our understanding regarding human gene editing.",
+      "details": null,
+      "representative_quote": "My prescription is humility.",
+      "source_ids": [
+        "src_052"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Hypothesis-Limited Science",
+      "summary": "Rejecting exploratory or mapping research simply because it lacks a specific prior hypothesis.",
+      "details": "It assumes scientists are always smart enough to guess the underlying causes of complex diseases, blinding them to discoveries that can only be made through hypothesis-free, aerial-view mapping.",
+      "representative_quote": "Nobody ever asked the children where do hypotheses come from.",
+      "source_ids": [
+        "src_010",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Overpromising Timelines and Cures",
+      "summary": "Overpromising the timing of consequences from major scientific milestones to the public.",
+      "details": "It creates false expectations that cures are 'around the corner,' leading to public disillusionment when the inherently slow process of developing therapies takes decades.",
+      "representative_quote": "I take the position of trying very hard not to over-promise... over-promising is a really bad thing for science to do.",
+      "source_ids": [
+        "src_003",
+        "src_004",
+        "src_008"
+      ]
+    },
+    {
+      "label": "Privatizing Foundational Data",
+      "summary": "Seeking personal gain out of foundational scientific discoveries, such as patenting or hoarding particular genes or datasets.",
+      "details": "It creates friction, restricts the ability of the broader scientific community to freely access and annotate data, and is fundamentally incompatible with the massive collaboration required for foundational breakthroughs.",
+      "representative_quote": "It wouldn't have worked unless everybody rode together.",
+      "source_ids": [
+        "src_015",
+        "src_017",
+        "src_025",
+        "src_054"
+      ]
+    },
+    {
+      "label": "Obsessing Over 100% Completeness",
+      "summary": "Waiting for 100% absolute completion before releasing scientific data or moving on to the next stage.",
+      "details": "It delays scientific progress. Releasing the first 95-98% of the data immediately puts valuable information into the hands of thousands of scientists who can start making discoveries.",
+      "representative_quote": "Absolute completion shouldn't be the enemy of getting the vast majority of the information out.",
+      "source_ids": [
+        "src_017",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Confusing Correlation with Causality",
+      "summary": "Relying purely on epidemiological correlation to develop drug targets without genetic proof.",
+      "details": "Developing drugs based on correlated biomarkers (like raising HDL for heart disease) wastes billions of dollars if the biomarker isn't the actual causal factor. Genetics can prove causality before drug development begins.",
+      "representative_quote": "The hypothesis does not get supported by the genetics. Oh, and by the way, the clinical trials, each of which cost about $1.5 billion, have all failed so far.",
+      "source_ids": [
+        "src_010",
+        "src_015"
+      ]
+    },
+    {
+      "label": "The Lone Genius Myth",
+      "summary": "Imagining scientists as lone geniuses cloistered in laboratories.",
+      "details": "It fails to recognize that scientific breakthroughs are the result of an inspiring ensemble of scientists, collaborators, and diverse contributors building on each other's work across the globe.",
+      "representative_quote": "It is also important for a general public who often imagines scientists as lone geniuses cloistered in laboratories.",
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Dismissing Non-Coding DNA as 'Junk'",
+      "summary": "Assuming that the 98% of the genome that does not code for proteins is uninteresting or useless.",
+      "details": "It ignores the rich evolutionary history, the fossil record of transposable elements, and the vital regulatory functions these sequences provide to the organism.",
+      "representative_quote": "It’s sometimes referred to as junk DNA, as if it’s uninteresting, but, in fact, it tells amazing scientific stories.",
+      "source_ids": [
+        "src_054"
+      ]
+    },
+    {
+      "label": "Demanding Trust Through Authority",
+      "summary": "Demanding public trust based solely on scientific authority (e.g., 'Just trust me, I'm a scientist').",
+      "details": "It ignores the valid suspicions of marginalized groups and the historical missteps of science, ultimately eroding trust rather than building it.",
+      "representative_quote": "if somebody comes and tells you oh just trust me i'm a scientist um i i haven't i want to run the other way",
+      "source_ids": [
+        "src_018"
+      ]
+    }
+  ]
+}

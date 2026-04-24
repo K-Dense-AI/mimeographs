@@ -1,0 +1,36 @@
+{
+  "source_id": "src_039",
+  "summary": "A book review of the updated edition of Geoffrey Rose's 'Strategy of Preventive Medicine', which features a new commentary by Kay-Tee Khaw and Michael Marmot. The text outlines Khaw and Marmot's endorsement and expansion of Rose's population approach to preventive medicine, highlighting their argument that the majority of disease burden typically arises from the moderate-to-low risk population rather than the high-risk extremes.",
+  "themes": [
+    "Population health",
+    "Preventive medicine",
+    "Risk distribution",
+    "Epidemiology"
+  ],
+  "principles": [
+    {
+      "statement": "Population strategies aimed at shifting entire distributions of risk are necessary for effective preventive medicine.",
+      "rationale": "When risk is widely diffused, a large share of the population burden of disease comes from many individuals exposed to low or moderate risks, rather than the small number of individuals at high risk.",
+      "source_quote": null,
+      "source_id": "src_039"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Population Approach",
+      "description": "A lens for public health that focuses on shifting the entire population's distribution of a risk factor, rather than just treating the 'deviant' high-risk tail. It assumes that small reductions in risk across a large population yield greater overall health gains than large reductions in a small, high-risk group.",
+      "example": "Khaw and Marmot apply this to intraocular pressure and glaucoma risk, arguing that because two-thirds of glaucoma cases come from those at moderate-to-low levels of intraocular pressure, a population approach is favored over targeting just the extreme tail.",
+      "source_id": "src_039"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Relying exclusively on traditional clinical approaches that target only individuals with high levels of risk factors.",
+      "why_it_fails": "It does little to affect overall population levels of disease because it misses the major source of future cases, which emerge from the much larger pool of people at low-to-moderate risk.",
+      "source_id": "src_039"
+    }
+  ]
+}

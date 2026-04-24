@@ -1,0 +1,24 @@
+{
+  "source_id": "src_049",
+  "summary": "This source consists only of the abstract and reference list for a paper on the foundations of causal inference. In the abstract, Pearl introduces a methodology based on nonparametric structural equation models (SEM) to define, estimate, and test causal claims, bridging the structural and potential-outcome frameworks.",
+  "themes": [
+    "Causal Inference",
+    "Nonparametric Structural Equation Models (SEM)",
+    "Counterfactuals",
+    "Mediation",
+    "Propensity Score Matching"
+  ],
+  "principles": [
+    {
+      "statement": "Nonparametric structural equation models (SEM) provide a coherent mathematical foundation for the analysis of causes and counterfactuals.",
+      "rationale": "They act as a natural generalization of the models used by econometricians and social scientists in the 1950s and 1960s, enabling a systematic methodology for defining, estimating, and testing causal claims in both experimental and observational studies.",
+      "source_quote": "It is based on nonparametric structural equation models (SEM)—a natural generalization of those used by econometricians and social scientists in the 1950s and 1960s, which provides a coherent mathematical foundation for the analysis of causes and counterfactuals.",
+      "source_id": "src_049"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": []
+}

@@ -1,0 +1,103 @@
+{
+  "source_id": "src_000",
+  "summary": "In his Second Meditation, René Descartes employs a method of radical doubt to strip away all uncertain beliefs, seeking a single, indubitable foundation for knowledge. He discovers this in the 'Cogito'—the certainty of his own existence as a thinking thing. From this, he establishes that the mind is distinct from the body and that self-knowledge is more immediate and certain than knowledge of the external world.",
+  "themes": [
+    "Epistemology",
+    "Certainty",
+    "Method of Doubt",
+    "Mind-Body Dualism",
+    "Self-Knowledge"
+  ],
+  "principles": [
+    {
+      "statement": "I exist, because I am thinking.",
+      "rationale": "Even if an all-powerful, malignant being is constantly deceiving me, I must exist in order to be deceived. The very act of doubting or being deceived requires a thinking subject.",
+      "source_quote": "Doubtless, then, I exist, since I am deceived; and, let him deceive me as he may, he can never bring it about that I am nothing, so long as I shall be conscious that I am something.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "The self is fundamentally a thinking thing, not a physical body.",
+      "rationale": "All physical attributes and sensory experiences can be doubted and might be illusions. However, the act of thinking cannot be separated from the self; if thinking ceases, the self might cease to exist.",
+      "source_quote": "I am therefore, precisely speaking, only a thinking thing, that is, a mind (mens sive animus), understanding, or reason...",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "Knowledge of one's own mind is more certain and clear than knowledge of the external world.",
+      "rationale": "When we perceive an external object, we might be mistaken about the object itself, but the very act of perceiving it undeniably confirms the existence and operation of our own mind.",
+      "source_quote": "I readily discover that there is nothing more easily or clearly apprehended than my own mind.",
+      "source_id": "src_000"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Method of Radical Doubt",
+      "when_to_apply": "When attempting to establish a pure, rock-solid foundation for scientific and philosophical knowledge, free from preconceived opinions and prejudices.",
+      "steps": [
+        "Subject all beliefs to intense scrutiny.",
+        "Cast aside any belief that admits of even the slightest doubt, treating it as if it were absolutely false.",
+        "Assume that all sensory inputs, memories, and physical realities are fictitious.",
+        "Continue this process until you find something that is absolutely certain and indubitable."
+      ],
+      "source_quote": "proceed by casting aside all that admits of the slightest doubt, not less than if I had discovered it to be absolutely false; and I will continue always in this track until I shall find something that is certain",
+      "source_id": "src_000"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Apple Orchard (Barrel of Apples)",
+      "description": "A metaphor for intellectual cleansing. The mind is like a barrel of apples (beliefs). To prevent a few rotten apples (false beliefs) from spoiling the whole barrel, one must tip out all the apples, inspect each one carefully, and only put the fresh, sound ones back in.",
+      "example": "Emptying the mind of all preconceived notions and only accepting beliefs that pass the rigorous test of absolute certainty.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "The Archimedean Point",
+      "description": "The concept of finding a single, firm, and immovable foundational truth upon which to build an entire system of knowledge, much like Archimedes needing only one firm point to move the globe.",
+      "example": "Using the undeniable truth of 'I am, I exist' as the immovable point to reconstruct scientific knowledge.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "Automatons in Hats and Coats",
+      "description": "A lens to distinguish between raw sensory input and mental judgment. The senses only provide superficial data, while the intellect interprets and comprehends what that data represents.",
+      "example": "Looking out a window and seeing hats and cloaks. The eyes only see garments that could theoretically cover clockwork machines, but the mind's faculty of judgment concludes they are human beings.",
+      "source_id": "src_000"
+    }
+  ],
+  "heuristics": [
+    "Reject any belief if there is even the smallest chance that you might be wrong about it.",
+    "I am, I exist, as often as I think."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I am, I exist, is necessarily true each time it is expressed by me, or conceived in my mind.",
+      "context": "Concluding the Cogito argument, establishing his own existence as the one indubitable truth.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "I am therefore, precisely speaking, only a thinking thing, that is, a mind (mens sive animus), understanding, or reason...",
+      "context": "Defining the nature of the self after stripping away all physical attributes through doubt.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "I readily discover that there is nothing more easily or clearly apprehended than my own mind.",
+      "context": "Concluding that self-knowledge is superior to and more distinct than knowledge of external physical objects.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "Doubtless, then, I exist, since I am deceived; and, let him deceive me as he may, he can never bring it about that I am nothing, so long as I shall be conscious that I am something.",
+      "context": "Reasoning that even a supremely powerful deceiver cannot trick him into thinking he exists if he does not.",
+      "source_id": "src_000"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on the senses to provide certain knowledge about the world.",
+      "why_it_fails": "The senses can be deceptive (e.g., during sleep or by a malignant deceiver). Furthermore, what we think we 'see' with our eyes is actually comprehended by the faculty of judgment in the mind.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Assuming the self is defined by physical attributes or the body.",
+      "why_it_fails": "Physical attributes like walking, nutrition, and having a body can be doubted and imagined as fictions. Only the act of thinking is inseparable from the self.",
+      "source_id": "src_000"
+    }
+  ]
+}

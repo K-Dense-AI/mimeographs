@@ -1,0 +1,88 @@
+{
+  "source_id": "src_012",
+  "summary": "Elizabeth Anscombe challenges the deeply ingrained philosophical assumption that causality requires necessity or universal generalization. She argues that causality is simply the derivativeness of an effect from its cause, which can be observed in everyday individual instances. Furthermore, she uses examples from both deterministic and indeterministic physics to show that scientific laws are idealized and always subject to interference, leaving room for contingency and free will.",
+  "themes": [
+    "Causality",
+    "Determinism",
+    "Philosophy of Science",
+    "Free Will",
+    "Epistemology"
+  ],
+  "principles": [
+    {
+      "statement": "Causality consists in the derivativeness of an effect from its causes, not in necessity or universal generalization.",
+      "rationale": "We can confidently identify the cause of an event (like catching a disease after visiting a sick friend) without knowing or needing an exceptionless rule that the cause will always produce that effect.",
+      "source_quote": "causality consists in the derivativeness of an effect from its causes. This is the core, the common feature of causality in its various kinds. Effects derive from, arise out of, come of, their causes.",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "We can and do observe causality in individual, everyday cases.",
+      "rationale": "Philosophers who claim we cannot observe causality often define 'observation' so narrowly that it becomes impossible. In reality, everyday verbs like 'scrape', 'push', 'wet', and 'burn' are direct reports of observed causal relations.",
+      "source_quote": "as surely as we learned to call people by name or to report from seeing it that the cat was on the table, we also learned to report from having observed it that someone drank up the milk",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Scientific laws do not take the form of exceptionless 'A always follows B' generalizations.",
+      "rationale": "Applying scientific theories inherently involves idealizations and assumptions of 'normal conditions'. Real-world events are always subject to external interference and prevention that laws do not account for.",
+      "source_quote": "scientific laws do not have to form a always follows b unless c d e f g h i j k l m n r",
+      "source_id": "src_012"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Solar System's Obligingness",
+      "description": "A lens for understanding scientific idealization. The perfect predictability of the solar system under Newtonian mechanics doesn't prove absolute determinism; it merely reflects a system that has luckily avoided external interference (like a rogue planet or meteor) during recorded history.",
+      "example": "Assuming that because we can predict solar eclipses perfectly, all of nature must be strictly determined if we just had enough data. This ignores that the solar system is just an unusually peaceful, isolated model.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "The Colored Gas (Coca-Cola Analogy)",
+      "description": "A metaphor illustrating how micro-level statistical randomness (like quantum indeterminism) can coexist with macro-level intentional patterns (like free will).",
+      "example": "Imagine a box of colored gas where the particles move with pure statistical randomness according to physics, yet the gas consistently forms the word 'Coca-Cola'. This shows how pure quantum randomness in the brain wouldn't necessarily preclude an obvious, non-random pattern of human behavior.",
+      "source_id": "src_012"
+    }
+  ],
+  "heuristics": [
+    "When someone claims you cannot observe a phenomenon, check if they have defined 'observation' in a way that makes it artificially impossible."
+  ],
+  "signature_quotes": [
+    {
+      "text": "causality consists in the derivativeness of an effect from its causes. This is the core, the common feature of causality in its various kinds.",
+      "context": "Defining her core view of what causality actually is, in contrast to Humean necessity.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "in non-experimental philosophy it is clear enough what are the dogmatic slumbers of the day. It is over and over again assumed that any singular causal proposition implies a universal statement running always when this then that",
+      "context": "Critiquing the dominant philosophical assumption of her time regarding causation.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "the most neglected of the key topics in this subject are interference and prevention.",
+      "context": "Concluding her argument on why regularities in nature fail to obtain.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "it was mere obligingness on the part of the solar system, by having had so peaceful a history in recorded time, to provide such a model",
+      "context": "Explaining why the solar system's predictability shouldn't be taken as proof of universal determinism.",
+      "source_id": "src_012"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "The 'Relevant Further Difference' Assumption: Believing that if an effect occurs in one case but not in a similar case, there must be a hidden variable or difference that accounts for it.",
+      "why_it_fails": "It dogmatically denies the possibility of contingency or leeway in nature—the idea that something could simply happen differently without a necessitating hidden cause.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Equating causation with necessitation.",
+      "why_it_fails": "It forces us to look for an 'iron necessity' or universal generalization that rarely exists. We frequently know what caused an event (e.g., a fire burning a paper) without needing it to be logically necessary or universally exceptionless.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Assuming deterministic scientific theories prove universal determinism.",
+      "why_it_fails": "Scientific models (like Newtonian mechanics) rely on massive idealizations (e.g., treating planets as point masses with only gravity acting on them). They cannot account for unpredictable external interferences, meaning they don't prove that every event in the universe is strictly necessitated.",
+      "source_id": "src_012"
+    }
+  ]
+}

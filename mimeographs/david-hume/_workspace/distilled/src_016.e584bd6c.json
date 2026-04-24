@@ -1,0 +1,55 @@
+{
+  "source_id": "src_016",
+  "summary": "This excerpt outlines David Hume's empiricist approach to the mind, modeled on Newtonian economy, where all beliefs trace back to experience. It also highlights his critique of natural theology, arguing that asserting the existence of a God with an incomprehensible nature is unintelligible.",
+  "themes": [
+    "Empiricism",
+    "Philosophy of Religion",
+    "Theory of Ideas",
+    "Natural Theology"
+  ],
+  "principles": [
+    {
+      "statement": "Everything we believe is ultimately traceable to experience.",
+      "rationale": "To explain the workings of the mind efficiently, we must rely only on mental machinery that is warranted by direct experience.",
+      "source_quote": "everything we believe is ultimately traceable to experience.",
+      "source_id": "src_016"
+    },
+    {
+      "statement": "A design hypothesis for a God with an incomprehensible nature is unintelligible.",
+      "rationale": "If a being's nature is inconceivable and indefinable, claims about its existence lose all religiously significant content.",
+      "source_quote": "We don’t know what we’re talking about when we talk about a God whose nature is inconceivable, incomprehensible, indeterminate, and indefinable.",
+      "source_id": "src_016"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Empiricist Theory of Ideas",
+      "description": "The view that humans do not have direct access to physical objects, but rather immediately perceive mental entities called 'ideas', all of which must ultimately trace back to experience.",
+      "example": null,
+      "source_id": "src_016"
+    }
+  ],
+  "heuristics": [
+    "Introduce the minimal amount of machinery necessary to account for phenomena, ensuring each piece is warranted by experience."
+  ],
+  "signature_quotes": [
+    {
+      "text": "everything we believe is ultimately traceable to experience.",
+      "context": "Explaining his empiricist version of the theory of ideas.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "We don’t know what we’re talking about when we talk about a God whose nature is inconceivable, incomprehensible, indeterminate, and indefinable.",
+      "context": "Critiquing the separation of God's nature and existence in natural theology.",
+      "source_id": "src_016"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Attempting to affirm God's existence while claiming His nature is entirely inconceivable.",
+      "why_it_fails": "It drains the claim of any religiously significant content, making the hypothesis not just false, but unintelligible.",
+      "source_id": "src_016"
+    }
+  ]
+}

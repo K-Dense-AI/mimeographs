@@ -1,0 +1,107 @@
+{
+  "source_id": "src_045",
+  "summary": "Jürgen Schmidhuber outlines a formal theory of creativity based on the 'compression progress drive.' He argues that essential aspects of intelligence, including science, art, and humor, arise from an intrinsic motivation to discover novel patterns that improve an agent's ability to predict or compress its history of observations. He provides formal frameworks for implementing this in Artificial General Intelligence (AGI) using reinforcement learning and intrinsic rewards.",
+  "themes": [
+    "Artificial General Intelligence (AGI)",
+    "Formal Theory of Creativity",
+    "Intrinsic Motivation and Curiosity",
+    "Data Compression",
+    "Reinforcement Learning"
+  ],
+  "principles": [
+    {
+      "statement": "Intelligence is driven by the desire to maximize intrinsic reward for discovering novel, compressible patterns.",
+      "rationale": "This simple principle explains essential aspects of human and non-human intelligence, including selective attention, science, art, music, and humor, as byproducts of a drive to improve data compression or prediction.",
+      "source_quote": "I have argued that a simple but general formal theory of creativity explains many essential aspects of intelligence including science, art, music, humor. It is based on the concept of maximizing reward for the creation or discovery of novel patterns allowing for improved data compression or prediction.",
+      "source_id": "src_045"
+    },
+    {
+      "statement": "Generate intrinsic curiosity or creativity reward in response to improvements of the predictor or history compressor.",
+      "rationale": "This conceptually separates the goal (finding data that can be compressed better than before) from the means of achieving it, allowing a reinforcement learning controller to figure out how to translate these rewards into action sequences.",
+      "source_quote": "Generate intrinsic curiosity reward or creativity reward for the controller in response to improvements of the predictor or history compressor.",
+      "source_id": "src_045"
+    },
+    {
+      "statement": "A bias towards exploring previously unknown environmental regularities is highly beneficial for goal-directed learning.",
+      "rationale": "In the real world, external rewards are extremely rare. Unsupervised exploration builds a repertoire of easily composable behaviors that reflect environmental regularities, which greatly facilitates achieving external goals later.",
+      "source_quote": "Often a bias towards exploring previously unknown environmental regularities through artificial curiosity / creativity is a priori desirable because goal-directed learning may greatly profit from it, as behaviors leading to external reward may often be rather easy to compose from previously learnt curiosity-driven behaviors.",
+      "source_id": "src_045"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Asynchronous Framework for Maximizing Creativity Reward",
+      "when_to_apply": "When building an agent that needs to learn unsupervised behaviors by maximizing intrinsic creativity reward while interacting with an environment.",
+      "steps": [
+        "Let the controller use the history of actions and inputs to select and execute a new action.",
+        "Observe the new input from the environment.",
+        "Check if there is non-zero creativity reward provided by the asynchronously running compressor improvement algorithm.",
+        "Let the controller's reinforcement learning algorithm use the history and intrinsic reward to update its policy.",
+        "Asynchronously, evaluate the old compressor on the current history.",
+        "Run a compressor improvement algorithm (e.g., training a neural network) to obtain a new compressor.",
+        "Evaluate the new compressor on the same history.",
+        "Generate intrinsic creativity reward based on the difference in performance between the old and new compressor."
+      ],
+      "source_quote": "Asynchronous Framework for Maximizing Creativity Reward... Let p(t) denote the agent’s current compressor program at time t, s(t) its current controller, and do...",
+      "source_id": "src_045"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Compression Progress Drive",
+      "description": "Viewing human behaviors like humor, art appreciation, and scientific discovery as manifestations of a fundamental drive to improve the algorithmic data compression of one's life history.",
+      "example": "Humor is explained by a punchline initially causing sub-optimal compression (surprise), followed by a quick learning update that discovers the pattern, saving bits of storage and generating a burst of intrinsic reward (the feeling of 'funny').",
+      "source_id": "src_045"
+    },
+    {
+      "name": "Science as Data Compression",
+      "description": "Viewing the progress of physics and inductive sciences as an incremental search for shorter programs (laws) that compress the history of observations better than previously known programs.",
+      "example": "Newton's law of gravity is a short piece of code that substantially compresses observation sequences of falling apples. Einstein's relativity yields additional compression progress by explaining deviations from Newton's predictions.",
+      "source_id": "src_045"
+    }
+  ],
+  "heuristics": [
+    "An unusually large compression breakthrough deserves the name discovery.",
+    "Compression by one bit is worth as much as runtime reduction by a factor of 1/2.",
+    "When not occupied with optimizing external reward, artists and observers of art are just following their compression progress drive!"
+  ],
+  "signature_quotes": [
+    {
+      "text": "I have argued that a simple but general formal theory of creativity explains many essential aspects of intelligence including science, art, music, humor.",
+      "context": "Introducing the formal theory of creativity.",
+      "source_id": "src_045"
+    },
+    {
+      "text": "When not occupied with optimizing external reward, physicists are also just following their compression progress drive!",
+      "context": "Explaining how the inductive sciences fit into the theory of creativity.",
+      "source_id": "src_045"
+    },
+    {
+      "text": "Generate intrinsic curiosity reward or creativity reward for the controller in response to improvements of the predictor or history compressor.",
+      "context": "Stating the basic principle of the formal theory of creativity.",
+      "source_id": "src_045"
+    },
+    {
+      "text": "An unusually large compression breakthrough deserves the name discovery.",
+      "context": "Describing the nature of scientific breakthroughs.",
+      "source_id": "src_045"
+    },
+    {
+      "text": "In the real world external rewards are rare. But unsupervised AGIs using additional intrinsic rewards as described in this paper will be motivated to learn many useful behaviors even in absence of external rewards...",
+      "context": "Concluding on the practical benefits of intrinsic motivation for AGI.",
+      "source_id": "src_045"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Traditional active learning's assumption of equal costs and 1-step look-ahead.",
+      "why_it_fails": "It fails to account for arbitrary delays between actions and information gains, environment-dependent costs of obtaining data sequences, algorithmic dependencies, and the computational cost of learning new skills.",
+      "source_id": "src_045"
+    },
+    {
+      "description": "Measuring compression performance per se rather than compression progress.",
+      "why_it_fails": "If you just reward compression performance, the agent will seek out perfectly predictable but boring data. The important thing is the improvements of the compressor/predictor, which drives the agent to seek novel, learnable patterns.",
+      "source_id": "src_045"
+    }
+  ]
+}

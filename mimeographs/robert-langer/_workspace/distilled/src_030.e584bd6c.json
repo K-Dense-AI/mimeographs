@@ -1,0 +1,67 @@
+{
+  "source_id": "src_030",
+  "summary": "Robert Langer recounts his early career struggles to develop controlled-release polymer systems for macromolecules, a concept initially deemed impossible by experts. He details facing immense skepticism, repeated grant rejections, and patent denials, which he overcame through perseverance and systematic problem-solving. He concludes by urging funding agencies and universities to evaluate high-risk research based on its potential impact rather than fixating on reasons it might fail.",
+  "themes": [
+    "Perseverance in science",
+    "Drug delivery systems",
+    "Interdisciplinary research",
+    "Science funding reform",
+    "Overcoming academic rejection"
+  ],
+  "principles": [
+    {
+      "statement": "Evaluate research based on the benefits of success, not just the risks of failure.",
+      "rationale": "Focusing exclusively on potential pitfalls creates a risk-averse environment that stifles high-risk, high-reward breakthroughs.",
+      "source_quote": "Peer reviewers and program officers should think about the benefits if a researcher succeeds, rather than trying to come up with all the reasons that the researcher might fail.",
+      "source_id": "src_030"
+    },
+    {
+      "statement": "Do not restrict researchers based on their formal educational background.",
+      "rationale": "Interdisciplinary approaches are highly valuable; for instance, engineers can make fundamental and transformative contributions to biology.",
+      "source_quote": "Federal funding agencies could fund more high-risk, high-reward research, without almost always being so focused on preliminary data and an individual’s educational background (as if an engineer can’t contribute to biology).",
+      "source_id": "src_030"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Systematic Objection Resolution",
+      "description": "Treating institutional or peer rejection not as a final verdict, but as a specific technical objection to be solved experimentally.",
+      "example": "When grant reviewers rejected his application claiming the polymers would be too fragile, his lab found the right catalysts to increase molecular weight and prove them wrong. He repeated this process for every subsequent objection (synthesis, reactivity, safety, diffusion) over 15 years.",
+      "source_id": "src_030"
+    }
+  ],
+  "heuristics": [
+    "I don't like to give up.",
+    "Use your critics' own words to prove the novelty of your work to patent examiners."
+  ],
+  "signature_quotes": [
+    {
+      "text": "However, I don’t like to give up.",
+      "context": "Referring to his persistence in getting his first patent approved after 5 years of rejections.",
+      "source_id": "src_030"
+    },
+    {
+      "text": "Peer reviewers and program officers should think about the benefits if a researcher succeeds, rather than trying to come up with all the reasons that the researcher might fail.",
+      "context": "His concluding moral on how federal funding agencies should evaluate grants.",
+      "source_id": "src_030"
+    },
+    {
+      "text": "Federal funding agencies could fund more high-risk, high-reward research, without almost always being so focused on preliminary data and an individual’s educational background (as if an engineer can’t contribute to biology).",
+      "context": "Critiquing the conservative nature of science funding.",
+      "source_id": "src_030"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Rejecting grants based solely on a lack of preliminary data or the applicant's formal educational background.",
+      "why_it_fails": "It stifles interdisciplinary innovation and prevents high-risk, high-reward research from getting off the ground.",
+      "source_id": "src_030"
+    },
+    {
+      "description": "Reviewers focusing exclusively on finding reasons a project might fail.",
+      "why_it_fails": "It creates a comically risk-averse funding environment that delays life-saving treatments, as seen in his 15-year grant rejection saga.",
+      "source_id": "src_030"
+    }
+  ]
+}

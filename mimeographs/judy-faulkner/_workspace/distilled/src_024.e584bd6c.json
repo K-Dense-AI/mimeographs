@@ -1,0 +1,40 @@
+{
+  "source_id": "src_024",
+  "summary": "Judy Faulkner reflects on the origins of Epic's interoperability efforts, noting that early resistance from health systems over liability and data quality was overcome by a 'lucky break.' She emphasizes her foundational belief that patient data must be shareable across vendors to save lives, provided the patient grants permission.",
+  "themes": [
+    "Interoperability",
+    "Patient Data Sharing",
+    "Healthcare IT History",
+    "Electronic Health Records (EHR)"
+  ],
+  "principles": [
+    {
+      "statement": "Patient data must be universally shareable across vendors, provided the patient grants permission.",
+      "rationale": "Having access to medical records across state lines and different health systems can save patients' lives in emergency situations.",
+      "source_quote": "Epic’s goal had always been that regardless of vendor, every patient’s data should be able to be shared, with the patient’s permission, wherever the patient went.",
+      "source_id": "src_024"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Epic’s goal had always been that regardless of vendor, every patient’s data should be able to be shared, with the patient’s permission, wherever the patient went.",
+      "context": "Explaining the foundational philosophy behind Epic's push for healthcare interoperability.",
+      "source_id": "src_024"
+    },
+    {
+      "text": "The CEO did not ask what the software did. He explained to the group of CEOs [at an Epic meeting] that if he had known what it was for, he would not have signed it! Lucky break, finally, for Interoperability!",
+      "context": "Recounting how the first health system adopted Epic's Care Everywhere platform despite widespread industry reluctance.",
+      "source_id": "src_024"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Allowing liability and data quality concerns to prevent the sharing of patient medical records.",
+      "why_it_fails": "It blocks interoperability, which ultimately prevents doctors from accessing critical medical history that could save a patient's life in an emergency.",
+      "source_id": "src_024"
+    }
+  ]
+}

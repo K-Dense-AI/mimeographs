@@ -1,0 +1,325 @@
+{
+  "expert_name": "Ronald C. Kessler",
+  "themes": [
+    "Psychiatric Epidemiology",
+    "Precision Psychiatry",
+    "Machine Learning in Healthcare",
+    "Survey Methodology & Epidemiology",
+    "Social Determinants of Mental Health",
+    "Suicide Prevention",
+    "Clinical Trial Design"
+  ],
+  "principles": [
+    {
+      "label": "Massive Sample Sizes for Precision Psychiatry",
+      "summary": "Detecting the complex multivariate interactions required to match specific patients to specific treatments demands massive statistical power that traditional clinical trials cannot provide.",
+      "details": "Small trials (e.g., 80 people per arm) merely capture and replicate statistical noise, leading to overfitting. Psychiatry must rely on comparative effectiveness research using large-scale observational data and pragmatic trials with hundreds of patients per arm to find true signals.",
+      "representative_quote": "precision treatment studies in psychiatry in particular are just hopelessly underpowered... the only hope is the comparative effectiveness research based on observational designs with embedded pragmatic trials",
+      "source_ids": [
+        "src_010",
+        "src_012",
+        "src_014",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Human-Computer Collaboration in Clinical Decisions",
+      "summary": "The future of clinical psychiatry relies on algorithms augmenting human clinicians rather than replacing them.",
+      "details": "Computers can process vast amounts of variables and patients will sometimes disclose things to computers they hide from humans. However, algorithms work best when acting as decision support tools that interact with the contextual understanding of thoughtful clinicians.",
+      "representative_quote": "it's not just a computer by itself it's the computer interacting with the thoughtful humans that makes the best decisions",
+      "source_ids": [
+        "src_010",
+        "src_012",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Treatment Persistence and Immediate Matching",
+      "summary": "The primary bottleneck in psychiatric care is patient drop-out, making it critical to match patients with the right treatment immediately.",
+      "details": "While cumulative remission rates could reach 90% if patients tried up to five treatments, the reality is that depressed patients give up quickly. If the first or second treatment fails, they often drop out, sometimes with tragic consequences like suicide.",
+      "representative_quote": "the reason that there's the discrepancy between the 50% who are helped and the 90% who could be helped because people quit people give up",
+      "source_ids": [
+        "src_010",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Tiered Predictive Modeling",
+      "summary": "Scalable, inexpensive predictors should be exhausted before relying on expensive biomarkers.",
+      "details": "Simple data points like self-reported adherence scales, natural language processing of clinical notes, or local unemployment rates can be highly predictive of treatment success. It is wasteful to use expensive pharmacogenomic tests when inexpensive data already dictates the optimal path.",
+      "representative_quote": "we can narrow the people who we give the expensive biomarker test to by tiered kinds of thoughtful modeling procedures",
+      "source_ids": [
+        "src_010",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Measurement-Based Care and Cutting Losses",
+      "summary": "Objective symptom tracking is essential for knowing when to abandon a failing treatment early.",
+      "details": "By charting symptoms over time and comparing a patient's trajectory to established norms, clinicians can identify doomed treatments at three weeks instead of torturing the patient for eight weeks.",
+      "representative_quote": "knowing how quickly to cut your losses when that first treatment is not working is an important thing... that's where the measurement based care comes in",
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Geographic Selection Bias vs. Causation",
+      "summary": "Geographic concentrations of mental illness may be the result of selection bias rather than environmental causation.",
+      "details": "People with severe mental illnesses might migrate to or end up in specific structurally disadvantaged areas. This means the environment didn't necessarily cause the illness, but rather attracted or trapped those who already had it.",
+      "representative_quote": "If it turns out that there's a lot of people with schizophrenia who live on the Bowery, that doesn't mean that living on the Bowery is a cause of schizophrenia, it could be the other way around, so selection bias.",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Early Detection of Child/Adolescent Disorders",
+      "summary": "Public health efforts must focus on the early detection and treatment of child and adolescent mental disorders to prevent severe adult comorbidity.",
+      "details": "Most severe, persistent, and highly comorbid adult mental disorders begin as mild, untreated conditions in youth. Adult-onset disorders are typically secondary or comorbid conditions.",
+      "representative_quote": "Given that most seriously impairing and persistent adult mental disorders are associated with child-adolescent onsets and high comorbidity, increased efforts are needed to study the public health implications of early detection and treatment...",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "Studying Positive Outlier Communities",
+      "summary": "Identify and study structurally disadvantaged areas that have unexpectedly good mental health outcomes to discover exportable interventions.",
+      "details": "By finding places that defy structural risk factors, researchers can use qualitative methods to uncover hidden protective variables and export those solutions to other struggling communities.",
+      "representative_quote": "There are some areas that are actually doing much better in terms of mental health than are predicted by our model... these are places where doing qualitative research to figure out what the heck is going on in these places that we could export...",
+      "source_ids": [
+        "src_017"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Four Requirements for Precision Treatment Research",
+      "summary": "A methodological framework for designing studies intended to match mental health patients to their optimal treatments.",
+      "details": "1. Gather comprehensive predictor sets, including long baseline assessments and non-traditional data. 2. Make comprehensive comparisons across the full range of available treatments, not just two-arm comparisons. 3. Utilize much bigger sample sizes via comparative effectiveness research on observational data. 4. Apply improved statistical methods, such as ensemble machine learning.",
+      "representative_quote": "The what we need to do to move forward in this line of work is four things... comprehensive predictor sets... comprehensive comparisons across the full range of available treatments... much much bigger sample sizes... improved statistical methods",
+      "source_ids": [
+        "src_010",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Precision Treatment Modeling",
+      "summary": "A three-step approach to allocating limited healthcare resources and optimizing treatment selection.",
+      "details": "1. Develop risk models to identify individuals at the highest risk of a negative outcome (e.g., suicide) for targeted intensive interventions. 2. Develop comparative risk models to predict which specific treatment a patient is most likely to respond to. 3. Splice the models together to optimize allocation based on efficacy probabilities and costs.",
+      "representative_quote": "trying to first of all when we don't have comparative treatments we just have doing something versus doing nothing who are the people at risk and then in case is where we have multiple treatments trying to uh figure out models to say how do you get the right treatment to the right person",
+      "source_ids": [
+        "src_014"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "The Centaur Model (Kasparov's Chess)",
+      "summary": "A lens for viewing clinical decision support systems, emphasizing that human-machine collaboration outperforms either working alone.",
+      "details": "Just as Gary Kasparov was beaten by a combination of a computer and human chess masters working together, the future of psychiatry relies on algorithms augmenting human clinicians rather than replacing them.",
+      "representative_quote": "it's not just a computer by itself it's the computer interacting with the thoughtful humans that makes the best decisions",
+      "source_ids": [
+        "src_010",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Survival Curves for Treatment Persistence",
+      "summary": "Viewing treatment success not as a single event, but as a cumulative probability over multiple attempts.",
+      "details": "Highlights that the bottleneck in psychiatric care is patient drop-out, not a lack of effective treatments. The conditional probability of being helped the first time for depression is 30-50%, but the cumulative probability reaches 90% if a patient persists through five different professionals.",
+      "representative_quote": "the reason that there's the discrepancy between the 50% who are helped and the 90% who could be helped because people quit people give up",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Trial-and-Error vs. Precision Matching",
+      "summary": "Contrasting the current standard of care with precision matching to prevent fatal attrition.",
+      "details": "The current standard involves guessing a treatment, waiting for failure, and hoping the patient doesn't drop out. Precision matching uses baseline data to predict the optimal treatment on day one, such as administering a two-minute adherence scale to immediately assign non-adherent profiles to case management.",
+      "representative_quote": "we have to figure out how to get the right treatments to the right patients right away... depressed people are depressed and they give up on treatment",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "The Stethoscope Resistance",
+      "summary": "A historical analogy used to understand clinician resistance to new technologies like AI and machine learning.",
+      "details": "Just as 19th-century doctors initially rejected the stethoscope because it threatened their traditional diagnostic methods, modern clinicians often resist AI as a threatening 'black box'. However, a clinician doesn't need to understand the complex physics of an X-ray or AI model to effectively read the results and treat the patient.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Outlier Analysis",
+      "summary": "Identifying data points that deviate significantly from expected outcomes based on structural risk factors to uncover hidden variables.",
+      "details": "Finding neighborhoods that structurally look like they should be highly disadvantaged but have unexpectedly low rates of mental illness, and studying them qualitatively to design exportable interventions.",
+      "representative_quote": "There are some areas that are actually doing much better in terms of mental health than are predicted by our model... these are places where doing qualitative research to figure out what the heck is going on",
+      "source_ids": [
+        "src_017"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "The 300-500 Minimum Case Rule",
+      "summary": "The minimum number of cases needed per arm to detect treatment interactions in precision medicine is 300 to 500.",
+      "details": null,
+      "representative_quote": "the minimum number of cases we need per arm is 300",
+      "source_ids": [
+        "src_010",
+        "src_012"
+      ]
+    },
+    {
+      "label": "The 5-Attempt Persistence Rule",
+      "summary": "If you want 90% of patients to reach remission, you must design systems that keep them engaged through up to five different treatment attempts.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_010",
+        "src_012"
+      ]
+    },
+    {
+      "label": "The $350 Test vs. 2-Minute Scale Rule",
+      "summary": "Don't do a $350 pharmacogenomic test if a 2-minute self-report scale already predicts an inexpensive treatment will work.",
+      "details": null,
+      "representative_quote": "we shouldn't be doing a 350 dollar pharmacogenomic test",
+      "source_ids": [
+        "src_010",
+        "src_012"
+      ]
+    },
+    {
+      "label": "The Medication Adherence Predictor",
+      "summary": "One of the strongest predictors of a psychotropic medication working is simply whether the patient actually takes it.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "The Baseline Assessment Dropout Indicator",
+      "summary": "If a patient won't sit through a long baseline assessment, they are likely to drop out of the trial anyway.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Human-Computer Collaboration Quote",
+      "summary": "Describing the ideal implementation of machine learning in clinical practice.",
+      "details": null,
+      "representative_quote": "It's not just a computer by itself it's the computer interacting with the thoughtful humans that makes the best decisions.",
+      "source_ids": [
+        "src_010",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Underpowered Studies Quote",
+      "summary": "Criticizing the sample sizes of typical psychiatric clinical trials.",
+      "details": null,
+      "representative_quote": "precision treatment studies in psychiatry in particular are just hopelessly underpowered",
+      "source_ids": [
+        "src_010",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Patient Attrition Quote",
+      "summary": "Explaining why cumulative remission rates are low despite the availability of effective treatments.",
+      "details": null,
+      "representative_quote": "depressed people are depressed and they give up on treatment",
+      "source_ids": [
+        "src_010",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Absence of Common Sense Quote",
+      "summary": "Commenting on the clinical world's failure to use simple, predictive self-report scales before prescribing medications.",
+      "details": null,
+      "representative_quote": "It's surprising to me as an outsider coming into the clinical world there's a lot of deep thinking but there's often a absence of common sense.",
+      "source_ids": [
+        "src_010",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Complexity of Psychiatric Treatment Quote",
+      "summary": "Highlighting the complexity and variety of treatment options in mental health compared to physical injuries.",
+      "details": null,
+      "representative_quote": "If we break an arm there's only one thing we can do you go to the ER you get your arm set but if you have depression you can go to a minister or a social worker or a licensed mental health professional...",
+      "source_ids": [
+        "src_010",
+        "src_014"
+      ]
+    },
+    {
+      "label": "Selection Bias Quote",
+      "summary": "Explaining why researchers must be careful not to immediately assume social vulnerability causes mental illness.",
+      "details": null,
+      "representative_quote": "If it turns out that there's a lot of people with schizophrenia who live on the Bowery, that doesn't mean that living on the Bowery is a cause of schizophrenia, it could be the other way around, so selection bias.",
+      "source_ids": [
+        "src_017"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Conducting Underpowered Biomarker Studies",
+      "summary": "Relying on small randomized clinical trials (e.g., 80 people per arm) to find precision medicine predictors.",
+      "details": "They are hopelessly underpowered to detect the complex multivariate interactions needed for precision treatment. With only a few hundred people, the noise in the data overwhelms the signal, leading researchers to overfit the data and find 'significant' results that fail to replicate.",
+      "representative_quote": "If you only have 80 people for arms you're not gonna be able to see the signal and there's nothing to replicate you're just going to be replicating a bunch of noise.",
+      "source_ids": [
+        "src_010",
+        "src_012",
+        "src_014"
+      ]
+    },
+    {
+      "label": "Jumping Straight to Expensive Biomarkers",
+      "summary": "Relying exclusively on expensive biomarkers (like neuroimaging or pharmacogenomics) while ignoring scalable predictors.",
+      "details": "It ignores highly predictive, scalable, and inexpensive data sources like self-report scales, clinical notes, and geocoded community data that can often predict treatment response or adherence just as accurately for a fraction of the cost.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010",
+        "src_012",
+        "src_014"
+      ]
+    },
+    {
+      "label": "Treating Mental Disorders as Acute Conditions",
+      "summary": "Failing to recognize mental disorders as chronic, recurrent conditions requiring long-term tracking.",
+      "details": "It leads to a lack of measurement-based care and long-term follow-up, meaning clinicians discharge patients and have no clue how they are doing or if they relapsed six months later.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Implementing Policy on Un-replicated Pilot Data",
+      "summary": "Making large-scale policy decisions based on preliminary or pilot study results.",
+      "details": "Pilot studies often have low response rates or thin data (especially if interrupted by external shocks like pandemics), lacking the stability required for sound policy recommendations.",
+      "representative_quote": "I think at the moment, Robert would agree that the results are too thin for us to base policy decisions on them.",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Ignoring Panel Fatigue in Trend Surveys",
+      "summary": "Failing to account for panel fatigue when comparing rolling panel trend surveys to cross-sectional trend surveys.",
+      "details": "Surveying the same panel members repeatedly over time can lead to panel fatigue, which artificially lowers prevalence estimates compared to surveys where respondents only participate once.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_023"
+      ]
+    }
+  ]
+}

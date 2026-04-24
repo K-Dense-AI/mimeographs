@@ -1,0 +1,42 @@
+{
+  "source_id": "src_019",
+  "summary": "A brief Forbes profile of Judy Faulkner, founder and CEO of Epic Systems. The source outlines her commitment to keeping her healthcare software company private, independent, and organically grown, while highlighting her philanthropic efforts and views on data privacy.",
+  "themes": [
+    "Corporate Independence",
+    "Healthcare Technology",
+    "Data Privacy",
+    "Philanthropy"
+  ],
+  "principles": [
+    {
+      "statement": "Maintain corporate independence by avoiding venture capital and acquisitions.",
+      "rationale": "By never raising venture capital, refusing to make acquisitions, and developing all software in-house, a company can remain private, independent, and employee-owned in perpetuity.",
+      "source_quote": null,
+      "source_id": "src_019"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Computer as Mental Clay",
+      "description": "Viewing computer programming as a highly creative, malleable process akin to sculpting physical clay, but existing entirely in the mental realm.",
+      "example": "Faulkner uses this metaphor to explain her initial draw to computer programming, comparing the creation of software to her love of making things out of clay.",
+      "source_id": "src_019"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "I always liked making things out of clay. And the computer was clay of the mind. Instead of physical, it was mental.",
+      "context": "Explaining her affinity for computers and programming.",
+      "source_id": "src_019"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Standardizing patient information without strict privacy safeguards.",
+      "why_it_fails": "It creates a 'Cambridge Analytica-type data risk,' jeopardizing sensitive patient data in a manner similar to how Facebook users' data was exploited.",
+      "source_id": "src_019"
+    }
+  ]
+}

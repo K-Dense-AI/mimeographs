@@ -1,0 +1,90 @@
+{
+  "source_id": "src_013",
+  "summary": "Robert Langer discusses his unconventional career path from chemical engineering to medicine, driven by a desire to impact people's lives rather than pursue lucrative corporate jobs. He emphasizes the importance of designing solutions from scratch, dreaming big, and persevering through failure to create world-changing, non-incremental innovations.",
+  "themes": [
+    "Career choices",
+    "Biomedical engineering",
+    "Innovation",
+    "Perseverance",
+    "Impact over incrementalism"
+  ],
+  "principles": [
+    {
+      "statement": "Aim for world-changing impact over incremental improvements.",
+      "rationale": "Incremental work only tweaks existing developments, whereas creating entirely new classes of solutions—like mRNA therapeutics—can fundamentally change the world.",
+      "source_quote": "do something that can change the world rather than do something incremental",
+      "source_id": "src_013"
+    },
+    {
+      "statement": "Success requires dreaming big and persevering through massive failure.",
+      "rationale": "Big dreams inevitably face obstacles and rejection. You must be willing to push through them and 'walk through walls' for the things you believe in.",
+      "source_quote": "to be successful I think you have to dream big dreams I think you also need to recognize that you're going to probably run into a lot of obstacles... and then I think you have to have a lot of perseverance",
+      "source_id": "src_013"
+    },
+    {
+      "statement": "Follow your passion above all else when choosing a career path.",
+      "rationale": "It is the single most important factor in finding fulfillment and making a meaningful difference in the world.",
+      "source_quote": "if I had to give one piece of advice about what career path to study I I think the most important thing is to follow your passion",
+      "source_id": "src_013"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "From-Scratch Material Design",
+      "when_to_apply": "When trying to solve novel clinical or biological problems where existing materials are insufficient.",
+      "steps": [
+        "Identify the clinical problem clinicians are trying to solve.",
+        "Ask what properties you really want in a biomaterial from an engineering, chemistry, and biology standpoint.",
+        "Design and synthesize the material entirely from scratch based on those ideal properties."
+      ],
+      "source_quote": "why can't you ask the question what do you really want in a material biomaterial from an engineering standpoint chemistry standpoint um biology standpoint and design it from scratch",
+      "source_id": "src_013"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Engineer's Lens in Medicine",
+      "description": "Approaching clinical and biological problems not as a traditional medical professional, but by applying engineering design principles to build solutions from the ground up.",
+      "example": "Looking at the problem of drug delivery and realizing you could engineer tiny particles (lipid nanoparticles) to deliver large molecules, which eventually enabled mRNA vaccines.",
+      "source_id": "src_013"
+    }
+  ],
+  "heuristics": [
+    "Do something that can change the world rather than do something incremental.",
+    "Walk through walls to get the things you believe in to work."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I've failed far far more than I've succeeded.",
+      "context": "Discussing how he was rejected by every chemical engineering department and had his first nine grants rejected.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "Do something that can change the world rather than do something incremental.",
+      "context": "Explaining his philosophy on choosing research projects and innovations.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "Why can't you ask the question what do you really want in a material... and design it from scratch.",
+      "context": "Describing his novel approach to creating biomaterials for medical use.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "To be successful I think you have to dream big dreams... and then I think you have to have a lot of perseverance whatever those obstacles are to you know push their way through them to walk through walls.",
+      "context": "Giving advice on what it takes to bring world-changing ideas to life.",
+      "source_id": "src_013"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Focusing on incremental innovation.",
+      "why_it_fails": "It only takes something that has already been developed and improves it a little bit, preventing you from creating entirely new classes of medicines or solutions that can truly change the world.",
+      "source_id": "src_013"
+    },
+    {
+      "description": "Choosing a career path based solely on high-paying job offers.",
+      "why_it_fails": "It often lacks a deeper purpose. Rejecting lucrative corporate jobs in favor of work that impacts people's lives leads to greater personal satisfaction and societal transformation.",
+      "source_id": "src_013"
+    }
+  ]
+}

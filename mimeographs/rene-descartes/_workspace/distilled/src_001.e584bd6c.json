@@ -1,0 +1,104 @@
+{
+  "source_id": "src_001",
+  "summary": "This source outlines René Descartes' foundational approach to philosophy in his Meditations. It details his rejection of past philosophical methods, his use of 'analysis' to discover metaphysical first principles, and his deployment of hyperbolic doubt (personified by the Evil Genius) to strip away sensory prejudices and establish absolute certainty.",
+  "themes": [
+    "First Philosophy",
+    "Hyperbolic Doubt",
+    "Method of Analysis",
+    "Clear and Distinct Ideas",
+    "Epistemology",
+    "Metaphysics"
+  ],
+  "principles": [
+    {
+      "statement": "We must rid ourselves of all formerly accepted opinions and build knowledge anew from the foundation.",
+      "rationale": "Many beliefs accepted since youth are false, making any complex knowledge constructed upon them inherently doubtful. A firm and permanent structure in the sciences requires a completely new foundation.",
+      "source_quote": "...seriously undertake to rid myself of all the opinions which I formally accepted, and commence to build anew from the foundation, if I wanted to establish any firm and permanent structure in the sciences.",
+      "source_id": "src_001"
+    },
+    {
+      "statement": "Metaphysical first principles cannot be obtained from or based on the senses.",
+      "rationale": "Sensory ideas contradict metaphysical truths and lead to endless controversies. To grasp true first principles, the mind must withdraw from empirical matters and attend to innate ideas.",
+      "source_quote": null,
+      "source_id": "src_001"
+    },
+    {
+      "statement": "Whatever is perceived clearly and distinctly must be true.",
+      "rationale": "Once it is established that a veracious God is our creator and the cause of all our clear and distinct ideas, we can be certain that these ideas are true, as God cannot be a deceiver.",
+      "source_quote": null,
+      "source_id": "src_001"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Method of Analysis",
+      "when_to_apply": "When trying to discover and understand the first principles of metaphysics, which are difficult to grasp because they contradict sensory prejudice.",
+      "steps": [
+        "Withdraw the mind from empirical matters and sensory ideas.",
+        "Entertain innate ideas.",
+        "Grasp the necessary relations between these ideas to make the discovery your own."
+      ],
+      "source_quote": "...shows the true way by which a thing is methodically discovered and derived, so that, if the reader care to follow it and give sufficient attention to everything, he understands the matter no less perfectly and makes it as much his own as if he had discovered it.",
+      "source_id": "src_001"
+    },
+    {
+      "name": "Hyperbolic Doubt",
+      "when_to_apply": "At the beginning of philosophical inquiry to rid oneself of sensory prejudices and reach a state of indifference.",
+      "steps": [
+        "Take on a contrary belief of set purpose.",
+        "Pretend that all former opinions are entirely false and imaginary.",
+        "Suppose an all-powerful Evil Genius is actively deceiving you.",
+        "Maintain this posture until judgment is no longer dominated by bad usage."
+      ],
+      "source_quote": "...taking of set purpose a contrary belief, I allow myself to be deceived, and for a time pretend that all these opinions are entirely false and imaginary, until at last, having thus balanced my former prejudices with my latter, my judgment will no longer be dominated by bad usage...",
+      "source_id": "src_001"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Evil Genius",
+      "description": "A personification of hyperbolic doubt used as a counterbalance to former sensory beliefs. It acts as a mental shorthand to sustain a state of indifference without needing to constantly review extreme skeptical arguments.",
+      "example": "Supposing that an evil genius is deceiving him every time he adds two and three, or counts the sides of a square, to prevent himself from falling back into unexamined assumptions.",
+      "source_id": "src_001"
+    },
+    {
+      "name": "The Architectural Metaphor of Knowledge",
+      "description": "Viewing human knowledge as a physical structure that requires a firm, permanent foundation. If the foundation (early beliefs) is flawed, the entire structure must be demolished and rebuilt from scratch.",
+      "example": null,
+      "source_id": "src_001"
+    }
+  ],
+  "heuristics": [
+    "Never trust perceptions of objects that are hardly perceptible or very far away, as the senses have previously deceived us.",
+    "To overcome deep-seated prejudices, deliberately pretend that all former opinions are entirely false and imaginary."
+  ],
+  "signature_quotes": [
+    {
+      "text": "[I]t is now some years since I detected how many were the false beliefs that I had from my earliest youth admitted as true, and how doubtful was everything I had since constructed on this basis; and from that time I was convinced that I must once and for all seriously undertake to rid myself of all the opinions which I formally accepted, and commence to build anew from the foundation...",
+      "context": "Opening sentence of the First Meditation, announcing his project of radical doubt.",
+      "source_id": "src_001"
+    },
+    {
+      "text": "I shall then suppose, not that God who is supremely good and the fountain of truth, but some evil genius not less powerful than deceitful, has employed his whole energies in deceiving me.",
+      "context": "Introducing the Evil Genius hypothesis in the First Meditation.",
+      "source_id": "src_001"
+    },
+    {
+      "text": "[W]e should likewise study logic – not that of the Schools... but the logic that teaches us how best to direct our reason, in order to discover those truths of which we are ignorant.",
+      "context": "From the Preface to the Principles of Philosophy, rejecting Aristotelian logic in favor of his own method.",
+      "source_id": "src_001"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on Aristotelian Logic (the logic of the Schools).",
+      "why_it_fails": "It only teaches how to repeat words about things we do not know without forming judgment, which corrupts rather than increases good sense.",
+      "source_id": "src_001"
+    },
+    {
+      "description": "Using the method of synthesis (the geometer's method of deduction) to teach metaphysics.",
+      "why_it_fails": "Metaphysical principles contradict sensory prejudice. If presented simply via deduction, hostile or inattentive readers will easily deny them because they haven't internalized the principles through their own discovery.",
+      "source_id": "src_001"
+    }
+  ]
+}

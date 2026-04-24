@@ -1,0 +1,56 @@
+{
+  "source_id": "src_031",
+  "summary": "A meta-analysis co-authored by Graham A. Colditz demonstrating a 24% reduction in colon cancer risk associated with physical activity. The study emphasizes the methodological importance of separating colon and rectal cancer endpoints to accurately assess the public health burden of physical inactivity, and confirms that the protective benefits of exercise apply equally to men and women.",
+  "themes": [
+    "Epidemiology",
+    "Cancer Prevention",
+    "Physical Activity",
+    "Public Health Methodology"
+  ],
+  "principles": [
+    {
+      "statement": "Colon and rectal cancers must be evaluated separately when studying the protective effects of physical activity.",
+      "rationale": "Physical activity is not consistently associated with rectal cancer. Combining them into a single 'colorectal cancer' endpoint dilutes the observed benefit and underestimates the true impact of inactivity on colon cancer.",
+      "source_quote": "Estimation of the risk reduction associated with physical activity separately for colon cancer is important for public health because the disease burden attributable to physical inactivity is likely underestimated by including rectal cancer end points.",
+      "source_id": "src_031"
+    },
+    {
+      "statement": "Physical activity provides a significant, quantifiable reduction in the risk of developing colon cancer for both men and women.",
+      "rationale": "A comprehensive meta-analysis shows a 24% overall risk reduction, with consistent benefits across both occupational and leisure-time activity, and across genders.",
+      "source_quote": "This meta-analysis provides additional support for the inverse association between physical activity and colon cancer. It provides a formal estimate showing that individuals can likely reduce their risk of colon cancer, overall, by 24% through participation in physical activity.",
+      "source_id": "src_031"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Estimation of the risk reduction associated with physical activity separately for colon cancer is important for public health because the disease burden attributable to physical inactivity is likely underestimated by including rectal cancer end points.",
+      "context": "Explaining the methodological decision to exclude studies that only reported combined colorectal cancer endpoints.",
+      "source_id": "src_031"
+    },
+    {
+      "text": "Overall, we found no difference in risk reduction between men and women. This... contradicts suggestions that the beneficial effects of exercise may be attenuated in women.",
+      "context": "Discussing the findings of the meta-analysis stratified by gender.",
+      "source_id": "src_031"
+    },
+    {
+      "text": "[I]ndividuals can likely reduce their risk of colon cancer, overall, by 24% through participation in physical activity.",
+      "context": "Summarizing the primary conclusion of the meta-analysis.",
+      "source_id": "src_031"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Combining colon and rectal cancer into a single 'colorectal cancer' endpoint when studying the benefits of physical activity.",
+      "why_it_fails": "Because physical activity is not consistently associated with rectal cancer, including rectal cancer endpoints dilutes the data and underestimates the disease burden attributable to physical inactivity for colon cancer.",
+      "source_id": "src_031"
+    },
+    {
+      "description": "Assuming that the protective effects of physical activity against colon cancer are weaker in women than in men.",
+      "why_it_fails": "The meta-analysis data shows a similar overall risk reduction for both men (RR=0.76) and women (RR=0.79), contradicting previous suggestions of attenuated benefits for women.",
+      "source_id": "src_031"
+    }
+  ]
+}

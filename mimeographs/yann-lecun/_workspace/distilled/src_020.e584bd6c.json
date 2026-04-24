@@ -1,0 +1,95 @@
+{
+  "source_id": "src_020",
+  "summary": "Yann LeCun argues that scaling Large Language Models will not lead to human-level AGI, as current systems are essentially massive retrieval engines incapable of true reasoning or invention. He emphasizes that achieving AGI requires new architectures capable of understanding the physical world, persistent memory, and planning, and stresses that this will be a continuous, community-wide effort rather than a single 'magic bullet' discovery by a secretive startup.",
+  "themes": [
+    "Artificial General Intelligence (AGI)",
+    "Large Language Models (LLMs)",
+    "AI Deployment Challenges",
+    "Open Research",
+    "AI History and Winters"
+  ],
+  "principles": [
+    {
+      "statement": "Scaling up LLMs will not lead to human-level AI.",
+      "rationale": "Current models act as gigantic memory and retrieval systems rather than entities capable of inventing solutions to new problems.",
+      "source_quote": "We are not going to get to human level AI by just scaling up MLMs. This is just not going to happen.",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Human-level AI requires four fundamental characteristics that current systems lack.",
+      "rationale": "To match the capabilities of intelligent animals and humans, AI systems must be able to understand the physical world, maintain persistent memory, reason, and plan.",
+      "source_quote": "I'm talking about understanding the physical world um having persistent memory and being able to reason and plan. Those are the four characteristics that that you know need to be there.",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "AGI will not be a single event or a sudden discovery.",
+      "rationale": "Progress will come from continuous conceptual ideas that scale over time, contributed by the entire global research community rather than a single entity.",
+      "source_quote": "there's not going to be like a day before which there is no AGI and after which we we have AGI. This is not going to be an event.",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Open research accelerates progress.",
+      "rationale": "Sharing research allows the broader community to build upon ideas, moving the entire field forward faster than closed, proprietary efforts.",
+      "source_quote": "And the people who share their research are going to move faster than the ones that don't.",
+      "source_id": "src_020"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Retrieval vs. Invention (The Gigantic Memory vs. PhD)",
+      "description": "A lens for evaluating AI capabilities by distinguishing between systems that merely retrieve information from massive datasets and true intelligence that can invent solutions to novel problems.",
+      "example": "Comparing an LLM to a system with gigantic memory and retrieval ability that feels like a PhD, versus an actual PhD who can invent new things.",
+      "source_id": "src_020"
+    },
+    {
+      "name": "The 'Last Mile' of Reliability",
+      "description": "The concept that creating an impressive demo is relatively easy, but achieving the final few percentages of reliability required for practical, safe integration into existing workflows is the hardest part of technology deployment.",
+      "example": "Comparing the difficulty of deploying reliable enterprise AI today to the stalled progress of level 5 self-driving cars and the historical failure of IBM Watson in healthcare.",
+      "source_id": "src_020"
+    }
+  ],
+  "heuristics": [
+    "If a company tells you they will reach human-level AI just by training on more data with a few tricks, do not invest in them.",
+    "Do not believe that a small startup with five people has discovered the secret magic bullet to AGI."
+  ],
+  "signature_quotes": [
+    {
+      "text": "We are not going to get to human level AI by just scaling up MLMs. This is just not going to happen.",
+      "context": "Discussing the limitations of current Large Language Models in achieving AGI.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "it would feel like you have you know a PhD sitting next to you but it's not a PhD you have next to you it's you know a system with a gigantic uh memory and retrieval ability not not a system that can invent solutions to to new problems.",
+      "context": "Explaining the illusion of intelligence in current AI systems.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "there's not going to be like a day before which there is no AGI and after which we we have AGI. This is not going to be an event.",
+      "context": "Describing the timeline and nature of AGI development.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "And the people who share their research are going to move faster than the ones that don't.",
+      "context": "Highlighting the importance of open research in the pursuit of advanced AI.",
+      "source_id": "src_020"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Believing AGI will be achieved simply by scaling LLMs and training on more data.",
+      "why_it_fails": "LLMs lack the fundamental abilities to understand the physical world, reason, plan, and invent solutions to new problems; they are merely massive retrieval systems.",
+      "source_id": "src_020"
+    },
+    {
+      "description": "Expecting a single 'magic bullet' discovery for AGI by a secretive startup.",
+      "why_it_fails": "True progress requires continuous conceptual ideas from the entire global research community, and closed research moves slower than open collaboration.",
+      "source_id": "src_020"
+    },
+    {
+      "description": "Assuming impressive AI demos easily translate to reliable enterprise deployment.",
+      "why_it_fails": "The 'last mile' of reliability—making systems practical, safe, and integrated without hurting the labor force—is historically where technologies falter, similar to expert systems in the 1980s or IBM Watson.",
+      "source_id": "src_020"
+    }
+  ]
+}

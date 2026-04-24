@@ -1,0 +1,88 @@
+{
+  "source_id": "src_027",
+  "summary": "Ilya Sutskever argues that the 'age of scaling' in AI is ending, giving way to a new 'age of research.' He highlights that current models suffer from 'jaggedness' and poor generalization compared to humans, whose learning is efficiently guided by emotion-based value functions.",
+  "themes": [
+    "AI Scaling Limits",
+    "Generalization",
+    "Reinforcement Learning",
+    "Human vs. Machine Learning",
+    "Future of AI Research"
+  ],
+  "principles": [
+    {
+      "statement": "The 'age of scaling' is ending, and the 'age of research' is beginning.",
+      "rationale": "Pre-training data is finite, and simply multiplying compute scale by 100x will no longer transform everything. The industry must return to discovering fundamental new ideas.",
+      "source_quote": "Is the belief that if you just 100x the scale, everything would be transformed? I don’t think that’s true. So it’s back to the age of research again, just with big computers.",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "Humans possess a superior 'value function' driven by emotion that enables better generalization.",
+      "rationale": "Human emotions act as an evolutionary hardcoded system that evaluates whether an intermediate step is good or bad, making human learning far more sample-efficient and robust than current AI.",
+      "source_quote": "These models somehow just generalize dramatically worse than people. It’s super obvious.",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "AI's current bottleneck is fundamental ideas, not just compute.",
+      "rationale": "The success of scaling caused the entire industry to pursue the same low-risk strategy, stifling the discovery of new machine learning principles needed to solve AI's generalization problem.",
+      "source_quote": "One consequence of the age of scaling is that scaling sucked out all the air in the room. Because scaling sucked out all the air in the room, everyone started to do the same thing.",
+      "source_id": "src_027"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Jaggedness",
+      "description": "The phenomenon where highly competent AI models excel at difficult evaluations but fail inexplicably at basic tasks or get stuck in trivial error loops.",
+      "example": "A model fixing a coding bug by introducing a second bug, and when corrected on the second bug, reverting back to the first bug in an endless loop.",
+      "source_id": "src_027"
+    },
+    {
+      "name": "Emotion as a Value Function",
+      "description": "Viewing human emotion as an evolutionary hardcoded value function that evaluates intermediate steps, enabling efficient decision-making and learning.",
+      "example": "A brain-damaged patient who lost emotional processing became unable to make simple decisions, taking hours to decide which socks to wear, demonstrating that emotion is critical for evaluating choices.",
+      "source_id": "src_027"
+    }
+  ],
+  "heuristics": [
+    "Focus purely on the research first, and the business model or monetization strategy will reveal itself later."
+  ],
+  "signature_quotes": [
+    {
+      "text": "This is one of the very confusing things about the models right now. How to reconcile the fact that they are doing so well on evals? ... But the economic impact seems to be dramatically behind.",
+      "context": "Discussing the 'jaggedness' and real-world fragility of current LLMs.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "Is the belief that if you just 100x the scale, everything would be transformed? I don’t think that’s true. So it’s back to the age of research again, just with big computers.",
+      "context": "Explaining why the era of brute-force scaling is ending.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "One consequence of the age of scaling is that scaling sucked out all the air in the room. Because scaling sucked out all the air in the room, everyone started to do the same thing.",
+      "context": "Critiquing the AI industry's monolithic focus on scaling over the past few years.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "The thing which I think is the most fundamental is that these models somehow just generalize dramatically worse than people.",
+      "context": "Identifying the core problem the next cycle of AI research must solve.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "Right now, we just focus on the research, and then the answer to that question will reveal itself.",
+      "context": "Answering how his new company, Safe Superintelligence (SSI), will make money.",
+      "source_id": "src_027"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying purely on brute-force scaling and massive compute to achieve general intelligence.",
+      "why_it_fails": "High-quality pre-training data is running out, and scaling alone does not solve the fundamental issue that models generalize dramatically worse than humans.",
+      "source_id": "src_027"
+    },
+    {
+      "description": "Evaluation-Driven Training and RL Tunnel Vision.",
+      "why_it_fails": "It makes models 'a little too single-minded and narrowly focused.' Models become optimized to ace specific tests rather than mastering general skills, similar to a student over-practicing for competitive programming but failing to generalize.",
+      "source_id": "src_027"
+    }
+  ]
+}

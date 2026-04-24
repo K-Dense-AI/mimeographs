@@ -1,0 +1,97 @@
+{
+  "source_id": "src_010",
+  "summary": "Judy Faulkner discusses the founding and evolution of Epic Systems, emphasizing the benefits of remaining a privately held company. She shares insights on mitigating physician burnout, the role of AI in predicting sepsis, Epic's rapid and non-profit-driven response to the COVID-19 pandemic, and the importance of maintaining a fun, patient-centered corporate culture.",
+  "themes": [
+    "Healthcare IT",
+    "Corporate Culture",
+    "Physician Burnout",
+    "COVID-19 Response",
+    "Artificial Intelligence",
+    "Private Ownership"
+  ],
+  "principles": [
+    {
+      "statement": "Remain privately owned to avoid short-term financial pressures.",
+      "rationale": "Public companies are subjected to the 'tyranny of the quarter' and CEOs are forced to spend all their time managing Wall Street expectations rather than focusing on the product.",
+      "source_quote": "being privately owned is great because we don't have to worry about the tyranny of the quarter",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "In a crisis, the speed of information is more important than perfection.",
+      "rationale": "Waiting months for traditional medical journals to publish findings during a pandemic costs lives. It is better to release actionable data immediately.",
+      "source_quote": "it's better to have good data available quickly than perfect data available too late",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Do not profit from a global crisis.",
+      "rationale": "During the COVID-19 pandemic, Epic provided necessary software modules, telehealth capabilities, and home monitoring tools for free because it was the ethical thing to do.",
+      "source_quote": "we have not charged anything for anything cobalt related... we're saying you shouldn't make money off of coped",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Work and product design should be fun.",
+      "rationale": "Life is short, so the workplace and even software module names (like 'Bugsy' for infection control) should be playful rather than boring.",
+      "source_quote": "life is short it's a whole lot more fun to have fun with the names that have boring names",
+      "source_id": "src_010"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Mitigating EHR-Driven Physician Burnout",
+      "when_to_apply": "When healthcare providers experience burnout or frustration from using electronic health records.",
+      "steps": [
+        "Personalize the software settings to match the physician's specific workflow and preferences.",
+        "Provide continuous, ongoing training (e.g., 'at the elbow' training) to uncover unknown software capabilities.",
+        "Utilize 'physician builders' who know their specialty well to adjust the software's workflow for their specific environment."
+      ],
+      "source_quote": "there are several things that are really important for avoiding physician burnout... number one... they need to use the settings... thing number two is training... and the workflow is critical of course so that matches a lot to physician builders",
+      "source_id": "src_010"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The BFF (Best Friend Forever) Relationship",
+      "description": "A customer relationship model that replaces the traditional 'account manager' with a two-way partnership. The BFF identifies a customer's best practices to share with the world, and brings external best practices back to the customer.",
+      "example": "Epic assigns BFFs to hospital systems to cross-pollinate innovative workflows across different healthcare organizations, creating a dynamic where customers proudly introduce their Epic representative as their 'BFF'.",
+      "source_id": "src_010"
+    }
+  ],
+  "heuristics": [
+    "Better to have good data available quickly than perfect data available too late.",
+    "If you're going to work here and spend your time here, make it fun."
+  ],
+  "signature_quotes": [
+    {
+      "text": "being privately owned is great because we don't have to worry about the tyranny of the quarter",
+      "context": "Explaining why Epic Systems has never gone public.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "it's better to have good data available quickly than perfect data available too late",
+      "context": "Discussing the creation of ehrn.org to publish COVID-19 data rapidly.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "life is short it's a whole lot more fun to have fun with the names that have boring names",
+      "context": "Explaining why Epic uses playful names like 'Bugsy' for its software modules.",
+      "source_id": "src_010"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Taking a company public.",
+      "why_it_fails": "It forces leadership to focus on quarterly growth ('the tyranny of the quarter') and requires the CEO to spend all their time dealing with Wall Street instead of focusing on the product and customers.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Expecting patients to manage their own medical records.",
+      "why_it_fails": "While it sounds good in theory, patients eventually stop updating them, forget to enter information, or input medications incorrectly. 99.5% of patients prefer health systems to manage and exchange the data.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Waiting for perfect data in a crisis.",
+      "why_it_fails": "Relying on traditional medical journal publishing timelines during a pandemic takes weeks or months, which is too late to save lives.",
+      "source_id": "src_010"
+    }
+  ]
+}

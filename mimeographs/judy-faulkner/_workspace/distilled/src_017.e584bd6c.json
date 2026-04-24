@@ -1,0 +1,84 @@
+{
+  "source_id": "src_017",
+  "summary": "In this 2020 interview, Epic Systems CEO Judy Faulkner discusses the company's rapid response to the COVID-19 pandemic, including scaling telehealth and deploying predictive deterioration models. She outlines her philosophy on interoperability, the inherent tension between software power and ease of use, and the importance of respecting patient privacy over deploying invasive tracking technologies.",
+  "themes": [
+    "Healthcare IT",
+    "Interoperability",
+    "COVID-19 Response",
+    "Artificial Intelligence",
+    "Data Privacy",
+    "User Experience"
+  ],
+  "principles": [
+    {
+      "statement": "Our job is to be heroes helping heroes.",
+      "rationale": "Health systems and frontline workers are the true heroes saving lives; the role of a healthcare software vendor is to rapidly build and adapt tools that support them.",
+      "source_quote": "I think of our health systems as heros. They're heros. And we see our job as being heros helping heros, and we're proud to be that.",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Don't use another system's lack of capability as an excuse for failing to interoperate.",
+      "rationale": "If other vendors or health systems lack the technology to receive data, you must proactively build workarounds (like web viewers) so patients can still share their records anywhere.",
+      "source_quote": "Well, we got frustrated with not being able to interoperate with a health system that couldn't interoperate. So we said, \"let's stop thinking of that as an excuse, they can't interoperate, and figure out what we can do to make it -- them interoperate.\"",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "AI and clinicians must mutually learn from one another.",
+      "rationale": "For artificial intelligence to effectively team with doctors, physicians need to understand how the AI works, and the AI systems need to learn from the physicians' actions.",
+      "source_quote": "I think the more that we can help the physicians learn what the AI does and the more that the physicians can help learn what the AI does, the better it's going to work together.",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Do not deploy technology that the majority of users find too invasive.",
+      "rationale": "Even if a technology (like contact tracing) is possible and potentially useful for public health, it should not be forced onto a platform if public consensus views it as a violation of privacy.",
+      "source_quote": "But right now our feeling is that with so many people feeling it isn't the right thing to do, that it becomes too invasive, right now we are not going forward with that.",
+      "source_id": "src_017"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Fax Machine Analogy",
+      "description": "A mental model for understanding the physical limits of data sharing. Just as a fax cannot be sent to an office without a fax machine, electronic health records cannot be seamlessly exchanged with a system that lacks interoperability standards.",
+      "example": "Faulkner used this to explain why Epic had to build 'Share Everywhere' (a web viewer) to bypass the limitations of non-interoperable clinics.",
+      "source_id": "src_017"
+    }
+  ],
+  "heuristics": [
+    "You always have the challenge of ease of use versus power."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I think of our health systems as heros. They're heros. And we see our job as being heros helping heros.",
+      "context": "Discussing Epic's rapid deployment of telehealth and field hospital software during the early COVID-19 pandemic.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "It's like a fax machine. We can't send a fax to someone who doesn't have a fax machine, so you can't interoperate with someone who doesn't interoperate.",
+      "context": "Explaining the fundamental technical hurdle of healthcare interoperability.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "Let's stop thinking of that as an excuse, they can't interoperate, and figure out what we can do to make it -- them interoperate.",
+      "context": "Describing the motivation behind creating Epic's 'Share Everywhere' feature.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "You always have the challenge of ease of use versus power. It needs to do all these things, but at the same time, it needs to be easy to use.",
+      "context": "Addressing clinician complaints about the complexity of electronic health records.",
+      "source_id": "src_017"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Waiting for industry-wide standardization before building interoperability.",
+      "why_it_fails": "Trade associations and competitors move too slowly. Epic chose to build interoperability across its own network first rather than waiting for universal standards.",
+      "source_id": "src_017"
+    },
+    {
+      "description": "Forcing invasive tracking features onto a user base without their consent.",
+      "why_it_fails": "It violates user trust. When a poll showed two-thirds of people opposed folding COVID-19 contact tracing into their health apps, Epic halted the initiative.",
+      "source_id": "src_017"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "source_id": "src_021",
+  "summary": "A snapshot of Andrej Karpathy's X (Twitter) profile containing his thoughts on the evolution of programming and human skills in the age of AI. He highlights the shift toward natural language as a programming interface, introduces the concept of 'vibe coding', and argues that human agency is now far more valuable than raw intelligence.",
+  "themes": [
+    "AI-assisted programming",
+    "Human skills in the AI era",
+    "Natural language processing",
+    "Agency vs. Intelligence"
+  ],
+  "principles": [
+    {
+      "statement": "Agency is significantly more powerful and scarce than intelligence.",
+      "rationale": "Because intelligence is becoming commoditized and readily available via AI, the ability to take action and drive outcomes (agency) is now the true differentiator, despite society's historical obsession with IQ.",
+      "source_quote": "Agency > Intelligence I had this intuitively wrong for decades, I think due to a pervasive cultural veneration of intelligence, various entertainment/media, obsession with IQ etc. Agency is significantly more powerful and significantly more scarce.",
+      "source_id": "src_021"
+    },
+    {
+      "statement": "English is the new programming language.",
+      "rationale": "As Large Language Models become highly capable, natural language is replacing traditional syntax as the primary way to instruct computers.",
+      "source_quote": "The hottest new programming language is English",
+      "source_id": "src_021"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Vibe Coding",
+      "when_to_apply": "When building software using highly advanced LLM-based coding assistants.",
+      "steps": [
+        "Fully give in to the vibes.",
+        "Embrace exponentials.",
+        "Forget that the underlying code even exists.",
+        "Talk directly to the AI composer (e.g., using voice-to-text like SuperWhisper)."
+      ],
+      "source_quote": "There's a new kind of coding I call \"vibe coding\", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists.",
+      "source_id": "src_021"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Vibe Coding",
+      "description": "Treating software development not as writing syntax, but as guiding an AI through natural language and intuition, abstracting away the underlying code entirely.",
+      "example": "Using Cursor Composer with Claude Sonnet and talking to it via SuperWhisper to build applications without looking at the code.",
+      "source_id": "src_021"
+    }
+  ],
+  "heuristics": [
+    "Hire for agency over intelligence."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The hottest new programming language is English",
+      "context": "Commenting on the shift towards natural language prompting for AI.",
+      "source_id": "src_021"
+    },
+    {
+      "text": "Agency > Intelligence I had this intuitively wrong for decades, I think due to a pervasive cultural veneration of intelligence, various entertainment/media, obsession with IQ etc.",
+      "context": "Reflecting on what human traits are most valuable now that AI provides intelligence on demand.",
+      "source_id": "src_021"
+    },
+    {
+      "text": "There's a new kind of coding I call \"vibe coding\", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists.",
+      "context": "Describing the experience of programming with advanced LLMs like Cursor Composer.",
+      "source_id": "src_021"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Venerating intelligence and obsessing over IQ when evaluating or hiring people.",
+      "why_it_fails": "Intelligence is becoming widely available ('on tap') via AI, making it less of a differentiator. Focusing on intelligence causes you to miss out on agency, which is much more powerful and scarce.",
+      "source_id": "src_021"
+    }
+  ]
+}

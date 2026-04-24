@@ -1,0 +1,23 @@
+{
+  "source_id": "src_032",
+  "summary": "This source is the ACM press release announcing Richard S. Sutton and Andrew G. Barto as the recipients of the 2024 A.M. Turing Award. It provides a high-level historical overview of their foundational contributions to reinforcement learning, but as a third-party biographical citation, it does not contain Sutton's direct quotes, personal heuristics, or detailed thought processes.",
+  "themes": [
+    "Reinforcement Learning",
+    "Artificial Intelligence",
+    "Markov Decision Processes",
+    "Temporal Difference Learning"
+  ],
+  "principles": [],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Agent-Reward Model",
+      "description": "Viewing artificial intelligence through the lens of an 'agent' that perceives and acts within a stochastic environment. The agent's goal is to maximize its long-term cumulative reward based on a signal that denotes the quality of its behavior, even when the environment and the rewards are initially unknown.",
+      "example": "This model has been applied to a vast range of problems, including robot motor skill learning (like solving a Rubik's Cube), network congestion control, and training large language models via reinforcement learning from human feedback (RLHF).",
+      "source_id": "src_032"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": []
+}

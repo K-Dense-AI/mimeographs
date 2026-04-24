@@ -1,0 +1,42 @@
+{
+  "source_id": "src_026",
+  "summary": "This 1998 prospective study, co-authored by Julie E. Buring, demonstrates that C-reactive protein (CRP) is a strong, independent risk factor for future cardiovascular events in apparently healthy middle-aged women. The findings established that adding CRP to traditional risk models significantly improves the prediction of cardiovascular disease, even among women considered to be at low risk.",
+  "themes": [
+    "Cardiovascular Disease",
+    "Women's Health",
+    "C-Reactive Protein (CRP)",
+    "Risk Prediction",
+    "Epidemiology"
+  ],
+  "principles": [
+    {
+      "statement": "C-reactive protein (CRP) is a strong, independent predictor of future cardiovascular events in apparently healthy women.",
+      "rationale": "Prospective data from the Women's Health Study showed that women with the highest baseline CRP levels had a 5-fold increase in the risk of any vascular event and a 7-fold increase in the risk of MI or stroke, independent of other traditional risk factors.",
+      "source_quote": "In these prospective data among women, CRP is a strong independent risk factor for cardiovascular disease that adds to the predictive value of risk models based on usual factors alone.",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Low-grade inflammation serves as a critical marker for subsequent cardiovascular disease, even in low-risk populations.",
+      "rationale": "Elevated CRP levels predicted vascular events even among subgroups of women with no readily apparent markers for disease, such as non-smokers, those without hyperlipidemia, and those with no family history of premature atherosclerosis.",
+      "source_quote": "These data support the hypothesis that low-grade inflammation is a marker for subsequent cardiovascular disease.",
+      "source_id": "src_026"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "In these prospective data among women, CRP is a strong independent risk factor for cardiovascular disease that adds to the predictive value of risk models based on usual factors alone.",
+      "context": "Concluding the findings of the Women's Health Study regarding CRP and cardiovascular risk prediction.",
+      "source_id": "src_026"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying exclusively on traditional cardiovascular risk factors (like cholesterol, blood pressure, and smoking) to predict risk in women.",
+      "why_it_fails": "Traditional models miss underlying low-grade inflammation. The simultaneous assessment of CRP and traditional risk factors provides an improved ability to predict risk over models limited to traditional factors alone, identifying at-risk individuals who otherwise appear healthy.",
+      "source_id": "src_026"
+    }
+  ]
+}

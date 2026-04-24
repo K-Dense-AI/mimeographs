@@ -1,0 +1,109 @@
+{
+  "source_id": "src_014",
+  "summary": "Daphne Koller discusses the evolution of probabilistic graphical models, the critical distinction between causality and correlation in AI, and her transition from academia to industry. She emphasizes that building impactful, real-world products requires the aligned incentives of a company, the necessity of massive, domain-specific data (like her 'data printing factory' for biology), and the immense value found at the intersection of different disciplines.",
+  "themes": [
+    "Probabilistic Graphical Models",
+    "Causality vs. Correlation",
+    "Academia vs. Industry Incentives",
+    "Data Scale and Generation",
+    "Interdisciplinary AI (AI + X)"
+  ],
+  "principles": [
+    {
+      "statement": "If you want to have a real impact, you need to build something people want to use, which requires leaving academia for industry.",
+      "rationale": "Academia incentivizes publishing papers and individual credit. It does not incentivize building persistent, reusable products or data pipelines, which are necessary for real-world adoption.",
+      "source_quote": "I very quickly came to the realization that if you want to have a real impact, you need to build something that people would want to use. It's not enough to write papers... one had to be at a company because the incentives are just not aligned to do that within academia.",
+      "source_id": "src_014"
+    },
+    {
+      "statement": "Focus on what works, not what is most elegant.",
+      "rationale": "Solving a real problem provides a clarifying lens that strips away unnecessary complexity. Sometimes a simple, established model is the fastest way to build something that actually works in the real world.",
+      "source_quote": "First of all, the focus of the work is not do you use the coolest, most elegant machine learning method, it's do you use the thing that works. Um and so you need to prioritize that. And sometimes it's just XGBoost just works and it's hard to beat.",
+      "source_id": "src_014"
+    },
+    {
+      "statement": "Causality is essential when AI intervenes in the physical world.",
+      "rationale": "While correlational data is sufficient for purely observational tasks like text summarization, intervening in complex systems (like human biology or driving) requires causal understanding to avoid dangerous or misleading conclusions.",
+      "source_quote": "as agentic AI makes its way out of the realm of purely virtual and into the physical world where consequences could be much much more... important and often times even, um matters of life and death... you need to start thinking really hard about the difference between correlation and causation.",
+      "source_id": "src_014"
+    },
+    {
+      "statement": "The most interesting and impactful work happens at the boundary of disciplines.",
+      "rationale": "Intersections offer massive opportunities because people haven't thought to apply methods from one field to the other, though it requires the hard work of learning both disciplines to connect the dots.",
+      "source_quote": "I think that often the most interesting work sits in those kind of interfaces where people have simply never thought of using this method in this way in this context. And there's so much room for quote low-hanging fruit",
+      "source_id": "src_014"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Data Printing Factory",
+      "when_to_apply": "When a domain (like human biology) lacks the massive 'web-scale' data required to train modern, high-capacity AI models.",
+      "steps": [
+        "Generate cellular systems from human-derived cells at massive scale using robotics to ensure high quality and avoid human batch effects.",
+        "Perturb the cells (e.g., intervene at a specific gene) to generate data that answers fundamental causality questions.",
+        "Measure the resulting cell states across multiple modalities (e.g., molecular omics, imaging) to capture different perspectives.",
+        "Integrate this cellular data with human-level data (MRI, clinical data, system-level phenomena) to synthesize a 'virtual human' model."
+      ],
+      "source_quote": "which is why we built the data printing factory that we have right now, which is how do we create at scale data... to drive our understanding of fundamental biology of in our case human health and disease.",
+      "source_id": "src_014"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Causality vs. Correlation Lens",
+      "description": "A framework for evaluating AI tasks based on whether they observe or intervene. Observational tasks (summarizing text) can rely on correlation. Interventional tasks (treating a disease, driving a car) require causal models to predict the outcome of an action.",
+      "example": "Using machine learning to ask 'if I make an intervention in a human being by modulating a particular target, will it make this person better?' This is fundamentally a causal question that cannot be answered with correlational data.",
+      "source_id": "src_014"
+    },
+    {
+      "name": "Data Scale Thresholds (The Bitter Lesson)",
+      "description": "The realization that model capacity and emergent properties are fundamentally unlocked by crossing a threshold of massive data scale, rather than just algorithmic elegance.",
+      "example": "Realizing that biology lacked 'web-scale' data, prompting the creation of a data factory to cross the threshold where 'magic begins to happen' and emergent properties appear.",
+      "source_id": "src_014"
+    }
+  ],
+  "heuristics": [
+    "Sometimes XGBoost just works and it's hard to beat.",
+    "In a startup, you succeed or fail as a team; in academia, you succeed or fail as an individual.",
+    "Data is not fungible; web-scale data in one domain doesn't solve problems in another."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I very quickly came to the realization that if you want to have a real impact, you need to build something that people would want to use.",
+      "context": "Discussing why she left academia to found a company.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "First of all, the focus of the work is not do you use the coolest, most elegant machine learning method, it's do you use the thing that works.",
+      "context": "On the difference between academic research and industry application.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "Data is not fungible. The fact that we have web-scale data for text and images of cats and dogs and airplanes doesn't mean that we can just take that and transfer those capabilities like that to asking answering questions about human biology.",
+      "context": "Explaining why Insitro had to build its own data generation factory.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "I think that often the most interesting work sits in those kind of interfaces where people have simply never thought of using this method in this way in this context.",
+      "context": "Advising students on pursuing interdisciplinary AI careers.",
+      "source_id": "src_014"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Trying to build persistent, usable products within academia.",
+      "why_it_fails": "The incentives are misaligned. Grad students and postdocs are incentivized to get data for papers and move on, not to build data pipelines, maintain reusability, or create something a hospital can actually buy.",
+      "source_id": "src_014"
+    },
+    {
+      "description": "Relying on correlational data for interventional tasks.",
+      "why_it_fails": "You fall prey to false and misleading conclusions when you try to answer causal questions (like drug efficacy or physical world interventions) using purely observational data.",
+      "source_id": "src_014"
+    },
+    {
+      "description": "Assuming data is fungible across domains.",
+      "why_it_fails": "Having massive datasets in one domain (like internet text) doesn't automatically grant capabilities in domains where the necessary data hasn't even been generated yet (like human biology).",
+      "source_id": "src_014"
+    }
+  ]
+}

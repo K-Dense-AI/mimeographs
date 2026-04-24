@@ -1,0 +1,515 @@
+{
+  "expert_name": "Mark Zuckerberg",
+  "themes": [
+    "The Metaverse & Immersive Technology",
+    "Open Source AI & Personal Superintelligence",
+    "Content Moderation & Free Expression",
+    "Community Building & Social Connection",
+    "Long-Term Strategy & Philanthropy",
+    "The Hacker Way & Rapid Iteration",
+    "Management & Leadership Psychology"
+  ],
+  "principles": [
+    {
+      "label": "Platforms Should Not Be Arbiters of Truth",
+      "summary": "Social media companies exist to give people a voice. Deciding what is true and false for billions of people is a dangerous position that ultimately destroys public trust.",
+      "details": "While platforms must balance free expression with keeping the community safe from imminent physical harm, they should avoid censoring political speech, humor, satire, or true information, even under intense government or institutional pressure.",
+      "representative_quote": "I was really worried from the beginning about basically becoming this sort of decider of what is true in the world right that's like kind of a crazy position to be in for billions of people using your service",
+      "source_ids": [
+        "src_024",
+        "src_023",
+        "src_027"
+      ]
+    },
+    {
+      "label": "Ideas Don't Come Out Fully Formed",
+      "summary": "Waiting until you understand everything about a complex problem before beginning guarantees you will never start. Action brings clarity.",
+      "details": "The 'eureka moment' is a dangerous myth that makes people feel inadequate. You have to begin the work to understand the path forward.",
+      "representative_quote": "Ideas don’t come out fully formed. They only become clear as you work on them. You just have to get started.",
+      "source_ids": [
+        "src_017",
+        "src_016"
+      ]
+    },
+    {
+      "label": "Create a Sense of Purpose for Others",
+      "summary": "Finding your own personal purpose isn't enough; true leadership and generational progress require building a world where everyone feels a sense of purpose.",
+      "details": "Without a shared higher purpose, teams and communities fall apart. Purpose is what makes people feel needed and part of something bigger than themselves.",
+      "representative_quote": "I’m here to tell you finding your purpose isn’t enough. The challenge for our generation is creating a world where everyone has a sense of purpose.",
+      "source_ids": [
+        "src_017",
+        "src_016"
+      ]
+    },
+    {
+      "label": "The Freedom to Fail Drives Success",
+      "summary": "An entrepreneurial culture thrives when people can try many ideas. Without a financial safety net to fall back on, people cannot take the risks necessary to create historic enterprises.",
+      "details": "Society must redefine equality to give everyone the freedom to pursue purpose, recognizing that success requires luck and a financial cushion, not just hard work.",
+      "representative_quote": "The greatest successes come from having the freedom to fail.",
+      "source_ids": [
+        "src_017",
+        "src_016"
+      ]
+    },
+    {
+      "label": "Make Money to Build Better Services",
+      "summary": "The business engine exists to support the social mission and long-term investments, not the other way around.",
+      "details": "Building a strong economic engine is the best way to align people to solve important problems and attract great talent, allowing the company to support massive, long-term infrastructure investments.",
+      "representative_quote": "Simply put: we don’t build services to make money; we make money to build better services.",
+      "source_ids": [
+        "src_065",
+        "src_062"
+      ]
+    },
+    {
+      "label": "The Alternate Universe Hiring Test",
+      "summary": "Only hire someone if you would be happy working for them in an alternate universe where the roles were reversed.",
+      "details": "This ensures you are bringing in people whose judgment, insight, and values you truly respect, which ultimately builds a company filled with leaders worth following rather than settling for 'good enough'.",
+      "representative_quote": "only hire someone if you'd be happy working for them in an alternate universe.",
+      "source_ids": [
+        "src_043",
+        "src_028"
+      ]
+    },
+    {
+      "label": "There Will Be Many Specialized AIs, Not Just One",
+      "summary": "The future of AI is a diverse ecosystem of specialized agents, not a single monolithic assistant.",
+      "details": "Different entities have different needs. Millions of small businesses will need their own customer support agents, and creators will want their own AI agents to engage with their specific communities.",
+      "representative_quote": "My theory on this is that there's not going to be just one singular AI that you interact with. Every business is going to want an AI that represents their interests.",
+      "source_ids": [
+        "src_033",
+        "src_026"
+      ]
+    },
+    {
+      "label": "Meaningful Interactions Over Passive Consumption",
+      "summary": "Social media should foster active connections with people we care about, which improves well-being, rather than just optimizing for time spent passively consuming content.",
+      "details": "Tech companies have a responsibility to ensure their services improve user well-being, even if it means a short-term drop in raw engagement metrics.",
+      "representative_quote": "The research shows that when we use social media to connect with people we care about, it can be good for our well-being... On the other hand, passively reading articles or watching videos -- even if they're entertaining or informative -- may not be as good.",
+      "source_ids": [
+        "src_001"
+      ]
+    },
+    {
+      "label": "Values Must Be Debatable",
+      "summary": "Generic statements like 'be honest' are unhelpful as company values because no one would argue the opposite.",
+      "details": "Values must represent a specific cultural operating choice that someone could legitimately disagree with in order to be useful for guiding decisions.",
+      "representative_quote": "I've always basically believed that values are only useful if you can legitimately disagree with them.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Build What People Want First, Figure Out the Business Later",
+      "summary": "Focus entirely on building an engaging service that brings value to users at massive scale; monetization will naturally follow.",
+      "details": "The hardest part of building a platform is creating a service that people actually like. If you achieve massive scale, the business model can be built around it later.",
+      "representative_quote": "If we're able to build a service that people like and a billion or more people use it, we're gonna have a fine business, right?",
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "Take Chances and Accept Mistakes",
+      "summary": "Avoiding mistakes means you are being too timid. Growth requires taking risks, which inevitably leads to getting things wrong.",
+      "details": "If you aren't making mistakes, you aren't taking enough chances to reach your potential.",
+      "representative_quote": "If you're not making mistakes, you're probably not living up to your potential, right? That's how you grow.",
+      "source_ids": [
+        "src_057",
+        "src_062"
+      ]
+    },
+    {
+      "label": "Getting Things Done is People-Driven",
+      "summary": "Execution relies on a dense network of high-trust leaders who share context, rather than rigid hierarchical delegation.",
+      "details": "A leader should not blindly delegate. If something is important, the leader should be involved, relying on a highly connected 'small group' of leaders to execute cross-functional priorities.",
+      "representative_quote": "you want to have a dense network of connections so that way you know it's ultimately like getting things done is a people driven thing um as much as it is kind of an intellectual exercise.",
+      "source_ids": [
+        "src_021"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "The Hacker Way (Continuous Iteration)",
+      "summary": "An approach to building that involves continuous improvement, rapid prototyping, and an open meritocracy.",
+      "details": "Release small iterations quickly rather than trying to get everything right at once. Prototype ideas immediately instead of debating them for days. Foster a culture where the best idea and implementation win, regardless of hierarchy.",
+      "representative_quote": "The Hacker Way is an approach to building that involves continuous improvement and iteration.",
+      "source_ids": [
+        "src_062"
+      ]
+    },
+    {
+      "label": "Precision vs. Recall Moderation Tuning",
+      "summary": "A statistical framework for configuring AI classifiers to detect and remove harmful content at scale while protecting innocent users.",
+      "details": "Evaluate the trade-off between recall (catching the highest percentage of bad content) and precision (ensuring what is caught is actually bad). Err on the side of higher confidence/precision to minimize the number of innocent accounts mistakenly deactivated, even if it means missing some harmful content.",
+      "representative_quote": "changing the content filters to have to require higher confidence and precision is actually going to be the thing that reduces the vast majority of the censorship mistakes that we make.",
+      "source_ids": [
+        "src_024",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Decentralized Product Testing",
+      "summary": "A system allowing any engineer to test new ideas and learn what users respond to without corporate red tape.",
+      "details": "Allow any engineer to change code and create a new branch of the product. Ship the new version to a small, controlled portion of the community. Gather quantitative and qualitative feedback. If it improves metrics, roll it into the trunk version for everyone.",
+      "representative_quote": "So we build this whole framework that allows people within the company, any engineer, to change some code, create a new branch of what Facebook is, and ship that to some number of people... And if their version is an improvement, then we roll that in",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "Small Group Context Sharing",
+      "summary": "A management framework for maintaining agility in a large organization without relying on strict hierarchical reporting.",
+      "details": "Identify a core group of 25-30 key leaders across the company. Spend significant time together going through all the context of everything happening across the company. Use this highly connected, high-trust group as a 'core army' to execute cross-functional priorities.",
+      "representative_quote": "I invest a lot of time in like making sure that there's a group that's very connected to each other and that have all the context on what's going on inside the company and that's sort of like the core army that can go get like anything done.",
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "Progressive Model Integration (AI)",
+      "summary": "A method for developing new capabilities for foundation models by hacking interim solutions first.",
+      "details": "Build application-specific code and hand-engineer features around the current base model to unlock immediate use cases. Hack around with these interim solutions to hone intuition, then train those capabilities directly into the next generation of the base model.",
+      "representative_quote": "You do a bunch of hand coding and that makes the products better, if only for the interim. That helps show the way then of what we want to build into the next version of the model.",
+      "source_ids": [
+        "src_033"
+      ]
+    },
+    {
+      "label": "Creating a World of Purpose",
+      "summary": "A societal framework for defining a new social contract for the current generation.",
+      "details": "1. Take on big meaningful projects together to create progress and pride. 2. Redefine equality to give everyone the freedom to pursue purpose (e.g., universal basic income). 3. Build community across the world, starting at the local level.",
+      "representative_quote": "Today I want to talk about three ways to create a world where everyone has a sense of purpose: by taking on big meaningful projects together, by redefining equality so everyone has the freedom to pursue purpose, and by building community across the world.",
+      "source_ids": [
+        "src_017",
+        "src_016"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "The Embodied Internet (The Metaverse)",
+      "summary": "Viewing the next generation of the internet not as a flat screen you look at, but as an immersive environment you are inside of.",
+      "details": "Characterized by a deep feeling of presence, allowing people to feel truly present with one another, regardless of physical distance.",
+      "representative_quote": "We believe the metaverse will be the successor to the mobile internet. We’ll be able to feel present, like we’re right there with people, no matter how far apart we actually are.",
+      "source_ids": [
+        "src_065",
+        "src_044"
+      ]
+    },
+    {
+      "label": "The Eye of Sauron",
+      "summary": "A metaphor for intense, unending leadership attention that can overwhelm or 'burn' a specific team.",
+      "details": "Highlights the need for leaders to diffuse their focus and manage their energy sustainably so they don't crush teams with unending scrutiny.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "The Time-Traveling Hacker",
+      "summary": "A metaphor for the security threat of an asymmetric AI advantage.",
+      "details": "A vastly superior AI finding zero-days is like a human hacker who travels back in time with knowledge of future security holes. Open-source AI neutralizes this by ensuring defensive software gets hardened collectively.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_033"
+      ]
+    },
+    {
+      "label": "Time Well Spent vs. Time Spent",
+      "summary": "Evaluating product success not by the raw amount of time users spend on the platform, but by the value and well-being they derive from that time.",
+      "details": "Accepting that overall time spent on the app might decrease if you prioritize meaningful connections, but the quality of that time will increase.",
+      "representative_quote": "One of our big focus areas for 2018 is making sure the time we all spend on Facebook is time well spent.",
+      "source_ids": [
+        "src_001"
+      ]
+    },
+    {
+      "label": "Wartime CEO",
+      "summary": "A leadership mode adopted during existential threats or intense criticism, prioritizing rapid, unilateral decisions over consensus-building.",
+      "details": "During crises, a leader must dictate decisions quickly without the usual process of bringing everyone along.",
+      "representative_quote": "I don't optimize for fun.",
+      "source_ids": [
+        "src_057"
+      ]
+    },
+    {
+      "label": "Personal Superintelligence",
+      "summary": "Viewing AI not as a centralized oracle, but as an individualized, highly capable assistant placed directly in the hands of everyday users.",
+      "details": "Empowering individuals to pursue their specific aspirations by giving them agentic AI that can take action on their behalf.",
+      "representative_quote": "We are building products that don't just answer your questions but act as agents that do things for you.",
+      "source_ids": [
+        "src_041"
+      ]
+    },
+    {
+      "label": "Expanding the Circle of Us",
+      "summary": "Viewing human history as a continuous expansion of the group of people we consider 'one of us'.",
+      "details": "Moving from tribes to cities to nations, and eventually to a global community, which is necessary to solve modern global challenges like climate change.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_017",
+        "src_016"
+      ]
+    },
+    {
+      "label": "Bits vs. Atoms",
+      "summary": "The idea that solving physical world problems is more efficiently done by improving digital infrastructure than physical infrastructure.",
+      "details": "For example, using VR/AR to allow people to live anywhere while working in expensive cities, rather than building massive physical transit systems.",
+      "representative_quote": "I think it’s much cheaper and easier to move bits around than it is atoms.",
+      "source_ids": [
+        "src_028"
+      ]
+    },
+    {
+      "label": "Glasses as the Ultimate AI Form Factor",
+      "summary": "Viewing smart glasses not just as a display device, but as the perfect continuous sensory input for an AI assistant.",
+      "details": "The AI sees what you see and hears what you hear throughout the day, building continuous personal context without needing to start a query from scratch.",
+      "representative_quote": "Glasses are kind of the perfect form factor for AI because you can let an AI see what you see and hear what you hear and talk to you throughout the day.",
+      "source_ids": [
+        "src_021"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Done is better than perfect.",
+      "summary": "Prioritize shipping and iterating over waiting for a flawless release.",
+      "details": null,
+      "representative_quote": "Done is better than perfect.",
+      "source_ids": [
+        "src_062"
+      ]
+    },
+    {
+      "label": "Move fast and break things.",
+      "summary": "Speed is essential; if you never break anything, you're probably not moving fast enough.",
+      "details": null,
+      "representative_quote": "Move fast and break things.",
+      "source_ids": [
+        "src_062"
+      ]
+    },
+    {
+      "label": "Code wins arguments.",
+      "summary": "Prototyping an idea immediately is more effective than debating it for days.",
+      "details": null,
+      "representative_quote": "Code wins arguments.",
+      "source_ids": [
+        "src_062"
+      ]
+    },
+    {
+      "label": "The riskiest thing is to take no risks.",
+      "summary": "In a rapidly changing world, avoiding risk guarantees failure.",
+      "details": null,
+      "representative_quote": "The riskiest thing is to take no risks.",
+      "source_ids": [
+        "src_062"
+      ]
+    },
+    {
+      "label": "Order enough compute, then double it.",
+      "summary": "Always build enough infrastructure capacity for what you can't yet see on the horizon.",
+      "details": null,
+      "representative_quote": "We always want to have enough capacity to build something that we can't quite see on the horizon yet.",
+      "source_ids": [
+        "src_033"
+      ]
+    },
+    {
+      "label": "Show more information, not less.",
+      "summary": "Empower the community to add context rather than suppressing content.",
+      "details": null,
+      "representative_quote": "you're showing more information, not less.",
+      "source_ids": [
+        "src_024",
+        "src_023"
+      ]
+    },
+    {
+      "label": "You just have to get started.",
+      "summary": "Don't wait for a fully formed idea; action brings clarity.",
+      "details": null,
+      "representative_quote": "Ideas don’t come out fully formed. They only become clear as you work on them. You just have to get started.",
+      "source_ids": [
+        "src_017",
+        "src_016"
+      ]
+    },
+    {
+      "label": "The right place to be is getting yelled at from both sides equally.",
+      "summary": "On complex social decisions, angering both extremes often indicates you've found the balanced middle ground.",
+      "details": null,
+      "representative_quote": "For some of these social decisions that we have to make, I find that the right place to be is when you’re getting yelled at from both sides equally.",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "If people fully understand what we're doing, I'm not pushing hard enough.",
+      "summary": "To invent the future, you must push into zones that can be doubted and misunderstood.",
+      "details": null,
+      "representative_quote": "If I'm doing something that feels too well understood for too long, then I feel like I'm just being complacent.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "I don't optimize for fun.",
+      "summary": "Leadership during difficult times requires focusing on impact and survival, not personal enjoyment.",
+      "details": null,
+      "representative_quote": "I don't optimize for fun.",
+      "source_ids": [
+        "src_057"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Make money to build better services",
+      "summary": "Explaining the relationship between the company's social mission and its business model.",
+      "details": null,
+      "representative_quote": "Simply put: we don’t build services to make money; we make money to build better services.",
+      "source_ids": [
+        "src_065",
+        "src_062"
+      ]
+    },
+    {
+      "label": "Ideas don't come out fully formed",
+      "summary": "Debunking the myth of the 'eureka moment' in innovation.",
+      "details": null,
+      "representative_quote": "Ideas don’t come out fully formed. They only become clear as you work on them. You just have to get started.",
+      "source_ids": [
+        "src_017",
+        "src_016"
+      ]
+    },
+    {
+      "label": "Freedom to fail",
+      "summary": "Arguing for a new social contract and safety net so more people can take entrepreneurial risks.",
+      "details": null,
+      "representative_quote": "The greatest successes come from having the freedom to fail.",
+      "source_ids": [
+        "src_017",
+        "src_016"
+      ]
+    },
+    {
+      "label": "Arbiters of truth",
+      "summary": "Explaining his hesitation to implement aggressive misinformation policies.",
+      "details": null,
+      "representative_quote": "I was really worried from the beginning about basically becoming this sort of decider of what is true in the world. That's kind of a crazy position to be in for billions of people.",
+      "source_ids": [
+        "src_024",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Debatable values",
+      "summary": "Explaining how Meta designs its cultural operating system and company values.",
+      "details": null,
+      "representative_quote": "I've always basically believed that values are only useful if you can legitimately disagree with them.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Utility over coolness",
+      "summary": "Explaining why he views Facebook as a 'utility' rather than a fad.",
+      "details": null,
+      "representative_quote": "The company shouldn’t be run to try to build something that is cool, it should be run to build something that is useful and enduring.",
+      "source_ids": [
+        "src_028"
+      ]
+    },
+    {
+      "label": "No delegation",
+      "summary": "Discussing his management philosophy and involvement in company decisions.",
+      "details": null,
+      "representative_quote": "I basically don't believe in delegation.",
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "Making mistakes to grow",
+      "summary": "Reflecting on the strategic and execution mistakes Facebook has made over the years.",
+      "details": null,
+      "representative_quote": "If you're not making mistakes, you're probably not living up to your potential, right? That's how you grow.",
+      "source_ids": [
+        "src_057"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Waiting for the 'Eureka Moment'",
+      "summary": "Believing ideas come fully formed prevents you from ever getting started.",
+      "details": "It makes people feel inadequate for not having a sudden stroke of genius, preventing people with the seeds of good ideas from ever taking action.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_017",
+        "src_016"
+      ]
+    },
+    {
+      "label": "Optimizing Solely for Engagement",
+      "summary": "Focusing only on time spent leads to passive consumption that crowds out meaningful personal connections.",
+      "details": "Passively reading articles or watching videos, even if entertaining, does not correlate with long-term measures of happiness and health like active social connection does.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_001"
+      ]
+    },
+    {
+      "label": "Tech Platforms Acting as Arbiters of Truth",
+      "summary": "Deferring to institutional pressure to censor content destroys public trust and suppresses true information.",
+      "details": "Institutions often push for ideological censorship or demand the removal of true information. It is a dangerous line to cross in a democracy.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_024",
+        "src_023",
+        "src_027"
+      ]
+    },
+    {
+      "label": "Creating Generic Company Values",
+      "summary": "Values like 'be honest' are useless because no one can legitimately disagree with them.",
+      "details": "Values must represent specific cultural or operational decisions to be helpful.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Slowing Down Out of Fear of Mistakes",
+      "summary": "If you never break anything or make mistakes, you aren't taking enough risks to reach your potential.",
+      "details": "You lose opportunities by moving too slowly; in a world that is changing quickly, avoiding risk guarantees failure.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_062",
+        "src_057"
+      ]
+    },
+    {
+      "label": "Keeping AI Models Closed and Concentrated",
+      "summary": "Creates a massive vulnerability where a single bad actor with superior AI can compromise global systems.",
+      "details": "Open source hardens security collectively, neutralizing the asymmetric advantage of any single bad actor.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_033"
+      ]
+    },
+    {
+      "label": "Consensus-Building During a Crisis",
+      "summary": "Prevents the rapid, unilateral decision-making required to survive existential threats.",
+      "details": "During wartime, a leader must make fast decisions without indulging in the usual process of bringing everyone along.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_057"
+      ]
+    }
+  ]
+}

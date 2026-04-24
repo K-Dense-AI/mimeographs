@@ -1,0 +1,60 @@
+{
+  "source_id": "src_005",
+  "summary": "Ian Goodfellow explains why simply removing sensitive variables like race or gender from training data is insufficient to prevent algorithmic bias. He introduces an adversarial machine learning framework where two models compete—one extracting features and the other attempting to guess sensitive attributes—to force the system to learn representations that are genuinely unbiased.",
+  "themes": [
+    "Algorithmic Fairness",
+    "Adversarial Machine Learning",
+    "Feature Extraction",
+    "Machine Learning Bias"
+  ],
+  "principles": [
+    {
+      "statement": "Simply withholding sensitive variables from a model is not enough to prevent biased decisions.",
+      "rationale": "Training data is often created by biased humans. If a model is denied direct access to a sensitive variable, it will simply find other correlated characteristics to act as intermediary variables, thereby repeating the biased behavior.",
+      "source_quote": "it's not sufficient to just take a machine learning model and train it with no access to the race variable or no access to the gender variable because your trading data may have been created by people who had biases themselves",
+      "source_id": "src_005"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Adversarial Feature Learning for Bias Mitigation",
+      "when_to_apply": "When building machine learning algorithms that make important decisions affecting people's lives, to ensure they ignore irrelevant and commonly discriminated attributes.",
+      "steps": [
+        "Set up an adversarial process with two competing players.",
+        "Have the first player (the feature extractor) pull out features from the data.",
+        "Have the second player try to guess the value of sensitive variables (e.g., race, gender) from those extracted features.",
+        "Train the system over time to force the feature extractor to learn a representation that completely hides information about the sensitive variables."
+      ],
+      "source_quote": "create an adversarial process for learning the features where um one player pulls out the features and another player tries to guess the value of variables that we don't want to participate in the decision",
+      "source_id": "src_005"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Two-Player Adversarial Game",
+      "description": "Framing the machine learning process as a competition between two agents with opposing goals. By forcing one agent to defeat the other, the overall system learns more robust and constrained representations.",
+      "example": "One player extracts features for a decision, while the opposing player tries to guess a sensitive variable from those features. The first player only succeeds if it successfully hides the sensitive information from the second player.",
+      "source_id": "src_005"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "it's not sufficient to just take a machine learning model and train it with no access to the race variable or no access to the gender variable because your trading data may have been created by people who had biases themselves",
+      "context": "Explaining the failure of naive approaches to algorithmic fairness.",
+      "source_id": "src_005"
+    },
+    {
+      "text": "over time this forces the feature extractor to learn a representation that has hidden all of the information about the sensitive variable thus helping to make decisions that are not biased by that particular information",
+      "context": "Describing the intended outcome of using adversarial training to mitigate bias.",
+      "source_id": "src_005"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Training a machine learning model by simply removing access to sensitive variables (like race or gender) and assuming the resulting model will be fair.",
+      "why_it_fails": "The model can discover other characteristics in the data that are correlated with the sensitive variables and use them as intermediaries to replicate the human biases present in the training data.",
+      "source_id": "src_005"
+    }
+  ]
+}

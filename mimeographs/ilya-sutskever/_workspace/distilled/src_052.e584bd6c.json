@@ -1,0 +1,29 @@
+{
+  "source_id": "src_052",
+  "summary": "This source is a brief 2008 PubMed abstract for a paper co-authored by Ilya Sutskever and Geoffrey Hinton. It outlines a theoretical finding that exponentially deep, narrow sigmoid belief networks can function as universal approximators for binary vector distributions.",
+  "themes": [
+    "Deep Learning",
+    "Belief Networks",
+    "Universal Approximation Theorem",
+    "Neural Network Architecture"
+  ],
+  "principles": [
+    {
+      "statement": "Exponentially deep belief networks can approximate any distribution over binary vectors to arbitrary accuracy, regardless of layer width constraints.",
+      "rationale": "Even when the width of each layer is strictly limited to the dimensionality of the data, the exponential depth of the network provides the necessary capacity for universal approximation.",
+      "source_quote": "exponentially deep belief networks can approximate any distribution over binary vectors to arbitrary accuracy, even when the width of each layer is limited to the dimensionality of the data.",
+      "source_id": "src_052"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "In this note, we show that exponentially deep belief networks can approximate any distribution over binary vectors to arbitrary accuracy, even when the width of each layer is limited to the dimensionality of the data.",
+      "context": "From the abstract of his 2008 paper on the universal approximation capabilities of deep, narrow sigmoid belief networks.",
+      "source_id": "src_052"
+    }
+  ],
+  "anti_patterns": []
+}

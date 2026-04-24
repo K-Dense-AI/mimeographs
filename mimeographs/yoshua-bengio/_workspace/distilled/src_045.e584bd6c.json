@@ -1,0 +1,42 @@
+{
+  "source_id": "src_045",
+  "summary": "This source is an abstract for a review paper on representation learning. In it, Bengio and his co-authors hypothesize that the success of machine learning relies on how well data representations disentangle underlying explanatory factors of variation, and they advocate for using generic priors to learn these representations.",
+  "themes": [
+    "Representation Learning",
+    "Deep Learning",
+    "Unsupervised Feature Learning",
+    "Artificial Intelligence"
+  ],
+  "principles": [
+    {
+      "statement": "The success of machine learning algorithms depends heavily on data representation.",
+      "rationale": "Different representations can either entangle and hide, or successfully reveal, the underlying explanatory factors of variation that generate the data.",
+      "source_quote": "The success of machine learning algorithms generally depends on data representation, and we hypothesize that this is because different representations can entangle and hide more or less the different explanatory factors of variation behind the data.",
+      "source_id": "src_045"
+    },
+    {
+      "statement": "The quest for AI requires designing powerful representation-learning algorithms based on generic priors.",
+      "rationale": "While specific domain knowledge is helpful for designing representations, achieving broader AI requires algorithms that can learn representations using generic priors.",
+      "source_quote": "Although specific domain knowledge can be used to help design representations, learning with generic priors can also be used, and the quest for AI is motivating the design of more powerful representation-learning algorithms implementing such priors.",
+      "source_id": "src_045"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Entanglement of Explanatory Factors",
+      "description": "A lens for evaluating data representations based on how much they 'entangle' (mix up and hide) versus separate the true, underlying factors of variation that cause the observed data.",
+      "example": null,
+      "source_id": "src_045"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "The success of machine learning algorithms generally depends on data representation, and we hypothesize that this is because different representations can entangle and hide more or less the different explanatory factors of variation behind the data.",
+      "context": "Explaining the fundamental motivation behind representation learning.",
+      "source_id": "src_045"
+    }
+  ],
+  "anti_patterns": []
+}

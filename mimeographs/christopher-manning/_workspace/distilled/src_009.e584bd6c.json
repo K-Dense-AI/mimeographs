@@ -1,0 +1,29 @@
+{
+  "source_id": "src_009",
+  "summary": "This source is an arXiv abstract for the paper 'HotpotQA', co-authored by Christopher Manning and six others. Because it is a brief, multi-author academic abstract, it contains the core thesis of the research but lacks personal frameworks, heuristics, or signature quotes specific to Manning's individual thought process.",
+  "themes": [
+    "Natural Language Processing",
+    "Question Answering",
+    "Multi-hop Reasoning",
+    "Explainable AI"
+  ],
+  "principles": [
+    {
+      "statement": "Question answering datasets must require complex reasoning and provide supporting facts to enable explainability.",
+      "rationale": "Without diverse, multi-hop questions and sentence-level supporting facts, QA systems cannot be trained to reason effectively or explain their predictions.",
+      "source_quote": "Existing question answering (QA) datasets fail to train QA systems to perform complex reasoning and provide explanations for answers.",
+      "source_id": "src_009"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Relying on traditional QA datasets that do not require multi-hop reasoning or provide supporting facts.",
+      "why_it_fails": "They fail to train QA systems to perform complex reasoning and provide explanations for their answers.",
+      "source_id": "src_009"
+    }
+  ]
+}

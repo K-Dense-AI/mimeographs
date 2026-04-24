@@ -1,0 +1,108 @@
+{
+  "source_id": "src_029",
+  "summary": "Andrej Karpathy argues that AGI is still a decade away because current models lack essential cognitive architectures like continual learning and working memory distillation. He conceptualizes LLMs as digital 'ghosts' trained via 'crappy evolution' (pre-training) rather than animal-like entities, and emphasizes that AI is simply a continuum of computing that raises the abstraction layer for humans.",
+  "themes": [
+    "AGI Timelines",
+    "LLM Cognitive Deficits",
+    "Evolution vs. Pre-training",
+    "AI as an Extension of Computing",
+    "Learning by Building"
+  ],
+  "principles": [
+    {
+      "statement": "To truly understand something, you must build it from scratch without copy-pasting.",
+      "rationale": "There are micro-details and gaps in your knowledge that you won't realize exist until you are forced to arrange the components yourself.",
+      "source_quote": "If I can't build it, I don't understand it... I 100% have always believed this very strongly, because there are all these micro things that are just not properly arranged and you don't really have the knowledge.",
+      "source_id": "src_029"
+    },
+    {
+      "statement": "Pre-training is a practical, 'crappy' alternative to biological evolution.",
+      "rationale": "We don't know how to run actual evolution or encode neural weights into DNA, but we can build digital entities by imitating internet documents to reach a starting point of intelligence.",
+      "source_quote": "That's why I call pre-training this crappy evolution. It's the practically possible version with our technology and what we have available to us to get to a starting point where we can do things like reinforcement learning and so on.",
+      "source_id": "src_029"
+    },
+    {
+      "statement": "AI progress requires simultaneous improvements across the entire stack.",
+      "rationale": "No single element wins on its own; algorithms, data, hardware, and systems must all scale together to achieve significant performance gains.",
+      "source_quote": "So all these things have to improve simultaneously. We're probably going to have a lot more data, we're probably going to have a lot better hardware, probably going to have a lot better kernels and software, we're probably going to have better algorithms.",
+      "source_id": "src_029"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Autonomy Slider",
+      "when_to_apply": "When evaluating the impact of AI tools on programming and knowledge work.",
+      "steps": [
+        "Identify the low-level, boilerplate, or repetitive tasks in a workflow.",
+        "Apply the current generation of computing/AI tools (e.g., compilers, autocomplete, agents) to automate those specific tasks.",
+        "Raise the human's level of abstraction to focus on architecture and orchestration over the automated layers."
+      ],
+      "source_quote": "There's this what I call 'autonomy slider,' where more and more stuff is automated—of the stuff that can be automated at any point in time—and we're doing a bit less and less and raising ourselves in the layer of abstraction over the automation.",
+      "source_id": "src_029"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Weights as Hazy Recollection vs. Context Window as Working Memory",
+      "description": "Information stored in a neural network's weights is highly compressed and hazily recalled, whereas information placed in the context window (KV cache) is directly and immediately accessible, functioning like human working memory.",
+      "example": "Asking an LLM about a book from its training data yields roughly correct but hazy answers, whereas pasting a full chapter into the context window yields precise, accurate answers.",
+      "source_id": "src_029"
+    },
+    {
+      "name": "LLMs as Ghosts vs. Animals",
+      "description": "Unlike animals, which are optimized via evolution and born with built-in hardware and instincts, LLMs are ethereal, fully digital entities trained by imitating human internet data.",
+      "example": "A newborn zebra can run immediately due to evolution encoding weights in its DNA. LLMs, lacking this biological optimization, must boot up their intelligence by observing algorithmic patterns in internet text.",
+      "source_id": "src_029"
+    },
+    {
+      "name": "Transformer Components as Brain Analogues",
+      "description": "Mapping neural network architectures to brain regions to identify current capabilities and missing cognitive functions.",
+      "example": "Transformers act like general cortical tissue, reasoning traces mimic the prefrontal cortex, and RL fine-tuning resembles the basal ganglia. However, models still lack analogues for the hippocampus (memory distillation) or amygdala (emotions).",
+      "source_id": "src_029"
+    }
+  ],
+  "heuristics": [
+    "Don't write blog posts or slides to learn; build the code, arrange it, and get it to work.",
+    "Use LLM agents for boilerplate and familiar languages, but stick to autocomplete for novel, intellectually intense code.",
+    "If you can't build it, you don't understand it."
+  ],
+  "signature_quotes": [
+    {
+      "text": "We're not building animals. We're building ghosts or spirits or whatever people want to call it, because we're not doing training by evolution. We're doing training by imitation of humans and the data that they've put on the Internet.",
+      "context": "Explaining why he is hesitant to take inspiration from biological brains and evolution when building AI.",
+      "source_id": "src_029"
+    },
+    {
+      "text": "Anything that happens during the training of the neural network, the knowledge is only a hazy recollection of what happened in training time.",
+      "context": "Comparing model weights to the context window.",
+      "source_id": "src_029"
+    },
+    {
+      "text": "I have a hard time differentiating where AI begins and stops because I see AI as fundamentally an extension of computing in a pretty fundamental way.",
+      "context": "Discussing how AI tools like autocomplete and agents are just the next step after compilers and syntax highlighting.",
+      "source_id": "src_029"
+    },
+    {
+      "text": "I feel like the industry is making too big of a jump and is trying to pretend like this is amazing, and it's not. It's slop.",
+      "context": "Critiquing the current state of fully autonomous coding agents.",
+      "source_id": "src_029"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Trying to build full agents too early (e.g., RL on Atari games or web browsing) before establishing strong representation power.",
+      "why_it_fails": "Without the foundational representations provided by LLM pre-training, the reward signals are too sparse. You end up 'burning a forest computing' without the agent learning anything useful.",
+      "source_id": "src_029"
+    },
+    {
+      "description": "Using autonomous LLM agents ('vibe coding') to write novel, intellectually intense code.",
+      "why_it_fails": "Models have cognitive deficits and over-rely on standard internet patterns. They bloat the codebase, misunderstand custom implementations, and try to force standard production boilerplate where it isn't needed.",
+      "source_id": "src_029"
+    },
+    {
+      "description": "Copy-pasting code when trying to learn a new system or pipeline.",
+      "why_it_fails": "You miss the 'chunk-growing process' of building the repository and fail to confront the micro-details you don't actually understand.",
+      "source_id": "src_029"
+    }
+  ]
+}

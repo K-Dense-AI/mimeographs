@@ -1,0 +1,30 @@
+{
+  "source_id": "src_065",
+  "summary": "A co-authored epidemiological study abstract examining the relationship between light-to-moderate alcohol consumption and mortality in men. The findings support a U-shaped relationship, where light-to-moderate drinking reduces overall mortality risk, primarily driven by a decrease in cardiovascular disease mortality.",
+  "themes": [
+    "Epidemiology",
+    "Alcohol Consumption",
+    "Cardiovascular Disease",
+    "Mortality Risk"
+  ],
+  "principles": [
+    {
+      "statement": "Light-to-moderate alcohol consumption exhibits a U-shaped relationship with total mortality in men.",
+      "rationale": "Light-to-moderate drinking decreases cardiovascular disease mortality without significantly increasing the risk of common site-specific cancers, leading to an overall reduction in mortality risk at those levels.",
+      "source_quote": "These data support a U-shaped relation between alcohol and total mortality among light-to-moderate drinking men.",
+      "source_id": "src_065"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "U-shaped risk curve",
+      "description": "An epidemiological model where risk (such as mortality) is higher at zero exposure, dips to its lowest point at low-to-moderate exposure, and rises again at high exposure.",
+      "example": "Applied to alcohol consumption, where abstainers have higher mortality than light-to-moderate drinkers, but heavy drinkers have the highest mortality.",
+      "source_id": "src_065"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": []
+}

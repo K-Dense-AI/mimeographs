@@ -1,0 +1,41 @@
+{
+  "source_id": "src_008",
+  "summary": "Richard S. Sutton's personal homepage serves as a directory of his affiliations, publications, and essays, while outlining his core research philosophy. He emphasizes that intelligence and goal-directed behavior must be understood fundamentally through the real-time interaction between an agent and its environment.",
+  "themes": [
+    "Reinforcement Learning",
+    "Artificial Intelligence",
+    "Agent-Environment Interaction",
+    "Computational Principles of Intelligence"
+  ],
+  "principles": [
+    {
+      "statement": "Intelligence and goal-directed behavior are fundamentally rooted in the interaction between an agent and its environment.",
+      "rationale": "Goals, choices, and sources of information are all defined by this interaction, making it the foundational reality from which an agent's sense of the world is created.",
+      "source_quote": "I start with the interaction between the intelligent agent and its environment. Goals, choices, and sources of information are all defined in terms of this interaction. In some sense it is the only thing that is real, and from it all our sense of the world is created.",
+      "source_id": "src_008"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Agent-Environment Interaction",
+      "description": "A lens for understanding intelligence where all cognitive processes—learning, perceiving, acting, and thinking—are viewed strictly as products of an agent interacting with its environment in real-time.",
+      "example": "Defining an agent's goals, choices, and sources of information entirely in terms of its ongoing interaction with the environment.",
+      "source_id": "src_008"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "I start with the interaction between the intelligent agent and its environment. Goals, choices, and sources of information are all defined in terms of this interaction.",
+      "context": "Explaining his foundational approach to identifying the computational principles of intelligence.",
+      "source_id": "src_008"
+    },
+    {
+      "text": "In some sense it is the only thing that is real, and from it all our sense of the world is created.",
+      "context": "Referring to the interaction between an intelligent agent and its environment.",
+      "source_id": "src_008"
+    }
+  ],
+  "anti_patterns": []
+}

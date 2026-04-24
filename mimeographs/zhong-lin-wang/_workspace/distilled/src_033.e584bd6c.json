@@ -1,0 +1,64 @@
+{
+  "source_id": "src_033",
+  "summary": "In this arXiv abstract, Zhong Lin Wang argues that classical Maxwell's equations are insufficient for describing electrodynamics in engineering applications where media of finite size move with acceleration. Motivated by experimental progress in triboelectric nanogenerators, he proposes the expanded Maxwell's equations for a mechano-driven media system (MEs-f-MDMS) to account for time- and space-dependent media motion.",
+  "themes": [
+    "Electrodynamics",
+    "Maxwell's equations",
+    "Triboelectric nanogenerators",
+    "Mechano-driven media systems"
+  ],
+  "principles": [
+    {
+      "statement": "Classical Maxwell's equations are limited to describing electrodynamics in vacuum space when nearby media are moving.",
+      "rationale": "Classical electrodynamics assumes constant velocity along a straight line, which fails to capture the behavior inside finite media moving with acceleration.",
+      "source_quote": "The classical Maxwell's equations are to describe the electrodynamics in vacuum space when the media in the nearby are moving.",
+      "source_id": "src_033"
+    },
+    {
+      "statement": "Expanded Maxwell's equations are required to describe electrodynamics inside accelerating media.",
+      "rationale": "Real-world engineering applications, such as triboelectric nanogenerators, involve media with specific shapes and sizes that move with acceleration, making their motion time and space dependent.",
+      "source_quote": "the newly developed MEs-f-MDMS are required for describing the electrodynamics inside a media that has a finite size and volume and move with and even without acceleration.",
+      "source_id": "src_033"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Expanded Maxwell's equations for a mechano-driven media system (MEs-f-MDMS)",
+      "when_to_apply": "When describing the electrodynamics inside a media that has a finite size and volume and moves with or without acceleration.",
+      "steps": [
+        "Account for media motion that is time and space dependent.",
+        "Neglect relativistic effects for the mechano-driven media system."
+      ],
+      "source_quote": "Therefore, we have developed the expanded Maxwell's equations for a mechano-driven media system (MEs-f-MDMS) by neglecting relativistic effect.",
+      "source_id": "src_033"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Vacuum vs. Inside-Media Electrodynamics",
+      "description": "A distinction between where classical and expanded Maxwell's equations apply. Classical equations apply to charged particles in a vacuum space (often using special relativity for constant velocity), while the expanded equations apply to the internal electrodynamics of a finite, accelerating physical medium.",
+      "example": "Applying classical equations to the vacuum space around a moving object, but using MEs-f-MDMS to understand the electromagnetic induction inside an accelerating triboelectric nanogenerator.",
+      "source_id": "src_033"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "The classical Maxwell's equations are to describe the electrodynamics in vacuum space when the media in the nearby are moving.",
+      "context": "Concluding the specific domain where classical Maxwell's equations remain applicable versus his expanded equations.",
+      "source_id": "src_033"
+    },
+    {
+      "text": "...recent experimental progresses in triboelectric nanogenerators have revealed evidences for expanding the Maxwell's equations to include media motion that could be time and even space dependent.",
+      "context": "Explaining the empirical motivation for expanding Maxwell's equations.",
+      "source_id": "src_033"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming that the relative moving velocity of a medium is always a constant along a straight line in engineering applications.",
+      "why_it_fails": "In practical engineering (like triboelectric nanogenerators), media have finite shapes and sizes and often move with acceleration, meaning their motion is time and space dependent.",
+      "source_id": "src_033"
+    }
+  ]
+}

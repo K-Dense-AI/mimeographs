@@ -1,0 +1,102 @@
+{
+  "source_id": "src_035",
+  "summary": "This text analyzes David Hume's philosophical stance on religion, arguing that his 'mitigated skepticism' and theory of belief ultimately align with a 'hard' skepticism toward robust, anthropomorphic theism. Hume maintains that beliefs require strong analogies and experiential evidence, rendering obscure theological concepts and remote analogies incapable of sustaining genuine belief.",
+  "themes": [
+    "Skepticism",
+    "Philosophy of Religion",
+    "Epistemology",
+    "Causal Inference",
+    "Theism vs. Atheism"
+  ],
+  "principles": [
+    {
+      "statement": "Confine your reasonings and speculations to common life and daily practice.",
+      "rationale": "Human understanding is weak and limited. Extending our speculations beyond our immediate experience to cosmological origins or the 'two eternities' leads to sophistry and illusion.",
+      "source_quote": "common life, and to such subjects as fall under daily practice and experience",
+      "source_id": "src_035"
+    },
+    {
+      "statement": "Belief relies on constant conjunction and resemblance; weakening an analogy weakens the resulting belief.",
+      "rationale": "Belief is a lively idea transferred from a present impression based on past experience. If the resemblance between a present object and past experience is weak (such as comparing the universe to human artifacts), the mind cannot form a firm belief.",
+      "source_quote": "If you weaken either the union or resemblance, you weaken the principle of transition, and of consequence that belief, which arises from it.",
+      "source_id": "src_035"
+    },
+    {
+      "statement": "Ideas that are entirely obscure or removed from our comprehension cannot be sincerely believed.",
+      "rationale": "The human imagination cannot bestow sufficient authority or force on ideas that lack specific, experiential content, such as a future state or an incomprehensible deity.",
+      "source_quote": "A future state is so far remov’d from our comprehension, and we have so obscure an idea of the manner, in which we shall exist after the dissolution of the body, that all the reasons we can invent... are never able with slow imaginations to surmount this difficulty, or bestow sufficient authority and force on the idea.",
+      "source_id": "src_035"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Mitigated Skepticism",
+      "when_to_apply": "When evaluating philosophical, cosmological, or theological claims that reach beyond immediate human experience.",
+      "steps": [
+        "Reflect on the strange infirmities and weaknesses of human understanding to curb dogmatism.",
+        "Adopt a degree of doubt, caution, and modesty in all inferences.",
+        "Reject extreme (Pyrrhonian) skepticism as unlivable and destructive in practice.",
+        "Confine inquiries strictly to subjects that fall under daily practice and experience."
+      ],
+      "source_quote": "we will never be tempted to go beyond common life",
+      "source_id": "src_035"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Mechanism of Belief",
+      "description": "Hume views belief not as a voluntary choice, but as a mechanical transition of the mind. It requires a present impression, a past constant conjunction of resembling objects, and a strong analogy. If the analogy is remote or the idea obscure, the 'vivacity' of the idea drops, and belief fails to take hold.",
+      "example": "Applying this to the argument from design: because the analogy between human artifacts and the universe is incredibly weak and remote, the mind cannot generate a sincere belief in an intelligent creator.",
+      "source_id": "src_035"
+    },
+    {
+      "name": "Pyrrhonian vs. Mitigated Skepticism",
+      "description": "A lens for categorizing doubt. Pyrrhonian (extreme) skepticism attempts to subvert all knowledge and common-sense beliefs, which is practically impossible to live by. Mitigated skepticism uses the humbling lessons of Pyrrhonism to avoid dogmatism, while still allowing for knowledge and practical action within the bounds of everyday experience.",
+      "example": null,
+      "source_id": "src_035"
+    }
+  ],
+  "heuristics": [
+    "If an analogy is weak or remote, the resulting belief must be proportionally weak.",
+    "Without belief, our ideas have no practical influence on our passions and motivations."
+  ],
+  "signature_quotes": [
+    {
+      "text": "a total suspense of judgment is here our only reasonable resource",
+      "context": "Referring to theological issues that are beyond human understanding.",
+      "source_id": "src_035"
+    },
+    {
+      "text": "If you weaken either the union or resemblance, you weaken the principle of transition, and of consequence that belief, which arises from it.",
+      "context": "Explaining how weak analogies undermine causal reasoning and belief.",
+      "source_id": "src_035"
+    },
+    {
+      "text": "a Being, so remote and incomprehensible, who bears much less analogy to any other than the sun to a waxen taper, and who discovers himself only by some faint traces or outlines, beyond which we have no authority to ascribe to him any attribute or perfection",
+      "context": "Describing the incomprehensibility of God and the weakness of comparing divine intelligence to human intelligence.",
+      "source_id": "src_035"
+    },
+    {
+      "text": "we have reason to infer that the natural attributes have a greater resemblance to those of man, than his moral have to human virtues",
+      "context": "Critiquing the assumption that a deity would possess moral attributes resembling human morality.",
+      "source_id": "src_035"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Anthropomorphic Theology (Robust Theism): Assuming the supreme cause of the universe possesses a mind, intentions, or moral attributes resembling human beings.",
+      "why_it_fails": "The analogy between human artifacts and the universe is vastly remote. Furthermore, the existence of unnecessary evil and suffering in the world contradicts human conceptions of moral goodness, making the attribution of human-like moral virtues to a deity unreasonable.",
+      "source_id": "src_035"
+    },
+    {
+      "description": "Extreme (Pyrrhonian) Skepticism: Attempting to discredit all common-sense beliefs and inferences.",
+      "why_it_fails": "It is unlivable and destructive in practice; human nature forces us to believe and act in common life despite philosophical doubts.",
+      "source_id": "src_035"
+    },
+    {
+      "description": "Dogmatism: Making absolute assertions about cosmological origins or the 'two eternities' (before and after the present state of things).",
+      "why_it_fails": "These subjects fall entirely outside the scope of daily practice and human experience, meaning any hypotheses about them are nothing but sophistry and illusion.",
+      "source_id": "src_035"
+    }
+  ]
+}

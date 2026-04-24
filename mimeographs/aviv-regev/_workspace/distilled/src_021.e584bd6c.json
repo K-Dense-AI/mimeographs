@@ -1,0 +1,119 @@
+{
+  "source_id": "src_021",
+  "summary": "Aviv Regev discusses the Human Cell Atlas, an ambitious project to map all 37 trillion cells in the human body using single-cell RNA sequencing. She outlines her computational approach to biology, viewing cells as complex circuits, and emphasizes the need for standardized, global collaboration to move beyond isolated discoveries toward a comprehensive understanding of human biology and disease.",
+  "themes": [
+    "Single-cell genomics",
+    "Computational biology",
+    "Human Cell Atlas",
+    "Cellular circuits",
+    "Scientific collaboration"
+  ],
+  "principles": [
+    {
+      "statement": "Comprehensive biological understanding requires a coordinated, standardized approach rather than isolated experiments.",
+      "rationale": "When individual labs use their own uncoordinated techniques, they produce disconnected findings that are difficult to standardize and connect into a broader understanding.",
+      "source_quote": "very nice glimmers of light... a thing here, a thing there.",
+      "source_id": "src_021"
+    },
+    {
+      "statement": "Effective gene therapy requires precise cellular targeting, not just genetic targeting.",
+      "rationale": "To successfully treat a disease, you must not only identify the faulty gene but also know exactly which specific, sometimes rare, cell type is expressing it.",
+      "source_quote": "Imagine if somebody wanted to do gene therapy. You have to fix the gene, but you have to fix it in the right cell.",
+      "source_id": "src_021"
+    },
+    {
+      "statement": "Single-cell resolution is essential for understanding disease and biology.",
+      "rationale": "Cells within the same tumor or tissue can have vastly different properties, behaviors, or resistance profiles, even when they share the same mutations.",
+      "source_quote": "Every cell is an experiment now.",
+      "source_id": "src_021"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Computational Modeling of Cellular Circuits",
+      "when_to_apply": "When trying to decipher how cellular networks and protein signals change in response to different circumstances or stimuli.",
+      "steps": [
+        "Gather dynamic data on gene expression using single-cell RNA sequencing.",
+        "Subject cells to different stimuli, such as hormones or pathogens, to observe changes in protein signals.",
+        "Execute the 'modeling step' by creating algorithms to decipher the most likely sequence of molecular events following the stimulus.",
+        "Test the model's predictions by silencing specific genes (e.g., via CRISPR) and exposing the cells to the same stimulus to observe the response."
+      ],
+      "source_quote": "the modeling step",
+      "source_id": "src_021"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Cell as a Computer Circuit",
+      "description": "Viewing the cell's protein signaling networks and molecular interactions as a wiring diagram or circuit that processes inputs (stimuli) and produces outputs (transcribing DNA).",
+      "example": "Using algorithms to predict molecular events after a stimulus, and testing the 'circuit' by cutting out specific parts (silencing genes) to see how the machine's operation changes.",
+      "source_id": "src_021"
+    },
+    {
+      "name": "The Smoothie vs. The Fruit Salad",
+      "description": "A metaphor to explain the difference between bulk RNA sequencing and single-cell RNA sequencing.",
+      "example": "Bulk sequencing blends millions of cells together (a smoothie) losing individual cell identities, whereas single-cell sequencing separates them (a fruit salad) allowing researchers to distinguish distinct cell types like blueberries and raspberries.",
+      "source_id": "src_021"
+    },
+    {
+      "name": "The Periodic Table of Cells",
+      "description": "Viewing the Human Cell Atlas as a foundational reference tool that categorizes basic units to enable countless future discoveries, rather than answering one specific question.",
+      "example": "Just as the periodic table made it possible to predict the existence of elements yet to be observed, the Human Cell Atlas could help predict the existence of undiscovered cell types.",
+      "source_id": "src_021"
+    },
+    {
+      "name": "Google Maps for Cells",
+      "description": "A visual and spatial framework for biological data that allows researchers to zoom in to the molecular level of a cell and zoom out to see relationships at the tissue and organ level.",
+      "example": null,
+      "source_id": "src_021"
+    },
+    {
+      "name": "Pointillist Sampling (Starry Night)",
+      "description": "The understanding that a complete, recognizable picture of a system can emerge from sparse but strategic sampling, without needing to measure every single data point.",
+      "example": "Sequencing a representative sample of cells from across the body to build the Human Cell Atlas, rather than needing to sequence all 37 trillion individual cells.",
+      "source_id": "src_021"
+    }
+  ],
+  "heuristics": [
+    "Every cell is an experiment now."
+  ],
+  "signature_quotes": [
+    {
+      "text": "It’s like a complex computer that is made of these many, many different parts that are interacting with each other and telling each other what to do.",
+      "context": "Describing the complex molecular machinery and signaling networks inside a single cell.",
+      "source_id": "src_021"
+    },
+    {
+      "text": "Every cell is an experiment now.",
+      "context": "Discussing the impact of single-cell RNA sequencing on cancer research and biology.",
+      "source_id": "src_021"
+    },
+    {
+      "text": "Imagine if somebody wanted to do gene therapy. You have to fix the gene, but you have to fix it in the right cell.",
+      "context": "Explaining the practical medical applications of discovering rare cell types via the Human Cell Atlas.",
+      "source_id": "src_021"
+    },
+    {
+      "text": "we don't really know what we're made of.",
+      "context": "Explaining the fundamental motivation behind creating the Human Cell Atlas.",
+      "source_id": "src_021"
+    },
+    {
+      "text": "2015 in my field is considered ancient history",
+      "context": "Highlighting the rapid pace of innovation in the field of genomics.",
+      "source_id": "src_021"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying exclusively on bulk RNA sequencing to understand cellular function and diversity.",
+      "why_it_fails": "It pools RNA from millions of cells together, blending the data so that it is impossible to distinguish the specific gene expression of individual, potentially rare, cell types.",
+      "source_id": "src_021"
+    },
+    {
+      "description": "Conducting uncoordinated, siloed single-cell research across different labs.",
+      "why_it_fails": "If each lab relies on its own techniques and standards, it produces disconnected findings that cannot be easily combined into a comprehensive, standardized map of the human body.",
+      "source_id": "src_021"
+    }
+  ]
+}

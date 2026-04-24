@@ -1,0 +1,514 @@
+{
+  "expert_name": "Frank B. Hu",
+  "themes": [
+    "Nutritional Epidemiology",
+    "Dietary Pattern Analysis",
+    "Cardiometabolic Disease Prevention",
+    "Planetary Health & Sustainability",
+    "Precision Nutrition & Systems Epidemiology",
+    "Food Environment & Public Policy",
+    "Plant-Based Diet Quality"
+  ],
+  "principles": [
+    {
+      "label": "Focus on Overall Dietary Patterns",
+      "summary": "Nutritional epidemiology should examine the effects of the overall diet rather than just individual nutrients or foods.",
+      "details": "Single dietary components are difficult to isolate, whereas dietary patterns account for complex interactions, cumulative effects, and real-life eating habits. This approach is more predictive of chronic disease risk and easier to translate into public health guidelines.",
+      "representative_quote": "Conceptually, dietary patterns represent a broader picture of food and nutrient consumption, and may thus be more predictive of disease risk than individual foods or nutrients.",
+      "source_ids": [
+        "src_031",
+        "src_022",
+        "src_036",
+        "src_037"
+      ]
+    },
+    {
+      "label": "Not All Plant-Based Diets Are Healthy",
+      "summary": "Plant-based diets must be evaluated on their nutritional quality, not just the absence of animal products.",
+      "details": "Plant-based diets high in refined grains, sweets, and ultra-processed foods can increase chronic disease risk and mortality, sometimes performing worse than animal food-based diets. Only high-quality, minimally processed plant foods offer metabolic benefits.",
+      "representative_quote": "Unhealthy plant-based diets high in sweetened beverages, refined grains, potatoes/fries, sweets are associated with increased risk of chronic diseases and mortality – worse than animal food-based diets",
+      "source_ids": [
+        "src_010",
+        "src_011",
+        "src_022",
+        "src_005"
+      ]
+    },
+    {
+      "label": "Cultural Adaptation of Dietary Patterns",
+      "summary": "There is no one-size-fits-all diet; core healthy eating principles can and should be adapted across diverse cultures.",
+      "details": "Healthy diets share core biological principles (e.g., plant-forward, minimally processed), but adapting them to local food preferences, cultural traditions, and socioeconomic realities ensures better adherence and effectiveness.",
+      "representative_quote": "While adhering to core principles of healthy diets, it is crucial to adapt dietary recommendations to individual preferences and cultures as well as nutritional needs of aging populations.",
+      "source_ids": [
+        "src_009",
+        "src_011",
+        "src_022",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Human Health and Planetary Health are Interconnected",
+      "summary": "What is good for human longevity is generally good for the health of the planet.",
+      "details": "Dietary patterns that promote healthy aging, like the Mediterranean and traditional Asian diets, also reduce greenhouse gas emissions, require less land and water, and reduce biodiversity loss.",
+      "representative_quote": "What's good for longevity is also good for the planet because those dietary patterns reduce greenhouse gas emissions require less land and water and also reduce bio diversity loss.",
+      "source_ids": [
+        "src_010",
+        "src_011",
+        "src_005"
+      ]
+    },
+    {
+      "label": "Macronutrient Quality Over Quantity",
+      "summary": "The specific types and food sources of macronutrients are more important than their total quantity.",
+      "details": "Epidemiological data shows that the quality of dietary fat, protein, and carbohydrates has a greater influence on chronic disease risk and mortality than the sheer amount consumed.",
+      "representative_quote": "The specific types or food sources of dietary fat, protein, and carbohydrates are more important in influencing chronic disease risk and mortality than their quantity.",
+      "source_ids": [
+        "src_011",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Policy Over Individual Behavior",
+      "summary": "Individual behavior change is insufficient without policy intervention to fix the toxic food environment.",
+      "details": "Education and label-reading cannot overcome an obesogenic environment dominated by cheap, ultra-processed foods. Systemic changes like taxation, warning labels, and marketing bans are required.",
+      "representative_quote": "Behavior changes are not sufficient in terms of dealing with this toxic obesic food environment we are facing now. And so that's why we need policy solutions to improve our food environment.",
+      "source_ids": [
+        "src_009",
+        "src_015",
+        "src_005"
+      ]
+    },
+    {
+      "label": "Always Ask 'Compared to What?'",
+      "summary": "The health effect of a food or nutrient can only be understood by looking at what it replaces in the diet.",
+      "details": "Replacing a bad nutrient (like saturated fat) only improves health if the replacement is healthier (like polyunsaturated fats). Replacing it with refined carbohydrates yields no health benefit.",
+      "representative_quote": "The main thing that has been lost in the debate is what is butter compared to right compared to what so that's the essence of our nutrition epidemiology analysis",
+      "source_ids": [
+        "src_005",
+        "src_038"
+      ]
+    },
+    {
+      "label": "Liquid Calories are Worse Than Solid Calories",
+      "summary": "Calories consumed in liquid form, particularly sugar-sweetened beverages, are uniquely harmful to metabolic health.",
+      "details": "Liquid sugars are absorbed very rapidly, causing fast spikes in blood glucose, bypassing natural satiety cues, and creating greater metabolic stress on the liver.",
+      "representative_quote": "And there is strong evidence that liquid calories are much worse than solid calories.",
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Continuous Improvement Reduces Risk",
+      "summary": "Modest, continuous improvements in diet quality significantly reduce cardiovascular risk, regardless of your starting point.",
+      "details": "Even middle-aged individuals with initially poor diets can lower their CVD risk by making incremental improvements over time.",
+      "representative_quote": "Our results provide further evidence that modest improvement in diet quality over time confers benefits for CVD prevention.",
+      "source_ids": [
+        "src_037"
+      ]
+    },
+    {
+      "label": "Statistical Methods Must Align with Biology",
+      "summary": "Statistical methods used in epidemiology must align with underlying biological theory to avoid creating artifacts.",
+      "details": "Using methods that force variables to be uncorrelated (like orthogonal rotation) when biological theory dictates they share a common underlying process produces statistical artifacts rather than biological reality.",
+      "representative_quote": "While their approach is statistically sound, the logic is not consistent with the theory of insulin resistance syndrome, which postulates a common underlying biologic process...",
+      "source_ids": [
+        "src_035"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Dietary Pattern Factor Analysis",
+      "summary": "A methodological framework for deriving overall dietary patterns from food-frequency questionnaires to study diet-disease relations.",
+      "details": "Steps include collecting dietary data via FFQs, collapsing items into predefined food groups, using principal component factor analysis to derive patterns, rotating factors for interpretability, and labeling them based on empirical criteria (e.g., 'Prudent' vs. 'Western').",
+      "representative_quote": "Factor analysis (principal component) was used to derive food patterns based on the 40 food groups... The factors were rotated by an orthogonal transformation... to achieve simpler structure with greater interpretability.",
+      "source_ids": [
+        "src_031",
+        "src_036"
+      ]
+    },
+    {
+      "label": "Precision Nutrition & Systems Epidemiology",
+      "summary": "A framework for moving beyond 'one size fits all' by incorporating systems biology tools into epidemiological studies.",
+      "details": "Involves analyzing an individual's biology (microbiome, metabolomics), assessing cultural and lifestyle factors, tailoring specific dietary interventions, and monitoring compliance using objective biomarkers.",
+      "representative_quote": "Dietary recommendations need to be tailored to individuals biology or physiology based on microbiome analysis metabolomics profiling and also dietary recommendations need to tailored to individuals cultural background and lifestyle factors.",
+      "source_ids": [
+        "src_009",
+        "src_011"
+      ]
+    },
+    {
+      "label": "EAT-Lancet Commission Systems Approach",
+      "summary": "A global framework for developing dietary guidelines that balance human health with environmental sustainability.",
+      "details": "Steps: Define a healthy reference diet, define planetary boundaries (GHG emissions, land/water use), apply global systems modeling to analyze measures that stay within boundaries, and recommend international strategies.",
+      "representative_quote": "The first step of this committee did is to define what is a healthy diet... the second step is to define planetary boundaries... and the surf step is to apply global systems modeling framework",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Global Diet Quality Score (GDQS)",
+      "summary": "A framework for measuring and comparing diet quality globally across diverse food systems without relying on complex nutrient composition data.",
+      "details": "Uses an entirely food-based scoring system, incorporates a modestly expanded food list relevant globally, and applies a slightly more complex portion assessment to predict nutrient adequacy and NCD risk.",
+      "representative_quote": "We developed a Global Diet Quality Score (GDQS) that is: Entirely food-based (no nutrients involved in scoring)... Uses a modestly expanded food list relative to other metrics...",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "5 Low-Risk Lifestyle Factors for Longevity",
+      "summary": "A framework for assessing lifestyle behaviors to maximize disease-free life expectancy.",
+      "details": "1. Never smoke. 2. ≥3.5 hours/week moderate to vigorous physical activity. 3. High diet quality. 4. Moderate alcohol intake. 5. Normal body weight (BMI < 25).",
+      "representative_quote": "Low-risk lifestyle factors included: cigarette smoking (never smoking), physically active... high diet quality... moderate alcohol intake... and normal weight.",
+      "source_ids": [
+        "src_034"
+      ]
+    },
+    {
+      "label": "Theory-Testing Factor Analysis for Metabolic Clustering",
+      "summary": "A biostatistical framework for testing the clustering of metabolic components and unified mechanisms underlying metabolic abnormalities.",
+      "details": "Advocates using oblique rotation to produce correlated factors or confirmatory factor analysis to test hypothesized factor structures, rather than data-driven orthogonal rotations that force variables to be uncorrelated.",
+      "representative_quote": "To test the clustering of the components as well as a unified mechanism that underlies various metabolic abnormalities, an alternative rotation method, an oblique rotation... can be used to produce correlated factors.",
+      "source_ids": [
+        "src_035"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Dietary Patterns as Synergistic Networks",
+      "summary": "Viewing diet not as isolated variables but as a complex web of interacting components that have cumulative effects on health and disease risk.",
+      "details": "People eat complex meals, not isolated nutrients. This model leverages the collinearity of nutrients rather than being confounded by it, reflecting real-world eating habits.",
+      "representative_quote": "Examination of dietary patterns would more closely parallel real-world conditions, under which dietary intakes consist of nutrients that occur together in common foods.",
+      "source_ids": [
+        "src_031",
+        "src_022",
+        "src_036"
+      ]
+    },
+    {
+      "label": "Zip Code over Genetic Code (Gene-Environment Interaction)",
+      "summary": "The understanding that a person's local environment and food system dictate how their genes are expressed, having a far greater impact on health than genetics alone.",
+      "details": "Illustrated by the 'Two Davids' metaphor: human genetics remain relatively constant, but living in a toxic, obesogenic environment leads to vastly different body shapes and health outcomes.",
+      "representative_quote": "We always say that the zip code is more important than genetic code.",
+      "source_ids": [
+        "src_009",
+        "src_005"
+      ]
+    },
+    {
+      "label": "Core vs. Cultural Dietary Elements (The Fusion Diet)",
+      "summary": "Viewing healthy diets as a set of shared core biological principles that can be wrapped in diverse cultural culinary traditions.",
+      "details": "Instead of strictly adhering to one regional cuisine, individuals can blend the best overlapping principles of different traditional diets (e.g., Mediterranean and Asian) to create a personalized fusion diet.",
+      "representative_quote": "Potentially you can combine different elements of the traditional Mediterranean diet, traditional Asian diet to come up with your own personalized fusion diet.",
+      "source_ids": [
+        "src_011",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Dietary Trade-off (Macronutrient Substitution)",
+      "summary": "The concept that the health benefit of a food is twofold: it provides intrinsic biological benefits while simultaneously displacing unhealthy foods from the diet.",
+      "details": "Evaluating a dietary component based on what it replaces. For example, consuming extra virgin olive oil provides polyphenols while simultaneously reducing the intake of harmful saturated fats.",
+      "representative_quote": "These data provide support for current recommendations to replace saturated fat with polyunsaturated fat for primary prevention of CHD.",
+      "source_ids": [
+        "src_011",
+        "src_038"
+      ]
+    },
+    {
+      "label": "The Whole Package (Plant Seeds as Powerhouses)",
+      "summary": "Evaluating foods based on their complete matrix of nutrients and bioactive compounds, rather than reducing them to single macronutrients.",
+      "details": "Viewing healthy plant foods (whole grains, legumes, nuts, coffee beans) fundamentally as seeds packed with essential macronutrients, antioxidants, and polyphenols designed to fend off predators, which translate to anti-inflammatory effects in humans.",
+      "representative_quote": "When we think about plant Foods we are not talking about just the fats or carbohydrates we're talking about the whole package which is a very nutrient dense",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Toxic Obesogenic Food Environment",
+      "summary": "Viewing the modern food landscape as an inherently harmful system that actively promotes obesity and disease.",
+      "details": "This model shifts the blame from individual willpower to a systemic environment dominated by cheap, convenient, and aggressively marketed ultra-processed foods, necessitating policy-level interventions.",
+      "representative_quote": "Behavior changes are not sufficient in terms of dealing with this toxic obesic food environment we are facing now.",
+      "source_ids": [
+        "src_015",
+        "src_005"
+      ]
+    },
+    {
+      "label": "Dynamic Diet Assessment",
+      "summary": "Viewing diet as a dynamic behavior that changes over time, rather than a static baseline variable.",
+      "details": "Evaluating longitudinal changes in diet quality provides a more realistic picture of disease risk than a single snapshot, proving that continuous improvement lowers risk.",
+      "representative_quote": "Our results provide further evidence that modest improvement in diet quality over time confers benefits for CVD prevention.",
+      "source_ids": [
+        "src_037"
+      ]
+    },
+    {
+      "label": "The Triple Threat",
+      "summary": "Viewing global health challenges as an interconnected triad of obesity, malnutrition, and climate change that must be tackled simultaneously.",
+      "details": "Recognizing that overweight populations and micronutrient-deficient populations are both suffering from food systems that also drive climate change.",
+      "representative_quote": "We want to integrate our personal house with the house of our populations our communities with the house of Planet",
+      "source_ids": [
+        "src_005"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Always ask 'compared to what?'",
+      "summary": "When evaluating a diet or nutrient, always consider what it is replacing in the diet.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Evaluate the whole package",
+      "summary": "Evaluate foods by their whole nutrient package, not just single macronutrients.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_010",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Focus on plant food quality",
+      "summary": "Focus on the quality of plant foods, not just the exclusion of animal foods.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Zip code > genetic code",
+      "summary": "Remember that your zip code (environment) is more important than your genetic code.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Artificial sweeteners as a bridge",
+      "summary": "Use artificially sweetened beverages only as a temporary stepping stone to quit sugary drinks; ultimately drink water, unsweetened coffee, or tea.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_006"
+      ]
+    },
+    {
+      "label": "Check for added sugar",
+      "summary": "Read food labels to check for added sugar, not just total sugar.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_009"
+      ]
+    },
+    {
+      "label": "Hara hachi bu",
+      "summary": "Stop eating when you are 80% full.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Wholesome foods in sensible combinations",
+      "summary": "Eat wholesome foods in sensible combinations.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_016"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Not all plant-based diets are healthy",
+      "summary": "Warning against the assumption that any diet devoid of animal products is automatically good for you.",
+      "details": null,
+      "representative_quote": "Not all plant-based diets are healthy because when people talk about environmental sustainable diet they tend to recommend a plant-based diet... but what we found is that a lot of people are actually consuming unhealthy plant-based diets",
+      "source_ids": [
+        "src_010",
+        "src_011",
+        "src_022",
+        "src_005"
+      ]
+    },
+    {
+      "label": "Pattern analysis vs single nutrients",
+      "summary": "Explaining the rationale for shifting nutritional epidemiology toward dietary pattern analysis.",
+      "details": null,
+      "representative_quote": "Instead of looking at individual nutrients or foods, pattern analysis examines the effects of overall diet.",
+      "source_ids": [
+        "src_031",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Quality over quantity",
+      "summary": "Discussing major findings regarding macronutrients.",
+      "details": null,
+      "representative_quote": "The type of fats or quality of fat quality of carbohydrate is more important than total amount of fat or carbohydrate in our diet.",
+      "source_ids": [
+        "src_011",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Longevity and the planet",
+      "summary": "Explaining the dual benefits of traditional dietary patterns.",
+      "details": null,
+      "representative_quote": "What's good for longevity is also good for the planet because those dietary patterns reduce greenhouse gas emissions require less land and water and also reduce bio diversity loss.",
+      "source_ids": [
+        "src_010",
+        "src_011"
+      ]
+    },
+    {
+      "label": "Compared to what?",
+      "summary": "Explaining why headlines like 'butter is back' are misleading without looking at replacement nutrients.",
+      "details": null,
+      "representative_quote": "The main thing that has been lost in the debate is what is butter compared to right compared to what so that's the essence of our nutrition epidemiology analysis",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Toxic obesogenic environment",
+      "summary": "Discussing the limitations of nutrition education and the need for policy interventions.",
+      "details": null,
+      "representative_quote": "Behavior changes are not sufficient in terms of dealing with this toxic obesic food environment we are facing now.",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Zip code over genetic code",
+      "summary": "Emphasizing the importance of the built environment and local food access over precision medicine.",
+      "details": null,
+      "representative_quote": "We always say that the zip code is more important than genetic code",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "No single Mediterranean diet",
+      "summary": "Discussing how the Mediterranean diet is a set of adaptable principles rather than a strict set of rules.",
+      "details": null,
+      "representative_quote": "There is no single Mediterranean diet because the Mediterranean region encompasses diverse food cultures and culinary techniques and styles.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Feeding gut bacteria",
+      "summary": "Discussing how gut bacteria metabolize foods into beneficial small molecules.",
+      "details": null,
+      "representative_quote": "We are not just what we eat but also what our gut bacteria eat.",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Liquid vs solid calories",
+      "summary": "Explaining why sugar-sweetened beverages are particularly harmful to metabolic health.",
+      "details": null,
+      "representative_quote": "There is strong evidence that liquid calories are much worse than solid calories.",
+      "source_ids": [
+        "src_009"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Single-Nutrient Reductionism",
+      "summary": "Exclusively looking at individual nutrients or foods to predict chronic disease risk.",
+      "details": "It ignores complicated interactions among nutrients, struggles with highly correlated nutrients, and fails to capture the broader picture of food consumption, making it less predictive of actual disease risk than overall dietary patterns.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_031",
+        "src_022",
+        "src_036",
+        "src_005",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Equating 'Plant-Based' with 'Healthy'",
+      "summary": "Assuming all plant-based or vegetarian diets are inherently healthy and sustainable.",
+      "details": "Highly processed plant foods, refined grains, and sugar-sweetened beverages are technically plant-based but significantly increase the risk of chronic diseases and mortality, sometimes performing worse than animal-based diets.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010",
+        "src_011",
+        "src_022",
+        "src_005"
+      ]
+    },
+    {
+      "label": "Relying Solely on Individual Education",
+      "summary": "Relying solely on individual education and behavior change to improve population diets.",
+      "details": "It ignores the systemic issue of the toxic obesogenic food environment, which requires policy-level interventions like taxes and marketing restrictions to effectively manage.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_015",
+        "src_005"
+      ]
+    },
+    {
+      "label": "Demonizing All Carbs or Fats",
+      "summary": "Focusing solely on macronutrient quantity or adopting diets based on the belief that all carbohydrates or all fats are bad.",
+      "details": "This ignores the existence of high-quality macronutrients (like whole grains or polyunsaturated fats) which numerous studies show are highly beneficial for preventing chronic diseases.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010",
+        "src_034"
+      ]
+    },
+    {
+      "label": "Fearing Soy Products",
+      "summary": "Avoiding soy products due to fears of cancer, feminization, or endocrine disruption.",
+      "details": "Current evidence shows soy does not increase estrogen to harmful levels or decrease testosterone. Higher consumption is actually associated with a decreased risk of breast cancer and heart disease.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010",
+        "src_011"
+      ]
+    },
+    {
+      "label": "Static Diet Assessment",
+      "summary": "Relying exclusively on one-time baseline dietary measurements in epidemiological studies.",
+      "details": "It fails to capture dynamic and realistic changes in diet quality over time, limiting the practical evaluation of how changing habits actually influence subsequent disease risk.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_037"
+      ]
+    },
+    {
+      "label": "Misunderstanding Linoleic Acid",
+      "summary": "Recommending a reduction of linoleic acid (LA) in the diet based on mechanistic speculation about inflammation.",
+      "details": "It relies on the flawed assumption that LA metabolism directly increases pro-inflammatory arachidonic acid (AA) levels, ignoring that LA-to-AA conversion is tightly controlled and not appreciably modified by dietary LA intake.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_038"
+      ]
+    },
+    {
+      "label": "Statistical Methods Contradicting Biology",
+      "summary": "Using orthogonal transformation to force metabolic factors to be uncorrelated in order to achieve clearer interpretability.",
+      "details": "It contradicts the biological reality that components of insulin resistance syndrome are inherently intercorrelated due to a common underlying biological process, leading to statistical artifacts.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_035"
+      ]
+    }
+  ]
+}

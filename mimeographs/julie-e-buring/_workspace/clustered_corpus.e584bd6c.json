@@ -1,0 +1,365 @@
+{
+  "expert_name": "Julie E. Buring",
+  "themes": [
+    "Epidemiology & Study Design",
+    "Randomized Clinical Trials",
+    "Women's Health & Preventive Medicine",
+    "Cardiovascular Disease Prevention",
+    "Biomarkers & Risk Stratification",
+    "Evidence-Based Integrative Medicine"
+  ],
+  "principles": [
+    {
+      "label": "The Value of Null Results",
+      "summary": "A definitive finding of 'no difference' or a negative result in a clinical trial is highly valuable because it simplifies decision-making, prevents reliance on ineffective treatments, and redirects funding to more promising paths.",
+      "details": "If people believe an ineffective treatment works, they might rely on it instead of pursuing proven lifestyle changes or interventions. A null result definitively tells the public not to worry about a specific intervention, saving both time and money.",
+      "representative_quote": "definitively there is no difference between the two which is a finding in itself because it basically says don't worry about it don't try to do it one way or another just get it done",
+      "source_ids": [
+        "src_014",
+        "src_019",
+        "src_013",
+        "src_028"
+      ]
+    },
+    {
+      "label": "The Totality of Evidence",
+      "summary": "No single study can definitively answer a research question; understanding requires integrating basic research, observational studies, and randomized clinical trials.",
+      "details": "Observational studies are insufficient on their own to prove efficacy due to confounding variables, but they are excellent for long-term, real-world data. Large, long-term randomized trials are required to provide direct tests of efficacy and form the basis of public health recommendations.",
+      "representative_quote": "assessing where we are and our knowledge about any question is going to require looking not at one study but at a totality of evidence",
+      "source_ids": [
+        "src_012",
+        "src_014"
+      ]
+    },
+    {
+      "label": "Inflammation as a Hidden CVD Driver",
+      "summary": "Low-grade systemic inflammation (measured by CRP) is a critical, independent driver of cardiovascular risk, even in patients who lack traditional modifiable risk factors.",
+      "details": "Prospective data shows that elevated C-reactive protein (CRP) significantly increases the risk of major cardiovascular events. This identifies a 'SMuRF-less but inflamed' phenotype (lacking Standard Modifiable Risk Factors) that current screening algorithms miss.",
+      "representative_quote": "In these prospective data among women, CRP is a strong independent risk factor for cardiovascular disease that adds to the predictive value of risk models based on usual factors alone.",
+      "source_ids": [
+        "src_026",
+        "src_050",
+        "src_061"
+      ]
+    },
+    {
+      "label": "Rigorous Evaluation of Integrative Medicine",
+      "summary": "Integrative and complementary therapies must be evaluated with the same high standards of scientific rigor as conventional medicine.",
+      "details": "To change medical culture and translate evidence into clinical recommendations, therapies outside the traditional system require rigorous science. Research must progress from simply asking 'does it work?' to elucidating 'how does it work?' through interdisciplinary collaboration.",
+      "representative_quote": "I became increasingly convinced that the goal of all research and into in integrative therapies has to provide the same high standards of evaluation that are expected and required of conventional medicine with its western methods",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Leveraging Existing Cohorts",
+      "summary": "Maximize the long-term utility of existing cohorts through data harmonization and ancillary studies before initiating expensive new cohorts.",
+      "details": "The time and money invested in a cohort study is primarily in setting up the population and collecting baseline data. Harmonization does not require identical questions across studies; it only requires core information to create similar definitions for pooling data.",
+      "representative_quote": "before we did a new cohort we would need to identify what are the gaps to be filled and how the new cohort would address those gaps",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Broad vs. Deep Phenotyping",
+      "summary": "A cohort should not be strictly categorized as 'broad' or 'deep'; its classification depends entirely on the research question being asked.",
+      "details": "Broad phenotyping is best for raising hypotheses, while deep phenotyping is required for testing them. The exact same cohort can have phenotypes defined broadly enough to contribute to some scientific questions, while simultaneously having data deep enough to answer others.",
+      "representative_quote": "we can't think of a resource as being just simply broad resource or a deep resource it's really going to be a judgment based on relative to the questions that we're trying to evaluate",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Clinical Relevance of Maternal MI History",
+      "summary": "Any maternal history of myocardial infarction, regardless of the mother's age at the event, provides clinically relevant information for assessing CVD risk.",
+      "details": "Because women generally experience MIs at older ages than men, restricting the definition of a 'positive family history' to early-onset events (e.g., before age 60) severely underestimates the risk conferred by maternal history.",
+      "representative_quote": "Therefore, any maternal history of MI, regardless of age at the event, may provide clinically relevant information in the assessment of CVD risk.",
+      "source_ids": [
+        "src_007"
+      ]
+    },
+    {
+      "label": "Post-Trial Follow-Up for Cancer Prevention",
+      "summary": "Cancer prevention trials require continued post-trial follow-up to accurately assess long-term treatment effects.",
+      "details": "Because cancer development is a prolonged, multistage process, latent effects of an intervention (beneficial or harmful) may not be detectable during the limited duration of a standard trial and can only emerge years after the intervention ends.",
+      "representative_quote": "Because of the long developing period for many cancers, continued posttrial follow-up is necessary in cancer prevention trials to assess long-term treatment effects, either beneficial or harmful, that may emerge after the intervention ends.",
+      "source_ids": [
+        "src_064"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "12-Question Clinical Trial Critique",
+      "summary": "A comprehensive framework for assessing a published clinical trial's design, conduct, and interpretation.",
+      "details": "Steps include: 1) Identify the rationale and specific knowledge gap. 2) Evaluate participants and sample size. 3) Assess the exposure/intervention definition. 4) Examine randomization assignment. 5) Verify outcome measurement reliability. 6) Identify the main result. 7) Evaluate the role of chance (statistical significance). 8) Check for effect modification. 9) Assess generalizability. 10) Review ethical considerations. 11) Consider alternative designs. 12) Determine finality (is the question answered?).",
+      "representative_quote": "what I've done here is note 12 of those questions that I think would be like a framework of how we would go through this paper and each one of them will sort of deal with a different aspect of the paper so we can judge it",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "Investigating Discrepant Results",
+      "summary": "A systematic approach to take when observational studies and randomized clinical trials yield conflicting findings.",
+      "details": "1) Examine methodologic differences (uncontrolled confounding, compliance). 2) Look for biological differences between populations (age, weight, timing of exposure). 3) Take findings back to basic scientists to explore potential biological mechanisms. 4) Design subsequent studies to test the newly refined hypothesis.",
+      "representative_quote": "you have to understand how the design of the trial could differ from the environment of the observational study in ways that could affect the outcomes under study whether it be patient characteristics agent characteristics the underlying biology",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Future-Proofing a Cohort",
+      "summary": "Designing a clinical trial or cohort study to ensure it remains a valuable resource for future, unanticipated research questions.",
+      "details": "1) Add a wide range of self-reported outcome questions to questionnaires at minimal cost. 2) Collect an extensive core group of demographic, lifestyle, and medical history variables. 3) Collect and store baseline biological samples (e.g., plasma, buffy coat) even if immediate funding isn't available. 4) Conduct funded ancillary studies later to gather deeper information as specific conditions arise.",
+      "representative_quote": "we had no idea what questions were going to be the ones that would arise in the future but we wanted to be able to position ourselves to contribute to the evaluation of those questions in a sort of a timely and cost effective way",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Unsupervised Learning for Biomarker Risk Stratification",
+      "summary": "Using k-means clustering on routine clinical biomarkers to disentangle highly correlated, mechanistically distinct disease pathways.",
+      "details": "1) Select routine clinical biomarkers representing divergent disease pathways (e.g., LDL-C, hsCRP, triglycerides). 2) Apply k-means clustering to maximize within-group similarity and between-group differences. 3) Assign mutually exclusive cluster identities to subjects based on their aggregate biomarker profile. 4) Evaluate the risk of various incident outcomes across these novel clusters.",
+      "representative_quote": "We performed an unsupervised learning analysis using k‐means clustering to generate data‐defined (rather than investigator‐defined) exposure group identities for each subject according to their individual aggregate biomarker profiles.",
+      "source_ids": [
+        "src_061"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Passing the Baton",
+      "summary": "Viewing the scientific process as a relay race between study designs.",
+      "details": "Observational studies identify promising hypotheses but are limited by confounding. They then 'pass the baton' to randomized clinical trials to tighten the variables, remove bias, and get a definitive answer.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Does it work vs. How does it work",
+      "summary": "A two-stage model for evaluating novel or unconventional therapies.",
+      "details": "The first stage focuses on establishing basic clinical efficacy and safety ('does it work?'). The second stage focuses on elucidating the underlying mechanisms using objective markers and interdisciplinary technology ('how does it work?').",
+      "representative_quote": "the progression of research from does it work to how does it work",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "The 'SMuRF-less but inflamed' Phenotype",
+      "summary": "A diagnostic lens for identifying patients who appear healthy according to traditional cardiovascular screening but carry hidden risk.",
+      "details": "These patients lack Standard Modifiable Risk Factors (SMuRFs) like hypertension, dyslipidaemia, diabetes, and smoking, but have high systemic inflammation (elevated hsCRP), making them highly vulnerable to cardiovascular events.",
+      "representative_quote": "Over a 30-year horizon, cardiovascular events commonly occur among 'SMuRF-less but inflamed' women who are otherwise missed by current screening algorithms",
+      "source_ids": [
+        "src_050"
+      ]
+    },
+    {
+      "label": "Mutually Exclusive Risk Clustering",
+      "summary": "Categorizing patient risk based on aggregate biomarker profiles rather than overlapping clinical thresholds.",
+      "details": "Traditional risk assessment uses overlapping cutoffs (e.g., high LDL and high CRP), which can obfuscate the predominant driver of risk. Clustering forces mutually exclusive categorization, clarifying whether a patient's primary metabolic driver is inflammatory, hypercholesterolemic, or triglyceride-rich.",
+      "representative_quote": "Unsupervised learning analyses, in contrast, involve pattern recognition among exposures that are unlabeled and untrained for a specific outcome to form mutually exclusive group identities such as clusters.",
+      "source_ids": [
+        "src_061"
+      ]
+    },
+    {
+      "label": "The Middle Road of Core Variables",
+      "summary": "When future hypotheses are unknown, studies should adopt a baseline standard of core variables to ensure broad utility.",
+      "details": "Building a standard set of variables (anthropometric, smoking, alcohol, medical history) into a study allows it to participate in dozens of future consortia that were never part of the original trial design.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Epidemiologists as Medical Detectives",
+      "summary": "Viewing epidemiology as investigative detective work aimed at uncovering how and why specific factors affect health outcomes.",
+      "details": "Applying statistical tools to the design and conduct of studies to sort out whether taking a vitamin supplement or changing a lifestyle factor actually reduces the risk of chronic disease.",
+      "representative_quote": "I changed into the field of epidemiology which to me was very much like Medical detectives trying to sort out how we would ever know why one factor or how one factor affected the risk of developing an outcome.",
+      "source_ids": [
+        "src_019"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Broad for hypotheses, deep for testing",
+      "summary": "If you're going to raise hypotheses, broader phenotyping is more appropriate; if you're going to test hypotheses, you need deeper phenotyping.",
+      "details": null,
+      "representative_quote": "in general if you're going to raise hypotheses then the broader is going to be more appropriate but if you're going to test hypotheses we're going to need something deeper",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "The Four-Page Questionnaire Limit",
+      "summary": "Limit study questionnaires to a total of four pages, because after four pages participant compliance drops off significantly.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Vague Reality vs. Precise Specificity",
+      "summary": "Observational studies give us a vague answer to real-life questions, while trials give us a precise answer to specific questions that may not reflect real life.",
+      "details": null,
+      "representative_quote": "Observational studies really can give us the best albeit a little vague answer to real life questions while we always know we're going to be saddled with concerns and residual doubts about confounding.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Treat any maternal MI as valid risk",
+      "summary": "Treat any maternal history of myocardial infarction as a valid cardiovascular risk factor, rather than only looking for premature maternal MI.",
+      "details": null,
+      "representative_quote": "Therefore, any maternal history of MI may provide valuable clinical information, perhaps challenging the assumption that only an early maternal history of MI is important",
+      "source_ids": [
+        "src_007"
+      ]
+    },
+    {
+      "label": "Look to subgroups for unexpected results",
+      "summary": "If a trial result is unexpected, look at the subgroups to see if biological differences (like age or gender) are driving the discrepancy.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "No single study is definitive",
+      "summary": "Explaining why the public and scientists must look at the totality of evidence.",
+      "details": null,
+      "representative_quote": "No one study can definitively answer a research question.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Discrepancies mean the system is working",
+      "summary": "Reframing conflicting study results as a natural and positive part of scientific progress.",
+      "details": null,
+      "representative_quote": "Sometimes when there's discrepancies between observational studies and trials... there's nothing wrong at all that is exactly our system working our knowledge proceeding.",
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "The value of knowing what doesn't work",
+      "summary": "Defending the value of studies that yield negative results.",
+      "details": null,
+      "representative_quote": "It's very important for us to know what works as well as what doesn't work. Sometimes we make a choice and take something thinking it will benefit us, but we might be doing it instead of something else.",
+      "source_ids": [
+        "src_028"
+      ]
+    },
+    {
+      "label": "High standards for integrative therapies",
+      "summary": "Discussing the need to properly study complementary and alternative medicine.",
+      "details": null,
+      "representative_quote": "I became increasingly convinced that the goal of all research and into in integrative therapies has to provide the same high standards of evaluation that are expected and required of conventional medicine with its western methods",
+      "source_ids": [
+        "src_013"
+      ]
+    },
+    {
+      "label": "Broad vs. Deep is a false dichotomy",
+      "summary": "Discussing how to classify cohort resources.",
+      "details": null,
+      "representative_quote": "we can't think of a resource as being just simply broad resource or a deep resource it's really going to be a judgment based on relative to the questions that we're trying to evaluate",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "CRP as an independent risk factor",
+      "summary": "Concluding the findings of the Women's Health Study regarding CRP and cardiovascular risk prediction.",
+      "details": null,
+      "representative_quote": "In these prospective data among women, CRP is a strong independent risk factor for cardiovascular disease that adds to the predictive value of risk models based on usual factors alone.",
+      "source_ids": [
+        "src_026"
+      ]
+    },
+    {
+      "label": "The aim of large-scale trials",
+      "summary": "Explaining the core motivation behind conducting large-scale, long-term randomized trials.",
+      "details": null,
+      "representative_quote": "Our chief aim in this trial was to provide either a definitive positive result or an informative null finding on which to base rational public health recommendations.",
+      "source_ids": [
+        "src_014"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Relying solely on observational studies for public health",
+      "summary": "Making public health recommendations about dietary supplements based only on observational data.",
+      "details": "Observational studies suffer from confounding variables; it is impossible to know if the observed health benefit comes from the specific nutrient being studied or broader healthy lifestyle factors common among people who eat nutrient-rich foods.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Assuming discrepant studies mean one is wrong",
+      "summary": "Believing that when observational studies and RCTs disagree, one of them must be fundamentally flawed.",
+      "details": "Often, the studies are simply answering different questions or testing different biological contexts, such as starting hormone therapy at menopause versus 10 years later.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Relying exclusively on traditional CVD risk factors",
+      "summary": "Using only cholesterol, blood pressure, and smoking to predict cardiovascular risk in women.",
+      "details": "Traditional models miss underlying low-grade inflammation. This systematically under-detects risk in women who are 'SMuRF-less but inflamed', missing critical opportunities for preventive interventions.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_026",
+        "src_050"
+      ]
+    },
+    {
+      "label": "Defining family history of MI strictly by early onset",
+      "summary": "Only considering a family history of myocardial infarction 'positive' if it occurred before age 60.",
+      "details": "It neglects the natural age distribution of MI in women, causing clinicians to miss the significant cardiovascular disease risk conferred by a maternal history of MI at older ages.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_007"
+      ]
+    },
+    {
+      "label": "Initiating new cohorts before leveraging existing ones",
+      "summary": "Starting new cohort studies without first identifying specific gaps that existing cohorts cannot fill.",
+      "details": "Setting up populations and collecting initial data is the most expensive and time-consuming part of research. Existing cohorts often already have enough data to make significant contributions.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Taking unproven supplements over proven interventions",
+      "summary": "Taking an unproven pill under the assumption that it will provide a health benefit without downside.",
+      "details": "It creates an opportunity cost; people might rely on the ineffective pill instead of adopting proven lifestyle changes or treatments.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_028",
+        "src_012"
+      ]
+    },
+    {
+      "label": "Waiting for patients to disclose CAM use",
+      "summary": "Physicians waiting for patients to voluntarily disclose their use of complementary and integrative health treatments.",
+      "details": "Patients often will not bring it up unless explicitly asked, leading to an information gap that prevents doctors from providing safe, evidence-based guidance on these treatments.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_011"
+      ]
+    }
+  ]
+}

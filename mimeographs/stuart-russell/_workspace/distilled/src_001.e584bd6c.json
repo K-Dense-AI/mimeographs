@@ -1,0 +1,28 @@
+{
+  "source_id": "src_001",
+  "summary": "A brief directory page from Five Books listing Stuart Russell's major works. It includes a short summary by journalist Tom Chatfield outlining Russell's core thesis from 'Human Compatible' regarding the need for AI systems to embrace uncertainty in their objectives rather than strict optimization.",
+  "themes": [
+    "AI Safety",
+    "Value Alignment",
+    "Ethics of Technology"
+  ],
+  "principles": [
+    {
+      "statement": "AI systems must be designed with doubt and an open interrogation of aims, rather than strict optimization.",
+      "rationale": "To ensure the values encoded into powerful AI systems remain compatible with human thriving, avoiding the trap of assuming we can perfectly specify objectives.",
+      "source_quote": "...we should ensure the values and tendencies encoded into powerful systems are compatible with human thriving, and the thriving of life on this planet. And that compatibility must in turn entail doubt, plurality, and an open interrogation of aims and purposes, not optimisation.",
+      "source_id": "src_001"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Strict optimization of fixed objectives in AI systems.",
+      "why_it_fails": "It relies on the false assumption that humans can perfectly specify what is best, which risks creating powerful systems whose goals are ultimately incompatible with human thriving.",
+      "source_id": "src_001"
+    }
+  ]
+}

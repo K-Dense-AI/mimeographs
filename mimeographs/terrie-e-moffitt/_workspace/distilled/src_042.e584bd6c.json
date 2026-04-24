@@ -1,0 +1,94 @@
+{
+  "source_id": "src_042",
+  "summary": "Terrie E. Moffitt's developmental taxonomy of offending posits that the aggregate age-crime curve conceals two distinct groups of offenders: life-course-persistent (LCP) and adolescence-limited (AL). LCP offending stems from early neuropsychological deficits interacting with disadvantaged environments, while AL offending is a temporary, near-normative response to the 'maturity gap' of adolescence. The model emphasizes that understanding criminal behavior requires separating these distinct etiological pathways.",
+  "themes": [
+    "Developmental Criminology",
+    "Life-Course-Persistent Offending",
+    "Adolescence-Limited Offending",
+    "Neuropsychological Deficits",
+    "Gene-Environment Interaction",
+    "Maturity Gap"
+  ],
+  "principles": [
+    {
+      "statement": "The age-crime curve comprises two qualitatively distinct types of offenders, each with their own etiological path.",
+      "rationale": "Treating all offenders as a homogeneous group ignores the fundamental differences between temporary adolescent experimentation and lifelong pathological behavior.",
+      "source_quote": "Moffitt proposes that the age-crime curve comprises two qualitatively distinct types of offenders, each with their own etiological path into, and out of, delinquent and criminal behavior.",
+      "source_id": "src_042"
+    },
+    {
+      "statement": "Continuity of antisocial behavior is the product of an interaction between individual traits and the environment.",
+      "rationale": "Early neuropsychological vulnerabilities are exacerbated by disadvantaged or criminogenic environments, leading to continuous antisocial behavior. It is neither a pure trait nor pure environmental phenomenon.",
+      "source_quote": "Moffitt is careful to highlight that her approach is neither a pure trait theory nor a pure environmental theory. Continuity of antisocial behavior is one potential product of the interaction between individual traits or characteristics and one's environment",
+      "source_id": "src_042"
+    },
+    {
+      "statement": "Adolescence-limited offending is a temporary response to a maturity gap.",
+      "rationale": "Teens experience a gap between biological maturity and adult social roles, leading them to mimic antisocial peers to gain autonomy. Once adult roles are achieved, they desist.",
+      "source_quote": "Moffitt proposes that a maturity gap has resulted from the earlier occurrence of biological maturity coupled with the lengthening of adolescence. The ALs’ offending is the result of their attempts to bridge that gap.",
+      "source_id": "src_042"
+    },
+    {
+      "statement": "Prevention and intervention should target the early roots of life-course-persistent offending.",
+      "rationale": "Since LCPs commit the most serious and prolonged harm, and their behavior stems from early, often preventable neuropsychological deficits, early childhood interventions are the most efficacious.",
+      "source_quote": "The offending of the LCPs, on the other hand, is more likely to be serious and by definition continues over a much longer period of time. The LCPs, then, represent the most efficacious target for prevention and intervention.",
+      "source_id": "src_042"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Developmental Taxonomy of Offending",
+      "when_to_apply": "When analyzing criminal behavior across the lifespan to determine appropriate interventions or understand etiology.",
+      "steps": [
+        "Identify the age of onset of problem behavior (childhood vs. adolescence).",
+        "Assess the presence of early neuropsychological deficits, difficult temperament, or inadequate parenting.",
+        "Classify the trajectory as Life-Course-Persistent (early onset, continuous, trait-environment interaction) or Adolescence-Limited (adolescent onset, temporary, social mimicry).",
+        "Tailor interventions based on the typology (e.g., early childhood support and prenatal care for potential LCPs)."
+      ],
+      "source_quote": "In detailing the two types of offenders, each with distinct routes to delinquency, Moffitt is able to account for both the continuity and discontinuity of criminal behavior.",
+      "source_id": "src_042"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Heterotypic Continuity (Behavioral Coherence)",
+      "description": "The concept that an underlying trait or vulnerability is expressed differently across various stages of life and behavioral domains.",
+      "example": "An LCP offender's underlying neuropsychological deficit might manifest as a difficult temperament in infancy, school dropout in adolescence, and violent offending, mental health problems, or financial problems in adulthood.",
+      "source_id": "src_042"
+    },
+    {
+      "name": "The Maturity Gap",
+      "description": "The developmental mismatch between biological puberty and the acquisition of adult social roles and autonomy.",
+      "example": "Adolescence-limited offenders engage in delinquency to mimic the autonomy of LCP peers because they are biologically mature but socially restricted from adult roles.",
+      "source_id": "src_042"
+    },
+    {
+      "name": "Social Mimicry",
+      "description": "Adopting the behaviors of a distinct group to gain their perceived social advantages.",
+      "example": "Adolescence-limited offenders mimic the antisocial behavior of life-course-persistent peers to assert independence and bridge the maturity gap.",
+      "source_id": "src_042"
+    }
+  ],
+  "heuristics": [
+    "Childhood-onset predicts persistent adult antisocial behavior; adolescent-onset predicts desistance."
+  ],
+  "signature_quotes": [
+    {
+      "text": "that childhood-onset, but not adolescent-onset, antisocial behavior is associated in adulthood with antisocial personality, violence, and continued serious antisocial behavior that expands into maladjustment in work life and victimization of partners and children",
+      "context": "Testing the essential assertion of the theory in a 26-year follow-up of the Dunedin cohort.",
+      "source_id": "src_042"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating the aggregate age-crime curve as invariant for all individuals.",
+      "why_it_fails": "It conceals the heterogeneity of offending patterns, masking the distinct etiologies of life-course-persistent and adolescence-limited offenders.",
+      "source_id": "src_042"
+    },
+    {
+      "description": "Relying on pure trait theories or pure environmental theories to explain persistent crime.",
+      "why_it_fails": "It ignores the crucial interaction between early neuropsychological vulnerabilities and a criminogenic or disadvantaged socializing environment.",
+      "source_id": "src_042"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "source_id": "src_006",
+  "summary": "A biographical overview of Henry Ford, detailing his development of the Model T, the implementation of the moving assembly line, and his revolutionary business strategies. It highlights his beliefs in evolutionary invention, mass market pricing, and paying a living wage to turn workers into consumers.",
+  "themes": [
+    "Mass Production",
+    "Business Strategy",
+    "Innovation",
+    "Labor Relations"
+  ],
+  "principles": [
+    {
+      "statement": "Invention is a process of evolution, not sudden genesis.",
+      "rationale": "Ford believed that technological breakthroughs are the result of gradual improvements on existing ideas, which led him to successfully fight the restrictive Selden patent.",
+      "source_quote": "All invention was a matter of evolution, he said, yet Selden claimed genesis.",
+      "source_id": "src_006"
+    },
+    {
+      "statement": "Drive profit through low pricing, high volume, and efficiency.",
+      "rationale": "Instead of maximizing per-unit profit, setting a low price captures a massive market, and the resulting economies of scale make the low price profitable.",
+      "source_quote": "...stressed low pricing... in order to capture the widest possible market and then met the price by volume and efficiency.",
+      "source_id": "src_006"
+    },
+    {
+      "statement": "Pay workers enough to make them your customers.",
+      "rationale": "Raising wages above subsistence levels isn't about humanitarianism; it structurally changes the economy by turning factory workers into a consumer base for the products they build.",
+      "source_quote": "Ford said humanitarianism had nothing to do with it.",
+      "source_id": "src_006"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Mass-Market Economics",
+      "when_to_apply": "When attempting to transform a luxury good into a basic necessity for the general public.",
+      "steps": [
+        "Set the product price low to capture the widest possible market.",
+        "Achieve the necessary cost reductions through extreme volume and production efficiency.",
+        "Pay workers a living wage so they have the purchasing power to buy the product."
+      ],
+      "source_quote": "...stressed low pricing... in order to capture the widest possible market and then met the price by volume and efficiency.",
+      "source_id": "src_006"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Invention as Evolution",
+      "description": "The lens that technological progress is a continuous chain of iterative improvements rather than isolated moments of creation by a single inventor.",
+      "example": "Ford used this model to fight the Selden patent, arguing that the gasoline-powered automobile evolved from many sources and no single person could claim its genesis.",
+      "source_id": "src_006"
+    }
+  ],
+  "heuristics": [
+    "Do not release a product to customers until you have thoroughly improved the model, regardless of backer pressure.",
+    "Build for the great multitude, not just the wealthy."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I will build a motor car for the great multitude",
+      "context": "Announcing the birth of the Model T in October 1908.",
+      "source_id": "src_006"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Maximizing profit by paying the lowest possible wages and charging the highest possible prices.",
+      "why_it_fails": "It restricts the size of the market to only the wealthy and keeps workers at subsistence levels, preventing them from becoming consumers of the goods they produce.",
+      "source_id": "src_006"
+    },
+    {
+      "description": "Industrial combinations and patent monopolies.",
+      "why_it_fails": "They attempt to claim 'genesis' over evolutionary inventions, aiming to reserve profits for a few rather than expanding the industry and making products accessible to the masses.",
+      "source_id": "src_006"
+    },
+    {
+      "description": "Rushing a product to market to satisfy financial backers.",
+      "why_it_fails": "It prevents the creator from fully improving the model to ensure it is truly ready for customers.",
+      "source_id": "src_006"
+    }
+  ]
+}

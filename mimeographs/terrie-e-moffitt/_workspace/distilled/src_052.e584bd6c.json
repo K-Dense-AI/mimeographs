@@ -1,0 +1,91 @@
+{
+  "source_id": "src_052",
+  "summary": "Terrie E. Moffitt outlines her developmental taxonomy of antisocial behavior, which posits that the age-crime curve conceals two distinct groups: life-course persistent (LCP) and adolescence-limited (AL) offenders. LCP behavior is rare, originates in early childhood from neuropsychological and environmental risks, and persists into adulthood. AL behavior is common, emerges during puberty due to a 'maturity gap,' and naturally desists as individuals assume adult roles.",
+  "themes": [
+    "Developmental Psychopathology",
+    "Criminology",
+    "Antisocial Behavior",
+    "Adolescent Development",
+    "Life-Course Trajectories"
+  ],
+  "principles": [
+    {
+      "statement": "The age-crime curve conceals two distinct groups of offenders with entirely different causes.",
+      "rationale": "Antisocial behavior either originates early in life due to neuropsychological and environmental risks (Life-Course Persistent) or emerges during puberty as a normative response to the maturity gap (Adolescence-Limited).",
+      "source_quote": "The developmental taxonomy proposed that the age-crime curve conceals two groups, and proffered two distinct theories.",
+      "source_id": "src_052"
+    },
+    {
+      "statement": "Adolescence-limited antisocial behavior is common and normative, while abstaining is rare.",
+      "rationale": "During the 'maturity gap' between biological maturation and access to adult privileges, it is virtually normative for healthy youngsters to emulate delinquent lifestyles to demonstrate autonomy and win peer affiliation.",
+      "source_quote": "In fact, adolescent abstainers from offending are rare.",
+      "source_id": "src_052"
+    },
+    {
+      "statement": "Life-course persistent antisocial behavior diminishes the possibility of reform over time.",
+      "rationale": "As antisocial behavior infiltrates multiple adult life domains (employment, relationships, legal status), the accumulating consequences make it increasingly difficult for the individual to change course.",
+      "source_quote": "This cumulative infiltration gradually diminishes the possibility of reform, accounting for the persistence of LCP behavior.",
+      "source_id": "src_052"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Developmental Taxonomy of Antisocial Behavior",
+      "when_to_apply": "When analyzing the causes, prevention strategies, and life-course trajectories of antisocial behavior and crime.",
+      "steps": [
+        "Determine the onset of the antisocial behavior: early childhood (LCP) or alongside puberty (AL).",
+        "For early-onset (LCP), assess for inherited or acquired neuropsychological problems combined with a high-risk social environment.",
+        "For adolescent-onset (AL), recognize the behavior as a response to the 'maturity gap' by otherwise healthy youngsters.",
+        "Predict desistance for AL individuals as they age into real adult roles, and persistence for LCP individuals as their behavior infiltrates adult domains."
+      ],
+      "source_quote": "The developmental taxonomy proposed that the age-crime curve conceals two groups, and proffered two distinct theories.",
+      "source_id": "src_052"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Maturity Gap",
+      "description": "A lens for understanding adolescent delinquency. It describes the psychological discomfort youths experience during the relatively role-less years between their biological maturation (puberty) and their access to mature privileges and responsibilities. Delinquency is used to bridge this gap and demonstrate autonomy.",
+      "example": "Young people becoming dissatisfied with their childlike dependent status and emulating a delinquent lifestyle to hasten social maturation.",
+      "source_id": "src_052"
+    },
+    {
+      "name": "Cumulative Infiltration",
+      "description": "A model explaining the persistence of severe antisocial behavior. Over decades, transactions between a high-risk individual and their environment construct a disordered personality that infiltrates multiple adult domains (illegal activities, substance misuse, employment problems), which locks them into that lifestyle.",
+      "example": "An individual's early aggressive behavior leads to poor peer relationships, missed prosocial skills, and eventually problems with employment and intimate partner victimization, making reform nearly impossible.",
+      "source_id": "src_052"
+    }
+  ],
+  "heuristics": [
+    "Adolescent abstainers from offending are rare; some delinquency is virtually normative."
+  ],
+  "signature_quotes": [
+    {
+      "text": "This article reviews recent evidence regarding the hypothesis that the age-crime curve conceals two groups with different causes.",
+      "context": "Introducing the core premise of her developmental taxonomy of antisocial behavior.",
+      "source_id": "src_052"
+    },
+    {
+      "text": "In fact, adolescent abstainers from offending are rare.",
+      "context": "Explaining that adolescence-limited antisocial behavior is a common, normative part of development.",
+      "source_id": "src_052"
+    },
+    {
+      "text": "This cumulative infiltration gradually diminishes the possibility of reform, accounting for the persistence of LCP behavior.",
+      "context": "Describing why life-course persistent offenders fail to desist from crime in adulthood.",
+      "source_id": "src_052"
+    },
+    {
+      "text": "...otherwise ordinary healthy youngsters experience psychological discomfort during the relatively role-less years between their biological maturation and their access to mature privileges and responsibilities, a period termed the 'maturity gap.'",
+      "context": "Defining the root cause of adolescence-limited antisocial behavior.",
+      "source_id": "src_052"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating all adolescent antisocial behavior as pathological or indicative of a lifelong criminal trajectory.",
+      "why_it_fails": "It ignores that the age-crime curve conceals two groups. Most adolescent offenders are 'adolescence-limited'—their behavior is a normative response to the maturity gap, their pre-delinquent development was healthy, and they will naturally desist when they age into adult roles.",
+      "source_id": "src_052"
+    }
+  ]
+}

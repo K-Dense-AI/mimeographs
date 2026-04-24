@@ -1,0 +1,76 @@
+{
+  "source_id": "src_042",
+  "summary": "This source is the abstract for Kaiming He's seminal paper on Deep Residual Learning (ResNet). It introduces the residual learning framework, which reformulates network layers to learn residual functions rather than unreferenced functions, enabling the successful training of substantially deeper neural networks for visual recognition tasks.",
+  "themes": [
+    "Deep Learning",
+    "Computer Vision",
+    "Network Architecture",
+    "Optimization"
+  ],
+  "principles": [
+    {
+      "statement": "Depth is of central importance for visual recognition tasks.",
+      "rationale": "Extremely deep representations yield massive improvements in object detection and classification tasks.",
+      "source_quote": "The depth of representations is of central importance for many visual recognition tasks.",
+      "source_id": "src_042"
+    },
+    {
+      "statement": "Standard deep neural networks become increasingly difficult to train as they get deeper.",
+      "rationale": "Without a structural change, adding layers makes optimization harder rather than improving accuracy.",
+      "source_quote": "Deeper neural networks are more difficult to train.",
+      "source_id": "src_042"
+    },
+    {
+      "statement": "Layers should learn residual functions referenced to their inputs.",
+      "rationale": "Residual networks are easier to optimize and can successfully gain accuracy from considerably increased depth compared to unreferenced functions.",
+      "source_quote": "We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions.",
+      "source_id": "src_042"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Residual Learning Framework",
+      "when_to_apply": "When training substantially deeper neural networks to prevent optimization difficulties.",
+      "steps": [
+        "Reformulate layers to learn residual functions with reference to the layer inputs, rather than unreferenced functions.",
+        "Optimize the network, leveraging the fact that these residual connections make the deep network easier to train.",
+        "Scale up the depth of the network to gain accuracy without increasing complexity beyond manageable levels."
+      ],
+      "source_quote": "We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously.",
+      "source_id": "src_042"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Residual vs. Unreferenced Functions",
+      "description": "Viewing network layers not as learning a complete, unreferenced mapping from scratch, but rather as learning a residual (a delta or adjustment) with reference to the layer's input.",
+      "example": "Reformulating layers in a 152-layer network to learn residuals, allowing it to be 8x deeper than VGG nets while remaining easier to optimize and having lower complexity.",
+      "source_id": "src_042"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Deeper neural networks are more difficult to train.",
+      "context": "Opening statement of the ResNet abstract, setting up the core problem.",
+      "source_id": "src_042"
+    },
+    {
+      "text": "We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions.",
+      "context": "Explaining the core innovation of the ResNet architecture.",
+      "source_id": "src_042"
+    },
+    {
+      "text": "The depth of representations is of central importance for many visual recognition tasks.",
+      "context": "Justifying the pursuit of extremely deep networks.",
+      "source_id": "src_042"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Learning unreferenced functions when building very deep neural networks.",
+      "why_it_fails": "It makes the network substantially more difficult to train and optimize as depth increases.",
+      "source_id": "src_042"
+    }
+  ]
+}

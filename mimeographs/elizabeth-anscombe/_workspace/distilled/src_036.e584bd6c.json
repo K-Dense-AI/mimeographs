@@ -1,0 +1,108 @@
+{
+  "source_id": "src_036",
+  "summary": "Elizabeth Anscombe was a highly influential 20th-century analytic philosopher known for her foundational work in action theory, virtue ethics, and metaphysics. She famously critiqued secular moral philosophy, coined the term 'consequentialism' to condemn it, and argued that intentional actions are known without observation.",
+  "themes": [
+    "Philosophy of Action",
+    "Virtue Ethics",
+    "Consequentialism",
+    "Metaphysics",
+    "Military Ethics",
+    "Philosophy of Mind"
+  ],
+  "principles": [
+    {
+      "statement": "The first-person pronoun 'I' does not refer to anything at all.",
+      "rationale": "If 'I' referred to a physical body, it could be misidentified. If it referred to a Cartesian soul, it would lead to absurdity. Therefore, it is a word with a use but no reference.",
+      "source_quote": "The word I is not a name I call myself. It is not a name at all, even though it can appear to be one.",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Causes do not necessitate their effects.",
+      "rationale": "Things can always go awry in unpredictable ways, meaning causal laws only hold true 'other things being equal'.",
+      "source_quote": "If C then E, other things being equal.",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Intentional actions are known without observation.",
+      "rationale": "We know what we are doing and what our intentions are without having to observe our own physical behavior.",
+      "source_quote": "class of intentional actions is a sub-class... of the class of things known without observation",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Secular moral philosophy should drop concepts like 'moral obligation' and 'ought'.",
+      "rationale": "These concepts only make sense within a divine law framework; without God, they are meaningless and should be replaced with precise terms like 'just' or 'unjust'.",
+      "source_quote": "the concepts of moral obligation, the use of the word ought with a special moral sense, and related notions, are harmful and should be dropped",
+      "source_id": "src_036"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Doctrine of Double Effect",
+      "when_to_apply": "When evaluating actions that have both good intended effects and bad foreseen effects (e.g., collateral damage in war).",
+      "steps": [
+        "Ensure the action itself is not forbidden.",
+        "Ensure the bad effects are merely foreseen, not intended.",
+        "Ensure the likely good consequences of the action outweigh its likely bad consequences."
+      ],
+      "source_quote": null,
+      "source_id": "src_036"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Shopping List",
+      "description": "A metaphor to distinguish between mistakes in intention and mistakes in execution. If a shopper buys the wrong items, the execution failed but the list (intention) remains correct. If a detective recording the shopper writes the wrong items, the record itself is flawed.",
+      "example": "Writing 'Anscombe' on a wet chalkboard where no chalk adheres. You know what you are doing (intention) even if the execution fails.",
+      "source_id": "src_036"
+    },
+    {
+      "name": "Brute Facts",
+      "description": "Facts that make a description true or false, but only relative to a proper context and 'other things being equal.'",
+      "example": "If I loan you money and you promise to pay it back, those are brute facts making it true that you owe me money—unless we were joking or the world is ending.",
+      "source_id": "src_036"
+    }
+  ],
+  "heuristics": [
+    "Stop doing moral philosophy until we have an adequate philosophy of psychology.",
+    "Use precise terms of moral evaluation such as 'just' and 'unjust' instead of vague terms like 'permissible' and 'wrong'."
+  ],
+  "signature_quotes": [
+    {
+      "text": "the concepts of moral obligation, the use of the word ought with a special moral sense, and related notions, are harmful and should be dropped",
+      "context": "From her influential paper 'Modern Moral Philosophy'.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "class of intentional actions is a sub-class... of the class of things known without observation",
+      "context": "From her book 'Intention', explaining how we know our own actions.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "The prohibition [on murder] is so basic that it is difficult to answer the question as to why murder is intrinsically wrongful",
+      "context": "From 'Murder and the Morality of Euthanasia'.",
+      "source_id": "src_036"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Consequentialism (judging actions solely by their results).",
+      "why_it_fails": "It places no absolute limits on what we might do (e.g., murdering innocents to save soldiers) and ignores the role of intention, which is essential for making sense of human behavior.",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Using religious moral concepts (like 'moral obligation') in secular philosophy.",
+      "why_it_fails": "It implies a religious framework that the philosopher explicitly disavows, rendering the language meaningless and imprecise.",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Treating intentions as causes of behavior.",
+      "why_it_fails": "If intentions were prior events causing actions like falling dominoes, we could be ignorant of our own intentions, which contradicts our normal experience of knowing what we intend.",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Pacifism.",
+      "why_it_fails": "It sets an impossibly high ideal that people inevitably fail to meet, which leads them to abandon all moral restrictions once they do engage in war.",
+      "source_id": "src_036"
+    }
+  ]
+}

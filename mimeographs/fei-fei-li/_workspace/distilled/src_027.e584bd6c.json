@@ -1,0 +1,160 @@
+{
+  "source_id": "src_027",
+  "summary": "Fei-Fei Li discusses the evolution of AI from the creation of ImageNet to the current frontier of spatial intelligence and world models. She emphasizes that AI is fundamentally human-centric, warns against treating AGI as a scientific term, and argues that the next major leap in AI—particularly for robotics—requires moving beyond language to understand and interact with 3D physical environments. Fei-Fei Li discusses the launch of World Labs and the concept of spatial intelligence, which goes beyond 2D video generation to understanding 3D and 4D environments. She also reflects on her career choices, advising young talent to prioritize mission and passion over over-analyzing job details, and emphasizes the importance of human-centered AI that preserves human dignity. This source was rejected because it features Elena Verna discussing B2B product-led growth, not Fei-Fei Li the computer vision expert. This source is a podcast transcript featuring growth expert Elena Verna discussing product-market fit and growth models. It does not contain any information by or about Fei-Fei Li.",
+  "themes": [
+    "History of AI",
+    "Spatial Intelligence",
+    "World Models",
+    "Human-Centered AI",
+    "Robotics",
+    "Career Advice",
+    "World Labs",
+    "AI Policy and Governance"
+  ],
+  "principles": [
+    {
+      "statement": "There is nothing artificial about artificial intelligence.",
+      "rationale": "AI is inspired by people, created by people, and ultimately impacts people. Its development and deployment are entirely dependent on human responsibility and choices.",
+      "source_quote": "your field is called artificial intelligence but there's nothing artificial about it.",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "Human learning and evolution are fundamentally big data processes.",
+      "rationale": "Before ImageNet, AI models lacked the data needed to learn patterns. Recognizing that humans and animals evolve and learn through massive, continuous exposure to the world inspired the push for internet-scale training data.",
+      "source_quote": "human learning as well as evolution is actually a big data learning process. Humans learn with so much experience you know constantly and evolution if you look at time animals evolve with just experiencing the world.",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "Scaling laws are not enough; we are not done innovating.",
+      "rationale": "While adding more data and GPUs to current architectures is valuable, AI still lacks basic spatial reasoning, abstraction, and emotional intelligence. Fundamental scientific innovation is still required.",
+      "source_quote": "There is not a single deeply scientific discipline in human history that has arrived at a place that says we're done. We're done innovating.",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "Spatial intelligence is deeper than just creating flat 2D videos.",
+      "rationale": "The real world is 3D and 4D (including dynamics). True spatial intelligence requires the ability to create, reason, interact, and make sense of deeply spatial worlds, rather than just passively watching 2D projections.",
+      "source_quote": "Spatial intelligence to me is deeper than owning creating that flat 2D world. Spatial intelligence to me is the ability to create, reason, interact, make sense of deeply spatial world, whether it's 2D or 3D or 4D, including dynamics and all that.",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "AI development and deployment must be anchored in human benevolence and dignity.",
+      "rationale": "AI is a civilizational technology with massive implications for humanity. No technology should take away human dignity or agency; it should augment and help people.",
+      "source_quote": "no technology should take away human dignity and the human dignity and agency should be at the heart of the development, the deployment as well as the governance of every technology.",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "Everyone has a role in the future of AI.",
+      "rationale": "Because AI is ultimately about people, individuals across all professions—from artists to farmers to nurses—can either use AI as a tool to augment their work or participate as citizens in deciding how it is applied.",
+      "source_quote": "Everybody has a role in AI. It depends on what what you do and what you want.",
+      "source_id": "src_027"
+    },
+    {
+      "statement": "Career decisions should be driven by passion, mission alignment, and the people you work with.",
+      "rationale": "Over-analyzing every minute detail of a job offer distracts from what actually leads to fulfilling work and significant impact.",
+      "source_quote": "when maybe the most important thing is where's your passion? Do you align with the mission? Do you believe and have faith in this team?",
+      "source_id": "src_027"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Golden Recipe of Modern AI",
+      "when_to_apply": "When building foundational machine learning models capable of pattern recognition and generation.",
+      "steps": [
+        "Curate massive, internet-scale datasets (Big Data).",
+        "Design complex neural network architectures to learn patterns from the data.",
+        "Utilize massive parallel computing power (GPUs) to train the models."
+      ],
+      "source_quote": "that combination of the trio technology uh big data neuronet network and GPU was kind of the golden recipe for modern AI",
+      "source_id": "src_027"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Spatial Intelligence",
+      "description": "Viewing intelligence not just as language processing, but as the ability to perceive, reason, and act within a 3D physical environment. It is the lynchpin connecting visual intelligence and embodied AI (robotics).",
+      "example": "James Watson and Francis Crick using spatial intelligence to deduce the 3D double-helix structure of DNA from Rosalind Franklin's flat 2D X-ray diffraction photo.",
+      "source_id": "src_027"
+    },
+    {
+      "name": "World Models",
+      "description": "A foundational model that allows an agent to create, interact with, and reason within a generated 3D world, serving as a critical missing piece for robotics and physical simulation.",
+      "example": "Prompting a model with an image or sentence to generate an infinitely explorable 3D environment where a robot can plan its path to tidy a kitchen.",
+      "source_id": "src_027"
+    },
+    {
+      "name": "Plato's Allegory of the Cave for Vision",
+      "description": "Uses Plato's allegory of the cave to explain the fundamental challenge of computer vision and spatial intelligence: inferring a complex 3D/4D reality from flat 2D projections.",
+      "example": "Comparing a vision system to a prisoner watching 2D shadows on a cave wall, whose task is to figure out the actual 3D live theater happening behind them.",
+      "source_id": "src_027"
+    }
+  ],
+  "heuristics": [
+    "Look at artificial intelligence through the lens of visual intelligence, because humans are deeply visual animals.",
+    "When making big career leaps, don't overthink all possible things that can go wrong because there are too many.",
+    "When hiring young talent, look for intellectual fearlessness and the courage to dive into the unknown."
+  ],
+  "signature_quotes": [
+    {
+      "text": "your field is called artificial intelligence but there's nothing artificial about it.",
+      "context": "Advice she gives to almost every student who graduates from her lab.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "I feel AGI is more a marketing term than a scientific term.",
+      "context": "When asked about how far we are from AGI and how to define it.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "There is not a single deeply scientific discipline in human history that has arrived at a place that says we're done. We're done innovating.",
+      "context": "Arguing against the idea that scaling current models is all that is needed for future AI breakthroughs.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "the more I work in AI, the more I respect humans.",
+      "context": "Reflecting on the incredible efficiency of the human brain, which operates on about 20 watts of power.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "Spatial intelligence to me is the ability to create, reason, interact, make sense of deeply spatial world, whether it's 2D or 3D or 4D, including dynamics and all that.",
+      "context": "Explaining the thesis behind World Labs and how it differs from standard video generation models.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "I don't overthink of all possible things that can go wrong because that's too many.",
+      "context": "Discussing her fearless approach to taking career risks, like leaving a tenured track at Princeton for Stanford.",
+      "source_id": "src_027"
+    },
+    {
+      "text": "no technology should take away human dignity and the human dignity and agency should be at the heart of the development, the deployment as well as the governance of every technology.",
+      "context": "Answering whether everyday people like teachers, nurses, and farmers have a role in an AI-driven future.",
+      "source_id": "src_027"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assigning AI achievements to a single person or 'hero'.",
+      "why_it_fails": "It ignores the reality that AI is a 70-year-old field built by generations of researchers. No single person could have gotten the field to where it is by themselves.",
+      "source_id": "src_027"
+    },
+    {
+      "description": "Getting bogged down in defining AGI.",
+      "why_it_fails": "It distracts from the scientific north star of AI, which is simply asking if machines can think and do things the way humans do. AGI functions more as a marketing buzzword than a rigorous scientific goal.",
+      "source_id": "src_027"
+    },
+    {
+      "description": "Assuming the 'Bitter Lesson' (scaling data and compute) will easily solve robotics.",
+      "why_it_fails": "Unlike language models where training data perfectly aligns with output tokens, robotics lacks massive training data for actions in 3D worlds. Furthermore, robots are physical systems that require hardware and real-world application scenarios, making them much harder to scale than pure software.",
+      "source_id": "src_027"
+    },
+    {
+      "description": "Over-analyzing every minute dimension of a job offer.",
+      "why_it_fails": "It causes young talent to lose sight of the most important factors for success and fulfillment: passion, mission alignment, and faith in the team.",
+      "source_id": "src_027"
+    },
+    {
+      "description": "Talking about AI solely in terms of 'infinite productivity' or 'infinite power'.",
+      "why_it_fails": "It ignores the human element. At the end of the day, AI is about people, and failing to speak heart-to-heart with the broader public alienates them from the technology.",
+      "source_id": "src_027"
+    }
+  ]
+}

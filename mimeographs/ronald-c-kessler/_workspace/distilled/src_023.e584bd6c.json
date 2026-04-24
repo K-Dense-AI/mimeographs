@@ -1,0 +1,45 @@
+{
+  "source_id": "src_023",
+  "summary": "A review of survey and administrative data by Ronald C. Kessler and colleagues assessing the prevalence of mental illness during the COVID-19 pandemic. The authors conclude that while anxiety and depression increased, the actual rise (RR 1.3-1.5) was much lower than early pandemic estimates (RR 5.0-8.0), which were based on flawed methodological comparisons.",
+  "themes": [
+    "Psychiatric epidemiology",
+    "COVID-19 mental health impact",
+    "Survey methodology",
+    "Statistical comparisons"
+  ],
+  "principles": [
+    {
+      "statement": "The true increase in mental illness prevalence during the COVID-19 pandemic was modest, not catastrophic.",
+      "rationale": "Best evidence from rigorous trend and cohort surveys shows a relative risk increase of 1.3 to 1.5 for anxiety-depression, contradicting early studies that used flawed comparisons to claim massive spikes.",
+      "source_quote": "Best evidence suggests clinically significant anxiety-depression point prevalence increased by relative-risk (RR) = 1.3 to 1.5 during the pandemic compared with before.",
+      "source_id": "src_023"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "This level of increase is much less than the implausibly high RR = 5.0 to 8.0 estimates reported in trend studies early in the pandemic based on less-appropriate comparisons.",
+      "context": "Discussing the true prevalence of mental illness during the COVID-19 pandemic compared to early, methodologically flawed reports.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "Best evidence suggests clinically significant anxiety-depression point prevalence increased by relative-risk (RR) = 1.3 to 1.5 during the pandemic compared with before.",
+      "context": "Summarizing the actual impact of the COVID-19 pandemic on mental health prevalence.",
+      "source_id": "src_023"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Accepting early-pandemic trend studies that report massive spikes in mental illness (e.g., 5x to 8x increases).",
+      "why_it_fails": "These estimates are implausibly high because they rely on less-appropriate comparisons rather than rigorous baseline data.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Ignoring panel fatigue when comparing rolling panel trend surveys to cross-sectional trend surveys.",
+      "why_it_fails": "Surveying the same panel members repeatedly over time can lead to panel fatigue, which artificially lowers prevalence estimates compared to surveys where respondents only participate once.",
+      "source_id": "src_023"
+    }
+  ]
+}

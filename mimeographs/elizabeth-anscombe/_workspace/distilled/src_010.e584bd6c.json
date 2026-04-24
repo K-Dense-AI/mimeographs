@@ -1,0 +1,107 @@
+{
+  "source_id": "src_010",
+  "summary": "In this lecture on Elizabeth Anscombe's 'Modern Moral Philosophy', the speaker outlines her three central theses: the need to suspend moral philosophy until we develop an adequate philosophy of psychology, the necessity of abandoning senseless 'moral oughts' derived from obsolete divine law frameworks, and the rejection of consequentialism. Anscombe argues that distinguishing between intentional action and side effects is crucial to maintaining absolute prohibitions against intrinsically bad acts.",
+  "themes": [
+    "Philosophy of Psychology",
+    "Virtue Ethics",
+    "Intention vs. Side Effects",
+    "Consequentialism",
+    "Moral Obligation and Duty"
+  ],
+  "principles": [
+    {
+      "statement": "We must lay aside moral philosophy until we have an adequate philosophy of psychology.",
+      "rationale": "We cannot evaluate human action, define virtues like justice, or understand what makes an action bad until we first understand what a human action is, how it is affected by motives, and what constitutes intention.",
+      "source_quote": "it is not profitable for us at present to do moral philosophy that should be laid aside at any rate until we have an adequate philosophy of psychology in which we are conspicuously lacking",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "The modern concepts of moral obligation and moral duty should be jettisoned.",
+      "rationale": "These concepts derive their meaning from a divine law conception of ethics. Without belief in an authoritative divine lawgiver, the terms lose their intelligible sense and retain only a harmful psychological force.",
+      "source_quote": "the concepts of obligation and Duty... ought to be jettisoned if this is psychologically possible because they are survivals or derivatives from survivals from an earlier conception of Ethics which no longer generally survives and are only harmful without it",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "An agent is not responsible for the bad consequences of their good actions.",
+      "rationale": "To maintain absolute prohibitions against intrinsically evil acts (like killing the innocent), we must distinguish between what an agent intentionally does and the side effects they merely foresee. Agents are only responsible for what falls under the scope of their intention.",
+      "source_quote": "I should contend that a man is responsible for the bad consequences of his bad actions but he gets no credit for the good ones and contrarywise is not responsible for the bad consequences of good actions",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "All human action is moral action.",
+      "rationale": "When evaluated simply as a human action (qua human action), every act is either good or bad based on whether it is ordered toward living well or flourishing.",
+      "source_quote": "all Human Action is moral action it is either good or bad it may be both",
+      "source_id": "src_010"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The 'Why' Question of Intention",
+      "when_to_apply": "When determining if an action is intentional and understanding the agent's practical reasoning.",
+      "steps": [
+        "Ask 'why' with respect to what the agent is doing.",
+        "Look for a sincere answer that gives a reason justifying and explaining the action.",
+        "Identify the end or good being knowingly pursued in the action.",
+        "Connect this specific end to the agent's wider context or general conception of how their life ought to go."
+      ],
+      "source_quote": "sincere answers to the why question give reasons that justify and in so justifying explain what one does thereby making the action intelligible to others",
+      "source_id": "src_010"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Intention vs. Side Effects",
+      "description": "A distinction between what an agent deliberately chooses to do (which falls under their rational control and intention) and what they merely foresee will happen as a result of their action (side effects). This prevents the collapse into consequentialism.",
+      "example": "A cardinal who refuses a tyrant's order to worship a golden calf. The cardinal knows his refusal will result in his priests being imprisoned or killed (a side effect), but he does not intend this harm; he merely intends to avoid doing an intrinsically evil act.",
+      "source_id": "src_010"
+    },
+    {
+      "name": "Law Conception vs. Aristotelian Naturalism",
+      "description": "Two distinct ways to ground ethics. The 'Law Conception' relies on an authoritative divine law to render absolute verdicts on acts as licit or illicit. 'Aristotelian Naturalism' grounds ethics in human nature, where virtues are what a human needs to flourish, replacing 'moral oughts' with natural necessities.",
+      "example": null,
+      "source_id": "src_010"
+    }
+  ],
+  "heuristics": [
+    "A good person will not be tempted by fear or hope of consequences but will do what is choiceworthy come what may."
+  ],
+  "signature_quotes": [
+    {
+      "text": "it is not profitable for us at present to do moral philosophy that should be laid aside at any rate until we have an adequate philosophy of psychology in which we are conspicuously lacking",
+      "context": "Anscombe's first thesis in 'Modern Moral Philosophy'.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "the concepts of obligation and Duty... ought to be jettisoned if this is psychologically possible because they are survivals or derivatives from survivals from an earlier conception of Ethics which no longer generally survives and are only harmful without it",
+      "context": "Anscombe's second thesis regarding the senselessness of modern moral vocabulary.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "I should contend that a man is responsible for the bad consequences of his bad actions but he gets no credit for the good ones and contrarywise is not responsible for the bad consequences of good actions",
+      "context": "Explaining the limits of responsibility and the rejection of consequentialism.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "all Human Action is moral action it is either good or bad it may be both",
+      "context": "From her essay on double effect, equating human action with moral action.",
+      "source_id": "src_010"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Consequentialism (weighing good and bad effects to determine if an action is right).",
+      "why_it_fails": "It destroys the concept of justice as a virtue and makes absolute prohibitions impossible. If any prohibition can be overridden by bringing about more good effects, then practical deliberation inevitably becomes just a matter of weighing effects, allowing intrinsically evil acts like killing the innocent.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Using the terms 'moral obligation' or 'moral ought' without a divine law framework.",
+      "why_it_fails": "It uses a word that retains the psychological suggestion of force but no longer signifies a real concept, because the belief system (a divine lawgiver) that originally gave it sense is no longer accepted.",
+      "source_id": "src_010"
+    },
+    {
+      "description": "Attempting to do moral philosophy or virtue ethics before establishing a philosophy of psychology.",
+      "why_it_fails": "You cannot evaluate an action or define a virtue without first having an account of what a human action is, how it is affected by motives, and what constitutes intention.",
+      "source_id": "src_010"
+    }
+  ]
+}

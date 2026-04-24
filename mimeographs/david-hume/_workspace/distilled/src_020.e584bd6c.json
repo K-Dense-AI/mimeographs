@@ -1,0 +1,84 @@
+{
+  "source_id": "src_020",
+  "summary": "David Hume argues that all governments, even the most despotic, are fundamentally based on opinion, because the governed always possess the physical force. He categorizes these foundational opinions into public interest, right to power, and right to property, while classifying fear, affection, and self-interest as secondary forces that rely on pre-existing authority. Finally, he warns against radical political novelties, advocating instead for the preservation and gradual improvement of established governmental structures.",
+  "themes": [
+    "Political Philosophy",
+    "Foundations of Government",
+    "Public Opinion",
+    "Power and Property",
+    "Political Conservatism"
+  ],
+  "principles": [
+    {
+      "statement": "Government is founded entirely on opinion.",
+      "rationale": "Because the governed vastly outnumber the governors and hold the actual physical force, rulers cannot rely on force alone. They must rely on the public's opinion to legitimize and maintain their authority.",
+      "source_quote": "It is therefore, on opinion only that government is founded; and this maxim extends to the most despotic and most military governments, as well as to the most free and most popular.",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "The authority of the few over the many rests on three primary opinions: public interest, right to power, and right to property.",
+      "rationale": "These three opinions establish the foundational legitimacy of a state. Other motivators like fear, affection, or self-interest cannot create authority from nothing; they only work if the ruler is already perceived to have legitimate authority.",
+      "source_quote": "Upon these three opinions, therefore, of public interest, of right to power, and of right to property, are all governments founded, and all authority of the few over the many.",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Antiquity generates the opinion of right.",
+      "rationale": "People naturally develop a strong attachment to ancient governments and traditional names, which legitimizes the rulers' right to power and inspires citizens to defend the system with their lives and wealth.",
+      "source_quote": "Antiquity always begets the opinion of right; and whatever disadvantageous sentiments we may entertain of mankind, they are always found to be prodigal both of blood and treasure in the maintenance of public justice.",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Secondary principles like fear, affection, and self-interest cannot independently establish a government.",
+      "rationale": "A tyrant's physical strength is limited to one person, so fear relies on the presumed opinion of others. Similarly, a leader cannot distribute rewards or leverage their personal virtue effectively unless they are already recognized as holding a public character.",
+      "source_quote": "...these other principles can have no influence alone, but suppose the antecedent influence of those opinions above-mentioned. They are, therefore, to be esteemed the secondary, not the original principles of government.",
+      "source_id": "src_020"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Balance of Power vs. The Balance of Property",
+      "description": "A lens for understanding political stability and institutional creep. When a class holds property but no power, the government can endure because the public resists usurpation. However, if a class holds a large share of property and is granted even a small share of constitutional power, they will inevitably and gradually stretch their authority until their power matches their property.",
+      "example": "The House of Commons in England, which used its initial small share of power to gradually stretch its authority to align with its vast share of the nation's property.",
+      "source_id": "src_020"
+    }
+  ],
+  "heuristics": [
+    "Force is always on the side of the governed.",
+    "Antiquity always begets the opinion of right."
+  ],
+  "signature_quotes": [
+    {
+      "text": "NOTHING appears more surprizing to those, who consider human affairs with a philosophical eye, than the easiness with which the many are governed by the few...",
+      "context": "Opening sentence of the essay, introducing the paradox of government.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "...as Force is always on the side of the governed, the governors have nothing to support them but opinion.",
+      "context": "Explaining why rulers must rely on the minds of their subjects rather than mere physical coercion.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "It is therefore, on opinion only that government is founded; and this maxim extends to the most despotic and most military governments, as well as to the most free and most popular.",
+      "context": "Asserting the universality of opinion as the basis of state power.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "Let us cherish and improve our ancient government as much as possible, without encouraging a passion for such dangerous novelties.",
+      "context": "Concluding advice against radically altering the British constitution.",
+      "source_id": "src_020"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Making property the sole foundation of all government.",
+      "why_it_fails": "While the opinion of the right to property is highly influential, reducing all government to property goes too far and ignores the equally crucial roles of the opinion of public interest and the opinion of the right to power.",
+      "source_id": "src_020"
+    },
+    {
+      "description": "Pursuing radical novelties or total alterations in the form of government.",
+      "why_it_fails": "Radically altering the structure (such as making representatives strictly bound to constituents) disrupts the established balance of power and property, wastes the government's influence, and introduces dangerous instability.",
+      "source_id": "src_020"
+    }
+  ]
+}

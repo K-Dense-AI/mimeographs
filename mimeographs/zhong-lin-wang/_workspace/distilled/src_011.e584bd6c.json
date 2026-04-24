@@ -1,0 +1,96 @@
+{
+  "source_id": "src_011",
+  "summary": "Zhong Lin Wang discusses the evolution of nano energy and self-powered systems, focusing on the invention and application of piezoelectric and triboelectric nanogenerators. He explains the fundamental physics behind these technologies using Maxwell's displacement current and outlines their potential to power the Internet of Things, medical implants, and large-scale 'blue energy' harvesting from ocean waves.",
+  "themes": [
+    "Nano energy",
+    "Triboelectric nanogenerators (TENG)",
+    "Self-powered sensors",
+    "Internet of Things (IoT)",
+    "Blue energy",
+    "Maxwell's displacement current"
+  ],
+  "principles": [
+    {
+      "statement": "You must actively search to discover new fields.",
+      "rationale": "When his team started looking into small-scale energy, they unexpectedly discovered entirely new fields like piezotronics and triboelectric nanogenerators.",
+      "source_quote": "if you don't search you find nothing you have to search",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "The Internet of Things requires self-powered sensors to be viable.",
+      "rationale": "With millions of sensors needed globally for infrastructure, healthcare, and security, changing batteries is practically impossible, making power a bottleneck technology.",
+      "source_quote": "90% of the Internet of Things if you do not make it so powered will not be possible",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Old phenomena require new scientific explanations.",
+      "rationale": "Triboelectricity has been known for thousands of years but lacked a modern quantum mechanical interpretation, which is necessary to harness it effectively.",
+      "source_quote": "the old phenomenon lacking of modern quantum mechanical interpretation the science unresolved science",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Harvest hybrid energy by utilizing whatever is available, whenever it is available.",
+      "rationale": "Environmental energy is irregular (e.g., solar doesn't work in the rain), so combining multiple harvesting methods ensures sustainable power.",
+      "source_quote": "utilize whatever is available whenever is available",
+      "source_id": "src_011"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Complementary Technologies (Frequency-based)",
+      "description": "Evaluating energy harvesting technologies based on their optimal operating frequencies rather than viewing them as direct competitors.",
+      "example": "Using electromagnetic generators for high-frequency rotational energy and triboelectric nanogenerators for low-frequency, irregular energy like human motion or ocean waves.",
+      "source_id": "src_011"
+    },
+    {
+      "name": "Displacement Current Lens",
+      "description": "Viewing power generation not just through conduction current (moving charges in a wire) but through Maxwell's displacement current (time-varying electric fields and surface polarization).",
+      "example": "Explaining how triboelectric and piezoelectric nanogenerators work by applying the often-ignored surface polarization term in Maxwell's equations.",
+      "source_id": "src_011"
+    }
+  ],
+  "heuristics": [
+    "If it's low frequency, use triboelectric; if it's high frequency, use electromagnetic.",
+    "Utilize whatever energy is available, whenever it is available."
+  ],
+  "signature_quotes": [
+    {
+      "text": "if you don't search you find nothing you have to search",
+      "context": "Discussing the unexpected discovery of new fields while researching nano energy.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "90% of the Internet of Things if you do not make it so powered will not be possible",
+      "context": "Explaining the necessity of self-powered sensors for the future of IoT.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "we have enough blue a green energy we're tired of pre energy right we want the blue blue water so blue energy",
+      "context": "Introducing his concept of harvesting ocean wave energy using networks of triboelectric nanogenerators.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "If you're dreaming you can have a better future alright put your action on that.",
+      "context": "Encouraging students to pursue ambitious, world-changing ideas like blue energy.",
+      "source_id": "src_011"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Using electromagnetic generators for low-frequency, irregular energy sources like ocean waves or human motion.",
+      "why_it_fails": "Electromagnetic generators require high frequency and gear transformations to generate sufficient voltage, making them inefficient, heavy, and expensive for low-frequency applications.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Relying on batteries to power the billions of sensors needed for the Internet of Things.",
+      "why_it_fails": "The sheer volume and remote placement of sensors make battery replacement practically impossible, turning power into a bottleneck technology.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Dismissing old phenomena like triboelectricity as just a negative factor or static nuisance.",
+      "why_it_fails": "It prevents researchers from applying modern quantum mechanical interpretations to harness these phenomena for useful power generation.",
+      "source_id": "src_011"
+    }
+  ]
+}

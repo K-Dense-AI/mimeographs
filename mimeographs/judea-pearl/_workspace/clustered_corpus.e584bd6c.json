@@ -1,0 +1,705 @@
+{
+  "expert_name": "Judea Pearl",
+  "themes": [
+    "Causal Inference & Structural Causal Models",
+    "Artificial Intelligence & AGI",
+    "Graphical Models & Bayesian Networks",
+    "Counterfactuals & Interventions",
+    "Epistemology of Statistics",
+    "Human Cognition & Intuition",
+    "Causal Inference & Graphical Models",
+    "The Ladder of Causation",
+    "Limitations of Deep Learning & Statistics",
+    "Counterfactuals & Personalized Decision Making",
+    "Transparency of Assumptions",
+    "Structural Causal Models (SCMs)"
+  ],
+  "principles": [
+    {
+      "label": "AI Requires Causal World Models",
+      "summary": "Human-level Artificial Intelligence cannot emerge solely from model-blind machine learning; it requires the integration of causal models.",
+      "details": "Data alone only allows machines to predict probabilities. True intelligence requires a narrative or causal model to predict the effects of actions, engage in counterfactual imagination, and generalize knowledge.",
+      "representative_quote": "My general conclusion is that human-level AI cannot emerge solely from model-blind learning machines; it requires the symbiotic collaboration of data and models.",
+      "source_ids": [
+        "src_010",
+        "src_019",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Insufficiency of Probability Calculus",
+      "summary": "Standard probability syntax is symmetrical and cannot express directional causal facts, necessitating a new mathematical notation for causal analysis.",
+      "details": "Because probability calculus cannot distinguish between statistical dependence (association) and causal dependence, it is impossible to mathematically express simple directional facts like 'symptoms do not cause diseases' without new operators like do(x).",
+      "representative_quote": "The syntax of probability calculus does not permit us to express the simple fact that “symptoms do not cause diseases,” let alone draw mathematical conclusions from such facts.",
+      "source_ids": [
+        "src_023",
+        "src_028",
+        "src_045"
+      ]
+    },
+    {
+      "label": "The Necessity of Untested Causal Assumptions",
+      "summary": "Every causal conclusion must rely on causal assumptions that cannot be tested or verified by observational data alone.",
+      "details": "The laws of probability theory do not dictate how a distribution changes when external conditions are modified. Therefore, causal claims cannot be substantiated from statistical associations alone; they require theoretical or judgmental premises.",
+      "representative_quote": "one cannot substantiate causal claims from associations alone, even at the population level—behind every causal conclusion there must lie some causal assumption that is not testable in observational studies.",
+      "source_ids": [
+        "src_019",
+        "src_028",
+        "src_045"
+      ]
+    },
+    {
+      "label": "Missing Links Encode Assumptions",
+      "summary": "In causal path diagrams, the strong empirical claims and causal assumptions are encoded in the missing links, not the present ones.",
+      "details": "An arrow merely indicates the possibility of a causal connection. A missing arrow makes a definitive, testable claim of zero influence, and a missing double arrow claims zero covariance.",
+      "representative_quote": "It is important to note that, in path diagrams, causal assumptions are encoded not in the links but, rather, in the missing links.",
+      "source_ids": [
+        "src_028",
+        "src_045"
+      ]
+    },
+    {
+      "label": "Statistics and Deep Learning are Limited to Probability",
+      "summary": "Standard statistics, Bayesian networks, and deep learning operate entirely within the realm of probability and functional approximation. They cannot answer causal or counterfactual questions without a new vocabulary and explicit causal models.",
+      "details": "Deep learning provides conditional probabilities based on observations. It cannot answer 'what if' or 'why' questions unless every possible scenario has been explicitly inserted into its memory. Similarly, propensity scores are probabilistic, not causal, and Bayesian methods simply invert conditional probabilities.",
+      "representative_quote": "Nothing could be done outside probability, which speaks the language of probability. You need to have a new language, and therefore, you cannot do with Bayesian.",
+      "source_ids": [
+        "src_004",
+        "src_048"
+      ]
+    },
+    {
+      "label": "True Decision-Making Requires Counterfactuals",
+      "summary": "Optimizing resources in fields like medicine or marketing requires individual-level counterfactual analysis, not just population-level statistics.",
+      "details": "To make personalized decisions, you must identify specific individuals who will respond differently based on an intervention (e.g., finding the customer who will buy if given an incentive, but won't if not). This requires calculating probabilities of causation, such as the probability of necessity and sufficiency (PNS).",
+      "representative_quote": "But the whole purpose of the target is to find the customer who will act one way if I give him an incentive and a different way if I don’t. And this is already a specific counterfactual question.",
+      "source_ids": [
+        "src_004",
+        "src_046"
+      ]
+    },
+    {
+      "label": "Covariate Selection Requires Causal Knowledge",
+      "summary": "Choosing covariates for adjustment (e.g., in propensity score analysis) cannot be left to guesswork; it requires qualitative knowledge of the causal relationships among observed and unobserved variables.",
+      "details": "In large samples, propensity score methods simply reproduce the bias of straight stratification on the chosen covariates. To achieve strong ignorability and eliminate bias, one must map the causal structure.",
+      "representative_quote": "the task of choosing a sufficient (i.e. bias-eliminating) set of covariates for PS analysis requires qualitative knowledge of the causal relationships among both observed and unobserved covariates.",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Empathy as a Cognitive Shortcut",
+      "summary": "Empathy serves as a computational shortcut for predicting the behavior of other agents without building complex new models from scratch.",
+      "details": "We use our built-in model of ourselves as a first approximation to predict how others will react to stimuli, forming the basis of moral behavior and efficient social prediction.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Fight Hate with Reconciliation",
+      "summary": "In the face of profound personal tragedy, one should choose to work towards reconciliation and understanding rather than succumbing to hatred.",
+      "details": "Formed in response to the murder of his son, Daniel Pearl, by terrorists, leading to his dedication to fostering dialogue between Jews and Muslims.",
+      "representative_quote": "Hate killed my son. Therefore I am determined to fight hate.",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "Free Will as a Computational Illusion",
+      "summary": "Free will is a deterministic illusion, but it is computationally necessary for social communication, coordination, and assigning responsibility.",
+      "details": "Even if we are deterministic machines, the vocabulary of free will is an evolutionary adaptation that allows agents (whether human or robotic) to correct behavior and function effectively in teams.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Marginalization is Not Randomization",
+      "summary": "Mathematical marginalization over latent variables cannot substitute for the physical reality of causal randomization.",
+      "details": "Simply performing probability calculus over confounders does not simulate the physical intervention required to isolate an effect from its causes.",
+      "representative_quote": "You can perform the mathematical operation, but it will not return that.",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Necessity of Explicit Causal Assumptions",
+      "summary": "All causal conclusions in nonexperimental settings must be based on untested, judgmental assumptions that investigators are prepared to defend on scientific grounds.",
+      "details": "These assumptions cannot be derived purely from data. While explicit assumptions invite harsh criticism because of their transparency, this honesty is scientifically necessary for progress.",
+      "representative_quote": "ALL causal conclusions in nonexperimental settings must be based on untested, judgmental assumptions that investigators are prepared to defend on scientific grounds.",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Non-manipulable Variables as Causes",
+      "summary": "Non-manipulable variables (like race or age) can and should be treated as causes in analytical models.",
+      "details": "The restriction of 'no causation without manipulation' is an unnecessary hang-up. Treating non-manipulable variables as causes provides important, testable information about other manipulable variables in the system.",
+      "representative_quote": "Researchers need not be concerned with the distinction between manipulable and non-manipulative variables, except of course in the design of actual experiments.",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "Potential Outcomes are Structural Equations",
+      "summary": "The potential outcomes framework should not be confused with standard statistical regression models; potential outcomes are inherently abbreviations of structural equations.",
+      "details": null,
+      "representative_quote": "potential outcomes should not be confusing, because they are nothing but abbreviations of structural equations (not regression ,as you stated, but structural).",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "The Imprisonment of the Equality Sign",
+      "summary": "Science has historically neglected the directionality of cause and effect because mathematical equations are inherently symmetric.",
+      "details": "Equations like Newton's laws allow you to predict one variable from another symmetrically. However, manipulating an effect does not change its cause. A new algebra was required to handle this fundamental asymmetry.",
+      "representative_quote": "all our equations are imprisoned by the connective of equality sign.",
+      "source_ids": [
+        "src_023"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "The do(x) Operator and Graph Surgery",
+      "summary": "A mathematical operator that simulates physical interventions by modifying the structural equations of a model.",
+      "details": "To model an intervention on a variable X, delete the structural equations (or incoming arrows in a graph) corresponding to X, replacing them with a constant X = x. Keep the rest of the model unchanged to compute the new post-intervention distribution.",
+      "representative_quote": "This is done through a mathematical operator called do(x) which simulates physical interventions by deleting certain functions from the model, replacing them by a constant X = x, while keeping the rest of the model unchanged.",
+      "source_ids": [
+        "src_011",
+        "src_026",
+        "src_028",
+        "src_045"
+      ]
+    },
+    {
+      "label": "General Methodology for Causal Inference",
+      "summary": "A systematic four-step procedure for tackling problems of causal inference.",
+      "details": "1. Define the causal problem and target quantities. 2. Assume the causal relationships and structural model (via diagrams). 3. Identify whether the target quantity can be computed from the observed distribution given the assumptions. 4. Estimate the identified quantity from the data.",
+      "representative_quote": "Section 4 outlines a general methodology to guide problems of causal inference: Define, Assume, Identify and Estimate...",
+      "source_ids": [
+        "src_012",
+        "src_028",
+        "src_045"
+      ]
+    },
+    {
+      "label": "Do-calculus",
+      "summary": "A set of rules for manipulating causal expressions to predict the effects of interventions.",
+      "details": "The aim of do-calculus is to remove the do-operator from causal expressions, reducing them to standard statistical estimands that can be calculated from observational data. If the operator cannot be removed, the effect is non-identifiable without stronger assumptions.",
+      "representative_quote": "To elaborate, the do-calculus is a set of rules for manipulating causal expressions, the aim of which is to remove the do-operator from such expressions and reduce them to statistical estimands.",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "Graphical Covariate Selection",
+      "summary": "A systematic method for deciding which covariates to include in an analysis to ensure bias elimination.",
+      "details": "1. Obtain qualitative knowledge of causal relationships among observed and unobserved covariates. 2. Map these relationships using causal diagrams. 3. Use the graphical model to determine if a sufficient (bias-eliminating) set of covariates exists. 4. Select this sufficient set before applying adjustment methods like propensity scores.",
+      "representative_quote": "Given such knowledge, finding a sufficient set of covariates or deciding whether a sufficient set exists are two problems that can readily be solved by graphical methods",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Mask-Augmented ML for PNS Bounds",
+      "summary": "A machine learning approach to estimate probabilities of causation (like PNS) when experimental and observational data for specific subpopulations are limited.",
+      "details": "Identify a small set of reliable subpopulations with sufficient data, train machine learning models (Exact-MLP and Mask-MLP) on this subset, and use the trained models to predict PNS bounds for all other subpopulations.",
+      "representative_quote": "we propose two machine learning models: Exact-MLP and Mask-MLP, which are trained on a small set of reliable subpopulations and are able to predict PNS bounds for all other subpopulations.",
+      "source_ids": [
+        "src_046"
+      ]
+    },
+    {
+      "label": "Selection Diagrams for Transportability",
+      "summary": "A method to determine if findings from one population can be generalized to a different population.",
+      "details": "Draw the causal diagram for the original population, add square nodes pointing to variables where the populations differ, and use do-calculus to determine if the target answer can be consistently estimated in the new population.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "The Back-door Criterion",
+      "summary": "A graphical rule for selecting a sufficient set of covariates to adjust for when estimating causal effects from observational data.",
+      "details": "A set S is admissible for adjustment if: 1. No element of S is a descendant of the treatment variable X. 2. The elements of S 'block' all 'back-door' paths from X to Y (paths ending with an arrow pointing to X).",
+      "representative_quote": "A set S is admissible (or \"sufficient\") for adjustment if two conditions hold: 1. No element of S is a descendant of X. 2. The elements of S \"block\" all \"back-door\" paths from X to Y...",
+      "source_ids": [
+        "src_045"
+      ]
+    },
+    {
+      "label": "The First Law of Causal Inference",
+      "summary": "A framework for evaluating counterfactuals by modifying structural equations.",
+      "details": "To evaluate a counterfactual Y_x(u), modify the structural model M by replacing the equation for X with the constant X = x (creating submodel M_x), and then solve for Y.",
+      "representative_quote": "It says that the counterfactuals Yx(u) in model M is defined by the solution for Y in a modified submodel Mx, in which the equation for X is replaced by X = x",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "The Ladder of Causation",
+      "summary": "A three-level hierarchy used to categorize the complexity of questions an AI or statistical model is trying to answer, determining when causal tools are required.",
+      "details": "Level 1: Association / Observation ('I observe X; what can you tell me about Y?'). Level 2: Intervention / Action ('What if I do X?'). Level 3: Counterfactuals / Retrospection ('I know the output Y. Tell me what caused it / What if I had done X instead?').",
+      "representative_quote": null,
+      "source_ids": [
+        "src_004"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Causal Diagrams as Reasoning Engines",
+      "summary": "Viewing causal graphs not just as communication tools, but as computational devices that automatically reveal the logical ramifications of assumptions.",
+      "details": "By applying rules like d-separation to a graph, researchers can read off testable implications (like vanishing partial correlations) and determine model equivalence.",
+      "representative_quote": "I once called d-separation 'A gift of the Gods,' because it is the only bridge we have between the causal assumptions in our model and what we can expect to observe in our data.",
+      "source_ids": [
+        "src_019",
+        "src_028",
+        "src_045"
+      ]
+    },
+    {
+      "label": "The Demarcation Line",
+      "summary": "The conceptual boundary separating associational concepts from causal concepts.",
+      "details": "Associational concepts (like correlation and regression) can be defined entirely in terms of a joint distribution of observed variables. Causal concepts (like randomization and confounding) cannot be defined from the distribution alone.",
+      "representative_quote": "This distinction implies that causal and associational concepts do not mix; there is nothing in a distribution function to tell us how that distribution would differ if external conditions were to change...",
+      "source_ids": [
+        "src_028",
+        "src_045"
+      ]
+    },
+    {
+      "label": "Babylonian vs. Greek Science",
+      "summary": "A metaphor contrasting model-blind extrapolation with model-based reasoning.",
+      "details": "'Babylonian' science represents data-centric, black-box predictions (akin to modern machine learning). 'Greek' science represents creative, speculative modeling that seeks to understand the underlying mechanisms of reality.",
+      "representative_quote": "Data alone are hardly a science, no matter how 'big' they get and how skillfully they are manipulated. Model-blind learning systems may get us to Babylon, but not to Athens.",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "Causal Models as Parsimonious Encodings",
+      "summary": "Instead of memorizing an infinite list of all possible questions and answers, a causal model acts as a compressed, efficient representation of a world model that dynamically generates answers to novel causal and counterfactual questions.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_004"
+      ]
+    },
+    {
+      "label": "Cause and Effect Inversion",
+      "summary": "A logical fallacy where the cause and the effect are swapped, leading to fundamentally flawed conclusions.",
+      "details": "Often seen in social and political issues, this occurs when people fail to rigorously distinguish assumptions from definitions, confusing a necessary consequence for an originating cause.",
+      "representative_quote": "Being forced to be explicit in everything that we talked about forces to be um careful And this care and this distinction that I talked about, okay, guides my thinking also when it comes to social issues",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Deep Learning as a Chinese Room",
+      "summary": "The perspective that deep learning models lack true understanding and can only answer complex causal questions if every possible question and answer has been explicitly inserted into their training data.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_004"
+      ]
+    },
+    {
+      "label": "Free Will as a Communication Protocol",
+      "summary": "Treating free will not as a metaphysical reality, but as an essential vocabulary for agents to assign blame and coordinate.",
+      "details": "Even in a deterministic system, equipping agents (like a robot soccer team) with the concept of free will allows them to communicate counterfactuals like 'You should have passed the ball.'",
+      "representative_quote": "it’s a simple computational problem – would a robot team play better if we equipped them with that language, vocabulary of free will?",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Graphs as Inference Engines",
+      "summary": "Viewing causal diagrams not merely as visual aids for communication, but as 'hidden calculators' that automatically compute all logical and testable implications of assumptions.",
+      "details": "For example, using d-separation in a causal graph allows researchers to get conditional independencies for free, rather than attempting to derive them manually using complex axioms.",
+      "representative_quote": "People think that graphs are merely a neat way of communicating causal assumptions, and no more. What they do not realize is that graphs are hidden calculators, or inference engines, that compute for us ALL the logical implications of the assumptions...",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Ladder of Narratives",
+      "summary": "A hierarchy of understanding where moving to a higher level of reasoning requires stronger assumptions.",
+      "details": "Data alone cannot answer complex queries. You must explicitly input assumptions to form a narrative, which then allows a system to generate coherent answers consistent with both the narrative and the data.",
+      "representative_quote": "narrative is really is what drives our understanding of things not the data but the narrative behind the data.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Store of Metaphors",
+      "summary": "Relying on the cultural and historical narratives of one's upbringing as a lens to interpret the world and communicate, independent of literal religious belief.",
+      "details": "Pearl identifies as a 'practicing disbeliever', using Jewish history and biblical metaphors to form his worldview while maintaining strict atheism.",
+      "representative_quote": "I'm, of course, prisoner of my upbringing, which means my store of metaphors comes from the Bible and comes from history of the Jewish people. But I don't believe in God.",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "Structural Causal Models (SCMs)",
+      "summary": "A mathematical framework used to represent causal relationships and generate population-level data, serving as a ground-truth environment to validate causal inference algorithms.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_046"
+      ]
+    },
+    {
+      "label": "The M-graph (M-structure)",
+      "summary": "A specific causal structure demonstrating that adjusting for a measured covariate can actually introduce new bias that was dormant in the crude, unadjusted estimate.",
+      "details": "Occurs when treatment is strongly ignorable initially, but becomes non-ignorable at certain levels of an adjusted variable (like a propensity score) because unobserved confounders become highly unbalanced within those strata.",
+      "representative_quote": "the crude estimate is bias-free, while PS methods introduce new bias.",
+      "source_ids": [
+        "src_048"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Missing Links Encode Assumptions",
+      "summary": "When reading or building path diagrams, look to the missing links to find the causal assumptions.",
+      "details": null,
+      "representative_quote": "It is important to note that, in path diagrams, causal assumptions are encoded not in the links but, rather, in the missing links.",
+      "source_ids": [
+        "src_028",
+        "src_045"
+      ]
+    },
+    {
+      "label": "The Associational Test",
+      "summary": "If a concept can be defined entirely by a joint distribution, it is associational; if it cannot, it is causal.",
+      "details": null,
+      "representative_quote": "Every claim invoking causal concepts must rely on some premises that invoke such concepts; it cannot be inferred from, or even defined in terms statistical associations alone.",
+      "source_ids": [
+        "src_028",
+        "src_045"
+      ]
+    },
+    {
+      "label": "Computer Scientists as Psychologists",
+      "summary": "Recognize that the drive to build AI is often a drive to understand human psychology.",
+      "details": null,
+      "representative_quote": "Every computer scientist is a frustrated psychologist.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Distinguish Assumptions from Derivations",
+      "summary": "Always strictly distinguish your assumptions from your definitions, and your conclusions from your derivations.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Functional Approximators Require Causal Inference",
+      "summary": "If a tool is merely a functional approximator (like deep learning), it must be guided by ordinary causal inference to be used effectively for decision-making.",
+      "details": null,
+      "representative_quote": "If it's a functional approximator, we know exactly how to use it because we can do ordinary causal inference.",
+      "source_ids": [
+        "src_004"
+      ]
+    },
+    {
+      "label": "No Guesswork in Covariates",
+      "summary": "Never leave the choice of covariates for adjustment methods to guesswork; always map the underlying causal relationships first.",
+      "details": null,
+      "representative_quote": "the effectiveness of PS methods rests critically on the choice of covariates, X, and that choice cannot be left to guesswork",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Reject Unsatisfying Standard Answers",
+      "summary": "If you don't understand something your own way, refuse to accept the standard answer.",
+      "details": null,
+      "representative_quote": "Rebel, if you don’t understand and insist on understanding it your way, and until you understand it your way, don’t take a standard answer as an answer if it doesn’t satisfy the question that you have in mind.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Situation-Specific Decision Making",
+      "summary": "Treat every decision-making scenario as situation-specific, requiring individual-level counterfactual analysis rather than broad population averages.",
+      "details": null,
+      "representative_quote": "Every decision-making is situation-specific decision-making.",
+      "source_ids": [
+        "src_004"
+      ]
+    },
+    {
+      "label": "Translate Intuition into Math",
+      "summary": "Formalize your intuition into mathematics, because the mathematics will amplify your intuition.",
+      "details": null,
+      "representative_quote": "Translate intuition into mathematics, the mathematics amplifies your intuition.",
+      "source_ids": [
+        "src_019"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Missing Links",
+      "summary": "On how to read causal path diagrams.",
+      "details": null,
+      "representative_quote": "It is important to note that, in path diagrams, causal assumptions are encoded not in the links but, rather, in the missing links.",
+      "source_ids": [
+        "src_028",
+        "src_045"
+      ]
+    },
+    {
+      "label": "Probability Calculus is Insufficient",
+      "summary": "On the need for new mathematical notation to express causal facts.",
+      "details": null,
+      "representative_quote": "The syntax of probability calculus does not permit us to express the simple fact that “symptoms do not cause diseases,” let alone draw mathematical conclusions from such facts.",
+      "source_ids": [
+        "src_028",
+        "src_045"
+      ]
+    },
+    {
+      "label": "Babylon vs. Athens",
+      "summary": "On the limitations of big data and model-blind machine learning.",
+      "details": null,
+      "representative_quote": "Data alone are hardly a science, no matter how 'big' they get and how skillfully they are manipulated. Model-blind learning systems may get us to Babylon, but not to Athens.",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "d-separation as a Gift",
+      "summary": "On the bridge between causal assumptions and observational data.",
+      "details": null,
+      "representative_quote": "I once called d-separation 'A gift of the Gods,' because it is the only bridge we have between the causal assumptions in our model and what we can expect to observe in our data.",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "Fighting Hate",
+      "summary": "Pearl's personal philosophy following the murder of his son.",
+      "details": "Context: Explaining to Rabbi Jonathan Sacks why he works for reconciliation between Jews and Muslims.",
+      "representative_quote": "Hate killed my son. Therefore I am determined to fight hate.",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "Free Will as an Illusion",
+      "summary": "On the computational utility of free will.",
+      "details": null,
+      "representative_quote": "My position is that there’s no free will, but it’s a very useful illusion.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Graphs as Inference Engines",
+      "summary": "Redefining the purpose of causal diagrams.",
+      "details": "Context: Commenting on why people are reluctant to adopt causal graphs.",
+      "representative_quote": "People think that graphs are merely a neat way of communicating causal assumptions, and no more. What they do not realize is that graphs are hidden calculators, or inference engines, that compute for us ALL the logical implications of the assumptions...",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Imprisoned by the Equality Sign",
+      "summary": "On why science historically neglected causality.",
+      "details": null,
+      "representative_quote": "all our equations are imprisoned by the connective of equality sign.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Narrative Over Data",
+      "summary": "On how humans and machines actually process information.",
+      "details": null,
+      "representative_quote": "narrative is really is what drives our understanding of things not the data but the narrative behind the data.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "The Inadequacy of Bayesian Networks for Causality",
+      "summary": "Explaining why probability theory alone is insufficient.",
+      "details": "Context: Answering why Bayesian networks are not enough for causal reasoning.",
+      "representative_quote": "Nothing could be done outside probability, which speaks the language of probability. You need to have a new language, and therefore, you cannot do with Bayesian.",
+      "source_ids": [
+        "src_004"
+      ]
+    },
+    {
+      "label": "The Ladder of Causation and Deep Learning",
+      "summary": "Placing deep learning at the bottom rung of the causal hierarchy.",
+      "details": "Context: Introducing the Ladder of Causation.",
+      "representative_quote": "The ladder of causation consists of three levels. Above them, you have the standard statistics questions. Deep learning belongs there.",
+      "source_ids": [
+        "src_004"
+      ]
+    },
+    {
+      "label": "The Probabilistic Nature of Propensity Scores",
+      "summary": "Clarifying that propensity scores do not inherently solve causal confounding.",
+      "details": "Context: Explaining the limitations of propensity score matching without causal graphs.",
+      "representative_quote": "First, the PS ei is a probabilistic, not a causal concept.",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "The Self-Destructive Honesty of Assumptions",
+      "summary": "Explaining the sociological resistance to causal diagrams.",
+      "details": "Context: Discussing why researchers often avoid making their assumptions explicit.",
+      "representative_quote": "Assumptions are self-destructive in their honesty. The more explicit the assumption, the more criticism it invites . . . causal diagrams invite the harshest criticism because they make assumptions more explicit and more transparent than other representation schemes.",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Untestable Causal Assumptions",
+      "summary": "On the fundamental requirement of causal inference.",
+      "details": null,
+      "representative_quote": "one cannot substantiate causal claims from associations alone, even at the population level—behind every causal conclusion there must lie some causal assumption that is not testable in observational studies.",
+      "source_ids": [
+        "src_028"
+      ]
+    },
+    {
+      "label": "Untested Assumptions in Nonexperimental Settings",
+      "summary": "The foundational rule of observational causal inference.",
+      "details": "Context: Quoted by Andrew Gelman from Pearl's overview on causal inference.",
+      "representative_quote": "ALL causal conclusions in nonexperimental settings must be based on untested, judgmental assumptions that investigators are prepared to defend on scientific grounds.",
+      "source_ids": [
+        "src_036"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Answering Causal Questions with Data Alone",
+      "summary": "Attempting to answer causal questions from data or distributions alone without articulating causal assumptions.",
+      "details": "The laws of probability theory do not dictate how one property of a distribution ought to change when another property is modified by external intervention. Data alone is insufficient.",
+      "representative_quote": "Every claim invoking causal concepts must rely on some premises that invoke such concepts; it cannot be inferred from, or even defined in terms statistical associations alone.",
+      "source_ids": [
+        "src_019",
+        "src_028",
+        "src_045"
+      ]
+    },
+    {
+      "label": "Scaling LLMs to Achieve AGI",
+      "summary": "Believing that simply scaling up current model-blind LLM architectures will eventually result in Artificial General Intelligence.",
+      "details": "Current transformer algorithms have mathematical limitations that prevent them from efficiently internalizing the causal world models required to reason about interventions and counterfactuals.",
+      "representative_quote": "My general conclusion is that human-level AI cannot emerge solely from model-blind learning machines; it requires the symbiotic collaboration of data and models.",
+      "source_ids": [
+        "src_010",
+        "src_019",
+        "src_023"
+      ]
+    },
+    {
+      "label": "Using Probability Calculus for Causality",
+      "summary": "Relying solely on standard probability calculus (like marginalization) to express causal relationships or simulate interventions.",
+      "details": "Probability calculus is symmetric and cannot distinguish statistical dependence from directional causal dependence. Marginalizing over a confounder does not replicate the physical act of randomization.",
+      "representative_quote": "You can perform the mathematical operation, but it will not return that.",
+      "source_ids": [
+        "src_011",
+        "src_028",
+        "src_045"
+      ]
+    },
+    {
+      "label": "Treating Structural Equations as Regression",
+      "summary": "Interpreting structural coefficients merely as regression coefficients.",
+      "details": "Regression coefficients are artifacts of analysis that are by definition uncorrelated with regressors. Structural coefficients represent actual physical/causal effects and retain their meaning regardless of whether error terms are correlated.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_019",
+        "src_045"
+      ]
+    },
+    {
+      "label": "Blindly Applying Propensity Scores",
+      "summary": "Assuming propensity score methods always reduce bias compared to crude, unadjusted estimates.",
+      "details": "In certain causal structures, like an M-graph, adjusting for a covariate can awaken dormant bias, making the adjusted estimate worse than the crude estimate. Experimental proofs of PS bias-reduction do not generalize to new observational problems unless the causal structures match exactly.",
+      "representative_quote": "the crude estimate is bias-free, while PS methods introduce new bias.",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Hiding Assumptions Under the Rug",
+      "summary": "Keeping causal assumptions implicit or vague to avoid criticism.",
+      "details": "This prevents the assumptions from being explicitly tested or criticized, which hinders scientific progress and obscures what the world must actually be like for a statistical procedure to work.",
+      "representative_quote": "Assumptions are self-destructive in their honesty. The more explicit the assumption, the more criticism it invites",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Ignoring Causal Directionality",
+      "summary": "Ignoring the directionality of cause and effect in science and social issues.",
+      "details": "Failing to distinguish between cause and effect leads to cause-and-effect inversion, making it impossible to correctly attribute outcomes to their actual origins.",
+      "representative_quote": "all our equations are imprisoned by the connective of equality sign.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Maximizing Population Survival over Individual Benefit",
+      "summary": "In medicine or policy, maximizing overall probability of a positive outcome instead of focusing on individual counterfactual benefit.",
+      "details": "Maximizing survival probability can lead to selecting already healthy or immune people who would survive anyway, wasting resources on those who don't actually need the intervention.",
+      "representative_quote": "We care about harm and benefit to patients. We don’t care about maximizing the probability of survival.",
+      "source_ids": [
+        "src_004"
+      ]
+    },
+    {
+      "label": "No Causation Without Manipulation",
+      "summary": "Adhering strictly to the mantra that only manipulable variables can be treated as causes.",
+      "details": "This restricts analytical models unnecessarily. Defining causal effects on non-manipulable variables (like race or age) provides important, testable information about the causal effects of other manipulable variables.",
+      "representative_quote": "The mantra 'No causation without manipulation', represents another hang-up of the potential outcome community, which has not been able to liberate itself from the experimental setup...",
+      "source_ids": [
+        "src_019"
+      ]
+    },
+    {
+      "label": "Reducing Causality to Missing Data",
+      "summary": "Treating causal inference entirely as a statistical missing data problem (e.g., relying on Missing At Random assumptions).",
+      "details": "This fails because it ignores the transparency and power provided by structural equations and the do(x) operator, and relies on definitions that are incomprehensible to the typical user trying to map them to reality.",
+      "representative_quote": "Should we continue to rejoice the reduction from causal to statistical conceptualization of the problem?",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Relying on LLMs for Causal Reasoning",
+      "summary": "Trusting Large Language Models (like ChatGPT) to perform reliable causal reasoning.",
+      "details": "LLMs perform causal reasoning in a 'very sloppy way' and often just regurgitate 'cookbook answers' based on prompting, rather than actually computing causal effects from a structural model.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_004"
+      ]
+    },
+    {
+      "label": "Using Probability to Answer Causal Questions",
+      "summary": "Attempting to use standard probability or Bayesian methods to answer causal or counterfactual questions.",
+      "details": "Bayesian methods only invert conditional probabilities based on joint distributions; they lack the mathematical vocabulary to express interventions (doing) or counterfactuals (imagining).",
+      "representative_quote": "Nothing could be done outside probability, which speaks the language of probability. You need to have a new language, and therefore, you cannot do with Bayesian.",
+      "source_ids": [
+        "src_004"
+      ]
+    }
+  ]
+}

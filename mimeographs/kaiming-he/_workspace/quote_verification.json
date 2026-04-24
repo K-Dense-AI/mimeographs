@@ -1,0 +1,417 @@
+{
+  "total": 33,
+  "verified": 29,
+  "unverified": [
+    {
+      "category": "principles",
+      "label": "Generative Modeling as Distribution Mapping",
+      "quote": "conceptually it is not just about mapping pairs of images or pairs of data it's about mapping two distributions... and this is why gentic modeling is hard",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7532467532467533
+    },
+    {
+      "category": "principles",
+      "label": "Generative Models as New Building Blocks",
+      "quote": "these existing generative models will become another level of building blocks... generative model is the next level of deep learning and it's also the next level of obstruction",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.3977272727272727
+    },
+    {
+      "category": "mental_models",
+      "label": "The Abstraction Stack",
+      "quote": "these existing generative models will become another level of building blocks... generative model is the next level of deep learning and it's also the next level of obstruction",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.3977272727272727
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Generative Models as Distribution Mappings",
+      "quote": "a generative model is a mapping between distributions. it is not just a mapping between a pair of data points and a label",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8181818181818182
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "Residual Learning",
+      "quote": "We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions.",
+      "source_ids": [
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Depth is Central to Representation",
+      "quote": "The depth of representations is of central importance for many visual recognition tasks.",
+      "source_ids": [
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Activation-Aware Weight Initialization (He Initialization)",
+      "quote": "Second, we derive a robust initialization method that particularly considers the rectifier nonlinearities. This method enables us to train extremely deep rectified models directly from scratch.",
+      "source_ids": [
+        "src_029",
+        "src_007",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_029",
+      "match_ratio": 0.9948186528497409
+    },
+    {
+      "category": "principles",
+      "label": "Generative Models as Universal Solvers",
+      "quote": "in my opinion actually there is no any constraints or requirements about what can be X or what can be Y. so they conceptually they can be anything so that means we can use generative models to solve many kinds of real world problems",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 0.9482758620689655
+    },
+    {
+      "category": "principles",
+      "label": "Generative Modeling as Distribution Mapping",
+      "quote": "conceptually it is not just about mapping pairs of images or pairs of data it's about mapping two distributions... and this is why gentic modeling is hard",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7532467532467533
+    },
+    {
+      "category": "principles",
+      "label": "Generative Models as New Building Blocks",
+      "quote": "these existing generative models will become another level of building blocks... generative model is the next level of deep learning and it's also the next level of obstruction",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.3977272727272727
+    },
+    {
+      "category": "principles",
+      "label": "Recognition and Generation are Symmetrical",
+      "quote": "the problem of recognition and the problem of generation are just the uh two sides of the same coin.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Need for End-to-End Generative Training",
+      "quote": "today's most successful genative models are conceptually a kind of layer wise training if we compare it with um the classification models um before after uh the Alex net area.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "AI as a Common Scientific Language",
+      "quote": "In this sense, these AI tools are like a common language between these scientific areas: the machine learning tools ‘translate’ their terminology and concepts into terms that I can understand",
+      "source_ids": [
+        "src_039"
+      ],
+      "verified": true,
+      "matched_source_id": "src_039",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Reciprocal Relationship of AI and Science",
+      "quote": "Science and AI are not isolated subjects. We have been approaching the same goal from different perspectives, and now we are getting together.",
+      "source_ids": [
+        "src_039"
+      ],
+      "verified": true,
+      "matched_source_id": "src_039",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Simplicity in Complexity",
+      "quote": "enabling deep learning to solve complex object detection and segmentation problems in simple and intuitive ways.",
+      "source_ids": [
+        "src_005"
+      ],
+      "verified": true,
+      "matched_source_id": "src_005",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Quantization Distortion as a Universal Objective",
+      "quote": "The quantization distortion is a common objective function among the different methods studied. We can treat the specific configuration of each method as the constraints when optimizing the common objective function.",
+      "source_ids": [
+        "src_031"
+      ],
+      "verified": true,
+      "matched_source_id": "src_031",
+      "match_ratio": 0.9953703703703703
+    },
+    {
+      "category": "principles",
+      "label": "Optimal Space Decomposition",
+      "quote": "We theoretically prove that this lower bound is minimized when (i) the subspaces are mutually independent, and simultaneously (ii) the vectors have balanced variances in all subspaces.",
+      "source_ids": [
+        "src_031"
+      ],
+      "verified": true,
+      "matched_source_id": "src_031",
+      "match_ratio": 0.9891304347826086
+    },
+    {
+      "category": "frameworks",
+      "label": "Residual Learning Framework",
+      "quote": "We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously.",
+      "source_ids": [
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Conditional Distribution Formulation",
+      "quote": "we can just try to formulate all these real world problems as kind of conditional distribution problem and then we can try to apply the latest advance in generative models as a tool for this problem",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": true,
+      "matched_source_id": "src_012",
+      "match_ratio": 0.9393939393939394
+    },
+    {
+      "category": "frameworks",
+      "label": "Mean Flows Algorithm",
+      "quote": "conceptually it's just two line modification of the original flow matching algorithm",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Optimized Product Quantization (OPQ)",
+      "quote": "In the first solution, we iteratively solve two simpler sub-problems: solving for the space decomposition with the codewords fixed, and vice versa.",
+      "source_ids": [
+        "src_031"
+      ],
+      "verified": true,
+      "matched_source_id": "src_031",
+      "match_ratio": 0.9863945578231292
+    },
+    {
+      "category": "mental_models",
+      "label": "Residual vs. Unreferenced Functions",
+      "quote": "We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions.",
+      "source_ids": [
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Abstraction Stack",
+      "quote": "these existing generative models will become another level of building blocks... generative model is the next level of deep learning and it's also the next level of obstruction",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.3977272727272727
+    },
+    {
+      "category": "mental_models",
+      "label": "The Pre-AlexNet Analogy for Generative Models",
+      "quote": "today's most successful genative models are conceptually a kind of layer wise training if we compare it with um the classification models um before after uh the Alex net area.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "AI as a Common Language",
+      "quote": "In this sense, these AI tools are like a common language between these scientific areas: the machine learning tools ‘translate’ their terminology and concepts into terms that I can understand",
+      "source_ids": [
+        "src_039"
+      ],
+      "verified": true,
+      "matched_source_id": "src_039",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Vector Quantization as Constrained Optimization",
+      "quote": "The quantization distortion is a common objective function among the different methods studied. We can treat the specific configuration of each method as the constraints when optimizing the common objective function",
+      "source_ids": [
+        "src_031"
+      ],
+      "verified": true,
+      "matched_source_id": "src_031",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Neural ODEs as ResNets",
+      "quote": "we want to do integration but what we are doing is still a finite sum.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Integral vs. Finite Sum Reality",
+      "quote": "we want to do integration but what we are doing is still a finite sum.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Predicting ANN Accuracy via Distortion",
+      "quote": "We empirically verify that the distortion is tightly correlated to the ANN search accuracy of different methods.",
+      "source_ids": [
+        "src_031"
+      ],
+      "verified": true,
+      "matched_source_id": "src_031",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Residual Reformulation",
+      "quote": "We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions.",
+      "source_ids": [
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Depth is Central",
+      "quote": "The depth of representations is of central importance for many visual recognition tasks.",
+      "source_ids": [
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Generative Models as Distribution Mappings",
+      "quote": "a generative model is a mapping between distributions. it is not just a mapping between a pair of data points and a label",
+      "source_ids": [
+        "src_012"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8181818181818182
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Recognition and Generation Symmetry",
+      "quote": "the problem of recognition and the problem of generation are just the uh two sides of the same coin.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Pre-AlexNet Era of Generative Models",
+      "quote": "today's most successful genative models are conceptually a kind of layer wise training if we compare it with um the classification models um before after uh the Alex net area.",
+      "source_ids": [
+        "src_027"
+      ],
+      "verified": true,
+      "matched_source_id": "src_027",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AI as a Common Language",
+      "quote": "In this sense, these AI tools are like a common language between these scientific areas: the machine learning tools ‘translate’ their terminology and concepts into terms that I can understand, and then I can learn their problems and share my experience",
+      "source_ids": [
+        "src_039"
+      ],
+      "verified": true,
+      "matched_source_id": "src_039",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Science and AI Convergence",
+      "quote": "Science and AI are not isolated subjects. We have been approaching the same goal from different perspectives, and now we are getting together.",
+      "source_ids": [
+        "src_039"
+      ],
+      "verified": true,
+      "matched_source_id": "src_039",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Quantization Distortion as Common Objective",
+      "quote": "The quantization distortion is a common objective function among the different methods studied. We can treat the specific configuration of each method as the constraints when optimizing the common objective function, rather than incorporate the configuration into the objective function.",
+      "source_ids": [
+        "src_031"
+      ],
+      "verified": true,
+      "matched_source_id": "src_031",
+      "match_ratio": 0.9930313588850174
+    }
+  ]
+}

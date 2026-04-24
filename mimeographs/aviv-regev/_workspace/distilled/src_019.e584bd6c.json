@@ -1,0 +1,86 @@
+{
+  "source_id": "src_019",
+  "summary": "Aviv Regev discusses the transformative impact of single-cell genomics on understanding disease and developing targeted therapeutics. She emphasizes the necessity of interdisciplinary collaboration between biology and computer science, advocates for rigorous foundational learning, and advises young scientists to conquer their fears and occasionally ignore conventional wisdom to follow their curiosity.",
+  "themes": [
+    "Single-cell genomics",
+    "Interdisciplinary collaboration",
+    "Computational biology",
+    "Scientific rigor",
+    "Career advice for scientists"
+  ],
+  "principles": [
+    {
+      "statement": "You own your own scientific destiny.",
+      "rationale": "You should not wait for others to define your curriculum or tell you how to solve a problem. You must take ownership of your questions and pursue them independently.",
+      "source_quote": "you do not have to assume that somebody knows the answer of how to go after your problem but rather that you can just take the take your problem and run with it",
+      "source_id": "src_019"
+    },
+    {
+      "statement": "Bravery is about conquering fear, not being fearless.",
+      "rationale": "Scientists naturally fear the unknown and difficult problems. True bravery is acknowledging that fear but pursuing the difficult problems anyway.",
+      "source_quote": "being brave is not about being fearless it is actually about conquering your fear and doing things despite being afraid",
+      "source_id": "src_019"
+    },
+    {
+      "statement": "Study interdisciplinary subjects at their maximum level of rigor.",
+      "rationale": "To effectively combine different disciplines, you must first understand them at their purest, most rigorous level (e.g., learning math from mathematicians) rather than settling for a watered-down version.",
+      "source_quote": "you actually had to study it at its maximum level... at which point it was easier for you to bring the disciplines together",
+      "source_id": "src_019"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Fruit Smoothie vs. Individual Fruit",
+      "description": "A metaphor for comparing traditional bulk tissue sequencing to single-cell genomics. Bulk sequencing blends millions of cells into an average 'smoothie,' losing individual cell data. Single-cell genomics examines each 'piece of fruit' separately to understand its unique genetic activation.",
+      "example": "Explaining why single-cell genomics was necessary to find the specific, previously unknown cell type in the lung that expresses the CFTR gene responsible for cystic fibrosis.",
+      "source_id": "src_019"
+    },
+    {
+      "name": "Cells as Humans",
+      "description": "An analogy comparing cellular biology to human society. Just as humans are specialized, distinct, dynamic, and require collaboration to achieve more than the sum of their parts, so do cells within a tissue.",
+      "example": "Using the specialization and cooperation of cells in a tissue to explain how scientists from different disciplines (biology, computer science, medicine) must collaborate in single-cell genomics.",
+      "source_id": "src_019"
+    },
+    {
+      "name": "Computational Biology as Molecular Biology 2.0",
+      "description": "Viewing the current integration of computer science and biology through the historical lens of the molecular biology revolution in the 1970s/80s, which fundamentally changed both how we understand biology and how we develop medicines.",
+      "example": "Predicting that the next decade of computational biology will impact human health and drug development just as profoundly as the founding of Genentech and molecular biology did.",
+      "source_id": "src_019"
+    }
+  ],
+  "heuristics": [
+    "Sometimes it's just good to go and not ask for advice.",
+    "Follow your heart and your moral compass.",
+    "Be generous and strive to do good in the world, everything else will follow."
+  ],
+  "signature_quotes": [
+    {
+      "text": "what we did in the past is take actually this very complex situation made of many different cells and put it through the lab equivalent of a blender and get the lab equivalent of what you can think of as a you know a fruit smoothie",
+      "context": "Explaining the limitations of bulk RNA sequencing compared to single-cell genomics.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "being brave is not about being fearless it is actually about conquering your fear and doing things despite being afraid",
+      "context": "Reflecting on what she learned during her interdisciplinary university studies.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "you do not have to assume that somebody knows the answer of how to go after your problem but rather that you can just take the take your problem and run with it",
+      "context": "Discussing the importance of owning your own destiny as a scientist.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "sometimes the best decisions are i made the best leaps i've made the things that obviously paid off the most were the things where maybe i was too ignorant to realize that i should ask someone for advice",
+      "context": "Giving her 'non-advice advice' to young scientists.",
+      "source_id": "src_019"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Always asking for advice before pursuing a new idea or direction.",
+      "why_it_fails": "Asking for advice often yields 'common wisdom' that can steer you away from unconventional ideas and temper your natural enthusiasm and curiosity.",
+      "source_id": "src_019"
+    }
+  ]
+}

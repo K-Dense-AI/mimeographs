@@ -1,0 +1,115 @@
+{
+  "source_id": "src_011",
+  "summary": "In this 2018 keynote, Daphne Koller discusses the intersection of machine learning and biology, outlining her vision for insitro. She frames drug discovery as a prediction problem and argues that the key to solving Eroom's Law is generating massive, high-quality biological data at scale to feed deep learning models, rather than just analyzing existing datasets.",
+  "themes": [
+    "Machine Learning in Biology",
+    "Drug Discovery and Development",
+    "Data Generation vs. Data Analysis",
+    "Genotype to Phenotype Mapping",
+    "Cross-disciplinary Collaboration"
+  ],
+  "principles": [
+    {
+      "statement": "Drug discovery is fundamentally a prediction problem.",
+      "rationale": "The exponential rise in drug discovery costs is driven by late-stage failures. If we can use machine learning to predict which compounds will fail early in the process, we can drastically reduce the number of failures the successful drugs have to pay for.",
+      "source_quote": "if you step back and think about this this is actually a prediction problem that is if we can look at those drugs at the beginning and say these are the ones that are more likely to fail these are the ones that are less likely to fail then we could toss out the ones that are more likely to fail",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Generate the data you need, rather than just analyzing the data you have.",
+      "rationale": "Existing biological datasets are often too small or poorly designed for machine learning. To solve complex biological problems, we must invert the paradigm and intentionally generate massive, high-quality datasets specifically designed to train ML models.",
+      "source_quote": "instead of asking what can we do with the existing data it's asking what do we want to do and then let's generate the data so that we can do it well",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Causality is necessary for drug development, but mechanism is not.",
+      "rationale": "Knowing that perturbing a specific target causes a desired phenotypic effect is enough to develop a drug. Understanding the exact biological mechanism of *why* it works is scientifically interesting but neither necessary nor sufficient for creating an effective medicine.",
+      "source_quote": "understanding cause and effect is absolutely necessary for drug development understanding the entirety of the why is... neither necessary or sufficient",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "More data allows rich models to outperform simple ones by uncovering hidden features.",
+      "rationale": "With small datasets, simple models perform best. But with massive data, rich models (like deep learning) excel because they learn to extract complex, non-obvious features directly from raw data, outperforming human-engineered features.",
+      "source_quote": "as you increase the amount of data the performance of the simple models plateaus... and the rich models really continue to get better and better as we get more data",
+      "source_id": "src_011"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Biological Data Factory",
+      "when_to_apply": "When attempting to map high-dimensional genotype-to-phenotype relationships to discover novel drug targets.",
+      "steps": [
+        "Differentiate human induced pluripotent stem cells (iPSCs) into disease-relevant lineages.",
+        "Perturb the biological systems precisely using CRISPR technologies.",
+        "Measure high-content phenotypes at scale (e.g., single-cell RNA-seq, proteomics, high-resolution cellular imaging).",
+        "Feed this massive data into machine learning models in a tight, iterative loop to drive discovery."
+      ],
+      "source_quote": "what we're really building is a data Factory it's something that takes all of these techniques together along with automation and micro fluidics and allows you to really do a biological experiment at the scale that will allow us to provide the data that drives machine learning algorithms",
+      "source_id": "src_011"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Eroom's Law",
+      "description": "The inversion of Moore's Law applied to pharmaceuticals: the observation that the number of drugs discovered per billion dollars of R&D spending is decreasing exponentially over time, primarily due to the high cost of late-stage clinical failures.",
+      "example": "Koller uses Eroom's Law to illustrate why the pharmaceutical industry needs a paradigm shift. The cost per molecule hasn't gone up, but the failure rate has, meaning one successful drug must carry the 2.5 billion dollar weight of all the failures.",
+      "source_id": "src_011"
+    },
+    {
+      "name": "Epochs of Science",
+      "description": "A historical lens viewing scientific progress as distinct eras: Chemistry (1800s), Physics (1900s), Computing (1950s), Data / Measuring Biology (1990s), and finally Biological Data Science (2020s).",
+      "example": "Koller uses this to contextualize the current moment, showing how the previously parallel threads of computing/data and biological measurement are now synthesizing into a new discipline.",
+      "source_id": "src_011"
+    },
+    {
+      "name": "The Drug Discovery Funnel",
+      "description": "Visualizing drug development as a funnel where 10,000 compounds enter at the top, and at each stage the number decreases until only one successful compound emerges at the bottom, carrying the financial burden of all discarded compounds.",
+      "example": "Koller frames the funnel as a prediction problem: if we can predict failures earlier in the funnel, we can widen the bottom and drastically reduce costs.",
+      "source_id": "src_011"
+    }
+  ],
+  "heuristics": [
+    "Avoid the Silver Bullet mindset; match the model class to the specific data and problem.",
+    "Invert the data problem: decide what you want to do first, then generate the data to do it well.",
+    "Don't rely on human-engineered features if you have enough data to train end-to-end."
+  ],
+  "signature_quotes": [
+    {
+      "text": "If you step back and think about this, this is actually a prediction problem.",
+      "context": "Describing the high failure rate in the drug discovery pipeline.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "Instead of asking what can we do with the existing data, it's asking what do we want to do and then let's generate the data so that we can do it well.",
+      "context": "Explaining insitro's approach to overcoming the lack of high-quality biological data.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "We are starting to enter into the era of biological data science as being one of the larger disciplines that will emerge in the 2020s and beyond.",
+      "context": "Concluding her historical overview of the epochs of science.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "Understanding cause and effect is absolutely necessary for drug development. Understanding the entirety of the why is... neither necessary or sufficient.",
+      "context": "Answering a question about the difference between causality and mechanism in drug discovery.",
+      "source_id": "src_011"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Siloed organizational structures where biologists generate data and hand it off to data scientists later.",
+      "why_it_fails": "The experimental design often won't lend itself to good machine learning. Biologists and data scientists must work together from problem selection through experimental design to ensure the right things are measured for the models.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Relying on human-engineered features for complex data.",
+      "why_it_fails": "Humans are actually not very good at coming up with features on their own. End-to-end machine learning models consistently uncover better, non-obvious features (like stromal tissue characteristics in cancer) that humans miss.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "The 'Silver Bullet' mindset in machine learning.",
+      "why_it_fails": "Assuming one technique (like deep learning) is the answer to every problem ignores the fact that different problems require different model classes depending on data quality, availability, and structure.",
+      "source_id": "src_011"
+    }
+  ]
+}

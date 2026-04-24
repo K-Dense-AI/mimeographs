@@ -1,0 +1,36 @@
+{
+  "source_id": "src_012",
+  "summary": "This source is a brief abstract and metadata page for Judea Pearl's 2010 paper 'Causal Inference'. It outlines how his Structural Causal Model (SCM) unifies various approaches to causation to answer queries regarding interventions, counterfactuals, and direct/indirect effects.",
+  "themes": [
+    "Causal Inference",
+    "Structural Causal Model (SCM)",
+    "Counterfactuals",
+    "Interventions"
+  ],
+  "principles": [
+    {
+      "statement": "A unified mathematical foundation is required to effectively analyze causes and counterfactuals.",
+      "rationale": "By unifying graphical, potential-outcome, decision analytical, and structural equation approaches, we can create a 'friendly calculus' for causal analysis.",
+      "source_quote": "The theory unifies the graphical, potential-outcome (Neyman-Rubin), decision analytical, and structural equation approaches to causation, and provides both a mathematical foundation and a friendly calculus for the analysis of causes and counterfactuals.",
+      "source_id": "src_012"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Structural Causal Model (SCM) Methodology",
+      "when_to_apply": "When inferring answers to causal queries using a combination of data and assumptions.",
+      "steps": [
+        "Combine available data with causal assumptions.",
+        "Formulate and answer queries about the effect of potential interventions.",
+        "Formulate and answer queries about counterfactuals.",
+        "Formulate and answer queries about the direct (or indirect) effect of one event on another."
+      ],
+      "source_quote": "In particular, the paper establishes a methodology for inferring (from a combination of data and assumptions) the answers to three types of causal queries: (1) queries about the effect of potential interventions, (2) queries about counterfactuals, and (3) queries about the direct (or indirect) effect of one event on another.",
+      "source_id": "src_012"
+    }
+  ],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": []
+}

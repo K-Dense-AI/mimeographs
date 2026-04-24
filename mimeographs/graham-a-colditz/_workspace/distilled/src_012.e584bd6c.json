@@ -1,0 +1,54 @@
+{
+  "source_id": "src_012",
+  "summary": "A biographical and research profile of Dr. Graham A. Colditz by the Breast Cancer Research Foundation. The text outlines his epidemiological work on refining breast cancer risk prediction models by integrating sequential mammograms and histopathology, as well as his historical findings on hormone therapy and early-life lifestyle factors.",
+  "themes": [
+    "Breast Cancer Prevention",
+    "Risk Assessment Models",
+    "Epidemiology",
+    "Personalized Medicine"
+  ],
+  "principles": [
+    {
+      "statement": "Improved breast cancer risk estimates are urgently needed to deliver personalized prevention.",
+      "rationale": "Refining current risk prediction models helps identify high-risk women earlier while reassuring women who remain at low-risk, allowing for personalized screening intervals and interception strategies.",
+      "source_quote": null,
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Early life behaviors significantly influence future breast cancer risk.",
+      "rationale": "Prospective data documents that childhood and adolescent diet, alcohol consumption, and adiposity have the potential to modify the risk of premalignant and invasive breast cancers later in life.",
+      "source_quote": null,
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Combined estrogen plus progestin therapy increases the risk of breast cancer.",
+      "rationale": "Epidemiological data shows a significant increase in breast cancer risk with increasing duration of use, as well as elevated mortality among current users.",
+      "source_quote": null,
+      "source_id": "src_012"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Dynamic Risk Prediction Model",
+      "when_to_apply": "When assessing the future breast cancer risk of women, particularly those with benign breast disease or a history of ductal carcinoma in situ (DCIS), to determine personalized screening intervals.",
+      "steps": [
+        "Collect existing questionnaire data regarding patient history and risk factors.",
+        "Integrate changes observed in up to three sequential mammogram images over time.",
+        "Incorporate histology-based risk scores (such as the H&E Risk Score) from stained pathology samples of biopsies.",
+        "Calculate the updated, personalized risk of benign lesions or DCIS transitioning to invasive breast cancer."
+      ],
+      "source_quote": null,
+      "source_id": "src_012"
+    }
+  ],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Failing to use routine mammogram screening images dynamically to update future risk assessments.",
+      "why_it_fails": "Traditional models rely on static data and miss the predictive value of integrating changes observed in mammograms over time, which can significantly improve the accuracy of predicting breast cancer risk over the next five years.",
+      "source_id": "src_012"
+    }
+  ]
+}

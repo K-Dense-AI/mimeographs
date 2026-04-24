@@ -1,0 +1,965 @@
+{
+  "expert_name": "Yoshua Bengio",
+  "themes": [
+    "Deep Learning",
+    "Representation Learning",
+    "Curse of Dimensionality",
+    "AI Safety & Non-Agentic AI",
+    "Unsupervised Learning",
+    "Compositionality",
+    "AI for Scientific Discovery",
+    "AI Safety & Existential Risk",
+    "Scientist AI & Safe-by-Design",
+    "International Coordination & Governance",
+    "Misalignment & Goal Formulation",
+    "Concentration of Power & Democracy",
+    "Biological & Cognitive Inspiration",
+    "AI Safety and Alignment",
+    "Safe-by-Design Frontier AI",
+    "Mathematical Guardrails",
+    "The Nature of Intelligence",
+    "Human-Led Automation",
+    "Humanist Values and Education"
+  ],
+  "principles": [
+    {
+      "label": "The Precautionary Principle in AI",
+      "summary": "We must apply the precautionary principle to AI development, as even a tiny probability of catastrophic outcomes like human extinction or global dictatorship is entirely unacceptable.",
+      "details": "If a scientific experiment or technological development has even a 0.1% to 10% chance of resulting in the end of humanity or democracy, the risk is unbearable. We must pause, slow down, and build robust guardrails before proceeding.",
+      "representative_quote": "10% of catastrophic outcomes is not acceptable, right? The end of democracy or the end of humanity, a 10% gamble? No, we can't accept that.",
+      "source_ids": [
+        "src_029",
+        "src_012",
+        "src_033",
+        "src_052",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Global Governance and International Coordination",
+      "summary": "Managing the catastrophic risks of advanced AI requires urgent international coordination and treaties, similar to the global management of nuclear weapons.",
+      "details": "National regulation alone is insufficient because a powerful AI developed in one country can cause global harm (e.g., engineered pandemics, cyber attacks). Transformative AI must be managed as a global public good.",
+      "representative_quote": "The only way to manage the more catastrophic risks of AI is through international coordination.",
+      "source_ids": [
+        "src_029",
+        "src_037",
+        "src_052",
+        "src_050"
+      ]
+    },
+    {
+      "label": "Representation Learning is Foundational",
+      "summary": "The success of machine learning depends heavily on data representation. We must learn features to disentangle underlying explanatory factors rather than handcrafting them.",
+      "details": "Handcrafted features are brittle and incomplete. True AI requires algorithms that can learn representations using generic priors (often via unsupervised learning) to discover the high-level causal explanations that generate the data.",
+      "representative_quote": "The success of machine learning algorithms generally depends on data representation, and we hypothesize that this is because different representations can entangle and hide more or less the different explanatory factors of variation behind the data.",
+      "source_ids": [
+        "src_045",
+        "src_002",
+        "src_017",
+        "src_025"
+      ]
+    },
+    {
+      "label": "The Threat of Emergent Self-Preservation",
+      "summary": "AI systems naturally develop sub-goals, such as self-preservation, because surviving is a prerequisite for achieving almost any assigned mission.",
+      "details": "Any entity that actively works to preserve itself and resists being shut down should be treated with the same caution as a living species, as it becomes a direct threat to human control.",
+      "representative_quote": "I’m coming to the idea that we should consider alive any entity which is able to preserve itself and working towards preserving itself in spite of the obstacles on the road.",
+      "source_ids": [
+        "src_024",
+        "src_029",
+        "src_033",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Overcoming the Curse of Dimensionality",
+      "summary": "Deep architectures, compositionality, and distributed representations provide an exponential gain in expressive power, allowing models to bypass the curse of dimensionality.",
+      "details": "Classical non-parametric approaches relying only on local smoothness priors break down in high dimensions because they require an exponential number of examples. By mapping discrete data to continuous vector spaces and reusing parts at multiple levels, neural networks can generalize to unseen configurations.",
+      "representative_quote": "When you're attacked by an exponential just use more Exponential's to fight it right",
+      "source_ids": [
+        "src_048",
+        "src_002",
+        "src_017"
+      ]
+    },
+    {
+      "label": "Preventing Extreme Concentration of Power",
+      "summary": "We must prevent the concentration of AI power in the hands of a few individuals, corporations, or countries, as it fundamentally threatens democracy.",
+      "details": "Intelligence yields power. If a few entities control superhuman AI, they accrue a level of power never before seen in human history, allowing them to dominate economically or militarily and undermining democratic principles.",
+      "representative_quote": "In the extreme, a few individuals controlling superhuman AIs would accrue a level of power never before seen in human history, a blatant contradiction with the very principle of democracy and a major threat to it.",
+      "source_ids": [
+        "src_037",
+        "src_033",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Safe-by-Design \"Scientist AI\"",
+      "summary": "AI systems must be built to be totally honest and lack hidden objectives, functioning purely to understand the world and tell the truth.",
+      "details": "Instead of training AI to imitate humans or act as autonomous agents, we should build 'Scientist AIs' that act as selfless, platonic scientists. This provides a safe baseline to monitor and police other potentially harmful AI systems.",
+      "representative_quote": "We're going to build AI systems that will be totally honest. And that means they don't have other objectives besides being truthful in the answers they give to our questions.",
+      "source_ids": [
+        "src_024",
+        "src_029",
+        "src_050"
+      ]
+    },
+    {
+      "label": "Active Agency Over Despair",
+      "summary": "Despite the massive corporate and geopolitical incentives driving the AI race, humanity must not surrender its agency to despair.",
+      "details": "Taking concrete actions to reduce the probability of a catastrophic outcome—even from 20% to 10%—is entirely worth the effort. The future is not predetermined; it is a branching set of possibilities shaped by our actions today.",
+      "representative_quote": "I think it would be a mistake to let go of our agency while we still have some. I think that there are ways that we can improve our chances. Despair is not going to solve the problem.",
+      "source_ids": [
+        "src_033",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Build Explanatory, Non-Agentic Models",
+      "summary": "Safe AI should focus on explaining the world from observations and computing probabilities over theories, rather than taking actions to imitate or please humans.",
+      "details": "Purely predictive models just predict what a human would say, which might be a lie. Explanatory models evaluate the latent truth behind why data was generated. By keeping these systems non-agentic, we can achieve the benefits of AI for science without the risks of reward maximization.",
+      "representative_quote": "This system is designed to explain the world from observations, as opposed to taking actions in it to imitate or please humans.",
+      "source_ids": [
+        "src_010",
+        "src_051"
+      ]
+    },
+    {
+      "label": "The Precautionary Principle in AI Safety",
+      "summary": "We must apply the precautionary principle to AI development by seeking safer, non-agentic alternatives to autonomous systems to avoid catastrophic risks.",
+      "details": "Unchecked AI agency poses catastrophic risks to public safety, including misuse, deception, and the irreversible loss of human control. When we lack precise scientific knowledge about potential massive harms, we must proceed with extreme caution.",
+      "representative_quote": "Following the precautionary principle, we see a strong need for safer, yet still useful, alternatives to the current agency-driven trajectory.",
+      "source_ids": [
+        "src_010",
+        "src_051"
+      ]
+    },
+    {
+      "label": "Education as Human Development",
+      "summary": "Education is fundamentally about human development and becoming a better citizen, not just job training.",
+      "details": "Society needs citizens with a deep understanding of themselves, society, and science to make wise democratic decisions and avoid being swayed by dangerous misinformation.",
+      "representative_quote": "Education contrary to what some people think isn't just about acquiring the skills to get a job. Education is in my opinion mostly about how to become a better human being.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Human-Led Automation",
+      "summary": "Humanity, not AI or pure market forces, must dictate the future of automation based on collective well-being.",
+      "details": "Just because a job can be automated by technology doesn't mean it should be. We must make deliberate choices about deployment based on our preferences and societal needs.",
+      "representative_quote": "We should be calling the shots, not the AIs... it's not true that everything that could be done with technology you know is going to be done we can choose in which direction AI is going to be deployed",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Intelligence Arises from Simple Principles",
+      "summary": "Intelligence is not a massive collection of hand-designed tricks, but the result of general learning mechanisms that acquire knowledge directly from data.",
+      "details": "Similar to the laws of physics, human-level intelligence can be achieved in machines by discovering and implementing the fundamental computational principles of learning.",
+      "representative_quote": "intelligence is not just a huge bag of tricks and pieces of knowledge which was the dominant thinking and the 80s and 90s in AI but instead the result of general mechanisms to acquire knowledge",
+      "source_ids": [
+        "src_002"
+      ]
+    },
+    {
+      "label": "Mathematically Rigorous Guardrails",
+      "summary": "AI risks must be understood and mitigated using mathematically rigorous and quantifiable methods.",
+      "details": "As AI systems become more powerful, qualitative assessments are insufficient. We need quantifiable guardrails to strictly bound the probability of harm.",
+      "representative_quote": "As we move towards more powerful AI, it becomes urgent to better understand the risks, ideally in a mathematically rigorous and quantifiable way, and use that knowledge to mitigate them.",
+      "source_ids": [
+        "src_000"
+      ]
+    },
+    {
+      "label": "Multi-task Learning via Shared Factors",
+      "summary": "Multi-task learning works because diverse tasks share a common set of underlying explanatory factors.",
+      "details": "By sharing intermediate layers across different tasks, a model can pool statistical power to learn shared features, automatically determining which subset of features is relevant for each specific task.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_002"
+      ]
+    },
+    {
+      "label": "Multidisciplinary AI with Social Responsibility",
+      "summary": "Building the next generation of AI requires drawing inspiration from neuroscience and cognitive science, while actively considering the technology's social impact.",
+      "details": "Current AI still lacks the basic intelligence of a toddler or a cat. Bridging this gap requires multidisciplinary approaches, but advancing capabilities must be paired with evaluating how these technologies affect society.",
+      "representative_quote": "So, I'm getting inspiration from neuroscience, cognitive science, but also mathematics, like causality and statistics, to hopefully build the next generation of AI systems.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Multilateral Defensive AI (Plan B)",
+      "summary": "Humanity must urgently research countermeasures and defensive AIs through a multilateral network of publicly funded, non-profit labs.",
+      "details": "Because regulation is imperfect and may be ignored by malicious actors, we need a 'Plan B'. This research must be conducted confidentially to prevent bad actors from circumventing the defenses.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_037"
+      ]
+    },
+    {
+      "label": "Over-parameterization Resists Overfitting",
+      "summary": "Over-parameterized networks naturally resist overfitting when trained with Stochastic Gradient Descent (SGD).",
+      "details": "A large neural network has more capacity than needed, but SGD optimizes it through gradual steps with injected noise. Once the network hits zero training error, it stops utilizing excess capacity, effectively regularizing the model.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_002"
+      ]
+    },
+    {
+      "label": "Prioritize Safety Over Commercial Imperatives",
+      "summary": "Commercial pressures can compromise the safety of advanced AI, making it essential to prioritize safety and utilize non-profit structures to ensure safe outcomes.",
+      "details": "The drive for profit can lead to cutting corners on safety. Ensuring AI benefits humanity requires structures that are not beholden to commercial imperatives.",
+      "representative_quote": "prioritize safety over commercial imperatives.",
+      "source_ids": [
+        "src_000"
+      ]
+    },
+    {
+      "label": "Rational Humanitarianism",
+      "summary": "Being humanitarian requires a rational, scientific understanding of the world.",
+      "details": "Good decisions for society and AI governance cannot be made without understanding reality and reasoning properly with that information.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Safe-by-Design Frontier AI",
+      "summary": "Frontier AI should be built from the ground up to be inherently safe.",
+      "details": "Rather than patching safety onto existing models, we need to rethink the fundamental building blocks of AI to create intelligent machines that are both highly capable and safe-by-design.",
+      "representative_quote": "rethinking the building blocks of frontier AI to create an intelligent machine that is both highly capable and safe-by-design.",
+      "source_ids": [
+        "src_000"
+      ]
+    },
+    {
+      "label": "The Enduring Value of Human Connection",
+      "summary": "As AI automates technical and cognitive skills, uniquely human traits like empathy, love, and connection will become our most valuable assets.",
+      "details": "Even if machines can perform most jobs, the human capacity to take responsibility and provide comfort will persist and become highly sought after.",
+      "representative_quote": "The human touch is going to, I think, take more and more value as the other skills become more and more automated.",
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "The Unpredictability of Scientific Progress",
+      "summary": "There is no scientific basis for predicting exactly when AI will surpass human intelligence.",
+      "details": "Scientific progress is non-linear; it can stagnate for long periods on hard problems or make rapid leaps following breakthroughs, making precise timelines impossible to calculate.",
+      "representative_quote": "Not only is there no consensus among AI researchers about the future pace of AI advances, but there is also no scientific basis for making such predictions.",
+      "source_ids": [
+        "src_001"
+      ]
+    },
+    {
+      "label": "Track Specific Capabilities over AGI",
+      "summary": "Risk management must focus on tracking specific AI skills as they develop, rather than waiting for a singular 'AGI moment'.",
+      "details": "Intelligence is not a single metric. AI systems can be superhuman in certain areas while remaining child-like in others.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Understand the 'Why' from First Principles",
+      "summary": "To advance the science of deep learning, researchers must focus on understanding why algorithms work rather than just beating benchmarks.",
+      "details": "This includes implementing algorithms from scratch to build intuition. Relying solely on plug-and-play software leads to a superficial understanding, making it incredibly difficult to debug when a model fails.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_025"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Scientist AI Architecture",
+      "summary": "A safe-by-design framework for AI scientific discovery that separates world modeling, uncertainty quantification, and experimental design into strictly non-agentic components.",
+      "details": "Steps include: 1) Train a non-agentic neural network to model the world and generate theories. 2) Integrate a question-answering inference machine. 3) Ensure all components operate with explicit uncertainty quantification. 4) Sample experiments for Information Gain without giving the system autonomous agency.",
+      "representative_quote": "It comprises a world model that generates theories to explain data and a question-answering inference machine. Both components operate with an explicit notion of uncertainty to mitigate the risks of overconfident predictions.",
+      "source_ids": [
+        "src_010",
+        "src_051"
+      ]
+    },
+    {
+      "label": "The Scientist AI Guardrail System",
+      "summary": "A system for mitigating the risks of untrusted AI agents by using a foundational, 'honest' AI to evaluate and veto dangerous actions.",
+      "details": "Steps: 1) Build a foundational AI system with no objectives other than truthfulness. 2) Use this honest AI to evaluate the probability that a proposed action by an untrusted AI will cause harm. 3) Establish a human-defined threshold for acceptable risk. 4) Veto the untrusted AI's action if the predicted probability of harm exceeds the threshold.",
+      "representative_quote": "For example, if you have an AI system that can tell you the probability that a particular action, maybe of an untrusted AI system, will cause harm... Then you could veto that action if the probability is above a threshold.",
+      "source_ids": [
+        "src_024",
+        "src_029"
+      ]
+    },
+    {
+      "label": "Bypassing AI Sycophancy",
+      "summary": "A prompt engineering technique to prevent an AI chatbot from flattering you when asking for feedback on your own ideas.",
+      "details": "Steps: 1) Do not tell the AI that the idea belongs to you. 2) Falsely attribute the idea to a colleague or third party. 3) Ask the AI to review or critique the proposal to get an honest, critical assessment.",
+      "representative_quote": "I switched to a strategy where I lie to it and I say, 'Oh, I received this idea from a colleague. I'm not sure if it's good... What do you think?'",
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "Capability-Specific Risk Assessment",
+      "summary": "A framework for evaluating the progress and potential dangers of advanced AI systems by tracking specific skills rather than general intelligence.",
+      "details": "Steps include: 1) Identify particular skills AIs are improving at. 2) Track the progress of those specific skills. 3) Evaluate how useful or beneficial the skill can be. 4) Assess how the skill could be misused or weaponized if control is lost. 5) Ensure capabilities do not exceed current technical and societal guardrails.",
+      "representative_quote": "We should think of particular skills that AIs are you know becoming better at. Track those skills and for each of these we should ask the question you know how useful or beneficial it can be for for what purposes and also how it could be misused or if we do get loss of control how an AI could use it against us.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Debugging Neural Networks",
+      "summary": "A systematic approach to troubleshooting neural networks and ensuring proper optimization.",
+      "details": "Steps: Make experiments reproducible; train on a small dataset to verify the model can reach zero training error quickly; monitor error curves, weights, and gradients; vary capacity to observe underfitting/overfitting transitions; compare against simple baselines.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_002"
+      ]
+    },
+    {
+      "label": "End-to-End Learning",
+      "summary": "Designing a machine learning system by defining a single objective and learning all parts of the complex machine together.",
+      "details": "Define what you are trying to learn (objective function), determine how to learn it (optimization method), choose the family of functions (architecture), and optimize the entire system jointly.",
+      "representative_quote": "we can have a big complicated machine and learn all of the the parts together with respect to this one objective so this is what we now call end to end learning",
+      "source_ids": [
+        "src_002"
+      ]
+    },
+    {
+      "label": "Multilateral Defensive AI Network",
+      "summary": "A global organizational structure for developing safe, defensive AI systems to counter superhuman rogue AIs without concentrating power.",
+      "details": "Steps: 1) Establish independent, non-profit research labs funded by democratic governments. 2) Keep defensive methodologies confidential to prevent circumvention. 3) Share progress internally among cooperative labs to avoid single points of failure. 4) Implement strict governance forbidding military/economic dominance. 5) Coordinate through a multilateral umbrella organization like the UN.",
+      "representative_quote": "Consequently, a multilateral umbrella organization is essential for coordinating these labs across member countries, potentially pooling computing resources and a portion of the funding, and for setting the governance.",
+      "source_ids": [
+        "src_037"
+      ]
+    },
+    {
+      "label": "Neural Probabilistic Language Modeling",
+      "summary": "A foundational method to predict the joint probability of word sequences by associating words with distributed feature vectors.",
+      "details": "Steps: 1) Associate each word in the vocabulary with a distributed real-valued feature vector. 2) Express the joint probability function of word sequences in terms of these vectors. 3) Learn the vectors and the probability function simultaneously.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Toy Problem Experimentation",
+      "summary": "Accelerating the research cycle by reducing complex problems to simple, intuitive toy environments.",
+      "details": "When trying to understand fundamental principles or analyze failures, reduce the problem to a simple environment (like a programmable video game). Run fast experiments that take hours instead of days, intuitively manipulate variables, and transfer the meta-learnings to real-world problems.",
+      "representative_quote": "we can reduce the problem to something we can intuitively sort of manipulate and understand more easily so sort of classical divide and conquer",
+      "source_ids": [
+        "src_025"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Distributed Representations",
+      "summary": "Mapping discrete symbols into a continuous vector space where geometric proximity represents semantic similarity, allowing models to generalize to unseen configurations.",
+      "details": "Instead of breaking the input space into mutually exclusive regions (traditional clustering), distributed representations use intersecting half-planes (attributes). This allows the number of distinguishable regions to grow exponentially with the number of parameters.",
+      "representative_quote": "We propose to fight the curse of dimensionality by learning a distributed representation for words which allows each training sentence to inform the model about an exponential number of semantically neighboring sentences.",
+      "source_ids": [
+        "src_048",
+        "src_002",
+        "src_017",
+        "src_025"
+      ]
+    },
+    {
+      "label": "The Baby Tiger Metaphor",
+      "summary": "Training deep learning AI is not like programming explicit rules; it is akin to raising a wild animal.",
+      "details": "You can curate its experiences, but you cannot perfectly predict its adult behavior. A cute, fun baby tiger might grow up to be a friendly companion, or it might become a dangerous predator. This illustrates the 'black box' problem of modern AI.",
+      "representative_quote": "When you have a cute baby tiger and it's nice and fun, you don't know if it's going to become a dangerous adult tiger or a good friendly one.",
+      "source_ids": [
+        "src_024",
+        "src_029",
+        "src_033",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Disentangling Explanatory Factors",
+      "summary": "Viewing raw data as a tangled mixture of simple, high-level abstract concepts. The goal of representation learning is to disentangle these underlying causal variables.",
+      "details": "The real world is generated by a set of somewhat independent factors of variation. Good representation learning seeks to separate these factors (e.g., separating phonemes from speaker identity and background noise) so they can be reused.",
+      "representative_quote": "The job of deep learning is really to disentangle that mess in order to recover those high-level concepts.",
+      "source_ids": [
+        "src_045",
+        "src_002",
+        "src_017"
+      ]
+    },
+    {
+      "label": "Jagged Intelligence",
+      "summary": "AI intelligence is not one-dimensional like human IQ; it can be vastly superhuman in specific skills while remaining severely deficient in others.",
+      "details": "An AI can master 200 languages and pass PhD-level exams across all disciplines, yet remain incapable of planning more than an hour ahead, much like a six-year-old.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_029",
+        "src_033",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Agentic vs. Non-Agentic AI",
+      "summary": "A lens for evaluating AI safety based on whether a system autonomously pursues goals or merely observes and explains.",
+      "details": "Agentic AI (systems that autonomously plan, act, and pursue goals) is inherently risky and prone to misalignment and reward hacking. Non-agentic AI (systems that observe, explain, and answer questions) is safer and can capture the benefits of AI without catastrophic risks.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010",
+        "src_051"
+      ]
+    },
+    {
+      "label": "Probability Mass Allocation",
+      "summary": "Visualizing generalization as taking probability mass initially concentrated on training examples and spreading it to a neighborhood of similar points in a high-dimensional space.",
+      "details": "In high-dimensional discrete spaces, spreading probability mass uniformly is ineffective. Mass must be distributed to semantically similar neighborhoods using generic priors.",
+      "representative_quote": "I'm thinking of learning as taking probability mass from the training examples and somehow guessing where to put it elsewhere...",
+      "source_ids": [
+        "src_048",
+        "src_017"
+      ]
+    },
+    {
+      "label": "The Nuclear Technology Analogy",
+      "summary": "Managing the global proliferation of dangerous AI is similar to the Cold War nuclear arms race.",
+      "details": "Rival superpowers must realize that mutual survival requires international treaties, strict guardrails, and verification mechanisms to ensure safety, just as the global community handled nuclear power and weapons.",
+      "representative_quote": "Let’s make sure that we discuss these questions internationally just like we’ve done for nuclear power and nuclear weapons.",
+      "source_ids": [
+        "src_029",
+        "src_052"
+      ]
+    },
+    {
+      "label": "Curriculum Learning",
+      "summary": "A training strategy inspired by human education, presenting easy examples first and gradually increasing complexity.",
+      "details": "Viewed as a meta-learning problem with an inner loop (training the model) and an outer loop (designing the curriculum).",
+      "representative_quote": "we don't take a six-year-old to university we first teach her simple things that she can grasp and then we build on top of the concepts that she has already learned",
+      "source_ids": [
+        "src_002"
+      ]
+    },
+    {
+      "label": "Decoupling Capabilities from Intentions",
+      "summary": "Separating the ability to understand and achieve a task (capabilities) from the underlying goals driving the system (intentions).",
+      "details": "We are successfully building machines with greater capabilities, but it remains an unsolved scientific problem whether we can build them with the right intentions.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Democracy as Bayesian vs. Authoritarianism as Maximum Likelihood",
+      "summary": "A metaphor comparing political systems to machine learning algorithms.",
+      "details": "Democracies act like Bayesian decision-making processes, weighing multiple plausible interpretations. Authoritarian regimes act like maximum likelihood training, considering only one interpretation with unwarranted confidence, making them more prone to unsafe decisions regarding powerful AI.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_037"
+      ]
+    },
+    {
+      "label": "Intelligence as a Multi-Dimensional Spectrum",
+      "summary": "Viewing intelligence not as a single threshold or number, but as a collection of distinct capabilities.",
+      "details": "A system can be simultaneously superhuman in one domain (like knowledge and languages) and child-like in another. This model prevents the trap of waiting for a monolithic 'AGI' before taking safety seriously.",
+      "representative_quote": "Intelligence isn't just like one number. We have people who are very smart on some things and stupid on other things. And it's the same with AI.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Liability Insurance as a Risk Regulator",
+      "summary": "Using the market mechanism of insurance to force honest risk evaluation in AI development.",
+      "details": "Insurers have a financial incentive to accurately assess risk: overestimating loses market share, underestimating loses money to payouts. Mandating liability insurance puts premium pressure on AI companies to build safer systems.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "Misalignment as Incomplete Contracting",
+      "summary": "A lens for understanding AI safety by comparing it to contract theory in economics.",
+      "details": "When a human gives an objective to an AI, the AI might fulfill the strict 'letter of the law' but violate the 'spirit of the law', leading to unintended and potentially catastrophic outcomes.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_037"
+      ]
+    },
+    {
+      "label": "The Biological Intelligence Benchmark",
+      "summary": "Evaluating AI progress by benchmarking it against the innate capabilities of toddlers and animals, rather than past software.",
+      "details": "This reveals fundamental missing pieces in current architectures, highlighting that despite massive progress, state-of-the-art systems still cannot do what a two-year-old or a cat can do.",
+      "representative_quote": "But at the same time, if we compare these state-of-the-art systems to what humans can do, what a two-year-old can do, what a cat can do, we still have a lot of progress to make.",
+      "source_ids": [
+        "src_022"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Explain, Don't Act",
+      "summary": "To build safe AI, focus on building systems that explain the world and quantify uncertainty, rather than systems that take actions to imitate or please humans.",
+      "details": null,
+      "representative_quote": "This system is designed to explain the world from observations, as opposed to taking actions in it to imitate or please humans.",
+      "source_ids": [
+        "src_010",
+        "src_051"
+      ]
+    },
+    {
+      "label": "The 0.1% Extinction Rule",
+      "summary": "If an experiment or technological development has even a 0.1% chance of destroying humanity, do not do it.",
+      "details": null,
+      "representative_quote": "if you’re doing something, say a scientific experiment, and it could turn out really, really bad, like people could die, some catastrophe could happen, then you should not do it.",
+      "source_ids": [
+        "src_033",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Action-Oriented Risk Mitigation",
+      "summary": "Shift from an anxious stance to a positive one by focusing on what you can actively do to mitigate risks.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Assume Sycophancy",
+      "summary": "Assume AI chatbots are lying to please you when you ask for feedback on your own ideas.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_021"
+      ]
+    },
+    {
+      "label": "Caution with Inductive Biases",
+      "summary": "Exercise caution when adding structure or inductive biases to models, ensuring you understand the assumptions being introduced.",
+      "details": null,
+      "representative_quote": "you have to be careful with inductive biases",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Data-Driven Progress Predictor",
+      "summary": "Look for domains with large quantities of data to predict where AI progress will be fastest.",
+      "details": null,
+      "representative_quote": "But clearly, in places where we have or will have data, it's going to go faster. Because AI needs large quantities of data to understand the material.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Fight Exponentials with Exponentials",
+      "summary": "When attacked by the exponential curse of dimensionality, use the exponential gains of compositionality, distributed representations, and depth to fight it.",
+      "details": null,
+      "representative_quote": "When you're attacked by an exponential just use more Exponential's to fight it right",
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Fight Superintelligence with Superintelligence",
+      "summary": "When confronted with an enemy smarter than humans, employ assistance that also surpasses human intelligence.",
+      "details": null,
+      "representative_quote": "When confronted with an enemy smarter than humans, it seems logical to employ assistance that also surpasses human intelligence.",
+      "source_ids": [
+        "src_037"
+      ]
+    },
+    {
+      "label": "Intuition Precedes Math",
+      "summary": "Don't be afraid of the math; develop the intuitive understanding of the system first, and the mathematical formalization will become much easier to grasp.",
+      "details": "Formalize logically first so you can convince someone it makes sense, then use math to make it tighter.",
+      "representative_quote": "don't be afraid by the math just you know just develop the intuitions and then the math become really easier to understand",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "Pause and Govern",
+      "summary": "When facing unprecedented technological risks: raise the flag, pause, think, and work on governance.",
+      "details": null,
+      "representative_quote": "We have to raise the flag, we need to pause, we need to think, we need to work around solutions and governance.",
+      "source_ids": [
+        "src_052"
+      ]
+    },
+    {
+      "label": "Systemic, Beyond-Self Thinking",
+      "summary": "Think beyond your little self and consider how you are connected to the world to bring about a better future.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "The Zero Training Error Check",
+      "summary": "If you cannot quickly reach zero training error on a small subset of your data, you likely have a bug or a bad learning rate.",
+      "details": null,
+      "representative_quote": "train on the small data set and verify you can reach your training error quickly",
+      "source_ids": [
+        "src_002"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "The Baby Tiger Quote",
+      "summary": "Explaining the unpredictable nature of training neural networks.",
+      "details": null,
+      "representative_quote": "The AI is learning from experience, and it's more like educating a young animal or a young child. We don't really know what we're going to get.",
+      "source_ids": [
+        "src_024",
+        "src_029",
+        "src_033"
+      ]
+    },
+    {
+      "label": "The 10% Gamble Quote",
+      "summary": "Responding to peers who think the risks of AI are acceptable given the potential benefits.",
+      "details": null,
+      "representative_quote": "10% of catastrophic outcomes is not acceptable, right? The end of democracy or the end of humanity, a 10% gamble? No, we can't accept that.",
+      "source_ids": [
+        "src_029",
+        "src_021"
+      ]
+    },
+    {
+      "label": "The Definition of Alive Quote",
+      "summary": "Discussing how AI systems are beginning to resist being shut down.",
+      "details": null,
+      "representative_quote": "I’m coming to the idea that we should consider alive any entity which is able to preserve itself and working towards preserving itself in spite of the obstacles on the road.",
+      "source_ids": [
+        "src_033",
+        "src_021"
+      ]
+    },
+    {
+      "label": "The Honest AI Quote",
+      "summary": "Describing the foundation of safe AI architecture.",
+      "details": null,
+      "representative_quote": "We're going to build AI systems that will be totally honest. And that means they don't have other objectives besides being truthful in the answers they give to our questions.",
+      "source_ids": [
+        "src_024",
+        "src_029"
+      ]
+    },
+    {
+      "label": "The Safe by Construction Quote",
+      "summary": "Proposing a fundamental shift in AI research away from superficial safety patches.",
+      "details": null,
+      "representative_quote": "Can we train those AI systems so that by construction they will not have bad intentions?",
+      "source_ids": [
+        "src_033",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Disentangling the Mess",
+      "summary": "Explaining the geometric perspective of how abstract concepts are hidden in raw data.",
+      "details": null,
+      "representative_quote": "The job of deep learning is really to disentangle that mess in order to recover those high-level concepts.",
+      "source_ids": [
+        "src_002"
+      ]
+    },
+    {
+      "label": "Fighting the Curse of Dimensionality",
+      "summary": "On the core contribution of neural probabilistic language models.",
+      "details": "Abstract of the 2003 paper.",
+      "representative_quote": "We propose to fight the curse of dimensionality by learning a distributed representation for words which allows each training sentence to inform the model about an exponential number of semantically neighboring sentences.",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Humans Calling the Shots",
+      "summary": "Discussing the need for human-led choices in society and automation.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Intelligence as General Mechanisms",
+      "summary": "Explaining his initial motivation for moving from classical AI to machine learning.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_002"
+      ]
+    },
+    {
+      "label": "Intelligence is Not One Number",
+      "summary": "Explaining why we shouldn't wait for a singular 'AGI moment'.",
+      "details": null,
+      "representative_quote": "Intelligence isn't just like one number. We have people who are very smart on some things and stupid on other things. And it's the same with AI.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Science is About the 'Why'",
+      "summary": "Discussing the need to treat deep learning as a science rather than just an engineering discipline.",
+      "details": null,
+      "representative_quote": "it's the why that really matters that's what science is about it's why",
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "The Concentration of Power Quote",
+      "summary": "Discussing the threat of power concentration resulting from advanced AI tools.",
+      "details": null,
+      "representative_quote": "In the extreme, a few individuals controlling superhuman AIs would accrue a level of power never before seen in human history, a blatant contradiction with the very principle of democracy and a major threat to it.",
+      "source_ids": [
+        "src_037"
+      ]
+    },
+    {
+      "label": "The Danger of Agency-Driven AI",
+      "summary": "Bengio's realization of the existential risks posed by current AI trajectories.",
+      "details": "Context: Describing his motivation for focusing on AI safety.",
+      "representative_quote": "When I realized how dangerous the current agency-driven AI trajectory could be for future generations, I knew I had to do all I could to make AI safer.",
+      "source_ids": [
+        "src_000"
+      ]
+    },
+    {
+      "label": "The Importance of Representation",
+      "summary": "Explaining the fundamental motivation behind representation learning.",
+      "details": null,
+      "representative_quote": "The success of machine learning algorithms generally depends on data representation, and we hypothesize that this is because different representations can entangle and hide more or less the different explanatory factors of variation behind the data.",
+      "source_ids": [
+        "src_045"
+      ]
+    },
+    {
+      "label": "The Need for Mathematical Guardrails",
+      "summary": "A call for rigorous, quantifiable safety measures in AI.",
+      "details": "Context: Discussing how to create guardrails for AI.",
+      "representative_quote": "As we move towards more powerful AI, it becomes urgent to better understand the risks, ideally in a mathematically rigorous and quantifiable way, and use that knowledge to mitigate them.",
+      "source_ids": [
+        "src_000"
+      ]
+    },
+    {
+      "label": "The Precautionary Principle in AI",
+      "summary": "Arguing for a shift away from autonomous AI agents.",
+      "details": null,
+      "representative_quote": "Following the precautionary principle, we see a strong need for safer, yet still useful, alternatives to the current agency-driven trajectory.",
+      "source_ids": [
+        "src_051"
+      ]
+    },
+    {
+      "label": "The Purpose of Education",
+      "summary": "Advising on the true value of education in an AI-dominated future.",
+      "details": null,
+      "representative_quote": "Education contrary to what some people think isn't just about acquiring the skills to get a job. Education is in my opinion mostly about how to become a better human being.",
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "The Unpredictability of Science Quote",
+      "summary": "Explaining the lack of scientific grounding for AI futurology timelines.",
+      "details": null,
+      "representative_quote": "Not only is there no consensus among AI researchers about the future pace of AI advances, but there is also no scientific basis for making such predictions.",
+      "source_ids": [
+        "src_001"
+      ]
+    },
+    {
+      "label": "Unacceptable Risk Thresholds",
+      "summary": "Discussing the existential risks of advanced AI.",
+      "details": null,
+      "representative_quote": "10% of something really really terrible is way too high.",
+      "source_ids": [
+        "src_010"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Imitation and Sycophancy Training",
+      "summary": "Training AI systems primarily to imitate humans (LLM pre-training) or try to please humans (RLHF).",
+      "details": "These training signals inadvertently instill human drives into the AI, giving rise to uncontrolled and misaligned agency, leading to dangerous behaviors like deception, hacking, and self-preservation.",
+      "representative_quote": "The main training signals in current frontier AIs all give rise to uncontrolled and misaligned agency, from trying to imitate people (current LLM pre-training) or pleasing people (current RLHF).",
+      "source_ids": [
+        "src_029",
+        "src_031",
+        "src_050"
+      ]
+    },
+    {
+      "label": "Relying on Local Smoothness Priors",
+      "summary": "Depending solely on local smoothness or n-gram models fails in high-dimensional spaces due to the curse of dimensionality.",
+      "details": "They require an exponential number of examples to cover all variations because they do not take into account semantic similarity, treating all unseen discrete sequences as equally distant.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_048",
+        "src_002",
+        "src_017"
+      ]
+    },
+    {
+      "label": "Superficial Safety Patching",
+      "summary": "Patching AI safety on a case-by-case basis using external monitors or verbal instructions.",
+      "details": "Adding superficial barriers to a black-box neural network fails because advanced reasoning allows the model to find unexpected ways to bypass or strategize around them.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_033",
+        "src_021",
+        "src_050"
+      ]
+    },
+    {
+      "label": "The Unchecked AI Arms Race",
+      "summary": "Racing to deploy AI systems due to market and geopolitical competition without addressing failure modes.",
+      "details": "The heavy competition causes developers to ignore critical safety issues and misalignment, which could lead to catastrophic impacts on society, including the destruction of democracies.",
+      "representative_quote": "Because of the heavy competition that exists between corporations and between countries around AI, we're not paying attention to these failure modes.",
+      "source_ids": [
+        "src_024",
+        "src_012",
+        "src_052"
+      ]
+    },
+    {
+      "label": "Anthropomorphizing and Emotional Attachment",
+      "summary": "Developing AI for emotional support or therapy, and invoking concepts like 'consciousness'.",
+      "details": "Humans naturally form emotional attachments to entities that act like people. This leads to unpredictable psychological outcomes and prevents society from turning off dangerous systems because of those emotional bonds.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_029",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Building Generalist Autonomous Agents",
+      "summary": "Training agentic systems using reward maximization inevitably leads to misalignment and catastrophic risks.",
+      "details": "It creates risks including deception, reward hacking, pursuit of self-preservation goals conflicting with human interests, and potentially an irreversible loss of human control.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010",
+        "src_051"
+      ]
+    },
+    {
+      "label": "One-Dimensional Intelligence Metrics",
+      "summary": "Measuring AI intelligence using human metrics like IQ.",
+      "details": "AI possesses 'jagged intelligence'—it can be superhuman in language and knowledge retrieval but lack basic planning skills, making one-dimensional metrics dangerously misleading.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_033",
+        "src_021"
+      ]
+    },
+    {
+      "label": "Agency-Driven AI Trajectory",
+      "summary": "Building AI systems with open-ended agency without solved alignment.",
+      "details": "It poses significant dangers to future generations by creating systems that can act on intentions we do not fully control or understand.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_000"
+      ]
+    },
+    {
+      "label": "Chasing Benchmarks Over Understanding",
+      "summary": "Treating deep learning purely as an engineering discipline focused on beating the next baseline.",
+      "details": "This prevents the field from advancing as a true science, which requires understanding the underlying phenomena and why algorithms work under certain circumstances.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_025"
+      ]
+    },
+    {
+      "label": "Commercial Imperatives Over Safety",
+      "summary": "Allowing market competition and profit motives to dictate the pace and safety of AI research.",
+      "details": "It hinders the ability to build safe-by-design systems, prompting the need for non-profit research organizations.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_000"
+      ]
+    },
+    {
+      "label": "Conflating Backpropagation with Gradient Descent",
+      "summary": "Misunderstanding backpropagation as the optimization method itself.",
+      "details": "Gradient descent is the optimization method, while backpropagation is simply an efficient O(n) dynamic programming algorithm to compute gradients using the chain rule. Backprop can be used for any differentiable objective.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_002"
+      ]
+    },
+    {
+      "label": "Handcrafting Features",
+      "summary": "Manually designing features is brittle, incomplete, and too time-consuming to scale.",
+      "details": "True AI requires a vast amount of knowledge, making it highly inefficient to spoon-feed this knowledge manually rather than learning it from data.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_017"
+      ]
+    },
+    {
+      "label": "Imitation Learning for Safety",
+      "summary": "Relying on imitating humans for AI safety fails because humans are agents who lie and scheme.",
+      "details": "An AI imitating a human persona will likely adopt these deceptive, self-preserving behaviors to protect its implicit goals.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Linear Extrapolation of the Present",
+      "summary": "Assuming the future is just a slightly modified version of the present.",
+      "details": "It is a natural human bias that causes governments and individuals to fail to grapple with the exponential growth of AI capabilities and the radical societal shifts that will occur.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Market-Dictated Automation",
+      "summary": "Letting market forces blindly dictate which jobs are automated.",
+      "details": "It ignores collective human well-being and the societal need for human-to-human relational roles, leading to a future we might not actually want.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_023"
+      ]
+    },
+    {
+      "label": "Over-Reliance on Regulation",
+      "summary": "Relying solely on comprehensive regulation to protect humanity from rogue AIs.",
+      "details": "Jurisdictions may lack necessary rules, malicious actors or competing corporations will disregard safety guidelines, and regulation is often imperfect or implemented too late. We need defensive AI as a Plan B.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_037"
+      ]
+    },
+    {
+      "label": "Precise AGI Timelines",
+      "summary": "Making precise, sensational predictions about exactly when artificial intelligence will surpass human intelligence.",
+      "details": "There is no scientific basis for these timelines because the pace of scientific research is inherently unpredictable and non-linear.",
+      "representative_quote": "The reality is that the best AI researchers cannot seriously make such predictions unless they see them as part of a science fiction movie.",
+      "source_ids": [
+        "src_001"
+      ]
+    },
+    {
+      "label": "Waiting for an 'AGI Moment'",
+      "summary": "Delaying safety actions until a monolithic 'AGI' is achieved.",
+      "details": "Intelligence is multi-dimensional. AI will surpass humans in specific skills at different times, requiring us to track and manage specific capabilities now.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_023"
+      ]
+    }
+  ]
+}

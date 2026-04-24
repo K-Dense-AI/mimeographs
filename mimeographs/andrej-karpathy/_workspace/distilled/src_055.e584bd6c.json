@@ -1,0 +1,120 @@
+{
+  "source_id": "src_055",
+  "summary": "Andrej Karpathy reviews the major paradigm shifts in LLMs during 2025. He highlights the rise of Reinforcement Learning from Verifiable Rewards (RLVR), the emergence of 'vibe coding', the shift towards local AI agents, and the realization that LLM intelligence is fundamentally 'jagged' and alien compared to human intelligence.",
+  "themes": [
+    "Reinforcement Learning from Verifiable Rewards (RLVR)",
+    "Jagged Intelligence",
+    "Vibe Coding",
+    "LLM Agents",
+    "LLM UI/UX",
+    "AI Benchmarks"
+  ],
+  "principles": [
+    {
+      "statement": "LLM apps will animate general models into deployed professionals.",
+      "rationale": "While LLM labs will continue to produce generally capable models, the application layer is necessary to organize, finetune, and provide the private data and feedback loops needed for specific verticals.",
+      "source_quote": "Personally I suspect that LLM labs will trend to graduate the generally capable college student, but LLM apps will organize, finetune and actually animate teams of them into deployed professionals in specific verticals",
+      "source_id": "src_055"
+    },
+    {
+      "statement": "AI agents should run locally on the user's computer.",
+      "rationale": "Running agents on localhost leverages the already-existing computer, its installation, context, data, secrets, and low-latency interaction, which is more practical in a slow takeoff world than cloud-based swarms.",
+      "source_quote": "it makes more sense to run the agents directly on the developer's computer. Note that the primary distinction that matters is not about where the \"AI ops\" happen to run... but about everything else - the already-existing and booted up computer, its installation, context, data, secrets, configuration, and the low-latency interaction.",
+      "source_id": "src_055"
+    },
+    {
+      "statement": "Code is becoming ephemeral and discardable.",
+      "rationale": "Because AI has crossed a capability threshold where programs can be built simply via English ('vibe coding'), the cost of writing code has plummeted, allowing developers to write single-use, throwaway software.",
+      "source_quote": "code is suddenly free, ephemeral, malleable, discardable after single use.",
+      "source_id": "src_055"
+    },
+    {
+      "statement": "LLMs need a visual GUI, not just text interfaces.",
+      "rationale": "Text is the raw data representation favored by computers, but humans find reading text slow and effortful. Humans prefer visual and spatial information, meaning LLMs should communicate through images, infographics, and web apps.",
+      "source_quote": "Text is the raw/favored data representation for computers (and LLMs), but it is not the favored format for people, especially at the input. People actually dislike reading text - it is slow and effortful.",
+      "source_id": "src_055"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "LLM App Architecture",
+      "when_to_apply": "When building an application layer on top of raw LLM capabilities to serve specific verticals.",
+      "steps": [
+        "Do the 'context engineering'",
+        "Orchestrate multiple LLM calls under the hood strung into increasingly more complex DAGs, carefully balancing performance and cost tradeoffs",
+        "Provide an application-specific GUI for the human in the loop",
+        "Offer an 'autonomy slider'"
+      ],
+      "source_quote": "LLM apps like Cursor bundle and orchestrate LLM calls for specific verticals: 1. They do the \"context engineering\" 2. They orchestrate multiple LLM calls...",
+      "source_id": "src_055"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Summoning Ghosts vs. Evolving Animals",
+      "description": "A lens for understanding LLM intelligence. Unlike human neural nets optimized for jungle survival (animals), LLMs are optimized for imitating text and solving math puzzles, resulting in alien entities (ghosts) that shouldn't be judged through an animal lens.",
+      "example": "Recognizing that LLMs will have completely different capability profiles than humans because their 'supervision bits' come from text and verifiable rewards rather than evolutionary survival.",
+      "source_id": "src_055"
+    },
+    {
+      "name": "Jagged Intelligence",
+      "description": "The concept that LLM capabilities are highly uneven. Because they spike in capability around verifiable domains (like math or code), they can simultaneously act as a genius polymath and a confused grade schooler.",
+      "example": "An LLM solving complex reasoning puzzles perfectly but getting tricked by a simple jailbreak seconds later.",
+      "source_id": "src_055"
+    },
+    {
+      "name": "College Student vs. Deployed Professional",
+      "description": "A metaphor for the AI value chain. Foundation model labs produce the 'generally capable college student', while the LLM app layer provides the specific tools, data, and environment to turn them into a 'deployed professional'.",
+      "example": null,
+      "source_id": "src_055"
+    },
+    {
+      "name": "LLMs as the 1980s Computer Console",
+      "description": "Viewing current LLM chat interfaces as the equivalent of 1980s command-line consoles. Just as traditional computing evolved GUIs because humans prefer visual information over raw text, LLMs will inevitably require a rich, multi-modal GUI.",
+      "example": "Using Google Gemini Nano banana as an early hint of what an LLM GUI looks like, blending text, image generation, and world knowledge.",
+      "source_id": "src_055"
+    }
+  ],
+  "heuristics": [
+    "Code is suddenly free, ephemeral, malleable, discardable after single use."
+  ],
+  "signature_quotes": [
+    {
+      "text": "We're not \"evolving/growing animals\", we are \"summoning ghosts\".",
+      "context": "Discussing the alien nature of LLM intelligence and how it differs from human evolution.",
+      "source_id": "src_055"
+    },
+    {
+      "text": "Training on the test set is a new art form.",
+      "context": "Commenting on how LLM labs optimize for benchmarks using synthetic data and RLVR.",
+      "source_id": "src_055"
+    },
+    {
+      "text": "Vibe coding will terraform software and alter job descriptions.",
+      "context": "Describing the impact of building programs simply via English.",
+      "source_id": "src_055"
+    },
+    {
+      "text": "LLMs are emerging as a new kind of intelligence, simultaneously a lot smarter than I expected and a lot dumber than I expected.",
+      "context": "Summarizing the state of LLMs at the end of 2025.",
+      "source_id": "src_055"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Trusting LLM benchmarks to measure progress toward AGI.",
+      "why_it_fails": "Benchmarks are verifiable environments, making them susceptible to RLVR. Labs inevitably construct environments adjacent to benchmarks and 'grow jaggies' to cover them, crushing the benchmark without actually achieving AGI.",
+      "source_id": "src_055"
+    },
+    {
+      "description": "Focusing early agent efforts on cloud deployments in containers.",
+      "why_it_fails": "It misses the value of the user's already-existing and booted up computer, its installation, context, data, secrets, configuration, and low-latency interaction.",
+      "source_id": "src_055"
+    },
+    {
+      "description": "Thinking about LLM intelligence through an animal lens.",
+      "why_it_fails": "Everything about the LLM stack (architecture, data, algorithms, optimization pressure) is different from human evolution, resulting in fundamentally different entities.",
+      "source_id": "src_055"
+    }
+  ]
+}

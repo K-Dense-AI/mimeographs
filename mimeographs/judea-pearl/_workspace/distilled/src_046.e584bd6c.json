@@ -1,0 +1,60 @@
+{
+  "source_id": "src_046",
+  "summary": "This source is an abstract for a paper co-authored by Judea Pearl. It introduces machine learning models (Exact-MLP and Mask-MLP) designed to estimate bounds for probabilities of causation, such as the probability of necessity and sufficiency (PNS), overcoming the unreliability of obtaining subpopulation-specific experimental and observational data.",
+  "themes": [
+    "Probabilities of Causation",
+    "Machine Learning",
+    "Structural Causal Models (SCMs)",
+    "Probability of Necessity and Sufficiency (PNS)"
+  ],
+  "principles": [
+    {
+      "statement": "Probabilities of causation are essential for modern decision-making.",
+      "rationale": "They provide formal definitions and bounds (such as the probability of necessity and sufficiency) that are central to evaluating decisions and outcomes.",
+      "source_quote": "Probabilities of causation play a central role in modern decision making.",
+      "source_id": "src_046"
+    },
+    {
+      "statement": "Machine learning can overcome the data limitations inherent in estimating probabilities of causation.",
+      "rationale": "By training models on a small set of reliable subpopulations, it is possible to accurately predict causal probability bounds for other subpopulations where data is limited or unreliable.",
+      "source_quote": "These results demonstrate both the feasibility of machine learning models for learning probabilities of causation and the effectiveness of the proposed approach.",
+      "source_id": "src_046"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Mask-Augmented ML for PNS Bounds",
+      "when_to_apply": "When estimating probabilities of causation (like PNS) but experimental and observational distributions for specific subpopulations are unreliable or impractical to obtain from limited population-level data.",
+      "steps": [
+        "Identify a small set of reliable subpopulations with sufficient experimental and observational data.",
+        "Train machine learning models (Exact-MLP and Mask-MLP) on this reliable subset.",
+        "Use the trained models to predict PNS bounds for all other subpopulations."
+      ],
+      "source_quote": "we propose two machine learning models: Exact-MLP and Mask-MLP, which are trained on a small set of reliable subpopulations and are able to predict PNS bounds for all other subpopulations.",
+      "source_id": "src_046"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Structural Causal Models (SCMs)",
+      "description": "A mathematical framework used to represent causal relationships and generate population-level data, serving as a ground-truth environment to validate causal inference algorithms and machine learning models.",
+      "example": "Validating the Exact-MLP and Mask-MLP models across four different SCMs using population-level data with sample sizes between 100k and 200k.",
+      "source_id": "src_046"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Probabilities of causation play a central role in modern decision making.",
+      "context": "Opening statement of the abstract, establishing the importance of the paper's focus.",
+      "source_id": "src_046"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying strictly on subpopulation-specific experimental and observational distributions to estimate probabilities of causation when population-level data is limited.",
+      "why_it_fails": "It is often unreliable or impractical to obtain this specific data for every subpopulation, making direct estimation impossible without predictive modeling.",
+      "source_id": "src_046"
+    }
+  ]
+}

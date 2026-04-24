@@ -1,0 +1,848 @@
+{
+  "total": 69,
+  "verified": 64,
+  "unverified": [
+    {
+      "category": "principles",
+      "label": "Frontier Models and Distillation Synergy",
+      "quote": "it's not that one or the other is useful. They're both useful... you have to have the frontier model in order to then distill it into your your smaller model. So it's not like an either or choice.",
+      "source_ids": [
+        "src_015",
+        "src_033"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7959183673469388
+    },
+    {
+      "category": "principles",
+      "label": "The Pareto Frontier of Distillation",
+      "quote": "It’s not that one or the other is useful. They’re both useful. So I think we’d like to do both. And also, you know, through distillation... you have to have the frontier model in order to then distill it into your smaller model.",
+      "source_ids": [
+        "src_002",
+        "src_030"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.706140350877193
+    },
+    {
+      "category": "frameworks",
+      "label": "System Design Scaling Assessment",
+      "quote": "whenever you're designing a system you want to understand what are the sort of design parameters that are going to be most important... a good design principle is you're want to design a system so that the most important characteristics could scale by like factors of five or 10 but probably not beyond that",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6872964169381107
+    },
+    {
+      "category": "mental_models",
+      "label": "Prompting as Executive Communication",
+      "quote": "good prompting is indistinguishable from sufficiently advanced executive communication.",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8045977011494253
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Prompting as Executive Communication",
+      "quote": "good prompting is indistinguishable from sufficiently advanced executive communication.",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8045977011494253
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "Hardware-Algorithm Co-design",
+      "quote": "yes, quantization is irritating, but your model is going to be three times faster, so you're going to have to deal.",
+      "source_ids": [
+        "src_026",
+        "src_002",
+        "src_025",
+        "src_010",
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_026",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Consolidate AI Research and Compute",
+      "quote": "instead of fragmenting our compute and our ideas let's all work together and build a single kind of model that is multimmodal that uh has you know a lot comput investment behind a more singular effort",
+      "source_ids": [
+        "src_015",
+        "src_018",
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "AI for Societal Benefit",
+      "quote": "we can use machine learning to bring the wisdom of experts through a machine learning model anywhere in the world and that's really a huge huge opportunity",
+      "source_ids": [
+        "src_005",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Chain of Thought as Inference Compute",
+      "quote": "you're actually giving the model more compute to think at inference time, right? Because every token it needs to generate is a pass through the model.",
+      "source_ids": [
+        "src_015",
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Collaborative Innovation",
+      "quote": "a really good way to do interesting things is to partner with people who know things that you don't.",
+      "source_ids": [
+        "src_026",
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 0.99
+    },
+    {
+      "category": "principles",
+      "label": "Frontier Models and Distillation Synergy",
+      "quote": "it's not that one or the other is useful. They're both useful... you have to have the frontier model in order to then distill it into your your smaller model. So it's not like an either or choice.",
+      "source_ids": [
+        "src_015",
+        "src_033"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7959183673469388
+    },
+    {
+      "category": "principles",
+      "label": "Latency as a First-Class Objective",
+      "quote": "I think latency is actually a pretty important characteristic for these models because we’re going to want models to do much more complicated things that are going to involve, you know, generating many more tokens...",
+      "source_ids": [
+        "src_002",
+        "src_030"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 0.9861111111111112
+    },
+    {
+      "category": "principles",
+      "label": "Massively Multi-task Models",
+      "quote": "we tend to Train separate models for each different problem we care about I think this is a bit misguided like really we want one model that does a lot of things so that it can build on the knowledge in how it does thousands or millions of different things",
+      "source_ids": [
+        "src_010",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Sparsely Activated Models",
+      "quote": "you'd like you know trillions of parameters but activate only you know one 1% or 5% or 10% of that",
+      "source_ids": [
+        "src_015",
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The Pareto Frontier of Distillation",
+      "quote": "It’s not that one or the other is useful. They’re both useful. So I think we’d like to do both. And also, you know, through distillation... you have to have the frontier model in order to then distill it into your smaller model.",
+      "source_ids": [
+        "src_002",
+        "src_030"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.706140350877193
+    },
+    {
+      "category": "principles",
+      "label": "Unified Multimodal Models",
+      "quote": "I think it’s also really useful to have Gemini know about non-human modalities. Like LIDAR sensor data from say, Waymo vehicles or like robots...",
+      "source_ids": [
+        "src_002",
+        "src_030"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 0.9103448275862069
+    },
+    {
+      "category": "principles",
+      "label": "Design Systems for 5-10x Scale",
+      "quote": "you're want to design a system so that the most important characteristics could scale by like factors of five or 10 but probably not beyond that because often what happens is if you design a system for X and something suddenly becomes 100X that would enable a very different point in the design space",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 0.9266666666666666
+    },
+    {
+      "category": "principles",
+      "label": "Evaluate Small-Scale Research by Slope",
+      "quote": "If the slope, if it's below the baseline, but the slope looks good, that's a really interesting idea.",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "General Models Beat Specialized Ones",
+      "quote": "general models will win out over specialized ones in most cases",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 0.9523809523809523
+    },
+    {
+      "category": "principles",
+      "label": "Generative AI Utility vs Factuality",
+      "quote": "It’s a hard problem and even though these models are not factual all the time – they are still useful.",
+      "source_ids": [
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Hardware-Software Co-design",
+      "quote": "we really want to take advantage of being able to co-design what should future TPUs look like based on where we think the sort of ML research puck is going",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Optimize for Experimental Velocity",
+      "quote": "because there's a very different qualitative feel to doing science and research in a domain where an experiment takes a month versus doing it in a domain where you know minutes or hours you get you know an answer",
+      "source_ids": [
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Push on Latency",
+      "quote": "I'm a big believer in pushing on latency because I think being able to have really low latency interactions with a system you're using is just much more delightful than something that is, you know, 10 times as slow",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Reasoning over Memorization",
+      "quote": "having the model devote precious parameter space to remember obscure facts that could be looked up is actually not the best use of that parameter space",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 0.9801324503311258
+    },
+    {
+      "category": "principles",
+      "label": "Scale and Algorithms Multiply",
+      "quote": "If you can have much larger scale and much better model architectures that are able to learn more, you know, per floating point operation, those things together mean instead of, you know, 20x from scale, you have 20x from scale and 50x from algorithms and you end up with a thousandx better thing",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Scale by Factors of 5 or 10",
+      "quote": "I think a good design principle is you’re going to want to design a system so that the most important characteristics could scale by like factors of five or 10, but probably not beyond that...",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 0.984375
+    },
+    {
+      "category": "frameworks",
+      "label": "Hardware-ML Co-design (Predicting the Puck)",
+      "quote": "you’re trying to predict two to six years out where, what ML computations will people want to run two to six years out in a very fast changing field.",
+      "source_ids": [
+        "src_002",
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Neural Architecture Search (AutoML)",
+      "quote": "we're going to generate ten model architectures we're going to train each of them for a few hours and then we're going to use the loss of the generative models as a reinforcement learning signal for the model generating model",
+      "source_ids": [
+        "src_010",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 0.9955555555555555
+    },
+    {
+      "category": "frameworks",
+      "label": "1/1000th Scale Vetting",
+      "quote": "It's very helpful to have a 1/1000th scale problem and then vet 100,000 ideas on that, and then scale up the ones that seem promising.",
+      "source_ids": [
+        "src_026"
+      ],
+      "verified": true,
+      "matched_source_id": "src_026",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Back-of-the-Envelope System Design",
+      "quote": "I’m a big fan of thinking through designs in your head, just kind of playing with the design space a little before you actually do a lot of writing of code.",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Deterministic Replay for SDC Detection",
+      "quote": "if we see a gradient spike, then we will effectively replay that step or the last few steps and see if we get the same answer. And if we get the same answer, we conclude, well, that's probably okay. That was probably due to the data, not due to hardware errors.",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Model Distillation",
+      "quote": "you can effectively use a powerful teacher model to make a smaller and cheaper student model from the uh you know the more sophisticated predictions that the larger model can make.",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Self-Supervised Pre-training and Fine-tuning",
+      "quote": "step one you can pre train a model on lots and lots of text using this fill in the blanks self supervisor objective function and then step two you can then take a language task you really care about... and now use your paltry 10,000 examples",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 0.8672199170124482
+    },
+    {
+      "category": "frameworks",
+      "label": "Speculative Decoding",
+      "quote": "you have a fast drafter model where you don't need the full sophistication of a much larger model and you can quickly generate the next say eight tokens and then have the target large model check them in parallel.",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "System Design Scaling Assessment",
+      "quote": "whenever you're designing a system you want to understand what are the sort of design parameters that are going to be most important... a good design principle is you're want to design a system so that the most important characteristics could scale by like factors of five or 10 but probably not beyond that",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6872964169381107
+    },
+    {
+      "category": "mental_models",
+      "label": "Sparsely Activated Multi-Task Model (The Brain Analogy)",
+      "quote": "I think what we actually want is a model that's very very big like think you know 100 billion trillion parameters but where for any given thing you activate only a tiny fraction of it 1% of it 5% of it you know your brain works this way",
+      "source_ids": [
+        "src_010",
+        "src_011",
+        "src_025"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "AI Agents as a Managed Team of Interns",
+      "quote": "the human coordinating the activities of a dozen or hundred AI agents doing stuff on their behalf where they've probably the human is probably weekly specified what it is they want.",
+      "source_ids": [
+        "src_015",
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Neural Nets as Scientific Simulators",
+      "quote": "you essentially get indistinguishable accuracy from using the real simulator but it's three hundred thousand times faster",
+      "source_ids": [
+        "src_010",
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Illusion of Infinite Context",
+      "quote": "I think if you could give the illusion that you can attend to trillions of tokens, that would be amazing.",
+      "source_ids": [
+        "src_002",
+        "src_030"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "AI as an Expert Multiplier",
+      "quote": "we can use machine learning to bring the wisdom of experts through a machine learning model anywhere in the world and that's really a huge huge opportunity",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Attending to the Internet",
+      "quote": "I think what you would really want is can I attend to the internet while I answer my question right",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Context Window as a \"Crisp\" Document",
+      "quote": "The information in the context window of the model the input that you give it is very crisp because you haven't mixed it with anything else.",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Energy-Based Analysis of Computation",
+      "quote": "Ideally you'd like to use batch size one because the latency would be great but the energy cost and the compute cost inefficiency that you get is quite large.",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 0.8670886075949367
+    },
+    {
+      "category": "mental_models",
+      "label": "Foundational Models as Infrastructure",
+      "quote": "I would think of Gemini as a model that sits underneath lots of group products, rather than necessarily a new product.",
+      "source_ids": [
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Heuristics as Learning Problems",
+      "quote": "I think there's huge potential for the thousands, and thousands, and thousands of heuristics in computer systems to really mostly be learned and adapt to how they're actually being used.",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Ideas in the Air",
+      "quote": "I like to think of a lot of ideas as being partially in the air, where there are a few different, maybe separate research ideas that one is squinting at when you’re trying to solve a new problem.",
+      "source_ids": [
+        "src_026"
+      ],
+      "verified": true,
+      "matched_source_id": "src_026",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Prompting as Executive Communication",
+      "quote": "good prompting is indistinguishable from sufficiently advanced executive communication.",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8045977011494253
+    },
+    {
+      "category": "mental_models",
+      "label": "Sparse Models as the Human Brain",
+      "quote": "That's not how our brains work, right? We have very different pieces of our brains that are useful for different kinds of things.",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Bigger Model, More Data",
+      "quote": "Bigger model, more data, better results.",
+      "source_ids": [
+        "src_015",
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Low Precision for Energy Savings",
+      "quote": "I'm a big fan of very low precision because I think that gets that saves you a tremendous amount of energy, right? Because it's joules per bit that you're transferring.",
+      "source_ids": [
+        "src_015",
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 0.9880952380952381
+    },
+    {
+      "category": "heuristics",
+      "label": "Back-of-the-Envelope First",
+      "quote": "I’m a big fan of thinking through designs in your head, just kind of playing with the design space a little before you actually do a lot of writing of code.",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Design for 5-10x Scale",
+      "quote": "you're want to design a system so that the most important characteristics could scale by like factors of five or 10 but probably not beyond that",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Don't Hype Unfinished Work",
+      "quote": "I just don't like to hype things that aren't done yet.",
+      "source_ids": [
+        "src_026"
+      ],
+      "verified": true,
+      "matched_source_id": "src_026",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Evaluate Utility over Perfect Factuality",
+      "quote": "It’s a hard problem and even though these models are not factual all the time – they are still useful.",
+      "source_ids": [
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Partner for Knowledge",
+      "quote": "a really good way to do interesting things is to partner with people who know things that you don't.",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 0.99
+    },
+    {
+      "category": "heuristics",
+      "label": "Read 100 Abstracts",
+      "quote": "I think you would be much better served to take the time to read 100 abstracts of 100 different papers and sort of understand the highest level concept that they each have.",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Scale by 10x, Not 100x",
+      "quote": "I think a good design principle is you’re going to want to design a system so that the most important characteristics could scale by like factors of five or 10, but probably not beyond that...",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 0.984375
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AI Product Hesitation",
+      "quote": "I think we were a little caught up on the fact that these models make mistakes sometimes.",
+      "source_ids": [
+        "src_041"
+      ],
+      "verified": true,
+      "matched_source_id": "src_041",
+      "match_ratio": 0.9887640449438202
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Bigger Model, More Data",
+      "quote": "Bigger model, more data, better results.",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Evaluating Small Scale Research",
+      "quote": "If the slope, if it's below the baseline, but the slope looks good, that's a really interesting idea.",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Experimental Velocity",
+      "quote": "there's a very different qualitative feel to doing science and research in a domain where an experiment takes a month versus doing it in a domain where you know minutes or hours you get you know an answer",
+      "source_ids": [
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Fragmenting Compute",
+      "quote": "I sort of said this is stupid why don't we all work together and have instead of fragmenting our compute and our ideas let's all work together and build a single kind of model",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "General vs Specialized Models",
+      "quote": "General models will win out over specialized ones in most cases.",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 0.9375
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Growth of Ideas",
+      "quote": "we've replaced computational growth with growth of ideas",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Hardware Failures",
+      "quote": "Sadly not all chips or machines or network cards or cables work as designed. That's a very sad but true state of the world.",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Hardware Specialization",
+      "quote": "If you can build hardware that is only designed to accelerate low-precision linear algebra, you're golden.",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Inference Compute",
+      "quote": "You're actually giving the model more compute to think at inference time, right? Because every token it needs to generate is a pass through the model.",
+      "source_ids": [
+        "src_015"
+      ],
+      "verified": true,
+      "matched_source_id": "src_015",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Partnering for Knowledge",
+      "quote": "a really good way to do interesting things is to partner with people who know things that you don't.",
+      "source_ids": [
+        "src_036"
+      ],
+      "verified": true,
+      "matched_source_id": "src_036",
+      "match_ratio": 0.99
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Prompting as Executive Communication",
+      "quote": "good prompting is indistinguishable from sufficiently advanced executive communication.",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.8045977011494253
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Quantization Trade-offs",
+      "quote": "yes, quantization is irritating, but your model is going to be three times faster, so you're going to have to deal.",
+      "source_ids": [
+        "src_026"
+      ],
+      "verified": true,
+      "matched_source_id": "src_026",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Reasoning vs Memorization",
+      "quote": "Having the model devote precious parameter space to remember obscure facts that could be looked up is actually not the best use of that parameter space.",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 0.9802631578947368
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Scaling Systems",
+      "quote": "I think a good design principle is you’re going to want to design a system so that the most important characteristics could scale by like factors of five or 10, but probably not beyond that...",
+      "source_ids": [
+        "src_002"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 0.984375
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Sparse Activation",
+      "quote": "I think what we actually want is a model that's very very big like think you know 100 billion trillion parameters but where for any given thing you activate only a tiny fraction of it 1% of it 5% of it you know your brain works this way",
+      "source_ids": [
+        "src_010"
+      ],
+      "verified": true,
+      "matched_source_id": "src_010",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "System Scaling Limits",
+      "quote": "You're want to design a system so that the most important characteristics could scale by like factors of five or 10 but probably not beyond that because often what happens is if you design a system for X and something suddenly becomes 100X that would enable a very different point in the design space",
+      "source_ids": [
+        "src_033"
+      ],
+      "verified": true,
+      "matched_source_id": "src_033",
+      "match_ratio": 0.9266666666666666
+    }
+  ]
+}

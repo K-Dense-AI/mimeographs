@@ -1,0 +1,29 @@
+{
+  "source_id": "src_003",
+  "summary": "A course syllabus for Pieter Abbeel's Fall 2011 CS287 Advanced Robotics class at UC Berkeley. The document outlines course logistics, topics, and Abbeel's view that modern robotics and AI are fundamentally grounded in probabilistic reasoning and optimization.",
+  "themes": [
+    "Probabilistic reasoning",
+    "Optimization",
+    "Robotics algorithms",
+    "Artificial Intelligence foundations"
+  ],
+  "principles": [
+    {
+      "statement": "State-of-the-art robotic systems are fundamentally built on probabilistic reasoning and optimization.",
+      "rationale": "Mastering the math and algorithms underneath these two areas is essential because they have wide applicability across all of modern Artificial Intelligence, not just robotics.",
+      "source_quote": "The majority of these techniques are heavily based on probabilistic reasoning and optimization---two areas with wide applicability in modern Artificial Intelligence.",
+      "source_id": "src_003"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "The majority of these techniques are heavily based on probabilistic reasoning and optimization---two areas with wide applicability in modern Artificial Intelligence.",
+      "context": "Describing the core mathematical foundations required to understand state-of-the-art robotic systems.",
+      "source_id": "src_003"
+    }
+  ],
+  "anti_patterns": []
+}

@@ -1,0 +1,93 @@
+{
+  "source_id": "src_038",
+  "summary": "In this Forbes profile, Anne Wojcicki discusses the evolution of 23andMe from a consumer genetics startup to a biotech drug-discovery engine. She reflects on overcoming FDA regulatory hurdles, her commitment to direct-to-consumer health information, and her ultimate goal of empowering individuals to focus on preventive health and healthspan rather than the Silicon Valley obsession with immortality.",
+  "themes": [
+    "Preventive Healthcare",
+    "Consumer Empowerment",
+    "Regulatory Compliance",
+    "Biotech and Drug Discovery",
+    "Healthspan vs. Immortality"
+  ],
+  "principles": [
+    {
+      "statement": "Health information must be actionable, not just informational.",
+      "rationale": "Providing individuals with their genetic data is only the first step; the ultimate purpose is to give them the agency to take control of their health and make lifestyle changes.",
+      "source_quote": "The goal of the company is not to give you information and then be done.",
+      "source_id": "src_038"
+    },
+    {
+      "statement": "Focus on healthspan, not immortality.",
+      "rationale": "Unlike many in Silicon Valley who want to live forever, the realistic and more important goal is to live a healthy, high-quality life into your 90s or 100s.",
+      "source_quote": "I’m really not a believer in the Silicon Valley world of, like, you should live forever. But I’m a really big believer that you want to die in your 90s or 100s —and you just want to be healthy.",
+      "source_id": "src_038"
+    },
+    {
+      "statement": "Execute on your personal goals regardless of societal norms.",
+      "rationale": "Personal circumstances, such as relationship status, should not dictate your ability to achieve what you want in life, such as having children.",
+      "source_quote": "Whether you’re in a relationship or not should not dictate whether or not you have the ability to have children... When there’s something I want to do, I get it done. I really wanted a third child. So like, guess what? I executed",
+      "source_id": "src_038"
+    },
+    {
+      "statement": "Proving the impact of prevention is harder but more rewarding than developing drugs.",
+      "rationale": "While the pharmaceutical industry easily quantifies the impact of drugs, the medical world has largely given up on preventive health. Successfully quantifying and driving prevention is a massive, worthwhile challenge.",
+      "source_quote": "It’s much easier to quantify the impact of drugs. It’s a much harder problem to quantify the impact of prevention. But I think that’s where mentally I’ll probably be more proud. Because, right now, no one thinks you can do it.",
+      "source_id": "src_038"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Japanese House (Regulatory Compliance)",
+      "description": "A metaphor for entering a highly regulated space. You cannot barge in and operate by your own rules (wearing shoes indoors); you must respect the established authority and customs of the regulators, regardless of your own convictions.",
+      "example": "When 23andMe received a warning letter from the FDA in 2013, Wojcicki realized she had to completely start over and play by their rules to get her health tests cleared, rather than fighting them on her own terms.",
+      "source_id": "src_038"
+    }
+  ],
+  "heuristics": [
+    "When dealing with regulators, it doesn’t matter if you believe you’re right or wrong. You’re wrong."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The medical world has kind of given up on your potential to ever be healthier. I think that’s really sad.",
+      "context": "Discussing why she is willing to gamble on coaching consumers to change their habits based on genetic risks.",
+      "source_id": "src_038"
+    },
+    {
+      "text": "It doesn’t matter if you believe you’re right or wrong. You’re wrong. So we had to start over.",
+      "context": "Reflecting on her initial clash with the FDA and the realization that she had to comply fully with their processes.",
+      "source_id": "src_038"
+    },
+    {
+      "text": "The goal of the company is not to give you information and then be done.",
+      "context": "Explaining that 23andMe wants customers to take action from their DNA results.",
+      "source_id": "src_038"
+    },
+    {
+      "text": "I’m really not a believer in the Silicon Valley world of, like, you should live forever. But I’m a really big believer that you want to die in your 90s or 100s —and you just want to be healthy.",
+      "context": "Contrasting her views on longevity with the broader Silicon Valley culture.",
+      "source_id": "src_038"
+    },
+    {
+      "text": "When there’s something I want to do, I get it done. I really wanted a third child. So like, guess what? I executed",
+      "context": "Discussing her decision to have a third child as a single parent.",
+      "source_id": "src_038"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "The Silicon Valley obsession with immortality and living forever.",
+      "why_it_fails": "It misses the practical and more attainable goal of simply maximizing healthspan—living a healthy life into your 90s or 100s.",
+      "source_id": "src_038"
+    },
+    {
+      "description": "The medical industry's apathy toward preventive care.",
+      "why_it_fails": "The system focuses on maximizing profits through treatments and has effectively given up on a patient's potential to proactively become healthier.",
+      "source_id": "src_038"
+    },
+    {
+      "description": "Fighting regulators based on a personal belief that you are right.",
+      "why_it_fails": "In a regulated environment, the regulator's rules are absolute. Believing you are right does not exempt you from compliance; it only leads to being shut down.",
+      "source_id": "src_038"
+    }
+  ]
+}

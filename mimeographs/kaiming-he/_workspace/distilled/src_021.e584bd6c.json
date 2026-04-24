@@ -1,0 +1,28 @@
+{
+  "source_id": "src_021",
+  "summary": "This source is a third-party mathematical tutorial by Ester Hlav deriving the formulas for 'He Initialization'. While it explains the mechanics of Kaiming He's 2015 paper on initializing ReLU networks, it contains no direct quotes or personal insights from He himself, making it a thin source for extracting his personal thought process.",
+  "themes": [
+    "Weight Initialization",
+    "Neural Network Architecture",
+    "ReLU Activation"
+  ],
+  "principles": [
+    {
+      "statement": "Initialize neural network layers using ReLU activation functions such that the variance of the forward and backward signals remains constant.",
+      "rationale": "Starting the network in a regime with constant variance between inputs and outputs prevents exploding and vanishing gradients, which empirically improves training stability and speed.",
+      "source_quote": null,
+      "source_id": "src_021"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Mismatching the weight initialization method with the choice of activation function.",
+      "why_it_fails": "Different activation functions alter the variance of signals differently (e.g., ReLU's zero negative section reduces variance by a factor of two). Failing to account for this leads to signal gains above or below one, causing exploding or vanishing gradients.",
+      "source_id": "src_021"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "source_id": "src_039",
+  "summary": "Jürgen Schmidhuber introduces 'Upside Down Reinforcement Learning' (UDRL), a paradigm that transforms reinforcement learning into supervised learning. Instead of predicting rewards, UDRL uses desired rewards and time horizons as input commands, mapping them directly to actions based on past experience. He also introduces the 'Imitate-Imitator' concept for teaching robots, drawing parallels to human parents imitating baby babble.",
+  "themes": [
+    "Reinforcement Learning",
+    "Supervised Learning",
+    "Imitation Learning",
+    "Upside Down RL (UDRL)",
+    "Robotics"
+  ],
+  "principles": [
+    {
+      "statement": "Reinforcement learning can be transformed into supervised learning by using rewards as task-defining inputs rather than predicting them.",
+      "rationale": "By treating desired rewards and time horizons as input commands, an agent can learn to map these observations to actions using standard supervised learning on past experience.",
+      "source_quote": "Standard RL predicts rewards, while UDRL instead uses rewards as task-defining inputs, together with representations of time horizons and other computable functions of historic and desired future data.",
+      "source_id": "src_039"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Upside Down Reinforcement Learning (UDRL)",
+      "when_to_apply": "When training an agent to achieve high rewards or specific goals using supervised learning techniques instead of traditional reinforcement learning.",
+      "steps": [
+        "Provide rewards, time horizons, and desired future data as task-defining inputs (commands).",
+        "Use supervised learning on past (possibly accidental) experience to map these input observations to actions.",
+        "Generalize to achieve goals by issuing specific input commands (e.g., 'get lots of reward within at most so much time!')."
+      ],
+      "source_quote": "UDRL learns to interpret these input observations as commands, mapping them to actions (or action probabilities) through SL on past (possibly accidental) experience.",
+      "source_id": "src_039"
+    },
+    {
+      "name": "Imitate-Imitator Concept",
+      "when_to_apply": "When teaching a robot or agent to imitate human behaviors.",
+      "steps": [
+        "Videotape humans imitating the robot's current (possibly random) behaviors.",
+        "Let the robot learn through supervised learning to map the videos (as input commands) to these behaviors.",
+        "Let the robot generalize and imitate videos of humans executing previously unknown behavior."
+      ],
+      "source_quote": "First videotape humans imitating the robot's current behaviors, then let the robot learn through SL to map the videos (as input commands) to these behaviors, then let it generalize and imitate videos of humans executing previously unknown behavior.",
+      "source_id": "src_039"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Rewards as Commands",
+      "description": "Instead of viewing rewards as a scalar value to be maximized through value prediction, view them as explicit input commands that the system learns to satisfy via supervised mapping.",
+      "example": "Giving the agent the input command 'get lots of reward within at most so much time!' to prompt it to execute the corresponding actions.",
+      "source_id": "src_039"
+    },
+    {
+      "name": "Evolutionary Mimicry (Imitate-Imitator)",
+      "description": "A conceptual model for learning imitation where the teacher first imitates the learner's random actions to establish a mapping, which the learner then uses to generalize and imitate the teacher's novel actions.",
+      "example": "Explaining why biological evolution has resulted in parents who imitate the babbling of their babies to help them learn.",
+      "source_id": "src_039"
+    }
+  ],
+  "heuristics": [
+    "Don't predict rewards -- just map them to actions."
+  ],
+  "signature_quotes": [
+    {
+      "text": "We transform reinforcement learning (RL) into a form of supervised learning (SL) by turning traditional RL on its head, calling this Upside Down RL (UDRL).",
+      "context": "Introducing the core concept of Upside Down Reinforcement Learning.",
+      "source_id": "src_039"
+    },
+    {
+      "text": "Standard RL predicts rewards, while UDRL instead uses rewards as task-defining inputs, together with representations of time horizons and other computable functions of historic and desired future data.",
+      "context": "Contrasting traditional RL with UDRL.",
+      "source_id": "src_039"
+    },
+    {
+      "text": "This Imitate-Imitator concept may actually explain why biological evolution has resulted in parents who imitate the babbling of their babies.",
+      "context": "Connecting his robotic imitation learning framework to human evolutionary biology.",
+      "source_id": "src_039"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Predicting rewards as the primary mechanism for reinforcement learning.",
+      "why_it_fails": "It misses the opportunity to simplify the problem into standard supervised learning by treating desired rewards and time horizons as direct input commands.",
+      "source_id": "src_039"
+    }
+  ]
+}

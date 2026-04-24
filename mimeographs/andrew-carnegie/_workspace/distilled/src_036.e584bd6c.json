@@ -1,0 +1,101 @@
+{
+  "source_id": "src_036",
+  "summary": "Andrew Carnegie believed that wealth should be systematically given away during one's lifetime to benefit society, rather than hoarded or passed to heirs. He developed a rigorous approach to 'scientific philanthropy,' focusing his fortune on institutions like libraries and universities that empowered individuals willing to help themselves, while actively avoiding charity that encouraged dependency.",
+  "themes": [
+    "Philanthropy",
+    "Wealth distribution",
+    "Self-improvement",
+    "World peace",
+    "Scientific giving"
+  ],
+  "principles": [
+    {
+      "statement": "Give with warm hands.",
+      "rationale": "Wealth should be distributed while the benefactor is still alive to ensure it is directed purposefully. Leaving money in a will merely indicates the deceased could not take it with them.",
+      "source_quote": "Men who leave vast sums [in their wills] may fairly be thought men who would not have left it at all had they been able to take it with them.",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Help those willing to help themselves.",
+      "rationale": "Philanthropy should provide the tools for self-improvement (like libraries) rather than handouts that encourage laziness or vice.",
+      "source_quote": "It were better for mankind that the millions of the rich were thrown into the sea than so spent as to encourage the slothful, the drunken, the unworthy.",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Do not spoil your heirs with inherited wealth.",
+      "rationale": "Leaving vast fortunes to children is harmful to their character and acts more as a burden than a blessing.",
+      "source_quote": "I should as soon leave to my son a curse as the almighty dollar.",
+      "source_id": "src_036"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Carnegie Library Donation Procedure",
+      "when_to_apply": "When a municipality requests funding to build a public library.",
+      "steps": [
+        "Step One: Make the request in writing to Carnegie's New York home, including the population of the town.",
+        "Step Two: Provide the site, preferably land near the center of town.",
+        "Step Three: Pledge annual spending for maintenance, usually requiring the town to match 10 percent of the gift annually."
+      ],
+      "source_quote": "Ordering a library from Carnegie was as easy as ordering a sofa from the Sears Catalog.",
+      "source_id": "src_036"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Scientific Philanthropy",
+      "description": "A lens for viewing charity not as emotional handouts, but as strategic, structured investments in institutions (like libraries, universities, and hospitals) that yield societal self-improvement and avoid wasteful spending.",
+      "example": "Carnegie refused to give money to individuals, instead funding 2,811 libraries because they appealed to his 'bootstrap sensibility for self-improvement.'",
+      "source_id": "src_036"
+    },
+    {
+      "name": "Cooperation vs. Conflict (Rowing vs. Football)",
+      "description": "Using sports as a metaphor for global relations and human development. Conflict-based sports groom youth for violence, while cooperative sports model peaceful global relations.",
+      "example": "Carnegie funded a $400,000 lake at Princeton so the university could have a rowing crew, specifically to take young men's minds off football, which he felt groomed them for 'violence and deception.'",
+      "source_id": "src_036"
+    }
+  ],
+  "heuristics": [
+    "The man who dies rich dies disgraced.",
+    "Give with warm hands."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The man who dies rich dies disgraced.",
+      "context": "Carnegie's guiding philosophy on wealth and philanthropy.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "Of every thousand dollars spent in so-called charity today, it is probable that nine hundred and fifty dollars is unwisely spent.",
+      "context": "Written in 1889, explaining his need for 'scientific philanthropy.'",
+      "source_id": "src_036"
+    },
+    {
+      "text": "I should as soon leave to my son a curse as the almighty dollar.",
+      "context": "Explaining his belief that inherited wealth spoils heirs.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "It were better for mankind that the millions of the rich were thrown into the sea than so spent as to encourage the slothful, the drunken, the unworthy.",
+      "context": "Explaining why charity must only help those willing to help themselves.",
+      "source_id": "src_036"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Unwise Charity / Handouts",
+      "why_it_fails": "Giving money without requiring effort from the recipient encourages the 'slothful, the drunken, the unworthy' rather than promoting self-improvement.",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Posthumous Giving",
+      "why_it_fails": "Leaving vast sums in a will implies the giver would have kept the money if they could have taken it with them, rather than demonstrating true generosity.",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Inherited Wealth",
+      "why_it_fails": "Passing down massive fortunes spoils the heirs and acts as a 'curse' rather than a benefit.",
+      "source_id": "src_036"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source_id": "src_012",
+  "summary": "Dorret Boomsma discusses the ACTION project, an international collaboration studying the etiology of childhood aggression. She highlights that childhood aggression is highly heritable and rarely occurs in isolation, often presenting alongside conduct disorder, attention problems, and depression. The project aims to combine genetic, epigenetic, and biomarker data into a large integrative model to better understand and eventually treat these complex behaviors.",
+  "themes": [
+    "Childhood aggression",
+    "Behavioral genetics",
+    "Comorbidity",
+    "Biomarkers",
+    "Epigenetics"
+  ],
+  "principles": [
+    {
+      "statement": "Childhood aggression is highly heritable.",
+      "rationale": "Research indicates that differences in aggressive behaviors among children are heavily influenced by their genome.",
+      "source_quote": "differences between children in aggression are to a very large extent heritable that is aggression and aggressive behaviors are influenced by the genome",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Aggression rarely occurs in isolation; it is highly comorbid with other childhood pathologies.",
+      "rationale": "Children exhibiting aggressive problems typically present with other issues such as conduct disorder, attention problems, and depression.",
+      "source_quote": "aggression rarely occurs on its own children with aggressive problems have other problems mainly problems having to do with conduct disorder attention problems with also depression",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Improving treatment for childhood aggression requires a deeper understanding of its underlying causes.",
+      "rationale": "Clinical stakeholders report that aggression is very difficult to treat, highlighting a critical need for foundational knowledge on its etiology.",
+      "source_quote": "it is very hard to treat so we need more knowledge on the causes of aggression",
+      "source_id": "src_012"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Integrative Model of Aggression",
+      "description": "Viewing childhood aggression not through a single biological lens, but by synthesizing genetic variants, epigenetics, and biomarkers into a comprehensive, multi-disciplinary model to understand its etiology.",
+      "example": "The ACTION project's final goal is to finish gene finding, epigenetics, and biomarker work (like urine analysis) and combine them into a single integrative model.",
+      "source_id": "src_012"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "differences between children in aggression are to a very large extent heritable that is aggression and aggressive behaviors are influenced by the genome",
+      "context": "Explaining the first major finding of the ACTION project regarding the etiology of childhood aggression.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "aggression rarely occurs on its own children with aggressive problems have other problems mainly problems having to do with conduct disorder attention problems with also depression",
+      "context": "Discussing the high comorbidity of childhood aggression with other pathologies.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "it is very hard to treat so we need more knowledge on the causes of aggression",
+      "context": "Relaying feedback from psychiatrists and pediatricians about the clinical challenges of childhood aggression.",
+      "source_id": "src_012"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating or studying childhood aggression as an isolated condition.",
+      "why_it_fails": "Aggression is highly comorbid and very often goes hand in hand with other pathologies like conduct disorder, attention problems, and depression.",
+      "source_id": "src_012"
+    }
+  ]
+}

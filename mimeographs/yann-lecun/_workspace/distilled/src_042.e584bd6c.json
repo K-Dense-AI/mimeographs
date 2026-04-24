@@ -1,0 +1,110 @@
+{
+  "source_id": "src_042",
+  "summary": "In this seminal 2015 review, Yann LeCun, Yoshua Bengio, and Geoffrey Hinton outline the foundations and successes of deep learning. They explain how deep neural networks, particularly convolutional and recurrent networks, use backpropagation to automatically learn multiple levels of representation from raw data, replacing traditional hand-engineered features and overcoming historical misconceptions about local minima.",
+  "themes": [
+    "Representation Learning",
+    "Convolutional Neural Networks (ConvNets)",
+    "Backpropagation",
+    "Distributed Representations",
+    "Unsupervised Learning",
+    "Compositionality"
+  ],
+  "principles": [
+    {
+      "statement": "Features should be learned automatically from data, not designed by human engineers.",
+      "rationale": "Constructing pattern-recognition systems traditionally required careful engineering and domain expertise. Deep learning avoids this by using general-purpose learning procedures to automatically discover the representations needed for detection or classification.",
+      "source_quote": "The key aspect of deep learning is that these layers of features are not designed by human engineers: they are learned from data using a general-purpose learning procedure.",
+      "source_id": "src_042"
+    },
+    {
+      "statement": "Deep neural networks exploit the compositional hierarchy of natural signals.",
+      "rationale": "Natural data like images, speech, and text are inherently compositional. Higher-level features can be obtained by composing lower-level ones (e.g., pixels to edges, edges to motifs, motifs to parts, parts to objects).",
+      "source_quote": "Deep neural networks exploit the property that many natural signals are compositional hierarchies, in which higher-level features are obtained by composing lower-level ones.",
+      "source_id": "src_042"
+    },
+    {
+      "statement": "Unsupervised learning will ultimately become far more important than supervised learning.",
+      "rationale": "Human and animal learning is largely unsupervised. We learn the structure of the world primarily by observing it, rather than being explicitly told the name of every object we see.",
+      "source_quote": "We expect unsupervised learning to become far more important in the longer term. Human and animal learning is largely unsupervised: we discover the structure of the world by observing it, not by being told the name of every object.",
+      "source_id": "src_042"
+    },
+    {
+      "statement": "Everyday reasoning is better modeled by intuitive neural inference than by logic-inspired symbol manipulation.",
+      "rationale": "Logic-inspired paradigms treat symbols as atomic units with no internal structure. Neural networks use large activity vectors and non-linearities to perform fast, intuitive inference that relies on simultaneous analogies.",
+      "source_quote": "Neural networks just use big activity vectors, big weight matrices and scalar non-linearities to perform the type of fast ‘intuitive’ inference that underpins effortless commonsense reasoning.",
+      "source_id": "src_042"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Convolutional Neural Networks (ConvNets)",
+      "when_to_apply": "When processing data that comes in the form of multiple arrays with local correlations and location-invariant statistics (e.g., 1D sequences, 2D images, 3D video).",
+      "steps": [
+        "Apply convolutional layers where units are connected to local patches of the previous layer to detect local conjunctions of features.",
+        "Share weights across all units in a feature map to detect the same pattern in different parts of the array.",
+        "Pass the result of the local weighted sum through a non-linearity such as a Rectified Linear Unit (ReLU).",
+        "Apply pooling layers to compute the maximum of a local patch, merging semantically similar features and creating invariance to small shifts.",
+        "Stack multiple stages of convolution, non-linearity, and pooling to build a compositional hierarchy."
+      ],
+      "source_quote": "There are four key ideas behind ConvNets that take advantage of the properties of natural signals: local connections, shared weights, pooling and the use of many layers.",
+      "source_id": "src_042"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Objective Function Landscape",
+      "description": "Visualizing the error of a machine learning model as a high-dimensional hilly landscape. Learning is the process of taking steps in the direction of steepest descent (the negative gradient) to find a minimum where the output error is low.",
+      "example": "Using stochastic gradient descent (SGD) to compute a noisy estimate of the average gradient and adjusting the network's weights in the opposite direction to move down the landscape.",
+      "source_id": "src_042"
+    },
+    {
+      "name": "Distributed Representations",
+      "description": "Viewing data (like words or concepts) not as atomic, mutually exclusive symbols, but as dense vectors of continuous features. This allows the system to naturally group semantically similar items and generalize to new combinations.",
+      "example": "Training a neural language model where the learned word vectors for 'Tuesday' and 'Wednesday' end up very similar in the vector space because they share semantic features.",
+      "source_id": "src_042"
+    }
+  ],
+  "heuristics": [
+    "Use Rectified Linear Units (ReLUs) instead of sigmoids to learn much faster in networks with many layers.",
+    "Use stochastic gradient descent (SGD) with small sets of examples to find a good set of weights surprisingly quickly compared to elaborate optimization techniques."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The key aspect of deep learning is that these layers of features are not designed by human engineers: they are learned from data using a general-purpose learning procedure.",
+      "context": "Explaining the fundamental shift from hand-engineered features to representation learning.",
+      "source_id": "src_042"
+    },
+    {
+      "text": "We expect unsupervised learning to become far more important in the longer term. Human and animal learning is largely unsupervised: we discover the structure of the world by observing it, not by being told the name of every object.",
+      "context": "Predicting the future trajectory of deep learning research.",
+      "source_id": "src_042"
+    },
+    {
+      "text": "Ultimately, major progress in artificial intelligence will come about through systems that combine representation learning with complex reasoning.",
+      "context": "Concluding thoughts on the future of AI.",
+      "source_id": "src_042"
+    },
+    {
+      "text": "Neural networks just use big activity vectors, big weight matrices and scalar non-linearities to perform the type of fast ‘intuitive’ inference that underpins effortless commonsense reasoning.",
+      "context": "Contrasting neural networks with logic-inspired symbolic paradigms.",
+      "source_id": "src_042"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Fearing that gradient descent will get trapped in poor local minima in large neural networks.",
+      "why_it_fails": "In large networks, the landscape is packed with a combinatorially large number of saddle points, not local minima. Almost all local minima that do exist have very similar, acceptable values of the objective function.",
+      "source_id": "src_042"
+    },
+    {
+      "description": "Relying on hand-designed feature extractors for pattern recognition.",
+      "why_it_fails": "It requires a considerable amount of engineering skill and domain expertise, and shallow classifiers operating on these features struggle to solve the selectivity-invariance dilemma for complex natural data.",
+      "source_id": "src_042"
+    },
+    {
+      "description": "Using N-grams or logic-inspired paradigms that treat words/symbols as atomic units.",
+      "why_it_fails": "Atomic symbols have no internal structure, making it impossible to generalize across semantically related sequences of words without requiring impossibly large training corpora.",
+      "source_id": "src_042"
+    }
+  ]
+}

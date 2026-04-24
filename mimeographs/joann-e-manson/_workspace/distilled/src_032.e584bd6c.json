@@ -1,0 +1,73 @@
+{
+  "source_id": "src_032",
+  "summary": "A textbook excerpt by JoAnn E. Manson and Shari S. Bassuk defining menopause and perimenopause, detailing the physiological hormone fluctuations during the menopausal transition, and outlining diagnostic approaches, notably emphasizing clinical symptoms over biomarkers.",
+  "themes": [
+    "Menopause",
+    "Perimenopause",
+    "Reproductive Aging",
+    "Hormone Therapy",
+    "Endocrinology"
+  ],
+  "principles": [
+    {
+      "statement": "The clinical management of perimenopause and postmenopause must be differentiated despite their shared symptoms.",
+      "rationale": "Perimenopause involves fluctuating, sometimes hyperestrogenic hormone levels best managed by low-dose oral contraceptives, whereas postmenopause involves consistent hormone depletion managed by postmenopausal hormone therapy.",
+      "source_quote": "Although the peri- and postmenopausal transitions share many symptoms, the physiology and clinical management of the two differ. Low-dose oral contraceptives have become a therapeutic mainstay in perimenopause, whereas postmenopausal hormone therapy (HT) has been a common method of symptom alleviation after menstruation ceases.",
+      "source_id": "src_032"
+    },
+    {
+      "statement": "Menstrual cycle characteristics should be the primary criteria for characterizing the menopausal transition, not biomarkers.",
+      "rationale": "Hormone levels like FSH and estradiol fluctuate wildly during perimenopause, making them unreliable as standalone diagnostic indicators in menstruating women.",
+      "source_quote": "...menstrual cycle characteristics are the principal criteria for characterizing the menopausal transition, with biomarker measures as supportive criteria. Because of their extreme intraindividual variability, FSH and estradiol levels are imperfect diagnostic indicators of perimenopause in menstruating women.",
+      "source_id": "src_032"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "STRAW+10 (Stages of Reproductive Aging Workshop +10) Classification",
+      "when_to_apply": "When conducting a clinical assessment of ovarian aging and characterizing the menopausal transition.",
+      "steps": [
+        "Use menstrual cycle characteristics as the principal criteria for characterizing the transition.",
+        "Use biomarker measures (like FSH and estradiol) only as supportive criteria due to their high variability."
+      ],
+      "source_quote": "The Stages of Reproductive Aging Workshop +10 (STRAW+10) classification provides a comprehensive framework for the clinical assessment of ovarian aging.",
+      "source_id": "src_032"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "\"Irregularly irregular\" hormone levels",
+      "description": "A lens for understanding perimenopause not as a steady decline in hormones, but as a chaotic, fluctuating state that contrasts with the stable low-estrogen/high-FSH state of actual menopause.",
+      "example": "Recognizing that the propensity for anovulatory cycles during perimenopause can actually produce a hyperestrogenic, hypoprogestagenic environment, increasing the risk of endometrial hyperplasia or polyps.",
+      "source_id": "src_032"
+    }
+  ],
+  "heuristics": [
+    "Menopause is diagnosed retrospectively after 12 months of amenorrhea.",
+    "Smoking accelerates the menopausal transition by 2 years."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Although the peri- and postmenopausal transitions share many symptoms, the physiology and clinical management of the two differ.",
+      "context": "Distinguishing the therapeutic approaches for perimenopause versus postmenopause.",
+      "source_id": "src_032"
+    },
+    {
+      "text": "In contrast to the consistently high FSH and low estradiol levels seen in menopause, perimenopause is characterized by “irregularly irregular” hormone levels.",
+      "context": "Describing the physiological hormone fluctuations during the menopausal transition.",
+      "source_id": "src_032"
+    },
+    {
+      "text": "Because of their extreme intraindividual variability, FSH and estradiol levels are imperfect diagnostic indicators of perimenopause in menstruating women.",
+      "context": "Explaining why biomarkers are only supportive criteria in the STRAW+10 classification.",
+      "source_id": "src_032"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying primarily on FSH and estradiol levels to diagnose perimenopause in menstruating women.",
+      "why_it_fails": "These hormones exhibit extreme intraindividual variability during the menopausal transition, making them imperfect diagnostic indicators compared to menstrual cycle characteristics.",
+      "source_id": "src_032"
+    }
+  ]
+}

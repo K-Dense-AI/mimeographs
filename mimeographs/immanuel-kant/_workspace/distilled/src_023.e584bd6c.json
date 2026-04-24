@@ -1,0 +1,85 @@
+{
+  "source_id": "src_023",
+  "summary": "The source is the introductory material to Werner S. Pluhar's translation of Immanuel Kant's Critique of Judgment. It outlines Kant's critical philosophy, detailing his resolution of the antinomies of reason, his theory of aesthetic and teleological judgments, and his epistemological breakthrough regarding synthetic a priori knowledge.",
+  "themes": [
+    "Aesthetics",
+    "Teleology",
+    "Epistemology",
+    "Synthetic A Priori",
+    "Critical Philosophy"
+  ],
+  "principles": [
+    {
+      "statement": "Metaphysics is impossible without a prior critique of our cognitive powers.",
+      "rationale": "Affirming or denying metaphysical truths without first examining the limits of human reason leads to sheer dogmatism.",
+      "source_quote": "Without such prior critique of our cognitive powers, Kant maintains, either affirming or denying the possibility of metaphysics is sheer dogmatism",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Space and time are forms of human intuition, not properties of things in themselves.",
+      "rationale": "This is the only way to explain how synthetic a priori propositions, like those in geometry, can be necessarily true of the experienced world.",
+      "source_quote": "space must be a form of our intuition: we experience the world in terms of space, we structure it in terms of space, by contributing space to experience.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Judgments of taste claim universal validity despite being based on subjective feeling.",
+      "rationale": "When we call an object beautiful, we speak as if beauty were a property of the object, implying others should agree, which is grounded in nature's subjective purposiveness.",
+      "source_quote": "in using the adjective 'beautiful' we talk as if beauty were some sort of property of the thing, and hence we imply that other people, too, should see that \"property\" and hence should agree with our judgment",
+      "source_id": "src_023"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Critique of Reason",
+      "when_to_apply": "When attempting to discover a priori truths about the world, such as in metaphysics.",
+      "steps": [
+        "Examine the scope and limits of our cognitive powers.",
+        "Identify the a priori forms of intuition (space and time) and categories of understanding.",
+        "Restrict the application of these a priori concepts strictly to the phenomenal world (appearances), denying their application to things in themselves."
+      ],
+      "source_quote": "'Critique,' in Kant's sense of the term, consists in examining the scope and limits of our cognitive powers... in order to decide to what extent, if any, metaphysics is possible for us human beings.",
+      "source_id": "src_023"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Phenomena vs. Things in Themselves (Noumena)",
+      "description": "The distinction between the world as it appears to us (structured by our forms of intuition and categories of understanding) and the indeterminate world as it exists independently of our perception.",
+      "example": "Geometry describes the spatial relations of the phenomenal world necessarily, but tells us nothing about the world as it is in itself.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "Purposiveness (Zweckmäßigkeit)",
+      "description": "Regarding an object or state of affairs as if it were the effect brought about by a cause through a concept or intention of that object.",
+      "example": "Judging a nightingale as a natural purpose, as if it were produced by a cause that had the concept of a nightingale.",
+      "source_id": "src_023"
+    }
+  ],
+  "heuristics": [
+    "To justify the principle implicit in our judgments, we must trace the claim to the necessary principles of our mental activity."
+  ],
+  "signature_quotes": [
+    {
+      "text": "How are synthetic judgments possible a priori?",
+      "context": "Kant's central question in the Critique of Pure Reason regarding how we can know necessary truths about the world that are not merely derived from logic.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "awakened him from his 'dogmatic slumber.'",
+      "context": "Kant describing the effect David Hume's empiricism had on his early rationalist assumptions.",
+      "source_id": "src_023"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Dogmatic Rationalism (e.g., Leibniz and Wolff)",
+      "why_it_fails": "It assumes reason can know the world a priori through logic alone, which inevitably leads reason into inescapable antinomies (contradictory but provable propositions).",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Dogmatic Empiricism / Skepticism (e.g., Hume)",
+      "why_it_fails": "It assumes all knowledge of the world is contingent and denies the possibility of synthetic a priori truths, failing to account for the undeniable necessity found in mathematics and Newtonian physics.",
+      "source_id": "src_023"
+    }
+  ]
+}

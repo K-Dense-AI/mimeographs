@@ -1,0 +1,90 @@
+{
+  "source_id": "src_044",
+  "summary": "Christopher Manning addresses the rise of deep learning in computational linguistics, arguing that NLP researchers should not feel threatened. He emphasizes that NLP is fundamentally a domain science focused on language problems, not just machine learning methods. He advocates for a return to cognitive and scientific investigations of language—such as compositionality and noncategorical representations—rather than merely chasing state-of-the-art benchmark numbers.",
+  "themes": [
+    "Deep Learning",
+    "Natural Language Processing",
+    "Compositionality",
+    "Cognitive Science",
+    "Linguistics",
+    "Distributed Representations"
+  ],
+  "principles": [
+    {
+      "statement": "NLP is the domain science of language technology, not just an application of machine learning.",
+      "rationale": "Machine learning is not generic heavy lifting; it requires design. NLP researchers are the designers who understand the central domain problems, which will not go away regardless of the underlying ML method.",
+      "source_quote": "Our field is the domain science of language technology; it’s not about the best method of machine learning—the central issue remains the domain problems.",
+      "source_id": "src_044"
+    },
+    {
+      "statement": "Intelligence and language understanding require compositionality.",
+      "rationale": "To understand novel and complex sentences, systems must be able to construct meaning from smaller parts, like words and multi-word expressions, rather than just relying on flat distributed representations.",
+      "source_quote": "Intelligence requires being able to understand bigger things from knowing about smaller parts. In particular for language, understanding novel and complex sentences crucially depends on being able to construct their meaning compositionally from smaller parts",
+      "source_id": "src_044"
+    },
+    {
+      "statement": "NLP research should balance engineering with cognitive and scientific investigation.",
+      "rationale": "Focusing exclusively on an engineering model of research ignores the rich details of human language, how it is learned, processed, and how it changes over time.",
+      "source_quote": "It would be good to return some emphasis within NLP to cognitive and scientific investigation of language rather than almost exclusively using an engineering model of research.",
+      "source_id": "src_044"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Language as a Continuum (Noncategorical Behavior)",
+      "description": "The lens that grammatical categories and word meanings do not always have sharp, discrete boundaries, but exist along a continuum or 'squish'.",
+      "example": "The V-ing form (gerunds) acting as both noun and verb simultaneously (e.g., taking a determiner and a direct object at the same time), or the evolution of 'kind of' from a noun phrase to a hedging adverbial modifier.",
+      "source_id": "src_044"
+    },
+    {
+      "name": "Machine Learning as Design",
+      "description": "Viewing machine learning not as commoditized coding or 'undifferentiated heavy lifting', but as a design discipline where domain experts craft architectures and representations tailored to specific problems.",
+      "example": "Developing Universal Dependencies or Abstract Meaning Representations to create common syntactic and semantic structures that work across human languages.",
+      "source_id": "src_044"
+    }
+  ],
+  "heuristics": [
+    "Focus on problems, approaches, and architectures over chasing benchmark numbers.",
+    "Build meaning composition functions, not just distributed word representations."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Our field is the domain science of language technology; it’s not about the best method of machine learning—the central issue remains the domain problems.",
+      "context": "Arguing why computational linguists do not need to worry about deep learning making their field obsolete.",
+      "source_id": "src_044"
+    },
+    {
+      "text": "Recently at ACL conferences, there has been an over-focus on numbers, on beating the state of the art. Call it playing the Kaggle game.",
+      "context": "Criticizing the trend of prioritizing incremental benchmark improvements over fundamental architectural and linguistic design.",
+      "source_id": "src_044"
+    },
+    {
+      "text": "Intelligence requires being able to understand bigger things from knowing about smaller parts.",
+      "context": "Advocating for a focus on compositionality in models for language and artificial intelligence.",
+      "source_id": "src_044"
+    },
+    {
+      "text": "I encourage everyone to think about problems, architectures, cognitive science, and the details of human language, how it is learned, processed, and how it changes, rather than just chasing state-of-the-art numbers on a benchmark task.",
+      "context": "Concluding advice to the NLP community on where to direct their research efforts.",
+      "source_id": "src_044"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Playing the 'Kaggle game' by over-focusing on numbers and beating the state of the art.",
+      "why_it_fails": "It distracts the field from solving actual domain problems, developing new architectures, and understanding the cognitive and scientific details of human language.",
+      "source_id": "src_044"
+    },
+    {
+      "description": "Treating machine learning as 'generic' or 'undifferentiated heavy lifting'.",
+      "why_it_fails": "Machine learning is closer to design than coding; without domain expertise to design the right architectures and representations, generic approaches fall short on complex structured problems.",
+      "source_id": "src_044"
+    },
+    {
+      "description": "Using word vectors merely to make performance go up a couple of percent.",
+      "why_it_fails": "It ignores the deeper scientific and cognitive questions that motivated noncategorical representations in the first place, leaving fundamental linguistic phenomena unexplored.",
+      "source_id": "src_044"
+    }
+  ]
+}

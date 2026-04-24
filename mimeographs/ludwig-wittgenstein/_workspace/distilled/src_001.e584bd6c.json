@@ -1,0 +1,107 @@
+{
+  "source_id": "src_001",
+  "summary": "In this foundational text of logical atomism, Ludwig Wittgenstein argues that the world consists of facts rather than things, and that language serves as a logical picture of these facts. He asserts that the limits of language define the limits of thought, concluding that whatever can be said can be said clearly, while everything else must be passed over in silence.",
+  "themes": [
+    "Logical Atomism",
+    "Picture Theory of Language",
+    "Limits of Language",
+    "The Nature of Reality",
+    "Philosophy as Logical Clarification"
+  ],
+  "principles": [
+    {
+      "statement": "The world is the totality of facts, not of things.",
+      "rationale": "Reality is determined by what is the case—the existence and non-existence of atomic facts—rather than just a collection of isolated objects. Objects only exist in configuration with one another.",
+      "source_quote": "The world is the totality of facts, not of things.",
+      "source_id": "src_001"
+    },
+    {
+      "statement": "Language and thought are logical pictures of facts.",
+      "rationale": "To represent reality, a proposition or thought must share a logical form with the reality it depicts, acting as a model or scale applied to reality.",
+      "source_quote": "We make to ourselves pictures of facts.",
+      "source_id": "src_001"
+    },
+    {
+      "statement": "Truth or falsity requires comparison with reality.",
+      "rationale": "A picture or proposition cannot be known to be true intrinsically just by examining it; it must be measured against the actual facts of the world.",
+      "source_quote": "In order to discover whether the picture is true or false we must compare it with reality.",
+      "source_id": "src_001"
+    },
+    {
+      "statement": "The limits of language are the limits of thought.",
+      "rationale": "To draw a limit to thought, one would have to be able to think what cannot be thought. Therefore, limits can only be drawn in language, and what lies beyond is simply nonsense.",
+      "source_quote": "The limit can, therefore, only be drawn in language and what lies on the other side of the limit will be simply nonsense.",
+      "source_id": "src_001"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Verification of Logical Pictures",
+      "when_to_apply": "When evaluating whether a proposition, thought, or logical picture is true or false.",
+      "steps": [
+        "Identify the logical picture or proposition being presented.",
+        "Observe the actual reality and the existence or non-existence of the atomic facts it depicts.",
+        "Compare the picture with reality to determine if they agree or disagree."
+      ],
+      "source_quote": "In order to discover whether the picture is true or false we must compare it with reality.",
+      "source_id": "src_001"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Picture Theory of Language",
+      "description": "Language functions like a geometric projection or a model. Words and propositions are elements that map to objects and facts in reality, sharing the same logical structure. Just as a spatial picture represents spatial objects, a logical picture represents the logical form of reality.",
+      "example": "A gramophone record, a musical score, and sound waves all share a pictorial internal relation and logical structure, allowing one to represent the other.",
+      "source_id": "src_001"
+    },
+    {
+      "name": "Logical Space",
+      "description": "Objects and facts exist within a realm of all possible configurations. An object cannot be conceived outside the possibility of its connection with other things in this space.",
+      "example": "A speck in a visual field need not be red, but it must have a color; it has a 'color space' around it. A tone must have a pitch.",
+      "source_id": "src_001"
+    }
+  ],
+  "heuristics": [
+    "What can be said at all can be said clearly; and whereof one cannot speak thereof one must be silent.",
+    "It cannot be discovered from the picture alone whether it is true or false."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The world is everything that is the case.",
+      "context": "The opening proposition of the Tractatus, defining reality.",
+      "source_id": "src_001"
+    },
+    {
+      "text": "The world is the totality of facts, not of things.",
+      "context": "Clarifying that reality is about the configuration of objects, not just the objects themselves.",
+      "source_id": "src_001"
+    },
+    {
+      "text": "What can be said at all can be said clearly; and whereof one cannot speak thereof one must be silent.",
+      "context": "From the Preface, summarizing the entire meaning of the book.",
+      "source_id": "src_001"
+    },
+    {
+      "text": "We make to ourselves pictures of facts.",
+      "context": "Introducing the Picture Theory of Language.",
+      "source_id": "src_001"
+    },
+    {
+      "text": "In logic nothing is accidental: if a thing can occur in an atomic fact the possibility of that atomic fact must already be prejudged in the thing.",
+      "context": "Explaining the inherent nature and possibilities of objects.",
+      "source_id": "src_001"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Attempting to use language to express its own logical form or things outside the bounds of logical facts.",
+      "why_it_fails": "A picture can represent reality, but it cannot represent its own form of representation; it can only show it. Trying to say what can only be shown results in senseless propositions or nonsense.",
+      "source_id": "src_001"
+    },
+    {
+      "description": "Treating the world as a mere collection of isolated objects or things.",
+      "why_it_fails": "Objects only have meaning and reality in their combination into atomic facts. The world is determined by facts, and by them being all the facts, not by a list of independent things.",
+      "source_id": "src_001"
+    }
+  ]
+}

@@ -1,0 +1,480 @@
+{
+  "total": 36,
+  "verified": 32,
+  "unverified": [
+    {
+      "category": "frameworks",
+      "label": "Rapid Product Feedback Hierarchy",
+      "quote": "The fastest tactic for getting feedback is look at the product yourself and just go by your gut... little bit slower is ask three to 10 strangers you know for feedback.",
+      "source_ids": [
+        "src_021",
+        "src_014"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6845238095238095
+    },
+    {
+      "category": "frameworks",
+      "label": "Corporate AI Innovation Process",
+      "quote": "I'll walk through this five steps... executive training on AI technology... brainstorm what are the AI application opportunities... diligence on Project feasibility... prioritization exercise kind of a build versus buy versus you know invest decision... AI strategy as well as you know Workforce training",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.3717105263157895
+    },
+    {
+      "category": "mental_models",
+      "label": "Linear Typing vs. Agentic Workflow",
+      "quote": "we end up with this iterative workflow where your model does some thinking and some research does some revision goes back to do more thinking",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6453900709219859
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AI is amazing and highly limited",
+      "quote": "The tricky thing about AI is that it is amazing and it is also highly limited. And understanding that balance of how amazing and how limited it is, that’s difficult.",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6484848484848484
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "Govern AI applications, not AI technology",
+      "quote": "we should be focus on governing the applications because risks depend much more on the application not on the technology.",
+      "source_ids": [
+        "src_013",
+        "src_021",
+        "src_052",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.859504132231405
+    },
+    {
+      "category": "principles",
+      "label": "Everyone should learn to code in the AI era",
+      "quote": "Some senior business leaders were recently advising others to not learn to code on the grounds that AI will automate coding. We’ll look back on that as some of the worst career advice ever given.",
+      "source_ids": [
+        "src_021",
+        "src_014",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 0.9435897435897436
+    },
+    {
+      "category": "principles",
+      "label": "AI automates tasks, not jobs",
+      "quote": "from a business perspective I find it more useful to think of AI as timating tasks rather than jobs because jobs are made out of many tasks",
+      "source_ids": [
+        "src_013",
+        "src_052"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "The application layer must generate the most value",
+      "quote": "we need the applications to generate even even more Revenue so that they can afford to pay the technology layers underneath them",
+      "source_ids": [
+        "src_013",
+        "src_052"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Drive the cost of proof-of-concepts to zero",
+      "quote": "I would rather focus on driving the cost of those 18 proof of concepts towards zero. And this is becoming a new mechanism for teams to invent.",
+      "source_ids": [
+        "src_014",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Technology that unlocks creativity creates jobs",
+      "quote": "Whenever technology unlocks human creativity, it creates far more jobs than it destroys.",
+      "source_ids": [
+        "src_009",
+        "src_052"
+      ],
+      "verified": true,
+      "matched_source_id": "src_009",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "In times of uncertainty, build on stable foundations",
+      "quote": "In times of economic and technological uncertainty, build on things that tend to remain stable. Community and skills are likely to weather shifts in business and society.",
+      "source_ids": [
+        "src_002",
+        "src_009"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "AI-native software development requires generalists",
+      "quote": "As AI accelerates software development, teammates must play a wider variey of roles AI-native software engineering teams operate very differently than traditional teams.",
+      "source_ids": [
+        "src_002",
+        "src_009"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Fast feedback loops are critical for iteration",
+      "quote": "Their feedback loop -- waiting ~6 months for feedback each time -- was painfully slow. We wanted to see if an agentic workflow can help researchers iterate faster.",
+      "source_ids": [
+        "src_049",
+        "src_014"
+      ],
+      "verified": true,
+      "matched_source_id": "src_049",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Scaling data and compute drives performance",
+      "quote": "Using Google's compute infrastructure, we started by proving that scaling up data and compute leads to huge performance improvements",
+      "source_ids": [
+        "src_008"
+      ],
+      "verified": true,
+      "matched_source_id": "src_008",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Apply a data-centric approach to ML",
+      "quote": "Apply “data-centric AI” to not only tune your model but tune your data (using data synthesis or data augmentation) to improve your model’s performance.",
+      "source_ids": [
+        "src_028"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Agentic Workflow Iteration",
+      "quote": "we end up with this iterative workflow where your model does some thinking and some research does some revision goes back to do more thinking and by going around this loop many times.",
+      "source_ids": [
+        "src_021",
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Task-Based Automation Analysis",
+      "quote": "break jobs down into tasks, then usually there can often be a subset of tasks. There's some that are amenable to AI automation and that recipe is helping a lot of businesses create value",
+      "source_ids": [
+        "src_052",
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_052",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Rapid Product Feedback Hierarchy",
+      "quote": "The fastest tactic for getting feedback is look at the product yourself and just go by your gut... little bit slower is ask three to 10 strangers you know for feedback.",
+      "source_ids": [
+        "src_021",
+        "src_014"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6845238095238095
+    },
+    {
+      "category": "frameworks",
+      "label": "Corporate AI Innovation Process",
+      "quote": "I'll walk through this five steps... executive training on AI technology... brainstorm what are the AI application opportunities... diligence on Project feasibility... prioritization exercise kind of a build versus buy versus you know invest decision... AI strategy as well as you know Workforce training",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.3717105263157895
+    },
+    {
+      "category": "mental_models",
+      "label": "The Electric Motor Analogy",
+      "quote": "AI is neither safe nor unsafe. It is how you apply it that makes it safe or unsafe.",
+      "source_ids": [
+        "src_013",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The 'Star Trek' Interface",
+      "quote": "I think people underestimate how big voice AI will get. If you look at “Star Trek” movies, no one envisioned everyone typing on the keyboard, right?",
+      "source_ids": [
+        "src_016",
+        "src_002",
+        "src_009"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Linear Typing vs. Agentic Workflow",
+      "quote": "we end up with this iterative workflow where your model does some thinking and some research does some revision goes back to do more thinking",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6453900709219859
+    },
+    {
+      "category": "mental_models",
+      "label": "The AI Stack",
+      "quote": "it turns out the only way for the technology suppliers to be successful is if the application builders are even more successful.",
+      "source_ids": [
+        "src_021",
+        "src_052"
+      ],
+      "verified": true,
+      "matched_source_id": "src_052",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Training vs. Inference Dichotomy",
+      "quote": "Inference demand is massive, and I’m very confident inference demand will continue to grow.",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Build on stable foundations in uncertain times",
+      "quote": "In times of economic and technological uncertainty, build on things that tend to remain stable. Community and skills are likely to weather shifts in business and society.",
+      "source_ids": [
+        "src_002",
+        "src_009"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Move fast and be responsible",
+      "quote": "I think the Mantra is move fast and be responsible.",
+      "source_ids": [
+        "src_013",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.9803921568627451
+    },
+    {
+      "category": "heuristics",
+      "label": "Build 20 prototypes, let 18 die",
+      "quote": "I would rather focus on driving the cost of those 18 proof of concepts towards zero.",
+      "source_ids": [
+        "src_014"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Write insecure code for local prototypes",
+      "quote": "I routinely go to my team and say, 'Go ahead, write insecure code.' Because if this software is only going to run on your laptop and you don't plan to maliciously hack your own laptop, it's fine.",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 0.9846153846153847
+    },
+    {
+      "category": "heuristics",
+      "label": "Use agents for slow feedback loops",
+      "quote": "Their feedback loop -- waiting ~6 months for feedback each time -- was painfully slow. We wanted to see if an agentic workflow can help researchers iterate faster.",
+      "source_ids": [
+        "src_049"
+      ],
+      "verified": true,
+      "matched_source_id": "src_049",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AI is the new electricity",
+      "quote": "AI is the new electricity because I think AI like electricity is a general purpose technology meaning it has a lot of use cases",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Automating tasks, not jobs",
+      "quote": "I think of AI as automating tasks rather than jobs.",
+      "source_ids": [
+        "src_052",
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_052",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AI is neither safe nor unsafe",
+      "quote": "AI is neither safe nor unsafe. It is how you apply it that makes it safe or unsafe.",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Worst career advice ever given",
+      "quote": "Some senior business leaders were recently advising others to not learn to code on the grounds that AI will automate coding. We’ll look back on that as some of the worst career advice ever given.",
+      "source_ids": [
+        "src_016",
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 0.9435897435897436
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Build on stable foundations",
+      "quote": "In times of economic and technological uncertainty, build on things that tend to remain stable. Community and skills are likely to weather shifts in business and society.",
+      "source_ids": [
+        "src_002",
+        "src_009"
+      ],
+      "verified": true,
+      "matched_source_id": "src_002",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Concrete vs Vague ideas",
+      "quote": "When you're vague, you're almost always right. But when you're concrete, you may be right or wrong. Either way is fine. We can discover that much more fast.",
+      "source_ids": [
+        "src_021"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 0.9743589743589743
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AI is amazing and highly limited",
+      "quote": "The tricky thing about AI is that it is amazing and it is also highly limited. And understanding that balance of how amazing and how limited it is, that’s difficult.",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6484848484848484
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Technology unlocks creativity",
+      "quote": "Whenever technology unlocks human creativity, it creates far more jobs than it destroys.",
+      "source_ids": [
+        "src_009"
+      ],
+      "verified": true,
+      "matched_source_id": "src_009",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Spreading AI doomerism and anti-AI propaganda",
+      "quote": "Right. As AI has taken off, we our community convinced people not to trust AI.",
+      "source_ids": [
+        "src_002",
+        "src_009",
+        "src_021",
+        "src_014",
+        "src_052"
+      ],
+      "verified": true,
+      "matched_source_id": "src_014",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Regulating base AI technology instead of applications",
+      "quote": "The biggest danger to that concentration is regulatory capture.",
+      "source_ids": [
+        "src_013",
+        "src_052",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_052",
+      "match_ratio": 0.9841269841269841
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Advising people not to learn to code",
+      "quote": "I think we'll look back on this as some of the worst career advice ever given because as better tools make software engineing easier, more people should do it, not fewer.",
+      "source_ids": [
+        "src_021",
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_021",
+      "match_ratio": 1.0
+    }
+  ]
+}

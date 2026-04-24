@@ -1,0 +1,120 @@
+{
+  "source_id": "src_036",
+  "summary": "This encyclopedia entry details René Descartes' philosophical and scientific method, tracing its origins in the 'Rules for the Direction of the Mind' and 'Discourse on Method'. It explains his core operations of intuition, deduction, and enumeration, and demonstrates how he applied these frameworks alongside physical models and experiments to solve complex problems in optics and meteorology.",
+  "themes": [
+    "Epistemology",
+    "Scientific Method",
+    "Rationalism",
+    "Optics",
+    "Deductive Reasoning"
+  ],
+  "principles": [
+    {
+      "statement": "Reject all merely probable cognition and believe only what is perfectly known and incapable of being doubted.",
+      "rationale": "True science must be defined as 'certain and evident cognition'. Accepting probabilities leaves room for doubt and error.",
+      "source_quote": "we reject all […] merely probable cognition and resolve to believe only what is perfectly known and incapable of being doubted",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "All human knowledge consists in distinctly perceiving how simple natures combine to form complex things.",
+      "rationale": "Simple natures are the self-evident 'atoms' of knowledge. By understanding these foundational elements, we can deduce the nature of all other complex phenomena.",
+      "source_quote": "the whole of human knowledge consists uniquely in our achieving a distinct perception of how all these simple natures contribute to the composition of other things.",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Use experiments to deduce specific causes from observed effects when general principles are too broad.",
+      "rationale": "Because the laws of nature are simple and general, they can explain a single effect in many different ways. Experiments are required to isolate which specific cause is actually responsible.",
+      "source_quote": "I know no other means to discover this than by seeking further observations whose outcomes vary according to which of these ways provides the correct explanation",
+      "source_id": "src_036"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Four Rules of Method",
+      "when_to_apply": "When seeking truth in the sciences or attempting to resolve complex difficulties.",
+      "steps": [
+        "Never accept anything as true without evident knowledge of its truth, avoiding precipitate conclusions.",
+        "Divide each difficulty into as many parts as possible and as required to resolve them.",
+        "Direct thoughts in an orderly manner, beginning with the simplest objects and ascending step by step to the most complex.",
+        "Make enumerations so complete and reviews so comprehensive that nothing is left out."
+      ],
+      "source_quote": "The first was never to accept anything as true if I did not have evident knowledge of its truth: that is, carefully to avoid precipitate conclusions and preconceptions...",
+      "source_id": "src_036"
+    },
+    {
+      "name": "Method of Discovery (Rules)",
+      "when_to_apply": "When tackling complex, imperfectly understood problems in natural philosophy and metaphysics.",
+      "steps": [
+        "Reduce complicated and obscure propositions step by step to simpler ones (Enumeration).",
+        "Solve the simplest problem of all by means of direct intuition.",
+        "Ascend through the same steps to deduce the knowledge of all the rest."
+      ],
+      "source_quote": "We shall be following this method exactly if we first reduce complicated and obscure propositions step by step to simpler ones, and then, starting with the intuition of the simplest ones of all, try to ascend through the same steps to a knowledge of all the rest.",
+      "source_id": "src_036"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Blind Man's Stick",
+      "description": "An analogy used to explain the instantaneous transmission of light through a medium without requiring the actual transfer of matter.",
+      "example": "Descartes compares light to the movement or resistance a blind man feels through his stick. Just as the pressure from an object is instantly communicated to the man's hand via the stick, light is an instantaneous pressure transmitted from a luminous object to the eye through the air.",
+      "source_id": "src_036"
+    },
+    {
+      "name": "The Wine-Vat",
+      "description": "A model used to distinguish between actual motion and the 'tendency' to motion.",
+      "example": "Descartes compares the medium in which light travels to a vat filled with half-pressed grapes and wine. Just as the wine tends to move in a straight line toward holes at the bottom (even if crammed), light is the tendency of the smallest parts of matter to move in a straight line toward our eyes.",
+      "source_id": "src_036"
+    },
+    {
+      "name": "The Tennis Ball Model of Refraction",
+      "description": "A mechanical analogy to deduce how light behaves when it passes from one medium to another.",
+      "example": "Descartes models refracted light as a tennis ball puncturing a thin linen sheet. By analyzing the ball's perpendicular and parallel 'determinations' (directional components) and how the sheet reduces its speed, he deduces the sine law of refraction.",
+      "source_id": "src_036"
+    }
+  ],
+  "heuristics": [
+    "Divide each difficulty into as many parts as possible.",
+    "Begin with the simplest and most easily known objects to ascend to the complex.",
+    "Make enumerations so complete that you are sure of leaving nothing out."
+  ],
+  "signature_quotes": [
+    {
+      "text": "we reject all […] merely probable cognition and resolve to believe only what is perfectly known and incapable of being doubted",
+      "context": "Descartes defining his strict standard for scientific knowledge in Rule 2.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "The first was never to accept anything as true if I did not have evident knowledge of its truth: that is, carefully to avoid precipitate conclusions and preconceptions",
+      "context": "The first of his four rules of method in Discourse II.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "the whole of human knowledge consists uniquely in our achieving a distinct perception of how all these simple natures contribute to the composition of other things.",
+      "context": "Explaining the role of 'simple natures' as the foundational building blocks of all knowledge.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "For I take my reasonings to be so closely interconnected that just as the last are proved by the first, which are their causes, so the first are proved by the last, which are their effects.",
+      "context": "Explaining his method of using experiments to deduce underlying causes from observed effects.",
+      "source_id": "src_036"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on Aristotelian syllogisms to discover new truths.",
+      "why_it_fails": "Syllogisms rely exclusively on logical form rather than the actual content or dependency relations of the subject. Furthermore, they do not yield any new knowledge because the conclusion must already be known to construct the syllogism.",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Accepting 'probable cognition' in the sciences.",
+      "why_it_fails": "Settling for probability leaves room for doubt. Science must be built strictly on 'certain and evident cognition' (intuition and deduction) to avoid taking what is false to be true.",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Making precipitate conclusions and preconceptions.",
+      "why_it_fails": "Failing to restrict judgments only to what presents itself clearly and distinctly to the mind leads to error.",
+      "source_id": "src_036"
+    }
+  ]
+}

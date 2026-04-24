@@ -1,0 +1,48 @@
+{
+  "source_id": "src_026",
+  "summary": "This source is a BBC Radio 4 summary on healthy aging featuring multiple experts. Epidemiologist Professor Kay-Tee Khaw contributes specific dietary advice based on her research into the impact of diet on older people in Europe, emphasizing the avoidance of ultra-processed foods and the consumption of plant-based foods.",
+  "themes": [
+    "Healthy aging",
+    "Diet and nutrition",
+    "Preventative health"
+  ],
+  "principles": [
+    {
+      "statement": "Avoid ultra-processed foods to minimize your intake of salt and sugars.",
+      "rationale": "Excess salt and sugars are predominantly found in processed foods, making their avoidance a simple way to improve dietary health.",
+      "source_quote": "[These] are mostly found in processed foods so avoid ultra-processed foods",
+      "source_id": "src_026"
+    },
+    {
+      "statement": "Prioritize a diet high in plant foods, including fruits, vegetables, lentils, and nuts.",
+      "rationale": "A plant-rich diet is a core component of healthy aging and longevity.",
+      "source_quote": "Five servings of fruit and vegetables a day, if possible... high in lentils and nuts.",
+      "source_id": "src_026"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [
+    "Eat five servings of fruit and vegetables a day.",
+    "Avoid ultra-processed foods to cut out salt and sugar."
+  ],
+  "signature_quotes": [
+    {
+      "text": "[These] are mostly found in processed foods so avoid ultra-processed foods",
+      "context": "Advising on how to minimize salt and sugars in the diet.",
+      "source_id": "src_026"
+    },
+    {
+      "text": "Five servings of fruit and vegetables a day, if possible",
+      "context": "Recommending daily plant food intake.",
+      "source_id": "src_026"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Consuming ultra-processed foods.",
+      "why_it_fails": "They are the primary source of excess salt and sugars, which negatively impact long-term health.",
+      "source_id": "src_026"
+    }
+  ]
+}

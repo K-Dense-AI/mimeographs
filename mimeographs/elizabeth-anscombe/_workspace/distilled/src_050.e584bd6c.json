@@ -1,0 +1,96 @@
+{
+  "source_id": "src_050",
+  "summary": "Elizabeth Anscombe's philosophy of mind rejects both materialism and Cartesian immaterialism. She argues that mental content is externally determined rather than reducible to brain states, and famously contends that the first-person pronoun 'I' is not a referring expression, thereby dismantling Descartes' argument for an immaterial ego.",
+  "themes": [
+    "Philosophy of Mind",
+    "Cartesian Dualism",
+    "Anti-Materialism",
+    "Language and Reference",
+    "Action and Intention"
+  ],
+  "principles": [
+    {
+      "statement": "The first-person pronoun 'I' is not a referring expression.",
+      "rationale": "Treating 'I' as a referring expression in soliloquistic reflection leads to the false invention of a Cartesian Ego to serve as its referent, because the physical body cannot fulfill the logical role demanded by this misuse of language.",
+      "source_quote": "And this is the solution: 'I' is neither a name nor another kind of expression whose logical role is to make reference, at all.",
+      "source_id": "src_050"
+    },
+    {
+      "statement": "Brain states are not sufficient conditions for beliefs because mental content is externally determined.",
+      "rationale": "The content of a belief depends on the external environment and conceptual context of the subject. A specific brain state cannot constitute a belief about a specific object (like a bank) if the subject's world does not contain that object.",
+      "source_quote": "Because the belief might be say a belief about banks, and a human being whose brain might get into that state might never have heard of a bank.",
+      "source_id": "src_050"
+    },
+    {
+      "statement": "Thinking is neither a material process nor the act of an immaterial substance.",
+      "rationale": "While a purely physical description of an activity like calculating fails to capture it as 'thinking', this does not mean the activity is performed by a spiritual or immaterial substance. Both materialism and Cartesian immaterialism are false.",
+      "source_quote": "[while] a purely physical description of this procedure could be given ... that description would not characterize it as thinking or calculating ... that is not to say it is an act of an immaterial, or spiritual, substance",
+      "source_id": "src_050"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Brute Relativity (Levels of Description)",
+      "when_to_apply": "When analyzing actions or facts to understand how basic physical movements constitute higher-level social, intentional, or institutional acts.",
+      "steps": [
+        "Identify the basic physical action or context (e.g., bringing vegetables to a house).",
+        "Identify the immediate contextual description that the basic action enables (e.g., supplying foodstuffs).",
+        "Identify the higher-level institutional or intentional description (e.g., fulfilling a contract).",
+        "Recognize that the lower-level fact is 'brute' only relative to the higher-level description it supports."
+      ],
+      "source_quote": null,
+      "source_id": "src_050"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Externalism of Mental Content",
+      "description": "The lens that the meaning and content of a thought or belief is determined by the external environment and context, not just internal physical states.",
+      "example": "A belief about a bank's opening hours cannot be ascribed to someone not living in a world of banks and clocks, regardless of the exact physical state of their brain.",
+      "source_id": "src_050"
+    },
+    {
+      "name": "Contextual Ostension",
+      "description": "The model that pointing (ostension) does not determine the object of thought through physical orientation alone; the formal object (shape, color, substance) is determined by the surrounding context and actions.",
+      "example": "When someone points and says 'look at this', what makes it the case that they have in mind the shape rather than the color is not a conscious internal event, but what was said and done before and after.",
+      "source_id": "src_050"
+    }
+  ],
+  "heuristics": [
+    "To understand what a person is pointing at or thinking of, look to the context of what was said and done before and after, not just the physical direction of their body."
+  ],
+  "signature_quotes": [
+    {
+      "text": "And this is the solution: 'I' is neither a name nor another kind of expression whose logical role is to make reference, at all.",
+      "context": "Concluding her argument against Descartes' proof of mind/body dualism.",
+      "source_id": "src_050"
+    },
+    {
+      "text": "With that thought: 'The I was subject, not object, and hence invisible', we have an example of language itself being as it were possessed of an imagination, forcing its image upon us.",
+      "context": "Describing how the misuse of the word 'I' leads to the illusion of a Cartesian Ego.",
+      "source_id": "src_050"
+    },
+    {
+      "text": "we cannot ascribe a belief about the bank’s opening hours to someone not living in a world of banks and clocks.",
+      "context": "Arguing against the idea that brain states are sufficient conditions for beliefs.",
+      "source_id": "src_050"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating the first-person pronoun 'I' as a referring expression.",
+      "why_it_fails": "It creates a self-perpetuating philosophical dispute that inevitably leads to inventing a Cartesian Ego (an immaterial soul) to serve as the referent, since the physical body cannot fulfill the logical role demanded by this misuse of language.",
+      "source_id": "src_050"
+    },
+    {
+      "description": "Identifying reasons and beliefs with brain states.",
+      "why_it_fails": "Brain states are fixed independently of intentional content, whereas the content of a belief depends conceptually and referentially upon aspects of the subject's external environment.",
+      "source_id": "src_050"
+    },
+    {
+      "description": "Assuming that rejecting materialism requires accepting immaterialism (Cartesian dualism).",
+      "why_it_fails": "One can deny that thinking is a material event or physical process without positing that it takes place in an immaterial or spiritual substance.",
+      "source_id": "src_050"
+    }
+  ]
+}

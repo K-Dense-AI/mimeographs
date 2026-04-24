@@ -1,0 +1,49 @@
+{
+  "source_id": "src_029",
+  "summary": "The source is an abstract for a paper by Brian Cleary and Aviv Regev arguing that exhaustive measurement of biological systems is impossible due to combinatorial complexity. They advocate for a paradigm shift toward random, under-sampled, and composite experiments that leverage low-dimensional inference to efficiently study complex biological phenomena, such as genetic interactions.",
+  "themes": [
+    "Experimental design",
+    "Computational biology",
+    "Low-dimensional inference",
+    "Genetic interactions",
+    "Scalability in biology"
+  ],
+  "principles": [
+    {
+      "statement": "Exhaustive measurement of complex biological systems is fundamentally impossible.",
+      "rationale": "The sheer number of combinations of variables of interest in complex biological systems means that simply reducing the cost of existing experimental approaches will never be enough to achieve comprehensive measurement and perturbation.",
+      "source_quote": "Overcoming this limitation is not simply a matter of reducing costs with existing approaches; for complex biological systems it will likely never be possible to comprehensively measure and perturb every combination of variables of interest.",
+      "source_id": "src_029"
+    },
+    {
+      "statement": "Under-sampled data contains a surprising amount of biological information.",
+      "rationale": "By relying on the mathematical foundations of randomization and low-dimensional inference, researchers can extract comprehensive understanding from highly under-sampled data, making data collection vastly more efficient.",
+      "source_quote": "There is, however, a growing body of work - much of it foundational and precedent setting - that extracts a surprising amount of information from highly under sampled data.",
+      "source_id": "src_029"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Low-dimensional inference in biology",
+      "description": "A lens for viewing complex biological systems not as spaces requiring exhaustive, one-by-one measurement, but as inherently compressible systems where random and composite experiments can capture the underlying structure efficiently.",
+      "example": "Applying random and composite experiments to study genetic interactions, where measuring every possible combination is physically impossible.",
+      "source_id": "src_029"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Overcoming this limitation is not simply a matter of reducing costs with existing approaches; for complex biological systems it will likely never be possible to comprehensively measure and perturb every combination of variables of interest.",
+      "context": "Explaining why traditional scaling of biological experiments is insufficient.",
+      "source_id": "src_029"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on reducing the cost of existing experimental approaches to scale biological discovery.",
+      "why_it_fails": "Because complex biological systems have a combinatorial explosion of variables, making it practically impossible to comprehensively measure and perturb every combination regardless of how cheap the individual measurements become.",
+      "source_id": "src_029"
+    }
+  ]
+}

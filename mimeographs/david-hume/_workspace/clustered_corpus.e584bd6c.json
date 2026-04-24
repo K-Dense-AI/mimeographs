@@ -1,0 +1,434 @@
+{
+  "expert_name": "David Hume",
+  "themes": [
+    "Empiricism & Epistemology",
+    "Skepticism & Intellectual Humility",
+    "Causality & Induction",
+    "Moral Philosophy & Sentiment",
+    "Philosophy of Religion",
+    "Political Philosophy & Authority",
+    "Human Nature & Passions"
+  ],
+  "principles": [
+    {
+      "label": "The Copy Principle",
+      "summary": "All human ideas are ultimately derived from prior sensory or internal impressions.",
+      "details": "There are no innate ideas. The mind does not create ideas out of nothing; it only compounds, transposes, augments, or diminishes the original vivid data of sensation or internal consciousness. If a person lacks a sense organ, they are entirely incapable of forming the corresponding ideas.",
+      "representative_quote": "All our ideas or more feeble perceptions are copies of our impressions or more lively ones.",
+      "source_ids": [
+        "src_001",
+        "src_005",
+        "src_016",
+        "src_036",
+        "src_039",
+        "src_048",
+        "src_051"
+      ]
+    },
+    {
+      "label": "Causality as Constant Conjunction",
+      "summary": "Our belief in cause and effect is not based on rational deduction or observable necessary connections, but on the mental habit formed by experiencing events constantly conjoined.",
+      "details": "We cannot observe a physical or logical causal link between events, only that they frequently and uniformly go together. Drawing causal inferences requires the ungroundable presupposition that the future will resemble the past, meaning causality is a psychological habit rather than a rational certainty.",
+      "representative_quote": "inductive reasoning and belief in causality cannot be justified rationally; instead, they result from custom and mental habit.",
+      "source_ids": [
+        "src_001",
+        "src_005",
+        "src_015",
+        "src_018",
+        "src_036",
+        "src_039",
+        "src_051"
+      ]
+    },
+    {
+      "label": "Political Authority is Founded on Opinion",
+      "summary": "Governments, whether free or despotic, rely entirely on the public's opinion of their legitimacy, public interest, and right to property, rather than mere physical force.",
+      "details": "Because the governed vastly outnumber the governors and hold the actual physical force, rulers cannot rely on force alone. Secondary motivators like fear or self-interest only work if the ruler is already perceived to have legitimate authority.",
+      "representative_quote": "It is therefore, on opinion only that government is founded; and this maxim extends to the most despotic and most military governments, as well as to the most free and most popular.",
+      "source_ids": [
+        "src_008",
+        "src_011",
+        "src_018",
+        "src_020",
+        "src_032"
+      ]
+    },
+    {
+      "label": "Reason is the Slave of the Passions",
+      "summary": "Human behavior and moral choices are driven by desires, feelings, and passions, with reason playing only a secondary, instrumental role.",
+      "details": "Reason can discover truths and establish facts, but it cannot motivate action or create desire and aversion on its own. It only serves to guide us toward the ends dictated by our sentiments.",
+      "representative_quote": "reason is and ought always to be slave of the passions",
+      "source_ids": [
+        "src_005",
+        "src_018",
+        "src_038",
+        "src_039"
+      ]
+    },
+    {
+      "label": "Morality is Grounded in Sentiment and Utility",
+      "summary": "Moral distinctions arise from an internal sense of approval or disapproval, largely based on the public utility or agreeableness of a character trait or action.",
+      "details": "When we praise humane and beneficent people, we highlight the happiness they bring to society. Justice, in particular, is founded entirely on its utility to society; in a world of extreme abundance or extreme scarcity, the rules of property and justice would become useless and suspended.",
+      "representative_quote": "The final sentence, it is probable, which pronounces characters and actions amiable or odious... depends on some internal sense or feeling, which nature has made universal in the whole species.",
+      "source_ids": [
+        "src_005",
+        "src_018",
+        "src_038"
+      ]
+    },
+    {
+      "label": "Rejection of A Priori Theology",
+      "summary": "Claims about a deity whose nature is incomprehensible or derived from weak analogies to human artifacts are unintelligible and cannot support genuine belief.",
+      "details": "If a being's nature is inconceivable and indefinable, claims about its existence lose all religiously significant content. Furthermore, the analogy between human artifacts and the universe is too remote to justify inferring an intelligent, perfect creator.",
+      "representative_quote": "We don’t know what we’re talking about when we talk about a God whose nature is inconceivable, incomprehensible, indeterminate, and indefinable.",
+      "source_ids": [
+        "src_016",
+        "src_035",
+        "src_036"
+      ]
+    },
+    {
+      "label": "Philosophy Must be Grounded in Common Life",
+      "summary": "To avoid becoming chimerical and irrelevant, philosophical inquiry must remain connected to everyday social experience and practical realities.",
+      "details": "Reclusive study leads to unintelligible conclusions because it fails to consult the real-world experience found in society. Philosophy must strike a balance between the 'abstruse' (exact but dull) and the 'easy and obvious' (accessible but potentially shallow).",
+      "representative_quote": "The separation of the learned from the conversable world seems to have been the great defect of the last age, and must have had a very bad influence both on books and company",
+      "source_ids": [
+        "src_007",
+        "src_008",
+        "src_035"
+      ]
+    },
+    {
+      "label": "Mitigated Skepticism",
+      "summary": "Philosophical doubt should lead to intellectual modesty and a recognition of the limits of human understanding, rather than a paralyzing universal skepticism.",
+      "details": "Skepticism is meant to abate the pride of human reasoners by showing the limits of our faculties. However, it is impossible to maintain universal doubt in practical, everyday life, as human nature forces us to believe and act.",
+      "representative_quote": "Modesty then, and Humility, with regard to the Operations of our natural Faculties, is the Result of Scepticism; not an universal Doubt, which it is impossible for any Man to support...",
+      "source_ids": [
+        "src_035",
+        "src_051"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Hume's Fork",
+      "summary": "A twofold classification of meaning used to evaluate whether a statement contains demonstrative knowledge or merely describes matters of fact.",
+      "details": "Steps: 1) Determine if the concept is a 'relation of ideas' (e.g., math, geometry) which can be known by rational inspection. 2) Determine if the concept is a 'matter of fact' (e.g., empirical observations) which reveals no logical relations and could conceivably be otherwise. 3) If a claim is neither, it contains nothing but sophistry and illusion.",
+      "representative_quote": "If we take in our hand any volume of divinity or School metaphysics for instance let us ask does it contain any abstract reasoning concerning quantity or number no does it contain any experimental reasoning concerning matters of fact and existence no commit it then to the Flames",
+      "source_ids": [
+        "src_005",
+        "src_018",
+        "src_045"
+      ]
+    },
+    {
+      "label": "The Impression Test for Meaning",
+      "summary": "A method for evaluating whether a philosophical term or abstract idea is ambiguous, meaningless, or lacks a foundation in reality.",
+      "details": "When suspecting a term is meaningless, ask: 'From what impression is that pretended idea derived?' Attempt to trace the idea back to a specific sensory or internal impression. If no impression can be produced, conclude that the term is altogether insignificant.",
+      "representative_quote": "If we suspect that any philosophical term has no idea annexed to it, we can always ask from what impression that pretended idea is derived? If no impression can be produced, we must conclude the term is altogether insignificant",
+      "source_ids": [
+        "src_036",
+        "src_048"
+      ]
+    },
+    {
+      "label": "The Experimental Method in Ethics",
+      "summary": "A framework for discovering the true origin of morals by analyzing human qualities and deducing general maxims from particular instances.",
+      "details": "Steps: Analyze the mental qualities that form personal merit. Use natural language to collect estimable and blamable qualities. Use reasoning to discover common circumstances on both sides (e.g., public utility). Deduce general maxims from this comparison rather than starting with abstract a priori systems.",
+      "representative_quote": "As this is a question of fact, not of abstract science, we can only expect success, by following the experimental method, and deducing general maxims from a comparison of particular instances.",
+      "source_ids": [
+        "src_038"
+      ]
+    },
+    {
+      "label": "Principles of Association",
+      "summary": "A framework for analyzing how the imagination directs and combines basic ideas to form new ones.",
+      "details": "The mind connects ideas based on three principles: resemblance (similarity), contiguity (closeness in time or space), and cause and effect.",
+      "representative_quote": "As our imagination takes our most basic ideas and leads us to form new ones, it is directed by three principles of association, namely, resemblance , contiguity , and cause and effect .",
+      "source_ids": [
+        "src_015"
+      ]
+    },
+    {
+      "label": "Mitigated Skepticism Framework",
+      "summary": "A method for evaluating philosophical or theological claims that reach beyond immediate human experience.",
+      "details": "Reflect on the infirmities of human understanding to curb dogmatism. Adopt doubt and caution in all inferences. Reject extreme Pyrrhonian skepticism as unlivable. Confine inquiries strictly to subjects that fall under daily practice and experience.",
+      "representative_quote": "we will never be tempted to go beyond common life",
+      "source_ids": [
+        "src_035"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "Constant Conjunction",
+      "summary": "The lens through which we perceive causality: we assume cause and effect not because of inherent logic, but because we are accustomed to seeing two events frequently happening together.",
+      "details": "Instead of perceiving a hidden, rational force that connects a cause to an effect, we only observe that one event consistently follows another, which builds a mental habit.",
+      "representative_quote": "when people regard any events as causally connected, all that they do and can observe is that they frequently and uniformly go together.",
+      "source_ids": [
+        "src_001",
+        "src_005",
+        "src_036",
+        "src_039"
+      ]
+    },
+    {
+      "label": "Bundle Theory of the Self",
+      "summary": "The concept that humans have no actual conception of a unified, persistent self, but rather only experience a bundle of fleeting sensations associated with the self.",
+      "details": "Epistemological scrutiny reveals that common notions of personal identity do not hold up, as there is no observable permanent self that persists over time.",
+      "representative_quote": "there is no permanent “self” that continues over time.",
+      "source_ids": [
+        "src_015",
+        "src_039"
+      ]
+    },
+    {
+      "label": "Legal Conventionalism",
+      "summary": "Viewing laws and justice not as divine mandates or absolute moral truths, but as evolved solutions to coordination problems that persist because of mutual benefit.",
+      "details": "Individuals realize they cannot get what they want unless they moderate their pursuit in agreement with others. Laws evolve through trial and error to protect property and coordinate behavior.",
+      "representative_quote": "the object of municipal laws is to fix all the questions with regard to justice.",
+      "source_ids": [
+        "src_011",
+        "src_018"
+      ]
+    },
+    {
+      "label": "The Anatomist and the Painter",
+      "summary": "A metaphor illustrating the relationship between abstruse philosophy (the anatomist) and easy, practical philosophy (the painter).",
+      "details": "The anatomist studies the hidden, sometimes disagreeable internal structures, which is necessary for the painter to accurately and beautifully depict the outward form. Accurate knowledge of the mind's operations improves practical arts and delicate sentiments.",
+      "representative_quote": "Accuracy is, in every case, advantageous to beauty, and just reasoning to delicate sentiment.",
+      "source_ids": [
+        "src_007",
+        "src_048"
+      ]
+    },
+    {
+      "label": "The Unique Effect (Weak Analogy)",
+      "summary": "A lens for evaluating inductive analogies, particularly regarding the origin of the universe.",
+      "details": "We can infer a builder when we see a house because we have observed the constant conjunction of builders and houses many times. However, we cannot make the same inference about the universe because it is a unique effect of which we only observe a small part, and we have zero experience of its cause.",
+      "representative_quote": "But wherever you depart, in the least, from the similarity of the cases, you diminish proportionably the evidence: and may at last bring it to a very weak analogy, which is confessedly liable to error and uncertainty.",
+      "source_ids": [
+        "src_035",
+        "src_036"
+      ]
+    },
+    {
+      "label": "Natural vs. Artificial Virtues",
+      "summary": "A lens for categorizing human behaviors and moral duties into biological instincts versus societal conventions.",
+      "details": "Natural virtues (like compassion) are immediate, biological instincts. Artificial virtues (like justice and loyalty) require societal convention, education, and reflection on the general interests of human society.",
+      "representative_quote": "By the natural Virtues he plainly understands Compassion and Generosity... and by the artificial Virtues he means Justice, Loyalty, and such as require... a certain Reflection on the general Interests of Human Society",
+      "source_ids": [
+        "src_051"
+      ]
+    },
+    {
+      "label": "Balance of Power vs. Balance of Property",
+      "summary": "A lens for understanding political stability and institutional creep.",
+      "details": "When a class holds property but no power, the government can endure. However, if a class holds a large share of property and is granted even a small share of constitutional power, they will inevitably and gradually stretch their authority until their power matches their property.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_020"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Trace Ideas to Impressions",
+      "summary": "When a term seems meaningless or ambiguous, ask: from what impression is it derived?",
+      "details": "If you cannot trace the idea back to an original sensory or internal impression, the term lacks valid meaning.",
+      "representative_quote": "When we entertain, therefore, any suspicion, that a philosophical term is employed without any meaning or idea (as is but too frequent), we need but enquire, from what impression is that supposed idea derived?",
+      "source_ids": [
+        "src_005",
+        "src_048"
+      ]
+    },
+    {
+      "label": "Commit to the Flames",
+      "summary": "Reject any volume of divinity or school metaphysics that lacks abstract reasoning on quantity or experimental reasoning on matters of fact.",
+      "details": "If a text is not based on mathematics or empirical evidence, it contains nothing but sophistry and illusion.",
+      "representative_quote": "commit it then to the Flames for it can contain nothing but sophistry and illusion",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Proportion Cause to Effect",
+      "summary": "Never ascribe to a cause any qualities beyond what are strictly necessary to produce the observed effect.",
+      "details": "Useful when evaluating claims about a perfect creator based on an imperfect world.",
+      "representative_quote": "ascribe to the cause any qualities, but what are exactly sufficient to produce them",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Cure Skeptical Melancholy with Common Life",
+      "summary": "When paralyzed by philosophical doubt or melancholy, step away and engage in everyday life.",
+      "details": "Playing games, dining with friends, and engaging in society restores the natural habit of belief that extreme skepticism destroys.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Conceivability Implies Possibility of Non-Existence",
+      "summary": "Whatever we conceive as existent, we can also conceive as non-existent.",
+      "details": "Because there are no logical contradictions in denying a matter of fact, a priori proofs for necessary existence are absurd.",
+      "representative_quote": "Whatever we conceive as existent, we can also conceive as non-existent. There is no being, therefore, whose non-existence implies a contradiction.",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Force is on the Side of the Governed",
+      "summary": "Remember that the governed always possess the physical force, meaning rulers must rely on opinion.",
+      "details": "Useful for understanding the fragility of despotic regimes and the necessity of public relations in governance.",
+      "representative_quote": "Force is always on the side of the governed.",
+      "source_ids": [
+        "src_020"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "Reason as Slave",
+      "summary": "Describing the subordinate role of reason in human behavior and motivation.",
+      "details": null,
+      "representative_quote": "reason is and ought always to be slave of the passions",
+      "source_ids": [
+        "src_005",
+        "src_018"
+      ]
+    },
+    {
+      "label": "Commit to the Flames",
+      "summary": "Introducing what would become known as Hume's Fork.",
+      "details": null,
+      "representative_quote": "If we take in our hand any volume of divinity or School metaphysics for instance let us ask does it contain any abstract reasoning concerning quantity or number no does it contain any experimental reasoning concerning matters of fact and existence no commit it then to the Flames for it can contain nothing but sophistry and illusion",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Be a Philosopher and a Man",
+      "summary": "Advising a mixed kind of life that balances profound research with action and society.",
+      "details": null,
+      "representative_quote": "Be a philosopher; but, amidst all your philosophy, be still a man.",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "Government Founded on Opinion",
+      "summary": "Asserting the universality of opinion as the basis of state power.",
+      "details": null,
+      "representative_quote": "It is therefore, on opinion only that government is founded; and this maxim extends to the most despotic and most military governments, as well as to the most free and most popular.",
+      "source_ids": [
+        "src_020"
+      ]
+    },
+    {
+      "label": "Ideas as Copies of Impressions",
+      "summary": "Stating the core principle of his empiricist theory of mind.",
+      "details": null,
+      "representative_quote": "All our ideas or more feeble perceptions are copies of our impressions or more lively ones.",
+      "source_ids": [
+        "src_048"
+      ]
+    },
+    {
+      "label": "No Necessary Existence",
+      "summary": "Arguing against the cosmological argument and the concept of a necessarily existent being.",
+      "details": null,
+      "representative_quote": "Whatever we conceive as existent, we can also conceive as non-existent. There is no being, therefore, whose non-existence implies a contradiction.",
+      "source_ids": [
+        "src_036"
+      ]
+    },
+    {
+      "label": "Modesty from Skepticism",
+      "summary": "Explaining the true purpose of philosophical skepticism.",
+      "details": null,
+      "representative_quote": "Modesty then, and Humility, with regard to the Operations of our natural Faculties, is the Result of Scepticism; not an universal Doubt, which it is impossible for any Man to support...",
+      "source_ids": [
+        "src_051"
+      ]
+    },
+    {
+      "label": "Constant Conjunction",
+      "summary": "Explaining why causality is a product of mental habit rather than observable rational truth.",
+      "details": null,
+      "representative_quote": "We never actually perceive that one event causes another but only experience the \" constant conjunction \" of events.",
+      "source_ids": [
+        "src_001"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "A Priori Reasoning for Matters of Fact",
+      "summary": "Attempting to demonstrate matters of fact or causal relationships through a priori logical reasoning.",
+      "details": "It fails because anything that can be conceived to exist can also be conceived not to exist. There are no logical contradictions in denying a matter of fact, so a priori proofs (like the cosmological argument) are absurd.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_001",
+        "src_005",
+        "src_036",
+        "src_038",
+        "src_039"
+      ]
+    },
+    {
+      "label": "Radical (Pyrrhonian) Skepticism",
+      "summary": "Attempting to apply universal philosophical doubt to practical, everyday life.",
+      "details": "It is unlivable and destructive in practice. Suspending all belief leads to philosophical melancholy and paralysis; human nature forces us to believe and act in common life despite philosophical doubts.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_018",
+        "src_035",
+        "src_051"
+      ]
+    },
+    {
+      "label": "Anthropomorphic Theology",
+      "summary": "Assuming the supreme cause of the universe possesses a mind, intentions, or moral attributes resembling human beings.",
+      "details": "The analogy between human artifacts and the universe is vastly remote. Assuming God has human-like successive thoughts or passions degrades the concept of the supreme being and is driven by egocentric delusion.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_016",
+        "src_035",
+        "src_036"
+      ]
+    },
+    {
+      "label": "The Original Contract and Tacit Consent",
+      "summary": "Using 'tacit consent' or a hypothetical 'state of nature' to legitimize established governments.",
+      "details": "Actual consent requires voluntariness and choice, which are absent in the lives of ordinary people who believe allegiance is owed by birth. Furthermore, the precommunity natural state is unhistorical and unempirical.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_008",
+        "src_009",
+        "src_032"
+      ]
+    },
+    {
+      "label": "The Moping Recluse (Isolated Academia)",
+      "summary": "Shutting learning up in colleges and cells, secluded from the world and common life.",
+      "details": "Writing purely 'abstruse' and abstract philosophy fails to influence human sentiments or conduct, rendering the work dull, chimerical, and irrelevant to common life.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_007",
+        "src_008"
+      ]
+    },
+    {
+      "label": "Belief in Miracles",
+      "summary": "Believing that miracles can be proven by human testimony.",
+      "details": "We know uniformly that human beings lie and exaggerate. It is far more likely that a person is misrepresenting an event than that the uniform laws of nature have been violated.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_005",
+        "src_018"
+      ]
+    }
+  ]
+}

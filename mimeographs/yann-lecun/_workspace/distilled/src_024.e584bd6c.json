@@ -1,0 +1,107 @@
+{
+  "source_id": "src_024",
+  "summary": "Yann LeCun argues that scaling Large Language Models (LLMs) will never lead to human-level AI because text lacks the rich, redundant information found in the physical world. Instead, he advocates for Joint Embedding Predictive Architectures (JEPA) and world models that learn to predict the consequences of actions in an abstract representation space, rather than generating pixels. He also emphasizes the necessity of open research and dismisses the concept of 'Artificial General Intelligence' (AGI) as a fallacy, noting that human intelligence is highly specialized.",
+  "themes": [
+    "World Models",
+    "Self-Supervised Learning",
+    "Representation Space",
+    "AI Research Methodology",
+    "Limitations of LLMs",
+    "Abstraction Hierarchies"
+  ],
+  "principles": [
+    {
+      "statement": "Research isn't research unless it is published.",
+      "rationale": "Without submitting work to the broader community, researchers can easily delude themselves into thinking their internal projects are breakthroughs.",
+      "source_quote": "you cannot really call it research unless you publish what you do, otherwise you can get easily fooled by yourself.",
+      "source_id": "src_024"
+    },
+    {
+      "statement": "LLMs will never achieve human-level AI.",
+      "rationale": "Text data lacks the massive redundancy and continuous structure of real-world visual data, which is necessary for a system to truly understand physical reality.",
+      "source_quote": "we absolutely never, ever going to get to human level AI by just training on text. It's just never going to happen.",
+      "source_id": "src_024"
+    },
+    {
+      "statement": "Intelligence requires predicting the consequences of actions.",
+      "rationale": "A system must be able to anticipate outcomes to optimize and plan a sequence of actions to accomplish a task, rather than just cloning human behavior.",
+      "source_quote": "I think an essential part of intelligence is being able to predict the consequences of your actions and then use them for planning.",
+      "source_id": "src_024"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Joint Embedding Predictive Architectures (JEPA)",
+      "when_to_apply": "When training models on highly visual, continuous, and noisy data to learn how the world works.",
+      "steps": [
+        "Run the input through an encoder to extract an abstract representation.",
+        "Eliminate all details from the representation that are noisy or unpredictable.",
+        "Train a predictor to predict the abstract representation of a future state from the representation of the current state."
+      ],
+      "source_quote": "It's to learn representations and predict at a representation level, eliminating all the details you cannot predict. And this is the idea of JEPA",
+      "source_id": "src_024"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Abstraction Hierarchies",
+      "description": "The idea that we understand complex systems by creating layers of abstraction (e.g., molecules to cells to organs) where each level ignores the unpredictable, lower-level details (entropy) of the level below it, allowing for reliable, longer-term predictions.",
+      "example": "if I give you a box full of gas, you could in principle simulate all the molecules of the gas... but nobody ever does this. But at a very abstract level, we can say PV equals nRT",
+      "source_id": "src_024"
+    },
+    {
+      "name": "World Models as Abstract Simulators",
+      "description": "A world model does not need to perfectly simulate every detail of reality (like a holodeck). It only needs to simulate the relevant variables necessary to make a prediction in an abstract space.",
+      "example": "If I ask you, where is Jupiter going to be a hundred years from now? ... you need exactly six numbers—three positions and three velocities. And the rest doesn't matter.",
+      "source_id": "src_024"
+    }
+  ],
+  "heuristics": [
+    "When you use self-supervised learning, you need redundancy. You cannot learn anything... if it's completely random.",
+    "If you want to maximize something, you want to either be able to compute it or you want a lower bound on it so you can push it up."
+  ],
+  "signature_quotes": [
+    {
+      "text": "you cannot really call it research unless you publish what you do, otherwise you can get easily fooled by yourself.",
+      "context": "Discussing why his new company, AMI, will publish its research openly.",
+      "source_id": "src_024"
+    },
+    {
+      "text": "we absolutely never, ever going to get to human level AI by just training on text. It's just never going to happen.",
+      "context": "Comparing the information density of the entire internet's text to just 15,000 hours of video.",
+      "source_id": "src_024"
+    },
+    {
+      "text": "There is no such thing as general intelligence. This concept makes absolutely no sense because it's really designed to designate human level intelligence, but human intelligence is super specialized.",
+      "context": "Answering a question about AGI timelines.",
+      "source_id": "src_024"
+    },
+    {
+      "text": "I think the hardest part is to get to dog level. Once you get to dog level, you basically have most of the ingredients.",
+      "context": "Explaining that the leap from dog-level to human-level intelligence is relatively small compared to reaching dog-level in the first place.",
+      "source_id": "src_024"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Predicting at the pixel level.",
+      "why_it_fails": "It forces the model to account for unpredictable noise and details, making it impossible to represent useful probability distributions on the space of video frames.",
+      "source_id": "src_024"
+    },
+    {
+      "description": "Believing in 'Artificial General Intelligence' (AGI).",
+      "why_it_fails": "Human intelligence is actually highly specialized, not general. We are terrible at many tasks (like tree exploration in chess) that machines easily master.",
+      "source_id": "src_024"
+    },
+    {
+      "description": "Secretive corporate AI research.",
+      "why_it_fails": "It removes the incentive for scientists to do thorough work, prevents community validation, and forces researchers to focus only on short-term product impacts rather than long-term breakthroughs.",
+      "source_id": "src_024"
+    },
+    {
+      "description": "Scaling LLMs to reach human-level AI.",
+      "why_it_fails": "Text lacks the necessary information bandwidth and redundancy compared to real-world continuous data (like video). LLMs just memorize isolated facts and cannot learn underlying physical dynamics.",
+      "source_id": "src_024"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "source_id": "src_012",
+  "summary": "Ilya Sutskever reflects on a decade of deep learning progress, the foundational beliefs that drove the scaling hypothesis, and the impending end of the pre-training era due to data exhaustion. He predicts a shift toward agentic, reasoning systems that will be highly capable but inherently more unpredictable than current intuition-based models.",
+  "themes": [
+    "Deep Learning History",
+    "Scaling Laws",
+    "Peak Data",
+    "Reasoning vs. Intuition",
+    "Superintelligence",
+    "Connectionism"
+  ],
+  "principles": [
+    {
+      "statement": "Anything a human can do in a fraction of a second, a large neural network can do too.",
+      "rationale": "If you believe artificial neurons and biological neurons are similar, and real neurons are slow, then human intuition (fast reaction time) can be replicated by taking those biological connections and embedding them in an artificial neural net.",
+      "source_quote": "anything that a human being can do in a fraction of a second a big 10 10 layer neural network can do too",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "The Scaling Hypothesis: Big data and big neural networks guarantee success.",
+      "rationale": "Training very large neural networks on very large datasets has been the primary driver of all the astounding progress seen in AI today.",
+      "source_quote": "if you have a very big data set and you train a very big neural network then success is guaranteed",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Pre-training as we know it will unquestionably end.",
+      "rationale": "While compute and algorithms continue to scale, data is finite. We have achieved 'Peak data' because there is only one internet to scrape.",
+      "source_quote": "pre-training as we know it will unquestionably end... because while computers growing through better Hardware better algorithms and logic clusters... the data is not growing because we have but one internet",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "The more an AI system reasons, the more unpredictable it becomes.",
+      "rationale": "Current deep learning replicates human intuition (gut feel), which is predictable. Reasoning, however, leads to unexpected conclusions, much like how the best chess AIs make moves that are unpredictable to top human players.",
+      "source_quote": "a system that reasons the more it reasons the more unpredictable it becomes",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Connectionism gives us the confidence to build human-level systems.",
+      "rationale": "Believing that artificial neurons are fundamentally similar to biological neurons provides the conviction that large neural networks can be configured to do everything humans do.",
+      "source_quote": "if you allow yourself to believe that an artificial neuron is kind of sort of like a biological neuron... it gives you the confidence to believe that very large neural networks... could be configured to do pretty much all the things that we do",
+      "source_id": "src_012"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Data as Fossil Fuel",
+      "description": "Viewing internet data as a finite, naturally accumulated resource that powers AI but is ultimately exhaustible, leading to a 'Peak Data' scenario.",
+      "example": "Sutskever argues that pre-training will end because we have 'but one internet' and have consumed the data that was 'created somehow', forcing the field to move toward synthetic data or inference-time compute.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Biological Scaling Precedent",
+      "description": "Looking at evolutionary biology to prove that new scaling laws can be discovered when current ones plateau.",
+      "example": "He points to the evolutionary shift in brain-to-body mass scaling between mammals and hominids to show that biology figured out a 'different scaling', implying AI researchers will similarly figure out what to scale after pre-training ends.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Intuition vs. Reasoning",
+      "description": "Categorizing AI capabilities into 'intuition' (fast, predictable, pattern-matching akin to a 0.1-second human reaction) and 'reasoning' (slower, agentic, and highly unpredictable).",
+      "example": "He explains that current deep learning is predictable because it mimics human 'gut feel', but future superintelligence will rely on reasoning, making it inherently unpredictable like modern chess AIs.",
+      "source_id": "src_012"
+    }
+  ],
+  "heuristics": [
+    "If an auto-regressive model predicts the next token well enough, it will capture the correct distribution over whatever sequences come next.",
+    "If there is one human in the entire world that can do some task in a fraction of a second, then a 10-layer neural network can do it too."
+  ],
+  "signature_quotes": [
+    {
+      "text": "you can even go as far as to say that data is the fossil fuel of AI it was like created somehow and now we use it and we've achieved Peak data and there'll be no more",
+      "context": "Discussing why the current paradigm of pre-training will eventually hit a wall.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "a system that reasons the more it reasons the more unpredictable it becomes",
+      "context": "Explaining how future superintelligent systems will differ qualitatively from current models.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "if you joined the field in the last two years then of course you speak to computers and they talk back to you and they disagree and that's what computers are but it hasn't always been the case",
+      "context": "Reflecting on the astounding, unimaginable progress deep learning has made over the last decade.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "pre-training as we know it will unquestionably end... because we have but one internet",
+      "context": "Predicting the end of the current scaling paradigm.",
+      "source_id": "src_012"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Expecting reasoning AI to be as predictable as current deep learning models.",
+      "why_it_fails": "Current models replicate human intuition (gut feel), which is predictable. Reasoning inherently introduces unpredictability, as the system will draw conclusions or make moves that humans cannot foresee.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Treating out-of-distribution generalization as a simple binary (yes or no).",
+      "why_it_fails": "The standards for what counts as generalization have increased unimaginably over time. Generalization exists on a spectrum, and while LLMs don't generalize as well as humans, they definitely do it to some degree.",
+      "source_id": "src_012"
+    },
+    {
+      "description": "Using pipelining for parallelization in neural network training.",
+      "why_it_fails": "He notes retrospectively from his 2014 work that 'as we now know pipelining is not wise', though he doesn't elaborate on the technical reasons in this specific talk.",
+      "source_id": "src_012"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "source_id": "src_003",
+  "summary": "A biographical and philosophical overview of G. E. M. Anscombe, a foundational figure in the philosophy of action and analytical Thomism. The source details her groundbreaking work on intention, her introduction of concepts like 'direction of fit' and 'brute facts', her revival of virtue ethics, and her staunch moral opposition to consequentialism and the intentional killing of non-combatants.",
+  "themes": [
+    "Philosophy of Action",
+    "Ethics",
+    "Intention",
+    "Causality",
+    "Philosophy of Mind",
+    "Analytical Thomism"
+  ],
+  "principles": [
+    {
+      "statement": "Actions are intentional under some descriptions and not others.",
+      "rationale": "An agent's physical movement can be described in many ways, but it is only intentional relative to the specific purpose or reason the agent had in mind.",
+      "source_quote": "In her famous example, a man's action (which we might observe as consisting of moving an arm up and down while holding a handle) may be intentional under the description \"pumping water\" but not under other descriptions such as \"contracting these muscles\"",
+      "source_id": "src_003"
+    },
+    {
+      "statement": "Causal relations are perceivable and do not require a necessary connection or universal generalization.",
+      "rationale": "We acquire primary knowledge of causality by learning the linguistic representation of causal concepts (like 'push' or 'scrape') and by directly observing actions that produce certain events.",
+      "source_quote": "Anscombe defends two main ideas: that causal relations are perceivable, and that causation does not require a necessary connection and a universal generalization linking cause and effect.",
+      "source_id": "src_003"
+    },
+    {
+      "statement": "The first-person pronoun 'I' does not refer to anything.",
+      "rationale": "Because 'I' is immune from reference failure, treating it as a referring expression implies a false Cartesianism.",
+      "source_quote": "the first-person pronoun, \"I\", does not refer to anything (not, e.g., to the speaker) because of its immunity from reference failure.",
+      "source_id": "src_003"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Identifying Intentional Action",
+      "when_to_apply": "When determining whether a human behavior constitutes an intentional action.",
+      "steps": [
+        "Observe an event or going-on in a person's history.",
+        "Address the question 'Why?' to the agent in a sense that asks for a reason or purpose.",
+        "If the question has application and the agent can answer by giving a reason (e.g., 'because I want to do Y'), the action is intentional under that description."
+      ],
+      "source_quote": "She says that what is up with a human being is an intentional action if the question \"Why\", taken in a certain sense (and evidently conceived as addressed to him), has application.",
+      "source_id": "src_003"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Direction of Fit",
+      "description": "A lens for distinguishing between cognitive states (which describe the world and derive from facts) and conative states (which aim to bring something about in the world).",
+      "example": "A shopping list: It can be an observational report of what is bought (cognitive), or a command of what to buy (conative). If the agent fails to buy what is listed, the mistake is in the action, not the list.",
+      "source_id": "src_003"
+    },
+    {
+      "name": "Brute Facts",
+      "description": "The concept that a set of facts is 'brute relative to' a higher-level fact, usually given an institutional context that gives the higher-level description its point.",
+      "example": "Handing someone cash is a 'brute fact' relative to the fact that you have 'paid' for something, which relies on the unstated institutional context of money.",
+      "source_id": "src_003"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "For years, I would spend time, in cafés, for example, staring at objects saying to myself: 'I see a packet. But what do I really see? How can I say that I see here anything more than a yellow expanse?'",
+      "context": "Describing her early struggles with phenomenalism before studying with Wittgenstein.",
+      "source_id": "src_003"
+    },
+    {
+      "text": "I should fear to go in case God's patience suddenly ends.",
+      "context": "Explaining why she would not attend the degree conferral ceremony for Harry S. Truman, whom she protested as a mass murderer.",
+      "source_id": "src_003"
+    },
+    {
+      "text": "My own recollection is that it was an occasion of sober discussion of certain quite definite criticisms, which Lewis' rethinking and rewriting showed he thought was accurate.",
+      "context": "Reflecting on her famous debate with C. S. Lewis at the Socratic Club.",
+      "source_id": "src_003"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming causality requires a necessary connection or universal generalization.",
+      "why_it_fails": "It ignores that we can directly perceive causal relations in isolated events (e.g., observing a cat spilling milk) without needing to link them to a universal law.",
+      "source_id": "src_003"
+    },
+    {
+      "description": "Treating the word 'I' as a referring expression.",
+      "why_it_fails": "It leads to implied Cartesianism, failing to account for the pronoun's immunity from reference failure.",
+      "source_id": "src_003"
+    },
+    {
+      "description": "Honoring leaders who intentionally kill non-combatants.",
+      "why_it_fails": "She viewed the use of atomic bombs against civilians as mass murder, vigorously protesting Oxford's decision to grant Harry S. Truman an honorary degree.",
+      "source_id": "src_003"
+    }
+  ]
+}

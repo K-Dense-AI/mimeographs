@@ -1,0 +1,715 @@
+{
+  "total": 57,
+  "verified": 51,
+  "unverified": [
+    {
+      "category": "principles",
+      "label": "AI Should Complement Human Intelligence",
+      "quote": "there's absolutely no reason why an artificial intelligence has to be trying to be exactly the same as human intelligence... we'd be much better aiming at complenting what humans are good at in our artificial intelligences.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6816143497757847
+    },
+    {
+      "category": "principles",
+      "label": "Meaning via Use",
+      "quote": "inferentialism couches understanding as appreciating the appropriate versus inappropriate ways to use language and context so that's often summed up as a use theory of meaning... I think it fits much better with the models we're building in the llm world",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7440944881889764
+    },
+    {
+      "category": "frameworks",
+      "label": "Bagel (Exploration-Guided Synthetic Demonstrations)",
+      "quote": "we wanted to play around to produce synthetic demonstrations with an exploration policy that is a prompted llm... we use our large language models we use the second prompted large language Model A trajectory labeler that looks at a trajectory and tries to assign a natural language instruction",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7235494880546075
+    },
+    {
+      "category": "frameworks",
+      "label": "Interactive Linguistic Web Agent Loop",
+      "quote": "We're going to give it an action space... give it an objective... tell it a history of what's happened in the past and then we'll tell it about its current state... the accessibility tree that corresponds to a web page.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6073059360730594
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Confusing Vast Knowledge with Intelligence",
+      "quote": "By and large, they are good because they have enormous knowledge... but they're not actually very good at thinking about different circumstances that haven't been seen before.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7257142857142858
+    },
+    {
+      "category": "anti_patterns",
+      "label": "The 'Kaggle-ization' of ML Research",
+      "quote": "It's simultaneously both the easier thing to do and the easier way to get short-term success in the machine learning community to say okay well here's this data set... and my only goal is to build a bigger deeper neural network that'll score a higher number.",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7364341085271318
+    }
+  ],
+  "all_results": [
+    {
+      "category": "principles",
+      "label": "Adaptability as True Intelligence",
+      "quote": "the heart of human intelligence is being able to adapt to new situations to very quickly learn new things that's the real intelligence and that's not what large language models are doing",
+      "source_ids": [
+        "src_013",
+        "src_023",
+        "src_024",
+        "src_028"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Language Structure from Data",
+      "quote": "what precisely what large language models show is that actually you can learn the structure of a human language",
+      "source_ids": [
+        "src_020",
+        "src_028",
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 0.972972972972973
+    },
+    {
+      "category": "principles",
+      "label": "Compete on Ideas, Not Compute",
+      "quote": "what a much scarce supply is good ideas and it's very easy to be successful doing things at a modest scale with good ideas",
+      "source_ids": [
+        "src_016",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Linguistic Intuition Without Hardcoded Rules",
+      "quote": "I suspect that there isn't future in humans explicitly building grammarss and hoping that those can help transformers. I mean, I think instead the right way to think about it is that large neural networks like transformers are actually learning human language grammar by themselves.",
+      "source_ids": [
+        "src_019",
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "NLP as a Domain Science",
+      "quote": "Our field is the domain science of language technology; it’s not about the best method of machine learning—the central issue remains the domain problems.",
+      "source_ids": [
+        "src_022",
+        "src_044"
+      ],
+      "verified": true,
+      "matched_source_id": "src_044",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Self-Supervised Word Prediction",
+      "quote": "Despite its simple nature, the generality of word prediction, as a task that benefits from syntactic, semantic, and discourse information, leads to it being a very powerful multidimensional supervision signal.",
+      "source_ids": [
+        "src_024",
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "AGI Realism",
+      "quote": "I do not believe human-level AI (artificial superintelligence, or the commonest sense of AGI) is close at hand. AI has made breakthroughs, but the claim of AGI by 2030 is as laughable as claims of AGI by 1980 are in retrospect.",
+      "source_ids": [
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 0.986784140969163
+    },
+    {
+      "category": "principles",
+      "label": "AI Should Complement Human Intelligence",
+      "quote": "there's absolutely no reason why an artificial intelligence has to be trying to be exactly the same as human intelligence... we'd be much better aiming at complenting what humans are good at in our artificial intelligences.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6816143497757847
+    },
+    {
+      "category": "principles",
+      "label": "Career Adaptability",
+      "quote": "...really progress is made by sort of taking the old ideas, and rediscovering them and putting them together with some stuff that's been learned in the meantime, and sort of further raising the bar on where we can get to.",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 0.9864253393665159
+    },
+    {
+      "category": "principles",
+      "label": "Compositionality",
+      "quote": "Intelligence requires being able to understand bigger things from knowing about smaller parts. In particular for language, understanding novel and complex sentences crucially depends on being able to construct their meaning compositionally from smaller parts",
+      "source_ids": [
+        "src_044"
+      ],
+      "verified": true,
+      "matched_source_id": "src_044",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Foundational ML Skills First",
+      "quote": "knowing some of the core technical methods of machine learning, understanding ideas of how to build models from data, diagnose errors, all of these core things.",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Human Language as Knowledge Representation",
+      "quote": "what we've ended up with is human language as the knowledge representation and human language thinking as how we do our reasoning.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Meaning via Use",
+      "quote": "inferentialism couches understanding as appreciating the appropriate versus inappropriate ways to use language and context so that's often summed up as a use theory of meaning... I think it fits much better with the models we're building in the llm world",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7440944881889764
+    },
+    {
+      "category": "principles",
+      "label": "Modularity Over Pure End-to-End Learning",
+      "quote": "I believe ultimately that we have to have models of intelligence which have different components in different parts and there is a certain level of modularity",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Open Science and University Research",
+      "quote": "University research really underpins these new developments and often precedes it by a decade.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Principle of Least Effort",
+      "quote": "The Principle of Least Effort argues that people will act so as to minimize their probable average rate of work",
+      "source_ids": [
+        "src_035"
+      ],
+      "verified": true,
+      "matched_source_id": "src_035",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "principles",
+      "label": "Semantic Equivalence in Translation",
+      "quote": "A good translation candidate _means_ the same thing as the reference translation, regardless of formulation.",
+      "source_ids": [
+        "src_039"
+      ],
+      "verified": true,
+      "matched_source_id": "src_039",
+      "match_ratio": 0.9814814814814815
+    },
+    {
+      "category": "principles",
+      "label": "True Intelligence Requires Adaptation",
+      "quote": "the ability to learn and perform a range of techniques to solve problems and achieve goals appropriate to the context in an uncertain ever varying world.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Bagel (Exploration-Guided Synthetic Demonstrations)",
+      "quote": "we wanted to play around to produce synthetic demonstrations with an exploration policy that is a prompted llm... we use our large language models we use the second prompted large language Model A trajectory labeler that looks at a trajectory and tries to assign a natural language instruction",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7235494880546075
+    },
+    {
+      "category": "frameworks",
+      "label": "Critical Reading for Research",
+      "quote": "...you really want to be concentrating, on being awake as you read, and trying to think well what are they assuming, why are they doing it this way rather than some other way...",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 0.9661016949152542
+    },
+    {
+      "category": "frameworks",
+      "label": "Interactive Linguistic Web Agent Loop",
+      "quote": "We're going to give it an action space... give it an objective... tell it a history of what's happened in the past and then we'll tell it about its current state... the accessibility tree that corresponds to a web page.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.6073059360730594
+    },
+    {
+      "category": "frameworks",
+      "label": "Layer-Grouped Universal Transformer",
+      "quote": "we could get a lot further in uni using universal transformers if instead we had a group of layers which could implement circuits or universal computation and then we can repeat that group of layers recurrently going up.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 0.9863636363636363
+    },
+    {
+      "category": "frameworks",
+      "label": "Retrieval-Augmented Generation (RAG)",
+      "quote": "We do a usually neural network search to find relevant documents. The model then reads these documents, finds relevant pieces, and then can answer our questions about them.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "The Structural Probe Method",
+      "quote": "At a high level, this method finds a single distance metric on which, when applied to any two word representations constructed by the model for the same sentence, approximates the result of the distance metric defined by the syntax tree of that sentence",
+      "source_ids": [
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "frameworks",
+      "label": "Unsupervised Open-Ended Goal Discovery",
+      "quote": "we are able to learn by unsupervised interaction from any site that you show. So, it tries to discover what you can do with a website. It then works out ways of satisfying goals and that can then build a strong system for a web agent.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "LLMs as Talking Encyclopedias / Simulacra",
+      "quote": "I sometimes use the analogy that a large language model isn't really much more intelligent than a talking encyclopedia",
+      "source_ids": [
+        "src_013",
+        "src_023",
+        "src_028"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 0.9661016949152542
+    },
+    {
+      "category": "mental_models",
+      "label": "Software Reinvention",
+      "quote": "I think there's just no doubt at all that we're still in the early stages of seeing the impact of this new approach where effectively software computer science is being reinvented.",
+      "source_ids": [
+        "src_019",
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "Deep Learning as a Vein of Ore",
+      "quote": "Deep learning seems to be a really rich vein of awe [ore] that we've found and I don't really know how far this vein of awe extends but it sort of seems like the most productive way to make progress at the moment is to dig in the direction of the vein of awe.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.9652509652509652
+    },
+    {
+      "category": "mental_models",
+      "label": "Electricity is the new AI",
+      "quote": "I've been turning it around, and saying that electricity is the new AI, because if you look at what's been happening, people are now training models that are... ten thousand, a hundred thousand times bigger...",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 0.8325358851674641
+    },
+    {
+      "category": "mental_models",
+      "label": "Gradient Meaning",
+      "quote": "We want to say that meaning is gradient. You can partially understand appropriate context for use of a word without understanding everything that anybody knows.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.93125
+    },
+    {
+      "category": "mental_models",
+      "label": "Language Understanding as an Inverse Problem",
+      "quote": "Language understanding, like vision, can be seen as an inverse problem, where the hearer has to reconstruct structures and causes from the observed surface form.",
+      "source_ids": [
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 0.9627329192546584
+    },
+    {
+      "category": "mental_models",
+      "label": "Machine Learning as Design",
+      "quote": "Our field is the domain science of language technology; it’s not about the best method of machine learning—the central issue remains the domain problems.",
+      "source_ids": [
+        "src_044"
+      ],
+      "verified": true,
+      "matched_source_id": "src_044",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "mental_models",
+      "label": "The Noisy Channel Model",
+      "quote": "The noisy channel model for translation assumes that the true text is in French, but that, unfortunately, when it was transmitted to us, it went through a noisy communication channel and came out as English.",
+      "source_ids": [
+        "src_035"
+      ],
+      "verified": true,
+      "matched_source_id": "src_035",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Avoid the Kaggle Game",
+      "quote": "Recently at ACL conferences, there has been an over-focus on numbers, on beating the state of the art. Call it playing the Kaggle game.",
+      "source_ids": [
+        "src_044"
+      ],
+      "verified": true,
+      "matched_source_id": "src_044",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "Build from Scratch",
+      "quote": "just by building things for yourself from scratch even if they um replicate something that someone has done or a big framework from a tech company you just learn so much",
+      "source_ids": [
+        "src_024"
+      ],
+      "verified": true,
+      "matched_source_id": "src_024",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "On-the-Job Learning",
+      "quote": "We consider an \"on-the-job\" setting, where as queries arrive, we use real-time crowdsourcing to resolve uncertainty where needed and output our classification when confident.",
+      "source_ids": [
+        "src_039"
+      ],
+      "verified": true,
+      "matched_source_id": "src_039",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "heuristics",
+      "label": "The Worst Technology",
+      "quote": "The technology we're going to see for the rest of these two days is the worst technology that we're ever going to deal with in the future. It's going to keep on getting better from here.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Adaptability as Intelligence",
+      "quote": "I think you can only claim to have intelligence if you have the ability to be adaptive to different environments and to learn as you go.",
+      "source_ids": [
+        "src_013"
+      ],
+      "verified": true,
+      "matched_source_id": "src_013",
+      "match_ratio": 0.9926470588235294
+    },
+    {
+      "category": "signature_quotes",
+      "label": "AGI Skepticism",
+      "quote": "I do not believe human-level AI (artificial superintelligence, or the commonest sense of AGI) is close at hand.",
+      "source_ids": [
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 0.972972972972973
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Competing on Ideas",
+      "quote": "What a much scarce supply is good ideas and it's very easy to be successful doing things at a modest scale with good ideas.",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 0.991869918699187
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Definition of Intelligence",
+      "quote": "the ability to learn and perform a range of techniques to solve problems and achieve goals appropriate to the context in an uncertain ever varying world.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Domain Science over ML Methods",
+      "quote": "Our field is the domain science of language technology; it’s not about the best method of machine learning—the central issue remains the domain problems.",
+      "source_ids": [
+        "src_044"
+      ],
+      "verified": true,
+      "matched_source_id": "src_044",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Electricity is the new AI",
+      "quote": "I've been turning it around, and saying that electricity is the new AI, because if you look at what's been happening, people are now training models that are... ten thousand, a hundred thousand times bigger...",
+      "source_ids": [
+        "src_020"
+      ],
+      "verified": true,
+      "matched_source_id": "src_020",
+      "match_ratio": 0.8325358851674641
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Emergent Linguistic Structure",
+      "quote": "We have demonstrated the surprising extent to which BERT, an NLP representation learner trained via self-supervision on word prediction tasks, implicitly learns to recover the rich latent structure of human language.",
+      "source_ids": [
+        "src_042"
+      ],
+      "verified": true,
+      "matched_source_id": "src_042",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Human Language as Knowledge Representation",
+      "quote": "what we've ended up with is human language as the knowledge representation and human language thinking as how we do our reasoning.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "ML Eating Algorithms",
+      "quote": "Machine Learning just ate Algorithms in one large bite...",
+      "source_ids": [
+        "src_018"
+      ],
+      "verified": true,
+      "matched_source_id": "src_018",
+      "match_ratio": 0.9473684210526315
+    },
+    {
+      "category": "signature_quotes",
+      "label": "Software Reinvention",
+      "quote": "I think there's just no doubt at all that we're still in the early stages of seeing the impact of this new approach where effectively software computer science is being reinvented.",
+      "source_ids": [
+        "src_019"
+      ],
+      "verified": true,
+      "matched_source_id": "src_019",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The End of Explicit Grammars",
+      "quote": "I suspect that there isn't future in humans explicitly building grammarss and hoping that those can help transformers.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Need for Modularity",
+      "quote": "I believe ultimately that we have to have models of intelligence which have different components in different parts and there is a certain level of modularity.",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": true,
+      "matched_source_id": "src_016",
+      "match_ratio": 0.9937106918238994
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Talking Encyclopedia",
+      "quote": "I sometimes use the analogy that a large language model isn't really much more intelligent than a talking encyclopedia",
+      "source_ids": [
+        "src_028"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 0.9661016949152542
+    },
+    {
+      "category": "signature_quotes",
+      "label": "The Worst Technology",
+      "quote": "The technology we're going to see for the rest of these two days is the worst technology that we're ever going to deal with in the future. It's going to keep on getting better from here.",
+      "source_ids": [
+        "src_023"
+      ],
+      "verified": true,
+      "matched_source_id": "src_023",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Assuming Scaling Leads to AGI",
+      "quote": "people have been trying to sell the story that just keep with what we have and make it bigger and bigger and bigger and we'll solve AI which I don't actually believe myself",
+      "source_ids": [
+        "src_020",
+        "src_028"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Trusting LLM Reasoning Blindly",
+      "quote": "I actually don't think we should say at the moment that large language models can reason they can behave in ways that it looks like they can reason",
+      "source_ids": [
+        "src_023",
+        "src_028"
+      ],
+      "verified": true,
+      "matched_source_id": "src_028",
+      "match_ratio": 1.0
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Confusing Vast Knowledge with Intelligence",
+      "quote": "By and large, they are good because they have enormous knowledge... but they're not actually very good at thinking about different circumstances that haven't been seen before.",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7257142857142858
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Evaluating Translation Without Semantics",
+      "quote": "Current evaluation metrics for machine translation have increasing difficulty in distinguishing good from merely fair translations. We believe the main problem to be their inability to properly capture _meaning_.",
+      "source_ids": [
+        "src_039"
+      ],
+      "verified": true,
+      "matched_source_id": "src_039",
+      "match_ratio": 0.9905660377358491
+    },
+    {
+      "category": "anti_patterns",
+      "label": "Relying on Formal Reasoning Systems",
+      "quote": "this informal ubiquitous probably 100,000 years old technology invented by humans of human languages has completely won over the formal languages of recent centuries",
+      "source_ids": [
+        "src_011"
+      ],
+      "verified": true,
+      "matched_source_id": "src_011",
+      "match_ratio": 0.9939393939393939
+    },
+    {
+      "category": "anti_patterns",
+      "label": "The 'Kaggle-ization' of ML Research",
+      "quote": "It's simultaneously both the easier thing to do and the easier way to get short-term success in the machine learning community to say okay well here's this data set... and my only goal is to build a bigger deeper neural network that'll score a higher number.",
+      "source_ids": [
+        "src_016"
+      ],
+      "verified": false,
+      "matched_source_id": null,
+      "match_ratio": 0.7364341085271318
+    }
+  ]
+}

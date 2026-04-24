@@ -1,0 +1,45 @@
+{
+  "source_id": "src_039",
+  "summary": "This source is a brief landing page for Mary Wollstonecraft's 'A Vindication of the Rights of Woman'. It provides minimal biographical context and two truncated quotes highlighting her reliance on independent reason and her indignation toward the societal degradation of women.",
+  "themes": [
+    "Women's Rights",
+    "Reason",
+    "Virtue"
+  ],
+  "principles": [
+    {
+      "statement": "Women are degraded by their circumstances, not by an inherent natural weakness.",
+      "rationale": "She contrasts the assumption of women's natural weakness with the reality of their degrading circumstances, comparing the subjugation of women to the flawed arguments aristocrats use to subjugate the masses.",
+      "source_quote": "That woman is naturally weak, or degraded by a concurrence of circumstances, is, I think, clear.",
+      "source_id": "src_039"
+    },
+    {
+      "statement": "You must exert your own reason to support your virtue.",
+      "rationale": "Relying on one's own reason and a higher power, rather than societal dictates, is necessary to maintain true virtue and to recognize the mistaken notions that enslave women.",
+      "source_quote": "...gave me sufficient strength of mind to dare to exert my own reason, till, becoming dependent only on him for the support of my virtue, I view, with indignation, the mistaken notions that enslave my sex.",
+      "source_id": "src_039"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "These may be termed utopian dreams. – Thanks to that Being who impressed them on my soul, and gave me sufficient strength of mind to dare to exert my own reason, till, becoming dependent only on him for the support of my virtue, I view, with indignation, the mistaken notions that enslave my sex.",
+      "context": "Defending her vision for women's rights and her reliance on independent reason.",
+      "source_id": "src_039"
+    },
+    {
+      "text": "That woman is naturally weak, or degraded by a concurrence of circumstances, is, I think, clear. But this position I shall simply contrast with a conclusion, which I have frequently heard fall from sensible men in favour of an aristocracy: that the mass of mankind cannot be any thing, or the…",
+      "context": "Comparing the subjugation of women to the subjugation of the masses by an aristocracy.",
+      "source_id": "src_039"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Accepting the societal notions that women are naturally weak or inferior.",
+      "why_it_fails": "These are 'mistaken notions' that actively enslave women and prevent them from exerting their own reason to support their virtue.",
+      "source_id": "src_039"
+    }
+  ]
+}

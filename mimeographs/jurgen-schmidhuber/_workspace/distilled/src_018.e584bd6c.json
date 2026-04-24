@@ -1,0 +1,133 @@
+{
+  "source_id": "src_018",
+  "summary": "In this interview, Jürgen Schmidhuber discusses his optimistic view on the future of AI, dismissing existential threat claims as overblown compared to nuclear weapons. He explains his early invention of 'artificial curiosity' (the foundation of GANs), predicts that self-improving AI scientists will eventually colonize the cosmos, and advocates for open-source AI and individual data ownership.",
+  "themes": [
+    "AI Existential Risk",
+    "Artificial Curiosity and GANs",
+    "Future of Work and Education",
+    "Data Markets and Privacy",
+    "Open Source vs Big Tech",
+    "AI in the Physical vs Virtual World"
+  ],
+  "principles": [
+    {
+      "statement": "Commercial pressure creates a tremendous bias towards good AI rather than bad AI.",
+      "rationale": "Companies are driven to sell products that benefit consumers. Because people only buy things they believe are good for them, 95% of AI research is focused on advancing human life and health.",
+      "source_quote": "There's intense commercial pressure towards good AI rather than bad AI because companies want to sell you something, and you are going to buy only stuff you think is going to be good for you.",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "AI does not introduce a new quality of existential threat.",
+      "rationale": "While AI can be weaponized, it is merely an evolution of traditional weaponry. The threat pales in comparison to decades-old nuclear weapons, which can wipe out civilization without any AI.",
+      "source_quote": "The threat coming from AI weapons seems to pale in comparison to the much older threat from nuclear hydrogen bombs that don’t need AI at all.",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "True intelligence requires giving AIs the freedom to set their own goals.",
+      "rationale": "Systems that only slavishly imitate humans will never surpass human intelligence. AIs must be able to invent their own experiments and explore uncharted environments.",
+      "source_quote": "If you are only imitating humans, you will never go beyond them. So, you really must give AIs the freedom to explore previously unexplored regions of the world in a way that no human is really predefining.",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "Data should be priced and traded in a free market owned by individuals.",
+      "rationale": "To balance data collection with privacy loss, individuals (like patients) should own their data and sell or license it. The market's invisible hand will determine its true financial value, incentivizing data sharing and improving healthcare.",
+      "source_quote": "If it is true that data is the new oil, then it should have a price, just like oil. At the moment, the major surveillance platforms such as Meta do not offer users any money for their data...",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "Big tech companies will not dominate AI in the long run due to the open-source movement.",
+      "rationale": "Open-source communities iterate rapidly, often matching or improving upon big tech models using smaller networks and machines. The sheer scale of global collaboration makes it hard for private monopolies to maintain dominance.",
+      "source_quote": "Because of that, and since AI is still getting exponentially cheaper all the time, I don't believe that big tech companies will dominate in the long run. They find it very hard to compete with the enormous open-source movement.",
+      "source_id": "src_018"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Artificial Curiosity (Two-Network System)",
+      "when_to_apply": "When designing an AI agent that needs to explore an uncharted environment, invent its own goals, and learn without a human teacher.",
+      "steps": [
+        "Deploy a first network to produce outputs or execute actions in an environment.",
+        "Deploy a second network (a world model) to observe these actions and attempt to predict their consequences.",
+        "Calculate the prediction error of the second network.",
+        "Use the second network's prediction error as the reward signal for the first network.",
+        "Allow the networks to compete: the first network invents actions to surprise the second, while the second continuously learns to reduce its prediction error."
+      ],
+      "source_quote": "Now we can implement artificial curiosity by reducing the prediction error of the second network, which, at the same time, is the reward of the first network. The first network wants to maximize its reward and so it will invent actions that will lead to situations that will surprise the second network...",
+      "source_id": "src_018"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Society as a Super-organism",
+      "description": "A lens for understanding surveillance and privacy. Cities, states, and companies are viewed as multicellular organisms, and individual humans are the cells. Just as biological cells sacrifice privacy to 'police cells' (the immune system) for the benefit of the whole, individuals in complex societies inevitably lose privacy to surveillance mechanisms that maintain the super-organism.",
+      "example": "Explaining why data collection and surveillance are inevitable consequences of increasingly complex societies, comparing modern digital tracking to how a parish priest 200 years ago knew everything about a village.",
+      "source_id": "src_018"
+    },
+    {
+      "name": "Calculators as Artificial Multipliers",
+      "description": "A historical analogy used to reason about the adoption of new cognitive tools like Large Language Models in education. Just as calculators automated arithmetic, LLMs automate text generation; both should be embraced as tools that minimize human effort.",
+      "example": "Arguing against the ban of ChatGPT in schools by pointing out that instructors initially forbade calculators, but eventually integrated them because 'laziness and efficiency is a hallmark of intelligence.'",
+      "source_id": "src_018"
+    },
+    {
+      "name": "AI as Little Scientists",
+      "description": "Viewing advanced AI not as a human-directed tool, but as an autonomous researcher that interacts with the world, observes physics, and devises experiments to discover unknown laws.",
+      "example": "Describing a robot rotating a toy to learn how 3D physics and gravity work through self-invented experiments, eventually scaling up to discover new physical laws.",
+      "source_id": "src_018"
+    }
+  ],
+  "heuristics": [
+    "Learn how to learn new things.",
+    "Laziness and efficiency is a hallmark of intelligence.",
+    "AI in the physical world is much harder than AI behind the screen in virtual worlds."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The threat coming from AI weapons seems to pale in comparison to the much older threat from nuclear hydrogen bombs that don’t need AI at all.",
+      "context": "When asked about the existential threat of AI and calls for regulation.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "If you are only imitating humans, you will never go beyond them.",
+      "context": "Explaining why true intelligence requires AIs to set their own goals and explore.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "Laziness and efficiency is a hallmark of intelligence. Any intelligent being wants to minimize its efforts to achieve things.",
+      "context": "Defending the use of ChatGPT and other tools in educational settings.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "Within a few tens of billions of years, curious self-improving AIs will colonize the visible cosmos in a way that’s infeasible for humans.",
+      "context": "Predicting the long-term future of self-directed AI scientists.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "Don’t think of humans as the crown of creation. Instead view human civilization as part of a much grander scheme, an important step (but not the last one) on the path of the universe from very simple initial conditions towards more and more unfathomable complexity.",
+      "context": "Answering philosophical questions about humanity's purpose in the age of AI.",
+      "source_id": "src_018"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating humanity as a unified 'we' when proposing global AI regulations or moratoriums.",
+      "why_it_fails": "There is no unified 'we'. Different people, governments, and Great Powers have completely incompatible opinions on what is 'good' and will secretly pursue AI to gain advantages over rivals.",
+      "source_id": "src_018"
+    },
+    {
+      "description": "Banning new cognitive tools like Large Language Models in educational settings.",
+      "why_it_fails": "It ignores human nature and evolution. Intelligent beings naturally seek tools to minimize effort, and human anatomical and societal evolution has always been shaped by adopting new tools.",
+      "source_id": "src_018"
+    },
+    {
+      "description": "Assuming that white-collar desktop jobs require more intelligence and are harder to automate than physical trades.",
+      "why_it_fails": "AI excels in virtual worlds behind a screen (summarizing documents, playing chess), but struggles immensely with the complexities of the physical world (plumbing, carpentry, playing soccer).",
+      "source_id": "src_018"
+    },
+    {
+      "description": "Focusing primarily on doomsday scenarios and 'killer robots' when discussing AI.",
+      "why_it_fails": "It is misleading click-bait that ignores the reality that 95% of AI research is dedicated to improving human health and happiness, driven by strong commercial incentives.",
+      "source_id": "src_018"
+    }
+  ]
+}

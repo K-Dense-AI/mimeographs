@@ -1,0 +1,48 @@
+{
+  "source_id": "src_023",
+  "summary": "A co-authored prospective cohort study investigating the association between red meat intake and coronary heart disease (CHD). Stampfer and his colleagues demonstrate that replacing red meat with high-quality plant proteins, dairy, or whole grains significantly reduces CHD risk, while highlighting the methodological importance of explicit substitution analysis in nutritional epidemiology.",
+  "themes": [
+    "Nutritional epidemiology",
+    "Coronary heart disease (CHD)",
+    "Dietary substitution analysis",
+    "Plant-based proteins",
+    "Red meat consumption"
+  ],
+  "principles": [
+    {
+      "statement": "Substituting high-quality plant foods for red meat reduces the risk of coronary heart disease.",
+      "rationale": "Replacing red meat with plant proteins like nuts, legumes, and soy decreases intake of saturated fats, cholesterol, and heme iron, while increasing intake of unsaturated fat, fiber, and antioxidants.",
+      "source_quote": "Compared with intake of total, unprocessed, or processed red meat, intake of high quality plant based protein foods such as nuts, legumes, and soy in addition to whole grains and dairy products were each associated with a lower risk of CHD.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Long-term diet is best measured using cumulative averages of repeated assessments rather than single measurements.",
+      "rationale": "Using cumulative averages minimizes random measurement error resulting from within-person variation and accounts for real changes in diet over time.",
+      "source_quote": "The cumulative averages of repeated assessments of intake were used to minimize random measurement error resulting from within person variation and to account for real changes in diet over time.",
+      "source_id": "src_023"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Dietary Substitution Analysis",
+      "description": "Evaluating the health impact of a food not in isolation, but by explicitly modeling what alternative food replaces it in an isocaloric diet.",
+      "example": "Comparing the CHD risk of consuming one serving of red meat versus one serving of nuts, legumes, or soy, rather than just looking at red meat consumption against a vague baseline diet.",
+      "source_id": "src_023"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Failing to specify comparison foods when analyzing the health impacts of a specific food group.",
+      "why_it_fails": "It implicitly compares the food to the baseline diet of the population (which often consists of refined starches, sugars, and unhealthy fats). If a study finds no association with disease, it may simply mean the food is just as unhealthy as the suboptimal alternatives.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Relying solely on the most recent dietary data in prospective cohort studies.",
+      "why_it_fails": "It introduces reverse causation bias, as participants may have already changed their diet after developing symptoms or receiving a disease-related diagnosis.",
+      "source_id": "src_023"
+    }
+  ]
+}

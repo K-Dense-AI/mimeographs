@@ -1,0 +1,109 @@
+{
+  "source_id": "src_012",
+  "summary": "Kaiming He provides a high-level overview of generative modeling, explaining it fundamentally as the mapping of simple probability distributions to complex data distributions. He argues that generative models represent the next level of abstraction in deep learning and that almost any real-world problem can be reframed as a conditional distribution problem.",
+  "themes": [
+    "Generative Modeling",
+    "Probability Distributions",
+    "Deep Learning Abstractions",
+    "Flow Matching",
+    "Conditional Generation"
+  ],
+  "principles": [
+    {
+      "statement": "Almost any real-world problem can be formulated as a generative model.",
+      "rationale": "By viewing problems as conditional distributions where you generate an output X based on a condition Y, you can apply generative models to anything from image creation to protein design and robotics, because there are no strict constraints on what X and Y can be.",
+      "source_quote": "in my opinion actually there is no any constraints or requirements about what can be X or what can be Y. so they conceptually they can be anything so that means we can use generative models to solve many kinds of real world problems",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Generative modeling is fundamentally harder than discriminative modeling because it maps distributions, not just instances.",
+      "rationale": "Supervised learning maps paired inputs to outputs (e.g., an image to a label). Generative modeling is an unsupervised problem that must figure out how to map a simple noise distribution to a complex data distribution without explicit instance-to-instance pairing.",
+      "source_quote": "conceptually it is not just about mapping pairs of images or pairs of data it's about mapping two distributions... and this is why gentic modeling is hard",
+      "source_id": "src_012"
+    },
+    {
+      "statement": "Generative models are the new building blocks of AI.",
+      "rationale": "Just as individual layers (like ReLU or convolutions) were the building blocks for deep neural networks a decade ago, generative models are now the foundational abstractions used to build higher-level reasoning and agentic systems.",
+      "source_quote": "these existing generative models will become another level of building blocks... generative model is the next level of deep learning and it's also the next level of obstruction",
+      "source_id": "src_012"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Conditional Distribution Formulation",
+      "when_to_apply": "When trying to apply generative AI to solve a new real-world problem (e.g., robotics, biology, open-vocabulary recognition).",
+      "steps": [
+        "Identify the condition 'Y' (usually abstract, less informative, or lower-dimensional, such as a text prompt or an input image).",
+        "Identify the target data 'X' (usually concrete, higher-dimensional, and more informative, such as a 3D protein structure or a robot trajectory).",
+        "Formulate the problem as estimating the conditional probability distribution of X given Y.",
+        "Apply modern generative modeling tools to learn this mapping."
+      ],
+      "source_quote": "we can just try to formulate all these real world problems as kind of conditional distribution problem and then we can try to apply the latest advance in generative models as a tool for this problem",
+      "source_id": "src_012"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Generative Modeling as Distribution Mapping",
+      "description": "Viewing generative models not merely as instance generators, but as mathematical functions that transform a simple, known probability distribution (like Gaussian noise) into a complex, unknown data distribution.",
+      "example": "A neural network takes a completely noisy image (sampled from a Gaussian distribution) and maps it to a visually reasonable image (sampled from the data distribution of dogs).",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Flow Matching as 3D Morphing",
+      "description": "Understanding diffusion and flow matching through the lens of computer graphics, where transforming a simple distribution into a complex one is analogous to morphing a basic 3D geometric shape into a complex one.",
+      "example": "Progressively warping a 3D sphere into a 3D bunny is conceptually identical to flowing from a simple Gaussian distribution to a target data distribution.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "The Abstraction Stack",
+      "description": "Viewing AI progress as a stack of increasingly complex building blocks, where each era's final product becomes the next era's primitive component.",
+      "example": "Layers (ReLU, Softmax) built Deep Neural Networks. Deep Neural Networks build Generative Models. Generative Models build Reasoning Agents.",
+      "source_id": "src_012"
+    },
+    {
+      "name": "Discriminative Tasks as Generative Tasks",
+      "description": "Reframing traditional classification (given an image, predict a fixed label) as conditional generation (given an image as condition Y, generate text X).",
+      "example": "Instead of a closed-vocabulary classifier outputting 'bird', a generative model can output 'flamingo' or 'red color', enabling open-vocabulary recognition and image captioning.",
+      "source_id": "src_012"
+    }
+  ],
+  "heuristics": [
+    "In conditional generation, the condition (Y) is usually abstract and low-dimensional, while the output (X) is concrete and high-dimensional.",
+    "If a problem has multiple plausible correct answers (like robot trajectories or image generation), it should be modeled as a generative probability distribution rather than a single prediction."
+  ],
+  "signature_quotes": [
+    {
+      "text": "a generative model is a mapping between distributions. it is not just a mapping between a pair of data points and a label",
+      "context": "Explaining the fundamental difference between generative and discriminative models.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "perhaps today every single problem could be formulated as a kind of generative models",
+      "context": "Discussing the expanding scope and power of generative modeling.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "in my opinion actually there is no any constraints or requirements about what can be X or what can be Y. so they conceptually they can be anything",
+      "context": "Explaining how conditional distributions can be applied to any domain.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "generative models are the next level of abstractions",
+      "context": "Comparing the role of generative models today to the role of neural network layers a decade ago.",
+      "source_id": "src_012"
+    },
+    {
+      "text": "the next level of programming language would just be English or human language",
+      "context": "Discussing how generative AI assistants are changing software development.",
+      "source_id": "src_012"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating image classification strictly as a closed-vocabulary discriminative problem.",
+      "why_it_fails": "It limits the model to a predefined set of labels. Formulating it as a generative model (where the image is the condition and the text is the generated output) unlocks open-vocabulary recognition and rich image captioning.",
+      "source_id": "src_012"
+    }
+  ]
+}

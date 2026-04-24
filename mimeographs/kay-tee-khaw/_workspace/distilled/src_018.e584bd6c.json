@@ -1,0 +1,41 @@
+{
+  "source_id": "src_018",
+  "summary": "A randomized, double-blind, placebo-controlled trial (the ViDA study) co-authored by Kay-Tee Khaw, which concludes that monthly high-dose vitamin D supplementation does not prevent falls or non-vertebral fractures in healthy, ambulatory older adults.",
+  "themes": [
+    "Vitamin D supplementation",
+    "Fracture prevention",
+    "Fall prevention",
+    "Randomized controlled trials",
+    "Public health interventions"
+  ],
+  "principles": [
+    {
+      "statement": "Large monthly bolus doses of vitamin D do not prevent falls or fractures in healthy, ambulatory adults.",
+      "rationale": "Results from a large-scale randomized controlled trial showed that administering 100,000 IU of colecalciferol monthly over several years yielded no significant reduction in the risk of falls or fractures compared to a placebo.",
+      "source_quote": "High-dose bolus vitamin D supplementation of 100 000 IU colecalciferol monthly over 2·5–4·2 years did not prevent falls or fractures in this healthy, ambulatory, adult population.",
+      "source_id": "src_018"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "High-dose bolus vitamin D supplementation of 100 000 IU colecalciferol monthly over 2·5–4·2 years did not prevent falls or fractures in this healthy, ambulatory, adult population.",
+      "context": "Concluding the findings of the ViDA trial regarding secondary and post-hoc outcomes.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "These findings, taken in conjunction with results from other trials, suggest that large monthly bolus doses of vitamin D do not confer overall benefit either in frail elderly people or in a healthy, ambulatory, general population.",
+      "context": "Discussing the broader implications of the trial's evidence on public health practices.",
+      "source_id": "src_018"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on large, intermittent (monthly) bolus doses of vitamin D to prevent falls and fractures in the general population.",
+      "why_it_fails": "Clinical trial data demonstrates that this specific dosing strategy fails to confer overall musculoskeletal benefits or reduce fall/fracture risks in either frail elderly or healthy ambulatory populations.",
+      "source_id": "src_018"
+    }
+  ]
+}

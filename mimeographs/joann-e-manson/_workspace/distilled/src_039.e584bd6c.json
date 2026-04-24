@@ -1,0 +1,57 @@
+{
+  "source_id": "src_039",
+  "summary": "In this landmark Women's Health Initiative (WHI) report, JoAnn E. Manson and colleagues present the final results on the relationship between estrogen plus progestin and coronary heart disease. The trial demonstrates that combined hormone therapy does not confer cardiac protection and actually increases the risk of coronary events, leading to the definitive recommendation against its use for cardiovascular disease prevention.",
+  "themes": [
+    "Women's Health",
+    "Hormone Replacement Therapy",
+    "Coronary Heart Disease",
+    "Preventive Medicine",
+    "Clinical Trials"
+  ],
+  "principles": [
+    {
+      "statement": "Estrogen plus progestin should not be prescribed for the prevention of cardiovascular disease.",
+      "rationale": "Randomized clinical trials, including the WHI, demonstrate that combined hormone therapy does not confer cardiac protection and actually increases the risk of coronary heart disease, especially during the first year of use.",
+      "source_quote": "This treatment should not be prescribed for the prevention of cardiovascular disease.",
+      "source_id": "src_039"
+    },
+    {
+      "statement": "The only clear indication for estrogen-plus-progestin therapy is the short-term treatment of menopausal symptoms.",
+      "rationale": "Because the combined excess risk of CHD, stroke, venous thromboembolism, and breast cancer outweighs the benefits for primary prevention, the regimen is not viable for long-term disease prevention.",
+      "source_quote": "The trial did not address the role of estrogen plus progestin for the short-term treatment of menopausal symptoms, which remains the only clear indication for the use of this regimen.",
+      "source_id": "src_039"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Estrogen plus progestin does not confer cardiac protection and may increase the risk of CHD among generally healthy postmenopausal women, especially during the first year after the initiation of hormone use.",
+      "context": "Summarizing the primary findings of the WHI trial regarding combined hormone therapy and heart disease.",
+      "source_id": "src_039"
+    },
+    {
+      "text": "This treatment should not be prescribed for the prevention of cardiovascular disease.",
+      "context": "Providing a definitive clinical recommendation based on the trial's adverse cardiovascular outcomes.",
+      "source_id": "src_039"
+    },
+    {
+      "text": "None of these variables should be used at this time for risk stratification or for the identification of women who may be more or less vulnerable to an adverse coronary outcome when given hormone therapy.",
+      "context": "Warning against the use of biomarkers or clinical characteristics to find 'safe' subgroups for hormone therapy.",
+      "source_id": "src_039"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Prescribing combined hormone therapy (estrogen plus progestin) for the primary or secondary prevention of cardiovascular disease in postmenopausal women.",
+      "why_it_fails": "It actively increases the risk of coronary heart disease, stroke, and venous thromboembolism, with the overall risks outweighing the benefits.",
+      "source_id": "src_039"
+    },
+    {
+      "description": "Using biomarkers (like C-reactive protein) or clinical characteristics (like age or time since menopause) to risk-stratify women and identify a 'safe' subgroup for hormone therapy.",
+      "why_it_fails": "Extensive subgroup analyses showed that these variables do not significantly modulate the adverse coronary risks associated with hormone therapy; the risk applies broadly across demographics.",
+      "source_id": "src_039"
+    }
+  ]
+}

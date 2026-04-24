@@ -1,0 +1,132 @@
+{
+  "source_id": "src_034",
+  "summary": "In this 2018 ICLR fireside chat, Daphne Koller discusses her career trajectory from academia to industry, the founding of Coursera, and her focus on applying machine learning to biology and healthcare. She emphasizes the importance of interdisciplinary collaboration, the need for 'bilingual' researchers, and the value of tackling societally meaningful problems over purely algorithmic gymnastics.",
+  "themes": [
+    "Machine Learning in Healthcare and Biology",
+    "Career Decision Making",
+    "Interdisciplinary Collaboration",
+    "Women in Tech and Academia",
+    "Technology Transfer",
+    "Deep Learning vs. Traditional Models"
+  ],
+  "principles": [
+    {
+      "statement": "Maximize your unique value.",
+      "rationale": "When choosing what to work on, consider not just the absolute value of the work, but the value you bring relative to what would happen if someone else took your place. If 500 other people could do it just as well, it's not the ideal use of your time.",
+      "source_quote": "for me it's not just how much value I've brought but even moreso how much value I bring relative to what would happen if you were to take me out and put in someone else.",
+      "source_id": "src_034"
+    },
+    {
+      "statement": "Technology transfer requires warm bodies.",
+      "rationale": "You cannot simply publish a paper and expect industry to adopt it. Real change requires the people who developed the ideas to transition with them and champion them into practice.",
+      "source_quote": "the ability to get companies out there to take ideas that are developed in academia and really see them through to the point that they actually make their way into product is very difficult unless you transition people along with the ideas",
+      "source_id": "src_034"
+    },
+    {
+      "statement": "Treat interdisciplinary partners as equal collaborators.",
+      "rationale": "Domain experts (like biologists) think differently and have different vocabularies, but they are not less intelligent. Approaching them with arrogance ruins the collaboration.",
+      "source_quote": "if you come into the conversation with we're really smart machine learning people we're gonna replace you that's a very bad starting point",
+      "source_id": "src_034"
+    },
+    {
+      "statement": "Don't be afraid to try something big.",
+      "rationale": "People rarely regret trying something ambitious and failing; they mostly regret not trying at all.",
+      "source_quote": "very few people regret having tried something and failed a lot of people regret not having tried",
+      "source_id": "src_034"
+    },
+    {
+      "statement": "Interpretability is a nuanced, problem-by-problem requirement.",
+      "rationale": "Not every model needs to be perfectly interpretable. The need for interpretability depends entirely on whether the goal is basic scientific discovery or simply making highly accurate predictions.",
+      "source_quote": "I think interpretability is a nuanced question and one needs to instead of jumping all over Oh everything needs to be interpretable or nothing needs to be interpreted well it's very much a question at you know a data set by data set and a problem by problem",
+      "source_id": "src_034"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Interdisciplinary Dataset Design",
+      "when_to_apply": "When trying to apply machine learning to a new scientific domain like biology.",
+      "steps": [
+        "Put domain scientists and machine learning experts in a room together as equal partners.",
+        "Ask the domain experts to identify the really big questions they wish they had a magic wand to solve.",
+        "Evaluate if machine learning is actually the right tool for those specific questions.",
+        "Collaboratively design experiments and datasets specifically to allow ML approaches to be trained and applied effectively."
+      ],
+      "source_quote": "take those two groups put them in the room and say what are the really big questions that you wish you had a magic wand and would like to solve... let's think about how to design data sets that will allow the machine learning approaches to be trained effectively",
+      "source_id": "src_034"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Inverted Funnel of Drug Development",
+      "description": "A lens for viewing the inefficiency of traditional pharma. Currently, little money is spent on early, data-driven exploration (the wide part of the funnel), while massive amounts are spent on Phase 3 clinical trials (the narrow end), where companies are essentially 'praying' the drug works. Inverting this means spending more on upfront ML-driven exploration to drastically increase the success rate of the expensive later stages.",
+      "example": "Using machine learning and large-scale biological datasets to explore a broader set of hypotheses upfront, rather than relying on narrow, intuitive biological knowledge to pick a single target.",
+      "source_id": "src_034"
+    },
+    {
+      "name": "Bilingualism in Science",
+      "description": "The concept that true interdisciplinary work requires individuals who are fluent in the 'languages' (vocabularies, mindsets, and techniques) of two distinct fields, such as machine learning and biology.",
+      "example": "A PhD student taking biology classes and reading biology papers so they can sit in the middle of an organization and translate between the computational and life science teams.",
+      "source_id": "src_034"
+    }
+  ],
+  "heuristics": [
+    "Don't be afraid to sound stupid by asking stupid questions.",
+    "If you're doing a start-up, hire people who complement you in skill set.",
+    "Speak up when you see subtle derogatory behaviors; it's easier for a bystander to correct it than the victim.",
+    "Avoid the mindset of 'I have an amazing hammer so everything must be a nail.'"
+  ],
+  "signature_quotes": [
+    {
+      "text": "I want to know that I've left the world a better place for my being there and for me... it's not just how much value I've brought but even moreso how much value I bring relative to what would happen if you were to take me out and put in someone else.",
+      "context": "When asked how young people should choose their career paths.",
+      "source_id": "src_034"
+    },
+    {
+      "text": "Very few people regret having tried something and failed a lot of people regret not having tried.",
+      "context": "Discussing her regrets and advising people to take on big challenges.",
+      "source_id": "src_034"
+    },
+    {
+      "text": "The only way to do transfer is via warm bodies.",
+      "context": "Explaining why she had to leave Stanford to ensure Coursera succeeded.",
+      "source_id": "src_034"
+    },
+    {
+      "text": "If you come into the conversation with we're really smart machine learning people we're gonna replace you that's a very bad starting point for the hug.",
+      "context": "Advising ML students on how to collaborate with biologists.",
+      "source_id": "src_034"
+    },
+    {
+      "text": "I think it's really important to avoid a mindset of I have an amazing hammer so everything must be a nail.",
+      "context": "Discussing the dominance of deep learning and when to use other methods.",
+      "source_id": "src_034"
+    },
+    {
+      "text": "If we all stopped looking at the exact same datasets that everyone else has looked at a whole new set of challenges will immediately emerge and jump out at you.",
+      "context": "Encouraging ML researchers to look beyond standard benchmark datasets.",
+      "source_id": "src_034"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Throwing data 'over the wall'.",
+      "why_it_fails": "Scientists generate datasets in isolation based on their own hypotheses and hand them to computational teams to analyze. This fails because it doesn't encourage the kind of experimental design needed to drive innovative machine learning.",
+      "source_id": "src_034"
+    },
+    {
+      "description": "Valuing 'cool mental gymnastics' over simple solutions to important problems.",
+      "why_it_fails": "The ML community often devalues papers that use simple ideas to solve societally meaningful problems. This turns away people (often women) who care about real-world impact rather than just algorithmic novelty.",
+      "source_id": "src_034"
+    },
+    {
+      "description": "Assuming deep learning is the solution to every problem.",
+      "why_it_fails": "It ignores the reality of fields like biology where datasets are small, highly heterogeneous, and require the integration of prior knowledge to compensate for the lack of sample size.",
+      "source_id": "src_034"
+    },
+    {
+      "description": "Trying to answer causal questions with purely observational data.",
+      "why_it_fails": "Observational data in healthcare is riddled with confounders (e.g., doctor prescribing habits, patient compliance, socioeconomic status) that cannot be corrected for without interventional/causal frameworks.",
+      "source_id": "src_034"
+    }
+  ]
+}

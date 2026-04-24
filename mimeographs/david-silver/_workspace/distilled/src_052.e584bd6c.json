@@ -1,0 +1,122 @@
+{
+  "source_id": "src_052",
+  "summary": "In his 2009 PhD thesis, David Silver introduces a unified framework for reinforcement learning and simulation-based search, using Computer Go as a primary case study. He proposes that in 'big worlds' with massive state spaces, agents should rely on simple, scalable ideas like temporality—focusing evaluation on the current local subgame rather than the entire state space—and introduces algorithms like Temporal-Difference Search and the Dyna-2 architecture.",
+  "themes": [
+    "Reinforcement Learning",
+    "Simulation-Based Search",
+    "Computer Go",
+    "Temporality",
+    "Monte-Carlo Tree Search (MCTS)",
+    "State Abstraction"
+  ],
+  "principles": [
+    {
+      "statement": "In large, realistic domains, only the simplest and clearest ideas succeed.",
+      "rationale": "Toy domains can be misleading because sophisticated ideas that work well in small microworlds often fail to scale up to larger, more complex environments.",
+      "source_quote": "In contrast, big worlds act as a form of Occam’s razor, with only the simplest and clearest ideas achieving success.",
+      "source_id": "src_052"
+    },
+    {
+      "statement": "Focus the agent's representation on the current region of the state space rather than attempting to approximate the entire state space.",
+      "rationale": "In very large worlds like Go, state abstraction cannot provide an accurate global approximation because each parameter would have to compress the values of vastly too many states.",
+      "source_quote": "Rather than trying to approximate the entire state space, our idea is to specialise the evaluation function to the current region of the state space.",
+      "source_id": "src_052"
+    },
+    {
+      "statement": "Learning and planning are fundamentally the same process applied to different sources of experience.",
+      "rationale": "During learning, the agent updates its policy from real-world interactions; during planning, it updates its policy from simulated interactions with a model. Both use reinforcement learning algorithms to improve behavior.",
+      "source_quote": "Our thesis is that an agent can both learn and plan effectively using reinforcement learning algorithms.",
+      "source_id": "src_052"
+    },
+    {
+      "statement": "Use bootstrapping to reduce the variance of evaluations in problems with long-term consequences.",
+      "rationale": "Waiting hundreds of time-steps for a final outcome introduces high variance due to uncertain responses. Estimating the current value from the estimated value at the next time-step mitigates this.",
+      "source_quote": "Bootstrapping is a general method for reducing the variance of an estimate, by updating a guess from a guess.",
+      "source_id": "src_052"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Five Simple Ideas for Big Worlds",
+      "when_to_apply": "When designing artificial intelligence agents for large, complex, and realistic domains (like Computer Go or real-world decision making).",
+      "steps": [
+        "Value function: Summarize the long-term effects of the agent's decisions into a single number to maximize.",
+        "State abstraction: Compress the state into a smaller number of features to generalize between related states.",
+        "Temporality: Focus the representation on the current region of the state space rather than the entire space.",
+        "Bootstrapping: Estimate current values based on subsequent evaluations to reduce variance.",
+        "Sample-based planning: Simulate hypothetical experience using a model of the world to learn better performance."
+      ],
+      "source_quote": "In this thesis we combine five simple ideas for achieving high performance in big worlds.",
+      "source_id": "src_052"
+    },
+    {
+      "name": "Dyna-2 Architecture",
+      "when_to_apply": "When an agent needs to combine general domain knowledge with highly specific, situational tactics.",
+      "steps": [
+        "Acquire general domain knowledge offline from past interactions with the world (Long-term memory).",
+        "Acquire local knowledge specialized to the current state online by simulating future interactions (Short-term memory).",
+        "Combine both forms of knowledge to evaluate positions and select the optimal action."
+      ],
+      "source_quote": "The temporal-difference learning algorithm acquires general domain knowledge from its past interactions with the world. In contrast, the temporal-difference search algorithm acquires local knowledge that is specialised to the current state... We combine both forms of knowledge together in the Dyna-2 architecture.",
+      "source_id": "src_052"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Big Worlds as Occam's Razor",
+      "description": "Viewing massive, complex environments not as places that require highly complex algorithms, but as filters that strip away fragile, overly sophisticated ideas, leaving only the simplest and most robust methods standing.",
+      "example": "Applying simple linear combinations of local shape features and temporal-difference learning to 9x9 Go, rather than attempting to build a massive, handcrafted, complex evaluation function.",
+      "source_id": "src_052"
+    },
+    {
+      "name": "Temporality (Local vs. Global Evaluation)",
+      "description": "The lens of evaluating a state not by its absolute, global value across all possible games, but by its highly specialized value within the specific subgame and tactical situation currently unfolding.",
+      "example": "Instead of evaluating every position that could ever occur in Go, the evaluation function is retrained online after every move from games of self-play starting only from the current position.",
+      "source_id": "src_052"
+    }
+  ],
+  "heuristics": [
+    "Update a guess from a guess.",
+    "Focus on the positions that are likely to occur in the subgame starting from now.",
+    "Use simulated experience in place of or in addition to real experience to learn."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Computer Go provides an interesting case study for AI precisely because it represents the best-case for AI.",
+      "context": "Explaining why Go is an ideal testbed: it has simple, deterministic rules and full observability, yet profound emergent complexity.",
+      "source_id": "src_052"
+    },
+    {
+      "text": "In contrast, big worlds act as a form of Occam’s razor, with only the simplest and clearest ideas achieving success.",
+      "context": "Contrasting the misleading nature of toy domains with the reality of scaling AI to large problems.",
+      "source_id": "src_052"
+    },
+    {
+      "text": "Rather than trying to approximate the entire state space, our idea is to specialise the evaluation function to the current region of the state space.",
+      "context": "Introducing the concept of 'temporality' in position evaluation.",
+      "source_id": "src_052"
+    },
+    {
+      "text": "Bootstrapping is a general method for reducing the variance of an estimate, by updating a guess from a guess.",
+      "context": "Explaining the core mechanism of temporal-difference learning.",
+      "source_id": "src_052"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying exclusively on toy domains to test and develop AI algorithms.",
+      "why_it_fails": "The simplicity of microworlds is misleading; sophisticated ideas that work well there often fail to scale up to the memory, computation, and practical challenges of larger, more realistic domains.",
+      "source_id": "src_052"
+    },
+    {
+      "description": "Attempting to accurately approximate the entire state space in very large domains.",
+      "why_it_fails": "In games like Go with 10^170 states, even with billions of parameters, each parameter must compress the values of vastly too many states, making accurate global approximation impossible.",
+      "source_id": "src_052"
+    },
+    {
+      "description": "Evaluating each position independently in Monte-Carlo tree search without generalization.",
+      "why_it_fails": "It requires many simulations to establish a high-confidence estimate of value and fails to leverage knowledge between similar or related positions.",
+      "source_id": "src_052"
+    }
+  ]
+}

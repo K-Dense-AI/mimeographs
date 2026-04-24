@@ -1,0 +1,83 @@
+{
+  "source_id": "src_002",
+  "summary": "In this Sequoia Capital spotlight, Anne Wojcicki discusses the founding and evolution of 23andMe. She emphasizes the importance of radical transparency in healthcare, the interplay between genetics and environment, and her stubborn persistence in overcoming regulatory hurdles to give consumers direct access to their own health data.",
+  "themes": [
+    "Consumer Genetics",
+    "Healthcare Transparency",
+    "Nature vs. Nurture",
+    "Regulatory Battles",
+    "Resilience and Persistence"
+  ],
+  "principles": [
+    {
+      "statement": "Consumers should have direct access to and choice over their own health information.",
+      "rationale": "The medical establishment often gatekeeps data, but radical transparency allows individuals to understand their risks and take proactive steps to mitigate them.",
+      "source_quote": "People should have choice. The potential of genetics is really to help people know, ‘hey, here’s what your risks are, and can you actually do anything that mitigates those risks?’",
+      "source_id": "src_002"
+    },
+    {
+      "statement": "Scientific data must be translated into an accessible format for the average person.",
+      "rationale": "Raw scientific information is useless to consumers unless it is interpreted and presented in a way they can easily understand and act upon.",
+      "source_quote": "You have to take what’s in that raw, scientific brain and translate it to consumers.",
+      "source_id": "src_002"
+    },
+    {
+      "statement": "Human potential is shaped by the interaction of inherent traits and external circumstances.",
+      "rationale": "While environment plays a massive role in shaping outcomes, people are born with certain inherent baselines that influence their trajectory.",
+      "source_quote": "Your environment is always going to play a huge influence, but I do believe you’re born in certain ways.",
+      "source_id": "src_002"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "DNA and Environment",
+      "description": "A lens for evaluating human behavior and potential—both in life and in management—by looking at the interplay between a person's inherent traits (their 'DNA') and their surroundings (their 'environment').",
+      "example": "Applying this to hiring and management: recognizing that an employee might have failed previously not because they lacked ability, but because they weren't in the right environment, and helping them flourish by changing their surroundings.",
+      "source_id": "src_002"
+    }
+  ],
+  "heuristics": [
+    "Expand the depth, rather than the width, of relationships.",
+    "Snap into action during a crisis rather than dwelling on the setback."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I was fascinated by questions of what you’re born with versus what you gain from your experiences.",
+      "context": "Discussing the early inspirations that led to the founding of 23andMe.",
+      "source_id": "src_002"
+    },
+    {
+      "text": "People should have choice. The potential of genetics is really to help people know, ‘hey, here’s what your risks are, and can you actually do anything that mitigates those risks?’",
+      "context": "Arguing against the medical establishment's resistance to direct-to-consumer genetic testing.",
+      "source_id": "src_002"
+    },
+    {
+      "text": "You have to take what’s in that raw, scientific brain and translate it to consumers.",
+      "context": "Explaining the guiding principle for 23andMe's product development.",
+      "source_id": "src_002"
+    },
+    {
+      "text": "I’m the kind of person who snaps into action in these kinds of situations.",
+      "context": "Reflecting on her immediate response to receiving a cease-and-desist letter from the FDA.",
+      "source_id": "src_002"
+    },
+    {
+      "text": "Sometimes I find people with the right DNA for us, who didn’t flourish because they weren’t in the right environment, but who go on to flourish with us.",
+      "context": "Describing her management ethos and how she views employee potential.",
+      "source_id": "src_002"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Medical paternalism and gatekeeping of personal health data.",
+      "why_it_fails": "It deprives individuals of the choice and radical transparency needed to understand their own bodies and proactively mitigate their health risks.",
+      "source_id": "src_002"
+    },
+    {
+      "description": "The 'doc in the box' model for consumer health testing.",
+      "why_it_fails": "Using an invisible doctor to rubber-stamp genetic reports raises costs, adds inconvenience, and relies on the false presumption that average people are incapable of digesting fundamental information about their own genome.",
+      "source_id": "src_002"
+    }
+  ]
+}

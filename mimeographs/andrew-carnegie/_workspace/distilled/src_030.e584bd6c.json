@@ -1,0 +1,54 @@
+{
+  "source_id": "src_030",
+  "summary": "This NPR segment explores Andrew Carnegie's legacy of funding nearly 1,700 public libraries across the United States. It highlights his 'Gospel of Wealth' philosophy, which argued that the rich are merely stewards of their fortunes and have a moral duty to return their wealth to the community. The piece also touches on the controversy of his philanthropy, noting his belief that funding institutions of self-improvement was superior to paying workers higher wages.",
+  "themes": [
+    "Philanthropy",
+    "Public Libraries",
+    "Gospel of Wealth",
+    "Labor vs. Capital",
+    "Self-improvement"
+  ],
+  "principles": [
+    {
+      "statement": "The wealthy have a moral obligation to give their fortunes back to the community.",
+      "rationale": "The community—including the workers, laborers, and their families—is responsible for creating the wealth. Therefore, the rich are merely shepherds of this wealth and must return it to improve society.",
+      "source_quote": "The man who dies rich dies in disgrace",
+      "source_id": "src_030"
+    },
+    {
+      "statement": "Philanthropy should fund institutions of long-term self-improvement rather than direct wage increases.",
+      "rationale": "Direct wage increases are often spent on fleeting consumables, whereas public institutions like libraries and concert halls provide lasting societal and personal elevation.",
+      "source_quote": "But what you needed, though you didn't know it, was my libraries and concert halls. And that's what I'm giving to you.",
+      "source_id": "src_030"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Wealthy as Shepherds",
+      "description": "Viewing personal fortune not as private property to be hoarded, but as a communal resource temporarily entrusted to the wealthy individual to be redistributed for the public good.",
+      "example": "Carnegie giving away $350 million to build 1,689 public libraries because he believed the community of workers and laborers were the ones who actually generated the wealth.",
+      "source_id": "src_030"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "The man who dies rich dies in disgrace",
+      "context": "Written by Carnegie regarding his philosophy on wealth and philanthropy.",
+      "source_id": "src_030"
+    },
+    {
+      "text": "But what you needed, though you didn't know it, was my libraries and concert halls. And that's what I'm giving to you.",
+      "context": "Carnegie's response to critics and workers who argued he should have paid higher wages instead of building libraries.",
+      "source_id": "src_030"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Distributing wealth through higher wages instead of funding public institutions.",
+      "why_it_fails": "Workers would spend the extra money on short-term consumables like \"buying a better cut of meat, or more drink for your dinner\" rather than investing in their own long-term intellectual and cultural improvement.",
+      "source_id": "src_030"
+    }
+  ]
+}

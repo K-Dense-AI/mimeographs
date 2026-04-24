@@ -1,0 +1,215 @@
+{
+  "source_id": "src_015",
+  "summary": "Ian Goodfellow discusses the security and privacy vulnerabilities of machine learning models, focusing heavily on adversarial examples. He explains that deep neural networks are highly susceptible to adversarial attacks not because they overfit, but because they are fundamentally too linear, allowing small, calculated perturbations to drastically alter predictions. He also covers threats like model theft, training set poisoning, and the need for differential privacy. In this keynote, Ian Goodfellow discusses the mechanics, transferability, and physical-world viability of adversarial examples in machine learning. He explains how adversarial training acts as a regularizer, introduces the 'Clever Hans' metaphor to describe how models learn spurious correlations, and advocates for standardized benchmarking in adversarial ML research.",
+  "themes": [
+    "Adversarial Machine Learning",
+    "AI Security and Privacy",
+    "Neural Network Linearity",
+    "Transferability of Attacks",
+    "Differential Privacy",
+    "Model Robustness",
+    "Privacy vs. Utility",
+    "Standardized Benchmarking"
+  ],
+  "principles": [
+    {
+      "statement": "Adversarial examples occur because modern machine learning models are too linear, not because they are overfitting.",
+      "rationale": "Deep networks are built with piecewise linear hidden units (like ReLUs) to make them easier to train. As a result, they extrapolate linearly when moving away from training data, allowing small changes across many pixels to add up to a massive change in the model's output.",
+      "source_quote": "we might actually be seeing adversarial examples coming from the model being too linear... modern deep networks are very piecewise linear",
+      "source_id": "src_015"
+    },
+    {
+      "statement": "Security research in machine learning must aim to make defense easier than attack.",
+      "rationale": "As AI becomes integrated into critical systems and geopolitics, ensuring that defensive capabilities outpace offensive ones is necessary to promote stability and prevent malicious exploitation.",
+      "source_quote": "a lot of what motivates me and my research is to make sure that we make it harder to attack than to defend so that machine learning can promote stability",
+      "source_id": "src_015"
+    },
+    {
+      "statement": "Adversarial examples live in dense, easily accessible subspaces, not as rare, isolated points.",
+      "rationale": "You do not have to search carefully to find a single vulnerable point. Any perturbation that has a high dot product with the adversarial gradient direction will cause the model to make a mistake.",
+      "source_quote": "our maps show us that actually they live in these dense spaces that look a lot like half spaces... essentially any perturbation that has high dot product with the adversarial gradient will cause the model to make a mistake.",
+      "source_id": "src_015"
+    },
+    {
+      "statement": "Adversarial training acts as a regularizer.",
+      "rationale": "Training on adversarial examples reduces overfitting. While it may slightly increase underfitting on complex datasets like ImageNet, it generally improves robustness and should be used if a model is overfitting.",
+      "source_quote": "it turns out that adversarial training is a regularizer... if you're overfitting then you will actually reduce the amount that you over fit you should do it anyway",
+      "source_id": "src_015"
+    },
+    {
+      "statement": "Privacy and generalization are theoretically aligned.",
+      "rationale": "To generalize well, a model must learn broad patterns rather than memorizing specific training instances. Therefore, enforcing privacy can theoretically act as a form of regularization.",
+      "source_quote": "to generalize well you don't want to memorize specific instances you want to learn important general patterns so to some extent privacy could actually be a good way of regularizing the model",
+      "source_id": "src_015"
+    },
+    {
+      "statement": "Adversarial examples transfer highly between different models.",
+      "rationale": "An attacker does not need access to a target model's architecture or weights; they can generate adversarial examples on a substitute model, and those examples will often successfully fool the unknown target model.",
+      "source_quote": "you can actually fool a remotely hosted model without ever knowing which training algorithm it's running which architecture it is or the value of its weights",
+      "source_id": "src_015"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Fast Gradient Sign Method (FGSM)",
+      "when_to_apply": "When you need a fast, closed-form method to generate adversarial examples that fool a machine learning model without iterative optimization.",
+      "steps": [
+        "Linearize the cost of the neural network around the current input.",
+        "Take the gradient of the cost with respect to the input.",
+        "Take the sign of the gradient at each pixel (determining if increasing or decreasing the pixel hurts the model).",
+        "Add a small constraint value (epsilon) times that sign to the input to maximize the approximate cost."
+      ],
+      "source_quote": "we just take the gradient of the cost with respect to the input we take the sign of the gradient at each pixel and we add epsilon times that sign at the gradient to the input",
+      "source_id": "src_015"
+    },
+    {
+      "name": "Black-Box Transfer Attack (Model Theft)",
+      "when_to_apply": "When an attacker wants to fool a remotely hosted target model without knowing its architecture, weights, or training algorithm.",
+      "steps": [
+        "Send inputs to the target model and observe its outputs.",
+        "Use these input-output pairs to reverse-engineer the parameters and train your own substitute machine learning model.",
+        "Generate adversarial examples designed to fool your substitute model.",
+        "Deploy those adversarial examples against the target model, relying on the high transfer rate of vulnerabilities between models."
+      ],
+      "source_quote": "After you have your own copy of the model you can make adverse early examples at full your model and then send those adversary examples back to the targeted model so you can actually fool a remotely hosted model without ever knowing which training algorithm it's running",
+      "source_id": "src_015"
+    },
+    {
+      "name": "Model Theft Attack",
+      "when_to_apply": "When an attacker wants to generate adversarial examples against a black-box target model without access to its weights or training data.",
+      "steps": [
+        "Send inputs to the target model and observe its outputs.",
+        "Reverse-engineer the parameters to train your own substitute copy of the model.",
+        "Generate adversarial examples designed to fool your substitute model.",
+        "Send those adversarial examples to the targeted model to fool it."
+      ],
+      "source_quote": "they can do a model theft attack by sending inputs to the target model observing its output and reverse-engineering its parameters after you have your own copy of the model you can make adverse early examples at full your model and then send those adversary examples back to the targeted model",
+      "source_id": "src_015"
+    },
+    {
+      "name": "Standardized Adversarial Benchmarking",
+      "when_to_apply": "When developing and publishing a new adversarial attack or defense to ensure valid, comparable results.",
+      "steps": [
+        "Implement your new attack or defense.",
+        "Use a standardized library (like CleverHans) to access reference implementations of the strongest known attacks and defenses.",
+        "Test your system against these standard references to isolate whether your method is actually effective or if the opposing method was just weak.",
+        "Report benchmark results based on these standardized comparisons."
+      ],
+      "source_quote": "using clever hunts for one side and your research project for the other side lets you know that you're comparing to the same standards as all of the other researchers",
+      "source_id": "src_015"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Machine Learning as Sherlock Holmes",
+      "description": "A metaphor for how ML models can infer highly private, unstated attributes from seemingly innocuous public data, much like Sherlock Holmes deducing a client's life story from minor clues like marks on their shoes.",
+      "example": "A machine learning model predicting a user's personality traits better than their friends or family can, simply by analyzing their likes on social media.",
+      "source_id": "src_015"
+    },
+    {
+      "name": "The Overfitting Story vs. The Linear Extrapolation Story",
+      "description": "A lens for understanding model failures. The incorrect 'overfitting story' assumes models learn highly complex, random boundaries that accidentally include adversarial pockets. The correct 'linear extrapolation story' posits that models are actually too simple and linear, causing them to confidently extrapolate incorrect classifications when pushed slightly outside the training distribution.",
+      "example": "If adversarial examples were caused by random overfitting, they wouldn't transfer across different models. Because they do transfer, it proves models are failing in predictable, linear ways.",
+      "source_id": "src_015"
+    },
+    {
+      "name": "The Clever Hans Effect",
+      "description": "Machine learning models often maximize their objective function (like log likelihood) by latching onto spurious correlations or unintended side channels, rather than learning the true underlying reality. You only realize they don't understand the task when you test them out-of-distribution.",
+      "example": "Just as the horse Clever Hans appeared to do math but was actually reading audience reactions, ML models appear to classify images correctly until you 'put on the mask' by testing them with adversarial examples, revealing they have no idea what they are doing.",
+      "source_id": "src_015"
+    },
+    {
+      "name": "Adversarial Training as a Min-Max Game",
+      "description": "Framing the training process as a game where the model designer tries to minimize error while the adversary tries to maximize it. Training on adversarial examples is the process of finding the Nash equilibrium of this game.",
+      "example": "If you train on inputs that maximize the error, you are running a min-max problem much like AlphaGo, seeking a Nash equilibrium which in practice amounts to adversarial training.",
+      "source_id": "src_015"
+    },
+    {
+      "name": "Optical Illusions as Human Adversarial Examples",
+      "description": "Using optical illusions as an analogy to explain how the human visual system, while different from current ML models, also has specific vulnerabilities that can be exploited by carefully crafted inputs.",
+      "example": "When asked if adversarial examples exist in the human brain, Goodfellow points to optical illusions (like concentric circles that look like intertwining spirals) as the human equivalent.",
+      "source_id": "src_015"
+    }
+  ],
+  "heuristics": [
+    "To prevent accidentally changing the true class of an image when generating adversarial examples, use L-infinity constraints (bounding the maximum change per pixel) rather than L2 constraints.",
+    "If an adversarial example successfully fools every member of an ensemble of five models, it has essentially a 100% chance of fooling a new, unseen sixth model.",
+    "To improve the chance that an adversarial example will transfer to a target model, generate it using an ensemble of several different models.",
+    "If you suspect your deployed model is under attack, apply the latest adversarial training techniques to improve its robustness.",
+    "When evaluating a new attack, use a standardized defense library to ensure your high success rate is due to a strong attack, not a weak defense."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I will be telling you all about the dark arts and how to defend against them specifically I'll be telling you all the things that people can do to make machine learning go wrong intentionally in potentially dangerous ways",
+      "context": "Opening his keynote on adversarial machine learning.",
+      "source_id": "src_015"
+    },
+    {
+      "text": "In 2011 if you had come to me and said hey and I've got an example that makes a classifier produce the wrong output I would say good for you I have about 5,000 of those you know in in my terminal right now",
+      "context": "Explaining why adversarial examples weren't studied until recently—because models used to fail naturally all the time.",
+      "source_id": "src_015"
+    },
+    {
+      "text": "Not only have we made the model make a mistake we've actually made it have higher confidence when it's wrong than when it was right.",
+      "context": "Describing the effect of adding an adversarial perturbation to an image of a panda.",
+      "source_id": "src_015"
+    },
+    {
+      "text": "Machine learning is kind of like the modern-day version of Sherlock Holmes it is able to infer things that we don't realize we're broadcasting to the world",
+      "context": "Discussing the privacy implications of models inferring sensitive data from public inputs.",
+      "source_id": "src_015"
+    },
+    {
+      "text": "A lot of what motivates me and my research is to make sure that we make it harder to attack than to defend so that machine learning can promote stability",
+      "context": "Explaining his core motivation for working on AI security.",
+      "source_id": "src_015"
+    },
+    {
+      "text": "a lot of people ask me if there are adversarial examples in the human brain and the short answer is yes we call them optical illusions",
+      "context": "Explaining the human equivalent of adversarial examples.",
+      "source_id": "src_015"
+    },
+    {
+      "text": "we asked them to maximize the log likelihood of the training set labels and they find a way of doing that and it happens not to be one that corresponds very well to reality",
+      "context": "Explaining how ML models are like the horse Clever Hans.",
+      "source_id": "src_015"
+    },
+    {
+      "text": "you don't realize that until you put on the mask and start to test them with adversarial examples and then you realize that they actually have no idea what they're doing",
+      "context": "Describing the illusion of competence in ML models.",
+      "source_id": "src_015"
+    },
+    {
+      "text": "at the moment we're not at the point where we can tell you there's some set of best practices and if you follow them everything will definitely work that it's not like crypto yet",
+      "context": "Discussing the current, ad-hoc state of defenses in adversarial machine learning.",
+      "source_id": "src_015"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Assuming adversarial examples are caused by the model overfitting to the training data.",
+      "why_it_fails": "If adversarial examples were just random artifacts of overfitting, they would be unique to each model. Instead, they transfer reliably across different models, datasets, and architectures, proving the root cause is the models' linear nature.",
+      "source_id": "src_015"
+    },
+    {
+      "description": "Relying on hidden model parameters for security (security through obscurity).",
+      "why_it_fails": "Attackers can perform 'model theft' by observing the inputs and outputs of a target model to train a substitute model, which they can then use to generate adversarial examples that successfully transfer to the hidden target.",
+      "source_id": "src_015"
+    },
+    {
+      "description": "Assuming that publishing only a model's predictions (and not its parameters) preserves the privacy of the training data.",
+      "why_it_fails": "If predictions can be used to reverse-engineer the model's parameters, those stolen parameters can subsequently be analyzed to extract private, personally identifiable information about the original training set.",
+      "source_id": "src_015"
+    },
+    {
+      "description": "Evaluating new adversarial attacks or defenses in isolation without standardized benchmarks.",
+      "why_it_fails": "If you get a high success rate for your attack, you cannot know if it is because your attack is genuinely strong or because the defense you tested it against was poorly implemented.",
+      "source_id": "src_015"
+    },
+    {
+      "description": "Assuming adversarial examples only work in digital environments and fail in the physical world.",
+      "why_it_fails": "Adversarial examples are robust enough to survive physical transformations like printing, changes in lighting, viewpoint shifts, and camera lens imperfections.",
+      "source_id": "src_015"
+    }
+  ]
+}

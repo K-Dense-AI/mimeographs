@@ -1,0 +1,80 @@
+{
+  "source_id": "src_024",
+  "summary": "In this interview, Dr. Virginia M.-Y. Lee discusses her 50-year scientific collaboration with her husband John, their strategic decision to focus on neurodegenerative diseases, and their pioneering work in identifying the proteins behind Alzheimer's, Parkinson's, and ALS. She emphasizes the importance of collaborative research cultures and correcting scientific consensus when the field is heading down the wrong path.",
+  "themes": [
+    "Neurodegenerative disease pathology",
+    "Scientific collaboration",
+    "Protein identification (Tau, Alpha-synuclein, TDP-43)",
+    "Therapeutic development",
+    "Career trajectory and mentorship"
+  ],
+  "principles": [
+    {
+      "statement": "Disease research requires a highly collaborative culture.",
+      "rationale": "Understanding complex diseases and developing treatments is too challenging for isolated work; it inherently requires diverse skill sets and contributions from many people.",
+      "source_quote": "if you are working on diseases and you want to understand a disease or come up with treatment for disease and really by definition require everybody",
+      "source_id": "src_024"
+    },
+    {
+      "statement": "Commit to research areas where you can make a long-term, structural impact.",
+      "rationale": "Significant scientific breakthroughs require sustained focus over time, rather than chasing short-term projects.",
+      "source_quote": "we were deciding what can we do for the next 10 years that would make an impact in the field",
+      "source_id": "src_024"
+    },
+    {
+      "statement": "Do not hesitate to challenge the field's consensus if you believe it is making a mistake.",
+      "rationale": "When the scientific community ignores critical evidence (like the role of tau in Alzheimer's), it is a researcher's duty to straighten it out to prevent the field from wasting time on the wrong path.",
+      "source_quote": "we had a feeling that the field was making a mistake so I set the jump we need to straighten this out because you know this area is very important and I don't want people to go down the wrong path",
+      "source_id": "src_024"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Systematic Antibody-Based Protein Identification",
+      "when_to_apply": "When attempting to discover the unknown protein building blocks of abnormal pathological accumulations in diseases.",
+      "steps": [
+        "Identify unusual accumulations or pathologies in patient tissue (e.g., brain plaques or tangles).",
+        "Generate thousands of antibodies against the tissue.",
+        "Systematically use these antibodies to identify the specific building block proteins comprising the pathology."
+      ],
+      "source_quote": "we basically made thousands and thousands of antibodies so we actually systematically identify each of the protein",
+      "source_id": "src_024"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Killer Proteins as Building Blocks",
+      "description": "Viewing neurodegenerative diseases not as vague systemic failures, but as the result of specific normal brain proteins becoming abnormal 'building blocks' that accumulate into toxic pathologies (like tangles or Lewy bodies).",
+      "example": "Identifying that tau is the building block of neurofibrillary tangles, alpha-synuclein is the building block of Lewy bodies, and TDP-43 is another key pathological protein.",
+      "source_id": "src_024"
+    }
+  ],
+  "heuristics": [
+    "Combine complementary skill sets with your collaborators to continuously educate each other.",
+    "Look directly at the unusual accumulations in patient brains to find the root cause of the disease."
+  ],
+  "signature_quotes": [
+    {
+      "text": "we had a feeling that the field was making a mistake so I set the jump we need to straighten this out because you know this area is very important and I don't want people to go down the wrong path",
+      "context": "Discussing the field's early over-focus on beta-amyloid while ignoring tau protein in Alzheimer's research.",
+      "source_id": "src_024"
+    },
+    {
+      "text": "in any research for any disease the most challenging aspect would be to be able to come up with therapy and that's the space we're in right now",
+      "context": "Reflecting on the ultimate goal of their decades of pathological research.",
+      "source_id": "src_024"
+    },
+    {
+      "text": "I never thought that we would be here in my lifetime that we have potential therapy that are being tested now",
+      "context": "Expressing hope about the current state of neurodegenerative disease treatments.",
+      "source_id": "src_024"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Ignoring secondary pathologies or alternative hypotheses because the field is fixated on one major target.",
+      "why_it_fails": "It causes the entire research community to 'go down the wrong path' and miss other critical drivers of the disease, such as missing the fact that tau itself is a 'killer protein'.",
+      "source_id": "src_024"
+    }
+  ]
+}

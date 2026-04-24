@@ -1,0 +1,53 @@
+{
+  "source_id": "src_041",
+  "summary": "Mark Zuckerberg announces the launch of Meta's new AI model family, Muse, and its first model, Spark. He outlines Meta's vision of providing 'personal superintelligence' to empower individual aspirations and shift AI from simple question-answering to agentic action.",
+  "themes": [
+    "Artificial Intelligence",
+    "Agentic AI",
+    "Personal Superintelligence",
+    "Open Source"
+  ],
+  "principles": [
+    {
+      "statement": "Empowering individuals to pursue their aspirations is the core driver of human progress.",
+      "rationale": "By putting 'personal superintelligence' in everyone's hands, we can unlock a new wave of creativity, entrepreneurship, growth, and health.",
+      "source_quote": "We believe that empowering people to pursue their individual aspirations is how humanity has always made progress, and we believe that will continue to be true in the future as well.",
+      "source_id": "src_041"
+    },
+    {
+      "statement": "AI products must evolve from conversational interfaces to active agents.",
+      "rationale": "The frontier of intelligence requires models that can take action and execute tasks for the user, rather than just providing information.",
+      "source_quote": "We are building products that don't just answer your questions but act as agents that do things for you.",
+      "source_id": "src_041"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Personal Superintelligence",
+      "description": "Viewing AI not as a centralized, monolithic oracle, but as an individualized, highly capable assistant placed directly in the hands of everyday users to help them pursue their specific aspirations.",
+      "example": "Developing the Spark model to power Meta AI with strengths in personal domains like visual understanding, health, social content, shopping, and games.",
+      "source_id": "src_041"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "We believe that empowering people to pursue their individual aspirations is how humanity has always made progress, and we believe that will continue to be true in the future as well.",
+      "context": "Explaining the founding philosophy behind Meta Superintelligence Labs.",
+      "source_id": "src_041"
+    },
+    {
+      "text": "We are building products that don't just answer your questions but act as agents that do things for you.",
+      "context": "Describing the future roadmap and product philosophy for Meta's AI models.",
+      "source_id": "src_041"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Building AI products that function solely as question-and-answer bots.",
+      "why_it_fails": "It limits the utility of the technology; the true frontier of intelligence requires models to act as agents that can actually execute tasks for the user.",
+      "source_id": "src_041"
+    }
+  ]
+}

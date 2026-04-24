@@ -1,0 +1,43 @@
+{
+  "source_id": "src_054",
+  "summary": "This biographical article details the career and contributions of clinical epidemiologist Albert Hofman. It highlights his leadership in designing massive, long-term population cohorts like the Rotterdam Study and Generation R Study, and his pioneering work integrating MRI and genomic data to uncover the vascular, genetic, and early-life determinants of chronic diseases such as dementia and stroke.",
+  "themes": [
+    "Clinical Epidemiology",
+    "Population-based Cohort Studies",
+    "Cardiovascular Disease",
+    "Neurodegenerative Disease",
+    "Developmental Origins of Health and Disease"
+  ],
+  "principles": [
+    {
+      "statement": "Prioritize population-level interventions over individual screening for early-life cardiovascular risk factors.",
+      "rationale": "Individual screening in childhood has modest predictive power for long-term adult outcomes, whereas population-wide environmental modifications (like sodium reduction) can effectively shift the overall risk distribution.",
+      "source_quote": "advocated for population-level interventions, such as sodium reduction in infancy, over individual screening due to modest predictive power",
+      "source_id": "src_054"
+    },
+    {
+      "statement": "Multifactorial diseases must be understood through the interplay of vascular factors, genetics, and aging.",
+      "rationale": "Seemingly unrelated conditions often share underlying pathways; for example, silent brain infarcts and white matter lesions significantly increase the odds of both stroke and dementia.",
+      "source_quote": "shifting focus toward vascular and neurodegenerative pathways in multifactorial diseases.",
+      "source_id": "src_054"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Developmental Origins of Health and Disease",
+      "description": "A lens that views adult chronic diseases and health outcomes as being significantly shaped by preconceptional, prenatal, and early-life environmental and genetic interactions.",
+      "example": "Initiating the Generation R Study to track participants from fetal life through young adulthood, integrating maternal diet, lifestyle, and urban exposures to model gene-environment interactions over time.",
+      "source_id": "src_054"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Relying on individual screening in childhood to predict and prevent adult hypertension.",
+      "why_it_fails": "Childhood blood pressure deviations have modest predictive power over the long term, as many children in the upper deciles do not remain high-risk years later.",
+      "source_id": "src_054"
+    }
+  ]
+}

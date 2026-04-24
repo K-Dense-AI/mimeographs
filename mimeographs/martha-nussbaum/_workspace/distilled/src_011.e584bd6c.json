@@ -1,0 +1,120 @@
+{
+  "source_id": "src_011",
+  "summary": "In this interview, Martha Nussbaum discusses the intersection of emotion and justice, arguing that compassion is essential for law while disgust is a dangerous basis for legal regulation. She also explores her views on political liberalism, the necessity of local attachments for global justice, animal rights through intelligent stewardship, and the role of moral theory in practical decision-making.",
+  "themes": [
+    "Emotion and Justice",
+    "The Harm Principle",
+    "Political Liberalism",
+    "Animal Rights and Stewardship",
+    "Global vs. Local Justice",
+    "Moral Philosophy"
+  ],
+  "principles": [
+    {
+      "statement": "Harm is a necessary condition for legal regulation.",
+      "rationale": "Following John Stuart Mill, she believes that the law should only intervene when actual harm is occurring. Emotions like disgust, in the absence of harm, do not justify legal interference in consensual acts.",
+      "source_quote": "I think that harm is a necessary condition for legal regulation. So if something simply disgusts you but there's no harm going on then you have no business nosing around in it just go away if you don't like it.",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Compassion is the starting point for justice, but it must be formalized into impartial law.",
+      "rationale": "Individual compassion is too unreliable and biased to run a society (as seen in Victorian charity), but a system of impartial justice without compassion becomes empty and loses public support.",
+      "source_quote": "I think compassion is the beginning but not the end. So you start with those compassionate responses and then we have a public dialogue that asks what is the problem here... and ultimately over time that will lead to Improvement in laws.",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Humans have a duty to exercise intelligent stewardship over nature.",
+      "rationale": "Human activity already dictates animal habitats and survival. Simply letting 'nature take its course' ignores the cruelty of the wild and our existing implication in their ecosystems.",
+      "source_quote": "The only alternative to just complete neglect and chaos is for us to exercise intelligent stewardship which means things like contraception protection of habitats and so forth.",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "Global concern requires respecting local attachments.",
+      "rationale": "You cannot build a genuine concern for the whole world by trying to eradicate people's natural partiality toward their own families and nations. The two must be in dialogue.",
+      "source_quote": "You won't have a World Concern that's worthy the name if you try to extrap local and National attachment and if you don't give them enough room and enough respect.",
+      "source_id": "src_011"
+    },
+    {
+      "statement": "A pluralistic society requires public dialogue based on argument, not just authority or faith.",
+      "rationale": "While individuals can rely on faith in their private lives, the public sphere requires citizens to find an overlapping consensus through reasoned dialogue and listening to one another.",
+      "source_quote": "In the public sphere where we have to talk to each other I think there's no alternative but argument and that we really therefore need schools to teach the skills of argument.",
+      "source_id": "src_011"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Theory-First Moral Reasoning",
+      "when_to_apply": "When analyzing complex moral dilemmas or teaching moral philosophy.",
+      "steps": [
+        "Study and build an interest in the complex architecture of moral theories.",
+        "Evaluate different theories to determine which one is most satisfying.",
+        "Apply the chosen theoretical framework to handle particular, narrow cases."
+      ],
+      "source_quote": "You have to be interested in theory and you have to be interested in the complex architecture of a theory and once you have a theory then you can... figure out how you can handle a particular case within that theory.",
+      "source_id": "src_011"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Disgust as Contamination Fantasy",
+      "description": "A lens for understanding the emotion of disgust. Rather than a reliable moral compass, disgust is a cognitive reaction to reminders of our own animality and mortality (e.g., bodily fluids, corpses). This aversion is frequently projected outward as a fantasy onto marginalized groups (like racial minorities or homosexuals) to stigmatize them.",
+      "example": "Analyzing anti-gay pamphlet literature that relies on grotesque fantasies about bodily fluids and germs, revealing that the authors are projecting their own bodily anxieties onto others.",
+      "source_id": "src_011"
+    },
+    {
+      "name": "The Family Analogy for Patriotism",
+      "description": "A model for balancing local and global duties. Just as it is acceptable and natural to love your own children most, it is acceptable to love your own country most. However, just as you cannot favor your children in a way that deprives other children of basic nutrition, a nation cannot favor itself in a way that deprives global citizens of basic human capabilities.",
+      "example": "Using the family dynamic to explain why she shifted away from strict cosmopolitanism (where national boundaries have no moral significance) to a view that balances national allegiance with a global minimum threshold of welfare.",
+      "source_id": "src_011"
+    }
+  ],
+  "heuristics": [
+    "If something simply disgusts you but there's no harm going on, just go away and mind your own business.",
+    "Compassion is the beginning, but not the end.",
+    "Fix the structural things you can fix (like building bathrooms) rather than just criminalizing practices you can't entirely regulate."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I think that harm is a necessary condition for legal regulation. So if something simply disgusts you but there's no harm going on then you have no business nosing around in it.",
+      "context": "Explaining why disgust should not be used as a basis for laws against consensual acts.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "If we jump over that and just try to say well have the same rules for everyone we risk having an impartiality that's empty of urgency.",
+      "context": "Discussing why impartial justice still needs to be rooted in human compassion and particular narratives.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "The only alternative to just complete neglect and chaos is for us to exercise intelligent stewardship.",
+      "context": "Arguing against the idea of letting 'nature take its course' regarding wild animal populations.",
+      "source_id": "src_011"
+    },
+    {
+      "text": "You won't have a World Concern that's worthy the name if you try to extrap local and National attachment.",
+      "context": "Explaining her evolved view on patriotism and global justice.",
+      "source_id": "src_011"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Basing laws or moral judgments on the emotion of disgust.",
+      "why_it_fails": "Disgust lacks a connection to actual harm. It is usually a projection of our own discomfort with our animality and mortality onto marginalized groups, leading to stigmatization and the deprivation of civil rights.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Romanticizing 'Nature' as inherently good and peaceful.",
+      "why_it_fails": "It ignores the extreme cruelty of the natural world (animals tearing each other apart) and falsely assumes humans aren't already implicating themselves in animal habitats through our daily activities.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Practicing 'situation ethics' by focusing only on isolated, extreme cases (like the Lifeboat dilemma).",
+      "why_it_fails": "It ignores the necessary complex architecture of moral theory. Good philosophy requires building and evaluating a broad theoretical framework before trying to solve hyper-specific edge cases.",
+      "source_id": "src_011"
+    },
+    {
+      "description": "Treating Ayn Rand as a serious moral philosopher.",
+      "why_it_fails": "Her work relies on 'cardboard cutouts' rather than the complex, nuanced arguments found in actual social contract theorists like Locke or Mill.",
+      "source_id": "src_011"
+    }
+  ]
+}

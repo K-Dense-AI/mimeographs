@@ -1,0 +1,54 @@
+{
+  "source_id": "src_013",
+  "summary": "Fei-Fei Li argues that the next major frontier in artificial intelligence is 'spatial intelligence.' Through her company World Labs, she is developing 'world models' that possess a physics-based understanding of 3D environments, which are essential for advancing fields like robotics that require interactable, dynamic training grounds.",
+  "themes": [
+    "Spatial Intelligence",
+    "World Models",
+    "Robotics",
+    "3D Environments",
+    "Beyond LLMs"
+  ],
+  "principles": [
+    {
+      "statement": "Spatial intelligence is the next frontier of artificial intelligence.",
+      "rationale": "To achieve AI's biggest promises, systems must move beyond just modeling words and language to actually perceiving and understanding the physical 3D world.",
+      "source_quote": "We firmly believe that spatial intelligence is the next frontier of artificial intelligence,",
+      "source_id": "src_013"
+    },
+    {
+      "statement": "Training real-world robots requires dynamic, physics-based 3D environments.",
+      "rationale": "Robots currently struggle with real-world utility; to evaluate and train them effectively, they need simulated environments that accurately reflect physical realities like collisions and dynamics.",
+      "source_quote": "You need a 3D environment that is interactable, that has collisions, physics, and dynamics to train and evaluate robots,",
+      "source_id": "src_013"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "World Models",
+      "description": "An AI paradigm that moves beyond language processing to develop a physics-based understanding of three-dimensional environments, allowing AI to perceive and interact with spatial data.",
+      "example": "World Labs' 'Marble' model, which generates realistic, interactable 3D worlds for game development and robotics training.",
+      "source_id": "src_013"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "We firmly believe that spatial intelligence is the next frontier of artificial intelligence,",
+      "context": "Discussing the need for AI to move beyond large language models.",
+      "source_id": "src_013"
+    },
+    {
+      "text": "You need a 3D environment that is interactable, that has collisions, physics, and dynamics to train and evaluate robots,",
+      "context": "Explaining why spatial intelligence and world models are critical for the robotics industry.",
+      "source_id": "src_013"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying exclusively on large language models (LLMs) to achieve artificial general intelligence or real-world utility.",
+      "why_it_fails": "LLMs only develop a model of words and their meanings; they lack the ability to perceive the real world or understand spatial, physics-based 3D environments.",
+      "source_id": "src_013"
+    }
+  ]
+}

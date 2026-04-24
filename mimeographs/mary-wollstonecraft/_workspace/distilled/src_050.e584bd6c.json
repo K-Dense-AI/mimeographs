@@ -1,0 +1,58 @@
+{
+  "source_id": "src_050",
+  "summary": "An academic article analyzing how extracts from Mary Wollstonecraft's writings were published in British periodicals between 1792 and 1795. The source highlights her core arguments against superficial female education, her critiques of Edmund Burke's defense of hereditary authority, and her advocacy for natural rights based on divine, immutable principles.",
+  "themes": [
+    "Women's Education",
+    "Natural Rights",
+    "Critique of Hereditary Authority",
+    "Rationality vs. Aesthetics",
+    "Egalitarianism"
+  ],
+  "principles": [
+    {
+      "statement": "True liberty and rights must be based on an eternal, divine foundation rather than historical precedent.",
+      "rationale": "She argued against relying on the irrational constitutional accretions of the medieval period, asserting instead that principles should revert to the immutable attributes of God.",
+      "source_quote": "those principles which rest on an eternal foundation, and revert for a standard to the immutable attributes of God",
+      "source_id": "src_050"
+    },
+    {
+      "statement": "Equality is the true foundation of human happiness and intimacy.",
+      "rationale": "She depicted hereditary property and customs as destructive forces that undermine the happiness and intimacy that would naturally result from social equality.",
+      "source_quote": null,
+      "source_id": "src_050"
+    },
+    {
+      "statement": "Superficial education and corrupt social norms destroy women's rationality and happiness.",
+      "rationale": "Society's emphasis on women's beauty enervates their minds and ultimately renders them miserable as they age, preventing them from achieving true connubial felicity and intellectual engagement.",
+      "source_quote": null,
+      "source_id": "src_050"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "those principles which rest on an eternal foundation, and revert for a standard to the immutable attributes of God",
+      "context": "From her declamation at the end of the Rights of Men, arguing against Edmund Burke's reliance on historical precedent.",
+      "source_id": "src_050"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Submitting implicitly to authority and historical custom.",
+      "why_it_fails": "It exalts the irrational constitutional accretions of the past above the natural rights of modern people, preventing the implementation of true liberty.",
+      "source_id": "src_050"
+    },
+    {
+      "description": "Allowing aesthetic sensibilities and passionate wit to obscure rational judgment.",
+      "why_it_fails": "It subsumes the moral desire to better the condition of the poor, a flaw she explicitly criticized in Edmund Burke's writings.",
+      "source_id": "src_050"
+    },
+    {
+      "description": "Emphasizing physical beauty in the upbringing and social expectations of women.",
+      "why_it_fails": "It enervates women's rationality and renders them miserable as they age, rather than preparing them for a fulfilling life of rearing children, discussing literature, and engaging in charity.",
+      "source_id": "src_050"
+    }
+  ]
+}

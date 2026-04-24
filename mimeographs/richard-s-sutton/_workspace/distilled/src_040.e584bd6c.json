@@ -1,0 +1,54 @@
+{
+  "source_id": "src_040",
+  "summary": "Richard S. Sutton proposes a 'common model of the intelligent agent' that unifies concepts across AI, psychology, neuroscience, economics, and control theory. He argues that these disciplines have converged on a shared understanding of goal-directed decision making, which involves interactions with a world (input, output, goals) and internal components (perception, decision-making, evaluation, world models), and calls for a neutral terminology to bridge these fields.",
+  "themes": [
+    "Intelligent Agents",
+    "Decision Making",
+    "Interdisciplinary Convergence",
+    "Artificial Intelligence",
+    "Cognitive Modeling"
+  ],
+  "principles": [
+    {
+      "statement": "Multiple diverse disciplines have converged on a substantive common model of the intelligent agent.",
+      "rationale": "Fields like psychology, AI, economics, control theory, and neuroscience all share an interest in goal-directed decision making over time and refer to essentially the same ideas, despite using different names.",
+      "source_quote": "It is time to recognize and build on the convergence of multiple diverse disciplines on a substantive common model of the intelligent agent.",
+      "source_id": "src_040"
+    },
+    {
+      "statement": "A foundational model of an intelligent agent must be entirely domain-general.",
+      "rationale": "To serve as a common model across disciplines, it must abstract away from the specifics of any particular implementation or environment.",
+      "source_quote": "The common model does not include anything specific to any organism, world, or application domain.",
+      "source_id": "src_040"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Common Model of the Intelligent Agent",
+      "description": "A universal perspective on decision makers divided into two main parts: the agent's interaction with its world (input, output, and a goal) and the agent's internal components (perception, decision-making, internal evaluation, and a world model).",
+      "example": "Used as a neutral framework to translate and unify concepts across psychology, AI, economics, control theory, and neuroscience.",
+      "source_id": "src_040"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "It is time to recognize and build on the convergence of multiple diverse disciplines on a substantive common model of the intelligent agent.",
+      "context": "Concluding thought in the abstract advocating for cross-disciplinary unification.",
+      "source_id": "src_040"
+    },
+    {
+      "text": "The common model does not include anything specific to any organism, world, or application domain.",
+      "context": "Defining the domain-agnostic nature of the proposed common model.",
+      "source_id": "src_040"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on discipline-specific terminology for universal decision-making concepts.",
+      "why_it_fails": "It obscures the fact that different fields are referring to essentially the same ideas, creating artificial barriers between psychology, AI, economics, control theory, and neuroscience.",
+      "source_id": "src_040"
+    }
+  ]
+}

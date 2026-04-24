@@ -1,0 +1,92 @@
+{
+  "source_id": "src_064",
+  "summary": "In this landmark epidemiological study from the Nurses' Health Study, Meir J. Stampfer and colleagues demonstrate that 82% of coronary heart disease events in women could be attributed to a lack of adherence to a combined low-risk lifestyle pattern involving diet, exercise, weight management, smoking abstinence, and moderate alcohol consumption.",
+  "themes": [
+    "Primary Prevention",
+    "Nutritional Epidemiology",
+    "Lifestyle Medicine",
+    "Coronary Heart Disease",
+    "Public Health Policy"
+  ],
+  "principles": [
+    {
+      "statement": "Lifestyle factors must be evaluated in combination, not just individually.",
+      "rationale": "People follow common lifestyle patterns, meaning behaviors naturally cluster. Studying them together reveals the true, compounded potential of primary prevention.",
+      "source_quote": "Typically, behavioral risk factors are studied individually, but these types of behavior are often correlated, because people follow common lifestyle patterns.",
+      "source_id": "src_064"
+    },
+    {
+      "statement": "A substantial majority of coronary heart disease is entirely preventable through diet and lifestyle.",
+      "rationale": "Data shows that 82% of coronary events in the cohort could be attributed to not following a low-risk lifestyle pattern, proving that lifestyle is the primary driver of the disease.",
+      "source_quote": "...these data support the hypothesis that adopting a more healthful lifestyle could prevent a substantial majority of coronary disease events in women.",
+      "source_id": "src_064"
+    },
+    {
+      "statement": "Public health decisions must sometimes rely on the best available observational data rather than waiting for randomized trials.",
+      "rationale": "It is impractical or impossible to conduct randomized controlled trials for all primary prevention lifestyle variables, so waiting for them paralyzes public health decision-making.",
+      "source_quote": "For some variables, there probably will never be randomized trials of primary prevention, so we must make decisions on the basis of the best available information.",
+      "source_id": "src_064"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Low-Risk Lifestyle Index for Coronary Heart Disease",
+      "when_to_apply": "When assessing an individual's or population's baseline risk for coronary heart disease and identifying areas for primary prevention.",
+      "steps": [
+        "Assess smoking status (aim: not currently smoking).",
+        "Measure Body-Mass Index (aim: BMI under 25).",
+        "Evaluate physical activity (aim: at least half an hour per day of moderate-to-vigorous activity, including brisk walking).",
+        "Measure alcohol consumption (aim: moderate intake, e.g., at least half a drink per day).",
+        "Calculate dietary score based on high cereal fiber, marine n-3 fatty acids, folate, high polyunsaturated to saturated fat ratio, low trans fat, and low glycemic load (aim: top 40% of cohort)."
+      ],
+      "source_quote": "We defined subjects at low risk as those who were not currently smoking, had a body-mass index... under 25, consumed an average of at least half a drink of an alcoholic beverage per day, engaged in moderate-to-vigorous physical activity... for at least half an hour per day... and scored in the highest 40 percent of the cohort for consumption of a diet...",
+      "source_id": "src_064"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Population Attributable Risk (PAR)",
+      "description": "A statistical and conceptual lens used to estimate the percentage of disease in a population that would not have occurred if everyone had been in the low-risk group, assuming a causal relationship. It shifts the focus from individual risk to population-wide prevention potential.",
+      "example": "Calculating that 82% of coronary events could be prevented if all women adhered to the five low-risk lifestyle factors.",
+      "source_id": "src_064"
+    }
+  ],
+  "heuristics": [
+    "Half an hour a day of moderate-to-vigorous activity, including brisk walking, is sufficient to substantially reduce coronary risk.",
+    "A BMI under 25 is the standard cutoff for low risk, as coronary risk increases even within the higher end of the 'normal' weight range."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Typically, behavioral risk factors are studied individually, but these types of behavior are often correlated, because people follow common lifestyle patterns.",
+      "context": "Explaining the rationale for studying lifestyle factors in combination rather than in isolation.",
+      "source_id": "src_064"
+    },
+    {
+      "text": "For some variables, there probably will never be randomized trials of primary prevention, so we must make decisions on the basis of the best available information.",
+      "context": "Defending the use of robust observational data to make public health recommendations.",
+      "source_id": "src_064"
+    },
+    {
+      "text": "Eighty-two percent of coronary events in the study cohort... could be attributed to lack of adherence to this low-risk pattern.",
+      "context": "Summarizing the massive impact of lifestyle on heart disease prevention.",
+      "source_id": "src_064"
+    },
+    {
+      "text": "...these data support the hypothesis that adopting a more healthful lifestyle could prevent a substantial majority of coronary disease events in women.",
+      "context": "Concluding the study's findings on primary prevention.",
+      "source_id": "src_064"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying exclusively on randomized controlled trials (RCTs) to validate lifestyle interventions before making public health recommendations.",
+      "why_it_fails": "Many primary prevention variables (like long-term diet and exercise habits) will never be tested in randomized trials due to logistical and ethical constraints, leading to a failure to act on the best available observational data.",
+      "source_id": "src_064"
+    },
+    {
+      "description": "Focusing solely on the pharmacologic management of heart disease risk factors (like hypertension and lipids).",
+      "why_it_fails": "While effective, these treatments are costly, require medical intervention, and may have side effects, whereas primary prevention via lifestyle avoids the disease onset entirely.",
+      "source_id": "src_064"
+    }
+  ]
+}

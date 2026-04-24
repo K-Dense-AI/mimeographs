@@ -1,0 +1,420 @@
+{
+  "expert_name": "René Descartes",
+  "themes": [
+    "Epistemology & Foundationalism",
+    "Methodological Doubt",
+    "Rationalism",
+    "Mind-Body Dualism",
+    "Mechanistic Physics",
+    "Absolute Certainty"
+  ],
+  "principles": [
+    {
+      "label": "The Cogito (I think, therefore I am)",
+      "summary": "The foundational, indubitable truth that the very act of doubting or being deceived requires a thinking subject, proving one's own existence.",
+      "details": "Even under the most extreme skeptical scenario—such as an omnipotent demon trying to deceive you—you must possess consciousness in order to be deceived. It is impossible to doubt and yet not exist.",
+      "representative_quote": "Doubtless, then, I exist, since I am deceived; and, let him deceive me as he may, he can never bring it about that I am nothing, so long as I shall be conscious that I am something.",
+      "source_ids": [
+        "src_052",
+        "src_039",
+        "src_000",
+        "src_025",
+        "src_032",
+        "src_009",
+        "src_054",
+        "src_019"
+      ]
+    },
+    {
+      "label": "Foundational Epistemological Reconstruction",
+      "summary": "To establish firm knowledge, one must completely dismantle all previously accepted opinions and rebuild them from a foundation of absolute certainty.",
+      "details": "Beliefs accumulated since childhood from various teachers and sensory experiences are inherently flawed. A firm and permanent structure in the sciences requires a completely new foundation built by a single rational mind.",
+      "representative_quote": "convinced of the necessity of undertaking once in my life to rid myself of all the opinions I had adopted, and of commencing anew the work of building from the foundation, if I desired to establish a firm and abiding superstructure in the sciences.",
+      "source_ids": [
+        "src_052",
+        "src_039",
+        "src_048",
+        "src_001",
+        "src_016",
+        "src_025"
+      ]
+    },
+    {
+      "label": "Rejection of the Merely Probable",
+      "summary": "Withhold assent from anything that admits even the slightest doubt, treating it as if it were patently false.",
+      "details": "True science must be defined as 'certain and evident cognition'. Accepting probabilities leaves room for doubt and error. If there is any possibility that a belief could be false, it cannot serve as a reliable foundation.",
+      "representative_quote": "Reason now leads me to think that I should hold back my ascent from opinions which are not completely certain and injubitable just as carefully as I do from those which are patently false.",
+      "source_ids": [
+        "src_052",
+        "src_061",
+        "src_036",
+        "src_016",
+        "src_054"
+      ]
+    },
+    {
+      "label": "The Criterion of Clarity and Distinctness",
+      "summary": "Whatever is perceived very clearly and distinctly by the intellect (independent of the senses) is true.",
+      "details": "Clear and distinct intellectual perception is the ultimate mark of truth. Once it is established that a veracious God exists and is not a deceiver, we can be certain that these innate ideas are true.",
+      "representative_quote": "I now seem to be able to lay it down as a general rule that whatever I perceive very clearly and distinctly is true",
+      "source_ids": [
+        "src_058",
+        "src_001",
+        "src_054"
+      ]
+    },
+    {
+      "label": "The Self as a Thinking Thing (Res Cogitans)",
+      "summary": "The self is fundamentally a thinking entity, defined by conscious operations, distinct from the physical body.",
+      "details": "All physical attributes and sensory experiences can be doubted and might be illusions. However, the act of thinking cannot be separated from the self. Thought encompasses all immediate conscious experience: doubting, understanding, affirming, and perceiving.",
+      "representative_quote": "I am therefore, precisely speaking, only a thinking thing, that is, a mind (mens sive animus), understanding, or reason...",
+      "source_ids": [
+        "src_000",
+        "src_032",
+        "src_009"
+      ]
+    },
+    {
+      "label": "The Methodical Application of Reason",
+      "summary": "Reason is naturally equal in all people; having a good mind is insufficient without the correct method to apply it.",
+      "details": "Great minds are capable of great vices as well as great virtues. A person walking slowly on the right path will go much further than someone sprinting in the wrong direction.",
+      "representative_quote": "For it isn’t enough to have a good mind; what matters most is using it well.",
+      "source_ids": [
+        "src_050",
+        "src_048"
+      ]
+    },
+    {
+      "label": "The Superiority of the Single Architect",
+      "summary": "Systems of knowledge or laws created by a single rational mind are superior to those patched together by many over time.",
+      "details": "Just as a city planned by a single engineer is more orderly than one that grew haphazardly from a village, knowledge built systematically by one thinker is more coherent than the accumulated opinions of many.",
+      "representative_quote": "there is usually less perfection in works composed of several parts and produced by various different craftsmen than there is in the works of one man.",
+      "source_ids": [
+        "src_050",
+        "src_048",
+        "src_019"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "The Method of Radical Doubt",
+      "summary": "A systematic process of discarding all beliefs that admit the slightest doubt to discover an indubitable foundational truth.",
+      "details": "Steps: 1. Empty the mind of all current beliefs. 2. Reject sensory knowledge, as the senses occasionally deceive. 3. Entertain extreme skeptical hypotheses (like the Dream Argument or the Evil Demon) to test the limits of doubt. 4. Identify what remains absolutely impossible to doubt (the Cogito).",
+      "representative_quote": "proceed by casting aside all that admits of the slightest doubt, not less than if I had discovered it to be absolutely false; and I will continue always in this track until I shall find something that is certain",
+      "source_ids": [
+        "src_052",
+        "src_039",
+        "src_000",
+        "src_025",
+        "src_001",
+        "src_016",
+        "src_009",
+        "src_054"
+      ]
+    },
+    {
+      "label": "The Four Rules of Method",
+      "summary": "A four-step process for seeking truth and resolving complex difficulties in the sciences.",
+      "details": "Steps: 1. Never accept anything as true without evident knowledge of its truth. 2. Divide each difficulty into as many parts as possible. 3. Direct thoughts in an orderly manner, starting with the simplest objects and moving to the complex. 4. Make enumerations so complete that nothing is overlooked.",
+      "representative_quote": "I thought that in place of the large number of rules that make up logic I would find the following four to be sufficient, provided that I made and kept to a strong resolution always to obey them.",
+      "source_ids": [
+        "src_050",
+        "src_036"
+      ]
+    },
+    {
+      "label": "Method of Analysis (Intuition and Deduction)",
+      "summary": "Reducing complex propositions to simple ones, solving the simplest by direct intuition, and deducing the rest step-by-step.",
+      "details": "Withdraw the mind from empirical matters and sensory ideas. Grasp the necessary relations between innate ideas. Ascend through logical steps to deduce a knowledge of all the rest, ensuring no intermediate links are missed.",
+      "representative_quote": "We shall be following this method exactly if we first reduce complicated and obscure propositions step by step to simpler ones, and then, starting with the intuition of the simplest ones of all, try to ascend through the same steps to a knowledge of all the rest.",
+      "source_ids": [
+        "src_061",
+        "src_036",
+        "src_001"
+      ]
+    },
+    {
+      "label": "Provisional Moral Code",
+      "summary": "A practical guide to avoid indecision in daily life while questioning fundamental beliefs.",
+      "details": "Steps: 1. Obey the laws and customs of your country. 2. Be firm and decisive in actions, following even doubtful opinions constantly once adopted. 3. Master yourself rather than fortune. 4. Devote your life to cultivating reason.",
+      "representative_quote": "so as not to be indecisive in my actions during the time when reason obliged me to be so in my judgments, and in order to live as well as I could during this time, I formed for myself a provisional moral code",
+      "source_ids": [
+        "src_050"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "The Evil Demon (Malicious Genius)",
+      "summary": "An extreme thought experiment imagining an omnipotent, deceitful entity manipulating all perceptions and mathematical truths, used to test the absolute limits of skepticism.",
+      "details": "By imagining an all-powerful being actively manipulating all reality, the thinker is forced to suspend judgment on all external reality and isolate truths that are logically immune to any form of deception.",
+      "representative_quote": "I will suppose, then, not that Deity, who is sovereignly good and the fountain of truth, but that some malignant demon, who is at once exceeding potent and deceitful, has employed all his artifice to deceive me",
+      "source_ids": [
+        "src_052",
+        "src_025",
+        "src_001",
+        "src_016",
+        "src_032",
+        "src_054"
+      ]
+    },
+    {
+      "label": "The Architectural Metaphor of Knowledge",
+      "summary": "Viewing knowledge as a physical structure. If the foundation is flawed, the entire structure must be demolished and rebuilt from scratch.",
+      "details": "Instead of dismantling the house stick by stick (belief by belief), you examine the foundation (basic principles). If the foundation is undermined, the entire structure of beliefs collapses automatically.",
+      "representative_quote": "Once the foundations of a building are undermined, anything built on them collapses of its own accord. So, I will go straight to the basic principles on which all my former beliefs rested.",
+      "source_ids": [
+        "src_050",
+        "src_048",
+        "src_016",
+        "src_001"
+      ]
+    },
+    {
+      "label": "The Dream Argument",
+      "summary": "A lens for evaluating the reliability of sensory experience by recognizing that vivid dreams perfectly mimic waking life, meaning current perceptions could be illusions.",
+      "details": "Because there are no definitive tests to prove you are awake, you cannot be absolutely certain that your current physical reality is real.",
+      "representative_quote": "I perceive so clearly that there exist no certain marks by which the state of waking can ever be distinguished from sleep, that I feel greatly astonished",
+      "source_ids": [
+        "src_052",
+        "src_016"
+      ]
+    },
+    {
+      "label": "The Barrel of Apples",
+      "summary": "A metaphor for foundational epistemology: to ensure beliefs are sound, one must empty the mind completely and only put back the absolutely sound ones to prevent rot from spreading.",
+      "details": "To prevent a few rotten apples (false beliefs) from spoiling the whole barrel, one must tip out all the apples, inspect each one carefully, and only put the fresh, sound ones back in.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_000",
+        "src_025"
+      ]
+    },
+    {
+      "label": "The Archimedean Point",
+      "summary": "The concept of finding a single, firm, and immovable foundational truth upon which to build an entire system of knowledge.",
+      "details": "Just as Archimedes needed only one firm point to move the earth, a philosopher needs only one indubitable truth (the Cogito) to rebuild all knowledge after doubting everything else.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_052",
+        "src_000"
+      ]
+    },
+    {
+      "label": "The Mechanistic Universe (Animal Machine)",
+      "summary": "Viewing the physical universe and biological bodies as purely mechanistic systems composed of matter in motion, operating without conscious mental intervention.",
+      "details": "Explaining physiological processes of human and nonhuman animal bodies through the mechanism of matter arranged into shapes and structures, rather than using 'substantial forms'.",
+      "representative_quote": "Descartes considered nonhuman animals to be mere machines, devoid of mental substance and of all properly mental states.",
+      "source_ids": [
+        "src_058",
+        "src_056"
+      ]
+    },
+    {
+      "label": "The Piece of Wax",
+      "summary": "A lens to understand the true essence of physical matter. Sensory properties change, but the constant property of matter is 'extension' (occupying space).",
+      "details": "Observing a piece of wax before and after it melts by a fire. All its sensory qualities change, yet it remains the same wax, proving its essence is merely geometrical space occupancy.",
+      "representative_quote": "the external world has an Essence too and that's simply extension it simply it takes up space that it's susceptible to being treated by geometry and the mathematical Sciences",
+      "source_ids": [
+        "src_025"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "Toss Out Doubtful Beliefs",
+      "summary": "If you find even one reason for doubt in a belief, toss it out.",
+      "details": null,
+      "representative_quote": "So for the purpose of rejecting all my opinions, it will be enough if I find in each of them at least one reason for doubt.",
+      "source_ids": [
+        "src_016",
+        "src_000",
+        "src_054"
+      ]
+    },
+    {
+      "label": "Distrust Deceivers",
+      "summary": "Never trust completely those who have deceived us even once.",
+      "details": "Applied primarily to the senses, which occasionally mislead us regarding minute or distant objects.",
+      "representative_quote": "it is the part of prudence not to place absolute confidence in that by which we have even once been deceived.",
+      "source_ids": [
+        "src_052",
+        "src_016",
+        "src_001"
+      ]
+    },
+    {
+      "label": "Divide and Conquer",
+      "summary": "Divide each difficulty into as many parts as possible.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_036",
+        "src_025"
+      ]
+    },
+    {
+      "label": "Ascend from the Simple",
+      "summary": "Begin with the simplest and most easily known objects to ascend to the complex.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_036",
+        "src_061"
+      ]
+    },
+    {
+      "label": "Walk Slowly in the Dark",
+      "summary": "Walk slowly and with circumspection in the dark, so that even if you advance little, you avoid falling.",
+      "details": null,
+      "representative_quote": "Mais, comme un homme qui marche seul, et dans les ténèbres, je me résolus d'aller si lentement et d'user de tant de circonspection en toutes choses, que si je n'avançois que fort peu, je me garderois bien au moins de tomber.",
+      "source_ids": [
+        "src_048"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "The Cogito",
+      "summary": "The foundational discovery of certain knowledge.",
+      "details": null,
+      "representative_quote": "I think, therefore I am.",
+      "source_ids": [
+        "src_039",
+        "src_052",
+        "src_000",
+        "src_058",
+        "src_025",
+        "src_054",
+        "src_019"
+      ]
+    },
+    {
+      "label": "The Malignant Demon",
+      "summary": "Introducing the ultimate skeptical hypothesis.",
+      "details": null,
+      "representative_quote": "I will suppose, then, not that Deity, who is sovereignly good and the fountain of truth, but that some malignant demon, who is at once exceeding potent and deceitful, has employed all his artifice to deceive me",
+      "source_ids": [
+        "src_052",
+        "src_001",
+        "src_016"
+      ]
+    },
+    {
+      "label": "Prudence Against Deception",
+      "summary": "Explaining why he must doubt the information provided by his senses.",
+      "details": null,
+      "representative_quote": "it is the part of prudence not to place absolute confidence in that by which we have even once been deceived.",
+      "source_ids": [
+        "src_052",
+        "src_016"
+      ]
+    },
+    {
+      "label": "Universal Reason",
+      "summary": "Establishing the universal nature of reason.",
+      "details": null,
+      "representative_quote": "Good sense is the best shared-out thing in the world; for everyone thinks he has such a good supply of it that he doesn’t want more...",
+      "source_ids": [
+        "src_050",
+        "src_048"
+      ]
+    },
+    {
+      "label": "Application of Mind",
+      "summary": "Explaining why having intelligence is not enough without a proper method.",
+      "details": null,
+      "representative_quote": "For it isn’t enough to have a good mind; what matters most is using it well.",
+      "source_ids": [
+        "src_050",
+        "src_048"
+      ]
+    },
+    {
+      "label": "Undermining Foundations",
+      "summary": "Explaining why he targets basic principles rather than individual beliefs.",
+      "details": null,
+      "representative_quote": "Once the foundations of a building are undermined, anything built on them collapses of its own accord.",
+      "source_ids": [
+        "src_016"
+      ]
+    },
+    {
+      "label": "Clear and Distinct Perception",
+      "summary": "Establishing the mark of truth.",
+      "details": null,
+      "representative_quote": "I now seem to be able to lay it down as a general rule that whatever I perceive very clearly and distinctly is true",
+      "source_ids": [
+        "src_058"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Implicit Trust in the Senses",
+      "summary": "Relying on sensory perception as a source of absolute truth.",
+      "details": "The senses frequently deceive us regarding small or distant objects, and even vivid, nearby experiences cannot be trusted because we might be dreaming. The senses are designed to detect practical benefits, not to reveal true essences.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_052",
+        "src_000",
+        "src_058",
+        "src_016",
+        "src_054"
+      ]
+    },
+    {
+      "label": "Relying on Syllogistic Deduction for First Principles",
+      "summary": "Attempting to discover new foundational truths using traditional logic or syllogisms.",
+      "details": "Syllogisms rely exclusively on logical form rather than the actual content. They do not yield any new knowledge because the conclusion must already be known to construct the syllogism. True first principles are grasped by intuition.",
+      "representative_quote": "When we apprehend that we are thinking things, this is a first notion which is not drawn from any syllogism...",
+      "source_ids": [
+        "src_036",
+        "src_001",
+        "src_009",
+        "src_026"
+      ]
+    },
+    {
+      "label": "Dismantling Beliefs One by One",
+      "summary": "Attempting to test or doubt every single belief individually.",
+      "details": "Humans hold trillions of beliefs; running through them all individually would be an endless, impossible task. You must target the foundational principles instead.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_052",
+        "src_016"
+      ]
+    },
+    {
+      "label": "Settling for Probable Cognition",
+      "summary": "Mixing probable conjectures with clear truths in the sciences.",
+      "details": "Settling for probability leaves room for doubt. Science must be built strictly on 'certain and evident cognition' to avoid taking what is false to be true.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_061",
+        "src_036"
+      ]
+    },
+    {
+      "label": "Relying on Majority Consensus",
+      "summary": "Believing that a plurality of voices determines truth.",
+      "details": "For difficult truths, a single rational mind is much more likely to discover them than a whole population. Consensus is often just a product of local custom.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_050",
+        "src_048"
+      ]
+    },
+    {
+      "label": "Violent Institutional Reform",
+      "summary": "Attempting to reform a state or public institution by tearing it down to the foundations.",
+      "details": "Large societal bodies are too difficult to raise once knocked down, and their fall is devastating. It is better to tolerate their imperfections than to violently overthrow them.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_050",
+        "src_048"
+      ]
+    }
+  ]
+}

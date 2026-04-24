@@ -1,0 +1,188 @@
+{
+  "source_id": "src_016",
+  "summary": "Geoffrey Hinton introduces GLOM, a conceptual neural network architecture designed to model human vision. He explains how static neural networks can represent dynamic parse trees using embedding vectors and islands of agreement, drawing analogies to biological cells and advocating for coordinate frames and knowledge distillation over weight sharing. Geoffrey Hinton discusses the GLOM architecture, human visual attention, and the intersection of artificial neural networks and neuroscience. He argues that attention involves dynamically remapping finite neural hardware to different hierarchical levels, and that engineering failures are a valid way to falsify theories about the brain. He also explains how neural net attractors can demystify bizarre psychological phenomena like semantic access dyslexia.",
+  "themes": [
+    "Human Vision",
+    "Neural Network Architecture",
+    "GLOM",
+    "Parse Trees",
+    "Coordinate Frames",
+    "Self-Supervised Learning",
+    "Human Vision and Attention",
+    "Computational Neuroscience",
+    "Unsupervised Learning",
+    "Coordinate Frames and Symmetries",
+    "Neural Network Attractors"
+  ],
+  "principles": [
+    {
+      "statement": "Real neural networks must represent dynamic parse trees without dynamically allocating neurons.",
+      "rationale": "Unlike symbolic AI with RAM and pointers, neural networks have static hardware where weights change slowly. They must use embedding vectors and islands of agreement to act as pointers.",
+      "source_quote": "how can a static neural net represent a dynamic parse tree which is different for every image... we're not going to have to dynamically allocate neurons to do anything",
+      "source_id": "src_016"
+    },
+    {
+      "statement": "Human vision relies on alignment with rectangular coordinate frames, not just raw geometry like right angles.",
+      "rationale": "When perceiving objects like a tilted wireframe cube, humans are acutely sensitive to deformations only when the edges align with their chosen internal coordinate frames.",
+      "source_quote": "it's not right angles that human vision cares about it's alignment with rectangular coordinate frames",
+      "source_id": "src_016"
+    },
+    {
+      "statement": "The brain achieves the benefits of convolutional neural networks through knowledge distillation, not weight sharing.",
+      "rationale": "The brain cannot physically share weights across different locations. Instead, it shares knowledge by having different locations provide training signals to each other via attention-weighted averaging.",
+      "source_quote": "what we really need to share is not weights it's the knowledge... attention gauging averaging between columns is i think what's implementing things like cnns in the brain not by weight sharing but by distillation",
+      "source_id": "src_016"
+    },
+    {
+      "statement": "We use the same neural hardware to process different levels of a hierarchy by changing the mapping between reality and the hardware.",
+      "rationale": "You cannot fit the entire universe down to quarks in your head simultaneously. Instead, you reuse the same neural circuits (e.g., thinking of an atom like a solar system) by changing fixations and attention.",
+      "source_quote": "you're using exactly the same hardware as you use for thinking about the solar system and what you've really done is taken that hardware and changed the mapping between reality and the hardware",
+      "source_id": "src_016"
+    },
+    {
+      "statement": "We only truly see one object at a time, and seeing an object requires seeing its parts.",
+      "rationale": "Human vision relies on the sequential allocation of attention. We process a thumbnail-sized area in fine detail and rely heavily on the gestalt distinction of figure and ground.",
+      "source_quote": "i basically believe we only see one object at a time so the gestalt distinction of figure and ground i think is very important... in order to see the object you have to be seeing its parts",
+      "source_id": "src_016"
+    },
+    {
+      "statement": "Engineering failure is a perfectly valid method for falsifying computational neuroscience theories.",
+      "rationale": "Before computers, theories of the brain couldn't be easily tested. Now, we can falsify theories about how the brain works simply by showing they fail to work in an engineering sense.",
+      "source_quote": "the big advantage engineers have over a computational neuroscientist is they can falsify models by showing they just don't work",
+      "source_id": "src_016"
+    },
+    {
+      "statement": "Neural networks can explain bizarre psychological phenomena simply through the mechanics of attractors.",
+      "rationale": "Conditions like semantic access dyslexia (reading 'peach' as 'apricot') seem weird to psychologists, but make perfect sense if damage to a neural pathway drops the input into a nearby, incorrect semantic attractor.",
+      "source_quote": "very weird phenomena from a neuropsychologist's point of view become perfectly mundane once you start making these neural net models",
+      "source_id": "src_016"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "SimCLR Contrastive Learning",
+      "when_to_apply": "When extracting representations of scenes or objects from unlabeled image datasets.",
+      "steps": [
+        "Take an image x and extract two different crops, x_i and x_j.",
+        "Pass both crops through the same deep neural network (e.g., a ResNet) to get a representation.",
+        "Pass the representation through a network that reduces dimensionality.",
+        "Optimize the network by making representations from the same image similar, and representations from different images more different."
+      ],
+      "source_quote": "you take an image x you take two different crops of x... you put those two crops through the same neural network... and then you try and make zi and zj agree with each other",
+      "source_id": "src_016"
+    },
+    {
+      "name": "Unsupervised Visual Representation Learning (GLOM)",
+      "when_to_apply": "When training visual models to learn part-whole hierarchies without labeled data.",
+      "steps": [
+        "Mask out a patch or fragment of the input image.",
+        "Let the network iterate to predict and fill in the missing patch, acting as a partial auto-encoder.",
+        "Apply a contrastive objective using attention to ensure nearby patches of the image develop similar representations."
+      ],
+      "source_quote": "mask out a patch of the image and then let glom iterate and at the end of the iteration have filled in that patch... add to that the contrastive objective of trying to make nearby patches of image have exactly the same representation",
+      "source_id": "src_016"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Biological Cell Metaphor for GLOM",
+      "description": "A mental model for understanding the GLOM architecture by comparing it to biology. A column of hardware processing an image patch is like a biological cell. The multiple embedding vectors in that column are like the cell's vector of protein expressions. An object in the image is like an organ, formed by a bunch of cells (columns) that have very similar protein expressions (embedding vectors).",
+      "example": "Using this model to justify replicating weights/knowledge across columns, just as every biological cell contains a complete set of DNA instructions even if it only expresses a subset.",
+      "source_id": "src_016"
+    },
+    {
+      "name": "Echo Chambers for Segmentation",
+      "description": "Using the concept of an 'echo chamber'—where similar entities interact and become even more similar—as a mechanism for image segmentation. By averaging embeddings with nearby similar embeddings, the network naturally forms distinct 'islands' of agreement.",
+      "example": "Applying attention-weighted averaging between nearby columns so that parts of the same object converge on the exact same embedding vector.",
+      "source_id": "src_016"
+    },
+    {
+      "name": "Neurons as Basis Functions",
+      "description": "Viewing individual neurons as basis functions in an unnormalized log probability space. The activity of the neuron represents the coefficient on that basis function, allowing the network to combine ambiguous distributions simply by adding them together.",
+      "example": "When a part makes an ambiguous multimodal prediction about a whole, adding the log probabilities from nearby localities helps pick out the common mode.",
+      "source_id": "src_016"
+    },
+    {
+      "name": "Attention as Hardware Re-mapping",
+      "description": "Viewing attention and fixation not just as a spotlight, but as dynamically re-mapping the same finite neural hardware to different levels of a part-whole hierarchy.",
+      "example": "Using the exact same neural hardware to understand the solar system (sun and planets) as you use to understand the Bohr atom (nucleus and electrons).",
+      "source_id": "src_016"
+    },
+    {
+      "name": "Semantic Attractor Landscapes",
+      "description": "Viewing semantic understanding as falling into 'attractors' in a neural state space. Errors in understanding are modeled as falling into an adjacent, incorrect attractor basin due to pathway damage.",
+      "example": "A brain-damaged patient reading the word 'peach' but saying 'apricot' because the neural pathway dropped the signal into a nearby semantic attractor.",
+      "source_id": "src_016"
+    }
+  ],
+  "heuristics": [
+    "If you want a function of multiple arguments, you can always implement it by using functions of one argument followed by adding.",
+    "When exponentiating scalar products for attention, one really good fit will outweigh lots of bad fits, allowing for sparse sampling.",
+    "If you are using coordinate frames, align them with the natural symmetries of the object to represent it with fewer bits.",
+    "To understand how the brain works, try to build it; if it doesn't work in an engineering sense, the theory is falsified."
+  ],
+  "signature_quotes": [
+    {
+      "text": "there's another field called science where you're trying to investigate something that actually exists and i'm more interested in that. unfortunately i've had more success in engineering",
+      "context": "Contrasting the freedom of engineering neural networks with the constraints of studying actual human vision.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "most people think coordinate frames were invented by descartes or somebody like that um actually they're invented by the visual system",
+      "context": "Discussing the psychological reality of part-whole hierarchies and coordinate frames.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "echo chambers are very bad idea if you're doing politics but they're very good idea for doing segmentation",
+      "context": "Explaining how attention-weighted averaging helps form islands of agreement in GLOM.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "what we really need to share is not weights it's the knowledge",
+      "context": "Explaining how the brain might implement the equivalent of convolutional neural networks without physical weight sharing.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "you're using exactly the same hardware as you use for thinking about the solar system and what you've really done is taken that hardware and changed the mapping between reality and the hardware",
+      "context": "Explaining how the brain processes part-whole hierarchies.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "i basically believe we only see one object at a time",
+      "context": "Discussing human visual attention and the gestalt distinction of figure and ground.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "the big advantage engineers have over a computational neuroscientist is they can falsify models by showing they just don't work",
+      "context": "Answering a question about how to falsify hypotheses in computational neuroscience.",
+      "source_id": "src_016"
+    },
+    {
+      "text": "very weird phenomena from a neuropsychologist's point of view become perfectly mundane once you start making these neural net models",
+      "context": "Explaining semantic access dyslexia using neural network attractors.",
+      "source_id": "src_016"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Believing that mental images are made of pixels.",
+      "why_it_fails": "Knowledge of shape is independent of the viewer. A mental image is actually a structural description where a viewpoint has been assigned, allowing the brain to propagate consistent viewpoint information to compute spatial relationships.",
+      "source_id": "src_016"
+    },
+    {
+      "description": "Dynamically allocating neurons on the fly to build parse trees.",
+      "why_it_fails": "Real neural networks do not have general-purpose RAM or pointers. Hardware must be allocated ahead of time, and dynamic relationships must be represented by embedding vectors acting as pointers.",
+      "source_id": "src_016"
+    },
+    {
+      "description": "Using standard contrastive learning to force two random crops of an image to have identical representations.",
+      "why_it_fails": "Two different patches might contain entirely different parts of a scene (e.g., one has parts A and B, the other has A and C). You only want the representations to agree for the overlapping parts, which requires attention and coordinate transforms.",
+      "source_id": "src_016"
+    },
+    {
+      "description": "Assuming human vision processes entire 3D scenes uniformly and simultaneously.",
+      "why_it_fails": "Even with trillions of synapses, the brain cannot process everything at once. It sequentially attends to thumbnail-sized areas in fine detail, while peripheral vision does not fully recognize objects.",
+      "source_id": "src_016"
+    }
+  ]
+}

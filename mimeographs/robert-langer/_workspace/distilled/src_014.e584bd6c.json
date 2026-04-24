@@ -1,0 +1,86 @@
+{
+  "source_id": "src_014",
+  "summary": "Robert Langer recounts his career journey from turning down lucrative oil industry jobs to pioneering polymer drug delivery and tissue engineering. He emphasizes the importance of designing biomaterials from first principles rather than repurposing existing objects, and highlights the necessity of perseverance in the face of widespread scientific skepticism.",
+  "themes": [
+    "Biomedical Engineering",
+    "Drug Delivery",
+    "First Principles Design",
+    "Perseverance",
+    "Innovation",
+    "Tissue Engineering"
+  ],
+  "principles": [
+    {
+      "statement": "Design biomaterials from first principles rather than repurposing existing objects.",
+      "rationale": "Historically, doctors used household items (like a ladies' girdle for an artificial heart) which led to poor outcomes like blood clots. Engineering materials specifically for their biological and chemical requirements yields safer, effective treatments.",
+      "source_quote": "Rather than take things from your house, maybe you could ask the question what do you really want in a biomaterial from an engineering standpoint, chemistry standpoint, biology standpoint, and then synthesize it from first principles.",
+      "source_id": "src_014"
+    },
+    {
+      "statement": "Don't let the literature or established experts dictate what is possible.",
+      "rationale": "When Langer tried to release large molecules through solid polymers, the literature and experts said it was impossible, comparing it to walking through a wall. By trying anyway, he proved them wrong.",
+      "source_quote": "the literature actually said the same thing... really the only thing that I have gotten for me is I hadn't read any of this... and so I tried anyhow.",
+      "source_id": "src_014"
+    },
+    {
+      "statement": "Use your critics' skepticism to prove the novelty of your inventions.",
+      "rationale": "When a patent examiner repeatedly rejected his patent for polymer drug delivery, Langer used quotes from top chemists stating the idea was impossible to prove that his results were \"surprising\" and therefore patentable.",
+      "source_quote": "I wondered if anybody ever wrote something like that down... I found some very interesting quotes... I wrote a note to myself, 'a report isn't surprising, that's a very good word for patent examiner'.",
+      "source_id": "src_014"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "First Principles Biomaterial Design",
+      "when_to_apply": "When creating new medical implants, drug delivery systems, or artificial organs.",
+      "steps": [
+        "Ask what you really want in a biomaterial from an engineering, chemistry, and biology standpoint.",
+        "Perform detailed chemical engineering design analysis to figure out the right responses and materials.",
+        "Synthesize the material from first principles rather than repurposing existing objects."
+      ],
+      "source_quote": "ask the question what do you really want in a biomaterial from an engineering standpoint, chemistry standpoint, biology standpoint, and then synthesize it from first principles.",
+      "source_id": "src_014"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Tortuosity (Driving through Boston)",
+      "description": "A model to explain how large molecules slowly diffuse through solid polymers. The pores left behind in the polymer are incredibly winding and constricted, slowing down the release rate.",
+      "example": "This is kind of like driving a car through Boston... this system had in Boston have high tortuosity and over the years our students have done a lot of studies try to understand and even model what that tortuosity is.",
+      "source_id": "src_014"
+    }
+  ],
+  "heuristics": [
+    "Break seemingly impossible problems down into testable parts.",
+    "If an experiment fails, view it as finding a way it doesn't work, not a dead end."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I actually found over 200 different ways to get this to not work, but eventually I actually made these little microspheres...",
+      "context": "On his early struggles to get large molecules to diffuse through solid polymers.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "What happens in science ultimately is can people begin to reproduce what you do.",
+      "context": "On overcoming the initial rejection and skepticism from the scientific community.",
+      "source_id": "src_014"
+    },
+    {
+      "text": "Rather than take things from your house, maybe you could ask the question what do you really want in a biomaterial from an engineering standpoint, chemistry standpoint, biology standpoint, and then synthesize it from first principles.",
+      "context": "On changing the paradigm of how medical materials are chosen and designed.",
+      "source_id": "src_014"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Repurposing household objects or existing consumer materials for medical implants.",
+      "why_it_fails": "Materials designed for consumer use (like a ladies' girdle used for an artificial heart) are not optimized for biological contact, leading to severe complications like blood clots and strokes.",
+      "source_id": "src_014"
+    },
+    {
+      "description": "Assuming large molecules cannot diffuse through solid polymers.",
+      "why_it_fails": "Experts believed it was like \"walking through a wall,\" but they failed to account for the creation of winding, tortuous pores within the polymer matrix that allow slow, controlled release.",
+      "source_id": "src_014"
+    }
+  ]
+}

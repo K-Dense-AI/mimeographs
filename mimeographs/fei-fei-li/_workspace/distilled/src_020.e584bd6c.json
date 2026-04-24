@@ -1,0 +1,112 @@
+{
+  "source_id": "src_020",
+  "summary": "Fei-Fei Li discusses the current inflection point of AI, emphasizing that AI is a tool whose values reflect human values. She advocates for a human-centered approach to AI development, increased public sector resourcing for research and evaluation, and highlights the ethical responsibilities of technologists to educate the public and mitigate societal risks.",
+  "themes": [
+    "Human-centered AI",
+    "Public sector resourcing",
+    "AI in healthcare",
+    "Ethical responsibility of technologists",
+    "AI education and public awareness"
+  ],
+  "principles": [
+    {
+      "statement": "AI is a tool, and its values are human values.",
+      "rationale": "Because tools do not possess independent values, developers and governors must take responsibility for ensuring the technology improves the human condition.",
+      "source_quote": "It means recognizing AI is a tool. And tools don’t have independent values—their values are human values.",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Increased productivity does not automatically translate into shared prosperity.",
+      "rationale": "While AI can drive immense technological and economic productivity, translating that into shared prosperity is a societal-level issue that requires deliberate, human-centered governance.",
+      "source_quote": "As a technologist, I absolutely believe in increased productivity, but that doesn’t automatically translate into shared prosperity.",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "The public sector must be resourced to objectively evaluate and assess AI.",
+      "rationale": "Just as the public trusts medications like ibuprofen because of public and private sector evaluations, society needs a well-resourced public sector to assess AI models and build public trust.",
+      "source_quote": "We need the public sector to play that evaluative role in AI... but we’re so resource-limited. We wish we could do an even better job, but we need to resource the public sector to do that.",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "AI developers have an extra ethical responsibility to communicate and educate the public.",
+      "rationale": "Because AI is a new and powerful technology, responsible communication from experts helps prevent public anxiety, misinformation, and irresponsible expectations of utopia.",
+      "source_quote": "If we can use our resources to communicate and educate about this technology in a responsible way, it’s so much better than people reading misinformation that creates anxiety or irresponsible expectations of utopia.",
+      "source_id": "src_020"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Human-Centered AI Framework",
+      "when_to_apply": "When developing, governing, or evaluating the impact of new AI technologies.",
+      "steps": [
+        "Evaluate impact on the individual: Assess whether the technology empowers or harms human dignity, jobs, opportunity, and creativity.",
+        "Evaluate impact on the community: Assess whether the technology helps communities or exacerbates biases and challenges among them.",
+        "Evaluate impact on society: Assess civilizational-scale positive changes (e.g., curing diseases, climate solutions) against societal risks (e.g., disinformation, painful labor market changes)."
+      ],
+      "source_quote": "The human-centered framework is anchored in a shared commitment that AI should improve the human condition—and it consists of concentric rings of responsibility and impact, from individuals to community to society as a whole.",
+      "source_id": "src_020"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Three Public Goods of the Public Sector",
+      "description": "A lens for understanding why the public sector requires robust infrastructure and resourcing (like the National AI Research Resource). The public sector provides three fundamental goods: knowledge expansion/discovery, talent development/education, and trusted evaluation/standardization.",
+      "example": "Comparing the public trust in ibuprofen, which relies on public- and private-sector evaluations and standardizations, to the need for public sector evaluation of large language models.",
+      "source_id": "src_020"
+    },
+    {
+      "name": "The AI Inflection Point Triad",
+      "description": "A model for understanding why AI is currently at an inflection point. It is not just about technology, but the convergence of three factors: the power of new models (like LLMs), public awakening (widespread daily use like ChatGPT), and socioeconomic impact.",
+      "example": null,
+      "source_id": "src_020"
+    }
+  ],
+  "heuristics": [
+    "Tools don’t have independent values—their values are human values.",
+    "Health care is people caring for people."
+  ],
+  "signature_quotes": [
+    {
+      "text": "What is intelligence, and can we make intelligent machines? That was just so much fun to ponder.",
+      "context": "On what originally drew her into the field of artificial intelligence.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "It means recognizing AI is a tool. And tools don’t have independent values—their values are human values.",
+      "context": "Explaining what it means to develop AI in a human-centered way.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "As a technologist, I absolutely believe in increased productivity, but that doesn’t automatically translate into shared prosperity.",
+      "context": "Discussing the societal-level impacts of AI and the need for human-centered approaches.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "It’s not AI’s future, it’s humanity’s future. We don’t talk about electricity’s future, we don’t talk about steam’s future.",
+      "context": "When asked what worries her most about AI's future.",
+      "source_id": "src_020"
+    },
+    {
+      "text": "Computers embody our values. But humans have the ability to love and feel compassion. Right now, it’s not clear there is a mathematical path toward that.",
+      "context": "On the aspects of human intelligence that may always remain beyond AI's capabilities.",
+      "source_id": "src_020"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Banning AI in educational settings.",
+      "why_it_fails": "It prevents students from learning to use the tool responsibly. The gap between those who understand how to use AI and those who do not will create extremely profound downstream inequalities.",
+      "source_id": "src_020"
+    },
+    {
+      "description": "Relying on sensationalist news for AI education.",
+      "why_it_fails": "News coverage often lacks technical accuracy or prioritizes engagement ('going after eyeballs'), which creates unnecessary public despair, anxiety, or irresponsible expectations of utopia.",
+      "source_id": "src_020"
+    },
+    {
+      "description": "Assuming technological productivity automatically equals societal prosperity.",
+      "why_it_fails": "It ignores the complex socioeconomic impacts of technology, such as painful labor market changes, and fails to address how wealth and benefits are actually distributed across society.",
+      "source_id": "src_020"
+    }
+  ]
+}

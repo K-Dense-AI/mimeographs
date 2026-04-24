@@ -1,0 +1,138 @@
+{
+  "source_id": "src_023",
+  "summary": "Jürgen Schmidhuber outlines the foundational deep learning discoveries made by his lab during their 'Miraculous Year' of 1990-1991. He claims historical priority for several core AI concepts, including the principles behind LSTMs, Generative Adversarial Networks (GANs), Transformers, neural network distillation, and world models, while emphasizing the necessity of Recurrent Neural Networks (RNNs) for achieving Artificial General Intelligence.",
+  "themes": [
+    "History of Deep Learning",
+    "Scientific Attribution and Priority",
+    "Recurrent Neural Networks (RNNs)",
+    "Artificial Curiosity and Intrinsic Motivation",
+    "Artificial General Intelligence (AGI)"
+  ],
+  "principles": [
+    {
+      "statement": "Artificial General Intelligence requires Recurrent Neural Networks, not just Feedforward Neural Networks.",
+      "rationale": "RNNs have feedback connections that make them general-purpose, parallel-sequential computers capable of processing arbitrary length sequences and implementing any computable program, whereas FNNs are fundamentally limited.",
+      "source_quote": "If we want to build an Artificial General Intelligence (AGI), then its underlying computational substrate must be something more like an RNN than an FNN as FNNs are fundamentally insufficient; RNNs are to FNNs as general computers are to pocket calculators.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "In stochastic environments, artificial curiosity should reward learning progress, not just prediction errors.",
+      "rationale": "If an agent is rewarded merely for finding unpredictable data, it will get stuck staring at pure randomness (like white noise on a TV). Rewarding the first derivative of the error (the improvement) ensures the agent ignores both the totally predictable and the fundamentally unpredictable.",
+      "source_quote": "in stochastic environments, C's reward should not be the errors of M, but (an approximation of) the first derivative of M's errors across subsequent training iterations, that is, M's improvements.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Neural networks can be made more powerful by separating storage and control.",
+      "rationale": "Traditional NNs rely on slowly changing connection weights for memory, which limits short-term memory capacity. By using a slow NN to program the 'fast weights' of another NN, you gain end-to-end differentiable control over many more temporal variables.",
+      "source_quote": "That is, I separated storage and control like in traditional computers, but in a fully neural way... A slow NN learns to program the weights of a separate fast NN.",
+      "source_id": "src_023"
+    },
+    {
+      "statement": "Meta-learning requires multi-dimensional reward and error signals to be fed as inputs to the network.",
+      "rationale": "If a meta-learner cannot see its own pain, reward, or error signals as inputs, it cannot learn better learning algorithms that map those signals to useful weight or policy changes.",
+      "source_quote": "A meta learner must see its own reward/pain/error signals as inputs, otherwise it cannot learn better learning algorithms that map such signals to useful weight changes or policy changes!",
+      "source_id": "src_023"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Adversarial Artificial Curiosity",
+      "when_to_apply": "When building autonomous agents that need to explore their environment and invent their own experiments without a human teacher.",
+      "steps": [
+        "Create a controller neural network (C) that probabilistically generates outputs to influence an environment.",
+        "Create a world model neural network (M) that predicts the environmental reactions to C's outputs.",
+        "Train M using gradient descent to minimize its prediction error, making it a better predictor.",
+        "Train C in a zero-sum game to maximize the error of M, motivating C to invent novel outputs until the resulting data becomes familiar and boring to M."
+      ],
+      "source_quote": "M minimizes its error, thus becoming a better predictor. But in a zero sum game, C tries to find outputs that maximize the error of M. M's loss is the gain of C.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "Neural Network Distillation (Collapsing/Compressing)",
+      "when_to_apply": "When you need to transfer the knowledge of a complex, multi-timescale, or hierarchical neural network into a single, simpler neural network.",
+      "steps": [
+        "Train a teacher NN to predict conditional expectations of data given other data.",
+        "Train a student NN to imitate the behavior of the teacher NN.",
+        "Simultaneously re-train the student NN on previously learned skills so that it does not forget them."
+      ],
+      "source_quote": "Its knowledge can be compressed into a student NN, by training the student NN to imitate the behavior of the teacher NN (while also re-training the student NN on previously learned skills such that it does not forget them).",
+      "source_id": "src_023"
+    },
+    {
+      "name": "Hierarchical Reinforcement Learning with Subgoal Generators",
+      "when_to_apply": "When an RL agent needs to solve complex problems by hierarchically decomposing them into easier subproblems.",
+      "steps": [
+        "Provide the RL machine with extra inputs defining a (start, goal) pair.",
+        "Train an evaluator NN to predict the rewards/costs of going from the start to the goal.",
+        "Use an RNN-based subgoal generator to learn, via gradient descent, a sequence of cost-minimizing intermediate subgoals.",
+        "Have the RL machine use these subgoal sequences to achieve the final goals."
+      ],
+      "source_quote": "An evaluator NN learns to predict the rewards/costs of going from start to goal. An (R)NN-based subgoal generator also sees (start, goal), and uses (copies of) the evaluator NN to learn by gradient descent a sequence of cost-minimising intermediate subgoals.",
+      "source_id": "src_023"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "RNNs as General Computers",
+      "description": "A lens for understanding the computational power of Recurrent Neural Networks. While Feedforward Neural Networks are limited like pocket calculators, RNNs possess feedback connections that make them Turing-complete, parallel-sequential computers capable of running any program.",
+      "example": "Using an RNN as the underlying computational substrate for an Artificial General Intelligence (AGI) because it can process input sequences of arbitrary length.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "The Neural Heat Exchanger",
+      "description": "A metaphor for a supervised learning method in deep multi-layer NNs that is entirely local in space and time, avoiding standard backpropagation. It mimics a physical heat exchanger.",
+      "example": "Inputs 'heat up' as they are transformed through successive layers of the network, while target values enter from the opposite end of the pipeline and 'cool down'.",
+      "source_id": "src_023"
+    },
+    {
+      "name": "World Models as Mental Experiments",
+      "description": "The concept that an agent can use an internal predictive model of its environment to simulate the future and plan actions without executing them in physical reality.",
+      "example": "A controller RNN uses a separate world model RNN to plan action sequences by predicting sensory inputs (including pain and reward) before actually performing the actions.",
+      "source_id": "src_023"
+    }
+  ],
+  "heuristics": [
+    "Update neural activations only in case of unpredictable data, thus storing only what's not yet known.",
+    "Deep learning is all about NN depth.",
+    "Always try to do the right thing and correctly attribute scientific credit."
+  ],
+  "signature_quotes": [
+    {
+      "text": "RNNs are to FNNs as general computers are to pocket calculators.",
+      "context": "Explaining why Recurrent Neural Networks are necessary for Artificial General Intelligence compared to Feedforward Neural Networks.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "The 1990 system didn't learn like today's foundation models and large language models (LLMs) by downloading and imitating the web. No, it generated its own self-invented experiments to collect limited but relevant data from the environment, like a physicist, or a baby.",
+      "context": "Contrasting his early artificial curiosity systems with modern LLMs.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "If we want to build an Artificial General Intelligence (AGI), then its underlying computational substrate must be something more like an RNN than an FNN as FNNs are fundamentally insufficient.",
+      "context": "Discussing the architectural requirements for AGI.",
+      "source_id": "src_023"
+    },
+    {
+      "text": "Deep learning is all about NN depth.",
+      "context": "Summarizing the core driver of deep learning's success, which LSTMs and Highway Nets enabled by overcoming vanishing gradients.",
+      "source_id": "src_023"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Using raw prediction errors as the reward signal for an exploring agent in a stochastic environment.",
+      "why_it_fails": "The agent will learn to focus on situations where the world model always gets high prediction errors due to sheer randomness, such as getting stuck staring at a TV screen showing unpredictable white noise.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Relying solely on one-dimensional scalar reward signals in Reinforcement Learning.",
+      "why_it_fails": "It fails to capture the rich, multi-dimensional feedback (various types of pain and pleasure) that biological systems use, and prevents meta-learners from using complex error signals as inputs to improve their own learning algorithms.",
+      "source_id": "src_023"
+    },
+    {
+      "description": "Failing to correctly attribute scientific credit to prior work.",
+      "why_it_fails": "It distorts the history of science. Schmidhuber explicitly calls out researchers who misattributed his students' work, while also acknowledging his own past mistakes in failing to cite earlier pioneers like Nichael Cramer or Ron Williams.",
+      "source_id": "src_023"
+    }
+  ]
+}

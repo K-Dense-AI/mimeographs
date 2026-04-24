@@ -1,0 +1,42 @@
+{
+  "source_id": "src_043",
+  "summary": "A publisher's description of Daphne Koller's textbook, Probabilistic Graphical Models. It outlines her approach to reasoning under uncertainty using model-based, probabilistic frameworks that rely on representation, inference, and learning.",
+  "themes": [
+    "Probabilistic Graphical Models",
+    "Reasoning under uncertainty",
+    "Machine Learning",
+    "Artificial Intelligence"
+  ],
+  "principles": [
+    {
+      "statement": "Models must make uncertainty explicit to be faithful to reality.",
+      "rationale": "Because uncertainty is an inescapable aspect of most real-world applications, automated systems need probabilistic models to accurately reason and make decisions.",
+      "source_quote": "Because uncertainty is an inescapable aspect of most real-world applications, the book focuses on probabilistic models, which make the uncertainty explicit and provide models that are more faithful to reality.",
+      "source_id": "src_043"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Probabilistic Graphical Models (PGMs)",
+      "when_to_apply": "When building automated systems that need to reason, reach conclusions, or make decisions based on complex, uncertain information.",
+      "steps": [
+        "Representation: Construct an interpretable model of the complex system.",
+        "Inference: Manipulate the model using reasoning algorithms to reach conclusions.",
+        "Learning: Automatically learn or refine the models from data when manual construction is difficult."
+      ],
+      "source_quote": "For each class of models, the text describes the three fundamental cornerstones: representation, inference, and learning, presenting both basic concepts and advanced techniques.",
+      "source_id": "src_043"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Model-based reasoning",
+      "description": "An approach to artificial intelligence where interpretable models of complex systems are constructed (either manually or learned from data) and then manipulated by reasoning algorithms to reach conclusions.",
+      "example": null,
+      "source_id": "src_043"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": []
+}

@@ -1,0 +1,86 @@
+{
+  "source_id": "src_035",
+  "summary": "An overview of the life and medical theories of St. Hildegard of Bingen, a 12th-century Benedictine abbess. The text highlights her holistic approach to medicine, emphasizing balance, the interconnectedness of the human body and the cosmos, and the concept of 'viriditas' (greenness) as a divine life essence.",
+  "themes": [
+    "Medieval Medicine",
+    "Holistic Health",
+    "Theology",
+    "Women's Health",
+    "Mysticism"
+  ],
+  "principles": [
+    {
+      "statement": "Healing is found in balance, moderation, and holistic care.",
+      "rationale": "The natural state of the body, when nurtured correctly, is wellness. A steady routine with a modified diet, regular exercise, and integration into a supportive community can treat ailments ranging from physical illness to mental distress.",
+      "source_quote": "disease [was] not a process, but an absence of process, a failing in the course of nature.",
+      "source_id": "src_035"
+    },
+    {
+      "statement": "Men and women are equal and essential parts of creation.",
+      "rationale": "Contrary to the prevailing Aristotelian views of her time, women are not 'defective males.' Women's biological realities, such as menstrual cramps, deserve sympathy and medical care rather than being dismissed as divine punishment.",
+      "source_quote": null,
+      "source_id": "src_035"
+    },
+    {
+      "statement": "The earth, the body, and the spirit are united aspects of health.",
+      "rationale": "The natural world and the human body are tightly intertwined. Nature influences health, and health can influence nature in return, as both share a divine life essence.",
+      "source_quote": "the natural world as having the properties to heal, and humankind as having the skill to do so.",
+      "source_id": "src_035"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Temperature and Moisture Treatment",
+      "when_to_apply": "When diagnosing and treating physical ailments and diseases.",
+      "steps": [
+        "Classify the patient's condition in terms of temperature and moisture (hot, cold, wet, or dry).",
+        "Select a material cure (herbs, foods, animal parts, or gemstones) classified by the same system.",
+        "Apply the treatment to either counter the condition's temperature with an opposing one, or use a similar temperature based on the theory that 'like calls to like'."
+      ],
+      "source_quote": "Treatment would either counter a condition’s temperature with an opposing one or use a similar temperature according to the theory that like calls to like.",
+      "source_id": "src_035"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Viriditas (Greenness)",
+      "description": "A lens for viewing health and vitality as a divine life essence ('greenness') present in both the natural world and human beings. Medicine is the practice of using nature to restore this essence in humanity.",
+      "example": null,
+      "source_id": "src_035"
+    },
+    {
+      "name": "Macrocosm and Microcosm",
+      "description": "An analogy that maps the human body directly to the physical universe, illustrating the deep interconnectedness between human physiology and the natural world.",
+      "example": "Comparing the firmament to the head of man, the sun, moon, and stars to his eyes, the air to his hearing, the winds to his smell, and the earth to his heart.",
+      "source_id": "src_035"
+    }
+  ],
+  "heuristics": [
+    "Healing is found in balance.",
+    "Treat ailments by countering a condition's temperature with an opposing one, or by using a similar temperature because 'like calls to like'."
+  ],
+  "signature_quotes": [
+    {
+      "text": ". . . because of doubt and low opinion and because of the diverse sayings of men, I refused for a long time the call to write, not out of stubbornness but out of humility, until weighed down by the scourge of God, I fell onto a bed of sickness.",
+      "context": "Explaining her initial reluctance to record her visions until physical illness compelled her to do so.",
+      "source_id": "src_035"
+    },
+    {
+      "text": ". . . The firmament is like the head of man, the sun, moon, and stars are like his eyes, the air like his sense of hearing, the winds like his sense of smell, the dew like his sense of taste, the sides of the world like his arms and his sense of touch. And the other creatures, which are in the world, are like his belly, the earth moreover is like his heart.",
+      "context": "From 'Causae et curae', illustrating her belief that the human body mirrors the outer world.",
+      "source_id": "src_035"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Viewing women as 'defective males' or treating female biological pain as divine punishment.",
+      "why_it_fails": "It ignores that men and women are equal and essential parts of creation, and prevents the compassionate medical treatment of women's health issues.",
+      "source_id": "src_035"
+    },
+    {
+      "description": "Treating disease as an active, independent process.",
+      "why_it_fails": "Disease is actually an absence of process or a failing in the course of nature; the body's true natural state is wellness.",
+      "source_id": "src_035"
+    }
+  ]
+}

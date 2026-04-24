@@ -1,0 +1,62 @@
+{
+  "source_id": "src_044",
+  "summary": "In this paper abstract, Geoffrey Hinton and co-authors introduce 'knowledge distillation', a technique to compress the performance benefits of a large ensemble of models into a single, computationally efficient neural network. They also propose a novel ensemble architecture using 'specialist models' that target fine-grained classes which general models confuse.",
+  "themes": [
+    "Knowledge Distillation",
+    "Model Compression",
+    "Ensemble Learning",
+    "Neural Networks"
+  ],
+  "principles": [
+    {
+      "statement": "Averaging predictions from multiple models trained on the same data is a reliable way to improve performance.",
+      "rationale": "It is a very simple method that improves almost any machine learning algorithm.",
+      "source_quote": "A very simple way to improve the performance of almost any machine learning algorithm is to train many different models on the same data and then to average their predictions.",
+      "source_id": "src_044"
+    },
+    {
+      "statement": "The knowledge contained within a large, computationally expensive ensemble can be compressed into a single model.",
+      "rationale": "Ensembles are often too cumbersome for deployment, so compressing their knowledge allows for the performance benefits of an ensemble with the efficiency of a single model.",
+      "source_quote": "...it is possible to compress the knowledge in an ensemble into a single model which is much easier to deploy...",
+      "source_id": "src_044"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Knowledge Distillation",
+      "when_to_apply": "When an ensemble of models (especially large neural nets) is too computationally expensive or cumbersome to deploy to a large number of users.",
+      "steps": [
+        "Train many different models on the same data to create an ensemble.",
+        "Compress the knowledge from the ensemble into a single model using distillation techniques.",
+        "Deploy the single, distilled model to users."
+      ],
+      "source_quote": "we show that we can significantly improve the acoustic model of a heavily used commercial system by distilling the knowledge in an ensemble of models into a single model.",
+      "source_id": "src_044"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Full Models vs. Specialist Models",
+      "description": "An ensemble structure where general 'full models' are supplemented by 'specialist models'. The specialists are specifically trained to distinguish fine-grained classes that the full models confuse, allowing for rapid, parallel training unlike traditional mixture-of-experts.",
+      "example": "Using specialist models to distinguish fine-grained classes that the full models confuse, which can be trained rapidly and in parallel.",
+      "source_id": "src_044"
+    }
+  ],
+  "heuristics": [
+    "To easily improve a machine learning algorithm's performance, train multiple models on the same data and average their predictions."
+  ],
+  "signature_quotes": [
+    {
+      "text": "A very simple way to improve the performance of almost any machine learning algorithm is to train many different models on the same data and then to average their predictions.",
+      "context": "Introducing the baseline benefit of ensemble learning before explaining the need for distillation.",
+      "source_id": "src_044"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Deploying a whole ensemble of large neural networks directly to a large number of users.",
+      "why_it_fails": "Making predictions using a whole ensemble is cumbersome and computationally expensive.",
+      "source_id": "src_044"
+    }
+  ]
+}

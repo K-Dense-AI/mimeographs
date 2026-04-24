@@ -1,0 +1,118 @@
+{
+  "source_id": "src_000",
+  "summary": "In this interview, Daphne Koller discusses the convergence of machine learning and digital biology. She outlines her vision for Insitro, emphasizing that AI's greatest potential in drug discovery lies in identifying the right therapeutic targets rather than just generating molecules, and advocates for building foundational platforms to replace the artisanal, one-off approach to making medicines.",
+  "themes": [
+    "Convergence of AI and Biology",
+    "Drug Discovery and Development",
+    "Multimodal AI",
+    "Cross-disciplinary Collaboration",
+    "Platform vs. Artisanal Engineering",
+    "Exponential Technological Growth"
+  ],
+  "principles": [
+    {
+      "statement": "Machine learning is the mathematical foundation for biology.",
+      "rationale": "Unlike physics, biology is an evolved, highly complex natural system that cannot be captured by de novo mathematical models. Machine learning is required to let the data speak and find predictable patterns.",
+      "source_quote": "math is to physics as machine learning is to biology.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "The biggest failure mode in drug discovery is pursuing the wrong target.",
+      "rationale": "Most drugs fail in the clinic not because the molecule was poorly designed, but because the biological target was incorrect for the specific disease and patient population.",
+      "source_quote": "The most common failure mode is that the target was just a wrong target for this disease in this patient population.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "True cross-disciplinary collaboration yields better problems, not just better solutions.",
+      "rationale": "If kept separate, ML scientists will solve biologically irrelevant problems, and biologists will only ask ML to automate boring tasks. Together, they discover the right questions to ask.",
+      "source_quote": "what you get if you put them in a room together and actually get to the point where they communicate with each other effectively, is that not only do you get better solutions, you get better problems.",
+      "source_id": "src_000"
+    },
+    {
+      "statement": "AI-native companies will dominate the new era of drug discovery.",
+      "rationale": "Companies born in a new technological age move faster and incorporate the technology more deeply into their core operations than incumbents trying to adapt.",
+      "source_quote": "native companies that were born in the new age move faster, incorporate the technology much more deeply into every aspect of their work, and they end up being dominant players if not the dominant player in that new world.",
+      "source_id": "src_000"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Three Buckets of Drug Discovery",
+      "when_to_apply": "When mapping the drug discovery and development process to identify where AI and resources should be allocated.",
+      "steps": [
+        "Biology discovery: Discovering new therapeutic hypotheses (identifying which target to modulate in which humans to affect a clinical outcome).",
+        "Molecule generation: Turning the therapeutic hypothesis into an actual molecule with the right properties (selectivity, solubility, etc.).",
+        "Clinical development: Enabling and accelerating the clinical trial process."
+      ],
+      "source_quote": "divide the process into three major buckets. One is what you think of as biology discovery... The middle third is, okay, well now we need to turn that hypothesis into an actual molecule... And then finally there's the enablement and acceleration of the clinical development process",
+      "source_id": "src_000"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Exponential Curve Misperception",
+      "description": "The human tendency to interpolate progress linearly, causing people to vastly underestimate the speed of change when a technology is on an exponential curve, until it hits a massive inflection point.",
+      "example": "People looking at AI progress year-over-year and thinking it is moving slowly, only to be completely mind-blown by the capabilities the following year because they failed to anticipate exponential compounding.",
+      "source_id": "src_000"
+    },
+    {
+      "name": "Pipeline through Platform",
+      "description": "Instead of building products (drugs) as artisanal, one-off projects, invest heavily upfront in building a foundational data and engineering infrastructure. Once built, you can 'turn the crank' to rapidly and repeatedly produce a pipeline of products.",
+      "example": "Insitro spending years building a discovery platform, which then allowed them to go from problem articulation to a translatable animal model proof of concept for a metabolic disease in just one year.",
+      "source_id": "src_000"
+    }
+  ],
+  "heuristics": [
+    "Never like to follow the crowd. It's boring.",
+    "If you feed a machine learning model enough data, it will learn to do amazing things."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Math is to physics as machine learning is to biology.",
+      "context": "Explaining how machine learning provides the formal foundation for understanding complex biological systems.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "Biology as an evolved natural system is so complex that you can't articulate a mathematical model for that de novo. You need to actually let the data speak...",
+      "context": "Discussing why traditional mathematical modeling fails in biology compared to physics.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "The thing about exponential curves is they are very misleading things. In the early stages people basically take the line between whatever we were last year, and this year and they interpolate linearly...",
+      "context": "Describing the rapid, often underestimated pace of AI development.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "What you get if you put them in a room together and actually get to the point where they communicate with each other effectively, is that not only do you get better solutions, you get better problems.",
+      "context": "On the importance of integrating machine learning scientists and biologists.",
+      "source_id": "src_000"
+    },
+    {
+      "text": "We are making medicines today in a way that is not that different from the way in which we were making medicines 20 or 30 years ago... each one of them is a snowflake.",
+      "context": "Critiquing the artisanal, one-off nature of traditional drug discovery.",
+      "source_id": "src_000"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Treating drug discovery as an artisanal, one-off process.",
+      "why_it_fails": "It prevents the sharing of insights and infrastructure across different efforts, making every drug a 'snowflake' and slowing down overall progress.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Keeping machine learning scientists and biologists siloed.",
+      "why_it_fails": "ML scientists will solve biologically irrelevant problems, and biologists will only use ML for boring automation tasks like counting nuclei.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Focusing AI efforts solely on molecule generation.",
+      "why_it_fails": "While molecule generation is a well-defined problem, the most common reason drugs fail in the clinic is because the biological target itself was wrong.",
+      "source_id": "src_000"
+    },
+    {
+      "description": "Searching for a single 'magic switch' to cure aging.",
+      "why_it_fails": "Different organ systems age at different rates due to various factors (protein misfolding, DNA damage). It is more effective to explore multiple alternatives to slow specific declines.",
+      "source_id": "src_000"
+    }
+  ]
+}

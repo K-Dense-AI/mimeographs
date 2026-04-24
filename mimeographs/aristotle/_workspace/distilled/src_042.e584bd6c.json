@@ -1,0 +1,68 @@
+{
+  "source_id": "src_042",
+  "summary": "In this excerpt from the Nicomachean Ethics, Aristotle defines justice in terms of mathematical proportion. He distinguishes between distributive justice, which allocates goods based on proportional contribution, and corrective justice, which governs private transactions. He also establishes the principle that a lesser evil can be considered a good when compared to a greater evil.",
+  "themes": [
+    "Justice",
+    "Proportion",
+    "Ethics",
+    "Distributive Justice",
+    "Corrective Justice"
+  ],
+  "principles": [
+    {
+      "statement": "Justice is proportionate, and injustice is a violation of proportion.",
+      "rationale": "When injustice occurs, the balance is broken: the doer receives too much of a good (or too little of an evil), and the sufferer receives too little of a good (or too much of an evil).",
+      "source_quote": "The just in this sense is therefore the proportionate, and the unjust is that which violates proportion.",
+      "source_id": "src_042"
+    },
+    {
+      "statement": "A lesser evil counts as a good when compared to a greater evil.",
+      "rationale": "Because the lesser of two evils is more desirable than the greater evil, and whatever is desirable is inherently good.",
+      "source_quote": "...a lesser evil in comparison with a greater counts as a good, since the lesser of two evils is more desirable than the greater, but what is desirable is good...",
+      "source_id": "src_042"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Two Kinds of Justice",
+      "when_to_apply": "When determining what is fair in either public distributions or private transactions.",
+      "steps": [
+        "Determine if the situation involves distributing common property or a private transaction.",
+        "If distributing common property, apply Distributive Justice: allocate shares using a geometrical proportion based on each person's contribution to the common stock.",
+        "If handling a private transaction (voluntary or involuntary), apply Corrective Justice."
+      ],
+      "source_quote": "The remaining kind is Corrective Justice, which operates in private transactions... justice in distributing common property always conforms with the proportion we have described...",
+      "source_id": "src_042"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Justice as Geometrical Proportion",
+      "description": "A mathematical lens for viewing fairness. Instead of strict egalitarian equality, fairness is a ratio where the relationship between two people's shares equals the relationship between their respective merits or contributions.",
+      "example": "When a distribution is made from the common stock, it follows the same ratio as the amounts the several persons contributed.",
+      "source_id": "src_042"
+    }
+  ],
+  "heuristics": [
+    "Choose the lesser of two evils, as it counts as a relative good."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The just in this sense is therefore the proportionate, and the unjust is that which violates proportion.",
+      "context": "Defining distributive justice.",
+      "source_id": "src_042"
+    },
+    {
+      "text": "...a lesser evil in comparison with a greater counts as a good, since the lesser of two evils is more desirable than the greater, but what is desirable is good, and the more desirable it is, the greater good it is.",
+      "context": "Explaining how having 'too little' of an evil is equivalent to having 'too much' of a good.",
+      "source_id": "src_042"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Violating proportion in the distribution of goods or evils.",
+      "why_it_fails": "It creates an imbalance where the doer unjustly receives too much of a good (or too little of an evil) and the sufferer receives too little of a good (or too much of an evil).",
+      "source_id": "src_042"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "source_id": "src_048",
+  "summary": "In this profile, Fei-Fei Li discusses her journey from sparking the AI boom with ImageNet to founding World Labs to advance 'spatial intelligence.' She emphasizes the profound civilizational impact of AI, advocating strongly for human-centered development, open scientific debate, and the responsibility of technologists to establish ethical guardrails rather than walking away from difficult challenges.",
+  "themes": [
+    "Human-Centered AI",
+    "Spatial Intelligence",
+    "Ethical Responsibility in Tech",
+    "Open Science",
+    "Diversity in AI"
+  ],
+  "principles": [
+    {
+      "statement": "AI development must be centered around human dignity and well-being, not just corporate profit.",
+      "rationale": "Because AI has a civilizational impact that will change every business and person's life, it requires 'lighthouses' and ground rules to guide its trajectory.",
+      "source_quote": "It cannot be for one company making money. It has to be centered around human dignity, human well-being.",
+      "source_id": "src_048"
+    },
+    {
+      "statement": "Science requires openness, debate, and the free flow of ideas.",
+      "rationale": "Progress in fields like AI relies on democratic, transparent, and inclusive testing and experimentation, as demonstrated by the success of the ImageNet challenge.",
+      "source_quote": "Science is about openness, it’s about debate, it's about letting the ideas flow. We test and experiment and debate each other's ideas.",
+      "source_id": "src_048"
+    },
+    {
+      "statement": "Technologists have a responsibility to stay and establish industry norms, even during controversies.",
+      "rationale": "When faced with backlash over military AI contracts at Google, she chose to stay and author AI principles rather than resign, believing organizations need active guidance to build responsible cultures.",
+      "source_quote": "I stayed because of my responsibility. Every university, every company was grappling with how do we establish an industry norm? How do we establish a culture in each of our organizations to deal with what's to come?",
+      "source_id": "src_048"
+    },
+    {
+      "statement": "AI needs to learn the way humans learn—visually.",
+      "rationale": "During the 'AI winter,' she realized that algorithms alone were insufficient; providing massive amounts of visual data (pictures) was the missing piece for machine learning.",
+      "source_quote": "I knew it was a contrarian idea, but I felt strongly that this is one of the absolute missing pieces.",
+      "source_id": "src_048"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Technology as a Double-Edged Sword",
+      "description": "Viewing every technological advancement in human history as having an initial intent for good, but carrying an inherent risk or 'underbelly' of being used for harm, necessitating active thought leadership and guardrails.",
+      "example": "Comparing the invention of AI to the discovery of fire, the wheel, electricity, and biotech—all of which brought innovation but required humanity to grapple with their potential for harm.",
+      "source_id": "src_048"
+    }
+  ],
+  "heuristics": [
+    "Do not be boxed in by labels, gender, role, or expectations.",
+    "Whoever builds AI will influence what it becomes."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Science is about openness, it’s about debate, it's about letting the ideas flow.",
+      "context": "Discussing the democratic and inclusive design of the ImageNet challenge.",
+      "source_id": "src_048"
+    },
+    {
+      "text": "We need lighthouses to guide where this technology is going. It cannot be for one company making money. It has to be centered around human dignity, human well-being.",
+      "context": "Explaining her mission to establish ground rules for AI's civilizational impact.",
+      "source_id": "src_048"
+    },
+    {
+      "text": "Technology is always a double-edged sword. Human civilization is a history of innovation... Every step of the way, we intend to innovate for good, but we always have an underbelly as a species, to potentially use it for harm.",
+      "context": "Reflecting on the promises and threats of AI and the need for the Stanford Human-Centered AI Institute.",
+      "source_id": "src_048"
+    },
+    {
+      "text": "I stayed because of my responsibility. Every university, every company was grappling with how do we establish an industry norm?",
+      "context": "Explaining her decision to stay at Google during the Project Maven backlash to help author their AI Principles.",
+      "source_id": "src_048"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Developing AI solely for corporate profit without societal guardrails.",
+      "why_it_fails": "It ignores the civilizational impact of the technology, which must be guided by human dignity and well-being to prevent harm.",
+      "source_id": "src_048"
+    },
+    {
+      "description": "Resigning or walking away from controversial tech deployments instead of shaping their guardrails.",
+      "why_it_fails": "It abandons the responsibility to establish industry norms and culture for responsible development during critical transitional periods.",
+      "source_id": "src_048"
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "expert_name": "Graham A. Colditz",
+  "themes": [
+    "Cancer Prevention & Implementation Science",
+    "Breast Cancer Epidemiology",
+    "Life-Course Risk Accumulation",
+    "Diet, Lifestyle, & Weight Management",
+    "Translating Epidemiology to Clinical Action",
+    "Transdisciplinary Public Health Policy",
+    "Precision Prevention & Risk Stratification"
+  ],
+  "principles": [
+    {
+      "label": "Act on Existing Prevention Knowledge",
+      "summary": "We already possess the knowledge to prevent more than half of all cancers; we must act on it rather than waiting for new biological discoveries.",
+      "details": "By targeting modifiable causes like tobacco, obesity, and physical inactivity, we can drastically reduce the cancer burden. The primary barriers are not a lack of scientific understanding, but societal habits and institutional structures that fail to implement known interventions.",
+      "representative_quote": "More than half of the cancer occurring today is preventable by applying knowledge that we already have.",
+      "source_ids": [
+        "src_005",
+        "src_014",
+        "src_022",
+        "src_030"
+      ]
+    },
+    {
+      "label": "Prevention as Plan A",
+      "summary": "Preventing disease entirely eliminates the need for complex, costly treatments. Treatment should strictly be the fallback when prevention fails.",
+      "details": "Curing advanced cancer remains an elusive and expensive goal. True progress should be measured by cancer-free lifetimes, not just months of survival.",
+      "representative_quote": "Plan A must involve prevention and early detection, with Plan B (treatment of advanced cancer) being necessary only when Plan A fails.",
+      "source_ids": [
+        "src_014",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Life-Course Approach to Prevention",
+      "summary": "Cancer risk accumulates over a lifetime. Prevention efforts must begin in childhood and adolescence when tissue is most susceptible.",
+      "details": "Breast cancer risk, for example, accumulates rapidly from menarche to first birth. Intervening early with healthy diet and physical activity shifts the entire long-term trajectory of risk downward.",
+      "representative_quote": "The incidence of breast cancer increases sharply during the third decade of life, and prevention of early cases must begin before this period—during or before adolescence.",
+      "source_ids": [
+        "src_012",
+        "src_018",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Epidemiology for Clinical Action",
+      "summary": "Epidemiological analyses should be designed and presented to inform clinical guidelines and public health policy, not merely to refine statistical metrics.",
+      "details": "Researchers have a responsibility to translate their current findings into actionable recommendations rather than just deferring to future studies or chasing a better p-value.",
+      "representative_quote": "I challenge everyone to think how they do their analysis, present their analysis to position results so that an editorialist such as Saxon can actually act on it. Guidelines panels can act on it and we're not just getting a better third decimal point uh on a p value.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Stakeholder Integration for Prevention",
+      "summary": "Effective public health programs require the simultaneous integration of policy, political will, and healthcare providers.",
+      "details": "Having just one component in place is insufficient. For example, a policy that covers screening costs won't eliminate disparities if patients lack access to providers or cannot take time off work.",
+      "representative_quote": "To sustain prevention we actually need the political and policy functions in place as well as the healthcare providers. Too often we have one in place and not the other.",
+      "source_ids": [
+        "src_014",
+        "src_029",
+        "src_030"
+      ]
+    },
+    {
+      "label": "Prevent Weight Gain Over Unattainable Weight Loss",
+      "summary": "Public health messaging should focus on maintaining current weight and preventing further weight gain rather than promoting drastic, often unattainable weight loss goals.",
+      "details": "Attempting drastic weight loss often leads to a cycle of giving up and regaining the weight. Simply maintaining current weight and preventing the typical 1-2 pounds of annual gain is a more attainable and effective population-level strategy.",
+      "representative_quote": "I would put in there as well, avoiding further weight gain rather than thinking we’ve all got to go back to whatever weight we were in high school or somewhere that is, we’ll say, largely unattainable.",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Energy Balance Over Dietary Fads",
+      "summary": "Maintaining energy balance through a plant-based diet and physical activity is a proven, dominant strategy that broadly lowers cancer risk, superseding debates over specific dietary fads.",
+      "details": "Avoiding weight gain and eating more fruits, vegetables, fiber, and whole grains broadly lowers the risk of heart disease, diabetes, and cancer.",
+      "representative_quote": "The energy balance issue to me is one of the dominant pieces that gets lost when we go off and fight over which fad is best or is it fibre, is it fruits and vegetables.",
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Clinical Utility Over Statistical Metrics",
+      "summary": "Clinical prediction models must be evaluated based on their impact on patient outcomes and decision-making at specific cut points, not just overall statistical discrimination.",
+      "details": "Regulatory bodies and clinicians care about how a tool impacts patient outcomes, satisfaction, and decision-making, none of which are captured by a general Area Under the Curve (AUC) score.",
+      "representative_quote": "You go to FDA with an AU, they'll say no clinician is going to use a tool based on an AU... You're evaluating on its impact on patients, their satisfaction and their outcomes and the decisions being made about intervening or not, which means you got to look at performance with a cut point, not overall.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Account for Selection Bias in Epidemiological Studies",
+      "summary": "In case-control studies, selection bias can artificially inflate protective associations, requiring rigorous methodological scrutiny.",
+      "details": "Controls who agree to participate in health studies tend to be more health-conscious and physically active than those who decline, which can distort the comparison against cases, especially when participation rates are low.",
+      "representative_quote": "Our data, however, do add to concerns regarding the possibility of selection bias due to nonparticipation of less physically active controls which could distort associations among case-control studies particularly if participation rates are low.",
+      "source_ids": [
+        "src_032"
+      ]
+    },
+    {
+      "label": "Separate Endpoints for Accurate Disease Burden",
+      "summary": "Distinct cancers must be evaluated separately when studying protective effects to avoid diluting the observed benefits.",
+      "details": "For example, physical activity is not consistently associated with rectal cancer. Combining colon and rectal cancers into a single 'colorectal cancer' endpoint dilutes the observed benefit and underestimates the true impact of inactivity on colon cancer.",
+      "representative_quote": "Estimation of the risk reduction associated with physical activity separately for colon cancer is important for public health because the disease burden attributable to physical inactivity is likely underestimated by including rectal cancer end points.",
+      "source_ids": [
+        "src_031"
+      ]
+    },
+    {
+      "label": "Transdisciplinary Collaboration",
+      "summary": "Addressing the multifaceted issues of cancer prevention requires researchers to work across disciplines rather than remaining siloed.",
+      "details": "Cancer prevention involves multilevel issues that cannot be fully understood or solved from the perspective of a single discipline.",
+      "representative_quote": "...addressing the complex questions around cancer prevention and control increasingly requires the ability to work and communicate across disciplines in order to gain a perspective that encompasses the multilevel and multifaceted issues involved with this public health issue.",
+      "source_ids": [
+        "src_004",
+        "src_030"
+      ]
+    },
+    {
+      "label": "Prioritize Prevention in Economic Transitions",
+      "summary": "As low- and middle-income countries undergo economic transitions, cancer rates will rise; they must prioritize prevention because relying solely on diagnosis and treatment is economically unsustainable.",
+      "details": "Changes in demographics and lifestyle (e.g., fewer children, better nutrition, earlier onset of menstrual periods) directly lead to an increased incidence of specific diseases like breast cancer.",
+      "representative_quote": "we can't afford to diagnose and pre breast cancer in Low Middle income countries and it's one area we don't currently have a robust prevention focus",
+      "source_ids": [
+        "src_011"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "Breast Tissue Aging / Risk Accumulation Model",
+      "summary": "A model for calculating the accumulation of breast cancer risk over a woman's life course based on reproductive milestones.",
+      "details": "Steps: 1) Start modeling tissue aging (risk accumulation) at the first menstrual period. 2) Apply a high rate of risk accumulation during the gap between the first period and the first birth. 3) Slow the rate of risk accumulation with the first pregnancy and each additional birth. 4) Lower the rate of risk accumulation again at menopause.",
+      "representative_quote": "Tissue aging starts with the first menstrual period proceeds to the first pregnancy... slowing of the rate of accumulation with each additional birth and the area under the curve you can think of as the attained risk.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Dynamic Risk Prediction Model",
+      "summary": "A framework for assessing future breast cancer risk by integrating static history with dynamic imaging and histological changes over time.",
+      "details": "Steps: 1) Collect existing questionnaire data regarding patient history and risk factors. 2) Integrate changes observed in up to three sequential mammogram images over time. 3) Incorporate histology-based risk scores from stained pathology samples of biopsies. 4) Calculate the updated, personalized risk of benign lesions transitioning to invasive breast cancer.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_012"
+      ]
+    },
+    {
+      "label": "Stakeholder Integration for Prevention",
+      "summary": "A process for implementing population-level prevention by bringing together diverse organizations to establish common goals and sustain programs.",
+      "details": "Steps: 1) Identify and bring together all relevant stakeholders (state and federal public health agencies, cancer societies, academics, community groups). 2) Sit together at the table to establish common goals. 3) Reach a consensus agreement across all levels of the involved organizations. 4) Move prevention forward collectively to ensure sustainability.",
+      "representative_quote": "If we really work to bring stakeholders together, be that the state and federal public health agencies, the cancer society, academics, community groups, all together to sit at the table and get common goals and, in essence, an agreement across all those levels. When we do that we can actually move prevention forward and sustain it.",
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Epidemiological Proof of Prevention",
+      "summary": "A methodology for determining the proportion of cancer risk avoided through lifestyle choices by comparing high-risk and healthy-lifestyle cohorts over time.",
+      "details": "Steps: 1) Identify a cohort with a very healthy lifestyle. 2) Follow them over time alongside a high-risk cohort. 3) Compare the difference in disease risk between the two groups to estimate the proportion avoided by the healthy lifestyle. 4) Factor in genetics and family history to isolate the lifestyle variables. 5) Corroborate human statistical data with bench science, animal models, and biological mechanisms to prove causation.",
+      "representative_quote": "The simplest concept of this would be to identify a set of say, women in this case [since] we’re studying breast cancer, who are at very healthy lifestyle... follow them over time and follow a group that is high risk... compare the difference in the risk of breast cancer between the two groups and do the arithmetic to estimate what proportion is avoided by following the healthy lifestyle.",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Nested Case-Control Bias Evaluation",
+      "summary": "A methodological framework for investigating recall and selection biases by comparing prospective vs. retrospective reports and responders vs. nonresponders within an existing cohort.",
+      "details": "Steps: 1) Identify incident cases and matched controls within an existing prospective cohort where baseline exposure is already recorded. 2) Administer a retrospective questionnaire to both groups after the disease diagnosis. 3) Compare prospective versus retrospective reports among the same women to assess recall bias. 4) Compare prospective reports of responders versus nonresponders to assess selection bias.",
+      "representative_quote": "To investigate whether recall and selection biases could be present in case-control studies, we conducted a case-control study nested within the Nurses’ Health Study II (NHSII) cohort. We assessed recall bias by comparing assessments of recreational physical activity before and after breast cancer diagnosis among the same women. We investigated selection bias by comparing reports of responders and nonresponders.",
+      "source_ids": [
+        "src_032"
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "label": "The Implementation Gap",
+      "summary": "The disconnect between possessing scientific knowledge about disease prevention and actually applying that knowledge at a societal level due to institutional and behavioral barriers.",
+      "details": "Knowing that tobacco and obesity cause cancer, but failing to reduce the cancer burden because academia and societal infrastructure do not adequately incentivize transdisciplinary intervention.",
+      "representative_quote": "The obstacles to these efforts are societal and arise from the organization of institutions, including academia, and in the habits of daily life.",
+      "source_ids": [
+        "src_030"
+      ]
+    },
+    {
+      "label": "Windows of Susceptibility",
+      "summary": "The concept that the timing of an exposure during a person's life course drastically alters its impact on disease risk.",
+      "details": "Exposures during periods of rapid tissue development or before certain reproductive milestones carry much higher risk. For example, radiation exposure before age 22 causes an enormous increase in breast cancer risk compared to exposure in a woman's 40s.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Risk Accumulation Trajectory",
+      "summary": "Viewing disease risk not as a static point, but as a cumulative curve that accelerates during specific life windows.",
+      "details": "Intervening early in life shifts the entire long-term trajectory downward, providing compounding benefits later in life.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Stacking the Deck for Prevention",
+      "summary": "Treating disease prevention as a process of systematically improving the odds of healthy outcomes across a population by altering lifestyle factors.",
+      "details": "Translating epidemiological data into actionable public health programs to shift the population-level odds in favor of health.",
+      "representative_quote": "Our challenge is to act on the knowledge we have. We need to stack the deck for prevention – embrace the opportunity to reduce our collective cancer toll by changing the way we live.",
+      "source_ids": [
+        "src_005"
+      ]
+    },
+    {
+      "label": "Estrogen as Fertilizer",
+      "summary": "Viewing estrogen (which increases with postmenopausal obesity) as an active fertilizer that promotes cell division, thereby increasing the chances of genetic damage and cancer.",
+      "details": "Explaining the link between postmenopausal obesity and breast cancer by showing how higher weight leads to higher estrogen levels, which 'fertilizes' cell division and accumulates genetic damage.",
+      "representative_quote": "We know that the more overweight a woman is the higher her estrogen levels are—estrogen active, if you will—as a fertilizer for cell division and cell division can lead to even more genetic damage accumulating.",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Economic Transition Disease Shift",
+      "summary": "The understanding that as developing nations undergo economic transition, changes in demographics and lifestyle directly lead to an increased incidence of specific diseases like breast cancer.",
+      "details": null,
+      "representative_quote": "a quarter of all cancer diagnosed in women at the moment is breast cancer and that percentage will go up as countries go through the economic transition",
+      "source_ids": [
+        "src_011"
+      ]
+    },
+    {
+      "label": "Integrated Wellness vs. Siloed Behaviors",
+      "summary": "Viewing health behaviors (smoking, diet, exercise) as an interconnected wellness system rather than isolated issues addressed one at a time by a disorganized healthcare system.",
+      "details": "Instead of a patient receiving a disjointed message about smoking from a primary care provider one day, and a separate message about diet another time, the healthcare system should integrate all these behavioral interventions into a cohesive wellness strategy.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Selection Bias (Healthy Volunteer Effect)",
+      "summary": "The distortion of study results that occurs when the individuals who choose to participate in a study differ systematically from the target population.",
+      "details": "In case-control studies, this often manifests as control groups being unusually healthy or active, which artificially inflates the apparent protective effect of the healthy behavior when compared to the case group.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_032"
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "label": "A cancer avoided is one we don't need to treat",
+      "summary": "Prioritize prevention over treatment, as avoiding the disease entirely is the most effective and economical strategy.",
+      "details": null,
+      "representative_quote": "A cancer avoided is one we don’t need to treat and we know how to prevent the majority of cancer but we aren’t acting on that.",
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Target the \"Big Three\" first",
+      "summary": "Focus on tobacco, obesity, and physical inactivity, as they are the modifiable causes that generate the most preventable disease.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_014",
+        "src_030"
+      ]
+    },
+    {
+      "label": "Avoid further weight gain instead of trying to lose weight",
+      "summary": "Maintaining current weight is a more attainable and effective population-level strategy than pursuing unattainable past weights.",
+      "details": null,
+      "representative_quote": "I would put in there as well, avoiding further weight gain rather than thinking we’ve all got to go back to whatever weight we were in high school or somewhere that is, we’ll say, largely unattainable.",
+      "source_ids": [
+        "src_018",
+        "src_022"
+      ]
+    },
+    {
+      "label": "Start prevention at a young age",
+      "summary": "Intervene during childhood and adolescence when risk accumulates most rapidly.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Stratify for action, not for AUC",
+      "summary": "Design risk stratification models to improve clinical decisions, not just to beat the last published statistical metric.",
+      "details": null,
+      "representative_quote": "Think of what we're doing to improve risk stratification, getting the right women to the right prevention at the right time as the real take-home out of all this work.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Translate results instead of asking for more research",
+      "summary": "Tie epidemiological findings directly to guidelines and policy rather than concluding that \"more research is needed.\"",
+      "details": null,
+      "representative_quote": "We don't just say more research is needed. Richard Monson used to say that's just a jobs program for epidemiologists. You should not put that in your manuscript.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Frame adolescent habits around general health",
+      "summary": "Don't use distant cancer risks to motivate teens; frame lifestyle changes around immediate and general future health.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_018"
+      ]
+    }
+  ],
+  "signature_quotes": [
+    {
+      "label": "More than half preventable",
+      "summary": "Highlighting that the majority of cancer is preventable with current knowledge.",
+      "details": null,
+      "representative_quote": "More than half of the cancer occurring today is preventable by applying knowledge that we already have.",
+      "source_ids": [
+        "src_030"
+      ]
+    },
+    {
+      "label": "A cancer avoided",
+      "summary": "Emphasizing the ultimate value of prevention over treatment.",
+      "details": null,
+      "representative_quote": "A cancer avoided is one we don’t need to treat and we know how to prevent the majority of cancer but we aren’t acting on that.",
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "No 'more research is needed'",
+      "summary": "Criticizing the academic habit of deferring action in favor of endless study.",
+      "details": null,
+      "representative_quote": "We don't just say more research is needed. Richard Monson used to say that's just a jobs program for epidemiologists. You should not put that in your manuscript.",
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "The implementation gap embarrassment",
+      "summary": "Calling out the failure of public health to act on established prevention knowledge.",
+      "details": null,
+      "representative_quote": "The gap between that knowledge and implementing effective programmes is really an embarrassment for public health and cancer prevention more broadly.",
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Societal obstacles",
+      "summary": "Identifying the root causes of why preventable cancers still occur.",
+      "details": null,
+      "representative_quote": "The obstacles to these efforts are societal and arise from the organization of institutions, including academia, and in the habits of daily life.",
+      "source_ids": [
+        "src_030"
+      ]
+    },
+    {
+      "label": "Avoiding further weight gain",
+      "summary": "Providing practical, attainable advice on weight management.",
+      "details": null,
+      "representative_quote": "I would put in there as well, avoiding further weight gain rather than thinking we’ve all got to go back to whatever weight we were in high school or somewhere that is, we’ll say, largely unattainable.",
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Plan A vs Plan B",
+      "summary": "Redefining the priority of prevention versus treatment.",
+      "details": null,
+      "representative_quote": "Plan A must involve prevention and early detection, with Plan B (treatment of advanced cancer) being necessary only when Plan A fails.",
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "FDA and AUC",
+      "summary": "Explaining why clinical utility matters more than statistical discrimination.",
+      "details": null,
+      "representative_quote": "You go to FDA with an AU, they'll say no clinician is going to use a tool based on an AU... You're evaluating on its impact on patients, their satisfaction and their outcomes and the decisions being made about intervening or not...",
+      "source_ids": [
+        "src_010"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "label": "Waiting for Perfect Knowledge",
+      "summary": "Delaying the implementation of known prevention strategies while waiting for new risk factors or biological discoveries to be found.",
+      "details": "It ignores the fact that over half of cancer cases could be prevented right now using established behavioral and pharmacological interventions.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_022",
+        "src_030"
+      ]
+    },
+    {
+      "label": "The \"More Research is Needed\" Cop-Out",
+      "summary": "Concluding epidemiological studies by simply asking for more research, which acts as an excuse to avoid translating current findings into actionable guidelines or policy.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Over-relying on AUC for Clinical Models",
+      "summary": "Evaluating clinical prediction models solely on statistical discrimination (like the Area Under the Curve) rather than their actual impact on patient decisions and outcomes at specific clinical cut points.",
+      "details": "Clinicians and regulatory bodies need to know how a model performs at specific cut points, how it impacts patient decisions, and whether it improves outcomes, none of which are captured by a general AUC score.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_010"
+      ]
+    },
+    {
+      "label": "Ignoring Early-Life Risk Accumulation",
+      "summary": "Focusing cancer prevention efforts exclusively on adults or midlife individuals, missing the critical developmental windows when risk accumulates most rapidly.",
+      "details": "Childhood and adolescence are periods when tissue is undifferentiated and highly susceptible to exposures that shape lifelong risk trajectories.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_022"
+      ]
+    },
+    {
+      "label": "Debating Dietary Fads Over Energy Balance",
+      "summary": "Arguing over specific nutrients or dietary fads, which distracts from the dominant, proven public health strategy of maintaining energy balance and avoiding weight gain.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_014"
+      ]
+    },
+    {
+      "label": "Pursuing Unattainable Weight Loss",
+      "summary": "Encouraging drastic weight loss to reach an idealized past weight, which often leads to a cycle of failure and weight regain.",
+      "details": "This creates a 'seesaw' effect where people try to lose weight, give up, and gain it back, leading to a continuous upward trend in weight over time. Focusing on preventing further weight gain is much more effective.",
+      "representative_quote": null,
+      "source_ids": [
+        "src_018"
+      ]
+    },
+    {
+      "label": "Combining Distinct Cancer Endpoints",
+      "summary": "Lumping distinct diseases (like colon and rectal cancers) into a single endpoint when studying protective behaviors, which dilutes the data and underestimates the true disease burden.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_031"
+      ]
+    },
+    {
+      "label": "Ignoring Selection Bias in Case-Control Studies",
+      "summary": "Failing to account for the fact that healthy, active individuals are more likely to participate as controls, which can artificially inflate the apparent protective effects of healthy behaviors.",
+      "details": null,
+      "representative_quote": null,
+      "source_ids": [
+        "src_032"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "source_id": "src_028",
+  "summary": "In this interview, Virginia M.-Y. Lee discusses her pioneering research on alpha-synuclein and its role in Parkinson's disease. She emphasizes the necessity of multidisciplinary research starting with patient brains, argues that protein aggregates are definitively causal rather than bystanders, and offers career advice for women in science to persist through caregiving gaps.",
+  "themes": [
+    "Alpha-synuclein",
+    "Parkinson's Disease",
+    "Neurodegeneration",
+    "Multidisciplinary Research",
+    "Women in Science",
+    "Career Advice"
+  ],
+  "principles": [
+    {
+      "statement": "Disease research must start with the patient's brain and requires a multidisciplinary approach.",
+      "rationale": "Before you can develop cures, you must understand what is actually wrong in the human brain, which requires collaboration between clinicians, pathologists, and basic neuroscientists.",
+      "source_quote": "in order to study and understand the disease we need to go to the patient's brain and to see what's wrong with the brain before we can even talk about cure... you need multidisiplinary research",
+      "source_id": "src_028"
+    },
+    {
+      "statement": "Protein aggregates are the culprits in neurodegenerative diseases, not just bystanders.",
+      "rationale": "The discovery of genetic mutations (like in the alpha-synuclein gene) that cause the disease in an autosomal dominant manner proves that the mutated protein itself drives the pathogenesis.",
+      "source_quote": "I really think that it's not controversial and at least from my perspective it's not controversial anymore and I think that it's basically what we call the fat lady had son",
+      "source_id": "src_028"
+    },
+    {
+      "statement": "Neurodegenerative diseases involve both a loss of normal function and a gain of toxic function.",
+      "rationale": "To fully understand the disease process, researchers must investigate both the normal physiological role of proteins like alpha-synuclein and their pathological aggregation.",
+      "source_quote": "I really think that all these new diseases are both loss of function and gain of posic function and so we need to absolutely study a nucle",
+      "source_id": "src_028"
+    },
+    {
+      "statement": "Women in science should not permanently give up their careers due to family caregiving.",
+      "rationale": "The time spent caring for young children or aging parents is a relatively short period (10-15 years) in a long lifespan. Returning to work allows you to make a professional difference and keeps your mind active for decades to come.",
+      "source_quote": "my advice is the particularly for women don't give up keep working and even if you have to have a gap because of young children and so on go back",
+      "source_id": "src_028"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Genetic Proof Standard",
+      "description": "Using human genetic mutations that cause autosomal dominant inheritance as the ultimate proof that a specific protein is the primary culprit in a disease, ending the debate over whether aggregates are just bystanders.",
+      "example": "Pointing to families with alpha-synuclein gene mutations, duplications, and triplications to definitively prove that alpha-synuclein aggregates cause Parkinson's disease.",
+      "source_id": "src_028"
+    }
+  ],
+  "heuristics": [
+    "To understand a disease, start by looking at the patient's brain.",
+    "Keep working to stimulate your mind; an active mind and body lead to a longer, enjoyable life."
+  ],
+  "signature_quotes": [
+    {
+      "text": "in order to study and understand the disease we need to go to the patient's brain and to see what's wrong with the brain before we can even talk about cure",
+      "context": "On the importance of neuropathology in disease research.",
+      "source_id": "src_028"
+    },
+    {
+      "text": "this is a very important lesson for everyone that work want to work on disease is that you know you need multidisiplinary research",
+      "context": "On building research teams.",
+      "source_id": "src_028"
+    },
+    {
+      "text": "my advice is the particularly for women don't give up keep working and even if you have to have a gap because of young children and so on go back",
+      "context": "Giving career advice to young female scientists.",
+      "source_id": "src_028"
+    },
+    {
+      "text": "as long as you stay active and so that your body is it's active and your mind is active then you can live for a long time and enjoy life",
+      "context": "On the benefits of continuing to work and do science later in life.",
+      "source_id": "src_028"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying solely on test-tube generated protein aggregates (recombinant fibrils) to study pathology.",
+      "why_it_fails": "The structural conformations of pathology isolated directly from patient brains are fundamentally different from those made in a test tube, and they induce different types of pathology in animal and cell models.",
+      "source_id": "src_028"
+    },
+    {
+      "description": "Assuming human genetic mutations won't cause disease phenotypes in other species.",
+      "why_it_fails": "Contrary to past geneticist assumptions, expressing a mutant human gene in an animal model (like a mouse) does cause them to develop pathology, exhibit phenotypes, and die.",
+      "source_id": "src_028"
+    },
+    {
+      "description": "Giving up on a scientific career permanently due to family caregiving gaps.",
+      "why_it_fails": "Caregiving is a relatively short period (10-15 years) in a long life; giving up permanently prevents you from making a professional difference and deprives you of mental stimulation later in life.",
+      "source_id": "src_028"
+    }
+  ]
+}

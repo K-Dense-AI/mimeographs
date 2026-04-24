@@ -1,0 +1,97 @@
+{
+  "source_id": "src_018",
+  "summary": "In this keynote conversation, Eric S. Lander outlines his vision for the next 75 years of American science policy. He emphasizes the transition toward 'programmable biology', the necessity of radical inclusion and equity in the scientific workforce, the importance of maintaining open borders for global talent, and the need to earn public trust through humility. He also sets ambitious targets for pandemic preparedness and climate technology.",
+  "themes": [
+    "Science Policy",
+    "Programmable Biology",
+    "Equity and Inclusion",
+    "Pandemic Preparedness",
+    "Climate Change",
+    "Public Trust in Science",
+    "Global Competition and Talent"
+  ],
+  "principles": [
+    {
+      "statement": "Science must be radically inclusive to succeed in the future.",
+      "rationale": "The historical vision of science was elitist and exclusionary. To solve modern, interconnected problems and ensure the benefits of science reach everyone, the scientific community must include people from all backgrounds, genders, races, and regions.",
+      "source_quote": "i think it's clear we're not going to succeed unless we really open up that vision dramatically because science hasn't been welcoming to to people with regard to gender to race",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "America's greatest scientific superpower is its openness to global talent.",
+      "rationale": "While research security is important, erecting barriers and succumbing to xenophobia will cut the US off from the intellectual lifeblood that drives innovation and guarantees national decline.",
+      "source_quote": "it is our openness that has been our greatest strength and will be our greatest strength if we erect some some barrier around the united states to keep it safe we will guarantee that it will decline",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "Public trust in science must be earned through humility and transparency about risks.",
+      "rationale": "Scientists cannot demand trust through authority. They must acknowledge that technologies can have downsides, actively include marginalized groups in mitigating those risks, and be honest about potential harms.",
+      "source_quote": "if you ask me about how do we build trust in science it's by being totally open about the fact that yes science can sometimes have downsides and we know that and we care about that",
+      "source_id": "src_018"
+    },
+    {
+      "statement": "The ultimate solution to climate change is making net-zero energy cheaper than fossil fuels.",
+      "rationale": "While regulations and interim steps are necessary, the world will only fully abandon fossil fuels when clean alternatives are inherently more efficient, affordable, and available to everyone.",
+      "source_quote": "ultimately to make net zero carbon energy cheaper than any alternative in the long run the world will ultimately abandon fossil fuels when in fact everything else is when the net zero solutions are just plain more efficient and cheaper",
+      "source_id": "src_018"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Programmable Biology",
+      "description": "Viewing biology as a digital science where genetic information is code that can be read, understood, and eventually 'patched' or written to solve medical problems.",
+      "example": "Using mRNA technology to rapidly write code for vaccines, or putting a 'patch' in the code to make an insulin-insensitive cell sensitive again.",
+      "source_id": "src_018"
+    },
+    {
+      "name": "Applying Science to Science",
+      "description": "Treating the sociological and structural systems of science (authorship, grant funding, publishing) as subjects for innovation and experimentation, rather than ancient, unchangeable traditions.",
+      "example": "Rethinking the linear string of authorship on papers or the frequency of grant applications to better reward team-based and individual creativity.",
+      "source_id": "src_018"
+    }
+  ],
+  "heuristics": [
+    "Aim to generate well-tested, approved vaccines in 100 days for any future pandemic.",
+    "Develop diagnostics so cheap (under a dollar) that every American can test daily at home."
+  ],
+  "signature_quotes": [
+    {
+      "text": "the transition of biology to being a digital science with digital information is now leading to the the idea of programmable biology programmable medicine",
+      "context": "Discussing the future of biological sciences and genomics.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "we should view science as a thing that we apply science to",
+      "context": "Arguing that the traditions of academia, like authorship and grants, need to be reinvented.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "if we erect some some barrier around the united states to keep it safe we will guarantee that it will decline because it will not have the lifeblood of intellectual discourse to drive science",
+      "context": "Warning against xenophobia in the pursuit of research security.",
+      "source_id": "src_018"
+    },
+    {
+      "text": "if somebody comes and tells you oh just trust me i'm a scientist um i i haven't i want to run the other way",
+      "context": "Explaining how scientists must earn public trust rather than demanding it.",
+      "source_id": "src_018"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Demanding public trust based solely on scientific authority (e.g., 'Just trust me, I'm a scientist').",
+      "why_it_fails": "It ignores the valid suspicions of marginalized groups and the historical missteps of science, ultimately eroding trust rather than building it.",
+      "source_id": "src_018"
+    },
+    {
+      "description": "Responding to research security threats with xenophobia or racial profiling.",
+      "why_it_fails": "Targeting scientists of Asian descent cuts the US off from global talent, which is the actual lifeblood of its scientific dominance.",
+      "source_id": "src_018"
+    },
+    {
+      "description": "Tolerating 'unexplained fevers' in clinical and public health settings.",
+      "why_it_fails": "It leaves society blind to emerging viral threats; instead, unknown pathogens should be routinely sequenced to monitor for new pandemics.",
+      "source_id": "src_018"
+    }
+  ]
+}

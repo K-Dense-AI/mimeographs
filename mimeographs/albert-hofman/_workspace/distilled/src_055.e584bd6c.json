@@ -1,0 +1,47 @@
+{
+  "source_id": "src_055",
+  "summary": "A 2005 study from the Rotterdam Study cohort, co-authored by Albert Hofman, demonstrating that coronary calcification significantly improves cardiovascular risk prediction in elderly populations. The research highlights that traditional risk factors lose predictive power with age, making coronary calcium scoring a vital tool for primary prevention.",
+  "themes": [
+    "Cardiovascular epidemiology",
+    "Risk prediction",
+    "Aging",
+    "Coronary calcification",
+    "Primary prevention"
+  ],
+  "principles": [
+    {
+      "statement": "Traditional cardiovascular risk factors lose predictive power as people age.",
+      "rationale": "Because standard risk factors weaken in elderly populations, alternative or supplementary methods like measuring coronary calcification are necessary for accurate risk stratification.",
+      "source_quote": "The technique is particularly promising in the elderly because the predictive power of cardiovascular risk factors weakens with age.",
+      "source_id": "src_055"
+    },
+    {
+      "statement": "Coronary calcification is a strong, independent predictor of coronary heart disease in the elderly.",
+      "rationale": "Adding coronary calcification scores to traditional risk factors significantly improves the accuracy of predicting coronary events, with risk increasing substantially as calcium scores rise.",
+      "source_quote": "Coronary calcification is a strong and independent predictor of coronary heart disease, also in the elderly. Coronary calcification improves prediction of coronary events based on cardiovascular risk factors.",
+      "source_id": "src_055"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "Coronary calcification is a strong and independent predictor of coronary heart disease, also in the elderly.",
+      "context": "Concluding the findings of the Rotterdam Study regarding cardiovascular risk prediction.",
+      "source_id": "src_055"
+    },
+    {
+      "text": "Risk stratification by assessment of coronary calcification may have an important role in the primary prevention of coronary heart disease events in the elderly.",
+      "context": "Recommending clinical applications for electron beam tomography in older populations.",
+      "source_id": "src_055"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying exclusively on traditional cardiovascular risk factors to predict heart disease in elderly patients.",
+      "why_it_fails": "The predictive power of standard cardiovascular risk factors weakens with age, leading to less accurate risk stratification if supplementary measures like coronary calcification are ignored.",
+      "source_id": "src_055"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "source_id": "src_049",
+  "summary": "This source is an abstract from a 1988 book chapter by Meir J. Stampfer and colleagues detailing methodological considerations for selecting populations in cancer prevention trials. It emphasizes the critical importance of maximizing participant compliance, feasibility, and generalizability through strategies like run-in periods, selecting intrinsically motivated groups (such as physicians), and simplifying treatment regimens.",
+  "themes": [
+    "Clinical Trial Design",
+    "Participant Compliance",
+    "Epidemiology",
+    "Cancer Prevention"
+  ],
+  "principles": [
+    {
+      "statement": "Choose trial populations that maximize recruitment feasibility, compliance, and generalizability.",
+      "rationale": "Primary prevention trials require large numbers of subjects, and the results must be meaningful and applicable to a broader reference population.",
+      "source_quote": "The population selected for a cancer prevention trial should be chosen to maximize the feasibility of recruitment and followup, the probability of compliance with all requirements of the trial, and the potential to provide meaningful results which are generalizable to a larger reference population.",
+      "source_id": "src_049"
+    },
+    {
+      "statement": "Select participants who are intrinsically motivated and use a run-in period to verify compliance.",
+      "rationale": "High compliance is critical for the success of large-scale prevention trials, and intrinsic motivation ensures participants stay with the trial over the long term.",
+      "source_quote": "Selection of compliant participants by means of a run-in period will often prove useful, but the population selected initially should be intrinsically motivated to stay with the trial.",
+      "source_id": "src_049"
+    },
+    {
+      "statement": "Design treatment regimens to be as simple as possible to maintain high compliance.",
+      "rationale": "Trial organizers must exert all possible efforts to maintain compliance, which is aided by reducing the friction of the daily regimen.",
+      "source_quote": "In the Physicians’ Health Study, the treatment regimen was planned so that subjects take just one pill per day. The pills are packaged in monthly calendar packs with each bubble numbered to correspond to the day of the month.",
+      "source_id": "src_049"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [
+    "Use a run-in period to filter for compliant trial participants.",
+    "Target intrinsically motivated populations (like physicians) for long-term trials.",
+    "Simplify the treatment regimen (e.g., one pill per day in calendar packs) to maximize compliance."
+  ],
+  "signature_quotes": [
+    {
+      "text": "The population selected for a cancer prevention trial should be chosen to maximize the feasibility of recruitment and followup, the probability of compliance with all requirements of the trial, and the potential to provide meaningful results which are generalizable to a larger reference population.",
+      "context": "On the criteria for selecting populations for primary prevention trials.",
+      "source_id": "src_049"
+    },
+    {
+      "text": "Selection of compliant participants by means of a run-in period will often prove useful, but the population selected initially should be intrinsically motivated to stay with the trial.",
+      "context": "On ensuring high compliance in long-term studies.",
+      "source_id": "src_049"
+    }
+  ],
+  "anti_patterns": []
+}

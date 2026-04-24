@@ -1,0 +1,132 @@
+[
+  {
+    "id": "essays_000",
+    "url": "https://www.youtube.com/watch?v=lXUZvyajciY",
+    "title": "Andrej Karpathy \u2014 \u201cWe\u2019re summoning ghosts, not building animals\u201d - YouTube",
+    "publish_date": "2025-10-17",
+    "kind": "essay",
+    "medium": "youtube",
+    "bucket": "essays",
+    "excerpts": [
+      "Section Title: Andrej Karpathy \u2014 \u201cWe\u2019re summoning ghosts, not building animals\u201d > Comments 1.8K\nContent:\n25K Likes 1,146,978 Views Oct 17 2025 The Andrej Karpathy episode. During this interview, Andrej explains why reinforcement learning is terrible (but everything else is much worse), why AGI will just blend into the previous ~2.5 centuries of 2% GDP growth, why self driving took so long to crack, and what he sees as the future of education. It was a pleasure chatting with him. \ud835\udc04\ud835\udc0f\ud835\udc08\ud835\udc12\ud835\udc0e\ud835\udc03\ud835\udc04 \ud835\udc0b\ud835\udc08\ud835\udc0d\ud835\udc0a\ud835\udc12 * Transcript: [https://dwarkesh.substack.com/p/andre...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0xxX2hTWkpxb05VNUVGaDRwVGlWVEFHYU9ZQXxBQ3Jtc0tsQS1KRzFPbTJMUnlpV25OQ3pINFFnRkRGRU1MbWpwYjZvUHJGZXVIMllXZ2pKWWhydXhYMEFzOS1XVkUtai03QVBKNTlyb3ltMVFDQzBjakgxWWlScUZLSm0yRC1rZ1NnLXBsc0ZVbFRMb2NlMWF2QQ&q=https%3A%2F%2Fdwarkesh.substack.com%2Fp%2Fandrej-karpathy&v=lXUZvyajciY)"
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "essays_001",
+    "url": "https://thenewstack.io/karpathy-says-developers-have-ai-psychosis-everyone-else-is-next/",
+    "title": "Karpathy says developers have 'AI Psychosis.' Everyone ...",
+    "publish_date": null,
+    "kind": "essay",
+    "medium": "web",
+    "bucket": "essays",
+    "excerpts": [
+      "Apr 11, 2026 \u2014 OpenAI co-founder Andrej Karpathy posted an essay this week describing a real and growing perception gap around AI. He's right that it."
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "essays_002",
+    "url": "https://www.latent.space/p/s3",
+    "title": "Andrej Karpathy on Software 3.0: Software in the Age of AI",
+    "publish_date": null,
+    "kind": "essay",
+    "medium": "web",
+    "bucket": "essays",
+    "excerpts": [
+      "Section Title: ... > Part 2: LLM Psychology\nContent:\nLLMs are \u201cpeople spirits\u201d: stochastic simulations of people, with a kind of emergent \u201cpsychology\u201d\n[](https://substackcdn.com/image/fetch/$s_!UJpg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e4dc78b-83d3-4578-a0bb-a60afcffc24a_2084x1114.png)\nAndrej highlights two problems with how current LLMs simulate people:\n**Jagged Intelligence (** https://x.com/karpathy/status/1816531576228053133 ) **:**"
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "essays_003",
+    "url": "https://kazuotani14.github.io/notes/howto/other/writing_papers/",
+    "title": "Writing papers",
+    "publish_date": null,
+    "kind": "essay",
+    "medium": "web",
+    "bucket": "essays",
+    "excerpts": [
+      "Section Title: Writing papers\nContent:\nTips (in order of usefulness)\n[Andrej Karpathy\u2019s blog post](http://karpathy.github.io/2016/09/07/phd/)\n[On writing well](https://sivers.org/book/OnWritingWell)\nhttp://approximatelycorrect.com/2018/01/29/heuristics-technical-scientific-writing-machine-learning-perspective/\n[Microsoft Research tips](https://kazuotani14.github.io/files/writing_a_paper.pdf)\n[More tips](https://cs.stanford.edu/people/widom/paper-writing.html)\n[Ten simple rules for structuring papers](http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1005619)\n[On Writing](https://terrytao.wordpress.com/advice-on-writing-papers/)\n[Nature course on writing paper](https://masterclasses.nature.com/courses/103)\nTo build latex from terminal: `pdflatex root.tex`\n[Proselint](http://proselint.com/)\nExporting matlab figures to pdf while avoiding whitespace:: export as eps file, then do `epstopdf fig.eps fig.pdf`\n[Auto photo enhancer](http://www.fotor.com) - makes photos look"
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "essays_004",
+    "url": "https://cs.stanford.edu/people/karpathy/main.pdf",
+    "title": "Andrej Karpathy - Stanford Computer Science",
+    "publish_date": null,
+    "kind": "essay",
+    "medium": "web",
+    "bucket": "essays",
+    "excerpts": [
+      "First, these techniques are a step towards a future in which we can interact with\ncomputers in natural language, especially where these interactions can be properly grounded in\nphysical environments. In addition, working towards artificially intelligent agents will require us to\nmake available to computers large amounts of information about how our world works. Concretely,\nthere are two massive sources of knowledge we can draw on: the physical domain that contains\ninformation about the world, scenes, objects and interactions (accessed with highest bandwidths\nthrough visual sensors) and the digital domain of the Internet that contains a vast amount of semantic\ninformation that cannot be inferred from physical domain alone (e.g.\nwhat happened in 1760),\nencoded primarily in natural language. Therefore, vision and language are the primary channels\nby which the knowledge of the world can be accessed and it is critical that we develop techniques"
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "essays_005",
+    "url": "https://fortune.com/2026/03/21/andrej-karpathy-openai-cofounder-ai-agents-coding-state-of-psychosis-openclaw",
+    "title": "OpenAI cofounder says he hasn't written a line of code in months and is in a 'state of psychosis' | Fortune",
+    "publish_date": "2026-03-21",
+    "kind": "essay",
+    "medium": "web",
+    "bucket": "essays",
+    "excerpts": [
+      "Section Title: OpenAI cofounder says he hasn\u2019t written a line of code in months and is in a \u2018state of psychosis\u2019...\nContent:\nBy Jason Ma Jason Ma\nWeekend Editor\nBy Jason Ma Jason Ma\nWeekend Editor\nMarch 21, 2026, 2:18 PM ET Add us on\nAndrej Karpathy at the Train AI conference at Pier 27 in San Francisco on May 10, 2018. Michael Macor/The San Francisco Chronicle via Getty Images\nAndrej Karpathy, an OpenAI cofounder and former director of AI at [Tesla](https://fortune.com/company/tesla/) , admitted that he\u2019s not on the forefront of the field and feels nervous about it, despite all his accomplishments in AI.\nRecommended Video\nIn an [interview on the *No Priors* podcast](https://www.youtube.com/watch?v=kwSVtQ7dziU) on Friday, the independent AI researcher, who is also the founder of Eureka Labs, explained a \u201cpsychosis\u201d he\u2019s been suffering from, even as AI agents have made his workflow and life at home more convenient."
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "essays_006",
+    "url": "https://karpathy.ai/",
+    "title": "Andrej Karpathy",
+    "publish_date": null,
+    "kind": "essay",
+    "medium": "web",
+    "bucket": "essays",
+    "excerpts": [
+      "Section Title: Andrej Karpathy > I like to train deep neural nets on large datasets \ud83e\udde0\ud83e\udd16\ud83d\udca5\nContent:\nI was the [Director of AI at Tesla](https://techcrunch.com/2017/06/20/tesla-hires-deep-learning-expert-andrej-karpathy-to-lead-autopilot-vision/) , where I led the computer vision team of [Tesla Autopilot](https://www.tesla.com/autopilot) and (very briefly) [Tesla Optimus](https://en.wikipedia.org/wiki/Optimus_(robot)) . My team handled all in-house data labeling, neural network training and deployment on Tesla's custom inference chip. Today, the Autopilot increases the safety and convenience of driving, but the team's goal is to make [Full Self-Driving](https://www.youtube.com/watch?v=tlThdr3O5Qo) a reality at scale. See Aug 2021 [Tesla AI Day](https://youtu.be/j0z4FweCy4M?t=2900) for more.\n2015 - 2017\nI was a research scientist and a founding member at [OpenAI](https://openai.com/index/introducing-openai/) .\n2011 - 2015"
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "essays_007",
+    "url": "https://karpathy.medium.com/",
+    "title": "Andrej Karpathy \u2013 Medium",
+    "publish_date": null,
+    "kind": "essay",
+    "medium": "web",
+    "bucket": "essays",
+    "excerpts": [
+      "Section Title: Software 2.0 ### I sometimes see people refer to neural networks as just \u201canother tool in your ma...\nContent:\nNov 11, 2017\n185\n[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fa64152b37c35&operation=register&redirect=https%3A%2F%2Fkarpathy.medium.com%2Fsoftware-2-0-a64152b37c35&source=---------0-------------ac9d9a35533e----bookmark_preview------------------)\nNov 11, 2017\n185\n[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fa64152b37c35&operation=register&redirect=https%3A%2F%2Fkarpathy.medium.com%2Fsoftware-2-0-a64152b37c35&source=---------0-------------ac9d9a35533e----bookmark_preview------------------)"
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "essays_008",
+    "url": "https://news.ycombinator.com/item?id=21495685",
+    "title": "Andrej Karpathy talks about how Tesla's NNs are structured and trained [video] | Hacker News",
+    "publish_date": null,
+    "kind": "essay",
+    "medium": "web",
+    "bucket": "essays",
+    "excerpts": [
+      "Regarding Karpathy's PyTorch presentation I don't thing anything that wasn't already public was revealed. The FSD board with custom NPUs is a Work of Art. I like that there are dual redundant streams. And the scale of the dataset is already well know: 4096 HD-images per step!\nIf I had to speculate, the \"Dojo Cluster\" may be envisioned as an effort to share data and compute with industry partners as a cloud SaaS product and ancillary revenue stream. But that is pure speculation ;)\nInside Tesla\u2019s Neural Processor In The FSD Chip"
+    ],
+    "canonicity_score": null
+  },
+  {
+    "id": "essays_009",
+    "url": "https://cs.stanford.edu/people/karpathy",
+    "title": "Andrej Karpathy Academic Website - CS Stanford",
+    "publish_date": null,
+    "kind": "essay",
+    "medium": "web",
+    "bucket": "essays",
+    "excerpts": [
+      "**Bio** . I am the Sr. Director of AI at Tesla, where I lead the team responsible for all neural networks on the Autopilot. Previously, I was a Research Scientist at [OpenAI](http://openai.com) working on Deep Learning in Computer Vision, Generative Modeling and Reinforcement Learning. I received my PhD from Stanford, where I worked with [Fei-Fei Li](http://vision.stanford.edu) on Convolutional/Recurrent Neural Network architectures and their applications in Computer Vision, Natural Language Processing and their intersection. Over the course of my PhD I squeezed in two internships at Google where I worked on large-scale feature learning over YouTube videos, and in 2015 I interned at DeepMind on the Deep Reinforcement Learning team. Together with Fei-Fei, I designed and was the primary instructor for a new Stanford class on [Convolutional Neural Networks for Visual Recognition (CS231n)](http://cs231n.stanford.edu/) ."
+    ],
+    "canonicity_score": null
+  }
+]

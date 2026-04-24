@@ -1,0 +1,47 @@
+{
+  "source_id": "src_010",
+  "summary": "Dorret Boomsma explains how the Netherlands Twin Register uses data to answer practical questions from parents, such as whether twins should share a classroom. She highlights that genetics significantly contribute to children's educational attainment, as evidenced by identical twins being more alike in academic skills and the identification of specific genetic variants linked to school success.",
+  "themes": [
+    "Behavioral Genetics",
+    "Twin Studies",
+    "Educational Attainment",
+    "Heritability"
+  ],
+  "principles": [
+    {
+      "statement": "Genetics play a measurable role in a child's educational success and academic strengths.",
+      "rationale": "Identical twins show greater similarity in skills like reading and arithmetic, and large DNA studies have identified numerous genetic variants linked to educational attainment.",
+      "source_quote": "for all these strengths we would expect identical prints to be more alike if the genome contributes to differences between children and this is actually what we see",
+      "source_id": "src_010"
+    },
+    {
+      "statement": "Placing twins in the same versus different classrooms does not make a significant difference in their outcomes.",
+      "rationale": "When analyzing the twin register database to answer parents' questions about school placement, the data showed no meaningful difference.",
+      "source_quote": "so we looked in our database and basically what we found doesn't make a difference",
+      "source_id": "src_010"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Twin Study Comparison",
+      "description": "Using the similarity of identical twins (who share identical genomes) to determine if traits like reading or arithmetic skills are influenced by genetics.",
+      "example": "for all these strengths we would expect identical prints to be more alike if the genome contributes to differences between children",
+      "source_id": "src_010"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "there are nearly a hundred genetic variants that have been identified as explained part of the heritability of educational attainment",
+      "context": "Discussing the rapid growth of DNA studies predicting educational success.",
+      "source_id": "src_010"
+    },
+    {
+      "text": "for all these strengths we would expect identical prints to be more alike if the genome contributes to differences between children and this is actually what we see",
+      "context": "Explaining how twin studies reveal the genetic contribution to school performance (note: 'prints' is an auto-caption artifact for 'twins').",
+      "source_id": "src_010"
+    }
+  ],
+  "anti_patterns": []
+}

@@ -1,0 +1,88 @@
+{
+  "source_id": "src_041",
+  "summary": "This paper introduces AlphaZero, a general reinforcement learning algorithm that achieves superhuman performance in chess, shogi, and Go from scratch (tabula rasa). It demonstrates that a single algorithm using deep neural networks and Monte-Carlo tree search can outperform highly tuned, domain-specific systems without relying on human knowledge or handcrafted heuristics.",
+  "themes": [
+    "Reinforcement Learning",
+    "Tabula Rasa Learning",
+    "General Artificial Intelligence",
+    "Monte-Carlo Tree Search (MCTS)",
+    "Self-Play"
+  ],
+  "principles": [
+    {
+      "statement": "General-purpose reinforcement learning algorithms can achieve superhuman performance across multiple challenging domains without domain-specific knowledge.",
+      "rationale": "AlphaZero mastered chess, shogi, and Go starting from random play, given only the rules, outperforming highly tuned, domain-specific engines like Stockfish and Elmo.",
+      "source_quote": "...a general-purpose reinforcement learning algorithm can achieve, tabula rasa, superhuman performance across many challenging domains.",
+      "source_id": "src_041"
+    },
+    {
+      "statement": "Monte-Carlo tree search (MCTS) combined with deep neural networks scales more effectively with thinking time than traditional alpha-beta search.",
+      "rationale": "MCTS averages over approximation errors in the neural network's evaluations, whereas alpha-beta search computes an explicit minimax that propagates the biggest errors to the root.",
+      "source_quote": "AlphaZero’s MCTS scaled more effectively with thinking time than either Stockfish or Elmo, calling into question the widely held belief that alpha-beta search is inherently superior in these domains.",
+      "source_id": "src_041"
+    },
+    {
+      "statement": "A truly generic algorithm should reuse the same hyper-parameters across different domains without game-specific tuning.",
+      "rationale": "To prove true generality, AlphaZero reused the same algorithm settings, network architecture, and hyper-parameters for chess, shogi, and Go, with the sole exception of scaling exploration noise based on the number of legal moves.",
+      "source_quote": "In AlphaZero we reuse the same hyper-parameters for all games without game-specific tuning.",
+      "source_id": "src_041"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "AlphaZero Self-Play Reinforcement Learning",
+      "when_to_apply": "When training an AI to master a perfect-information game from scratch (tabula rasa) without human domain knowledge.",
+      "steps": [
+        "Initialize a deep neural network with random parameters.",
+        "Generate games of self-play by selecting moves for both players using Monte-Carlo tree search (MCTS).",
+        "Score the terminal position according to the rules of the game to compute the game outcome (win, loss, or draw).",
+        "Continually update the neural network parameters to minimize the error between the predicted outcome and the actual game outcome, and to maximize the similarity of the policy vector to the search probabilities.",
+        "Use the latest parameters for the neural network to generate subsequent self-play games, omitting the need to evaluate against a 'best player' from previous iterations."
+      ],
+      "source_quote": "The parameters θ of the deep neural network in AlphaZero are trained by self-play reinforcement learning, starting from randomly initialised parameters θ.",
+      "source_id": "src_041"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "\"Human-like\" Selective Search",
+      "description": "Instead of brute-forcing millions of positions, an intelligent system uses a learned intuition (a neural network) to focus selectively on the most promising variations, evaluating far fewer positions but with higher quality.",
+      "example": "AlphaZero searches just 80,000 positions per second in chess compared to Stockfish's 70 million, yet defeats Stockfish by focusing selectively on promising variations.",
+      "source_id": "src_041"
+    }
+  ],
+  "heuristics": [
+    "Replace handcrafted knowledge and domain-specific augmentations with deep neural networks and a tabula rasa reinforcement learning algorithm.",
+    "Scale exploration noise in proportion to the typical number of legal moves for that game type.",
+    "Estimate and optimize the expected outcome (taking account of draws) rather than assuming binary win/loss outcomes."
+  ],
+  "signature_quotes": [
+    {
+      "text": "...a general-purpose reinforcement learning algorithm can achieve, tabula rasa, superhuman performance across many challenging domains.",
+      "context": "Describing the core achievement of the AlphaZero algorithm.",
+      "source_id": "src_041"
+    },
+    {
+      "text": "AlphaZero compensates for the lower number of evaluations by using its deep neural network to focus much more selectively on the most promising variations – arguably a more 'human-like' approach to search...",
+      "context": "Comparing AlphaZero's MCTS to the brute-force alpha-beta search of traditional chess engines.",
+      "source_id": "src_041"
+    },
+    {
+      "text": "AlphaZero’s MCTS scaled more effectively with thinking time than either Stockfish or Elmo, calling into question the widely held belief that alpha-beta search is inherently superior in these domains.",
+      "context": "Discussing the scalability and efficiency of MCTS versus alpha-beta search.",
+      "source_id": "src_041"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on handcrafted evaluation functions and domain-specific adaptations.",
+      "why_it_fails": "These systems are highly tuned to their specific domain and cannot be generalized to other problems without significant human effort. They also ultimately underperform a purely learned, tabula rasa approach.",
+      "source_id": "src_041"
+    },
+    {
+      "description": "Using alpha-beta search with neural network evaluations.",
+      "why_it_fails": "Alpha-beta search computes an explicit minimax, which propagates the biggest approximation errors of the neural network to the root of the subtree. MCTS is better because it averages over these approximation errors.",
+      "source_id": "src_041"
+    }
+  ]
+}

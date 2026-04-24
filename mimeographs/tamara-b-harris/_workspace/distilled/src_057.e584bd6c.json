@@ -1,0 +1,37 @@
+{
+  "source_id": "src_057",
+  "summary": "In this co-authored study abstract, Tamara B. Harris and colleagues examine the relationship between type 2 diabetes, muscle mass, and muscle strength in older adults. They conclude that while older adults with diabetes may have greater muscle mass due to larger body size, their actual muscle quality and strength are significantly lower, increasing their risk for physical disability.",
+  "themes": [
+    "Aging",
+    "Type 2 Diabetes",
+    "Muscle Quality",
+    "Physical Disability",
+    "Epidemiology"
+  ],
+  "principles": [
+    {
+      "statement": "Type 2 diabetes is associated with lower skeletal muscle strength and quality in older adults, independent of muscle mass.",
+      "rationale": "Despite having greater arm and leg muscle mass due to larger body size, older adults with diabetes exhibit lower strength. This degradation in muscle quality worsens with longer disease duration and poor glycemic control, contributing to physical disability.",
+      "source_quote": "diabetes is associated with lower skeletal muscle strength and quality. These characteristics may contribute to the development of physical disability in older adults with diabetes.",
+      "source_id": "src_057"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "Muscle Quality",
+      "description": "A metric for evaluating muscle health that looks beyond raw muscle mass by measuring the functional output (strength) per unit of regional muscle mass.",
+      "example": "Older adults with diabetes have greater overall muscle mass because they are bigger in body size, but their 'muscle quality' is significantly lower than those without diabetes because their strength does not proportionally match their mass.",
+      "source_id": "src_057"
+    }
+  ],
+  "heuristics": [],
+  "signature_quotes": [],
+  "anti_patterns": [
+    {
+      "description": "Equating greater muscle mass with greater muscle strength in older adults.",
+      "why_it_fails": "In populations with type 2 diabetes, greater muscle mass is often just a byproduct of a larger body size. The actual functional strength per unit of mass (muscle quality) is often significantly impaired.",
+      "source_id": "src_057"
+    }
+  ]
+}

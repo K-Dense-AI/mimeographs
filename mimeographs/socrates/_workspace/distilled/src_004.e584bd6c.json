@@ -1,0 +1,80 @@
+{
+  "source_id": "src_004",
+  "summary": "This essay explores the foundational influence of Socrates on Plato's philosophy. It highlights Socrates' core beliefs and methods, specifically his dialectical approach to uncovering truth, his doctrine that 'virtue is knowledge,' and his profound intellectual humility.",
+  "themes": [
+    "Socratic method",
+    "Dialectical reasoning",
+    "Intellectual humility",
+    "Moral education",
+    "Virtue and knowledge"
+  ],
+  "principles": [
+    {
+      "statement": "Virtue is knowledge.",
+      "rationale": "People do not choose to do wrong intentionally; they act badly only because they lack the knowledge of what is truly good. Therefore, moral education is about gaining knowledge.",
+      "source_quote": "virtue is knowledge",
+      "source_id": "src_004"
+    },
+    {
+      "statement": "I know nothing except that I know nothing.",
+      "rationale": "Intellectual humility is the foundation of wisdom. Recognizing one's own ignorance is necessary for continuous philosophical inquiry and the pursuit of truth.",
+      "source_quote": "he knew nothing except that he knew nothing",
+      "source_id": "src_004"
+    },
+    {
+      "statement": "Truth emerges through dialogue and careful inquiry.",
+      "rationale": "Truth is accessible to everyone through reason. It must be drawn out through interactive conversation rather than transmitted through dogmatic pronouncements.",
+      "source_quote": "truth emerges through dialogue",
+      "source_id": "src_004"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Socratic Method (Dialectical Reasoning)",
+      "when_to_apply": "When seeking to expose contradictions in someone's beliefs and guide them toward a clearer understanding of a concept.",
+      "steps": [
+        "Allow the participant to present a confident assertion about a concept (like justice or courage).",
+        "Ask probing, systematic questions to expose contradictions and limitations in this initial definition.",
+        "Guide the participant into 'aporia' - a state of puzzlement or productive confusion.",
+        "Continue the dialogue to work collaboratively toward a more refined understanding."
+      ],
+      "source_quote": "asking probing questions to expose contradictions in someone’s beliefs and gradually guide them toward clearer understanding.",
+      "source_id": "src_004"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Aporia (Productive Confusion)",
+      "description": "A necessary state of puzzlement that occurs when a person's initial, confident assumptions are dismantled through questioning. It serves as the transitional phase between ignorance and genuine understanding.",
+      "example": "Questioning an untutored slave boy about geometry until he realizes the flaws in his initial assumptions, allowing him to discover geometric truths.",
+      "source_id": "src_004"
+    }
+  ],
+  "heuristics": [
+    "Ask better questions rather than providing direct answers."
+  ],
+  "signature_quotes": [
+    {
+      "text": "virtue is knowledge",
+      "context": "Socrates' intellectualist approach to ethics, suggesting that understanding the good naturally leads to acting justly.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "he knew nothing except that he knew nothing",
+      "context": "A paradoxical statement demonstrating his intellectual humility and commitment to continuous inquiry.",
+      "source_id": "src_004"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Lecturing, providing direct answers, or dogmatic pronouncements.",
+      "why_it_fails": "Genuine learning cannot occur through passive absorption of information or memorization; it requires active engagement, questioning assumptions, and personal discovery.",
+      "source_id": "src_004"
+    },
+    {
+      "description": "Believing that people intentionally choose to do wrong.",
+      "why_it_fails": "Socrates argued that bad actions are strictly the result of ignorance regarding what is truly good, not a deliberate choice to be malicious.",
+      "source_id": "src_004"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "source_id": "src_019",
+  "summary": "Richard S. Sutton is a pioneering computer scientist and co-creator of modern reinforcement learning. He advocates for general AI methods that scale with computation over domain-specific human knowledge, famously termed 'The Bitter Lesson,' and believes future AI requires continual, on-the-fly learning rather than static training phases.",
+  "themes": [
+    "Reinforcement Learning",
+    "Artificial Intelligence",
+    "The Bitter Lesson",
+    "Continual Learning",
+    "Computation vs. Human Knowledge"
+  ],
+  "principles": [
+    {
+      "statement": "General methods that leverage computation are ultimately the most effective approach to AI.",
+      "rationale": "Historical trends in AI research show that approaches relying on scaling computation consistently outperform and dominate domain-specific approaches built on human knowledge in the long run.",
+      "source_quote": "70 years of AI research [had shown] that general methods that leverage computation are ultimately the most effective, and by a large margin",
+      "source_id": "src_019"
+    },
+    {
+      "statement": "AI agents must be capable of continual, on-the-job learning.",
+      "rationale": "Current large language models are limited because they rely on a special training phase and cannot learn on-the-fly. True AI will render this static training phase obsolete.",
+      "source_quote": null,
+      "source_id": "src_019"
+    },
+    {
+      "statement": "Supervised learning is insufficient for AI; trial-and-error learning is necessary.",
+      "rationale": "Intelligent behavior cannot be explained or achieved solely through supervised examples; it requires agents to learn via trial-and-error driven by the 'hedonic aspects of behavior' (rewards).",
+      "source_quote": null,
+      "source_id": "src_019"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Bitter Lesson",
+      "description": "A historical lens for evaluating AI research directions. It posits that progress comes from general methods that scale with computation, rather than from hard-coding human intuition or domain expertise into systems.",
+      "example": "Beating human champions in chess or Go, as well as advancements in computer vision and speech recognition, were achieved by leveraging computation rather than building in human knowledge about those specific fields.",
+      "source_id": "src_019"
+    }
+  ],
+  "heuristics": [
+    "Don't build in how we think we think."
+  ],
+  "signature_quotes": [
+    {
+      "text": "building in how we think we think does not work in the long run",
+      "context": "From his 2019 essay 'The Bitter Lesson', criticizing the AI field's tendency to hard-code human intuition.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "70 years of AI research [had shown] that general methods that leverage computation are ultimately the most effective, and by a large margin",
+      "context": "Summarizing the core thesis of 'The Bitter Lesson'.",
+      "source_id": "src_019"
+    },
+    {
+      "text": "So I'm 67 years old, but I want to still try to do some amazing things.",
+      "context": "Quoted in an Amii update regarding his Turing Award and ongoing ambitions.",
+      "source_id": "src_019"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Building human knowledge about specific fields into AI systems.",
+      "why_it_fails": "It does not scale with computation and is ultimately beaten by general computational methods in the long run.",
+      "source_id": "src_019"
+    },
+    {
+      "description": "Relying on a special, static training phase for AI models (like current LLMs).",
+      "why_it_fails": "It prevents the model from learning on-the-job, which is a necessary component of continual learning and intelligent behavior.",
+      "source_id": "src_019"
+    },
+    {
+      "description": "Believing supervised learning alone is sufficient for AI.",
+      "why_it_fails": "It ignores the necessity of trial-and-error learning driven by rewards and interaction with an environment.",
+      "source_id": "src_019"
+    }
+  ]
+}

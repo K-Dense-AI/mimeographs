@@ -1,0 +1,36 @@
+{
+  "source_id": "src_029",
+  "summary": "In this paper abstract, Kaiming He and co-authors introduce the Parametric Rectified Linear Unit (PReLU) and a robust initialization method tailored for rectifier nonlinearities. These contributions enabled the training of extremely deep models from scratch and achieved the first result to surpass human-level performance on the ImageNet classification challenge.",
+  "themes": [
+    "Deep Learning",
+    "Computer Vision",
+    "Activation Functions",
+    "Network Initialization",
+    "ImageNet"
+  ],
+  "principles": [
+    {
+      "statement": "Rectified activation units are essential for state-of-the-art neural networks.",
+      "rationale": "They are foundational components required to achieve top-tier performance in deep learning tasks like image classification.",
+      "source_quote": "Rectified activation units (rectifiers) are essential for state-of-the-art neural networks.",
+      "source_id": "src_029"
+    },
+    {
+      "statement": "Initialization methods must explicitly account for rectifier nonlinearities to train extremely deep models.",
+      "rationale": "A robust initialization method tailored to rectifiers allows networks to be trained directly from scratch, unlocking the ability to investigate deeper and wider architectures.",
+      "source_quote": "Second, we derive a robust initialization method that particularly considers the rectifier nonlinearities. This method enables us to train extremely deep rectified models directly from scratch and to investigate deeper or wider network architectures.",
+      "source_id": "src_029"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [],
+  "signature_quotes": [
+    {
+      "text": "To our knowledge, our result is the first to surpass human-level performance (5.1%, Russakovsky et al.) on this visual recognition challenge.",
+      "context": "Announcing the breakthrough ImageNet classification result achieved using PReLU-nets.",
+      "source_id": "src_029"
+    }
+  ],
+  "anti_patterns": []
+}

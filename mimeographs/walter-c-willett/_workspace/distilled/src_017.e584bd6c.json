@@ -1,0 +1,104 @@
+{
+  "source_id": "src_017",
+  "summary": "In this interview, Dr. Walter C. Willett discusses the evolution and methodology of nutritional epidemiology, emphasizing the importance of prospective studies and repeated dietary measurements. He advocates for broad public health policies and environmental considerations over highly individualized nutrition, highlighting the profound impact of cultural shifts, taxes, and subsidies on population health.",
+  "themes": [
+    "Nutritional Epidemiology Methodology",
+    "Public Health Policy",
+    "Dietary Assessment",
+    "Environmental Impact of Food",
+    "Personalized Nutrition vs. Population Health"
+  ],
+  "principles": [
+    {
+      "statement": "Use multiple tools for dietary assessment, but rely on self-reported data as the core.",
+      "rationale": "While biomarkers and genetics provide valuable context, people are surprisingly capable of reporting their own dietary information, which remains the best source of data for understanding individual food choices.",
+      "source_quote": "We really get the best understanding when we use multiple tools. At the core of it, still our best information does come from our self-reported dietary assessment measurements.",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Use prospective study designs rather than retrospective case-control studies.",
+      "rationale": "People report their diets differently after they have been diagnosed with a disease, which introduces bias. Collecting data while people are healthy and following them over time removes this bias.",
+      "source_quote": "Prospective design has taken away much of the bias that we had in retrospective studies.",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Take repeated dietary measurements over decades.",
+      "rationale": "Food supplies and individual choices change significantly over time, making a single point-in-time measurement insufficient for long-term health studies.",
+      "source_quote": "...even if you could measure diet perfectly at one point in time, there’s enough change in food supply and individual choices over time that we really need to have repeated measurements when we are doing studies that last for decades.",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Prioritize broad cultural and policy changes over personalized nutrition.",
+      "rationale": "Personalized nutrition only makes minor tweaks for a small number of people, whereas systemic changes to the food supply and environment have a profound impact on overall public health.",
+      "source_quote": "Really big impacts come from overall changes in food supply and cultural change. If we put all the emphasis on personalized nutrition, that can actually be dangerous because it undermines the most powerful tools we have in public health...",
+      "source_id": "src_017"
+    },
+    {
+      "statement": "Evaluate food choices through an environmental lens.",
+      "rationale": "Climate change is an existential threat, and agricultural practices and food choices significantly contribute to greenhouse gas production.",
+      "source_quote": "As a human society we are facing an existential threat of climate change at an accelerating rate, and we need to look at everything we do through an environmental lens.",
+      "source_id": "src_017"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Prospective Nutritional Epidemiology Design",
+      "when_to_apply": "When studying the long-term effects of dietary intake on disease and well-being.",
+      "steps": [
+        "Collect self-reported dietary data while participants are healthy.",
+        "Follow the participants prospectively over decades to observe who develops diseases.",
+        "Take repeated dietary measurements over time to account for changes in food supply and individual habits.",
+        "Use statistical methods to correct for measurement errors.",
+        "Integrate biomarkers, genetics, and other omics technology to supplement self-reported data."
+      ],
+      "source_quote": "Instead, we use prospective studies where we collect dietary disease while people are healthy and then we follow them to see who develops a disease.",
+      "source_id": "src_017"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Level Playing Field of Food Economics",
+      "description": "Viewing the food environment as an economic landscape currently tilted toward cheap, unhealthy foods due to high profit margins. Taxes and subsidies act as leveling mechanisms to make healthy choices economically viable.",
+      "example": "Subsidizing a salad bar at Harvard to increase sales, effectively shifting prices to make healthy food choices more affordable and competitive against cheaper, unhealthy options.",
+      "source_id": "src_017"
+    }
+  ],
+  "heuristics": [
+    "Choose research priorities based on the conditions that accrue in greatest frequency.",
+    "Look at everything we do through an environmental lens."
+  ],
+  "signature_quotes": [
+    {
+      "text": "If you can’t measure your exposure, then you can’t study long-term effects.",
+      "context": "Explaining why developing methods to assess dietary intake was the essential first step in nutritional epidemiology.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "Contrary to what a lot of people believed when we got started, not everyone eats the same.",
+      "context": "Discussing the viability of self-reported dietary data and the variance in human diets.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "Really big impacts come from overall changes in food supply and cultural change.",
+      "context": "Comparing the impact of personalized nutrition to broad public health interventions.",
+      "source_id": "src_017"
+    },
+    {
+      "text": "As a human society we are facing an existential threat of climate change at an accelerating rate, and we need to look at everything we do through an environmental lens.",
+      "context": "Discussing the future of food science and the need to integrate human health effects with environmental effects.",
+      "source_id": "src_017"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on retrospective case-control studies to assess the impact of diet on disease.",
+      "why_it_fails": "People report their diets differently once they have a disease, introducing significant recall bias.",
+      "source_id": "src_017"
+    },
+    {
+      "description": "Putting all emphasis and funding into personalized nutrition.",
+      "why_it_fails": "It only makes 'tweaks around the margin' for a few people and undermines the most powerful public health tools, which are cultural and policy changes.",
+      "source_id": "src_017"
+    }
+  ]
+}

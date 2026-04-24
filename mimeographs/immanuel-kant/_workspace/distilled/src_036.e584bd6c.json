@@ -1,0 +1,98 @@
+{
+  "source_id": "src_036",
+  "summary": "Immanuel Kant's philosophy centers on transcendental idealism, distinguishing between knowable appearances (the empirical world) and unknowable things in themselves. He revolutionized epistemology with his 'Copernican shift,' arguing that objects must conform to the mind's a priori structures (space, time, and categories) to be experienced. In ethics, he grounded morality in the 'categorical imperative,' a universal law of reason.",
+  "themes": [
+    "Transcendental Idealism",
+    "Epistemology",
+    "Metaphysics",
+    "Ethics",
+    "Synthetic A Priori Knowledge"
+  ],
+  "principles": [
+    {
+      "statement": "Knowledge requires the cooperation of both sensibility and understanding.",
+      "rationale": "Sensibility passively receives representations (intuitions) to give us objects, while understanding actively applies concepts to think about those objects. Without both, cognition is impossible.",
+      "source_quote": "Thoughts without content are empty, intuitions without concepts are blind",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "We can only have knowledge of things we can experience (appearances), not things as they are in themselves.",
+      "rationale": "Space and time are subjective, a priori conditions of experience. Because we can only know objects that conform to these conditions, we are limited to knowing the natural, observable world, not supersensible objects.",
+      "source_quote": "we can know the natural, observable world, but we cannot, however, have answers to many of the deepest questions of metaphysics.",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Morality is dictated by a universal categorical imperative.",
+      "rationale": "The moral law is a truth of reason, meaning all rational creatures are bound by the same rules. Therefore, one must act rationally and only follow rules that could hold universally for everyone.",
+      "source_quote": "one should always respect the humanity in others, and that one should only act in accordance with rules that could hold for everyone.",
+      "source_id": "src_036"
+    },
+    {
+      "statement": "Mathematical truths are synthetic a priori knowledge.",
+      "rationale": "Mathematical propositions are necessary (hence a priori), but their truth cannot be derived merely by analyzing the concepts involved; they require an object to be given in sensibility.",
+      "source_quote": "The concept of twelve is by no means already thought merely by my thinking of that unification of seven and five, and no matter how long I analyze my concept of such a possible sum I will still not find twelve in it",
+      "source_id": "src_036"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Transcendental Argument",
+      "when_to_apply": "When attempting to prove that certain a priori conditions or concepts must necessarily apply to our experience of the world.",
+      "steps": [
+        "Begin with a premise accepted by everyone (e.g., we have a unified experience of objects).",
+        "Ask what conditions must have been met in order for this premise to be true.",
+        "Identify the underlying cognitive or structural requirements (e.g., the unity of apperception, the categories).",
+        "Conclude that these conditions must necessarily apply to all objects of experience to explain the initial premise."
+      ],
+      "source_quote": null,
+      "source_id": "src_036"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "The Copernican Shift",
+      "description": "An epistemological lens that reverses the assumed relationship between the mind and the world. Instead of assuming that our knowledge must conform to objects, we must assume that objects must conform to the conditions of our experience.",
+      "example": "Just as Copernicus realized the sky appears to move because the observer is moving, Kant realized that the basic structures of the world appear the way they do because of the structure of the perceiving mind.",
+      "source_id": "src_036"
+    },
+    {
+      "name": "Appearances vs. Things in Themselves",
+      "description": "A distinction used to separate the empirical world we experience (which is shaped by space, time, and our cognitive faculties) from the ultimate reality of objects independent of human perception, which remains fundamentally unknowable.",
+      "example": null,
+      "source_id": "src_036"
+    }
+  ],
+  "heuristics": [
+    "Act rationally, in accordance with a universal moral law.",
+    "Always respect the humanity in others."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Thoughts without content are empty, intuitions without concepts are blind",
+      "context": "Explaining why both sensibility and understanding are required for knowledge.",
+      "source_id": "src_036"
+    },
+    {
+      "text": "The concept of twelve is by no means already thought merely by my thinking of that unification of seven and five, and no matter how long I analyze my concept of such a possible sum I will still not find twelve in it",
+      "context": "Demonstrating that mathematical knowledge is synthetic a priori.",
+      "source_id": "src_036"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Engaging in transcendent metaphysics to answer questions about God, the soul, or the universe as a totality.",
+      "why_it_fails": "Reason naturally tries to unify knowledge by positing these 'ideas', but because they do not correspond to possible objects of experience, they lead to 'transcendental illusion' and unresolvable contradictions (antinomies).",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Using the ontological argument to prove the existence of God.",
+      "why_it_fails": "It mistakenly treats existence as a 'real predicate'. Asserting 'God necessarily exists' only means 'if God exists, then God exists', which is an empty tautology that cannot prove actual existence.",
+      "source_id": "src_036"
+    },
+    {
+      "description": "Rational psychology: attempting to prove the soul is a substance by analyzing the proposition 'I think'.",
+      "why_it_fails": "It mistakes the mere thought of the 'I' for a cognition of the 'I' as an object. To be cognized as a substance, something must be given in intuition, and there is no intuition of the 'I' itself.",
+      "source_id": "src_036"
+    }
+  ]
+}

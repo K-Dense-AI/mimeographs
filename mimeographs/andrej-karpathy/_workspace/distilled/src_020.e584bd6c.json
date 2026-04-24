@@ -1,0 +1,43 @@
+{
+  "source_id": "src_020",
+  "summary": "A brief collection of LinkedIn posts and activity from Andrej Karpathy, primarily focused on his hiring philosophy for the Tesla AI team and the core approach to autonomous driving.",
+  "themes": [
+    "Hiring",
+    "Software Engineering",
+    "Autonomous Driving",
+    "Deep Learning"
+  ],
+  "principles": [
+    {
+      "statement": "Strong software engineering is the primary requirement for Deep Learning Engineers.",
+      "rationale": "Deep learning knowledge can be taught on the job, but a solid foundation in software engineering is essential for building and deploying models effectively.",
+      "source_quote": "Strong software engineering is the primary requirement. Except for the scientist role, deep learning interest or knowledge is only a bonus (we will teach you).",
+      "source_id": "src_020"
+    },
+    {
+      "statement": "Autonomy at scale requires advanced AI for vision and planning.",
+      "rationale": "To deploy autonomous systems effectively in the real world, the core approach must be grounded in advanced AI that handles both vision and planning.",
+      "source_quote": "We believe that an approach based on advanced AI for vision and planning, supported by efficient use of…",
+      "source_id": "src_020"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [],
+  "heuristics": [
+    "Hire for strong software engineering first; teach deep learning on the job."
+  ],
+  "signature_quotes": [
+    {
+      "text": "Strong software engineering is the primary requirement. Except for the scientist role, deep learning interest or knowledge is only a bonus (we will teach you).",
+      "context": "Explaining the hiring criteria for Deep Learning Engineers at Tesla.",
+      "source_id": "src_020"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Requiring deep learning expertise for all deep learning engineering roles.",
+      "why_it_fails": "It filters out exceptionally strong software engineers who possess the necessary foundational skills to build systems and can easily be taught the deep learning specifics on the job.",
+      "source_id": "src_020"
+    }
+  ]
+}

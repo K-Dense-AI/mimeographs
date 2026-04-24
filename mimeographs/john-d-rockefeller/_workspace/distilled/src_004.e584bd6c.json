@@ -1,0 +1,84 @@
+{
+  "source_id": "src_004",
+  "summary": "A biographical essay detailing John D. Rockefeller's rise from a modest childhood to becoming the world's wealthiest industrialist through Standard Oil. It highlights his core belief that making money is a divine duty meant for philanthropic good, his ruthless but efficient business practices, and his lasting legacy in both industry and charity.",
+  "themes": [
+    "Philanthropy",
+    "Monopoly and Consolidation",
+    "Frugality and Efficiency",
+    "Divine Duty of Wealth",
+    "Business Strategy"
+  ],
+  "principles": [
+    {
+      "statement": "The power to make money is a gift from God, and it must be used for the good of mankind.",
+      "rationale": "He believed God gave him the unique ability to generate immense wealth so that he could distribute it philanthropically according to his conscience.",
+      "source_quote": "I believe the power to make money is a gift from God. I believe it is my duty to make money and still more money, and to use the money I make for the good of my fellow man according to the dictates of my conscience.",
+      "source_id": "src_004"
+    },
+    {
+      "statement": "Combination and cooperation in business are essential to reduce waste.",
+      "rationale": "Waste dissipates power, so consolidating industries into larger, cooperative entities (like trusts or monopolies) is a more efficient and powerful way to operate.",
+      "source_quote": "I believe in the spirit of combination and cooperation when properly and fairly conducted. It helps to reduce waste; and waste is a dissipation of power.",
+      "source_id": "src_004"
+    }
+  ],
+  "frameworks": [],
+  "mental_models": [
+    {
+      "name": "The Ark (Consolidation as Salvation)",
+      "description": "Viewing corporate consolidation not as predatory, but as saving smaller, inefficient competitors from ruin by bringing them into a larger, stable, and unified entity.",
+      "example": "He described Standard Oil buying up nearly every Cleveland refinery as an 'angel of mercy' telling them to 'Get into the ark.'",
+      "source_id": "src_004"
+    },
+    {
+      "name": "Missionaries of Light",
+      "description": "Framing a commercial enterprise and its products as a moral or civilizational good to elevate the company's purpose.",
+      "example": "He called Standard Oil 'missionaries of light' because their primary product for years was kerosene for lamps, bringing illumination to the world.",
+      "source_id": "src_004"
+    }
+  ],
+  "heuristics": [
+    "Respond to public attacks, muckrakers, and legal inquiries with silence or extreme vagueness.",
+    "Pinch pennies on operational costs, such as reducing the drops of solder on oil cans from forty to thirty-nine.",
+    "Prefer small dividends and big reinvestments to grow the business steadily."
+  ],
+  "signature_quotes": [
+    {
+      "text": "I believe the power to make money is a gift from God.",
+      "context": "Explaining his view on wealth and his justification for amassing his fortune.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "I believe it is my duty to make money and still more money, and to use the money I make for the good of my fellow man according to the dictates of my conscience.",
+      "context": "Describing his dual drive for immense wealth and massive charitable giving.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "The Standard was an angel of mercy, reaching down from the sky, and saying: 'Get into the ark.'",
+      "context": "Defending Standard Oil's aggressive acquisition of competing refineries in Cleveland.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "I believe in the spirit of combination and cooperation when properly and fairly conducted. It helps to reduce waste; and waste is a dissipation of power.",
+      "context": "Justifying the monopolistic practices and massive scale of Standard Oil.",
+      "source_id": "src_004"
+    },
+    {
+      "text": "I believe, your Honor, they operate an oil refinery.",
+      "context": "His famously vague and evasive response in court when questioned about Standard Oil's operations.",
+      "source_id": "src_004"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Engaging in stock speculations and market manipulations.",
+      "why_it_fails": "Unlike other 'robber barons' who played the market, Rockefeller preferred building long-term, compounding value through small dividends and massive reinvestments into the actual business.",
+      "source_id": "src_004"
+    },
+    {
+      "description": "Tolerating operational waste.",
+      "why_it_fails": "He believed that 'waste is a dissipation of power,' which drove his obsession with extreme efficiency, down to the exact number of solder drops used to seal oil cans.",
+      "source_id": "src_004"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "source_id": "src_003",
+  "summary": "Yann LeCun's personal homepage outlines his academic and professional background, research interests, and public stances. It highlights his focus on self-supervised learning and predictive world models as the path to autonomous machine intelligence, his strong advocacy for open-source AI foundation models, and his critiques of large language models (LLMs) as a path to AGI. He also shares opinions on reforming scientific publishing and research funding.",
+  "themes": [
+    "Autonomous Machine Intelligence",
+    "Self-Supervised Learning",
+    "World Models",
+    "Open Source AI",
+    "Scientific Publishing Reform",
+    "AI Regulation and Progress"
+  ],
+  "principles": [
+    {
+      "statement": "Foundation models should be free and open source, developed through international cooperation.",
+      "rationale": "This ensures the creation of 'universal' foundation models that speak all languages and understand all cultures and value systems.",
+      "source_quote": "I argued for free/open source foundation models and for international cooperation to train \"universal\" foundation models that speak all the languages in the world and understand all cultures and value systems.",
+      "source_id": "src_003"
+    },
+    {
+      "statement": "Research funding is most effective when given to small groups of talented researchers.",
+      "rationale": "Large, top-down managed projects are less effective at driving innovation than empowering small, talented teams.",
+      "source_quote": "funding from the newly-formed European AI Research Council should go to small groups of talented researchers and not be administered as a large project managed from the top down.",
+      "source_id": "src_003"
+    },
+    {
+      "statement": "The current computer science publishing model stifles innovation.",
+      "rationale": "The emphasis on highly selective conference publications and double-blind reviewing slows the rate of scientific and technological progress.",
+      "source_quote": "Many computer Science researchers are complaining that our emphasis on highly selective conference publications, and our double-blind reviewing system stifles innovation and slow the rate of progress of Science and technology.",
+      "source_id": "src_003"
+    },
+    {
+      "statement": "Slowing down AI research is a dangerous and regressive idea.",
+      "rationale": "Halting or pausing AI research hinders progress and the beneficial applications of the technology.",
+      "source_quote": "The very idea of wanting to slow down AI research is akin to a new form of obscurantism",
+      "source_id": "src_003"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Autonomous Machine Intelligence Architecture",
+      "when_to_apply": "When constructing autonomous intelligent agents that can learn, reason, and plan as efficiently as humans and animals.",
+      "steps": [
+        "Implement a configurable predictive world model.",
+        "Drive behavior through intrinsic motivation.",
+        "Utilize hierarchical joint embedding architectures.",
+        "Train the system using self-supervised learning."
+      ],
+      "source_quote": "It combines concepts such as configurable predictive world model, behavior driven through intrinsic motivation, and hierarchical joint embedding architectures trained with self-supervised learning.",
+      "source_id": "src_003"
+    },
+    {
+      "name": "Open Publishing Model",
+      "when_to_apply": "When designing a system for scientific publishing to accelerate innovation.",
+      "steps": [
+        "Establish an open repository for papers.",
+        "Implement open (but anonymous) reviews.",
+        "Create a 'market' between papers and reviewing entities."
+      ],
+      "source_quote": "This pamphlet proposes a new publishing model based on an open repository and open (but anonymous) reviews which creates a \"market\" between papers and reviewing entities.",
+      "source_id": "src_003"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "AI Failure Modes as Human Failure Modes",
+      "description": "Using concepts and failure modes from artificial intelligence research to understand and explain the failure modes of human behavior, such as acting deluded, stupid, ineffective, or evil.",
+      "example": "Applying AI failure concepts to explain international trade policy decisions.",
+      "source_id": "src_003"
+    }
+  ],
+  "heuristics": [
+    "Open-source will win.",
+    "Human Intelligence is not General Intelligence.",
+    "Don't focus on LLMs to build next-gen AI."
+  ],
+  "signature_quotes": [
+    {
+      "text": "X has devolved into an antagonistic propaganda tool.",
+      "context": "Explaining why he no longer writes substantial content on the platform formerly known as Twitter.",
+      "source_id": "src_003"
+    },
+    {
+      "text": "As the US seems set on self-sabotaging its extraordinarily successful system of public research funding, countries in Europe and elsewhere may want to seize the opportunity to reboot their own research ecosystem and jumpstart their technology industry.",
+      "context": "From his pamphlet 'How to Build a Vibrant Technology Industry'.",
+      "source_id": "src_003"
+    },
+    {
+      "text": "The very idea of wanting to slow down AI research is akin to a new form of obscurantism",
+      "context": "His response to calls for a 6-month pause on AI development.",
+      "source_id": "src_003"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "description": "Relying on Large Language Models (LLMs) to achieve Artificial General Intelligence (AGI).",
+      "why_it_fails": "LLMs lack the necessary predictive world models and reasoning capabilities to reach human-level intelligence.",
+      "source_id": "src_003"
+    },
+    {
+      "description": "Administering research funding as large projects managed from the top down.",
+      "why_it_fails": "It is less effective than distributing funding to small groups of talented researchers.",
+      "source_id": "src_003"
+    },
+    {
+      "description": "Highly selective conference publications with double-blind reviewing.",
+      "why_it_fails": "It stifles innovation and slows the rate of progress of science and technology.",
+      "source_id": "src_003"
+    },
+    {
+      "description": "Pausing or slowing down AI research.",
+      "why_it_fails": "It acts as a new form of obscurantism that prevents the beneficial applications of AI from being realized.",
+      "source_id": "src_003"
+    }
+  ]
+}
