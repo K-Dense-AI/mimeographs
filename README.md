@@ -4,6 +4,8 @@
 
 A collection of **80 ready-to-use "expert" skills** — `SKILL.md` + `AGENTS.md` files that clone the thinking of a specific person (a founder, a scientist, a philosopher, an AI researcher) into your coding agent. Drop one into your project and the agent starts reasoning the way that person does: the frameworks they reach for, the trade-offs they weigh, the anti-patterns they push back on.
 
+Install the Buffett skill and ask _"should we acquire this SaaS company at 14× ARR?"_ — your agent stops hand-waving and starts asking about owner earnings, the moat, and its circle of competence, then tells you what it would walk away from. Install Jobs and the same agent will fight your feature creep. Install Karpathy and it'll actually want to see the loss curve.
+
 Each folder under `mimeographs/` is one person. Pick the ones relevant to what you're building and install them.
 
 > Every mimeograph in this repo was generated with [K-Dense-AI/mimeo](https://github.com/K-Dense-AI/mimeo). Mimeo reads the internet on your behalf — talks, essays, interviews, papers, letters — distills each source with a frontier model, clusters recurring ideas across dozens of sources, and emits the `SKILL.md` + `AGENTS.md` you see here. If you want to add a new expert, run mimeo yourself and open a PR.
@@ -11,6 +13,10 @@ Each folder under `mimeographs/` is one person. Pick the ones relevant to what y
 ---
 
 ## Who's in here
+
+<!-- CATALOG:COUNTS START -->
+**80 experts** — 20 Founders & operators · 20 Philosophers · 20 AI & ML researchers · 20 Scientists & researchers.
+<!-- CATALOG:COUNTS END -->
 
 **Founders & operators** — Steve Jobs, Elon Musk, Bill Gates, Mark Zuckerberg, Warren Buffett, Andrew Carnegie, John D. Rockefeller, Henry Ford, Thomas Edison, Walt Disney, Oprah Winfrey, Sara Blakely, Whitney Wolfe Herd, Anne Wojcicki, Judy Faulkner, Kiran Mazumdar-Shaw, Diane Hendricks, Marian Ilitch, Lynda Resnick, Thai Lee.
 
@@ -20,7 +26,7 @@ Each folder under `mimeographs/` is one person. Pick the ones relevant to what y
 
 **Scientists & researchers** — Aviv Regev, Eric S. Lander, Robert Langer, Shizuo Akira, Stacey Gabriel, Virginia M.-Y. Lee, Zhenan Bao, Zhong Lin Wang, and a cohort of leading epidemiologists (Walter C. Willett, Frank B. Hu, Graham A. Colditz, JoAnn E. Manson, Julie E. Buring, Kay-Tee Khaw, Meir J. Stampfer, Ronald C. Kessler, Tamara B. Harris, Terrie E. Moffitt, Dorret I. Boomsma, Albert Hofman).
 
-Run `ls mimeographs/` for the full list.
+**[See the full catalog →](INDEX.md)** — every expert with the trigger conditions that fire it and a copy-paste install command. Search by what you're working on with Ctrl/Cmd-F ("cohort study", "capital allocation", "transformer"), or load [`catalog.json`](catalog.json) if you're matching experts to tasks programmatically.
 
 ---
 
@@ -69,7 +75,7 @@ npx skills add K-Dense-AI/mimeographs/steve-jobs
 # Install several at once
 npx skills add K-Dense-AI/mimeographs/steve-jobs K-Dense-AI/mimeographs/warren-buffett
 
-# Install the whole collection (60 experts)
+# Install the whole collection (all 80 experts)
 npx skills add K-Dense-AI/mimeographs
 ```
 
@@ -191,7 +197,15 @@ Use [mimeo](https://github.com/K-Dense-AI/mimeo):
 uv run mimeo "Ada Lovelace" --format both --output-dir ./mimeographs
 ```
 
-Then open a PR adding the new folder under `mimeographs/`.
+Then rebuild the catalog and open a PR adding the new folder under `mimeographs/`:
+
+```bash
+# Assign the new expert to a category in scripts/build_catalog.py,
+# then regenerate INDEX.md, catalog.json, and the README counts:
+python scripts/build_catalog.py
+```
+
+CI runs `python scripts/build_catalog.py --check` on every PR, so a new expert that hasn't been added to a category — or a catalog that wasn't rebuilt — fails the build until it's in sync.
 
 ---
 

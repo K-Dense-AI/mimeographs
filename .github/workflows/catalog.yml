@@ -1,0 +1,36 @@
+name: Catalog
+
+# Fail a PR if INDEX.md / catalog.json / the README counts block are out of
+# sync with the mimeographs/ folders — e.g. an expert was added without
+# rebuilding the catalog, or a new expert isn't assigned to a category.
+# Regenerate locally with: python scripts/build_catalog.py
+
+on:
+  pull_request:
+    paths:
+      - "mimeographs/**"
+      - "scripts/build_catalog.py"
+      - "INDEX.md"
+      - "catalog.json"
+      - "README.md"
+      - ".github/workflows/catalog.yml"
+  push:
+    branches: [main]
+    paths:
+      - "mimeographs/**"
+      - "scripts/build_catalog.py"
+      - "INDEX.md"
+      - "catalog.json"
+      - "README.md"
+      - ".github/workflows/catalog.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Verify the catalog is up to date
+        run: python scripts/build_catalog.py --check
