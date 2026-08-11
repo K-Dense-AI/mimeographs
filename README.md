@@ -213,15 +213,3 @@ CI runs `python scripts/build_catalog.py --check` on every PR, so a new expert t
 
 MIT. Each mimeograph is distilled from publicly available writing, lectures, and interviews; quotes retain their original attribution in `references/sources.md`.
 
----
-
-## Star History
-
-<a href="https://www.star-history.com/?repos=K-Dense-AI%2Fmimeographs">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=K-Dense-AI/mimeographs&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=K-Dense-AI/mimeographs&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=K-Dense-AI/mimeographs&type=date&legend=top-left" />
- </picture>
-</a>
-
