@@ -10,6 +10,8 @@ Each folder under `mimeographs/` is one person. Pick the ones relevant to what y
 
 > Every mimeograph in this repo was generated with [K-Dense-AI/mimeo](https://github.com/K-Dense-AI/mimeo). Mimeo reads the internet on your behalf — talks, essays, interviews, papers, letters — distills each source with a frontier model, clusters recurring ideas across dozens of sources, and emits the `SKILL.md` + `AGENTS.md` you see here. If you want to add a new expert, run mimeo yourself and open a PR.
 
+> 🎬 **New to agent skills?** [Skills 101: Build Your Own Scientific Agent Skill](https://youtu.be/lVZbHiwzMEg) walks through the `SKILL.md` anatomy used by every mimeograph here.
+
 ---
 
 ## Who's in here
